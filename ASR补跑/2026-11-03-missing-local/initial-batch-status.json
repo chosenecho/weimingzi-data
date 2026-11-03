@@ -1,0 +1,87 @@
+{
+  "schema": "missing-local-asr-batch-v1",
+  "started_at": "2026-11-03T14:31:13.564292+00:00",
+  "model": "qwen-audio-3.1-asr-flash",
+  "selected_videos": 8,
+  "accessible_videos": 5,
+  "parts": 6,
+  "workers": 10,
+  "results": [
+    {
+      "bvid": "BV1wj411m7GK",
+      "page": 1,
+      "cid": 1253285753,
+      "state": "succeeded",
+      "chunks": 1,
+      "segments": 36,
+      "duration_seconds": 142.207167,
+      "requires_review": false
+    },
+    {
+      "bvid": "BV15mu46tEyf",
+      "page": 1,
+      "cid": 40676166955,
+      "state": "succeeded",
+      "chunks": 1,
+      "segments": 50,
+      "duration_seconds": 231.665488,
+      "requires_review": false
+    },
+    {
+      "bvid": "BV14Qbk6zEis",
+      "page": 1,
+      "cid": 40933393375,
+      "state": "succeeded",
+      "chunks": 5,
+      "segments": 234,
+      "duration_seconds": 1032.773188,
+      "requires_review": false
+    },
+    {
+      "bvid": "BV1macKzUEmV",
+      "page": 1,
+      "cid": 35941254018,
+      "state": "succeeded",
+      "chunks": 7,
+      "segments": 234,
+      "duration_seconds": 1468.8835,
+      "requires_review": false
+    },
+    {
+      "bvid": "BV1F7t16iEW6",
+      "page": 1,
+      "cid": 41598649477,
+      "state": "failed",
+      "error": "Arrearage"
+    },
+    {
+      "bvid": "BV1F7t16iEW6",
+      "page": 2,
+      "cid": 41598649476,
+      "state": "failed",
+      "error": "Arrearage"
+    }
+  ],
+  "unavailable": [
+    {
+      "bvid": "BV1i9bezLEHK",
+      "stage": "view",
+      "code": 62012,
+      "message": "62012"
+    },
+    {
+      "bvid": "BV1mk8W6dEyx",
+      "stage": "view",
+      "code": 62002,
+      "message": "稿件不可见"
+    },
+    {
+      "bvid": "BV1nioMY6Et8",
+      "stage": "view",
+      "code": 62012,
+      "message": "62012"
+    }
+  ],
+  "updated_at": "2026-11-03T14:37:44.882125+00:00",
+  "finished_at": "2026-11-03T14:37:44.888182+00:00"
+}

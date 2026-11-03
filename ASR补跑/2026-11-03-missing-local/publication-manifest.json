@@ -1,0 +1,870 @@
+{
+  "schema": "weimingzi-asr-publication-v1",
+  "generated_at": "2026-11-03T15:03:45.136818+00:00",
+  "base_commit": "7ba8469b366167eb551117bb1c23b2d41096030e",
+  "model": "qwen-audio-3.1-asr-flash",
+  "completed_videos": 5,
+  "completed_parts": 6,
+  "unavailable_videos": 3,
+  "protected_files_unchanged": {
+    "TRAINING.md": "97fddd66db2d4f3b2df3c461b61655e2c19ad525eb0e8c3773fb6e84928a4ac4",
+    "training-source.json": "e6b54525e78b521eeddfc08f37112c3945942eafe8b93be135c24a7b9470b5a7",
+    "文件清单.json": "bd0267ff23da5466cc1fc538587bff8e90f6dc5c754f19ae4dc096ceaf9e319c",
+    "文件清单.csv": "5e98024d9d4e8915b67a96bb89a330c6a71502e8ce2f0398830dd72138a88b9b",
+    "完成标记.json": "6b3445c132d009fc945441a0f941b2859839fcadbc087392e286e05bc5eeaceb",
+    "整理报告.json": "eb2ffd506407705fef67530f4cb391369ee5639725af8a1ba60179145b47c4bc",
+    "media-manifest.json": "e1c8eb67699555a2ffef9323a756400764f0d110113355245925fb53bfa78f6e",
+    "补充音频/本地音频库.sqlite3": "560871f37839d23809cfdd86680267c4a0021e8273884573243f4df286998f38",
+    "训练校正/2026-11-03-r1/corrected_passages.jsonl": "9dec05771cf6f40a8a33a6f15ba49487ac967221a73bdf4854bfa495bf3e6b34",
+    "训练校正/2026-11-03-r1/decisions.jsonl": "104bd83c64d4c969e8a4b34312b7d827af5a12a7c574703325b1bd602a3be4e2",
+    "训练校正/2026-11-03-r1/manifest.json": "f3b120e2c78f058a6c3add543cce2a990602918b8d3701905ab81412bb5248d1",
+    "训练校正/2026-11-03-r1/BV1mr4y1w7B1-P1/ai-draft.md": "6890342d28b5a490419e92393bc01d7cd4eebc40136e075c94e18c163d5cb623",
+    "训练校正/2026-11-03-r1/BV1mr4y1w7B1-P1/review.md": "c7cb8cd7a2c642d938578f2bdaa4f6810046430466b1b88051e3e5d55e4504c4",
+    "训练校正/2026-11-03-r1/BV1rh411c7rV-P1/ai-draft.md": "81f6361eb1985ff9c51afa8d5451c7031fd20809748f8b20c67b7c438cef8980",
+    "训练校正/2026-11-03-r1/BV1rh411c7rV-P1/review.md": "dfc63c0d71e6aa6b81b4ada8c0a2dbb7fcb8d89a0325fa1fb483440e2527c304",
+    "训练校正/2026-11-03-r1/BV1xe411T7Fb-P1/ai-draft.md": "937e5c7a006e487c3788ad28262409e85eac4d9f5d7d1907a3d8e60203803a67",
+    "训练校正/2026-11-03-r1/BV1xe411T7Fb-P1/review.md": "e083610fa90bddcadc1c54a0a4347497d0815fad4ed543189ff280659cdf9343",
+    "训练校正/2026-11-03-r1/BV1Yf4y177kM-P1/ai-draft.md": "fedbba8d955ccca3226403b640e2902bf9356f06ea43cb3c16669fdb6259f82b",
+    "训练校正/2026-11-03-r1/BV1Yf4y177kM-P1/review.md": "3a1f745b43d64c2dff5f42b8ac5d4c44f0ae64113dcd92acd6fb9217c29c4fd3"
+  },
+  "self_excluded": [
+    "ASR补跑/2026-11-03-missing-local/publication-manifest.json"
+  ],
+  "files": [
+    {
+      "path": "ASR补跑/2026-11-03-missing-local/README.md",
+      "bytes": 4071,
+      "sha256": "4d87afce4253835252272109bb4aab07b41764f10d3fab289a28944d05b0ecc0"
+    },
+    {
+      "path": "ASR补跑/2026-11-03-missing-local/batch-status.json",
+      "bytes": 2331,
+      "sha256": "14dbff4c63dfad01bb12b1e346d35d43f68807b49d88cda8b3b887d6bd8f733e"
+    },
+    {
+      "path": "ASR补跑/2026-11-03-missing-local/initial-batch-status.json",
+      "bytes": 1968,
+      "sha256": "0ad0a48ccede018172f4cac19cf8f13b113a157bafce36d97788f1bd80e9be50"
+    },
+    {
+      "path": "ASR补跑/2026-11-03-missing-local/media-manifest.json",
+      "bytes": 1934,
+      "sha256": "82ad4116e2aed94e90d85a8bff69fbd8b0c6f928861b1c756584a17ccb968cfc"
+    },
+    {
+      "path": "ASR补跑/2026-11-03-missing-local/不可获取.csv",
+      "bytes": 692,
+      "sha256": "438cdedfd8e98f4f94b14d993801c62bb50ebab93a44fd3b01c8e4a18db400fa"
+    },
+    {
+      "path": "ASR补跑/2026-11-03-missing-local/云转录库.sqlite3",
+      "bytes": 1044480,
+      "sha256": "b0f3a3082a904b196b2173c7414576b51f438c55ab8444032d445ba19516d0c2"
+    },
+    {
+      "path": "ASR补跑/2026-11-03-missing-local/分P目录.csv",
+      "bytes": 1939,
+      "sha256": "52fabd54e0b5284316292d940c920a7e6416892799e93c826ff31596b59160d4"
+    },
+    {
+      "path": "ASR补跑/2026-11-03-missing-local/分P目录.json",
+      "bytes": 6696,
+      "sha256": "5f6fab1f85c34da45bdf006ea32a3408a8566cccceae1172819b651759b19530"
+    },
+    {
+      "path": "ASR补跑/2026-11-03-missing-local/处理报告.json",
+      "bytes": 8988,
+      "sha256": "6c281c380c9f8c58f03d42c0290110ed2365c61fbf1c6850be5cbf582bd17c8a"
+    },
+    {
+      "path": "ASR补跑/2026-11-03-missing-local/播放接口核验.json",
+      "bytes": 7056,
+      "sha256": "ce5b9bbf00c9d3aeb4937c048d6c0e1e6026dd5dcb75419ad201a9221ccda28f"
+    },
+    {
+      "path": "ASR补跑/2026-11-03-missing-local/输入清单.csv",
+      "bytes": 1225,
+      "sha256": "6e43443c1c058a17626c56fa42108e9f14b55d4aff9daae633b8e94fba9ffbc8"
+    },
+    {
+      "path": "PUBLICATION.md",
+      "bytes": 2657,
+      "sha256": "f4bc3e19e99045e7cc06969c4a9579fda77ddb02d595b03eaad9d4ecaf2b2b69"
+    },
+    {
+      "path": "README.md",
+      "bytes": 270373,
+      "sha256": "4b23ce94161d843f138d4ea86c721baecd11cee08d0223d530d0ab48683305c6"
+    },
+    {
+      "path": "fetch_media.py",
+      "bytes": 3682,
+      "sha256": "41bc58b952d98a789ade662b0b2b8138ef876c7b8b8033bdc516492bccc1d896"
+    },
+    {
+      "path": "产物目录.csv",
+      "bytes": 622923,
+      "sha256": "4c1acb9cbbccb4a3f2bd3e1b574f13578ed562782d5cf30b3a3270dc904d046b"
+    },
+    {
+      "path": "无本地产物.csv",
+      "bytes": 571,
+      "sha256": "b5bb34bffb566a05916ec9aed3c5f2499eff2b8d13ed56274b1dfabc17f8795c"
+    },
+    {
+      "path": "视频/BV14Qbk6zEis/P001/ASR状态.json",
+      "bytes": 1235,
+      "sha256": "fda44a7d5eeaf26b009c7a43ca655a2bc90d65ed29aebb3e89c742beed35a820"
+    },
+    {
+      "path": "视频/BV14Qbk6zEis/P001/README.md",
+      "bytes": 810,
+      "sha256": "4c4b117d08f9e6b72330f848fc82a9d18b31e21a4d378e4692ea3fe34d3abf2c"
+    },
+    {
+      "path": "视频/BV14Qbk6zEis/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/.transcript.export.lock",
+      "bytes": 24,
+      "sha256": "ceb690c55d243efd130da7b67b3a81f8c49c1410dfe8c728b95153b57b574971"
+    },
+    {
+      "path": "视频/BV14Qbk6zEis/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0000.json",
+      "bytes": 626486,
+      "sha256": "1e70687e0a21881d4f941a12775e5a35be916d556452f83d0e4866f9f65b28d3"
+    },
+    {
+      "path": "视频/BV14Qbk6zEis/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0001.json",
+      "bytes": 572362,
+      "sha256": "58bfcc53f568c1421edf1af85e0fd497567765576b0e4dd2d7b4799141c52283"
+    },
+    {
+      "path": "视频/BV14Qbk6zEis/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0002.json",
+      "bytes": 602572,
+      "sha256": "59ac939d47461547d69140321df490f626a1f5268bf33dca5fc26676f6d38ece"
+    },
+    {
+      "path": "视频/BV14Qbk6zEis/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0003.json",
+      "bytes": 495226,
+      "sha256": "5ee5d30bb623c5989c2a04d7d2b4a9a12c1cfd4f72d50ee50d00781fe5e4f01b"
+    },
+    {
+      "path": "视频/BV14Qbk6zEis/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0004.json",
+      "bytes": 154752,
+      "sha256": "98ce42d6c937c4d16c0e9a64ef858f1583ca590a3ce832bb74cd2b2224f87bb0"
+    },
+    {
+      "path": "视频/BV14Qbk6zEis/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/complete.json",
+      "bytes": 225,
+      "sha256": "7938c0107bade1be1224dcc0f615f5bdc75ddbecdbeab83685591519b7f68d64"
+    },
+    {
+      "path": "视频/BV14Qbk6zEis/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/request-config.json",
+      "bytes": 237,
+      "sha256": "f27954750ba6f756908e9937afa6c9fb113242a56b62f1072a6fa974aac7dd8d"
+    },
+    {
+      "path": "视频/BV14Qbk6zEis/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/source.json",
+      "bytes": 1449,
+      "sha256": "0b7e43aa5a25067c4ca032420dee02a6854ddbb76f73544c55c7fb48f033aafa"
+    },
+    {
+      "path": "视频/BV14Qbk6zEis/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.json",
+      "bytes": 56070,
+      "sha256": "3ffe6de16cb95fdbc730ef33b921017f56c7f67e0df287df8ca8c07bdd0f3062"
+    },
+    {
+      "path": "视频/BV14Qbk6zEis/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.srt",
+      "bytes": 20445,
+      "sha256": "b81243f6c87cff3e53fbb10ad527282aa88808dd3c9d16108d2f95538423d43a"
+    },
+    {
+      "path": "视频/BV14Qbk6zEis/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.txt",
+      "bytes": 11205,
+      "sha256": "b42a5af5a009fe1fcf769e9c749e6298bcaebfbd1113db4831ee3f487b8622ef"
+    },
+    {
+      "path": "视频/BV14Qbk6zEis/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.vtt",
+      "bytes": 20457,
+      "sha256": "0507d2e477ce9789f7e44ec2a7463be0bdda74c043652a46dfad06bd3a5bd5ef"
+    },
+    {
+      "path": "视频/BV14Qbk6zEis/P001/音频/bilibili.m4a.download.md",
+      "bytes": 471,
+      "sha256": "286c15ea0194e061b1c21024c52cf44bb60f85e51bbd326cd6ca052075eda37f"
+    },
+    {
+      "path": "视频/BV14Qbk6zEis/README.md",
+      "bytes": 880,
+      "sha256": "2a505940ceadc1629fee21b94de8aa2a4a75bbb8a7641c7a4ac5eb26646518d3"
+    },
+    {
+      "path": "视频/BV15mu46tEyf/P001/ASR状态.json",
+      "bytes": 1117,
+      "sha256": "93105cccf63eca219a1a0ad622c97b623e53d29b80728626871eecb4f847c515"
+    },
+    {
+      "path": "视频/BV15mu46tEyf/P001/README.md",
+      "bytes": 734,
+      "sha256": "944f94c9428863883c104e4ae2de3d25f47cb0da78f5ae3615027a0b6656ef3d"
+    },
+    {
+      "path": "视频/BV15mu46tEyf/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/.transcript.export.lock",
+      "bytes": 24,
+      "sha256": "ceb690c55d243efd130da7b67b3a81f8c49c1410dfe8c728b95153b57b574971"
+    },
+    {
+      "path": "视频/BV15mu46tEyf/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0000.json",
+      "bytes": 598739,
+      "sha256": "1810275bcd61b437ff2a71f3ee12db2cc7d21ce0e0df2b464639392c44c71427"
+    },
+    {
+      "path": "视频/BV15mu46tEyf/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/complete.json",
+      "bytes": 224,
+      "sha256": "3b30d225929422e2b0908fce4b7ea7bc97146d7b3bf3272cda0f5bb339c28d8b"
+    },
+    {
+      "path": "视频/BV15mu46tEyf/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/request-config.json",
+      "bytes": 237,
+      "sha256": "5d848f3bf6bff6ba2c72bdec96639a76a23eeeb344962480086bbc36c645fad1"
+    },
+    {
+      "path": "视频/BV15mu46tEyf/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/source.json",
+      "bytes": 1332,
+      "sha256": "7b462e055c76c282719f2fced9531fd6401da97a323d86fd21f386f982894fa1"
+    },
+    {
+      "path": "视频/BV15mu46tEyf/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.json",
+      "bytes": 12894,
+      "sha256": "0926424a8232692bc5b671340d11a7b737608fe42f4ebd9371c71102e08eec38"
+    },
+    {
+      "path": "视频/BV15mu46tEyf/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.srt",
+      "bytes": 4683,
+      "sha256": "86a5afba64db6c8ec05f396be95ffc47bf1148ca78bd541ec3a1aa9b7bb0a883"
+    },
+    {
+      "path": "视频/BV15mu46tEyf/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.txt",
+      "bytes": 2746,
+      "sha256": "8da46470b069a9d3255a7f7d98c001a6c520d088a06cdf2a66d17b2e386d8e68"
+    },
+    {
+      "path": "视频/BV15mu46tEyf/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.vtt",
+      "bytes": 4695,
+      "sha256": "a9fb9227a844f083328e6f41e52a82f122048ca66c6a8203eaaf655a1f818192"
+    },
+    {
+      "path": "视频/BV15mu46tEyf/P001/音频/bilibili.m4a.download.md",
+      "bytes": 471,
+      "sha256": "ed97d6276633855978da3837ae67c03a099bd38a25a23d1dc0b0340890134108"
+    },
+    {
+      "path": "视频/BV15mu46tEyf/README.md",
+      "bytes": 841,
+      "sha256": "5833d63f4472b6c32466b2e11ab42c8fce2f70ee2976bfbb74ce62ba556749fd"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/ASR状态.json",
+      "bytes": 1475,
+      "sha256": "b5dba37ad85e9bed1d91116e4ef15876b056c85f26d85ca980188129a79261c9"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/README.md",
+      "bytes": 901,
+      "sha256": "9b5c315a5c80771b6bd529c56793219d028d49d95671d4bd1f96dd00e683f8a0"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/.transcript.export.lock",
+      "bytes": 24,
+      "sha256": "ceb690c55d243efd130da7b67b3a81f8c49c1410dfe8c728b95153b57b574971"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0000.json",
+      "bytes": 206994,
+      "sha256": "069b330af2c4dbee43982e46430c85b23c8e4323840ccdd8167c32111f7b7e6b"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0001.json",
+      "bytes": 193148,
+      "sha256": "fe3c7d32bd4ca22c64348baa462fba37202791a4338689b3044afde2220d8465"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0002.json",
+      "bytes": 347892,
+      "sha256": "84c2d5032859a530b694ece7d1120bcbc25ae845c5b7d6abfa468afecfeee15d"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0003.json",
+      "bytes": 262138,
+      "sha256": "98d35078972b4c80b5cbd8f3186273c10f83d354e48e30bf2beeec178b2562ee"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0004.json",
+      "bytes": 244372,
+      "sha256": "1ef69d9f03ffd0c02f801057dab50f3e3d6ebdca2f10709338d9afe5dd9a8fb4"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0005.json",
+      "bytes": 353613,
+      "sha256": "d7f9234aa044c63228d70571fa49471e454b8815c9f1f299cfc5b4ce3d357be5"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0006.json",
+      "bytes": 416691,
+      "sha256": "aed07b6667a00c9a9dadc6bd85f69b0b1eac8afffdeb891ee2e47b667e78f288"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0007.json",
+      "bytes": 295719,
+      "sha256": "2d9d56d5d811ecc529dea93fbac43501194dda4a1b03994ab5a7636988c31ce2"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0008.json",
+      "bytes": 411439,
+      "sha256": "d35525b8cd6f3d9398180be9761fda2b452809c7d58d14512f5403b7ef66775f"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0009.json",
+      "bytes": 555103,
+      "sha256": "73f78c71d92044963a771d687040c955ab53e273917114b8ea54e3a2fd663a1a"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0010.json",
+      "bytes": 534005,
+      "sha256": "480a82edb0583cf7ac4c84c5d3e3957ca0b59a528a561edf16b651f567608e5f"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0011.json",
+      "bytes": 437847,
+      "sha256": "acb315ef9ae1c6b93b1b468625e85b6a49191dba936921f4addb586fc1411a83"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0012.json",
+      "bytes": 485821,
+      "sha256": "1a6aee6effda5b4350b51a2cadadb8d5b22d3c8fe08a01f92d2b6b044ec3d6d6"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0013.json",
+      "bytes": 535113,
+      "sha256": "70f8aaae1584c48312431cebbd42ea071a997acc2634b83922773a8c2bb6fc7f"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0014.json",
+      "bytes": 513661,
+      "sha256": "ed91607e548bc97dbbbbc53330db72f4cc3ffcf68c6cdcc8d5e79d76a4f5af1d"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0015.json",
+      "bytes": 433567,
+      "sha256": "6f0a85318291d54f546dba2ec286a5db1f5a9c7acf59aeaa5b10aede8188de21"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0016.json",
+      "bytes": 334803,
+      "sha256": "07ce27ad19dd4b377bccb50514a3690f8c1b9b5103b982b52a15e8e3dbff4cc1"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0017.json",
+      "bytes": 557993,
+      "sha256": "2fbe7c8a90b136b8728e86c1b15796eb8423dad55c90dfc1aa6e71c2c0d63d7a"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0018.json",
+      "bytes": 662045,
+      "sha256": "53980c99f479ecd3cf6b18cada7638d1d1534108d3b95abf9e667b2211cbf890"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0019.json",
+      "bytes": 808047,
+      "sha256": "ba320b823fd8691321a94ca4b5780bfb7046e2d642ff009d6163ba5b2e276fdc"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0020.json",
+      "bytes": 719173,
+      "sha256": "3440d0f1f53255165b57fcf638584c3d7a0c1edeba193803986b251037a9d534"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0021.json",
+      "bytes": 835127,
+      "sha256": "17b6214e9d438da84a2fe84e995c7df92f887fb28ff49e1b93d756c1c8e71783"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0022.json",
+      "bytes": 801319,
+      "sha256": "6de2c9ba9e5f537309fe736621dcc9087d90ac0a7b48a8f178d200250c85c3f4"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0023.json",
+      "bytes": 680739,
+      "sha256": "272c964ecf632002c9787de6515ecc140a38d5e46965c6c5be96ad225c1bfe1d"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0024.json",
+      "bytes": 595707,
+      "sha256": "1272b2c7911da8adcac52ee760d665d785b4de516059bd29359b5c36a1302997"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0025.json",
+      "bytes": 503221,
+      "sha256": "16de3a39f9841555390f083bb9c5b9bf51c6269b13763682ba821a838f16f10e"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0026.json",
+      "bytes": 554105,
+      "sha256": "3fc45c892be9def6b378cd6b0b756521ad1c7a3e44d606487df9738a0526a95a"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0027.json",
+      "bytes": 640059,
+      "sha256": "3e345dfaa254db3f2832163f46f27bf479d9aae364b507bcb3a934ecae5ffa56"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0028.json",
+      "bytes": 652435,
+      "sha256": "cb3af1dc0bc784d9891f9c4df5a7edf4ce5be770e20951565dc5ce8c070105ab"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0029.json",
+      "bytes": 525595,
+      "sha256": "de62ad9536139f7cec9cd7aa3c1a67c5edfb782a9bb59940b666f3a7181e6651"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0030.attempt-1793717524001912700.json",
+      "bytes": 355,
+      "sha256": "8dd7a7deeec9c5a195088549e754cbc95133307e804d6feb6c1d667d9f934f61"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0030.json",
+      "bytes": 30668,
+      "sha256": "e1d45868ec17f1c642e4f9cdfb64460a8277b311e4742327e2864e6131efe654"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/complete.json",
+      "bytes": 226,
+      "sha256": "c56d808289c4e9bd14cfa4104d14b0dda594bbd214ede293e44b249f1c249342"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/request-config.json",
+      "bytes": 237,
+      "sha256": "92857c8dbf213893e510956cc73d04eb8499f4a2a3e451458114d28c0272e940"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/source.json",
+      "bytes": 1314,
+      "sha256": "8be25ef0b436d4c69ea1b80ec0f5abc367facd1210ba75c3cc69e21034e26c13"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.json",
+      "bytes": 331434,
+      "sha256": "00d61c68df2ff5ff3129c2b6af94f9de41cce0be90e30aad0dcb503d6852a027"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.txt",
+      "bytes": 76280,
+      "sha256": "c41a4a99b738a66f964941cebca994314f43b73f8d8849e85b7c76f266c29376"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/历史不完整导出/transcript.partial.json",
+      "bytes": 330991,
+      "sha256": "13f8ff75cac8a7bd9637eb059181dd85107ac2949e3226469815a5722b9f27b4"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/历史不完整导出/transcript.partial.txt",
+      "bytes": 76098,
+      "sha256": "ed98b8701a89ba4d08f78541c651993bf59efa62904e9bd4c00dea6117670748"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P001/音频/bilibili.m4a.download.md",
+      "bytes": 471,
+      "sha256": "3645a79c0ddafd224343321da3faae59cb970e3dad974eb8afd77dbd8dcc5eae"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/ASR状态.json",
+      "bytes": 1100,
+      "sha256": "5d40fcb14b332ae5881662ac99482e072e86504ef947c0534336c26b510faaf9"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/README.md",
+      "bytes": 908,
+      "sha256": "d46580f48306c94c123725b35f8cbe95bddf341d348856d3a0545ffa50754463"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/.transcript.export.lock",
+      "bytes": 24,
+      "sha256": "ceb690c55d243efd130da7b67b3a81f8c49c1410dfe8c728b95153b57b574971"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0000.json",
+      "bytes": 585830,
+      "sha256": "61fa1b59d80e8613d13efd67e4419a123369271603e9330d8aa9d96ebda36b6d"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0001.json",
+      "bytes": 697184,
+      "sha256": "8d974eb74f52f89270850976541392b042df4d74f2a70193c42bd16ece9ed9f5"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0002.json",
+      "bytes": 608416,
+      "sha256": "97ba2c3bb5bfcfa4d3cffaba697ef2f0247d6f68a1ba16252748cb3d639fe26e"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0003.json",
+      "bytes": 553724,
+      "sha256": "6aac11e3ab54ab089430f3c426cc8733a6ebc2c5145a60ec8a801a26d3a1679b"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0004.json",
+      "bytes": 642668,
+      "sha256": "d6009815de59752ca95ad95b8aaa5ccd3c2006ea45183f55820be1415482ab90"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0005.json",
+      "bytes": 579039,
+      "sha256": "f0001340072f3a0bebf51c699e5931e8fc0ecd5e526e42d4ee3a9ff0ae737aa8"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0006.json",
+      "bytes": 670155,
+      "sha256": "0993cbf900bc1f67c1efcccd85e130ad8d8f6e55ef4adc60f35868e5ab857633"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0007.json",
+      "bytes": 657307,
+      "sha256": "b26eb441704dab92bc03af1c864b075935fcd1349cda39b82ae3e46543c70a16"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0008.json",
+      "bytes": 659613,
+      "sha256": "1cab63ae95e172b398e64f62bb04b8fa12dbd62be7b3fa002ec15ab9790e70c8"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0009.json",
+      "bytes": 424073,
+      "sha256": "e304789fa4a47c3e4fc71121c3cfa43c9529cc0bf21d3e969845358d6cccf3ea"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0010.json",
+      "bytes": 556547,
+      "sha256": "d19a7a32b0756b973e08b578edfe34be6181cf877d64a4f98c7879f71be6a1ea"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0011.json",
+      "bytes": 539297,
+      "sha256": "2893fb54e6ef61b8fa7bc32033ad7d77f1b7ac6e05c765b2d9519378e1ee66b1"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0012.json",
+      "bytes": 502923,
+      "sha256": "805c4cbf435689f6a2f4fec1e171bf6507874be7b9785554ec5ed7933d29850c"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0013.json",
+      "bytes": 604051,
+      "sha256": "acc0b5b82357b6ec54186ed2fdbcc78f3c76df1115ac1498271be46bf1339d9d"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0014.json",
+      "bytes": 583133,
+      "sha256": "f8c212f1db0c17996f0639642c7d4d0fdcc3e14193421f8f658b5b53e4655192"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0015.json",
+      "bytes": 553647,
+      "sha256": "6988bdbcb3f8a37cee4aab8ed3f5ec1d8cc6acc1985fac9343f18b71949306f4"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0016.json",
+      "bytes": 632701,
+      "sha256": "db5198a499c9fb5c6c59cb335a36b35938457f7be72e448d8e04b4dc47f479a1"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0017.json",
+      "bytes": 545143,
+      "sha256": "cbbcaaef7e3c948a9f46195e559b411e2b1c745348cd6d42d1b2c40aff272128"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0018.json",
+      "bytes": 618281,
+      "sha256": "3a45665ad59bf12ad2cc4bf035e45ce6bc447b6a6e4624bb3db67d46932c6664"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0019.json",
+      "bytes": 510061,
+      "sha256": "9e428a901b3c36081c8a79c1d63e6504ef20f3607eecc5786963f933c381c02b"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0020.json",
+      "bytes": 478189,
+      "sha256": "34e0027c53b1cdea61e54f38ee9d22d4966298eb473ea1ebd15c0d9018cfccd3"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0021.json",
+      "bytes": 440205,
+      "sha256": "c448ce37fecff3899feda3cf56c215e2ddcaf5d8d0fa3d8c2c0b06c6ef1e7013"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0022.json",
+      "bytes": 488739,
+      "sha256": "53de24369b05c7ef7d08d4589cfe42e47ede7365ab2cc188294743adf2362361"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0023.json",
+      "bytes": 498967,
+      "sha256": "1fd509065f6580774346649d50f981237bc13d46312403f68b71202f80631069"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0024.json",
+      "bytes": 512991,
+      "sha256": "f5bc18aa2696dc7e0c8b482e0937ee605f4e14e98508aaf77cf33000678f30eb"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0025.attempt-1793717523979766000.json",
+      "bytes": 354,
+      "sha256": "f5a6e57b4d139e838b3c60e7bbed1aef4ea0caddad37a1b7e1094508e67fd2e6"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0025.json",
+      "bytes": 175953,
+      "sha256": "ddbeedfed4199bd5c882cb5c87ec4b5a3dd4716a639e0589118b307830cd2edf"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/complete.json",
+      "bytes": 227,
+      "sha256": "3ceafaac190bc8c13d6390db07e80f62a30d21432e6b719a07bda64d63384c98"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/request-config.json",
+      "bytes": 237,
+      "sha256": "9d41d96d981e627b18008636ce2c9352c8df4853703d46bbcee1691df41ba464"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/source.json",
+      "bytes": 1311,
+      "sha256": "1b9361146be3fd044e7089d8899b86d61978d150901203d9f45fa34ed9664a39"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.json",
+      "bytes": 320603,
+      "sha256": "082b55e70ea3ac8fd6ef1113aee4d24468ee5bec919c9a7386257c8d9ce63a99"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.srt",
+      "bytes": 121851,
+      "sha256": "0395d5aa19257008033e2bbb077d996b82f366ff67332f3c483d48589fb36962"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.txt",
+      "bytes": 74099,
+      "sha256": "246aef111ff8ad1be1f99d0a0f1ffa76ac4e3ebc10ba8d21fa9f71e19fe393ad"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.vtt",
+      "bytes": 121863,
+      "sha256": "93fa0cc9558d3a1e1b651dff66e27899d26fd5414774f18a028174e45eca1e74"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/历史不完整导出/transcript.partial.json",
+      "bytes": 317393,
+      "sha256": "c98f8048e592aac5316ad24a14168448c8ae942423421ed404c86d8d27d72f9c"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/历史不完整导出/transcript.partial.srt",
+      "bytes": 120474,
+      "sha256": "456a841a8fa5796b569d4fa45485ba94ce52562e982eb6472496783d8e3919cf"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/历史不完整导出/transcript.partial.txt",
+      "bytes": 73171,
+      "sha256": "a5ac990e0e8b702c3fc471790fed18bd62a7a3a3340e040636702d0a8a053ad3"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/历史不完整导出/transcript.partial.vtt",
+      "bytes": 120486,
+      "sha256": "d44f8fa1b2cc55e2cf2939702acaeb3e63090c32e8e56aca8c7112dfff324b0e"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/P002/音频/bilibili.m4a.download.md",
+      "bytes": 471,
+      "sha256": "ca0da5e4c73efd4a06b0f2aa7d700132475111fada6148c7020ebc2775d5e6a9"
+    },
+    {
+      "path": "视频/BV1F7t16iEW6/README.md",
+      "bytes": 968,
+      "sha256": "f5fdd85d9c33428811961f0849561ea8f96f0afc38fd76907139417e6fa943c8"
+    },
+    {
+      "path": "视频/BV1i9bezLEHK/README.md",
+      "bytes": 548,
+      "sha256": "8689f2e5c592305598ef23b9e42a4acd6bc1f1a0ec5cc1fa9b318b3acb193f95"
+    },
+    {
+      "path": "视频/BV1macKzUEmV/P001/ASR状态.json",
+      "bytes": 1125,
+      "sha256": "bbeec20254865f9b0eea58e7909ac7d663c148f0e8d6bf96655c4e6d95e938bb"
+    },
+    {
+      "path": "视频/BV1macKzUEmV/P001/README.md",
+      "bytes": 742,
+      "sha256": "a56c9710a3d0668733f026cb0cc831f0b3228ec26a736f6a4d75b7f948ae987c"
+    },
+    {
+      "path": "视频/BV1macKzUEmV/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/.transcript.export.lock",
+      "bytes": 24,
+      "sha256": "ceb690c55d243efd130da7b67b3a81f8c49c1410dfe8c728b95153b57b574971"
+    },
+    {
+      "path": "视频/BV1macKzUEmV/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0000.json",
+      "bytes": 599054,
+      "sha256": "f9967891d9ad6d6ff3ffe0af9573df98c426d72f778f9beb2636958ddb1fc23f"
+    },
+    {
+      "path": "视频/BV1macKzUEmV/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0001.json",
+      "bytes": 601354,
+      "sha256": "6ee6af86e87f87a0a1480ec31d6ee0969b47046bf631e9128e6db691ca1addcb"
+    },
+    {
+      "path": "视频/BV1macKzUEmV/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0002.json",
+      "bytes": 633890,
+      "sha256": "e2563ba13de92c7d02417f55b6ddef96b6bbc6978627983c06961fb2acb5cbca"
+    },
+    {
+      "path": "视频/BV1macKzUEmV/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0003.json",
+      "bytes": 683238,
+      "sha256": "a2957b1af9845a3e71e992504af1ed603563a067c9d260a431b66b04466289e0"
+    },
+    {
+      "path": "视频/BV1macKzUEmV/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0004.json",
+      "bytes": 712940,
+      "sha256": "466001f1f7de3c78f9fa51097e7a8bd52767eeaba921c042b9b0d10593197ca2"
+    },
+    {
+      "path": "视频/BV1macKzUEmV/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0005.json",
+      "bytes": 608753,
+      "sha256": "208bf2b53e60d1ed2ee7bcaf2bd1b5342fdedfffb059e9c622fdc9d618e18f10"
+    },
+    {
+      "path": "视频/BV1macKzUEmV/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0006.json",
+      "bytes": 61252,
+      "sha256": "60e5aa63b11e23eae5ceb5e93c18b793cfaf6c681d7288e4abbdd95ef25874dd"
+    },
+    {
+      "path": "视频/BV1macKzUEmV/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/complete.json",
+      "bytes": 225,
+      "sha256": "624feae7418a27e28a13cf88e32b8a9b8fe91ca5e680c226e868ed740e11721f"
+    },
+    {
+      "path": "视频/BV1macKzUEmV/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/request-config.json",
+      "bytes": 237,
+      "sha256": "77c16de33bfe62748ac25c155a3e13fbde42bb83d33f5d6f4a61f313a249294a"
+    },
+    {
+      "path": "视频/BV1macKzUEmV/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/source.json",
+      "bytes": 1340,
+      "sha256": "2d3f033a5125642f9cc904002b8255050e1d16db1239a42089caa8d07a4cd18f"
+    },
+    {
+      "path": "视频/BV1macKzUEmV/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.json",
+      "bytes": 74410,
+      "sha256": "49bca3788fcd57c318783aa4cd436ca06becc10600b4fd34c326911c88b5a4a1"
+    },
+    {
+      "path": "视频/BV1macKzUEmV/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.srt",
+      "bytes": 29324,
+      "sha256": "7cc06c636674b74ea9b9a870fb90fd8fc8958c0e1a50f8d54ce7c15339e6be1e"
+    },
+    {
+      "path": "视频/BV1macKzUEmV/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.txt",
+      "bytes": 20088,
+      "sha256": "eea9aaa8bff69c27f955c747930963b0464c014cbcef0e1a9d634e9f469c7306"
+    },
+    {
+      "path": "视频/BV1macKzUEmV/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.vtt",
+      "bytes": 29336,
+      "sha256": "3948df2f7e89da9c6c61e800b2ce7b6b8d89b24565cc2cea66bfd0edd1b0ec1c"
+    },
+    {
+      "path": "视频/BV1macKzUEmV/P001/音频/bilibili.m4a.download.md",
+      "bytes": 471,
+      "sha256": "c0202ba725f3fd9711e0b6a31d19919ae0638dca142c0949ab29577281eb4bc3"
+    },
+    {
+      "path": "视频/BV1macKzUEmV/README.md",
+      "bytes": 839,
+      "sha256": "fcd659da6df1a4803c132b3b4a0f435a5f71c896050105e00f33ccd7a051a07e"
+    },
+    {
+      "path": "视频/BV1mk8W6dEyx/README.md",
+      "bytes": 518,
+      "sha256": "f97bd7c08cbb8a56c8f618ae851b8d0df21bd9eec5f18c7d11b3e7bb46332bdc"
+    },
+    {
+      "path": "视频/BV1nioMY6Et8/README.md",
+      "bytes": 476,
+      "sha256": "0ebee833c6117fb63af5184d820f27190f49a19071bda872390bbf900c2f6c9b"
+    },
+    {
+      "path": "视频/BV1wj411m7GK/P001/ASR状态.json",
+      "bytes": 1277,
+      "sha256": "90c8da909ecb8cdbfec7ab2d2180be119199ec82aa8070253c4316b0ead8b12a"
+    },
+    {
+      "path": "视频/BV1wj411m7GK/P001/README.md",
+      "bytes": 827,
+      "sha256": "8f1bf596adab6184aaed1b8d33d836fc00998b88d3ac29e4f00d6e5d135868d9"
+    },
+    {
+      "path": "视频/BV1wj411m7GK/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/.transcript.export.lock",
+      "bytes": 24,
+      "sha256": "ceb690c55d243efd130da7b67b3a81f8c49c1410dfe8c728b95153b57b574971"
+    },
+    {
+      "path": "视频/BV1wj411m7GK/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/chunk-0000.json",
+      "bytes": 305709,
+      "sha256": "df0f1385974ae33bf3f8395e0419d0b79b673bebb1d6a12778ae31651f8838bd"
+    },
+    {
+      "path": "视频/BV1wj411m7GK/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/complete.json",
+      "bytes": 224,
+      "sha256": "3e7862366f61d5319418ea398a12dd334190e2a364f167b2e47cf529a3762176"
+    },
+    {
+      "path": "视频/BV1wj411m7GK/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/request-config.json",
+      "bytes": 237,
+      "sha256": "2fc8e7eeca9e5011ee277b0080f391f22b21dbb6806ce486ac3ea5efe3033060"
+    },
+    {
+      "path": "视频/BV1wj411m7GK/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/source.json",
+      "bytes": 1492,
+      "sha256": "ea3bb66112cf4df26317b217a4d99f5b33f0a1e532cbdf534ba2f39e9fbf72f3"
+    },
+    {
+      "path": "视频/BV1wj411m7GK/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.json",
+      "bytes": 8087,
+      "sha256": "b768db04a1d89ecae4c89e80f8144cbc6239e430eb6900270187d42c1ecf7563"
+    },
+    {
+      "path": "视频/BV1wj411m7GK/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.srt",
+      "bytes": 2694,
+      "sha256": "b0cf585a2b8225eb542cd911a4260861e52995f85876654f9e8429a8a2a2f518"
+    },
+    {
+      "path": "视频/BV1wj411m7GK/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.txt",
+      "bytes": 1303,
+      "sha256": "c4cf81742a94b98845cd07027729fd9eec534a0c3a7a1fee154cc3b575077847"
+    },
+    {
+      "path": "视频/BV1wj411m7GK/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103/transcript.vtt",
+      "bytes": 2706,
+      "sha256": "1bf27f4c7005527b02ffb7700ae2de83258050d4debdc86198b8840d5a2d5272"
+    },
+    {
+      "path": "视频/BV1wj411m7GK/P001/音频/bilibili.m4a.download.md",
+      "bytes": 471,
+      "sha256": "407608c2e93795fbcbca58e89273fbfdd21505cef87bed913da6f5723fb1ecfe"
+    },
+    {
+      "path": "视频/BV1wj411m7GK/README.md",
+      "bytes": 909,
+      "sha256": "51766eb4994ae43892b25724a5d623ba7b7193a81c300a973dab9acfb43756db"
+    }
+  ]
+}

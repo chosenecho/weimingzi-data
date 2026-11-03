@@ -1,0 +1,47 @@
+{
+  "bvid": "BV1F7t16iEW6",
+  "page": 1,
+  "cid": 41598649477,
+  "title": "【直播回放】随便聊聊 2026年09月04日23点场",
+  "part_title": "0-随便聊聊",
+  "owner": {
+    "mid": 23191782,
+    "name": "未明子",
+    "face": "https://i0.hdslb.com/bfs/face/03b569f5681227d6ba6d648369a9d375ce8d6b8d.jpg"
+  },
+  "state": "complete",
+  "duration_seconds": 7210.021333,
+  "successful_chunks": 31,
+  "expected_chunks": 31,
+  "segments": 1280,
+  "text_characters": 25912,
+  "requires_review": true,
+  "human_reviewed": false,
+  "timed_exports_available": false,
+  "gaps": [
+    {
+      "start": 4080,
+      "end": 4320,
+      "reason": "unrepresentable_provider_timestamps",
+      "transcript_text_available": true,
+      "evidence": "chunk-0017.json"
+    },
+    {
+      "start": 4560,
+      "end": 4800,
+      "reason": "unrepresentable_provider_timestamps",
+      "transcript_text_available": true,
+      "evidence": "chunk-0019.json"
+    }
+  ],
+  "folder": "视频/BV1F7t16iEW6/P001",
+  "asr_folder": "视频/BV1F7t16iEW6/P001/原始转录/asr-cloud-qwen-audio-3.1-asr-flash-20261103",
+  "text_basename": "transcript",
+  "audio_path": "视频/BV1F7t16iEW6/P001/音频/bilibili.m4a",
+  "audio_sha256": "6b861f1f2e23a761ae09b8aad45f87c4cbf7b160aec20a03e252def35ac51118",
+  "audio_bytes": 60556941,
+  "model": "qwen-audio-3.1-asr-flash",
+  "source_kind": "asr-cloud",
+  "ai_proofread": false,
+  "batch_report": "ASR补跑/2026-11-03-missing-local/处理报告.json"
+}

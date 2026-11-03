@@ -29,8 +29,8 @@ def download(asset,cache):
  raise RuntimeError('Download failed')
 def main():
  parser=argparse.ArgumentParser(description='Download and verify the audio release assets; preserve original relative paths.')
- parser.add_argument('--verify-only',action='store_true');parser.add_argument('--asset',action='append',help='Only restore this archive (repeatable)');args=parser.parse_args()
- manifest=json.loads((ROOT/'media-manifest.json').read_text('utf-8'));known={a['name'] for a in manifest['assets']}
+ parser.add_argument('--verify-only',action='store_true');parser.add_argument('--asset',action='append',help='Only restore this archive (repeatable)');parser.add_argument('--manifest',default='media-manifest.json',help='Repository-relative media manifest');args=parser.parse_args()
+ manifest=json.loads(target_path(args.manifest).read_text('utf-8'));known={a['name'] for a in manifest['assets']}
  if args.asset and not set(args.asset).issubset(known):parser.error('Unknown asset name')
  selected=[r for r in manifest['files'] if not args.asset or r['archive'] in args.asset]
  if args.verify_only:
