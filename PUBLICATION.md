@@ -15,3 +15,7 @@
 ## 还原音频
 
 运行 `python fetch_media.py` 下载全部，运行 `python fetch_media.py --asset audio-001.zip` 只下载一个分卷；运行 `python fetch_media.py --verify-only` 校验本地已还原的全部音频。也可手动下载各 ZIP 后在仓库根目录解压。
+
+## 后续训练源校正
+
+上述文件清单和完成标记为首次公开快照的验收证据，保持原记录。后续训练入口、R01—R06 的局部校正版和独立 SHA-256 清单见 [TRAINING.md](TRAINING.md)。原 AI 版本、原始转录与时间轴不覆盖。
