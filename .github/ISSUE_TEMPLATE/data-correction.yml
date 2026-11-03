@@ -1,0 +1,31 @@
+name: 文稿／来源纠错
+description: 报告识别、校对、时间戳或来源归属问题
+title: "[纠错] "
+labels: []
+body:
+  - type: input
+    id: identifier
+    attributes:
+      label: BV、YouTube ID 或音频标识
+    validations:
+      required: true
+  - type: input
+    id: path
+    attributes:
+      label: 文件路径与 Git 提交
+    validations:
+      required: true
+  - type: textarea
+    id: passage
+    attributes:
+      label: 问题位置
+      description: 提供原文、段落或音频时间区间。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 核对依据与建议修订
+      description: 附可访问来源，说明建议改字及理由。
+    validations:
+      required: true
