@@ -1,0 +1,69 @@
+# 已补齐的动态全文
+
+- [【旧作】水调歌头](dynamics/1024980209914347520.txt)（cv40484937；来源 browser_documents）
+- [撰花鸟风月词而为之界说](dynamics/1025034970720108546.txt)（cv40485753；来源 browser_documents）
+- [旧作 锦堂春慢 饮后作](dynamics/1028730755737452552.txt)（cv40567795；来源 browser_documents）
+- [旧文 祝你一路顺风 帆](dynamics/1032077505951956993.txt)（cv40648458；来源 browser_documents）
+- [旧作 心花](dynamics/1032079911143079940.txt)（cv40648471；来源 browser_documents）
+- [旧作 星月夜](dynamics/1032081487360425986.txt)（cv40648490；来源 browser_documents）
+- [旧文 我从来没说过话](dynamics/1032082818801336324.txt)（cv40648507；来源 browser_documents）
+- [旧文 为什么我感到痛苦](dynamics/1032083480245174277.txt)（cv40648523；来源 browser_documents）
+- [旧文 魏晋诗三首赏析](dynamics/1032087474536448004.txt)（cv40648543；来源 browser_documents）
+- [旧文 自我介绍](dynamics/1032088419429253127.txt)（cv40648548；来源 browser_documents）
+- [旧作 青春](dynamics/1032091125259698184.txt)（cv40648569；来源 browser_documents）
+- [新作 诵阳老](dynamics/1032233941529001989.txt)（cv40654030；来源 browser_documents）
+- [黄牛吟](dynamics/1060627390488641552.txt)（cv41485231；来源 browser_documents）
+- [仙人的梦](dynamics/1062097600773095428.txt)（cv41527872；来源 browser_documents）
+- [对价](dynamics/1091772899884269589.txt)（cv42392525；来源 browser_documents）
+- [【旧文】冷水澡](dynamics/1094884839900839943.txt)（cv42487317；来源 browser_documents）
+- [【旧作】浇块垒](dynamics/1149623425005780994.txt)（cv44386142；来源 browser_documents）
+- [【旧作】他的钢笔和笔记本](dynamics/1214976012458131459.txt)（cv50661207；来源 browser_documents）
+- [【旧作】吠的呼应与回音](dynamics/1214978323193528328.txt)（cv50661291；来源 browser_documents）
+- [【旧作】清醒的契机](dynamics/1214980410527711250.txt)（cv50661458；来源 browser_documents）
+- [【旧作】怀念平静的时代](dynamics/1214981995354914840.txt)（cv50661686；来源 browser_documents）
+- [【旧作】喧闹](dynamics/1214983026184814595.txt)（cv50661719；来源 browser_documents）
+- [《论女人》｜叔本华，厌女症 与 虚无主义](dynamics/489456152388796617.txt)（cv9728643；来源 browser_documents）
+- [西吴曲](dynamics/495572709800222611.txt)（cv9999736；来源 browser_documents）
+- [旧作 秋之来去](dynamics/497570372105982010.txt)（cv10091593；来源 observations）
+- [无题](dynamics/497815919688492447.txt)（cv10095513；来源 observations）
+- [旧作四首](dynamics/500470664743708456.txt)（cv10213375；来源 browser_documents）
+- [旧作 无题（其一）](dynamics/517229094548136803.txt)（cv11014410；来源 browser_documents）
+- [旧作 无题（其二）](dynamics/517231658648874954.txt)（cv11014525；来源 browser_documents）
+- [旧作 七妒诗](dynamics/517232998675536070.txt)（cv11014581；来源 observations）
+- [旧作 八声甘州 上元](dynamics/517236469016477622.txt)（cv11014760；来源 observations）
+- [旧作 临江仙格三](dynamics/517242928641048092.txt)（cv11015078；来源 observations）
+- [旧作 高阳台 江眠](dynamics/517332706341946646.txt)（cv11018329；来源 browser_documents）
+- [旧作 雨](dynamics/517699294692481998.txt)（cv11031844；来源 browser_documents）
+- [旧作 运止](dynamics/517700596064429065.txt)（cv11031882；来源 observations）
+- [旧作 雨霖铃 急雨](dynamics/517706458688504759.txt)（cv11031938；来源 browser_documents）
+- [旧作 情字](dynamics/517712179584949351.txt)（cv11031976；来源 browser_documents）
+- [旧作 l love U](dynamics/517716259804932825.txt)（cv11031995；来源 browser_documents）
+- [【以前乱写的蛇皮玩意】毛姆揭不开的《面纱》](dynamics/522402507213730774.txt)（cv11201130；来源 browser_documents）
+- [答蛇皮问题](dynamics/522918672089858349.txt)（cv11217878；来源 observations）
+- [《伊》，赠王生](dynamics/552226755821537685.txt)（cv12358572；来源 browser_documents）
+- [水调歌头 赠柳州文生](dynamics/555478157738693128.txt)（cv12509878；来源 observations）
+- [仓廪实而知的随意礼节](dynamics/571079562018317903.txt)（cv13212954；来源 observations）
+- [一愚之失](dynamics/571081194099623095.txt)（cv13213160；来源 observations）
+- [知乎的怪事](dynamics/624828844340479107.txt)（cv15170836；来源 observations）
+- [要追求严肃性](dynamics/628288814162172933.txt)（cv15312254；来源 browser_documents）
+- [一个无力的现代性幻想：吸收有机性与无机性的整体的无机性](dynamics/630525491475906565.txt)（cv15396212；来源 browser_documents）
+- [等于几](dynamics/634884522498850823.txt)（cv15559681；来源 observations）
+- [我不需要反动者的支持](dynamics/637328105490350088.txt)（cv15650955；来源 observations）
+- [【歌词】《英特纳雄耐尔》](dynamics/662361992358526984.txt)（cv16713929；来源 browser_documents）
+- [要发扬真正的互联网精神](dynamics/663511536048799749.txt)（cv16759954；来源 observations）
+- [按耐冲动，告别鲁莽](dynamics/667285777227448327.txt)（cv16925919；来源 browser_documents）
+- [【旧作】我心中的孩子](dynamics/670968977971740674.txt)（cv17072038；来源 browser_documents）
+- [【旧作】审问](dynamics/670974192059940870.txt)（cv17072058；来源 browser_documents）
+- [【旧作两首】奈何 当诗人遭受污蔑](dynamics/670974209231421461.txt)（cv17072066；来源 browser_documents）
+- [【旧作】祭李君文](dynamics/673148175773597745.txt)（cv17167253；来源 browser_documents）
+- [资本时代(1)](dynamics/713245238842359833.txt)（cv18927433；来源 browser_documents）
+- [引导孟什维克成为孟什维克](dynamics/713586379504746503.txt)（cv18940140；来源 browser_documents）
+- [反经济主义同样不可取](dynamics/713598306629976179.txt)（cv18940456；来源 browser_documents）
+- [对于王小嗨所反映的情况的回应：我们一贯支持星星家园的一线工益成果和努力](dynamics/730947152698671137.txt)（cv19933404；来源 browser_documents）
+- [【旧文】2011年农历八月十六在即将休学离开复旦前的同学聚会上的演讲](dynamics/784157622847668241.txt)（cv23043289；来源 browser_documents）
+- [【旧文】2012年6月10日 回忆高考](dynamics/805210629151391769.txt)（cv24248624；来源 browser_documents）
+- [革命就是请客吃饭](dynamics/810106548007206917.txt)（cv24527439；来源 browser_documents）
+- [成长为茁壮的保供力量](dynamics/810483397027692583.txt)（cv24543898；来源 observations）
+- [硅胶人](dynamics/866104520610938884.txt)（cv27836741；来源 observations）
+- [某些人也有资格说我依附权力？](dynamics/873348837636308992.txt)（cv28425016；来源 browser_documents）
+- [反对实用主义的道德：回童润中](dynamics/975774749612310529.txt)（cv38546178；来源 browser_documents）
