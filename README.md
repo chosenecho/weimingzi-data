@@ -2,6 +2,12 @@
 
 未明子视频、转录、AI 阅读稿、字幕和音频的公开归档快照（2026-11-03）。
 
+## 新增音频与 YouTube AI 校对
+
+新增 **20 份 AI 阅读稿**：3 份补充音频、17 份 YouTube 转录。使用 OpenCode Go `deepseek-v4.1-flash`，10 个 worker；另 1 条无 ASR 正文的 YouTube 条目跳过。
+
+[阅读目录、原文对照与校对库](AI校对补跑/2026-11-03-opencode-go/README.md) · [本次增量 SHA-256 清单](AI校对补跑/2026-11-03-opencode-go/publication-manifest.json)。原识别缺口、时间戳异常和失败响应保留，全部未经人工审核。该批为独立来源，尚未加入 `training-source.json` 的既有训练入口。
+
 ## 下载与阅读
 
 - 正文、字幕、JSON、封面、索引和补充音频 SQLite 库直接保存在本仓库。

@@ -15,3 +15,7 @@
 库表：`recordings`、`transcripts`、`transcript_segments`、`provider_requests`、`assets`、`external_associations`、`ingestion_batches`、`transcript_search`。
 
 原生产库不支持本地补充音频或 asr-cloud 来源，本批据实存入独立 SQLite 补充库，避免伪装成本地 GPU ASR 或虚构 BV；已纳入统一合集索引及文件校验。
+
+## AI 校对稿
+
+上述三条补充音频已生成 `deepseek-v4.1-flash` 阅读稿，原 ASR 入库记录保留。见 [统一校对目录及可检索校对库](../AI校对补跑/2026-11-03-opencode-go/README.md)；各音频 README 也有阅读稿和原文对照入口。未经人工审核。

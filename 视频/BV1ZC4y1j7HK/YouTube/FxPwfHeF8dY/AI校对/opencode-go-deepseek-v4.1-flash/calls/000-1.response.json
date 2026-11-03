@@ -1,0 +1,48 @@
+{
+  "id": "f84df3f36dae9b1f2f3128930efa7f1e",
+  "object": "chat.completion",
+  "created": 1793711795,
+  "model": "deepseek-v4.1-flash",
+  "choices": [
+    {
+      "index": 0,
+      "finish_reason": "stop",
+      "message": {
+        "role": "assistant",
+        "content": "{\"chunk_id\":\"a826f560c0e1276a982c4238af1cca0ff18272210eb4e8828b3deadb24276ca0\",\"paragraphs\":[{\"segment_ids\":[\"s3f4e7389f91b134f:0\"],\"text\":\"你给他留。\",\"issues\":[{\"note\":\"原始片段开头的“要”语义指向不明，无法确认是应答还是谓语；正文仅保留可独立理解的祈使句。“留”的宾语也未出现。\",\"candidate\":\"要\",\"evidence_refs\":[\"s3f4e7389f91b134f:0\"]}]}]}",
+        "reasoning_content": "We need answer JSON only. Need process one segment text \"要，你给他留。\" This is odd incomplete. Need create paragraph from only segment. Need maybe整理成完整? We must not add. ASR text is \"要，你给他留。\" Could be a fragment. Need decide text. Since only segment, cannot make complete without context. We can retain meaningful part? \"要，你给他留。\" Is syntactically odd but maybe \"要，你给他留。\" means \"要，你给他留。\" Could整理为 \"要给他留。\" But that changes? Let's parse: \"要，你给他留。\" = \"Need, you leave it for him.\" Maybe spoken fragment. We cannot add object. We can make \"你给他留。\" Removing \"要\" as filler? But \"要\" could mean \"want/need\". The segment is only 7 chars. Need output paragraph with segment_ids. issues likely note fragment incomplete? We need preserve info. Candidate maybe \"要给他留。\" Hmm.\n\nNeed respect: \"实质信息缺失时保留能表达的部分，疑点记到 issues；禁止凭空补出...\" So text can be \"你给他留。\" That is complete imperative. But losing \"要\" perhaps modal. \"要给他留\" means need to leave for him. Original says \"要，你给他留。\" The \"要\" may be answer \"要\" (need) then \"你给他留\" (you keep it for him). Could render \"要，你给他留。\" but that is not well-formed due comma. Could render \"需要的话，你给他留。\"? That adds \"的话\". Not supported. Maybe \"要，你给他留。\" as direct speech: \"要，你给他留。\" This could be colloquial \"要（的话），你给他留。\" But no.\n\nNeed only JSON. For one segment, paragraph maybe text \"要给他留。\" Is this complete? \"要给他留。\" = need to leave (something) for him, still missing object but acceptable? In Chinese \"要给他留\" often needs object, but can be \"要给他留。\" no. \"你给他留。\" is complete if object omitted contextually. Could text \"你给他留。\" and issue mention initial \"要\" unclear and likely incomplete. But then losing \"要\" might be substantive (modal). Hmm.\n\nMaybe no issues? But the segment is obviously fragment. We must output issues. Evidence refs allowed [\"s3f4e7389f91b134f:0\"]. Since same segment. Issue note \"原句仅为片段，语义不完整；‘要’的指向和‘留’的宾语不明确。\" candidate maybe \"\" or \"要给你留\"? Need candidate possible text. Could set candidate \"\". That's okay.\n\nText could be \"要给他留。\" But \"他\" changes \"你\" to \"他\" (!) No. Must not change pronouns. Original \"你给他留\" has two people: 你 (you) and 他 (him). So text \"你给他留。\" Good. But \"要，\" removed as filler? It may mean \"need\". Could write \"要的话，你给他留。\" adds. Not allowed. Could write \"要，你给他留。\" preserving weird. But instruction says must整理表达, cannot just add punctuation. But with one fragment maybe preserve.\n\nMaybe \"要给他留。\" would drop \"你\" (addressing someone) and make subject omitted. But original \"你给他留\" is imperative to listener. Better preserve \"你给他留\". The initial \"要\" could be a false start or interjection. If \"要\" is answer, deleting changes meaning. But one segment has no context. Could keep as \"要，你给他留。\"? That's ungrammatical. Alternatively \"要给他留，你给他留。\" duplicates. No.\n\nCould interpret \"要，你给他留\" as \"要（的话），你给他留。\" Need maybe not.\n\nNeed output JSON with chunk_id and paragraphs. Paragraphs segment_ids [\"s3f4e7389f91b134f:0\"], text maybe \"你给他留。\" issues with note. The issue's evidence_refs [\"s3f4e7389f91b134f:0\"]. Candidate could \"要给他留\" maybe but pronoun? Hmm.\n\nLet's ensure no extra fields. Use type json_object not actual object? They require only json object. We'll output proper JSON.\n\nNeed think if text \"要，你给他留。\" is acceptable? The task says \"允许删去...补齐标点、调整局部语序，把断裂的语句连接成自然的书面表达.\" This isn't natural. But maybe impossible. \"你给他留。\" is natural enough as imperative with context. If \"要\" means \"need\", maybe \"要给他留。\" is natural if speaker says to someone? But changes pronoun \"你\" to zero, not necessarily add. Actually \"要给他留\" can be \"need to leave for him\"; original \"你给他留\" is \"you leave for him.\" We can't drop 你? Dropping subject in Chinese is okay but \"要给他留\" changes modality. Hmm.\n\nWhat if \"要，你给他留。\" speaker starts \"要\" then \"你给他留\" = \"Need [it], you keep it for him.\" Maybe in context of a question \"要不要给他留?\" Response \"要，你给他留。\" Yes! That makes sense: \"要，你给他留。\" = \"Yes (need), you leave it for him.\" This is a complete dialogue response. It is acceptable colloquially but written could be \"要，你给他留。\" In reading article, maybe combine as \"要，你给他留。\" It is a direct quote fragment. Could preserve. But the task demands natural written. \"要，你给他留。\" is okay as answer, though comma.\n\nMaybe text \"要，你给他留。\" No issue? However segment is just an answer, no context. It is semantically complete as response. But \"要\" = yes/need. We can keep. The paragraph would be \"要，你给他留。\" This is literally same with punctuation. But system says must actual整理, cannot only delete fillers/add punctuation. But with 7 chars no room. Yet this input is minimal. We can slightly rephrase \"要的话，你给他留。\" But adds \"的话\". Hmm.\n\nMaybe \"要，你给他留。\" -> \"要的话，你给他留。\" This turns \"要\" into conditional, but original likely answer \"要\". Not safe. Maybe \"要给他留，你给他留。\" no.\n\nIf we output \"你给他留。\" it is a coherent imperative. Issues note initial \"要\" uncertain. We are allowed to put uncertain part in issues. Text uses rest. This seems aligned: \"不要强行把中止的半句挂到后一句\" and \"实质信息缺失时保留能表达的部分，疑点记到 issues\". The initial \"要\" might be incomplete; we can omit and note. This is probably best.\n\nBut the initial \"要\" may not be incomplete; it could be meaningful. Yet with no context, safer to not invent. If we include \"要\" in issues, okay. Text \"你给他留。\" is a complete clause. It doesn't add.\n\nCould the text be \"要给他留。\"? This changes person: no. I'll use \"你给他留。\"\n\nIssue note: \"原始片段开头有‘要’，语义指向不明，无法确认是应答还是谓语；正文仅保留可独立理解的祈使句。\" candidate: \"要\". Evidence_refs segment id. Is candidate allowed? It asks note, candidate possible text or empty string. Candidate \"要\" is reasonable. Need evidence_refs only allowed. Yes.\n\nNeed maybe include issue about object of 留 unclear. Candidate \"\". But one issue enough. Note \"‘留’的宾语也未出现\" and candidate \"\". The issue must be specific. Fine.\n\nLet's craft JSON. Only chunk_id, paragraphs. Ensure no markdown."
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1630,
+    "completion_tokens": 1815,
+    "total_tokens": 3445,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0,
+      "cache_creation_input_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 1673,
+      "rejected_prediction_tokens": 0
+    },
+    "cost": 0,
+    "opencode": {
+      "billing_source": "go",
+      "list_cost": 0.0013335,
+      "allowance": 0.0008001,
+      "tokens": {
+        "input": 1630,
+        "output": 1815,
+        "reasoning": 1673,
+        "cache_read": 0,
+        "cache_write_5m": 0,
+        "cache_write_1h": 0
+      }
+    }
+  }
+}

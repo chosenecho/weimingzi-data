@@ -13,3 +13,9 @@
 逐段原始响应保存在同目录 `chunk-*.json`，时间戳保持模型原始顺序。
 
 章节补充关联：`BV1hf4y1k7sX`。旧无声音轨及其结论保留；不据此声明两份音轨完全相同。
+
+## OpenCode Go AI 校对
+
+[AI 阅读稿](AI校对/opencode-go-deepseek-v4.1-flash/ai-draft.md) · [原文对照与疑点](AI校对/opencode-go-deepseek-v4.1-flash/review.md) · [来源映射](AI校对/opencode-go-deepseek-v4.1-flash/revision.json)
+
+模型：`deepseek-v4.1-flash`；未经人工审核。原始转录与质量标记保留；音频范围只定位 ASR 分块，不是新字幕时间戳。
