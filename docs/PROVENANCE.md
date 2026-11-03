@@ -4,12 +4,14 @@
 
 | 用途 | 入口 |
 | --- | --- |
-| 文稿检索 | [catalog.csv](../metadata/catalog.csv) |
+| 跨平台文稿检索 | [source-index.csv](../metadata/source-index.csv) · [阅读目录](SOURCE-INDEX.md) |
+| 当前源目录 | [catalog.csv](../metadata/catalog.csv) · [audio.csv](../metadata/audio.csv) |
 | 训练选稿与哈希 | [training-source.json](../metadata/training-source.json) |
 | 音频恢复与哈希 | [media/](../metadata/media/) |
 | 当前目录统计 | [dataset-summary.json](../metadata/dataset-summary.json) |
 | 历史路径解释 | [path-map.json](../metadata/path-map.json) |
 | 目录迁移校验 | [迁移记录](../provenance/layout-migration/2026-11-04/README.md) |
+| 平台目录重构 | [迁移记录](../provenance/layout-migration/2026-11-04-platforms/README.md) |
 
 ## 历史批次
 
@@ -40,4 +42,4 @@ python -X utf8 tools/check_repository.py --verify-hashes
 python -m unittest discover -s tests -v
 ```
 
-默认检查当前索引、分页目录、导航链接、路径、数量和媒体清单结构。`--verify-hashes` 另核验训练索引中的选稿及原稿哈希。检查过程不下载音频，也不重新调用模型。
+默认检查跨平台索引、分页目录、来源标签、导航链接、路径、数量和媒体清单结构。`--verify-hashes` 另核验训练索引中的选稿及原稿哈希。检查过程不下载音频，也不重新调用模型。

@@ -1,54 +1,39 @@
 # weimingzi-data
 
-未明子相关视频文稿、字幕、音频与用户内容的可追溯归档，收录 B 站、YouTube 和用户补充材料。
+未明子相关的 B 站、部分 YouTube 和用户补充音频转录归档，同时保存动态、专栏与处理记录。
 
 [![Repository checks](https://github.com/chosenecho/weimingzi-data/actions/workflows/repository-checks.yml/badge.svg)](https://github.com/chosenecho/weimingzi-data/actions/workflows/repository-checks.yml)
 
-**[视频目录](docs/VIDEO-INDEX.md)** · **[动态与专栏](data/user-content/README.md)** · **[音频下载](docs/DOWNLOAD.md)** · **[数据说明](docs/DATA-CARD.md)** · **[训练入口](docs/TRAINING.md)**
+**[跨平台转录目录](docs/SOURCE-INDEX.md)** · **[B 站视频目录](docs/VIDEO-INDEX.md)** · **[动态与专栏](data/user-content/README.md)** · **[音频下载](docs/DOWNLOAD.md)**
 
-语料工程入口见 [离线分层语料与字段投影](docs/CORPUS.md)：接收生产交付包、保留原件、独立编辑和冻结快照，分别导出训练候选与知识库；不要求把编辑回写 asr-archive。
-
-## 给 AI / 自动化调用者的使用指南
-
-需要 Python 3.12；在仓库根目录安装后，输入和输出可以放在任意磁盘位置。优先传绝对路径，避免推断历史中文目录或原机器盘符。
-
-~~~sh
-python -m pip install -e .
-wm-corpus --help
-wm-corpus ingest --delivery /path/to/delivery --out /data/snapshots/silver-001
-wm-corpus verify --directory /data/snapshots/silver-001
-wm-corpus checkout --source /data/snapshots/silver-001 --out /data/working/edit-001
-~~~
-
-根据用户要求编辑工作副本 records.jsonl，保留 record_id、text 与 source 的稳定身份。用途字段可新增、删除或改名；不要改 .base、原交付包和已冻结目录。
-
-draft/review 与用户附件的可编辑副本在 working 的 assets 中；修改后随 freeze 保存。它们不自动覆盖 records.jsonl，正文同步由编辑者明确处理，资产内容也不冒用生产质检标签。
-
-~~~sh
-wm-corpus freeze --source /data/working/edit-001 --out /data/snapshots/silver-002
-wm-corpus project --source /data/snapshots/silver-002 --profile profiles/cpt.json --out /data/gold/cpt-001
-wm-corpus project --source /data/snapshots/silver-002 --profile profiles/knowledge.json --out /data/gold/kb-001
-wm-corpus verify --directory /data/gold/cpt-001
-~~~
-
-- 成功时 stdout 为单个 JSON 对象；失败说明写 stderr，操作失败退出 1，参数错误退出 2。解析 manifest 的 format、bundle_id、records_file、record_count，不靠目录名猜版本。
-- 所有冻结输出必须是全新目录，不覆盖、不自动删除旧版本。发生中断先 verify 现有目标；完整目标可继续使用，不完整目标需保留证据并另选新目标。
-- 原件保留在 Bronze。下游修改后的 quality=downstream-edited 不代表不可使用，而是上游质检回执不再适用于修改后的字节；不要把它改回 passed 来绕过用途审核。
-- 用途字段由 profiles/*.json 映射。缺少字段或类型错误会在产出前失败；应修正 profile 或记录，不改生产契约。自定义 profile 再运行 project，可并行得到训练、知识库等不同字段形状。
-- 多批快照用 merge --source 多次指定；同 ID 的不同记录会报冲突，应明确选版本。独立维护的文章、动态和用户数据用 import-local --records，不伪造生产回执。
-- Gold 的 CPT 输出是候选，不是 SFT 批准；KB 不是默认训练输入。训练仓库消费完整 Gold 目录和 lineage，不能只复制正文后丢掉来源。
-- 此工具不下载模型、不运行 ASR、不启动训练、不修改生产状态。完整使用与边界见 [CORPUS.md](docs/CORPUS.md)。
-
-## 从哪里开始
+## 阅读与取用
 
 | 需求 | 入口 |
 | --- | --- |
-| 按标题、BV 或分 P 查找文稿 | [分页视频目录](docs/VIDEO-INDEX.md) · [可筛选 CSV](metadata/catalog.csv) |
-| 阅读动态、专栏、文集与合集 | [用户内容目录](data/user-content/README.md) |
-| 查找用户补充音频及其文稿 | [补充音频目录](data/supplemental-audio/README.md) |
-| 下载、恢复与校验音频 | [下载指南](docs/DOWNLOAD.md) |
-| 获取选定的训练文稿 | [训练源说明](docs/TRAINING.md) · [机器索引](metadata/training-source.json) |
-| 核对来源、质量状态和历史变更 | [数据说明](docs/DATA-CARD.md) · [批次与校验](docs/PROVENANCE.md) |
+| 查找 B 站、YouTube 或补充音频的正文 | [跨平台目录](docs/SOURCE-INDEX.md) · [统一 CSV](metadata/source-index.csv) |
+| 按 BV 或分 P 浏览 | [分页视频目录](docs/VIDEO-INDEX.md) |
+| 核对来源与处理状态 | [数据说明](docs/DATA-CARD.md) · [补充来源标记](docs/SOURCE-LABELS.md) |
+| 恢复并校验原始音频 | [下载指南](docs/DOWNLOAD.md) |
+| 使用已有训练选稿 | [选稿说明](docs/TRAINING.md) · [训练索引](metadata/training-source.json) |
+| 接收新交付包、编辑语料、导出训练或知识库数据 | [离线语料工具](docs/CORPUS.md) · [AI 使用指南](docs/AI-GUIDE.md) |
+
+AI 阅读稿保留原始转录与处理版本。AI 校对、局部字句确认和训练选稿均不等于全文通过人工审核；无正文、识别缺口和时间戳异常按原状态保留。引用发言应对照来源与可用音频。
+
+## 仓库结构
+
+~~~text
+data/          按 bilibili、youtube、audio、user-content 保存材料
+metadata/      当前索引、复核状态与媒体恢复清单
+provenance/    来源快照、处理批次、纠错与迁移证据
+docs/          阅读目录、数据说明与维护文档
+src/           离线语料工具 weimingzi_corpus
+profiles/      训练与知识库导出规则
+tools/         下载、索引生成与仓库检查
+tests/         工具与语料契约验证
+projects/      持续采集等专项设计
+~~~
+
+来源决定存放位置；章节、标题和跨平台关联由索引描述。YouTube 以自身 ID 独立保存，BV 关联只作参考。完整约定见[目录结构](docs/STRUCTURE.md)。
 
 ## 当前收录
 
@@ -62,38 +47,27 @@ wm-corpus verify --directory /data/gold/cpt-001
 | 动态／专栏正文 | 2,756 条／71 篇 | [用户内容](data/user-content/README.md) |
 | 文集／合集／系列 | 6／3／11 | [用户内容](data/user-content/README.md) |
 | 已发布音频 | 680 份，13 个分卷 | [媒体清单](metadata/media/) |
-| 用户补充音频 | 3 份 | [补充音频](data/supplemental-audio/README.md) |
+| 用户补充音频 | 3 份 | [补充音频](data/audio/README.md) |
 <!-- archive-stats:end -->
 
-统计由 [仓库检查工具](tools/check_repository.py) 从当前目录、索引与媒体清单生成；机器版本见 [dataset-summary.json](metadata/dataset-summary.json)。分 P、YouTube 音轨和补充音频使用不同统计单位，不合并为“视频总数”。内容采集时间以各批次记录为准。
+统计由[仓库检查工具](tools/check_repository.py)核对目录与清单后生成，机器版本见 [dataset-summary.json](metadata/dataset-summary.json)。各来源使用不同统计单位；内容采集时间以各批次记录为准。
 
-## 下载
+## 下载与检查
 
-只阅读文字可以直接浏览目录，或克隆仓库：
+文字材料直接存放在 Git，音频通过 GitHub Releases 分发。需要 Python 3.12 或更高版本：
 
-```bash
+~~~sh
 git clone https://github.com/chosenecho/weimingzi-data.git
 cd weimingzi-data
-```
-
-音频保存在 GitHub Releases。使用 Python 3.12 或更高版本，在仓库根目录运行：
-
-```bash
 python -X utf8 tools/fetch_media.py --list
 python -X utf8 tools/fetch_media.py
-```
+python -X utf8 tools/check_repository.py --verify-hashes
+~~~
 
-默认恢复全部已发布音频到 `data/`，并校验 ZIP 与音频的 SHA-256；已通过校验的文件会复用。按批下载、缓存位置和离线校验见[下载指南](docs/DOWNLOAD.md)。
+下载工具按当前媒体清单恢复到 `data/`，校验 ZIP 与音频 SHA-256，复用已校验文件。维护流程见[贡献说明](CONTRIBUTING.md)。
 
-## 阅读与使用边界
+UID `23191782` 的持续采集方案见[增量监听项目](projects/uploader-23191782/README.md)，目前处于设计阶段。
 
-- AI 阅读稿保留校对记录和原始识别版本；AI 校对及局部字句确认不表示全文已人工审核。
-- 原识别缺口、无正文音轨和时间戳异常继续保留；状态含义及已知问题见[数据说明](docs/DATA-CARD.md)。
-- 归档包含与未明子有关的转载、联合投稿和补充材料，实际上传者以各来源记录为准。
-- 本仓库为非官方归档。内容权利归相应权利人，具体使用条件见[内容权利说明](CONTENT-RIGHTS.md)。
+本仓库为非官方归档，包含转载、联合投稿和补充材料；实际来源以各条记录为准。内容权利见[说明](CONTENT-RIGHTS.md)。
 
-## 仓库维护
-
-[目录结构](docs/STRUCTURE.md) · [更新记录](CHANGELOG.md) · [纠错与贡献](CONTRIBUTING.md) · [文档导航](docs/README.md)
-
-本次整理更新于 **2026-11-04**。数据目录、机器索引和下载工具已按新结构迁移，历史路径对照保存在 [path-map.json](metadata/path-map.json)。
+[文档导航](docs/README.md) · [更新记录](CHANGELOG.md) · [批次与校验](docs/PROVENANCE.md) · [平台迁移记录](provenance/layout-migration/2026-11-04-platforms/README.md)

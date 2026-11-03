@@ -11,8 +11,8 @@
 | 材料 | 来源记录 | 使用入口 |
 | --- | --- | --- |
 | B 站视频与分 P | 分 P 来源记录与原始响应 | [视频目录](VIDEO-INDEX.md) |
-| YouTube 音轨 | YouTube 标识、原始识别响应与审计记录 | [视频 CSV](../metadata/catalog.csv) |
-| 用户补充音频 | 独立本地音频库及音频哈希 | [补充音频](../data/supplemental-audio/README.md) |
+| YouTube 音轨 | YouTube 标识、原始识别响应与审计记录 | [跨平台目录](SOURCE-INDEX.md#youtube-音轨) |
+| 用户补充音频 | 独立本地音频库及音频哈希 | [补充音频](../data/audio/README.md) |
 | 动态、专栏与合集 | 响应、分页证据及数据库快照 | [用户内容](../data/user-content/README.md) |
 | AI 阅读稿 | 阅读稿、校对记录与版本 | 各视频或音频目录 |
 | 字句确认版本 | R01—R06 记录与局部校正版 | [训练源说明](TRAINING.md) |

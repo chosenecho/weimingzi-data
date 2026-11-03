@@ -1,0 +1,49 @@
+{
+  "schema": "weimingzi-layout-validation-v1",
+  "date": "2026-11-04",
+  "repository_check": {
+    "command": "python -X utf8 tools/check_repository.py --verify-hashes",
+    "status": "passed",
+    "navigation_links_checked": 36676,
+    "training_files_hashed": 3940,
+    "source_index_records": 2000,
+    "bilibili_parts": 1979,
+    "youtube_tracks": 18,
+    "supplemental_audio": 3,
+    "source_label_records": 27
+  },
+  "migration_check": {
+    "tracked_moved_files_present": 43932,
+    "non_navigation_files_hashed_before_and_after": 39551,
+    "non_navigation_bytes": 2442208847,
+    "current_catalog_training_and_media_metadata_changed_only_in_paths": true,
+    "frozen_non_navigation_provenance_unchanged": true,
+    "old_storage_directories_absent": true
+  },
+  "tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "status": "passed",
+    "tests_run": 23
+  },
+  "media_check": {
+    "command": "python -X utf8 tools/fetch_media.py --list",
+    "status": "passed",
+    "audio_files_listed": 680,
+    "release_assets_listed": 13,
+    "archive_path_fields_unchanged": true,
+    "downloads_performed": false
+  },
+  "documentation_style_check": {
+    "status": "reviewed",
+    "retained_findings": [
+      "Link targets and source identifiers account for table-width and line-length hints.",
+      "Original titles and punctuation are preserved in generated indexes.",
+      "The substring match in the Chinese data-description title is a false positive."
+    ]
+  },
+  "git_diff_check": {
+    "command": "git -c core.whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol diff --check",
+    "status": "passed",
+    "note": "Existing CRLF is accepted because archive files use -text attributes. No source newline normalization was performed."
+  }
+}

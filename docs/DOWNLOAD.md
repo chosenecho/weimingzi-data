@@ -33,7 +33,7 @@ python -X utf8 tools/fetch_media.py --collection asr-2026-11-03
 python -X utf8 tools/fetch_media.py --collection base --asset audio-001.zip
 ```
 
-下载后的音频位于 `data/videos/` 或 `data/supplemental-audio/`。每个音频目录中的 `.download.md` 记录恢复路径、字节数、SHA-256 和 Release 链接。
+下载后的音频位于 `data/bilibili/` 或 `data/audio/`。每个音频目录中的 `.download.md` 记录恢复路径、字节数、SHA-256 和 Release 链接。
 
 ## 校验与重试
 

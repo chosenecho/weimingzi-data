@@ -14,13 +14,16 @@ import sys
 from urllib.parse import unquote, urlsplit
 
 from fetch_media import ROOT, COLLECTIONS, load_manifest, target_path, digest
+from build_source_index import generated_files as source_index_files
+from build_source_index import records as source_records
+from check_source_labels import collect as labelled_records, expected_files as label_files
 
 GENERATED = "<!-- generated: tools/check_repository.py -->"
 STATS_START = "<!-- archive-stats:start -->"
 STATS_END = "<!-- archive-stats:end -->"
 PAGE_SIZE = 200
 SOURCES = [
-    "metadata/catalog.csv", "metadata/supplemental-audio.csv",
+    "metadata/catalog.csv", "metadata/audio.csv",
     "metadata/missing-products.csv", "metadata/training-source.json",
     "metadata/sources/cola-videos.json", "data/user-content/summary.json",
     *COLLECTIONS.values(),
@@ -42,15 +45,18 @@ def json_text(value):
 
 def collect():
     catalog = read_csv("metadata/catalog.csv")
-    videos = {p.name for p in (ROOT / "data/videos").iterdir() if p.is_dir()}
-    source_ids = {row["id"] for row in read_json("metadata/sources/cola-videos.json")}
-    require(videos == source_ids == {row["bvid"] for row in catalog}, "Video directory/source/catalog sets differ")
+    videos = {p.name for p in (ROOT / "data/bilibili").iterdir() if p.is_dir()}
+    require(videos == {row["bvid"] for row in catalog if row["bvid"]}, "Video directory/catalog sets differ")
     require(all(re.fullmatch(r"BV[0-9A-Za-z]{10}", bv) for bv in videos), "Invalid BV format")
     parts = [(row["bvid"], row["page"]) for row in catalog if row["page"]]
     youtube = [row["youtube_id"] for row in catalog if row["youtube_id"]]
     require(len(parts) == len(set(parts)), "Duplicate Bilibili part")
     require(len(youtube) == len(set(youtube)), "Duplicate YouTube track")
-    for row in catalog:
+    youtube_folders = {p.name for p in (ROOT / "data/youtube").iterdir() if p.is_dir()}
+    require(youtube_folders == set(youtube), "YouTube directories/catalog differ")
+    audio_rows = read_csv("metadata/audio.csv")
+    rows = source_records(catalog, audio_rows)
+    for row in rows:
         require(target_path(row["folder"]).is_dir(), "Missing catalog folder: " + row["folder"])
         if row["recommended_text"]:
             require(target_path(row["recommended_text"]).is_file(), "Missing recommended text: " + row["recommended_text"])
@@ -84,7 +90,7 @@ def collect():
         "video_directories": len(videos), "catalog_rows": len(catalog),
         "bilibili_parts": len(parts), "youtube_tracks": len(youtube),
         "training_entries": len(training["entries"]),
-        "supplemental_audio": len(read_csv("metadata/supplemental-audio.csv")),
+        "supplemental_audio": len(audio_rows),
         "dynamics": dynamics, "article_bodies": articles, "article_lists": lists,
         "seasons": seasons, "series": series, "user_video_index": user_videos,
         "audio_files": len(audio), "audio_assets": len(assets),
@@ -112,7 +118,7 @@ def stats_table(counts):
         f'| 动态／专栏正文 | {c["dynamics"]:,} 条／{c["article_bodies"]:,} 篇 | [用户内容](data/user-content/README.md) |',
         f'| 文集／合集／系列 | {c["article_lists"]:,}／{c["seasons"]:,}／{c["series"]:,} | [用户内容](data/user-content/README.md) |',
         f'| 已发布音频 | {c["audio_files"]:,} 份，{c["audio_assets"]:,} 个分卷 | [媒体清单](metadata/media/) |',
-        f'| 用户补充音频 | {c["supplemental_audio"]:,} 份 | [补充音频](data/supplemental-audio/README.md) |',
+        f'| 用户补充音频 | {c["supplemental_audio"]:,} 份 | [补充音频](data/audio/README.md) |',
     ]) + "\n"
 
 def escaped(value):
@@ -143,16 +149,18 @@ def generated_files(catalog, videos, summary):
         lines = [GENERATED, f"# 视频目录 · {number:02d}", "", navigation, "",
                  "| BV | 标题 | 分 P | YouTube |", "| --- | --- | ---: | ---: |"]
         for bv in bvs:
-            metadata = read_json(f"data/videos/{bv}/metadata.json")
+            metadata = read_json(f"data/bilibili/{bv}/metadata.json")
             rows = groups[bv]
             parts = len({row["page"] for row in rows if row["page"]})
             youtube = len({row["youtube_id"] for row in rows if row["youtube_id"]})
-            lines.append(f'| [{bv}](../../data/videos/{bv}/README.md) | {escaped(metadata["title"])} | {parts} | {youtube} |')
+            lines.append(f'| [{bv}](../../data/bilibili/{bv}/README.md) | {escaped(metadata["title"])} | {parts} | {youtube} |')
         lines.extend(["", navigation, ""])
         output[f"docs/videos/{filename}"] = "\n".join(lines)
     main.extend(["", "返回[仓库首页](../README.md)。", ""])
     output["docs/VIDEO-INDEX.md"] = "\n".join(main)
     output["metadata/dataset-summary.json"] = json_text(summary)
+    output.update(source_index_files(ROOT))
+    output.update(label_files(ROOT, labelled_records(ROOT)))
     return output
 
 def check_generated(output, summary, update):
@@ -178,7 +186,10 @@ def check_generated(output, summary, update):
     require(path.read_text(encoding="utf-8") == expected, "README counts are stale; run --update-index")
 
 def check_links():
-    paths = [*ROOT.glob("*.md"), *(ROOT / "docs").glob("*.md"), *(ROOT / "docs/videos").glob("*.md")]
+    paths = [*ROOT.glob("*.md"), *(ROOT / "docs").rglob("*.md"),
+             *(ROOT / "data").rglob("README.md"), *(ROOT / "data").rglob("*.download.md"),
+             *(ROOT / "provenance").rglob("README.md"),
+             *(ROOT / "projects").rglob("*.md")]
     count = 0
     for path in paths:
         text = path.read_text(encoding="utf-8-sig")

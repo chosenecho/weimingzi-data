@@ -1,0 +1,11 @@
+# 音频下载
+
+恢复路径：`data/youtube/zT72evsuwjw/audio.opus`
+
+文件大小：12783669 字节
+
+SHA-256：`1c37c1356adba6f9061b6c8fe118386a6ff10ebcdbc2eb67124039166985c9ff`
+
+音频保存在 Releases 的 [audio-004.zip](https://github.com/chosenecho/weimingzi-data/releases/download/snapshot-2026-11-03/audio-004.zip) 中。
+
+克隆仓库后运行 `python tools/fetch_media.py`，会下载并校验音频，恢复到当前媒体清单中的 data/ 路径。

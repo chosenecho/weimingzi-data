@@ -18,7 +18,7 @@ class RestoreTests(unittest.TestCase):
         media.ROOT = Path(self.temp.name)
         self.payload = b"verified audio bytes"
         self.row = {
-            "path": "data/videos/BVexample/audio/sample.m4a",
+            "path": "data/bilibili/BVexample/audio/sample.m4a",
             "archive_path": "视频/BVexample/音频/sample.m4a",
             "archive": "audio.zip",
             "bytes": len(self.payload),
@@ -41,6 +41,14 @@ class RestoreTests(unittest.TestCase):
         self.assertEqual(media.restore_archive(archive, [self.row]), 1)
         self.assertEqual(media.target_path(self.row["path"]).read_bytes(), self.payload)
         self.assertFalse((media.ROOT / self.row["archive_path"]).exists())
+
+    def test_youtube_zip_entry_restores_without_a_bilibili_parent(self):
+        row = {**self.row, "path": "data/youtube/abcDEF12_-3/audio.opus",
+               "archive_path": "视频/BVexample/YouTube/abcDEF12_-3/audio.opus"}
+        archive = self.bundle([(row["archive_path"], self.payload)])
+        self.assertEqual(media.restore_archive(archive, [row]), 1)
+        self.assertEqual(media.target_path(row["path"]).read_bytes(), self.payload)
+        self.assertFalse((media.ROOT / "data/bilibili").exists())
 
     def test_unexpected_member_is_rejected_before_any_output(self):
         archive = self.bundle([(self.row["archive_path"], self.payload), ("unexpected.bin", b"x")])

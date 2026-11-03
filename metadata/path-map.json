@@ -1,11 +1,11 @@
 {
-  "schema": "weimingzi-layout-map-v2",
+  "schema": "weimingzi-layout-map-v3",
   "date": "2026-11-04",
   "previous_commit": "34b3a1d01330def52f29184de85c110ef4298c1d",
   "moves": [
     {
       "from": "视频",
-      "to": "data/videos"
+      "to": "data/bilibili"
     },
     {
       "from": "用户内容",
@@ -13,7 +13,7 @@
     },
     {
       "from": "补充音频",
-      "to": "data/supplemental-audio"
+      "to": "data/audio"
     },
     {
       "from": "来源索引",
@@ -41,7 +41,7 @@
     },
     {
       "from": "补充音频目录.csv",
-      "to": "metadata/supplemental-audio.csv"
+      "to": "metadata/audio.csv"
     },
     {
       "from": "无本地产物.csv",
@@ -94,6 +94,162 @@
     {
       "from": "publication-report.json",
       "to": "provenance/initial-snapshot/publication-report.json"
+    },
+    {
+      "from": "data/videos/BV132KjeMEAV/YouTube/xmPlkYpsyGU",
+      "to": "data/youtube/xmPlkYpsyGU"
+    },
+    {
+      "from": "data/videos/BV19bkzYyEEk/YouTube/xts9IFlc57U",
+      "to": "data/youtube/xts9IFlc57U"
+    },
+    {
+      "from": "data/videos/BV1A3S7BCEX5/YouTube/XRyRYKhNB3w",
+      "to": "data/youtube/XRyRYKhNB3w"
+    },
+    {
+      "from": "data/videos/BV1DJB5BJEAY/YouTube/zT72evsuwjw",
+      "to": "data/youtube/zT72evsuwjw"
+    },
+    {
+      "from": "data/videos/BV1Gs4y1A7Ss/YouTube/V195SPrt5Bc",
+      "to": "data/youtube/V195SPrt5Bc"
+    },
+    {
+      "from": "data/videos/BV1KBCMBrEaL/YouTube/xoVCjtKkCcg",
+      "to": "data/youtube/xoVCjtKkCcg"
+    },
+    {
+      "from": "data/videos/BV1QSPSe4EcL/YouTube/LDlmGVgO9bY",
+      "to": "data/youtube/LDlmGVgO9bY"
+    },
+    {
+      "from": "data/videos/BV1RDSTBNEMo/YouTube/3BWV_a28S3c",
+      "to": "data/youtube/3BWV_a28S3c"
+    },
+    {
+      "from": "data/videos/BV1Wt4y1z7C8/YouTube/GPL8YTWB_hI",
+      "to": "data/youtube/GPL8YTWB_hI"
+    },
+    {
+      "from": "data/videos/BV1Z5Pze6EfK/YouTube/EWNGZEvi0YQ",
+      "to": "data/youtube/EWNGZEvi0YQ"
+    },
+    {
+      "from": "data/videos/BV1ZC4y1j7HK/YouTube/FxPwfHeF8dY",
+      "to": "data/youtube/FxPwfHeF8dY"
+    },
+    {
+      "from": "data/videos/BV1eNNWexEFx/YouTube/v44IMpnZ1ws",
+      "to": "data/youtube/v44IMpnZ1ws"
+    },
+    {
+      "from": "data/videos/BV1gh411Y7Xm/YouTube/vWS5ZZ9kmSo",
+      "to": "data/youtube/vWS5ZZ9kmSo"
+    },
+    {
+      "from": "data/videos/BV1hf4y1k7sX/YouTube/EMkOxG97L-w",
+      "to": "data/youtube/EMkOxG97L-w"
+    },
+    {
+      "from": "data/videos/BV1jG4y137dx/YouTube/0iLy_lI8H4Y",
+      "to": "data/youtube/0iLy_lI8H4Y"
+    },
+    {
+      "from": "data/videos/BV1oq4y1q7rg/YouTube/LhbZtt3hmSE",
+      "to": "data/youtube/LhbZtt3hmSE"
+    },
+    {
+      "from": "data/videos/BV1yxmsBbEi6/YouTube/a0jurXgtgZw",
+      "to": "data/youtube/a0jurXgtgZw"
+    },
+    {
+      "from": "data/videos/BV1zR4y1C7iB/YouTube/qhBRyfIkH3E",
+      "to": "data/youtube/qhBRyfIkH3E"
+    },
+    {
+      "from": "data/supplemental-audio",
+      "to": "data/audio"
+    },
+    {
+      "from": "data/videos",
+      "to": "data/bilibili"
+    },
+    {
+      "from": "视频/BV132KjeMEAV/YouTube/xmPlkYpsyGU",
+      "to": "data/youtube/xmPlkYpsyGU"
+    },
+    {
+      "from": "视频/BV19bkzYyEEk/YouTube/xts9IFlc57U",
+      "to": "data/youtube/xts9IFlc57U"
+    },
+    {
+      "from": "视频/BV1A3S7BCEX5/YouTube/XRyRYKhNB3w",
+      "to": "data/youtube/XRyRYKhNB3w"
+    },
+    {
+      "from": "视频/BV1DJB5BJEAY/YouTube/zT72evsuwjw",
+      "to": "data/youtube/zT72evsuwjw"
+    },
+    {
+      "from": "视频/BV1Gs4y1A7Ss/YouTube/V195SPrt5Bc",
+      "to": "data/youtube/V195SPrt5Bc"
+    },
+    {
+      "from": "视频/BV1KBCMBrEaL/YouTube/xoVCjtKkCcg",
+      "to": "data/youtube/xoVCjtKkCcg"
+    },
+    {
+      "from": "视频/BV1QSPSe4EcL/YouTube/LDlmGVgO9bY",
+      "to": "data/youtube/LDlmGVgO9bY"
+    },
+    {
+      "from": "视频/BV1RDSTBNEMo/YouTube/3BWV_a28S3c",
+      "to": "data/youtube/3BWV_a28S3c"
+    },
+    {
+      "from": "视频/BV1Wt4y1z7C8/YouTube/GPL8YTWB_hI",
+      "to": "data/youtube/GPL8YTWB_hI"
+    },
+    {
+      "from": "视频/BV1Z5Pze6EfK/YouTube/EWNGZEvi0YQ",
+      "to": "data/youtube/EWNGZEvi0YQ"
+    },
+    {
+      "from": "视频/BV1ZC4y1j7HK/YouTube/FxPwfHeF8dY",
+      "to": "data/youtube/FxPwfHeF8dY"
+    },
+    {
+      "from": "视频/BV1eNNWexEFx/YouTube/v44IMpnZ1ws",
+      "to": "data/youtube/v44IMpnZ1ws"
+    },
+    {
+      "from": "视频/BV1gh411Y7Xm/YouTube/vWS5ZZ9kmSo",
+      "to": "data/youtube/vWS5ZZ9kmSo"
+    },
+    {
+      "from": "视频/BV1hf4y1k7sX/YouTube/EMkOxG97L-w",
+      "to": "data/youtube/EMkOxG97L-w"
+    },
+    {
+      "from": "视频/BV1jG4y137dx/YouTube/0iLy_lI8H4Y",
+      "to": "data/youtube/0iLy_lI8H4Y"
+    },
+    {
+      "from": "视频/BV1oq4y1q7rg/YouTube/LhbZtt3hmSE",
+      "to": "data/youtube/LhbZtt3hmSE"
+    },
+    {
+      "from": "视频/BV1yxmsBbEi6/YouTube/a0jurXgtgZw",
+      "to": "data/youtube/a0jurXgtgZw"
+    },
+    {
+      "from": "视频/BV1zR4y1C7iB/YouTube/qhBRyfIkH3E",
+      "to": "data/youtube/qhBRyfIkH3E"
+    },
+    {
+      "from": "metadata/supplemental-audio.csv",
+      "to": "metadata/audio.csv"
     }
   ],
   "historical_manifest_overrides": {
@@ -101,5 +257,6 @@
     "TRAINING.md": "provenance/training/2026-11-03/TRAINING.v1.md",
     "media-manifest.json": "provenance/initial-snapshot/media-manifest.json"
   },
-  "note": "Provenance for interpreting frozen historical paths; no legacy path aliases are installed."
+  "note": "Provenance for interpreting frozen historical paths; no legacy path aliases are installed.",
+  "platform_refactor": "provenance/layout-migration/2026-11-04-platforms/manifest.json"
 }

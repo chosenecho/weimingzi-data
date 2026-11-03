@@ -2,6 +2,9 @@
 
 ## 2026-11-04
 
+- 转录材料按来源拆为 `data/bilibili/`、`data/youtube/`、`data/audio/`；YouTube 脱离 BV 目录独立保存。
+- 新增跨平台阅读目录与 `source-index.csv`，稳定身份与现有来源标签一致，保留各来源的质量字段。
+- 整理首页、平台入口与离线语料文档，来源标签和导航纳入仓库检查。迁移前后校验非导航材料，见[平台迁移记录](provenance/layout-migration/2026-11-04-platforms/README.md)。
 - 按 data、metadata、provenance、docs、tools 重组仓库，取消旧路径入口。
 - 首页改为阅读、下载、训练和来源核验入口；完整视频目录改为分页索引。
 - 新增数据说明、下载指南、目录说明、贡献指南与问题模板。
