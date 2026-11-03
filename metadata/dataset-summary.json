@@ -1,12 +1,12 @@
 {
-  "schema": "weimingzi-repository-summary-v2",
+  "schema": "weimingzi-repository-summary-v3",
   "counts": {
-    "video_directories": 1701,
-    "catalog_rows": 1997,
-    "bilibili_parts": 1979,
-    "youtube_tracks": 18,
+    "catalog_records": 2006,
+    "transcript_records": 2000,
+    "content_collections": 1703,
+    "content_categories": 8,
+    "datasets": 6,
     "training_entries": 1966,
-    "supplemental_audio": 3,
     "dynamics": 2756,
     "article_bodies": 71,
     "article_lists": 6,
@@ -16,21 +16,14 @@
     "audio_files": 680,
     "audio_assets": 13,
     "audio_bytes": 12189678232,
-    "archive_bytes": 12189800740,
-    "pending_missing_products": 0
+    "archive_bytes": 12189800740
   },
-  "snapshot_times": {
-    "user_content_exported_at": "2026-11-03T20:30:49.966286+08:00"
-  },
-  "source_sha256": {
-    "metadata/catalog.csv": "a1eb97d9c895bfb6bb4bdde2213bceffc71570f96ad23f2528a97457a8500936",
-    "metadata/audio.csv": "956a4d4c9760b8f426cc9600d8846a4ce732eb60a386037f2a28aaf8102123c7",
-    "metadata/missing-products.csv": "1c4ac803b936d14616dc38322ff3df3910cc362db6ed31b41951d3eed5047c0b",
-    "metadata/training-source.json": "5974e38b3b9fad56b02db924c704690b540dac739f665ada58fa99cfb9e3910d",
-    "metadata/sources/cola-videos.json": "e66b460a111bb3297b2661913e46ca7307463277f4a6d200bace2923483d431c",
+  "input_sha256": {
+    "metadata/catalog.csv": "7c8b04207acd5d5985d50118617a7a50048a7c60a69c275ac22669f4620186dc",
+    "metadata/training-source.json": "047cb77486095df0dc865088c61de6a29cd01c9a2bff0f1ad88685b17f70802a",
     "data/user-content/summary.json": "79e2ca7eda7025c89370c78a92dccdc131bec4cea34a08c30a4de4bf731a7169",
-    "metadata/media/base.json": "1a496a7295b0b5fe8e57b0ad8babdc216136e09631b9e6a0c9d4cf12e90b82e0",
-    "metadata/media/asr-2026-11-03.json": "2e3708b7aa58c763b878158e31b7c7edd1a2bbbbc3b1cc33ea417f24a82b8f05"
+    "metadata/media/base.json": "49c9a7f99c813a0f7e7df521d61a3fb609ad0fa9fa8679a6c8aac2f3c1cc3aad",
+    "metadata/media/asr-2026-11-03.json": "a370c5cf3ab165d4d113fb712ebc421acd75eba89a505ea5cb93b3f29020add2"
   },
-  "review_notice": "Counts describe available records, not human-approved content."
+  "review_notice": "Counts describe available materials, not human-approved content."
 }

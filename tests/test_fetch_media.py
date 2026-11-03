@@ -18,7 +18,7 @@ class RestoreTests(unittest.TestCase):
         media.ROOT = Path(self.temp.name)
         self.payload = b"verified audio bytes"
         self.row = {
-            "path": "data/bilibili/BVexample/audio/sample.m4a",
+            "path": "data/transcripts/哲学与经典/BVexample/audio/sample.m4a",
             "archive_path": "视频/BVexample/音频/sample.m4a",
             "archive": "audio.zip",
             "bytes": len(self.payload),
@@ -36,19 +36,19 @@ class RestoreTests(unittest.TestCase):
                 output.writestr(name, body)
         return archive
 
-    def test_historical_zip_entry_restores_to_new_layout(self):
+    def test_archive_member_restores_to_content_folder(self):
         archive = self.bundle([(self.row["archive_path"], self.payload)])
         self.assertEqual(media.restore_archive(archive, [self.row]), 1)
         self.assertEqual(media.target_path(self.row["path"]).read_bytes(), self.payload)
         self.assertFalse((media.ROOT / self.row["archive_path"]).exists())
 
-    def test_youtube_zip_entry_restores_without_a_bilibili_parent(self):
-        row = {**self.row, "path": "data/youtube/abcDEF12_-3/audio.opus",
+    def test_supplement_restores_inside_content_item(self):
+        row = {**self.row, "path": "data/transcripts/哲学与经典/BVexample/补充版本/abcDEF12_-3/audio.opus",
                "archive_path": "视频/BVexample/YouTube/abcDEF12_-3/audio.opus"}
         archive = self.bundle([(row["archive_path"], self.payload)])
         self.assertEqual(media.restore_archive(archive, [row]), 1)
         self.assertEqual(media.target_path(row["path"]).read_bytes(), self.payload)
-        self.assertFalse((media.ROOT / "data/bilibili").exists())
+        self.assertFalse((media.ROOT / row["archive_path"]).exists())
 
     def test_unexpected_member_is_rejected_before_any_output(self):
         archive = self.bundle([(self.row["archive_path"], self.payload), ("unexpected.bin", b"x")])

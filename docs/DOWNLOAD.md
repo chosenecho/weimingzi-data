@@ -1,6 +1,6 @@
 # 音频下载与校验
 
-文字、字幕、索引和 SQLite 快照保存在 Git 中；音频 ZIP 保存在本仓库 GitHub Releases。当前文件数及字节数来自 [媒体清单](../metadata/media/) 和 [dataset-summary.json](../metadata/dataset-summary.json)。
+文字、字幕、索引和 SQLite 数据库保存在 Git 中；音频 ZIP 保存在本仓库 GitHub Releases。当前文件数及字节数来自 [媒体清单](../metadata/media) 和 [dataset-summary.json](../metadata/dataset-summary.json)。
 
 ## 准备
 
@@ -33,7 +33,7 @@ python -X utf8 tools/fetch_media.py --collection asr-2026-11-03
 python -X utf8 tools/fetch_media.py --collection base --asset audio-001.zip
 ```
 
-下载后的音频位于 `data/bilibili/` 或 `data/audio/`。每个音频目录中的 `.download.md` 记录恢复路径、字节数、SHA-256 和 Release 链接。
+下载后的音频位于 `data/transcripts/<主题>/<内容条目>/` 中。各音频的 `.download.md` 记录恢复路径、字节数、SHA-256 和 Release 链接。
 
 ## 校验与重试
 
@@ -47,9 +47,9 @@ python -X utf8 tools/fetch_media.py --collection asr-2026-11-03 --verify-only
 
 缓存位于 `.cache/media/<release_tag>/`。下载与提取先写入 `.part`，校验通过后再替换目标文件；重复执行会复用完整且哈希正确的缓存和音频。未完成的分卷会重新下载。
 
-## 新目录与旧 ZIP
+## 媒体清单
 
-Release 中的既有 ZIP 不重打包。媒体清单 v2 用 `archive_path` 标识 ZIP 内的历史条目，用 `path` 标识当前恢复位置。应通过工具恢复，直接把旧 ZIP 解压到仓库根目录会产生旧目录。
+Release 中的既有 ZIP 不重打包。媒体清单 v2 用 `archive_path` 标识 ZIP 内的条目，用 `path` 标识当前恢复位置。应通过工具恢复，直接把旧 ZIP 解压到仓库根目录会产生旧目录。
 
 ## 遇到问题
 

@@ -1,10 +1,11 @@
-# 归档材料
+# 数据
 
-| 来源 | 入口 |
+所有条目和数据集登记在[主目录](../metadata/catalog.csv)，按[分类目录](../docs/INDEX.md)浏览。
+
+| 材料 | 位置 |
 | --- | --- |
-| B 站分 P | [bilibili/](bilibili/README.md) |
-| YouTube 音轨 | [youtube/](youtube/README.md) |
-| 用户补充音频 | [audio/](audio/README.md) |
-| 动态、专栏与合集 | [user-content/](user-content/README.md) |
+| 转录、字幕、校对稿及补充版本 | [transcripts/](transcripts/README.md) |
+| 数据库、清单、转录与校对数据 | [datasets/](datasets/README.md) |
+| 动态、文章、文集与合集 | [user-content/](user-content/README.md) |
 
-推荐文稿见[跨平台目录](../docs/SOURCE-INDEX.md)，版本与原始响应留在各来源目录。
+音频按[下载指南](../docs/DOWNLOAD.md)恢复到对应内容条目。

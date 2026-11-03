@@ -1,69 +1,60 @@
-# 目录结构
+# 目录与主目录字段
 
-## 以来源为存储边界
+## 按内容和材料分类
 
 ~~~text
-weimingzi-data/
-├── data/
-│   ├── bilibili/<BV>/P001/
-│   ├── youtube/<YouTube ID>/
-│   ├── audio/<音频条目>/
-│   └── user-content/
-├── metadata/
-│   ├── source-index.csv
-│   ├── catalog.csv
-│   ├── audio.csv
-│   ├── source-labels.json
-│   ├── training-source.json
-│   ├── dataset-summary.json
-│   ├── media/
-│   ├── sources/
-│   └── path-map.json
-├── provenance/
-├── docs/
-├── src/weimingzi_corpus/
-├── profiles/
-├── tools/
-├── tests/
-└── projects/
+data/
+  transcripts/
+    主义主义/
+    哲学与经典/
+    社会与现实/
+    实践与项目/
+    问答与交流/
+    生活与学习/
+    文艺与游戏/
+    杂谈与其他/
+  datasets/
+    校对数据/
+    转录数据/
+    文本修订/
+    训练选稿/
+    资料清单/
+  user-content/
+metadata/
+  catalog.csv
+  training-source.json
+  review-issues.json
+  dataset-summary.json
+  media/
 ~~~
 
-`data/bilibili/` 按 BV、分 P 保存 B 站材料。`data/youtube/` 按 YouTube ID 独立保存音轨转录；与 BV 的关系登记在索引中，不以嵌套目录表达。`data/audio/` 保存用户补充音频的转录和来源记录，以音频 SHA-256 确定身份。现有章节目录名保留为阅读名称，改名不产生新身份。
+主题按既有标题和栏目整理，分类直接登记在主目录中，可以人工调整。每个内容条目只放在一个主题下；条目内保留分段、各份转录及其校对稿，`补充版本/` 用来放同一条目的其他材料。
 
-每条来源内部保留原有版本：`原始转录/`、`AI校对/`、`已发布转录/`、来源响应及 README。并非每条都有全部产物，YouTube 与音频条目按已有材料保存。章节与主题可以在索引、标签或导出视图中组织，不复制正文建立多套主题目录。
+内容目录采用现有 BV、材料标识或章节名定位。平台和文件来路仅作为可用的记录字段，不决定存放层级。条目中的参考关联不证明音轨相同或分段已经对齐。
 
-`data/user-content/` 单独保存动态、文章、文集和合集快照，按自身清单解释路径。音频二进制通过 Release 与媒体清单恢复；Git 中的下载占位说明是导航。
+数据库、报告与清单按材料类型集中到 `data/datasets/`。动态、文章等保持其适用的数据格式，并作为数据集登记在主目录。
 
-## 统一来源标识
+## 一份主目录
 
-| 来源 | record_id | 存放位置 |
-| --- | --- | --- |
-| B 站分 P | `bilibili:<BV>:p<整数>` | `data/bilibili/<BV>/P<三位数>/` |
-| YouTube 音轨 | `youtube:<YouTube ID>` | `data/youtube/<YouTube ID>/` |
-| 用户补充音频 | `audio:<完整 SHA-256>` | `data/audio/<音频条目>/` |
+[catalog.csv](../metadata/catalog.csv) 同时登记转录和数据集。转录按可独立取用的一份材料登记；同一条目的多个分段或补充版本共用 `collection`。数据集按一组文件登记，文件清单见对应 README。
 
-身份不含标题、章节名或校对版本。不同平台记录即使同题也有各自身份；BV 关联不证明逐 P 对齐或音轨相同。阅读推荐版本由索引指定，不能通过扫描目录取排序最后的文件来替代选稿规则。
-
-## 当前索引与冻结证据
-
-| 入口 | 维护方式与含义 |
+| 字段 | 含义 |
 | --- | --- |
-| [catalog.csv](../metadata/catalog.csv) | B 站与 YouTube 的来源目录、推荐文稿及原有质量字段 |
-| [audio.csv](../metadata/audio.csv) | 用户补充音频身份、正文入口和独立复核字段 |
-| [source-index.csv](../metadata/source-index.csv) | 从以上两张表生成的统一检索视图，共用稳定来源标识 |
-| [source-labels.json](../metadata/source-labels.json) | 有明确批次依据的补充来源标签，仅覆盖列出的批次 |
-| [training-source.json](../metadata/training-source.json) | 选定训练稿件与对应哈希，不随统一索引自动扩充 |
-| [media/](../metadata/media/) | 当前恢复路径 `path` 与 ZIP 内路径 `archive_path` 分别登记 |
-| [sources/](../metadata/sources/) 与 [provenance/](../provenance/) | 冻结来源、原响应、处理记录、失败尝试和迁移依据 |
+| record_id | 唯一材料标识，改标题或目录时保留 |
+| kind | `transcript` 或 `dataset` |
+| category | 主题或材料类别 |
+| collection | 内容条目或数据集的根目录 |
+| folder | 这份材料所在目录，位于 collection 内 |
+| title、part_title | 内容标题和分段标题 |
+| recommended_text | 阅读入口；无正文时留空 |
+| recommended_quality_status | 已有版本的质量状态；未提供时留空 |
+| requires_review、human_reviewed 等 | 实际登记的复核字段；空值表示未知 |
+| platform、bvid、youtube_id、audio_sha256、source_details 等 | 已有标识或补充信息；可以为空 |
 
-统一索引的 `platform` 表示上述三种存储来源，`source_id` 为平台 ID 或音频 SHA-256。`bvid` 在 YouTube 行中只表示已记录的参考关系，可以为空；音频行取已有 `related_bvid`。`catalog` 指向负责该条记录的当前 CSV。
+读取当前仓库文件时使用主目录的路径。资料文件自身的路径、时间和模型字段按记录内容理解。新增一种材料无需增加来源目录或来源专用索引。
 
-`quality_status` 原样取视频目录的推荐状态；补充音频没有同名状态，留空。`recognized_text_empty`、`requires_review`、`human_reviewed`、`timed_exports_available` 只传递来源中明确存在的字段，空值表示未在该索引提供，不能解释为 False 或审核通过。完整复核依据仍在原表和条目记录中。
+## 派生入口和工具
 
-历史 JSON、SQLite、字幕、文稿和响应保留原字节及旧路径。当前入口与导航使用新路径；[path-map.json](../metadata/path-map.json) 仅解释历史路径，不提供兼容目录。具体映射见[批次与校验](PROVENANCE.md)。
+[分类目录](INDEX.md)、条目 README、数据集 README 和 [统计](../metadata/dataset-summary.json) 从主目录生成。[training-source.json](../metadata/training-source.json) 是用途选稿，不因主目录新增材料而自动扩充。[媒体清单](../metadata/media/) 负责音频恢复。
 
-## 代码、快照与用途
-
-`src/weimingzi_corpus/` 实现离线交付包接收、编辑、冻结及投影，`profiles/` 保存 CPT 与知识库等用途规则，详见[语料工具](CORPUS.md)。该工具的 Silver/Gold 记录契约与归档 CSV 的检索视图分别维护，统一来源索引不会自动把历史材料转换成已通过生产验收的交付包。
-
-`tools/` 负责媒体恢复、当前索引和导航生成；`tests/` 验证离线工具与归档约束；`projects/` 保存专项设计。生成目录的命令与检查流程见[贡献说明](../CONTRIBUTING.md)。
+`src/weimingzi_corpus/` 与 `profiles/` 提供交付包接收、语料编辑和用途导出，见[离线语料工具](CORPUS.md)。维护命令见[贡献说明](../CONTRIBUTING.md)。

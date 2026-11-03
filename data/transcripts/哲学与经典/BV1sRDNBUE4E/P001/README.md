@@ -1,0 +1,21 @@
+# 【哲学进阶】现代哲学《第一哲学沉思录》第七讲 第三个沉思（4） — P1
+
+BV：`BV1sRDNBUE4E`；分 P：1。
+
+所有文件为本地产物整理副本；AI 校对稿未经人工审核。不同转录来源、版本和复核项均保留。
+
+优先阅读：[打开阅读正文](AI%E6%A0%A1%E5%AF%B9/a7abe1cbf1e26e75/%E5%8F%98%E4%BD%93-5b17d9bbe576ae49/ai-draft.md)
+
+## AI 校对版本
+
+- `a7abe1cbf1e26e75` · 状态 `needs-review` · [ai-draft.md](AI%E6%A0%A1%E5%AF%B9/a7abe1cbf1e26e75/%E5%8F%98%E4%BD%93-5b17d9bbe576ae49/ai-draft.md) · [review.md](AI%E6%A0%A1%E5%AF%B9/a7abe1cbf1e26e75/%E5%8F%98%E4%BD%93-2d247ea13d76607b/review.md)
+
+## 原始转录与源字幕
+
+- `asr-local` · 内容 `fc466c302bb3332f` · [TXT](%E5%8E%9F%E5%A7%8B%E8%BD%AC%E5%BD%95/asr-local/fc466c302bb3332f/transcript.txt) · [JSON](%E5%8E%9F%E5%A7%8B%E8%BD%AC%E5%BD%95/asr-local/fc466c302bb3332f/transcript.json) · [SRT](%E5%8E%9F%E5%A7%8B%E8%BD%AC%E5%BD%95/asr-local/fc466c302bb3332f/transcript.srt) · [VTT](%E5%8E%9F%E5%A7%8B%E8%BD%AC%E5%BD%95/asr-local/fc466c302bb3332f/transcript.vtt)
+- `subtitle-ai` · 内容 `c23b8f5be5f2e1f7` · [TXT](%E5%8E%9F%E5%A7%8B%E8%BD%AC%E5%BD%95/subtitle-ai/c23b8f5be5f2e1f7/transcript.txt) · [JSON](%E5%8E%9F%E5%A7%8B%E8%BD%AC%E5%BD%95/subtitle-ai/c23b8f5be5f2e1f7/transcript.json) · [SRT](%E5%8E%9F%E5%A7%8B%E8%BD%AC%E5%BD%95/subtitle-ai/c23b8f5be5f2e1f7/transcript.srt) · [VTT](%E5%8E%9F%E5%A7%8B%E8%BD%AC%E5%BD%95/subtitle-ai/c23b8f5be5f2e1f7/transcript.vtt)
+
+## 历史转录包、阅读站与音频
+
+- 转录包 `b3733b1ed09aea11`：[bundle.md](%E5%B7%B2%E5%8F%91%E5%B8%83%E8%BD%AC%E5%BD%95/b3733b1ed09aea11/bundle.md) · [bundle.raw.json](%E5%B7%B2%E5%8F%91%E5%B8%83%E8%BD%AC%E5%BD%95/b3733b1ed09aea11/bundle.raw.json) · [bundle.srt](%E5%B7%B2%E5%8F%91%E5%B8%83%E8%BD%AC%E5%BD%95/b3733b1ed09aea11/bundle.srt) · [bundle.txt](%E5%B7%B2%E5%8F%91%E5%B8%83%E8%BD%AC%E5%BD%95/b3733b1ed09aea11/bundle.txt) · [bundle.vtt](%E5%B7%B2%E5%8F%91%E5%B8%83%E8%BD%AC%E5%BD%95/b3733b1ed09aea11/bundle.vtt)
+- 转录包 `0b2ef0cfcf504698`：[bundle.md](%E5%B7%B2%E5%8F%91%E5%B8%83%E8%BD%AC%E5%BD%95/0b2ef0cfcf504698/bundle.md) · [bundle.raw.json](%E5%B7%B2%E5%8F%91%E5%B8%83%E8%BD%AC%E5%BD%95/0b2ef0cfcf504698/bundle.raw.json) · [bundle.srt](%E5%B7%B2%E5%8F%91%E5%B8%83%E8%BD%AC%E5%BD%95/0b2ef0cfcf504698/bundle.srt) · [bundle.txt](%E5%B7%B2%E5%8F%91%E5%B8%83%E8%BD%AC%E5%BD%95/0b2ef0cfcf504698/bundle.txt) · [bundle.vtt](%E5%B7%B2%E5%8F%91%E5%B8%83%E8%BD%AC%E5%BD%95/0b2ef0cfcf504698/bundle.vtt)
