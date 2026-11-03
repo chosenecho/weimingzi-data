@@ -1,0 +1,18 @@
+# 【主义主义】本质心理主义（3-1-2-2）——心病只用心药医的本质现象学，拒斥彻底而狂妄的先验主体性 — P1
+
+BV：`BV1e64y1b7Nc`；分 P：1。
+
+所有文件为本地产物整理副本；AI 校对稿未经人工审核。不同转录来源、版本和复核项均保留。
+
+优先阅读：[打开阅读正文](AI校对/b253dfb621e2d759/ai-draft.md)
+
+## AI 校对版本
+
+- `b253dfb621e2d759` · 状态 `needs-review` · [ai-draft.md](AI校对/b253dfb621e2d759/ai-draft.md) · [review.md](AI校对/b253dfb621e2d759/review.md)
+
+## 原始转录与源字幕
+
+- `asr-local` · 内容 `b08f821a8defaef7` · [TXT](原始转录/asr-local/b08f821a8defaef7/transcript.txt) · [JSON](原始转录/asr-local/b08f821a8defaef7/transcript.json) · [SRT](原始转录/asr-local/b08f821a8defaef7/transcript.srt) · [VTT](原始转录/asr-local/b08f821a8defaef7/transcript.vtt)
+
+## 历史转录包、阅读站与音频
+

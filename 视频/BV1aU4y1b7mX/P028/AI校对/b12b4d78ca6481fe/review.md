@@ -1,0 +1,405 @@
+# 【经典译读】康德《纯粹理性批判》（连载中）：校验参照稿件
+
+AI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。
+
+修订：`b12b4d78ca6481fe255b0e4b84e3a4ada6ab869374ca65d0e7e21fee7ce8a527`
+
+输入快照：`95df7f8173f7fa262b68bb2e51ed5c80127fb30dd3982300435168aec3d7b8b9`
+
+模型：`deepseek-flash`；思考：`high`；top_p：`0.95`
+
+规则：`readable-prose-v2`；模板：`ai-draft-v1`
+
+基础转录：`2436`；参考转录：`3199`
+
+## 段落 1：00:00:00 — 00:00:54
+
+来源：`t2436:s0`, `t2436:s1`, `t2436:s2`, `t2436:s3`, `t2436:s4`, `t2436:s5`, `t2436:s6`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=0)
+
+原文：这个从这里去批判啊，他的那个《现象感性论》B版啊，《现象感性论》B版的这个第七部分、第七小节吧，就是一个对上面讨论部分一个阐明啊，就是说，那么against this theory which conceives empirical reality in time but disputes its absolute and transcendental reality in itself forman，就是说，会有一些有洞见、有见识的人，他怎么样呢？他会如此其一的，嗯啊，其一的提出一个反对，来反对什么？反对我康德的这个理论啊，就是说我承认这个时间具有经验的啊现实性，但是呢，他驳斥他不承认他有这个绝对的和先验的现实性啊，他在先验上面他不是个现实性东西，它是一个什么理理念性的东西，呃，他们就会说，
+
+整理稿：这里从《纯粹理性批判》B版的《先验感性论》第七部分、第七小节开始批判。这一节是对上面讨论的阐明。针对那种理论——它承认时间中的经验实在性，却否认时间本身具有绝对的和先验的实在性（against this theory which conceives empirical reality in time but disputes its absolute and transcendental reality in itself）——会有一些有洞见的人提出一个反对：他们承认时间具有经验实在性，但驳斥、不承认它具有绝对的和先验的实在性；在先验层面，时间不是现实的东西，而是某种理念性的东西。
+
+- 疑点：开头书名与篇名疑为《纯粹理性批判》B版《先验感性论》第七部分、第七小节；ASR作“现象感性论”。；候选：《纯粹理性批判》B版《先验感性论》第七部分、第七小节；依据：t2436:s0, t3199:s0, t3199:s1, t3199:s2, t3199:s3, t3199:s4
+
+## 段落 2：00:00:57 — 00:01:44
+
+来源：`t2436:s7`, `t2436:s8`, `t2436:s9`, `t2436:s10`, `t2436:s11`, `t2436:s12`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=57)
+
+原文：我我得出的结论说，it must naturally occur to everyreader啊，呃，就是说，就是说，对于每一个读者来说，都会很自然的会感受到who isnot，就是那些读者他不习惯啊这些不是他妈的，就会提出一种反对，这一个反对是我把这种反对看成是，I concludedthat，我我推断啊，应该是我推断，我推断他们提出的这种反对呢，他是会非常自然的在那些普通读者脑子里面产生出来的，这些一般的每一个读者呢，他不他就不适应我的这种思考方式，不适应我康德这种方式，然后他们就会产生这样一种对我的观点一种反对，那么这种反对呢是这样的，就是说
+
+整理稿：他们就会说：我得出的结论是，it must naturally occur to every reader——对每一个读者来说，这种想法都会很自然地产生；who is not accustomed，就是那些不习惯的人，就会提出一种反对。我把这种反对看成是：I concluded that，我推断，这种反对会非常自然地在普通读者脑子里产生出来。一般的每一个读者都不适应我的思考方式，不适应康德这种方式，于是就会对我的观点产生这样一种反对。
+
+## 段落 3：00:01:44 — 00:02:55
+
+来源：`t2436:s13`, `t2436:s14`, `t2436:s15`, `t2436:s16`, `t2436:s17`, `t2436:s18`, `t2436:s19`, `t2436:s20`, `t2436:s21`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=104)
+
+原文：alterations，就变动，变动呢是真实的啊，it is provided by the change of our ownrepresentation，它是被我们这个我们自己的这个表征啊所所给予的，我们表征在不停的发生变化嘛，它提供了这种变动，even if one weredenied，即便一个人他否定所有的外部表象啊，连同他的那个他的那个变动啊，外部的表象和他们的一些变化变变化全部给他啊否定掉的话，这个表象本身还是真实的，还是真实的啊，然后就是因为这个表征啊，这个表征它不停的在动啊，不停的在在变，不停在动啊，哪怕我们否认它是什么外部的，是吧？这里的deny，这里的deny我这是是否认的意思吧？否认拒绝承认所有的外部啊，就是说我不承认这些东西是外在的，但是呢，这个变动本身它是真的，变动本身都是真的，我哪怕这些东西都是我心里面的幻觉，但它不停的在变，这件事情本身是真的。Now alterations are possible only intime，那那现在呢，这种变化或者这种变动呢，它只有在时间中才是可能发生的，因此时间也是某种真实的东西。
+
+整理稿：这种反对是这样的：alterations，也就是变动，是真实的；it is provided by the change of our own representation，它是由我们自己的表征的变化所提供、所给予的——我们的表征不停发生变化，就提供了这种变动。Even if one were denied，即便一个人否定所有外部表象，连同外部表象及其变化全部否定掉，这个表象本身还是真实的。也就是说，我们否认、拒绝承认所有这些外部东西是外在的，但变动本身是真的。哪怕这些东西都是我心里的幻觉，它不停地在变，这件事情本身是真的。Now alterations are possible only in time：变化只有在时间中才可能发生，因此时间也是某种真实的东西。
+
+## 段落 4：00:02:55 — 00:03:43
+
+来源：`t2436:s22`, `t2436:s23`, `t2436:s24`, `t2436:s25`, `t2436:s26`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=175)
+
+原文：啊，时间也是某种真实的东西，这是一般那些聪明的人对康德说，时间只是经验性的真实东西，本质上不是真的东西，本质上是在是一个源代码啊，啊说因为变化本身肯定是真的，肯定有变化嘛，变化他妈的虽然我说外面这东西都是假的，但是变化本身不能是假的吧，对不对？变化本身肯定是现实的，是真的，是客观的，所以啊，然后变化只能在时间里面存在，所以时间也是客观的，也是真的啊。There is no difficulty answering。那么康德认为这么一个反驳意见的没什么，要就轻小菜一碟，妈的，就是可以推翻掉，就是说我承认这整个论论，我承认这整个这个这个这个这个论证过程，这个整个论题，时间肯定是某种真实的东西，但是他会告诉你这个真实是，
+
+整理稿：这是一般那些聪明人对康德说的：时间只是经验性的真实东西，本质上不是真正的东西。因为变化本身肯定是真的，肯定有变化；虽然我说外面这些东西都是假的，但变化本身不能是假的吧？变化本身肯定是现实的、真的、客观的，而变化只能在时间里面存在，所以时间也是客观的、也是真的。There is no difficulty answering。
+
+- 疑点：s22 中“源代码”疑为误识，正文未保留该词。；候选：；依据：t2436:s22, t3199:s75
+
+## 段落 5：00:03:44 — 00:04:19
+
+来源：`t2436:s27`, `t2436:s28`, `t2436:s29`, `t2436:s30`, `t2436:s31`, `t2436:s32`, `t2436:s33`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=224)
+
+原文：因为他提出这个意见，只说它是somethingreal嘛，但是他没有规定这个real是在何种意义上真实嘛，所以康德就说这个真啊，只是它是经验上真，它对于经验性的表象，它的安排是真的，它somethingreal，它确实是某种东西，也就是说它是对于内在直观的那个真实的一个形式，因此呢，它具有主观的一种真实性啊，它是对应于这个内在体验，它具有主观的真实性，也就是说I really havethe，我真的是具有对于时间的表征，以及我在时间当中的啊一些规定性，确实是有的。
+
+整理稿：康德认为，这样一个反驳意见其实小菜一碟，可以推翻掉。也就是说，我承认这整个论证过程、整个论题：时间肯定是某种真实的东西；但康德会告诉你，这个“真实”是在什么意义上说的。因为提出这个意见的人只说它是 something real，却没有规定这个 real 是在何种意义上真实。所以康德说，这个真只是经验上的真：它对于经验性的表象、对经验性表象的安排是真的；它确实是 something real，是某种东西，也就是说，它是内在直观的那个真实的一个形式。因此，它具有主观的真实性，对应于内在体验。也就是说，I really have——我确实具有对时间的表征，以及我在时间当中的一些规定性，这确实是有的。
+
+## 段落 6：00:04:20 — 00:05:06
+
+来源：`t2436:s34`, `t2436:s35`, `t2436:s36`, `t2436:s37`, `t2436:s38`, `t2436:s39`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=260)
+
+原文：B版里面加上去了，in the first edition变成of mine and of ofmine，它肯定是错漏了，把自己改掉一下，itis，然后然后it is therefore to be regarded really not as object。因此呢，我们不能够把这个时间啊理解成是一种对象，而是要把它理解成是一种把它自己作为对象啊表征出来的一种方式啊，把我自己作为对象表征出来的一种方式，把我的内在内在体验啊什么什么，然后但是如果我或者另外一种存在，它能也能够啊可以直观到我自己，不需要这么一种感性的这些条件，就时间时间这么一个形式，直接可以直观到我自己的话，
+
+整理稿：B版里面加上去了：in the first edition 变成 of mine and of mine，这肯定是错漏，把自己改掉一下。然后 it is therefore to be regarded really not as object。因此，我们不能把时间理解成一种对象，而要把它理解成一种把自身作为对象表征出来的方式，把我自己作为对象表征出来的方式，把我的内在体验作为对象表征出来。但是，如果我或者另外一种存在，也能够不需要感性的条件、不需要时间这种形式，直接直观到我自己，那会怎样呢？
+
+- 疑点：B版与第一版此处校勘文字“of mine and of mine”不确定，正文保留原样。；候选：of mine and of mine；依据：t2436:s34, t2436:s35, t3199:s111, t3199:s112, t3199:s113, t3199:s114
+
+## 段落 7：00:05:07 — 00:08:53
+
+来源：`t2436:s40`, `t2436:s41`, `t2436:s42`, `t2436:s43`, `t2436:s44`, `t2436:s45`, `t2436:s46`, `t2436:s47`, `t2436:s48`, `t2436:s49`, `t2436:s50`, `t2436:s51`, `t2436:s52`, `t2436:s53`, `t2436:s54`, `t2436:s55`, `t2436:s56`, `t2436:s57`, `t2436:s58`, `t2436:s59`, `t2436:s60`, `t2436:s61`, `t2436:s62`, `t2436:s63`, `t2436:s64`, `t2436:s65`, `t2436:s66`, `t2436:s67`, `t2436:s68`, `t2436:s69`, `t2436:s70`, `t2436:s71`, `t2436:s72`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=307)
+
+原文：那么这些规定性，时间上的规定性，比如说我当前我左我前一瞬间，下一瞬间，我刚刚，如果我可以直观不需要这个时间的这个这种感感性形式，就直接直观到我自己的话，那么这些规定性啊，which we now represent to ourselves asalterations，我们现在把它作为我自己的啊就是作为变化，然后呈现给我们自己，我们感到我的自我意识其实是在不停的在在演绎的，是不是在时时代上在不停发生变化的嘛，就这种变动啊，这种表象就不能够啊ield us a cognition which bebe就不能够为我们ield的意思就是提供啊，你可以把它理解成产生，但其实就是它就它就是说。必然要求一个什么东西的存在啊？Eilds，我靠，那我们搜一下吧，这个词，呃，来再看一下，把底细弄清楚。E i l d s，s o m e m o n e y,s e r v i c e,o f f e r i n g,w o r s h i p f r o m t h e s o u r c e o f，它是一个动词啊，就是t o p a y,p a y f o r,r e w a r d,r e n d e r,w o r s h i p,r e c e i v e,s a c r i f i c e t o,f r o m p r o t o就是p a y，付钱，r e t u r n,r e p a y，它是这个意思啊。T o c o s t,t o b e w o r t h，啊，c o n c e r n，这么一个，T h e o n l y g e n e r a l s u r v i v i n g s e n s e o n c o n t i n e n t a r e t o b e w o r t h,t o b e v a l i d,t o c o n c e r n,a p p l y t o，足以是吧？足以，w h i c h a r e n o t p r e s e n t e d a t a l l i n E n g l i s h w o r d，这个词在大陆的意思里面是这个意思，但是在英语里面就已经没了。S e n s e d e v e l o p e d i n E n g l i s h c o m e s v i a u s e o f t h i s w o r d t o t r a n s l a t e L a t i n，这个什么，F r e n c h什么什么，s e n s e o f g i v e n i n r e t u r n f o r l a b o r，哦，不好意思，所以这个词是啥意思啊？讲了半天，没文化，直接百度法搜索啊，让步屈服，t h e c o p e,e i l d s h a v e e i l d s，翻译，它一直出现，我们专门要看一下啊，什么意思？被迫产生啊，实际上是是屈服，是投降，呃，用作动词，有望获利，e i l d，有望产生，声称其实是声明，声称，引申也可以放弃，投降，生产产出，啊，差不多这个意思吧，好吧，就这，它将会为就不能够为我们提供，我们就翻以后就翻译成提供，不能为我们提供一个认识，在这种认识当中呢，对于时间的表征以及对于这个变化的表征呢，将会根本就不会发生的，根本就不会发生。就是说，如果如果我不用这种主观的感性的这种条件去直观我自己的话啊，我或者另外一种存在，其实就上帝了，它是a n o t h e r b e i n g就是上帝了。那么i t s e m p i r i c a l r e a l i t y t h e r e f o r e r e m a i n s a s肯定是，因此呢，时间的这种经验的现实性呢，它始终是一个我们所有感官的一个条件啊，我们所有的经验体验的一个条件。只有绝对的呃这个现实性不能够啊，只是这里o n l y翻成只是，只是这个绝对的现实性它是不能够被赋予给时间的啊。那么因为根据这种绝对的现实性的a c c o r d i n g t o w h a t h a s b e e n a d d u c e d a b o v e，它就是依据上面上面所所所推断的，如果你有绝对的现实性的话，那前面讲过了，我不想再重复了，i t i s n o t h i n g e x c e p t t h e f o r m o f o u r i m a g e，因此它什么也不是，只是我们内在直观的一个形式。Eildssome money service offering worship from the source of它是一个动词啊就是to pay pay for reward render worship receive sacrificeto from proto就是pay付钱return repay它是这个意思啊To cost to be worth啊concern这么一个The onlygeneral surviving sense on continent are to be worth to be validto concern apply to足以是吧足以which are not presented at all in English word这个词在大陆的意思里面是这个意思但是在英语里面就已经没了Sense developed in English comes via use of thisword to translate Latin这个什么French什么什么sense of given in returnfor labor哦不好意思所以这个词是啥意思啊讲了半天没文化直接百度法搜索啊让步屈服the cope eilds have eilds翻译它一直出现我们专门要看一下啊什么意思被迫产生啊实际上是是屈服是投降呃用作动词有望获利eild有望产生声称其实是声明声称引申也可以放弃投降生产产出啊差不多这个意思吧好吧就这它将会为就不能够为我们提供我们就翻以后就翻译成提供不能为我们提供一个认识在这种认识当中呢对于时间的表征以及对于这个变化的表征呢将会根本就不会发生的根本就不会发生就是说如果如果我不用这种主观的感性的这种条件去直观我自己的话啊我或者另外一种存在其实就上帝了它是another being就是上帝了那么its empirical realitytherefore remains as肯定是因此呢时间的这种经验的现实性呢它始终是一个我们所有感官的一个条件啊我们所有的经验体验的一个条件只有绝对的呃这个现实性不能够啊只是这里only翻成只是只是这个绝对的现实性它是不能够被赋予给时间的啊那么因为根据这种绝对的现实性的accordingto what has been adduced above它就是依据上面上面所所所推断的如果你有绝对的现实性的话那前面讲过了我不想再重复了it is nothing except the form of our image因此它什么也不是只是我们内在直观的一个形式
+
+整理稿：那么这些时间上的规定性——比如我前一瞬间、下一瞬间——以及我们现在作为变化呈现给自己的那些规定性（which we now represent to ourselves as alterations），就会表现为：我们感到自己的自我意识不停地在时间中发生变化。这种变动、这种表象就不能够 yield us a cognition——yield 这里应理解为“提供”或“产生”，也就是不能为我们提供一个认识。在这种认识中，对时间的表征以及对变化的表征根本不会发生。也就是说，如果我不通过主观的感性条件直观自己，或者另外一种存在——其实也就是上帝，another being——不用这种条件直观自己，那么时间的经验实在性仍然作为我们所有感官、所有经验体验的条件保留下来；只是这里 only 应译成“只是”：只是绝对的实在性不能被赋予给时间。因为按照前面所推断的（according to what has been adduced above），如果有绝对的实在性，前面已经讲过，我不想重复：it is nothing except the form of our intuition，因此时间什么也不是，只是我们内在直观的一个形式。
+
+- 疑点：s44—s47 中 Eilds/yield 应为 yield，正文按“提供/产生”处理。；候选：yield；依据：t2436:s44, t2436:s46, t2436:s47, t3199:s145, t3199:s149, t3199:s153, t3199:s154
+- 疑点：s45“必然要求一个什么东西的存在”语义不完整，未纳入正文。；候选：；依据：t2436:s45, t3199:s148
+- 疑点：the form of our image 疑为 the form of our intuition，正文按“直观”处理。；候选：the form of our intuition；依据：t2436:s71, t3199:s223
+
+## 段落 8：00:08:54 — 00:10:03
+
+来源：`t2436:s73`, `t2436:s74`, `t2436:s75`, `t2436:s76`, `t2436:s77`, `t2436:s78`, `t2436:s79`, `t2436:s80`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=534)
+
+原文：然后这里加了一个星号，我可以很确信的说，明确的说，我我的表征它是相续的，就是你闭上眼睛感受你的一个个的感受，这个这里可以甚至可以把它翻译成念头啊，你的念头是一个个相续发生的。But that only means that we are conscious of them as in a temporalsequence\.但是这只意味着我们是啊做以一种在时间序列当中的方式来意识到它们的，也就是说是根据内在感官的形式来意识到它们的。时间本身并没有被看成是一个实在的东西，被被被把握到，时间并没有在这个意义上，only因此就是某种东西自在存在的东西，是吗？或者说就是说你要把时间看成是你自己的东西，你不要把时间看成是一个别人给你的框框，你最内在的体验都有时间性，这个时候你就大胆的说时间就是我的，了解吗？就是康德是这个意思，你最内在体验都能感到时有时间性，那你妈的你就不要说你是在时间里面的，你干脆就直接说这是我们内在感官的形式，这是我们，这就是我的灵魂的自带的功能，了解吗？
+
+整理稿：这里加了一个星号。我可以很确信地说、明确地说：我的表征是相续的。你闭上眼睛感受自己一个一个的感受——这里甚至可以把它翻译成念头——你的念头是一个个相续发生的。But that only means that we are conscious of them as in a temporal sequence：这只意味着我们是以一种在时间序列中的方式来意识到它们的，也就是根据内在感官的形式来意识到它们。时间本身并没有被看成是一个实在的东西、没有被把握到；时间并没有在这个意义上成为某种自在存在的东西。或者说，你要把时间看成是你自己的东西，不要把它看成别人给你的框框。你最内在的体验都有时间性，这个时候你就大胆地说：时间就是我的。
+
+## 段落 9：00:10:03 — 00:10:44
+
+来源：`t2436:s81`, `t2436:s82`, `t2436:s83`, `t2436:s84`, `t2436:s85`, `t2436:s86`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=603)
+
+原文：你就把时间看成是这是我们人类灵魂自带的功能，就是以时间性的方式把握一切，就是你的生存你的存在，你这个时候还说这是我爹给我的小轿车，操，你他妈小轿车已经跟你的生活密不可分了，这是你直接说我人车一体了，差不多这个意思，了解吗？你这不要，他都给都给你了，你还一天到晚说这是我爹给我的小轿车，这是我爹，那你就不用修车了吗？啊，那你就不用给他换机油了吗？给他做小保养大保养了吗？对不对？是不是？了解吗？就是说你那就是，所以说它也不是任何一个是附属于啊事物的一个客观的，客观的附属于事物的规定性啊，它你得把时间看成是你自己的
+
+整理稿：康德就是这个意思：你最内在的体验都能感到有时间性，那你就不要说自己是在时间里面的，你干脆直接说，这是我们内在感官的形式，是我的灵魂自带的功能。也就是说，把时间看成人类灵魂自带的功能，以时间性的方式把握一切——你的生存、你的存在都是如此。你这个时候还说“这是我爹给我的小轿车”，可小轿车已经跟你的生活密不可分了，你直接说“我人车一体了”，差不多就是这个意思。他都给你了，你还一天到晚说这是我爹给我的小轿车，那你就不用修车了吗？不用给他换机油、做小保养大保养了吗？所以说，时间也不是某种客观地附属于事物的规定性；你得把时间看成你自己的感性形式，内在感性形式。
+
+## 段落 10：00:10:44 — 00:11:23
+
+来源：`t2436:s87`, `t2436:s88`, `t2436:s89`, `t2436:s90`, `t2436:s91`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=644)
+
+原文：感性形式，内在感性形式。If one removes the special condition of our sensibility fromit，如果一个人去掉我们啊从时间中去掉我们那个感受性的那个特殊条件的话，then the concept oftime，那么时间这个概念啊，从时间这概念里面把这个这个我们的主观条件，感性主观条件给去掉的话，那么时间概念本身也会消失掉，它就并不能够附属于那些对象本身啊，它仅仅是附属于这个直观到这些对象的那个那个主体的。那么the
+
+整理稿：If one removes the special condition of our sensibility from it：如果一个人从时间中去掉我们感受性的那个特殊条件，then the concept of time——那么时间概念本身也会消失掉。它就不能够附属于那些对象本身，而仅仅是附属于直观这些对象的那个主体。
+
+## 段落 11：00:11:23 — 00:13:11
+
+来源：`t2436:s92`, `t2436:s93`, `t2436:s94`, `t2436:s95`, `t2436:s96`, `t2436:s97`, `t2436:s98`, `t2436:s99`, `t2436:s100`, `t2436:s101`, `t2436:s102`, `t2436:s103`, `t2436:s104`, `t2436:s105`, `t2436:s106`, `t2436:s107`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=683)
+
+原文：cause，那么原因，on account of which this objection isso，那么为什么会会产生如此那么多人都会产生就同样的一种反对意见呢？它的原因是啊，并且事实上是被那些啊nevertheless know of nothing consistent to objectagainst的，事实上是被那些根本一无所知啊，并不知道任何可信的东西就要去反对啊时间的这个空间的空间以及时间的这里空间的这个理念性的这个理论的学说的那些人。啊，就是说那些对于根本不知道任何可信的东西就来反对这个空间的理念性的学说，那些人也跑过来反对这个一致的如此一致的反对时间的原因是什么？Isthis就是这个，就是这个，就是上面这个，就是这这个。他们并不就下面可能原因就在下面啊，他们并不期待的去能够去啊demonstrate证明这个空间以一种明证的方式证明空间本身的绝对的实在性啊现实性，因为他们是呃面对着观念论的，they were confronted byidealism啊不是因因为这个这个they指的是什么？哦，他们哦是我知道了，因为这个逗号他妈的这个逗号是个插插入语啊插入语。They were confronted by idealism according to which the reality of ournot呃not capable ofany就是说他们是啊因为观念论的存在让这些人面对着一个窘境，面对着一种情况，就是按照观念论，他面对的是conconfronted什么呢？
+
+整理稿：那么，the cause, on account of which this objection is so——为什么会产生如此多、如此一致的反对意见呢？原因在于，事实上是被那些 nevertheless know of nothing consistent to object against 的人，也就是那些根本一无所知、并不知道任何可信的东西就要去反对空间和时间的理念性学说的人。那些对空间的理念性学说根本不知道任何可信的反对理由的人，也跑过来反对，而且反对得如此一致。这个原因是什么？可能就在下面：他们并不试图以明证的方式去 demonstrate、证明空间本身的绝对实在性，因为他们面对的是观念论——they were confronted by idealism。这里 they 指谁？哦，我明白了，这个逗号是插入语：They were confronted by idealism according to which the reality of our outer objects is not capable of any strict proof。也就是说，由于观念论，这些人面对着一个窘境：按照观念论，他们面对的究竟是什么呢？
+
+- 疑点：s104—s106 英文从句在“the reality of our \.\.\. not capable of any \.\.\.”处不完整，正文据上下文补为“我们外部对象的现实性并不能得到任何严格的证明”。；候选：the reality of our outer objects is not capable of any strict proof；依据：t2436:s104, t2436:s105, t2436:s106, t3199:s319, t3199:s320, t3199:s321, t3199:s322
+
+## 段落 12：00:13:11 — 00:13:33
+
+来源：`t2436:s108`, `t2436:s109`, `t2436:s110`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=791)
+
+原文：他后面没加with啊confrontedthat吧that就是就是这个我们外部这些对象的这个现实性并不是呃能够用严格的方式来证明的，就是观念论啊或者叫唯心主义，这里翻译成唯心主义比较好啊唯心主义它就是表明的外部对象的现实性不能够严格证明的。On the
+
+整理稿：他后面没加 with，是 confronted that。也就是说，我们外部这些对象的现实性并不能用严格的方式来证明。这里说的就是观念论，或者叫唯心主义；翻译成唯心主义比较好。唯心主义表明，外部对象的现实性不能严格证明。
+
+## 段落 13：00:13:33 — 00:14:35
+
+来源：`t2436:s111`, `t2436:s112`, `t2436:s113`, `t2436:s114`, `t2436:s115`, `t2436:s116`, `t2436:s117`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=813)
+
+原文：contrary恰恰相反the reality of the object of ourinnocence呃而恰恰相反我们的内在感官的这些对象的现实性呢就是比如说对于我自己以及我的呃心理状态的它是可以直接的清楚的通过意识可以清楚的把握的，所以这些人啊他他那个反对这个空间的理呃空间的这个理理观念性，他们就柿子挑软的捏，空间的观念性他这是反对不动，因为外部东西你观念论告诉他们啊就是说外外部的这些客体它的这个严格的这个客观性啊严格的现实性是没有办法被被严格证明的，所以这些人转而就过来挑这个刺儿，挑时间的这个这个观念性啊时间是那空间不是完全完全客观的，这我可以承认，因为外部这东西你永远没办法证明他们就是完全外在的啊永远完全客观，那我可以可以柿子挑软的捏对不对？
+
+整理稿：On the contrary, the reality of the object of our inner sense：恰恰相反，我们内在感官对象的现实性，比如对我自己以及我的心理状态的现实性，是可以通过意识直接、清楚地把握的。所以这些人在反对空间的观念性时，就柿子挑软的捏：他们没法反对空间的观念性，因为按照观念论，外部客体的严格客观性、严格现实性无法被严格证明。于是他们转而挑时间的观念性，说时间和空间不是完全客观的——这我可以承认，因为外部事物你永远没办法证明它们完全外在、永远完全客观。那我不就可以柿子挑软的捏吗？
+
+- 疑点：英文 the reality of the object of our innocence 疑为 inner sense，正文按“内在感官”处理。；候选：inner sense；依据：t3199:s341, t3199:s344
+
+## 段落 14：00:14:35 — 00:15:03
+
+来源：`t2436:s118`, `t2436:s119`, `t2436:s120`, `t2436:s121`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=875)
+
+原文：我可以过来说你啊你就不能说时间也是一个一个一个一个心灵的主观的东西，因为你的这个自我意识的这种连续性它是它是非常明确的非常清楚的啊非常清楚。The former could have been a mereillusion就是前面这些呃。就是前面这个应该是前面指的是外部事物的现实性，可能仅仅是一个幻觉，就比如笛卡尔的怀疑论。
+
+整理稿：我可以说：你就不能把时间也说成心灵的主观的东西，因为自我意识的连续性是非常明确、非常清楚的。The former could have been a mere illusion：前面这个 former，指的是外部事物的现实性，可能仅仅是一个幻觉，比如笛卡尔的怀疑论。
+
+## 段落 15：00:15:03 — 00:15:36
+
+来源：`t2436:s122`, `t2436:s123`, `t2436:s124`, `t2436:s125`, `t2436:s126`, `t2436:s127`, `t2436:s128`, `t2436:s129`, `t2436:s130`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=903)
+
+原文：但是呢，这里的idealism主要指的是笛卡尔那种。但是呢，后者according to theiropinion，但是后者就是我以及我的内在观念它的这个直接的它的这个现实性，我就是我内感官的对象的现实性。你闭上眼睛感受你自己是不是他妈清楚明白特别清楚？但其实上这是个形而上学幻觉啊。他按照他们的观点，他是undeniably something real。你看这些其实很有意思啊，这些人啊，他是不可否认的是某种真实的东西，某种。
+
+整理稿：但这里的 idealism 主要指的是笛卡尔那种。而后者，according to their opinion，也就是我以及我的内在观念、我的内感官对象的直接现实性——你闭上眼睛感受你自己，是不是清楚明白、特别清楚？但实际上这是形而上学幻觉。按照他们的观点，它是 undeniably something real，不可否认地是某种真实的东西。
+
+## 段落 16：00:15:36 — 00:16:31
+
+来源：`t2436:s131`, `t2436:s132`, `t2436:s133`, `t2436:s134`, `t2436:s135`, `t2436:s136`, `t2436:s137`, `t2436:s138`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=936)
+
+原文：他为了证明时间的真实性，他跑过来依赖的是依赖的是最内在的这种直接的这种真实性，是不是很有意思啊？很有意思不？他就是为了证明时间的真实性、客观性来反对时间的主观性，他们反过来援引的一个东西是内在感官、自我意识它的真实性，说这个东西是不可否认，所以它是真实的。就是，但是康德认为啊，他们没有同时，他没有考虑到这两个东西都是withoutreality，他们都是就是说他们作为表象的这个现实性啊，as representation的这个现实性都是没有被都是不可争议的，他们都有一种经验性的现实性。但是呢，他认为就是说那些人没意识到时间和空间它都是仅仅都是属于表象的，which always has twosides，它总是有两面的。
+
+整理稿：你看这些其实很有意思：这些人为了证明时间的真实性，跑过来依赖最内在、最直接的真实性，是不是很有意思？他们为了证明时间的真实性、客观性，来反对时间的主观性，反过来援引的却是内在感官、自我意识的真实性，说这个东西不可否认，所以它是真实的。但康德认为，他们没有考虑到，这两者都是 without reality；它们作为表象的现实性，as representation，却是不可争议的，都具有一种经验性的现实性。可是那些人没有意识到，时间和空间都仅仅属于表象，which always has two sides，它总是有两面的。
+
+- 疑点：原文“这两个东西都是 without reality”与后文“经验性的现实性”并置，具体含义需核；正文保留原英文并直译其转折。；候选：without reality；依据：t3199:s405, t3199:s407
+
+## 段落 17：00:16:31 — 00:18:03
+
+来源：`t2436:s139`, `t2436:s140`, `t2436:s141`, `t2436:s142`, `t2436:s143`, `t2436:s144`, `t2436:s145`, `t2436:s146`, `t2436:s147`, `t2436:s148`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=991)
+
+原文：啊，一方面就是说如果这个对象被考被理解成被把握成是物自体的话，就是without就都是废话，我们就就是说如果这把物质是对象是物自体，那么就是不考虑啊它被这个对象被直观的那种方式啊这个对象啊被建构的那种方式。啊，h o w e v e r，m o s t o f t h a t v e r y r e a s o n a l w a y s r e m a i n p r o b l e m a t i c。那么就是呃如果你不考虑它被直观的方式，那你去建构这么一个物自体建构物自体，无论怎么去把握这个物自体建构这个物自体都必然是出于这这么一个原因，它总是有问题的。加了一个括号，就是说如果一方面啊就是它的对象是物自体的话啊物自体的话，另外一方面t h e o t h e r w a y i s f o r m o f t h e i n t u i t i o n o f t h i s，另外一方面就是你考虑就是直观这些对象的一种方式，把它考虑在内的话，w h i c h m u s t n o t b e s o u g h t i n t h e o b j e c t，它并在那么它就绝对不能够是在物自体当中被寻求了，而只是在主主体当中在被寻求啊，就是它向主体它向之显现的那个主体当中被寻求啊，它像是显现那个主体当中被寻求啊，也就是说就是说什么它就有两面了，w h i c h a l w a y s h a s t w o s i d e s，a l w a y s h a s t w o s i d e s，啊。howevermost of that very reason always remain problematic那么就是呃如果你不考虑它被直观的方式那你去建构这么一个物自体建构物自体无论怎么去把握这个物自体建构这个物自体都必然是出于这这么一个原因它总是有问题的加了一个括号就是说如果一方面啊就是它的对象是物自体的话啊物自体的话另外一方面the other wayis form of the intuition of this另外一方面就是你考虑就是直观这些对象的一种方式把它考虑在内的话which must not be sought in the object它并在那么它就绝对不能够是在物自体当中被寻求了而只是在主主体当中在被寻求啊就是它向主体它向之显现的那个主体当中被寻求啊它像是显现那个主体当中被寻求啊也就是说就是说什么它就有两面了which always has two sides always has two sides啊就是这时间和空间都具有两个侧面，两个侧面。
+
+整理稿：一方面，如果对象被理解、被把握成物自体，那就是 without reality；我们不考虑对象被直观的方式、被建构的方式。However, for that very reason it always remains problematic：如果不考虑它被直观的方式，那么无论怎么去把握、建构这个物自体，都必然有问题。另一方面，the other way is the form of the intuition of this，也就是把直观这些对象的方式考虑在内；which must not be sought in the object，它绝不能在物自体中被寻求，而只能在主体中、在对象向之显现的那个主体中被寻求。也就是说，时间和空间都有两个侧面，which always has two sides。
+
+- 疑点：英文 however, most of that very reason always remain problematic 识别不清，正文按“然而正因如此，它总是成问题的”整理。；候选：However, for that very reason it always remains problematic；依据：t3199:s424, t3199:s425
+
+## 段落 18：00:18:10 — 00:18:20
+
+来源：`t2436:s149`, `t2436:s150`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=1090)
+
+原文：就是按照前面那一面，那时间空间都都是观念性的。按照物自体，你你如果对对应是物自体说这时间空间怎么把握物自体，不好意思，它是观念性的。
+
+整理稿：按照前面那一面，时间和空间都是观念性的。按照物自体来说，如果你对应的是物自体，问时间和空间怎么把握物自体——不好意思，它是观念性的。
+
+## 段落 19：00:18:20 — 00:19:33
+
+来源：`t2436:s151`, `t2436:s152`, `t2436:s153`, `t2436:s154`, `t2436:s155`, `t2436:s156`, `t2436:s157`, `t2436:s158`, `t2436:s159`, `t2436:s160`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=1100)
+
+原文：啊你如果说它是对应于表象的话，那它都是经验的客观的。啊，but which nevertheless really and necessarily pertains tothe那么呃to which it appears,but whichnever但是这个这么一个呃the other where the is consideredwhich这里的位置他妈指的是啥呀？which where the form of the intuition the other one side wears which always has two sides oneside另外一边once the other side where the form of the intuition of the object is which must isconsistent这个which指的是啥呀？这指的是那个the the intuition of the object对吧？就是这种intuition啊这个它必须，那么它继继续是，但是这个这种直观它必须是它它还是，但是这种直观呢它还是现实的，然后是必然的是啊对于这种这种对象是是从属于它的表征的，属于它的表征的啊必然的必然的属于它的表征的，就是具有它的现实的客观性。那这种客观性只是在经验意义上是客观性。
+
+整理稿：你如果说它是对应于表象，那它就是经验的、客观的。But which nevertheless really and necessarily pertains to\.\.\. to which it appears\.\.\. 这里“which”指的是什么？应该指 the intuition of the object，对吧？这种直观仍然具有现实性和必然性，并且必然从属于对象的表征，具有现实的客观性。但这种客观性只是在经验意义上才是客观性。
+
+- 疑点：此段英文引文和 which 的指代有口误或识别不清，正文按 the intuition of the object 理解。；候选：the intuition of the object；依据：t3199:s470, t3199:s471, t3199:s478, t3199:s479
+
+## 段落 20：00:19:33 — 00:19:49
+
+来源：`t2436:s161`, `t2436:s162`, `t2436:s163`, `t2436:s164`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=1173)
+
+原文：那么归根结底你要说归根结底，操你妈！那你说康德的意思就是说我的归根结底就已经是最归根结底的，你不能想象一个你不能想象一个脱离了先验框架的一种啊物自体，你的想象是非法的，你的归根结底是非法的。康德其实就这么意思。
+
+整理稿：归根结底，康德的意思是：我的归根结底已经是最归根结底的，你不能想象一个脱离了先验框架的物自体；你的想象是非法的，你的归根结底也是非法的。康德其实就是这个意思。
+
+## 段落 21：00:19:50 — 00:20:13
+
+来源：`t2436:s165`, `t2436:s166`, `t2436:s167`, `t2436:s168`, `t2436:s169`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=1190)
+
+原文：你们这些人就是你们这些人想象的一个就是不依赖于时空框架的一个背后的一个真正背后的一个物自体，这种是非法操作，你有罪的，不应该这样做的。你做这种事情就是在搞形而上学，在搞一个非法的形而上学啊。康德是可以有形而上学，但是不能用这种方法搞形而上学。
+
+整理稿：你们这些人想象一个不依赖于时空框架的、背后的真正物自体，这是非法操作，你是有罪的，不应该这样做。你做这种事情就是在搞形而上学，在搞一种非法的形而上学。康德可以有形而上学，但不能用这种方法搞形而上学。
+
+## 段落 22：00:20:14 — 00:21:11
+
+来源：`t2436:s170`, `t2436:s171`, `t2436:s172`, `t2436:s173`, `t2436:s174`, `t2436:s175`, `t2436:s176`, `t2436:s177`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=1214)
+
+原文：时间和空间因此呢它就是认识的两个来源，那么从其中呢不同的综合性的认识可以被鲜艳的得出啊就是数学和几何学其实就是of whichespecially那么就可以其呃ofwhich尤其就是呃呃这个纯粹数学啊就是它是关于这个空间性的认识的，以及就是这个呃and itsrelations和这个空间性的关系的provides它提供了一个非常绝佳的一个例子啊。Both takentogether啊，如果你把空间和时间都考虑在内的话，那么也就是说the pure forms of the all sensibleintuitions啊你就也就都考虑在内，你就获得了一个所有感性直观的纯粹形式。那因此就使得这个这个呃使得什么变得可能呢？使得综合性的先天判断变得可能呢？变得可能呢？
+
+整理稿：时间和空间因此是认识的两个来源；从其中可以先天得出不同的综合性认识，数学和几何学就是；其中尤其是纯粹数学，它是关于空间性的认识及其关系的，提供了一个绝佳的例子。Both taken together，如果把空间和时间都考虑在内，也就是 the pure forms of all sensible intuitions，你就获得了一切感性直观的纯粹形式。因此就使得什么变得可能呢？使得综合性先天判断变得可能。
+
+- 疑点：英文 of which especially / off 识别不完整，正文按“尤其是纯粹数学”整理。；候选：of which especially；依据：t3199:s516, t3199:s517
+
+## 段落 23：00:21:14 — 00:22:04
+
+来源：`t2436:s178`, `t2436:s179`, `t2436:s180`, `t2436:s181`, `t2436:s182`, `t2436:s183`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=1274)
+
+原文：但是这些这些先天的认识来源呢，它决定了他们自己的边界啊，被这么一个事实决定呢，就是更不能涉及物自体了。就是说，that they are merely conditions ofsensibility，他们只是这个感性的条件而已。也就是说，他们只能够运用到一些对象，这些对象只被我们把把握成表象的一些对象，啊，不能够是把呈现出物自体本身。Those alone are the field of their ability。呃，那么这些就是他们的这个有效性的一个一个一个一个领域了，有效性的一个范围。超出这个范围就不能够啊，对于时间和空间还是这些什么啊数学几何学，它就不具有一种客观性的一个使用了，就可能对它们的客观性的使用就不能够再发生了。
+
+整理稿：但是这些先天认识来源决定了它们自己的边界，被这样一个事实决定：它们更不能涉及物自体。就是说，that they are merely conditions of sensibility，它们只是感性的条件。也就是说，它们只能运用于那些被我们把握为表象的对象，而不能呈现物自体本身。Those alone are the field of their ability，这些就是它们有效性的领域和范围。超出这个范围，时间和空间以及数学、几何学就不具有客观性的使用，对它们的客观性使用就不能再发生了。
+
+## 段落 24：00:22:04 — 00:22:51
+
+来源：`t2436:s184`, `t2436:s185`, `t2436:s186`, `t2436:s187`, `t2436:s188`, `t2436:s189`, `t2436:s190`, `t2436:s191`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=1324)
+
+原文：那么这种时间和空间的这种现实性啊，进一步啊，leaves the certainty ofempirical，它它并没有就进一步说，它并没有妨害，leave什么什么untouched，就是我没有碰它，这差不多这个意思，没有妨害它，没有污染侵蚀它，我没有就是时间和空间这种现实性啊，它并没有是leaves thecertainty，并没有leave什么untouched，可以，我之前又搜过一次，我又忘了，没有动过，没有动过它的那个，就是没有干涉它这个经验认识本身的这个可靠性啊，没有干涉经验认识可靠性。
+
+整理稿：时间和空间的这种现实性，进一步说，leaves the certainty of empirical knowledge untouched：它并没有妨害、没有碰、没有污染或侵蚀经验认识的确定性；也就是说，它没有干涉经验认识本身的可靠性。
+
+- 疑点：leaves the certainty of empirical 后疑缺 knowledge，且 untouched 的译法有反复；正文按“经验认识的确定性”处理。；候选：knowledge；依据：t3199:s549, t3199:s551, t3199:s557
+
+## 段落 25：00:22:51 — 00:23:57
+
+来源：`t2436:s192`, `t2436:s193`, `t2436:s194`, `t2436:s195`, `t2436:s196`, `t2436:s197`, `t2436:s198`, `t2436:s199`, `t2436:s200`, `t2436:s201`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=1371)
+
+原文：你光是有这个是因为我们只是呃certain of that whether these forms necessarily adheres to the things inthemselves，我们只是呃可以确证这些形式呃是否必然的属于，要么是属于，we are just as certain ofwhat，它这里这个句子好烦啊，or only to our intuition of since these t h i n g s，j u s t a s s e r t i o n o f w h a t w h e t h e r t h e s e，我们只能非常必然的确定，我们只j u s t a s s e r t i o n o f t h a t w h e t h e r t h e s e f o r m s n e c e s s a r i l y a d h e r e t o t h e t h i n g s i n t h e m s e l v e s o r o n l y t o o u r i n t u i t i o n o f t h e s e t h i n g s，我们很确定就是这些东西它到底是啊这些形式到底是必然的呃是属于物自体的，还是仅仅是属于我们对于事物的这个直观的？啊，我觉得应该是就是说后者啊，就是后者，我们非常清楚它只是属于对于这些事物的直观的。T h o s e h o w e v e r w h o a s s e r t s a b s o l u t e n e s s o f s p a c e a n dt i m e，如果那些人啊，但是那些人如果他断定这个时间和空间具有绝对的现实性，无论他们thingsjust assertionof what whether these我们只能非常必然的确定我们只just assertion of that whether these forms necessarilyadhere to the things in themselves or only to our intuition ofthese things我们很确定就是这些东西它到底是啊这些形式到底是必然的呃是属于物自体的还是仅仅是属于我们对于事物的这个直观的啊我觉得应该是就是说后者啊就是后者我们非常清楚它只是属于对于这些事物的直观的Those however who
+
+整理稿：We are just as certain of\.\.\. 我们同样确定：这些形式究竟是必然属于物自体，还是仅仅属于我们对事物的直观。这里句子很麻烦……我认为应该是后者，即它们只属于我们对事物的直观。
+
+- 疑点：英文长句及“just as certain of what”部分识别不清，正文按后一种理解（这些形式仅属于我们对事物的直观）整理。；候选：only to our intuition of these things；依据：t3199:s570, t3199:s573, t3199:s581
+
+## 段落 26：00:23:57 — 00:24:51
+
+来源：`t2436:s202`, `t2436:s203`, `t2436:s204`, `t2436:s205`, `t2436:s206`, `t2436:s207`, `t2436:s208`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=1437)
+
+原文：asserts absoluteness of space and time如果那些人啊但是那些人如果他断定这个时间和空间具有绝对的现实性无论他们呃呃，假设时间和空间是这种现实性啊，是时间和空间是subsisting啊，是自己维持自己存在的，or onlyinhering，就是依附于另外一个对象存在的，must themselves come into conflict with the principle ofexperience，他们必然是会和这个这个感性的原理相冲突的，它自己必然会有感性原理相冲突的，因为if they decide in favor of thefirst，如果他们啊认为时间和空间，它又来了，是自己呃自己维持维持自己存在的，呃which is generally the position of the mathematical investigators ofnature，但是那些研究自然的数学研究者们啊，数学研究者
+
+整理稿：Those however who assert absoluteness of space and time：如果那些人断定时间和空间具有绝对的现实性，无论他们假设时间和空间是 subsisting，即自己维持自己存在，还是 only inhering，即依附于另一个对象存在，他们都必然与经验的原理相冲突。因为 if they decide in favor of the first，也就是认为时间和空间自己维持自己存在——这通常是研究自然的数学研究者的看法。
+
+## 段落 27：00:24:53 — 00:26:07
+
+来源：`t2436:s209`, `t2436:s210`, `t2436:s211`, `t2436:s212`, `t2436:s213`, `t2436:s214`, `t2436:s215`, `t2436:s216`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=1493)
+
+原文：啊，他们所就是他认为这个时空框架是个自然物了，是个自然的一个一个一个自己存在的一个东西，比如说是个以太啊或者怎么样的，那they must assume two internalenergy，他们就必须去呃假设两种啊无限的永恒的并且无限的自我维持着的，我不想翻译成持存啊，当然当然可以翻译成持存了，就是在弱的一种持存，自我维系着，自我持持续存在的一种啊非实体，时间和空间就变成一种无限的永恒的非实体，他们他们的存在yet without there being anythingreal，他们的存在就是并没有任何现实东西可以存在，时空就是空的嘛，虚的嘛，only inorder只是为了去理解任何一个在他们之中真实的其他的一些东西，如果他们啊，所以康德看来他认为就是证根本没有办法证明时间和空间是自己存的，因为非实体啊，非非存在物啊，他们自己他们只是为了用来理解那些东西的，用来把握那些东西的，是个工具性的东西，你找不到这个时一个东西叫时间，找不到一个东西叫空间的，所以你没有必要设定它是啊客观的呃自自在存在，啊另外一方面如果他
+
+整理稿：他们认为时空框架是自然物，是一个自己存在的东西，比如以太之类。于是他们必须假设两种无限的、永恒的、自我维持着的非实体，时间和空间就变成一种无限的、永恒的非实体；它们的存在 yet without there being anything real，也就是并没有任何现实的东西存在，时空是空的、虚的，only in order 只是为了去理解在它们之中真实存在的其他东西。所以在康德看来，根本没有办法证明时间和空间是自己存在的，因为它们是非实体、非存在物，只是用来理解、把握那些东西的工具。你找不到一个东西叫时间，也找不到一个东西叫空间，所以没有必要设定它们是客观的、自在存在的。
+
+- 疑点：原文 they must assume two internal energy 识别不清，正文按后文“两种无限的、永恒的、自我维持着的非实体”整理。；候选：two infinite, eternal, self\-subsisting non\-entities；依据：t3199:s610, t3199:s612, t3199:s618
+
+## 段落 28：00:26:07 — 00:26:42
+
+来源：`t2436:s217`, `t2436:s218`, `t2436:s219`, `t2436:s220`, `t2436:s221`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=1567)
+
+原文：们啊认为时间和空间是什么依附于存在于onlyinhering，存在于另外一些物质体里面的，as dosome一些这个自然形而上学家他就是这样想的，and hold space and time to be relations ofappearance，把时间和空间看成是表象的一些关系，next to or successive toanother，把它看成是呃表象他们的那个彼此相邻或者彼此相继的一种关系的话，啊是从经验当中抽象出来的话，啊是尽管他们是
+
+整理稿：另外一方面，如果他们认为时间和空间是依附于、存在于另外一些物质体里面的，only inhering，就像一些自然形而上学家那样，and hold space and time to be relations of appearance，把时间和空间看成表象之间的关系，即彼此相邻或彼此相继的关系，是从经验中抽象出来的。
+
+- 疑点：末尾“尽管他们是”未完成，正文未展开该分句。；候选：；依据：t3199:s655
+
+## 段落 29：00:26:43 — 00:27:37
+
+来源：`t2436:s222`, `t2436:s223`, `t2436:s224`, `t2436:s225`, `t2436:s226`, `t2436:s227`, `t2436:s228`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=1603)
+
+原文：呃呃confused represented in thisabstraction，在这个表象过程，在这么一个抽象当中啊，它的它的表征是比较混乱的，比较混乱的，我们说它表象是比较混乱，then they mustdispute，那么他们必然就是要说就是说啊这个我们之前都讲过了，A版里面都讲了，他们必然要驳斥或呃呃这个一种先天的数学理论的有效性，或至少是他们的名证的可靠性啊，他们关于这个真实的事物在空间当中存在真实事物，他这里啊，他这里加了一个啊，加了一个这加了一个一个，也就是在时间当中，在在空间当中啊，就这里的realsense在康德那边他是加了一个限定啊，就是说这个东西已经是不是真正的大写的那个real了，这个东西已经是in space的real
+
+整理稿：Confused represented in this abstraction：在这个表象过程中，在这样一个抽象中，它的表征是比较混乱的。我们说它的表象是比较混乱，then they must dispute；那么他们必然要说——这一点我们之前都讲过，A 版里面也都讲了——他们必然要驳斥一种先天数学理论的有效性，或至少是它的明证性的可靠性。他们关于真实事物在空间当中存在、真实事物在时间当中存在，这里加了一个限定：在康德那里，real sense 已经加了限定，它已经不是真正大写的那个 real，而是 in space 的 real sense。
+
+## 段落 30：00:27:37 — 00:28:34
+
+来源：`t2436:s229`, `t2436:s230`, `t2436:s231`, `t2436:s232`, `t2436:s233`, `t2436:s234`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=1657)
+
+原文：sense了啊，就康德，但是比如说那个，比如说那个那个那个叫什么名字，比如说那个那个穆勒他就认为啊，或者说啊对啊穆勒穆勒他就认为数学数学就不具有必然性啊，数学就不具有必然名证性，几何学不具有必然性，也不具有名证性啊，康德就受不了呀，康德就认为我为了保存这种学科的它的先天性，我就要假定这个时间啊，它不能够是一种表象关系啊，因此因为since this呃certainly does notoccur，因为这种然后康德要说的，他就辩论完全是一种呃学科利益导向的，学科的地位导向的等级制导向的，呃说因为这种纯先天数学的它的必然性，先天数学理论必然性并不是后天的发生的，并不是通过一个归纳法这样搞出来的，and on this
+
+整理稿：比如穆勒就认为，数学不具有必然性，也不具有明证性；几何学不具有必然性，也不具有明证性。康德就受不了：为了保存这门学科的先天性，他必须假定时间不能是一种表象关系。Since this certainly does not occur——因为这种情况当然不会发生。康德要说的、要辩论的，完全是一种学科利益导向、学科地位导向、等级制导向的立场：纯先天数学的必然性并不是后天发生的，并不是通过归纳法搞出来的，and on this view。
+
+- 疑点：原文“名证性”疑为“明证性”，正文按“明证性”整理。；候选：明证性；依据：t3199:s685
+
+## 段落 31：00:28:34 — 00:29:08
+
+来源：`t2436:s235`, `t2436:s236`, `t2436:s237`, `t2436:s238`, `t2436:s239`, `t2436:s240`, `t2436:s241`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=1714)
+
+原文：view啊，那么在这个the那么这样看来的话，在这个观点上就是说呃空间和时间的先天概念呢，就只是想象的一些产物，想象的产物，如果因此因此on thisview鉴于这个观点啊，theorigin啊the origin of which must really be sought inexperience，那么时间和空间的起源就只能是在经验当中被啊被追寻，out of whoseabstracted呃relations imagination has made something
+
+整理稿：那么在这个观点上，空间和时间的先天概念就只是想象的一些产物。On this view，鉴于这个观点，the origin of which must really be sought in experience：时间和空间的起源只能在经验当中被追寻。Out of whose abstracted relations imagination has made something：想象力从经验中抽象出的一些关系出发，制造出某种东西。
+
+## 段落 32：00:29:08 — 00:30:07
+
+来源：`t2436:s242`, `t2436:s243`, `t2436:s244`, `t2436:s245`, `t2436:s246`, `t2436:s247`, `t2436:s248`, `t2436:s249`, `t2436:s250`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=1748)
+
+原文：that呃从经验当中就能够抽象出一些关系啊，然后这些关系是想象力啊has made somethingthat做出来的，to be sure contains what is general in them but that cannot occur without the restrictions nature has attached tothem，那么想象力就把某些东西做出来了，has madesomething就创造出某种东西，这种东西呢，我可以很确定说就包含了啊在它们当中啊普遍的那个东西is general in them butthat但是这种东西呢是不能够呃如果没有自然赋予给它们的一个限制是不能够发生的东西，就是时间啊就是时间和空间what is general inthem普遍的在里面都有的啊made something what is general inthem这个inthem这个them应该是指的就是那些relations啊，obstructed
+
+整理稿：从经验当中能够抽象出一些关系，然后想象力从这些关系出发制造出某种东西。To be sure，这种东西确实包含了它们当中的普遍者，what is general in them；但如果没有自然赋予它们的限制，the restrictions nature has attached to them，它就不能发生。这里所说的 them，应该指的就是那些 relations。
+
+## 段落 33：00:30:07 — 00:31:20
+
+来源：`t2436:s251`, `t2436:s252`, `t2436:s253`, `t2436:s254`, `t2436:s255`, `t2436:s256`, `t2436:s257`, `t2436:s258`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=1807)
+
+原文：relate就这里就告诉你，就是说那些啊说时间和空间是一种从经验当中获得的，有想象力创造出来的，它是怎么弄的？就是说，先从经验体验当中表象当中搞出一些啊关系，表象性表象之间的关系，然后想象力呢就会从当中抽出来一个东西，某种东西它包含了在这些关系当中一个公共的这些关系，比如前后左右上下内外啊这些关系，空间关系里面都包都有一个what is generalism？那就是general就是那个空间了，space，它们都是它们是相当于一个类了，它都是这些东西都是一个空间性的关系，那么就反推出就想象出有一个有一个空间了。但是呢这这这这种general的这个东西呢，它不能够啊如果没有自然赋予给这些时间这些这这些表象之间的这些这些关系啊加以一个限制的话，therestriction，那么这这个东西是根本不能发生的。呃，那么这种观点啊这种观点就是认为时空是一种从经验啊经验表象的相互关系当中抽象出来并加以想象力的加工，投射出来的一个东西
+
+整理稿：也就是说，时间和空间是一种从经验中获得的、由想象力创造出来的东西。它是怎么弄的呢？先从经验、体验、表象当中搞出一些关系，即表象与表象之间的关系；然后想象力从中抽出某种东西，这种东西包含了这些关系中的一个公共部分。比如前后、左右、上下、内外这些关系，空间关系里面都有一个 what is general。那就是 general，就是那个空间，space。它们相当于一个类，这些东西都是一种空间性的关系，于是就反推、想象出一个空间。但是，这种 general 的东西，如果没有自然赋予这些时间、这些表象之间的关系以限制，the restriction，那么这个东西是根本不能发生的。这种观点就是认为，时空是一种从经验、经验表象的相互关系当中抽象出来，并加以想象力的加工、投射出来的东西。
+
+## 段落 34：00:31:20 — 00:32:52
+
+来源：`t2436:s259`, `t2436:s260`, `t2436:s261`, `t2436:s262`, `t2436:s263`, `t2436:s264`, `t2436:s265`, `t2436:s266`, `t2436:s267`, `t2436:s268`, `t2436:s269`, `t2436:s270`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=1880)
+
+原文：呢，它是能够成功的什么？thefirst啊，first我操这个first我他妈服了，the first the firstis这已经是thesecond了，我们刚刚已经是讲了the s e c o n d，t h e f i r s t说它这个时间和空间本身就是客观的，第二个说时间和空间是事物的属性，事物的属性啊哦，那么他说第一个这种反反对意见呢，它成功的打开了表象的这个领域，为数学命题啊为数学断言，数学的一些论断提供了表象的这么一个律呃表象的这个领域，但是他们自己就变得非常混含混了，非常一个v e r y c o n f u s e d啊这些本身这些这些数学a s s e r t i o n本身变成v e r y c o n f u s e d，因为他把时间和空间看成是两个客观东西嘛。t h r o u g h呃t h r o u g h t h r o u g h p r e c i s e l y c o n d i t i o n s通过这些条件呃i f t h e u n d e r s t a n d i n g w o u l d g o b e y o n d t h e f i e l d，如果知性想要超出这个表象的这个领域的话啊啊它通过这些条件啊它就会变得非常混乱，t h r o u g h因为你因为你在超出的时候，你已经把时空看成是经验性的东西了，你要超出表象你就不能超出表象了，你这个时候得出来的那些数学论断，我操说它是有是有什么名正性有必然性都是错的，了解吗？啊这是这这么意思。然后t h e s e c o n d呃s u c c e e d t o b e s u r e w i t h r e s p e c t t o t h e l a t t e r呃i n t h a t r e p r e s e n t a t i o n o f s p a c e a n d t i m e d o n o t s t a n d i n t h e i r w a y i f t h e y w e r e j u d g e d o f o b j e c t s n o t a s a p p e a r a n c e s b u t m e r e l y i n r e l a t i o n t o t h e u n d e r s t a n d i n g。secondthe first说它这个时间和空间本身就是客观的第二个说时间和空间是事物的属性事物的属性啊哦那么他说第一个这种反反对意见呢它成功的打开了表象的这个领域为数学命题啊为数学断言数学的一些论断提供了表象的这么一个律呃表象的这个领域但是他们自己就变得非常混含混了非常一个very confused啊这些本身这些这些数学assertion本身变成very confused因为他把时间和空间看成是两个客观东西嘛through呃through through preciselyconditions通过这些条件呃if the understanding would go beyond the field如果知性想要超出这个表象的这个领域的话啊啊它通过这些条件啊它就会变得非常混乱through因为你因为你在超出的时候你已经把时空看成是经验性的东西了你要超出表象你就不能超出表象了你这个时候得出来的那些数学论断我操说它是有是有什么名正性有必然性都是错的了解吗啊这是这这么意思然后the
+
+整理稿：第一种反对意见是能够成功的：它打开了表象的领域，为数学命题、数学断言提供了表象的领域；但这些数学 assertion 本身却变得 very confused，因为它们把时间和空间看成两个客观的东西。Through precisely conditions：如果知性想要超出这个表象领域，它通过这些条件就会变得非常混乱。因为你在超出的时候，已经把时空看成经验性的东西；你要超出表象，就不能超出表象。此时得出的那些数学论断，说它有什么明证性、有什么必然性，都是错的。这是这层意思。
+
+- 疑点：原文“名正性”疑为“明证性”，正文按“明证性”整理。；候选：明证性；依据：t3199:s806
+
+## 段落 35：00:32:52 — 00:33:37
+
+来源：`t2436:s271`, `t2436:s272`, `t2436:s273`, `t2436:s274`, `t2436:s275`, `t2436:s276`, `t2436:s277`, `t2436:s278`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=1972)
+
+原文：second呃succeed to be sure with respect to the latter呃in thatrepresentation of space and time do not stand in their way ifthey were judged of objects not as appearances but merely inrelation to the understanding那么第二种成功的是，那么相对于后者，相对于这个letter，我操，这个letter，我靠，with respect to theletter，好，就是，哇，letter就是指第二种选项了，我靠，我我服了，with respect to theletter，其实就是这里的，哎，不说了，这他妈我不想翻译了，他妈的，我觉得有点恶心，算了吧，我继续翻吧，就是说，可以确
+
+整理稿：第二种成功是相对于后者而言的：with respect to the latter，in that representation of space and time do not stand in their way if they were judged of objects not as appearances but merely in relation to the understanding。也就是说，如果对象不是作为表象、而仅仅在相对于知性的关系中被判断，那么空间和时间的表征就不会构成障碍。
+
+## 段落 36：00:33:37 — 00:33:59
+
+来源：`t2436:s279`, `t2436:s280`, `t2436:s281`, `t2436:s282`, `t2436:s283`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=2017)
+
+原文：定第二种成功的做出了什么，就是说，呃，in t h a t，i n什么，d o n o t s t a n d i n t h e i r w a y o f，就是，b u t m e r e l y i n r e l a t i o n，就是说，使得时间和空间的表征并不是，s t a n d i n t h e i r w a y，并不是s t a n d i n t h e i r w a y i f t h e y w e r e j u d g e o f o b j e c t s n o t a s a p p e a r a n c e，呃，如果他们对于对象的判断并不是作为表象来判断对象的时候，它就不会继续存在，啊，继续存在，时空的表象，时空的这个表征就不会存在，这个翻译成表征，这个翻译成表象，你理解吗？为什么我一直要把它翻译成表征？因为你把它也把这个也翻译成表象的话，那这个你翻译成什么嘛？来说翻译成现象，那p h e n o m e n a你翻译成什么嘛？对不对？就是说，它中文还是要有点区分的啊，这个r e p r e s e n t a t i o n就是在已经加工了，a p p e a r a n c e s它侧重它的结果是显现出来的，显像或者怎么样的a p p e a r出来的，啊，r e p r e s e n t a t i o n，但是你可以说他妈的基本上同一个东西了，r e p r e s e n t a t i o n和这个a p p e a r a n c e s，但是说r e p r e s e n t a t i o n这个东西一般可以可纯可杂，a p p e a r a n c e s基本上是比较杂的，啊，就是说那个不要说我翻译的很矬，就是说你自己来翻翻看嘛，你妈的你会觉得感受到一堆他妈的这种很烦的这种张力在里面，就是说第二种它成功的就使得如果不把这些对象看当成是表象的话，那时间和空间就不会怎么样，就不会存在啊，他们就不会以那种方式显现出来，继续存在，s t a n d i n t h e i r w a y，哎，b u t m e r e l y i n r e l a t i o n，啊，时间和空间它只是对于这个相对于知性关系，在i n r e l a t i o n t o t h e相对于知性对于我们的理解当中才会出现时间空间，也就是说第二种它会告诉你时间和空间是通过你的想象力，然后但是呢也也要通过这个自然对于这些表象的一个限制，它天然的赋予这种限制，然后我们从这些里面的时空关系里面可以得出，啊，比较复杂的时空关系里面可以抽象出一个，并且想象出一个一个普遍的一个时间或者普遍的空间，但是呢，t h e y c a n n e i t h e r o f f e r a n y g r o u n d f o r t h e p o s s i b i l i t y o f a p r i o r i m a t h e m a t i c a lc o g n i t i o n s，但是呢，他们就不能够提供任何的一个基础，呃，为thatin什么do not standin their way of就是but merely in relation就是说使得时间和空间的表征并不是standin their way并不是stand in their way if they were judge of objectsnot as appearance
+
+整理稿：可以确定第二种成功做出了什么：in that representation of space and time do not stand in their way if they were judged of objects not as appearances but merely in relation to the understanding。也就是说，如果不把这些对象看成表象，时间和空间的表征就不会继续存在，不会以那种方式显现出来。但是，they can neither offer any ground for the possibility of a priori mathematical cognitions。
+
+## 段落 37：00:34:00 — 00:35:05
+
+来源：`t2436:s284`, `t2436:s285`, `t2436:s286`, `t2436:s287`, `t2436:s288`, `t2436:s289`, `t2436:s290`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=2040)
+
+原文：呃如果他们对于对象的判断并不是作为表象来判断对象的时候它就不会继续存在啊继续存在时空的表象时空的这个表征就不会存在这个翻译成表征这个翻译成表象你理解吗为什么我一直要把它翻译成表征因为你把它也把这个也翻译成表象的话那这个你翻译成什么嘛来说翻译成现象那phenomena你翻译成什么嘛对不对就是说它中文还是要有点区分的啊这个representation就是在已经加工了appearances它侧重它的结果是显现出来的显像或者怎么样的appear出来的啊representation但是你可以说他妈的基本上同一个东西了representation和这个appearances但是说representation这个东西一般可以可纯可杂appearances基本上是比较杂的啊就是说那个不要说我翻译的很矬就是说你自己来翻翻看嘛你妈的你会觉得感受到一堆他妈的这种很烦的这种张力在里面
+
+整理稿：这里 representation 译为“表征”，appearances 译为“表象”，否则 phenomena 又该译成什么？中文总要有点区分。representation 是已经加工过的；appearances 侧重显现出来的结果，是显像或显现出来的东西。当然，大体上可以说是同一个东西，但 representation 一般可纯可杂，appearances 则比较杂。不要说我翻译得差，你自己来翻翻看，也会感受到其中一堆很烦的张力。
+
+## 段落 38：00:35:07 — 00:36:20
+
+来源：`t2436:s291`, `t2436:s292`, `t2436:s293`, `t2436:s294`, `t2436:s295`, `t2436:s296`, `t2436:s297`, `t2436:s298`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=2107)
+
+原文：就是说第二种它成功的就使得如果不把这些对象看当成是表象的话那时间和空间就不会怎么样就不会存在啊他们就不会以那种方式显现出来继续存在stand in their way哎but merely in relation啊时间和空间它只是对于这个相对于知性关系在in relation to the相对于知性对于我们的理解当中才会出现时间空间也就是说第二种它会告诉你时间和空间是通过你的想象力然后但是呢也也要通过这个自然对于这些表象的一个限制它天然的赋予这种限制然后我们从这些里面的时空关系里面可以得出啊比较复杂的时空关系里面可以抽象出一个并且想象出一个一个普遍的一个时间或者普遍的空间但是呢they canneither offer any ground for the possibility of a priori mathematicalcognitions但是呢他们就不能够提供任何的一个基础呃为啊，去设立一种什么一个先天的数学认识，因为你所有的这个时空关系都是通过这个经验性的操作吧，都是通过经验性的一个其实是归纳了，归纳当中想象出来的，所以它并没有客观性，它就没有先天性，
+
+整理稿：第二种观点成功的地方在于：如果不把这些对象看成表象，时间和空间就不会存在，不会以那种方式显现出来。时间和空间只是相对于知性的关系、在我们的理解中才出现。它也告诉我们，时间和空间是通过想象力，同时通过自然对表象的限制而产生的；自然天然赋予这种限制。我们从较复杂的时空关系中可以抽象并想象出一个普遍的时间或普遍的空间。但是，它们不能为先天数学认识的可能性提供任何基础，因为所有时空关系都是通过经验性的操作、通过归纳并在归纳中想象出来的，所以它没有客观性，也没有先天性。
+
+## 段落 39：00:36:20 — 00:37:06
+
+来源：`t2436:s299`, `t2436:s300`, `t2436:s301`, `t2436:s302`, `t2436:s303`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=2180)
+
+原文：没有先天性，它没有先天，它就不能够为先天的数学认识来提供可能性。Since they lack a true andobjectively valid a prioriintuition，因为他们缺乏一个真正的并且客观的有效的先天直观，你后来想象构建那个过程的不是先天直观。Nor can they bring the proposition of experience into necessary accord with those assertions。他们也不能够提供这个经验的观，就是由经验来构成的一些命题，经验命题，他们也不能够提供一个经验命题，把经验命题变成什么，bring什么into啊，这个不是提供，他们也不能把经验性的命题变成必然的啊，与这些这些数学的数学的论断相一致的必然的。With those a s s e r t i o n s，o n e o n o u r t h e o r y o f t i m e。那而在我们这个非常有效的，它是自吹自擂，在我们对于这个呃这些时间和空间的一个建构的一个真正的一个建构的理论当中，t w o o r i g i n a l啊o r i g i n a l f o r m s呃o f s e n s i b i l i t y呃b o t h d i f f i c u l t i e s a r e r e m e d i e d。这两种原初的感性形式啊，b o t h d i f f i c u l t i e s，它们的那个困难，上面上面那两种困难，上面两种困难都被拯救，都被拯救了。哎呀，我靠，那就是说我把我把主观的和我把经验性的和这个，就是说我把这个叫，我既让你向向向这个经验性的场域给敞开了，对吧？我既让你向经验性的场域敞开了，因为比如说你说时间和空间是客观的，那就是不就是为了让你对于时间和空间关系的把握具有某种客观性嘛，对不对？啊，我让它敞开了，我向这个意志性他者敞开了，但是呢，你这个过程中就错失了，它就变成你所有的讲的东西都虽然是你都是讲的客观的东西，但是你的这些论题都是很含混的，也就归根结底你是没有办法说你提出的这些论题是一个真正就是你不能超越这个经验维度啊，你不能超越这个经验维度，所所以它在这里讲来讲去，可能讲的就是一个就是说，它要使得先天综合判断变得可能，先天综合判断变得可能，它既是有，就是它能连接客观的客体性的意志性的那一侧，它又能够按照一种呃内在的名正性啊，第一人称的那种可以确证的啊那种名正性，为它提供一种先天必然性，这是它要的东西。
+
+整理稿：没有先天性，它就不能为先天数学认识提供可能性。Since they lack a true and objectively valid a priori intuition：它们缺乏真正的、客观有效的先天直观；后来想象建构出来的过程并不是先天直观。Nor can they bring the propositions of experience into necessary accord with those assertions：它们也不能使经验命题必然地与这些数学断言一致。With those assertions, on our theory of time：在我们关于时间（和空间）的、自称真正有效的建构理论中，两种原初的感性形式使上述两种困难都被补救了。
+
+## 段落 40：00:37:06 — 00:39:01
+
+来源：`t2436:s304`, `t2436:s305`, `t2436:s306`, `t2436:s307`, `t2436:s308`, `t2436:s309`, `t2436:s310`, `t2436:s311`, `t2436:s312`, `t2436:s313`, `t2436:s314`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=2226)
+
+原文：assertionsone on our theory of time那而在我们这个非常有效的它是自吹自擂在我们对于这个呃这些时间和空间的一个建构的一个真正的一个建构的理论当中two original啊original forms呃of sensibility呃both difficulties are remedied这两种原初的感性形式啊both difficulties它们的那个困难上面上面那两种困难上面两种困难都被拯救都被拯救了哎呀我靠那就是说我把我把主观的和我把经验性的和这个就是说我把这个叫我既让你向向向这个经验性的场域给敞开了对吧我既让你向经验性的场域敞开了因为比如说你说时间和空间是客观的那就是不就是为了让你对于时间和空间关系的把握具有某种客观性嘛对不对啊我让它敞开了我向这个意志性他者敞开了但是呢你这个过程中就错失了它就变成你所有的讲的东西都虽然是你都是讲的客观的东西但是你的这些论题都是很含混的也就归根结底你是没有办法说你提出的这些论题是一个真正就是你不能超越这个经验维度啊你不能超越这个经验维度所所以它在这里讲来讲去可能讲的就是一个就是说它要使得先天综合判断变得可能先天综合判断变得可能它既是有就是它能连接客观的客体性的意志性的那一侧它又能够按照一种呃内在的名正性啊第一人称的那种
+
+整理稿：在这个理论中，我既让时间和空间向经验性的场域敞开——比如你说时间和空间是客观的，不就是为了让你对时空关系的把握具有某种客观性吗？我让它敞开，向意志性的他者敞开。但在这个过程中也错失了：你讲的所有东西虽然都是客观的东西，但这些论题都很含混；归根结底，你不能超越经验维度。所以讲来讲去，它要做的就是使先天综合判断成为可能：既能连接客观的、客体性的、意志性的那一侧，又能按照一种内在的明证性、第一人称可确证的明证性，为它提供先天必然性。这是它要的东西。
+
+- 疑点：原文“意志性”所指不确定，可能为“意谓性”等术语，暂保留原词。；候选：意谓性；依据：t3199:s963
+
+## 段落 41：00:39:01 — 00:39:22
+
+来源：`t2436:s315`, `t2436:s316`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=2341)
+
+原文：可以确证的啊那种名正性为它提供一种先天必然性这是它要的东西然后只有他，他认为只有他，他把时间和空间看成主观直觉形式，主观的一种直直观的形式，它才它才可能。那么最后，that transcendental aesthetic cannot contain more than these two elements。
+
+整理稿：那种可以确证的明证性提供了一种先天必然性，这是他要的东西。然后他认为，只有把时间和空间看成主观直观形式，看成主观的一种直观形式，这才可能。最后，That transcendental aesthetic cannot contain more than these two elements——先验感性论不能包含多于这两个要素。
+
+- 疑点：“名正性”疑为术语“明证性”，正文按上下文整理为“明证性”，待核。；候选：明证性；依据：t3199:s966
+
+## 段落 42：00:39:22 — 00:39:56
+
+来源：`t2436:s317`, `t2436:s318`, `t2436:s319`, `t2436:s320`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=2362)
+
+原文：他就认为啊，我们的先验感性论啊，它只有两个对象，两个要素，就时间和空间。Namely space and time\.It's clear from the fact that all other concepts belong into sensibility。就是说，其他的所有的概念，比如说颜色啊，啊，比如说那个气味啊，比如说那个触感啊，他们都属于感性，感受性。Even that ofmotion，甚至运动也属于感性，他认为。Which unites bothelements，因为呃运动呢，这个它是包含了两个要素，时间和空间。
+
+整理稿：他认为，我们的先验感性论只有两个对象、两个要素，就是时间和空间。Namely, space and time\. It is clear from the fact that all other concepts belong to sensibility\. 也就是说，其他所有概念，比如颜色、气味、触感，都属于感性、感受性。甚至运动也属于感性；运动统一了两个要素，因为它包含时间和空间。
+
+## 段落 43：00:39:56 — 00:40:56
+
+来源：`t2436:s321`, `t2436:s322`, `t2436:s323`, `t2436:s324`, `t2436:s325`, `t2436:s326`, `t2436:s327`, `t2436:s328`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=2396)
+
+原文：但是呢，它预设了某种经验性的东西，预设运动必须要有个东西在运动，对不对？而时间和空间，它可以没有东西在里面。For this presupposes the perception of something movable。他们预设某个可动的东西，呃的对于它的一个感知。In space,considered in itself,there is nothing movable。那这个空间，你只考虑空间的话，它本身是不包含任何可动的东西的。Hence,movable must be something that is found in space only through experience。因此呢，可动，因此就是这个可动的东西必须是某种啊，它是在通过经验在空间当中被获得的，被找到的东西啊。Thus,an empirical datum。因此这个东西它是一个经验性的一个一个材料啊，一个材料。In thisway，同样一同样一种方式啊，这个先验感性论呢，它也不能够把这个变化这个概念给它放进去，或者变动这个概念放进去啊。Among
+
+整理稿：但是，运动预设了某种经验性的东西：运动必须有一个东西在运动，对不对？而时间和空间可以没有东西在里面。For this presupposes the perception of something movable\. 它预设了对某个可动东西的感知。In space, considered in itself, there is nothing movable\. 只考虑空间本身，它不包含任何可动的东西。Hence, movable must be something that is found in space only through experience\. 因此，可动的东西必须是通过经验在空间中被获得、被找到的东西。Thus, an empirical datum\. 也就是说，它是一个经验性的材料。In this way，同样，先验感性论也不能把变化或变动的概念放进去。
+
+## 段落 44：00:40:56 — 00:41:52
+
+来源：`t2436:s329`, `t2436:s330`, `t2436:s331`, `t2436:s332`, `t2436:s333`, `t2436:s334`, `t2436:s335`, `t2436:s336`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=28&t=2456)
+
+原文：its，把它算作它的这个先天的这个研究对象，先天的一个不能看成一个先天的一个研究对象。Data就是研究素材了。呃，fortime，因为时间本身呢并不会变啊。But only something that is withintime，只有在时间当中的东西它才会变。For this,there is required theperception，呃，因为呢，如果因为这个变动这概念，它要求呃就是说你要感受到某种存在的东西，and the succession ofthe，以及它的这个规定性的一个一个相序啊，它是时间上的一个规定性的一个一个不停的相继。一秒钟它，二秒钟它，第三秒钟，第四秒钟它，因此它是经验，一次它的经验，就是说就是先验感性论只研究时间和空间啊，不能研究任何就是thing啊thing，不能研究任何东西，不能实体化，不能客体化，那就这么简单。好的。
+
+整理稿：先验感性论也不能把它算作先天的研究对象，不能把它看成一个先天的研究对象。Data 就是研究素材。For time：时间本身并不会变，只有时间当中的东西才会变。For this, there is required the perception\. 因为变动这个概念要求你感受到某种存在的东西，以及它的规定性的相继，也就是时间上不停顿的相继。一秒钟、两秒钟、第三秒钟、第四秒钟，因此它是经验，是经验性的东西。也就是说，先验感性论只研究时间和空间，不能研究任何 thing，不能研究任何东西，不能实体化，不能客体化，就这么简单。
+
+- 疑点：“一次它的经验”语义不清，正文按上下文整理为“是经验性的东西”。；候选：是经验性的东西；依据：t3199:s1038, t3199:s1039

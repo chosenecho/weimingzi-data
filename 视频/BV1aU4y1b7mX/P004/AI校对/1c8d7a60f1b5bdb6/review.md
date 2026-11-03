@@ -1,0 +1,540 @@
+# 【经典译读】康德《纯粹理性批判》（连载中）：校验参照稿件
+
+AI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。
+
+修订：`1c8d7a60f1b5bdb63cd01054228a071f005a083e198e270540be1fc6af37de55`
+
+输入快照：`034e9b4d6c54a0dfc3c0a7b77883a0d00e6e2748de7d231f739572f7c7620fcc`
+
+模型：`deepseek-flash`；思考：`high`；top_p：`0.95`
+
+规则：`readable-prose-v2`；模板：`ai-draft-v1`
+
+基础转录：`2437`；参考转录：`3378`
+
+## 段落 1：00:00:00 — 00:01:08
+
+来源：`t2437:s0`, `t2437:s1`, `t2437:s2`, `t2437:s3`, `t2437:s4`, `t2437:s5`, `t2437:s6`, `t2437:s7`, `t2437:s8`, `t2437:s9`, `t2437:s10`, `t2437:s11`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=0)
+
+原文：甚至它不能够呃be all that difficult to live to prosperity\.That's evenif即便啊，即便它不能够cannot be all that difficultto这个be all thatdifficult什么意思啊？变成一切，然后这一切是什么？是那些难于哦，它不能够变成一切。这里是不是省略了一个but啊？cannot be all but that difficult to。我的意思就是，因此它就难于去留下给后代留下一个系统化的形而上学的一个一个遗产啊。Constructed，它是按照这个纯粹理性批判的这么一个呃依依循纯粹理性的批判来建构起来的。This is still a gift deserving of。那么即便它不是这样，它还它还是一个很很了不起的一个礼物，值得nosmo值得不小的一个一个不小的一个尊重啊。
+
+整理稿：原文说：甚至它不能够——be all that difficult to live to prosperity。接着是 That’s even……，也就是“即便它不能够——cannot be all that difficult”。这里 difficult 是什么意思？是不是“变成一切”？而“这一切”又是什么？是说那些难于……它不能够变成一切。这里是不是省略了一个 but，应该是 cannot be all but that difficult to……？我的意思是，因此它很难给后代留下一个系统化的形而上学遗产。这个东西是 constructed，是依照《纯粹理性批判》建构起来的。This is still a gift deserving of no small respect：即便它不是这样，它仍然是一个很了不起的礼物，值得不小的尊重。
+
+- 疑点：开头英文短语的断句和措辞不确定，尤其 to live to prosperity；正文按原样引用。；候选：be all that difficult to live to prosperity；依据：t3378:s0
+- 疑点：nosmo 疑为 no small；正文据此整理为“不小的尊重”。；候选：no small；依据：t3378:s22
+
+## 段落 2：00:01:08 — 00:01:27
+
+来源：`t2437:s12`, `t2437:s13`, `t2437:s14`, `t2437:s15`, `t2437:s16`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=68)
+
+原文：就是我搞的这个搞的这个practicalextension这个这个mode组啊，这个就是个mode，你知道吗？我我就我在我的哲学里面就是说，这个康德是mode玩家，这个就相当于他的mode啊，相当于他的mode啊，他就做mode了，就做practical mode。这mode做到后面就是三大m o d e，G o d，f r e e d o m和i m m o r t a l i t y啊，三大三大m o d e啊。哎，他说，但是虽然它不是一个完整的形而上学体系，就是它不是一个服务端，但是呢，它他妈的好玩啊，它是还是值得尊敬的。要看到这一点，我们需要我们只需要去把这个理性的文化t h a t i s s e t o n t h e c r o s s o f s e c u r e s c i e n c e，它是被呃s e t o n，它是被放置在什么？放置在那个就是那个一个可可靠的科学的一个一个检验过程当中的。W i t h r e a s o n s u n f o u n d u n f o u n d e d g r o u p i n g，以和我们把两个东西，一个是理性正儿八经的，是要去做严肃科学的合法的和那安全的科学的，还有一个是理性的那种完全没有根基的胡乱摸索的，还有这个f r e e f r i v o l o u s，还有一种毫无价值的一个漫步啊，它就漫步没有批判性的一个漫步，毫无批判自我批判的一个漫步，就是没有纯粹理性对对它进行纯化的一个那种形而上学瞎逼漫步。就是就是我们要把科学，我们要把好的和坏的比较一下，o r t o c o n s i d e r或者我们要去考虑h o w m u c h b e t t e r y o u n g p e o p l e h u n g r y f o r k n o w l e d g e m i g h t s p e n d t h e i r t i m e t h a n i n t h e u s u a l u h d o g m a t i s m t h a t g i v e s s o e a r l y a n d s o m u c h e n c o u r a g e m e n t t o t h e i r c o m p l a c e n t c o m p l a c e n t c r i p p l i n g a b o u t。modeGodfreedom和immortality啊三大三大mode
+
+整理稿：我搞的这个 practical extension mod 组，它就是一个 mod。我在我的哲学里面说，康德是 mod 玩家；这个就相当于他的 mod，他就在做 practical mod。做到后面就是三大 mode：God、freedom 和 immortality，三大 mode。
+
+## 段落 3：00:01:31 — 00:02:32
+
+来源：`t2437:s17`, `t2437:s18`, `t2437:s19`, `t2437:s20`, `t2437:s21`, `t2437:s22`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=91)
+
+原文：啊哎他说但是虽然它不是一个完整的形而上学体系就是它不是一个服务端但是呢它他妈的好玩啊它是还是值得尊敬的要看到这一点我们需要我们只需要去把这个理性的文化that is set on the cross of secure science它是被呃set on它是被放置在什么放置在那个就是那个一个可可靠的科学的一个一个检验过程当中的With reasons unfoundunfounded grouping以和我们把两个东西一个是理性正儿八经的是要去做严肃科学的合法的和那安全的科学的还有一个是理性的那种完全没有根基的胡乱摸索的还有这个free frivolous还有一种毫无价值的一个漫步啊它就漫步没有批判性的一个漫步毫无批判自我批判的一个漫步就是没有纯粹理性对对它进行纯化的一个那种形而上学瞎逼漫步就是就是我们要把科学我们要把
+
+整理稿：他说，虽然它不是一个完整的形而上学体系，就是它不是一个服务端，但它他妈的好玩，还是值得尊敬。要看到这一点，我们只需要把这个理性的文化——that is set on the cross of secure science——放置在可靠的科学的检验过程当中。With reasons unfounded grouping，我们要把两个东西区分开：一个是理性正儿八经地去做严肃科学、合法而安全的科学；另一个是理性那种完全没有根基的胡乱摸索，还有 free、frivolous，一种毫无价值的漫步，没有批判性的漫步，毫无自我批判的漫步，也就是没有纯粹理性对它进行纯化的形而上学式瞎逛。
+
+- 疑点：that is set on the cross of secure science 中 secure science 的准确措辞不确定，可能为 sure science；正文保留英文并按“可靠科学”理解。；候选：sure science；依据：t3378:s45
+- 疑点：with reasons unfounded grouping 语义和断句不确定；正文保留英文，仅据后文整理两种理性的对比。；候选：with reasons unfounded grouping；依据：t3378:s50
+
+## 段落 4：00:02:32 — 00:03:59
+
+来源：`t2437:s23`, `t2437:s24`, `t2437:s25`, `t2437:s26`, `t2437:s27`, `t2437:s28`, `t2437:s29`, `t2437:s30`, `t2437:s31`, `t2437:s32`, `t2437:s33`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=152)
+
+原文：好的和坏的比较一下or to consider或者我们要去考虑how much better young people hungryfor knowledge might spend their time than in the usual uh dogmatismthat gives so early and so much encouragement to theircomplacent complacent crippling about啊，这个诡辩，complacent quibbling about things they do notunderstand，哦，就是意思就是这样，你看我们就可以，我们就可以这个教导青年是什么？我们就可以让那些年轻的啊，就是对于知识有很大欲求的那些青年，他们就可以啊，更好的花费他们的时间了，而不需要去把把他们的时间花在那些庸俗的愚者通常的那些教条主义里面，那些教条主义，形而上学教条主义只会过早的给他们很多的那些鼓舞，让他们干嘛？让他们去自鸣得意的去在那边是刀比刀吧，自鸣得意的去进行诡辩，找茬，抬杠，含糊其辞，吹毛求疵啊，对于事物他们不理解的事物进行吹毛求疵，就是这样，我们可以把，你看，我们就可以把我们那些啊喜想要追求知识的青年，不培养成神棍了，可以把他们培养成好人了。And things into which neither they nor anyone else in the world will ever have
+
+整理稿：就是我们要把好的和坏的比较一下，or to consider：或者我们要去考虑，how much better young people hungry for knowledge might spend their time than in the usual dogmatism，that gives so early and so much encouragement to their complacent quibbling about things they do not understand。意思就是这样：我们可以教导青年什么？我们可以让那些对知识有很大欲求的青年更好地花费他们的时间，而不需要把时间花在那些庸俗的、通常的教条主义里面。那些形而上学教条主义只会过早地给他们很多鼓舞，让他们自鸣得意地在那边叨逼叨，自鸣得意地进行诡辩、找茬、抬杠、含糊其辞、吹毛求疵，对他们不理解的事物吹毛求疵。就是这样。你看，我们就可以把那些想要追求知识的青年不培养成神棍，而把他们培养成好人。
+
+## 段落 5：00:03:59 — 00:04:53
+
+来源：`t2437:s34`, `t2437:s35`, `t2437:s36`, `t2437:s37`, `t2437:s38`, `t2437:s39`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=239)
+
+原文：insight，他们也就不会去研究那些东西，就是吹牛逼去抬杠去研究那些东西啊，他们自己都理解不了，以及那些东西就是说，不仅他们，甚至这个世界上任何一个人都永远不能够去理去去去了解的一些东西，甚至或者甚至去这个，甚至去鼓励他们去launch on theinvention，开始从事于发明新的思想和新的意见，and thus to neglect tolearn，反而忽视了去学习一些well groundedscience，那些基础牢靠的科学，反而让他们去搞一些形而上学一些奇思妙想，点子王，我靠。But we see it above all when we take account of the way criticism puts an end for all future time to objections against moral morality and religions in a Socratic way。
+
+整理稿：And things into which neither they nor anyone else in the world will ever have insight：他们也就不会去研究那些东西——吹牛、去抬杠、去研究那些东西——他们自己都理解不了；而且不仅是他们，世界上任何一个人都永远不能够理解、不能够了解这些东西。甚至不要鼓励他们去 launch on the invention，开始从事于发明新的思想和新的意见，and thus to neglect to learn，反而忽视了去学习一些 well\-grounded science，那些基础牢靠的科学；反而让他们去搞一些形而上学、一些奇思妙想，点子王。But we see it above all when we take account of the way criticism puts an end for all future time to objections against morality and religions in a Socratic way\.
+
+## 段落 6：00:04:53 — 00:05:50
+
+来源：`t2437:s40`, `t2437:s41`, `t2437:s42`, `t2437:s43`, `t2437:s44`, `t2437:s45`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=293)
+
+原文：但是我们会看到这个所有这一切，首先会看，首会首先会看到一个东西是什么？当我们解解释呃我我们描述这么一种方法，take account of theway，就是就是批判啊，就是纯粹的进行批判，他会put anend，他会put an end for all future time to objections against morality andreligions，他会让那些所有以一种苏格拉底方式去对啊道德和宗教进行那个反驳的，苏格拉底那种刀比刀的找茬的那种方式，对道德和宗教进行反驳的，所有的那个未来可能发生的这些东西，这个时候我们的啊我们的这个时间纯粹的进行批判，就就为他画上了终止休止符了。Namely by the clear uh proof of the ignorance of the
+
+整理稿：但是我们会看到，所有这一切，首先会看到什么？当我们描述这样一种方法——take account of the way，也就是批判、纯粹理性批判——它会 put an end for all future time to objections against morality and religions。它会让所有以苏格拉底方式对道德和宗教进行反驳的——苏格拉底那种叨逼叨、找茬的方式——所有未来可能发生的这些东西，都被纯粹理性批判画上休止符。
+
+- 疑点：“我们的这个时间纯粹的进行批判”疑为“我们的这个纯粹理性批判”；正文按后者整理。；候选：纯粹理性批判；依据：t3378:s137
+
+## 段落 7：00:05:50 — 00:07:01
+
+来源：`t2437:s46`, `t2437:s47`, `t2437:s48`, `t2437:s49`, `t2437:s50`, `t2437:s51`, `t2437:s52`, `t2437:s53`, `t2437:s54`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=350)
+
+原文：potent，啊这种画上终止符，它不是是哦它是。哎呀，烦死了！他不是是，不是说这个objections against morality and religions是苏格拉底的way啊，那种方式。他的意思是，他是他的意思是，他画上休止符是一种苏格拉底式的方式画上休止符的。那么这种苏格拉底的方式就是通过一种清楚的证明，那个他的对手是有疏忽的，他的对手是概念上没搞清楚，或者说来源上是不合法、可疑的。通过苏格拉底那种啊精神助阐述的方式，就是那种辩论的、辩证的那种方式，不停的就是就是立于不败之地，去不停的去审查别人话语当中里面的那种不一致性、那种有问题的东西。啊，我就我们就可以通，就所以康德认为他的这个criticism啊，他的这个批判哲学啊，是某种苏格拉底式的一种澄清、澄清错误的、澄清那种论证体系当中那种啊晦暗的啊不正当的啊不合法的一些操作的。For there has always been some metaphysics or other to be mad with啊in the world
+
+整理稿：Namely by the clear proof of the ignorance of the opponent：即通过清楚地证明对手的无知。这种画上终止符，不是说 objections against morality and religions 是苏格拉底的方式；他的意思是，画上休止符本身是一种苏格拉底式的方式。这种方式就是通过清楚的证明，证明他的对手有疏忽、在概念上没搞清楚，或者来源上不合法、可疑；通过苏格拉底那种精神助产术的方式，也就是辩论、辩证的方式，不停立于不败之地，审查别人话语中的不一致性、有问题的地方。所以康德认为，他的 criticism、他的批判哲学，是某种苏格拉底式的澄清，澄清错误，澄清论证体系中那些晦暗、不正当、不合法的操作。
+
+- 疑点：ignorance of the potent 中 potent 疑为 opponent/opponents；正文按“对手的无知”整理。；候选：opponent；依据：t3378:s139
+
+## 段落 8：00:07:01 — 00:08:01
+
+来源：`t2437:s55`, `t2437:s56`, `t2437:s57`, `t2437:s58`, `t2437:s59`, `t2437:s60`, `t2437:s61`, `t2437:s62`, `t2437:s63`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=421)
+
+原文：啊，因为呢，这个这个世界上总会有某种形而上学或者其它某种形而上学啊会在这个世界上被碰到它。And there will always continue to be啊，继续会有。And with it a dialectic of pure reason。那么如果我们这个时候运用一个纯粹理性的辩证法，这个辩证法就指的这种苏格拉底式的辩证法啊。这个辩证法不是黑格尔式的辩证法，这个辩证法就挑错了辩证法，就是就是审康德的辩证法是一个不辩证的辩证法，康德的辩证法是一个是一个前前黑格尔的辩证。当然他妈废话，我操！康德辩证法它没有辩证性啊，简单来说，它没有那个没有那个辩证性啊，没有那个啊辩证唯物主义，也没有那个黑格尔的那种观点论以上，黑格尔式观点论以上那种辩证性。康德辩证法就是归谬法，或者就是挖掘到你的体系里面的不一致性，里面的一些没有根基的啊有问题的那些叫辩证法。Because dialect dialect啊dialectic is natural to reason。
+
+整理稿：For there has always been some metaphysics or other to be met with in the world, and there will always continue to be, and with it a dialectic of pure reason。因为世界上总会有某种形而上学，或者别的什么形而上学，会在这个世界上被碰到，而且会继续有，同时伴随着纯粹理性的辩证法。那么如果我们这时运用纯粹理性的辩证法——这个辩证法指的就是苏格拉底式的辩证法——这个辩证法不是黑格尔式的辩证法，而是挑错的辩证法。康德的辩证法是一个不辩证的辩证法，是一个前黑格尔的辩证法。简单来说，康德辩证法没有辩证性，没有辩证唯物主义，也没有黑格尔观念论意义上的那种辩证性。康德辩证法就是归谬法，或者就是挖掘你的体系中的不一致性、没有根基和有问题的部分。
+
+- 疑点：some metaphysics or other to be mad with 中 mad with 疑为 met with；正文按“被碰到”理解。；候选：met with；依据：t3378:s170
+- 疑点：“观点论以上”疑为“观念论意义上”；正文按后者整理。；候选：观念论；依据：t3378:s190
+
+## 段落 9：00:08:01 — 00:08:54
+
+来源：`t2437:s64`, `t2437:s65`, `t2437:s66`, `t2437:s67`, `t2437:s68`, `t2437:s69`, `t2437:s70`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=481)
+
+原文：因为苏格拉底式的这种辩证法呢，它是对于理性是很天然的、很自然的、很适应的。Hence it is the first and most important occupation of philosophy啊。因此首要的以及最重要的一个哲学的一个他的事业就是要去deprive dialect once and for all of the哎deprive deprive削夺一次性的剥夺辩证法。And for all of thisadvantage，哎呀，他所以这里意思是，他还是不喜欢苏格拉底式啊。哦，我知道了，我操！等于说他说到这里，其实他还是不喜欢苏格拉底式的。我等前面又弄错了呀。
+
+整理稿：因为苏格拉底式的这种辩证法，对于理性来说是很天然、很自然、很适应的。Hence it is the first and most important occupation of philosophy。因此，哲学首要且最重要的事业，就是要一劳永逸地剥夺辩证法的这种优势。And for all of this advantage，所以这里的意思是，他还是不喜欢苏格拉底式。说到这里，其实他还是不喜欢苏格拉底式的；我前面弄错了。
+
+- 疑点：deprive dialect once and for all of the \.\.\. 处宾语不完整，后文出现 advantage；正文按“剥夺辩证法的这种优势”整理。；候选：deprive dialectic once and for all of this advantage；依据：t3378:s206, t3378:s211
+
+## 段落 10：00:08:54 — 00:10:07
+
+来源：`t2437:s71`, `t2437:s72`, `t2437:s73`, `t2437:s74`, `t2437:s75`, `t2437:s76`, `t2437:s77`, `t2437:s78`, `t2437:s79`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=534)
+
+原文：他的意思就是说那些。反对伦理和宗教的方式，就是一种这种苏格拉底式的方式在反对，就是挑别人的错了，也就是通过呃清楚的证明他的对手是无知的，挑别人的错，所以他要一劳永逸的去使得所有的辩证法都失效啊，也就是他意思，他的纯粹理性方法要一劳永逸做到里面无错无懈可击，for all ofall呃disadvantages那些不利的诽谤性的不利的那些影响，by blocking of the source oferrors，那就那什么方法就是blocking of thesource，就是阻断错误的来源，把所有错误来源都阻断掉了，所以康德他自己要做的，所以他对应该他他的辩证法也对自己搞了一给搞了一套辩证法，with this important alteration in the field of thesciences，那么用这么一种非常有用的这种这种转变，非常有用的这种转变，就使得整个哲学形而上学大厦它发生的转变，在科学领地当中这种转变，and with the loss of its hitherto imagined possessions that speculative reasons must
+
+整理稿：他的意思就是说，那些反对伦理和宗教的方式，就是以苏格拉底式的方式在反对，就是挑别人的错，也就是通过清楚地证明他的对手是无知的、挑别人的错。所以他要一劳永逸地使所有辩证法都失效；也就是说，他的纯粹理性方法要一劳永逸地做到无错、无懈可击，for all of these disadvantages，消除那些不利的、诽谤性的影响，by blocking of the source of errors，即阻断错误的来源，把所有错误来源都阻断掉。所以康德自己也要搞一套辩证法，with this important alteration in the field of the sciences……
+
+- 疑点：for all of all uh disadvantages 的准确措辞不确定；正文按“消除那些不利影响”整理。；候选：for all of these disadvantages；依据：t3378:s228
+
+## 段落 11：00:10:07 — 00:12:09
+
+来源：`t2437:s80`, `t2437:s81`, `t2437:s82`, `t2437:s83`, `t2437:s84`, `t2437:s85`, `t2437:s86`, `t2437:s87`, `t2437:s88`, `t2437:s89`, `t2437:s90`, `t2437:s91`, `t2437:s92`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=607)
+
+原文：suffer，以及失去了他的那种一项一项到目前为止迄今为止被想象出来的，他以为他拥有的那些东西，他以为他拥有那些东西是是那些思辨理性必须去遭遭罪的那些东西，everything yet remains in the same advantageous state as it was before concerning the universal human concern and the utility that the world has so far drawn from the doctrines of purereason，那么一切都会保留的一样的那种啊有利的地位，处于一个有利的地位，正如他在之前他关关心于这个啊他是关于这个普遍的人类的关注的时候和这个效用的时候，that the world has so far drawn from thedoctrine，就是这个世界啊从啊理性的这个纯粹理性的那个信条当中所得出来的关于那个人类的普遍人类的关怀和这个效用的时候，呃那些东西，它继继续会处在同样的一个优势地位，优势地位啊，就是我他妈的我现在就把这些脏的东西全搞掉，然后我就按照正正确的科学，严格科学怎么搭建的这种方式去改我整个这个哲学体系形而上学体系，那么我们就也拥有了那些好处，and the loss touched onlythe，那么我们multiply垄断啊，我们失去的东西只会是什么？theloss，我们这这种损失只会触动那些啊学院派的一些垄断，and in no way the interest ofhumanism，而不会影响这个人类的一个利益啊，只会影响学院派的垄断，不会影响人的利益，因为他在康德看来，学院派那些人就是一天到晚在搞形而上学、道毕招，在瞎逼想，屁用没有。I ask the most inflexible
+
+整理稿：and with the loss of its hitherto imagined possessions that speculative reason must suffer：也就是失去那些迄今为止被想象出来的、他以为自己拥有的东西，那些思辨理性必须遭罪的东西。everything yet remains in the same advantageous state as it was before concerning the universal human concern and the utility that the world has so far drawn from the doctrines of pure reason：那么一切都会保留着同样的有利地位，正如它此前在关涉普遍人类关怀和效用时那样，也就是世界从纯粹理性的信条中迄今为止所得出来的那些东西。那些东西会继续处在同样的优势地位。也就是说，我现在把这些脏东西全搞掉，然后按照正确的科学、严格科学怎么搭建的方式去改我整个哲学体系、形而上学体系，那么我们也拥有那些好处。这种损失只会触动那些学院派的垄断，and in no way the interest of humanity，而不会影响人类的利益。只会影响学院派的垄断，不会影响人的利益。因为在康德看来，学院派那些人就是一天到晚在搞形而上学、叨逼叨、瞎想，屁用没有。
+
+- 疑点：the interest of humanism/humanity 识别不确定；正文按“人类的利益”整理。；候选：humanity；依据：t3378:s282
+
+## 段落 12：00:12:10 — 00:13:38
+
+来源：`t2437:s93`, `t2437:s94`, `t2437:s95`, `t2437:s96`, `t2437:s97`, `t2437:s98`, `t2437:s99`, `t2437:s100`, `t2437:s101`, `t2437:s102`, `t2437:s103`, `t2437:s104`, `t2437:s105`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=730)
+
+原文：dogmatist，我我问了那个最将死的那个呃教条主义者，是否这种呃证明什么？证明我们我们死后灵魂的连续性，它从那个drawn from the simplicityof实体的那种简单性，实体本身是简单朴素的，呃从就是说从简单从简单普实体的那种简单性当中啊单一性简单性当中，我们可以得出灵魂的连续性，灵魂在死后具有连续性这么一个证明，这么一个证明，或者说另外一个证明就是自由意志的一个证明，它against它是反对这个普遍的机制，普遍的一个自然机制了，自然的一个机械关系吧，mechanism drawnfrom它是从那个subtle though subtle though powerless distinction between subjective and objective practical necessity。那么这这种对于这个自由意志的证明，它是从哪里得出来？它是从那个一个非常微妙的，但是是一个非常无力的一个区分，它区分了什么？区分了这个主观的和客观的两种实践性的必然性啊。第一个证明是关于什么啊？啊死后灵魂还存在，还继续延续。第二个证明是关于什么？这个自由意志。
+
+整理稿：I ask the most inflexible dogmatist：我问那个最僵硬、最他妈僵死的教条主义者：这种证明——证明我们死后灵魂的连续性——是否是从实体的简单性、从简单实体的单一性当中，得出灵魂的连续性，得出灵魂在死后具有连续性？或者另一个证明，自由意志的证明，它 against 普遍的自然机制，也就是反对普遍的自然机械关系，mechanism drawn from the subtle though powerless distinction between subjective and objective practical necessity。那么这种对自由意志的证明从哪里得出来？它是从一个非常微妙但非常无力的区分得出来的，区分什么？区分主观的和客观的两种实践必然性。第一个证明是关于什么？死后灵魂还存在、还继续延续。第二个证明是关于什么？自由意志。
+
+## 段落 13：00:13:38 — 00:14:29
+
+来源：`t2437:s106`, `t2437:s107`, `t2437:s108`, `t2437:s109`, `t2437:s110`, `t2437:s111`, `t2437:s112`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=818)
+
+原文：第三个证明是什么？All the proof of the existence ofGod就是这个God的统治它的存在，它是drawn from the concept of a most realbeing，就是从这个一个最真实的存在这么一个概念当中，这就是笛卡尔式的证明了。Or from the contingency of what is alterable and the necessity of a firstmover，或者说是那种偶然性，就是可就是可变动的东西，它是具有偶然性的，而一个firstmover第一推动者，它是必然的，就是就是两种对于那个这个God的存在的证明，就这三个证明，他问了他问了什么？他问了这个最僵硬的那个最他妈的将死的那个呃呃教条主义者，这三个证明whether是否have
+
+整理稿：第三个证明是什么？all the proof of the existence of God，即上帝存在的证明：它是 drawn from the concept of a most real being，也就是从一个最真实的存在这个概念中推出来的，这是笛卡尔式的证明；或者从可变动之物的偶然性和第一推动者的必然性推出。这就是关于上帝存在的两种证明。连同前面两个，就是这三个证明。他把这三个证明摆到那个最僵硬、最僵死的教条主义者面前，向他发问。
+
+- 疑点：结尾 whether 是否 have 未完成，无法确认其后的完整问题；正文只整理到“向他发问”。；候选：whether they have\.\.\.；依据：t3378:s340
+
+## 段落 14：00:14:29 — 00:15:23
+
+来源：`t2437:s113`, `t2437:s114`, `t2437:s115`, `t2437:s116`, `t2437:s117`, `t2437:s118`, `t2437:s119`, `t2437:s120`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=869)
+
+原文：ever是否曾经拥有afteroriginating in theschool在那个在这个这个这个学派当中啊发起之后产生之后了，产生之后是否曾被能够去啊reach the public or have the least influence over itsconvictions，是否能够去抵达到公众里面去对公众产生影响，或者说至少能够对他的那些信徒产生影响over its convictions。他的他的那些over这conviction啊，是对他的信念产生影响啊，对于那个信仰产生影响，他就问你们对于这三个东西的证明，有没有对你的那些这个有没有能够去达到大众那边去，或者说产生一些影响呢？If that has neverhappened，如果这从未发生的话，and if it can never
+
+整理稿：这些证明在学派中产生之后，是否曾经能够抵达公众，或者说至少对公众的信念产生一点影响？也就是说，它有没有可能进入大众之中、影响大众，或者至少影响它的那些信徒的信念？他问：你们对这三个东西的证明，有没有哪一种能够到达大众那里，或者说产生一些影响呢？如果这从未发生……
+
+## 段落 15：00:15:23 — 00:15:54
+
+来源：`t2437:s121`, `t2437:s122`, `t2437:s123`, `t2437:s124`, `t2437:s125`, `t2437:s126`, `t2437:s127`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=923)
+
+原文：be，我又没有录啊，哦，我在录啊，如果它从来不能够被期望的去发生的话，owing to theunsuitability of the common human understanding for such subtlespeculation，它为什么不会发生呢？是因为啊这种普遍的老百姓的人类的知性，它是不能够适应这么如此微妙的这个speculation。但是我这个玩意儿有那么微妙吗？这个东西好像没那么微妙，要不然挺蠢的哇。
+
+整理稿：如果这从未发生，而且如果它永远不可能发生，那是不是因为普通人的知性不适合如此微妙的思辨？可是这玩意儿有那么微妙吗？它好像没那么微妙，要不然就太蠢了。
+
+## 段落 16：00:15:54 — 00:16:47
+
+来源：`t2437:s128`, `t2437:s129`, `t2437:s130`, `t2437:s131`, `t2437:s132`, `t2437:s133`, `t2437:s134`, `t2437:s135`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=954)
+
+原文：前面三个证明不是蛇皮证明吗？If rather theconviction，如果rather the conviction that reaches thepublic，呃，是否if rather ifrather应该是如是否或者是否这个这个这个这些信仰它会对施加在公众身上，就会触动那些普通人啊。Insofar as it restson，只要它那个它是建基在这个呃理性的基础上，and had to be affected by somethingelse，它被另外一些东西所所所所所所所保障它是有效的，所激发，所所所产生啊。Namely as regard to the firstpoint，就是说他就康德就去炫耀了，就是说妈的我，你看你搞这些想证明这三个东西，你证明得了吗？
+
+整理稿：前面三个证明难道不是蛇皮证明吗？如果相反，是那种能够抵达公众的信念——只要它建立在理性的基础上，并且受到其他东西的影响，被其他东西所保证、激发和产生——那就第一点而言，康德就开始炫耀了：你看你搞这些，想证明这三个东西，你证明得了吗？
+
+- 疑点：if rather 这一句的句法关系在口述中不清，正文按“如果相反，是那种能够抵达公众的信念……”整理。；候选：；依据：t3378:s372, t3378:s373
+
+## 段落 17：00:16:47 — 00:17:05
+
+来源：`t2437:s136`, `t2437:s137`, `t2437:s138`, `t2437:s139`, `t2437:s140`, `t2437:s141`, `t2437:s142`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1007)
+
+原文：或者你就算你自己证明了，你能说说服得了大众吗？你搞这种这种微妙的玄想屁用没有？怎么说服大众呢？你是最最最死硬的教条主义者，对不对？那你搞教条主义，你最终目的是什么的吗？你道德热忱呢？你的这个使命呢？这个神学使命呢？你能完成吗？完成不了呀。
+
+整理稿：或者就算你自己证明了，你能说服大众吗？你搞这种微妙的玄想，屁用没有，怎么说服大众呢？你是最死硬的教条主义者，对不对？那你搞教条主义，最终目的是什么？你的道德热忱呢？你的使命呢？这个神学使命，你能完成吗？完成不了。
+
+## 段落 18：00:17:05 — 00:17:49
+
+来源：`t2437:s143`, `t2437:s144`, `t2437:s145`, `t2437:s146`, `t2437:s147`, `t2437:s148`, `t2437:s149`, `t2437:s150`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1025)
+
+原文：康德说，那我们换一个东西，换一个理性的一个基础啊，换其他东西来去产生它，引起它。Namely as regard thefirst，那么考虑第一点，on theremarkable呃predisposition of ournature，那么就是依赖于reston依赖于那个我们的非常我们的天性的非常显明的非常非常明显的一种倾向啊，它是对于每一个人来说都是很很能够被注意到的，never to be capable of being satisfied by what istemporal，它永远不会满足于啊对于那些呃那么这个人类的一个倾向是什么？
+
+整理稿：康德说：那我们换一个东西，换一个理性的基础，换别的东西来产生它、引起它。就第一点而言，我们要考虑我们天性中那种显著的 predisposition of our nature，也就是依赖于我们天性中一种非常明显、每个人都很容易注意到的倾向：它永远不会满足于 temporal 的东西。那么这个人类倾向是什么呢？
+
+## 段落 19：00:17:49 — 00:18:31
+
+来源：`t2437:s151`, `t2437:s152`, `t2437:s153`, `t2437:s154`, `t2437:s155`, `t2437:s156`, `t2437:s157`, `t2437:s158`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1069)
+
+原文：人类每个人都具有一个倾向什么？它永远不会能够去被那些凡俗的，就是temporal的东西是是。就是有限的时间当中那些东西所满足，他们会追求永恒。Since the temporal is always insufficient for for thepredisposition of our wholevocation，因为这个时间的那个维度可朽的城市啊，它总是不够的。对于什么不够呢？对于我们整个这个事业的，就道德伦理宗教事业的一个predisposition的那个倾向，我们人类有这么种倾向，追求永恒，追求无限啊，就是leading to the hope of futurelife，它会导向，我们会希望有个来世。
+
+整理稿：每个人都具有这样一种倾向：它永远不会被那些凡俗的、temporal 的东西，也就是有限时间中的东西所满足；人会追求永恒。因为 temporal 的东西对于 predisposition of our whole vocation 来说总是不够的。对什么不够呢？对于我们整个道德、伦理、宗教事业的 predisposition 来说不够。我们人类有这样一种倾向，追求永恒、追求无限，于是 leading to the hope of future life，也就是导向对来世的希望。
+
+## 段落 20：00:18:31 — 00:19:08
+
+来源：`t2437:s159`, `t2437:s160`, `t2437:s161`, `t2437:s162`, `t2437:s163`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1111)
+
+原文：哎，真的，这康德真的是很他妈的很天真啊，他以为那些普通人，我跟你讲，追求来世真的是出于什么什么whole vocation吗？我靠，他妈的笑死了，我靠，我他妈醉了，他真是不知民间疾苦啊，我靠，穷苦的人追求这个after life是因为他实在受不了了。哎，那些富裕的人是实际上希望千秋万代啊，他可以他妈的嗝屁了之后继续吊打别人啊，百分之二可以垄断百分之八十四的财富啊。啊，in respect of the second
+
+整理稿：哎，真的，康德真是很天真。他以为那些普通人追求来世，真的是出于什么 whole vocation 吗？我真是笑死了，他真是不知民间疾苦。穷苦的人追求 after life，是因为实在受不了了；而那些富裕的人其实希望千秋万代，希望自己嗝屁之后还能继续吊打别人——百分之二可以垄断百分之八十四的财富。下面看第二点。
+
+## 段落 21：00:19:09 — 00:20:44
+
+来源：`t2437:s164`, `t2437:s165`, `t2437:s166`, `t2437:s167`, `t2437:s168`, `t2437:s169`, `t2437:s170`, `t2437:s171`, `t2437:s172`, `t2437:s173`, `t2437:s174`, `t2437:s175`, `t2437:s176`, `t2437:s177`, `t2437:s178`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1149)
+
+原文：point，那么考虑第二点的mere clear exposition of our duties in opposition to all claims of the inclination leading to the consciousness of freedom，啊，the mere clear那个唯一、那仅mere clear唯一清楚的一个，对我们对我们的这个职责的一个阐明exposition外推啊，啊exposition is in opposition to all claims of theinclination。它和所有宣称这种inclination倾向、宣称那个倾向爱好的宣称所所不一样的，相反呢，它会导致这个意识到自由、自由意识。And finally touching on the thirdpoint，啊，就是讲前面三点啊，就三点来世、自由意志和神啊。第二点就是说这个自由意志啊，就是关于第二点，关于怎么证明自由意志呢？我们只要去啊以所有的，我们不要去宣称他妈的你有各种各样的倾向啊，和各种各样的倾向不一样，然后我们只要去很简单的去外推我们的这个责任ourduties，这些duties是反对所有的对于倾向的一个宣称的啊，人总是好逸恶劳的这些什么这种这种inclination，就是它是对立于所有的claims宣言、宣称对于这些倾向的一个宣称的，它会导致这个自由意识、意识到自由意识、自由意志的存在啊。And finally最后一点就是touching on the third point
+
+整理稿：考虑第二点：mere clear exposition of our duties, in opposition to all claims of the inclination, leading to the consciousness of freedom。也就是说，对我们职责的唯一清楚阐明，是与所有对 inclination 的 claims 相对立的。它和所有宣称这种 inclination、宣称这种倾向爱好的说法不一样；相反，它会导向对自由的意识。前面这三点就是来世、自由意志和神。第二点讲自由意志，那么怎么证明自由意志呢？我们不要去宣称人有各种各样的倾向，或者与各种倾向不一样；我们只要很简单地外推我们的责任 our duties。这些 duties 反对所有对倾向的宣称——人总是好逸恶劳的，这些 inclination 等等。它对立于所有 claims、所有对这些倾向的宣称，从而导向自由意识，导向对自由意志存在的意识。最后一点，就是 touching on the third point。
+
+## 段落 22：00:20:44 — 00:21:35
+
+来源：`t2437:s179`, `t2437:s180`, `t2437:s181`, `t2437:s182`, `t2437:s183`, `t2437:s184`, `t2437:s185`, `t2437:s186`, `t2437:s187`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1244)
+
+原文：的第三点，the splendidorder，那么一个卓越的吧，应该是壮观的、极好的一个秩序，美好andprovidence和那个施舍吧，就是天道天意远见吧，节约。我靠，这providence就是天选啊，就是就是这些好的这么壮观，这个自然秩序了，就是自然的美啊，还有这个这个充满了这种providence，它表明了force，它向前表明了每一个everywhere在自然当中的每一个方面leading to theface都会导向一个信仰in awise信仰有一个啊非常睿智的伟大的一个整个世界的一个作者啊，就是这个god同志。Then this position not only remainundist呃，turbable。
+
+整理稿：第三点是 the splendid order，也就是一个卓越的、壮观的、极好的秩序，还有 providence——天道、天意、远见。这里的 providence 就是天选。这些美好的、壮观的、充满 providence 的自然秩序，就是自然的美。它到处表明，在自然中的每一个方面，都 leading to a faith in a wise author：信仰一位非常睿智、伟大的整个世界作者，也就是 God 同志。Then this position not only remains undisturbed——这种 position 不仅不可扰动。
+
+- 疑点：原文“它表明了 force”中的 force 指向不明，正文只保留“表明”而未具体译出。；候选：force；依据：t3378:s495, t3378:s496
+
+## 段落 23：00:21:35 — 00:22:19
+
+来源：`t2437:s188`, `t2437:s189`, `t2437:s190`, `t2437:s191`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1295)
+
+原文：那么这个时候这种这种相信啊，这种position，这个position应该是指的那个就是悟了，thisposition就是悟了，就是这个position就是这样一种坚信，坚信啊，坚信它不仅仅是不可被扰动的。这个时候你用这三种方法去证明什么啊灵魂灵魂永生啊，上帝存在啊，这个什么什么有自由意志啊，你用这三种方法去证明的话，那你不就是可以非常就是不再去借用那种神学的那种玄奥的形而上学独断论的方式去证明的话，那你反而是不不会被那个disturbed。
+
+整理稿：这个时候，这种相信、这种 position——这里的 position 应该指那种“悟了”——就是这样一种坚信：它不仅是不可被扰动的。你用这三种方法去证明灵魂永生、上帝存在、人有自由意志；如果不再借用神学那种玄奥的形而上学独断论的方式去证明，你反而不会被 disturbed。
+
+## 段落 24：00:22:19 — 00:23:02
+
+来源：`t2437:s192`, `t2437:s193`, `t2437:s194`, `t2437:s195`, `t2437:s196`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1339)
+
+原文：我操，到哪里去了啊？remainsdisturbed，不仅仅它是不不会被被被干扰的，but it even gains in respect through the fact that now the schools areinstructed to pretend to no higher or more comprehensive insight on any point touching the universal human concerns than the insight that is accessible to the great multitude。甚至它会evengains，它会获得，不仅它不会损失啊，它它的哦这这个得到的这些东西不仅仅它它不会损失，而且它甚至会得到一些东西，就是
+
+整理稿：它不仅 remains undisturbed，而且 even gains in respect，因为现在这些 schools 被教导：在任何一个触及普遍人类关怀的问题上，都不要假装有比 great multitude 所能获得的洞见更高、更全面的洞见。它不仅不会损失，反而会得到一些东西。
+
+## 段落 25：00:23:03 — 00:23:39
+
+来源：`t2437:s197`, `t2437:s198`, `t2437:s199`, `t2437:s200`, `t2437:s201`, `t2437:s202`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1383)
+
+原文：关于什么东西得到一些通过through thefact通过这么一个事件，that什么一个事件呢？就是现在这些学院派它都是areinstructed，都被教导着去假装啊to pretend to nohigher，它不再教导的不再去假装有更高的或者更多的呃一些更加包罗万象的comprehensive，更加综合性的一些一些这个就是就是意思就是说它会它会让你获得更多，因为有这个事实，就那些学院派啊再也不需要去装逼了，就好像他自己懂了更多的东
+
+整理稿：通过什么事实得到一些东西呢？就是现在这些学院派 are instructed，被教导着去假装 to no higher——不再假装有更高的、更多的、更包罗万象的 comprehensive 洞见。也就是说，它会让你获得更多：因为有这个事实，那些学院派再也不需要装逼，好像自己懂得更多。
+
+## 段落 26：00:23:39 — 00:23:54
+
+来源：`t2437:s203`, `t2437:s204`, `t2437:s205`, `t2437:s206`, `t2437:s207`, `t2437:s208`, `t2437:s209`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1419)
+
+原文：西，对于任何一个点上懂了更多的东西。那么这些anypoint它是touching theuniversal，它是触动的普遍的人类的关怀的。然后每个人都哎你到底有没有来世啊？哎到底人是不是自由的？哎到底有没有上帝啊？这些东西触触动了普遍人类自由。Then the
+
+整理稿：他们不再需要在任何一个点上假装懂得更多。因为这些 any point 都是 touching the universal，触动的是普遍的人类关怀。每个人都会问：到底有没有来世？人到底是不是自由的？到底有没有上帝？这些东西触动的是普遍人类的关切。接下来就是 the insight。
+
+## 段落 27：00:23:54 — 00:24:20
+
+来源：`t2437:s210`, `t2437:s211`, `t2437:s212`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1434)
+
+原文：insight那么这个时候，他就他就会让那些学院派的人承认，哎，我们我们我们相比那些可以通过绝大部分人greatmultitude的绝大部分人获得那些洞见，我并不比你们多多少，我并不比你们多啊。Who are always most worthy ofour，然后这些绝大多数人实际上是最值得我们敬佩的。Who are most worthy of our r e s p e c t，a n d t o l i m i t t h e m，那么这些学院派的人就懂得去把他们自己限制在做进行教化c u l t i v a t i o n，这个s c h o o l s甚至可以翻译成经院啊，就可以把他们限制在去啊进行一些开化，就是搞搞搞搞精神文明建设了，就是对于那些证明的基础，呃培养一些证明的基础a l o n e，p r o o f a l o n e t h a t c a n b e g r a s p e d u n i v e r s a l l y，那么这些证明的这些基础，它是可以被普遍的把握的，以及是被一个伦理的姿态是是是是充分a n d s u f f i c i e n t f r o m a m o r a l s t a n d p o i n t，它只要通过一个伦理的一个姿态，伦理的一个立场，它就是充足的，它就是充足的，就足够了。呃啊，就是就是让你改过改过改过自新了，这意思是让学院派的人改过自新。你看我现在给你开的这个价格多好啊，改过自新的，通过了U T的，t h e a l t e r a t i o n t h u s c o n c e r n s o n l y t h e a r r o g a n c e a r r o g a n c e c l a i m o f t h e s c h o o l，那么这种变化呢，它只只会关注于，它只涉及这个呃经院派的那种傲慢的傲慢的宣称，傲慢的那些宣言，自大的一些c l a i m s主张，傲慢的主张啊，这个他妈翻译成主张比较好，傲慢的要求，w h i c h w o u l d g l a d l y l e t t h e m s e l v e s b e t a k e n f o r t h e s o l e e x p e r t s a n d g u a r d i a n s o f t h e t r u t h，这些这个这些经院派就会非常开心的让这些傲慢的主张啊，l e t让他们自己，这这里的w h i c h指的是啥呀？我操，你妈的你这个代词，你可不可以这这这个书给我括号然后加个箭头啊？会非常开心的让他们自己被拿走，f o r t h e s o l e e x p e r t s，f o r t h e s o l e唯唯一的专家和b e t a k e n f o r t h e s o l e e x p e r t s a n d g u a r d i a n s o f t h e t r u t h，这些真理和这些这个的唯一的专家，l e t t h e m s e l v e s b e t a k e n，让他们自己被接受，a s t h e y c a n r i g h t，这个这个文本其实读外文文本是你读到最后你才能懂它是什么意思，我这样给你逐句翻译的话，其实是，哎，他们可以，t h e y c a n r i g h t l y b e t a k e n i n m a n y o t h e r p a r t s o f k n o w l e d g e，他们可以正当的被啊。
+
+整理稿：这个 insight 就是：这个时候，他会让那些学院派的人承认：比起那些能够通过 great multitude 获得洞见的绝大多数人，我并不比你们多多少。
+
+## 段落 28：00:24:20 — 00:25:09
+
+来源：`t2437:s213`, `t2437:s214`, `t2437:s215`, `t2437:s216`, `t2437:s217`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1460)
+
+原文：respectand to limit them那么这些学院派的人就懂得去把他们自己限制在做进行教化cultivation这个schools甚至可以翻译成经院啊就可以把他们限制在去啊进行一些开化就是搞搞搞搞精神文明建设了就是对于那些证明的基础呃培养一些证明的基础aloneproof alone that can be grasped universally那么这些证明的这些基础它是可以被普遍的把握的以及是被一个伦理的姿态是是是是充分and sufficient from amoral standpoint它只要通过一个伦理的一个姿态伦理的一个立场它就是充足的它就是充足的就足够
+
+整理稿：而这些绝大多数人实际上最值得我们敬佩，也最值得我们去限制。那么这些学院派的人就懂得把自己限制在 cultivation，也就是进行教化——这个 schools 甚至可以翻译成“经院”——把自己限制在开化、搞精神文明建设上，也就是去培养一些证明的基础，proof alone that can be grasped universally。这些证明的基础可以被普遍地把握，而且从 moral standpoint 来看，只要通过一个伦理的姿态、伦理的立场，它就是充分的、充足的，就足够了。
+
+## 段落 29：00:25:11 — 00:27:08
+
+来源：`t2437:s218`, `t2437:s219`, `t2437:s220`, `t2437:s221`, `t2437:s222`, `t2437:s223`, `t2437:s224`, `t2437:s225`, `t2437:s226`, `t2437:s227`, `t2437:s228`, `t2437:s229`, `t2437:s230`, `t2437:s231`, `t2437:s232`, `t2437:s233`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1511)
+
+原文：了呃啊就是就是让你改过改过改过自新了这意思是让学院派的人改过自新你看我现在给你开的这个价格多好啊改过自新的通过了UT的thealteration thus concerns only the arrogance arrogance claim ofthe school那么这种变化呢它只只会关注于它只涉及这个呃经院派的那种傲慢的傲慢的宣称傲慢的那些宣言自大的一些claims主张傲慢的主张啊这个他妈翻译成主张比较好傲慢的要求which would gladly let themselves betaken for the sole experts and guardians of the truth这些这个这些经院派就会非常开心的让这些傲慢的主张啊let让他们自己这这里的which指的是啥呀我操你妈的你这个代词你可不可以这这这个书给我括号然后加个箭头啊会非常开心的让他们自己被拿走for the sole expertsfor thesole唯唯一的专家和be taken for the sole experts and guardians of the truth这些真理和这些这个的唯一的专家let themselves be taken让他们自己被接受as they can right这个这个文本其实读外文文本是你读到最后你才能懂它是什么意思我这样给你逐句翻译的话其实是哎他们可以they can rightly be taken in many other parts of knowledge他们可以正当的被啊被理解，用其他知识部门来去理解。Sharing with the public only the use of such
+
+整理稿：也就是说，要让学院派的人改过自新。你看我现在给你开的这个价格多好啊，改过自新的——the alteration thus concerns only the arrogance, arrogance claim of the school。这种变化只涉及经院派那种傲慢的宣称、傲慢的宣言、自大的一些 claims——这里翻译成“主张”比较好，也就是傲慢的要求。which would gladly let themselves be taken for the sole experts and guardians of the truth。这些经院派会非常开心地让这些傲慢的主张让他们自己……这里的 which 到底指什么？你可不可以在这个书里给我加个括号、加个箭头？会非常开心地让他们自己被拿走，for the sole experts，成为唯一的专家，be taken for the sole experts and guardians of the truth，成为真理的唯一专家和守护者，let themselves be taken，让他们自己被接受，as they can rightly\.\.\. 其实读外文文本，你要读到最后才能懂它是什么意思；我这样逐句翻译，其实是——他们可以 they can rightly be taken in many other parts of knowledge，他们可以正当地被理解，用其他知识部门来理解。只和公众分享其用法。
+
+- 疑点：which 的指代在原文中也不明确，讲话者本人也在此提出疑问，正文保留这一插话。；候选：；依据：t2437:s224, t3378:s607
+- 疑点：末尾“Sharing with the public only the use of such”后接内容在下一条，本段只整理到“分享其用法”。；候选：；依据：t2437:s233, t3378:s628
+
+## 段落 30：00:27:08 — 00:27:27
+
+来源：`t2437:s234`, `t2437:s235`, `t2437:s236`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1628)
+
+原文：truths，只和和大众只去分享这些真理的它的用法，同时keeping the key to them forthemselves，同时把这些获得这些知识的那个啊，我知道，获得这些知识的钥匙保留在自己手上，
+
+整理稿：他们只和大众分享这些真理的用法，同时把获得这些真理的钥匙保留在自己手里。
+
+## 段落 31：00:27:28 — 00:28:16
+
+来源：`t2437:s237`, `t2437:s238`, `t2437:s239`, `t2437:s240`, `t2437:s241`, `t2437:s242`, `t2437:s243`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1648)
+
+原文：啊，就是经验派的傲慢就在于他们，哦，我知道了，这里taken for是这个意思啊，be taken for被认作是什么什么，哦，就说这些经验派的经院学院派的人啊，他是非常高兴让他们自己放任自己被普通人认为是唯一的专家和真理的守护者看守者，啊，正如他们呃asas，正如他们啊可以很正当的，就就像他们可以很正当的，但是这是但是康德也承认这些经验派他在其他的知识门类里面许多其他知识门类他确实可以被看成是这个这个真理的唯一的专家和守护者啊，
+
+整理稿：经验派的傲慢就在于：他们非常乐于放任自己被普通人认作唯一的专家、真理的守护者和看守者。这里 taken for 就是“被认作什么”的意思，be taken for 即被认作。正如他们可以很正当地如此；不过康德也承认，这些经验派在许多其他知识门类中确实可以被看成真理的唯一的专家和守护者。
+
+- 疑点：原文此处“经验派的经院学院派”称谓混用，正文保留“经验派”，是否为“经院派”待核。；候选：经验派/经院派；依据：t3378:s640
+
+## 段落 32：00:28:16 — 00:29:06
+
+来源：`t2437:s244`, `t2437:s245`, `t2437:s246`, `t2437:s247`, `t2437:s248`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1696)
+
+原文：然后他这些经验派呢，他傲慢傲慢在哪里呢？他只会和大众分享这些真理的使用，但是呢不不去分享他们的一些关键或者发分享发现他们那些钥匙的key to them啊，获得这些真理的那些那个钥匙他不会分享给大众，那么这个就引了一个拉丁文叫做what he knows no more than I he alone wants to seem toknow，他知道的东西并不比我多，啊，他只是想要看上去好像知道啊，就这个意思，在嘲讽啊，康德就在嘲讽啊，康德把这句谚语给他化用了一下，给他化用了一下，就是说其实他知道的并不比我多，他只是想要看上去知道，看上去知道比别人多而已，
+
+整理稿：那么这些经验派的傲慢在哪里呢？他们只和大众分享这些真理的使用，却不分享发现这些真理的钥匙，也就是 key to them。他们不会把获得真理的钥匙分享给大众。这里引了一句拉丁文：what he knows no more than I, he alone wants to seem to know——他知道的东西并不比我多，他只是想要看上去好像知道。康德是在嘲讽：他化用这句谚语，说其实他知道的并不比我多，只是想要看上去知道，看上去比别人知道得多而已。
+
+- 疑点：拉丁文引文按英文转写保留，原文拉丁文形式未能确认。；候选：；依据：t3378:s659
+
+## 段落 33：00:29:06 — 00:30:05
+
+来源：`t2437:s249`, `t2437:s250`, `t2437:s251`, `t2437:s252`, `t2437:s253`, `t2437:s254`, `t2437:s255`, `t2437:s256`, `t2437:s257`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1746)
+
+原文：看上去他是一个博学广知的人。Yet care is taken for amore这个equitable，啊，the care is taken for a more equitableclaim，更公平的宣言on the part of speculative。但是呢就是要take care is taken for care is takenfor，就是就是这里是倒装啊，我靠care is is taken for，就是yet we have to take care for amore，就是我们要小心啊，但是我们要小心要要对于这部分这个呃这个思辨思辨的哲学家形而上学家要给他们一个更加恰当的一个一个一个一个主张。claim on
+
+整理稿：看上去他是一个博学广知的人。不过，Yet care is taken for a more equitable claim on the part of speculative reason——这里 care is taken for 是倒装，意思是我们必须小心，要对思辨哲学家、形而上学家给出一个更恰当、更公平的 claim on them。
+
+## 段落 34：00:30:05 — 00:30:35
+
+来源：`t2437:s258`, `t2437:s259`, `t2437:s260`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1805)
+
+原文：them更公平的一个一个claim on them heremains就是来对他们进行更更公允的一个评价吧，就是这样一个思辨哲学家呢，他是remains the exclusive trustee of a science that is useful to the public even without of of without theirknowledge就是这样思辨哲学家他继续会是一个排就是他哎呦康德这边都是在争取那些形而上学傻逼你知道吗？
+
+整理稿：对他们给出更公平的 claim on them。这个思辨哲学家仍然是这门科学的独家受托人（exclusive trustee）——这门科学对公众有用，甚至不需要公众知道。康德在这里其实是在为那些搞形而上学的人争取空间。
+
+## 段落 35：00:30:35 — 00:31:00
+
+来源：`t2437:s261`, `t2437:s262`, `t2437:s263`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1835)
+
+原文：就是说哎没你相信我好了，你们你们继续还会有一个很很伟大的一个一个一一个你们继续还是有饭吃的，不要以为我拆了你们台你们就没饭吃了，他还会作为这个信托人啊一个一门科学的一个信托人一个独独家信托人trustee独家受托人啊，那么这个科学它是对于公众是有用
+
+整理稿：康德仿佛在说：你们相信我好了，你们继续还会有一个很伟大的东西，你们继续还是有饭吃的；不要以为我拆了你们的台，你们就没饭吃了。他还会作为一门科学的信托人、独家受托人（trustee），这门科学对公众是有用的。
+
+## 段落 36：00:31:00 — 00:31:47
+
+来源：`t2437:s264`, `t2437:s265`, `t2437:s266`, `t2437:s267`, `t2437:s268`, `t2437:s269`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1860)
+
+原文：的，甚至就是不需要这些乱七八糟形而上学知识的之后，这对于公众还是有用的，namely the critique ofreason那么这个东西这个知识呢就是理性的批判理性批判for the latter can never becomepopular啊，but also has no need of beingso呃这里的latter应该是指的那些knowledge应该是指那些knowledge因为那些知识的永远不能够是变得流行起来，那知识太晦涩了，but also has no need of beingso它也没有必要流行，这些知识没必要流行起来，for just as little as people want to fill their heads with fine spun arguments for useful truths fine
+
+整理稿：甚至不需要那些乱七八糟的形而上学知识，它对于公众仍然有用，也就是理性的批判（the critique of reason）。这种知识就是理性的批判。for the latter can never become popular——这里的 latter 应该指那些知识：那些知识永远不可能变得流行，因为太晦涩了；but also has no need of being so——它也没有必要流行，这些知识没必要流行起来。for just as little as people want to fill their heads with fine spun arguments for useful truths——正如很少有人愿意让脑子里塞满那些为有用真理编织得很精细的论证。
+
+## 段落 37：00:31:47 — 00:32:41
+
+来源：`t2437:s270`, `t2437:s271`, `t2437:s272`, `t2437:s273`, `t2437:s274`, `t2437:s275`, `t2437:s276`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1907)
+
+原文：spun应该是旋转转的很快的finespun就是转的很快的细纺的啊，因为因为forjust只有很少的人是想要把他们脑子里面塞满了一些就是编织的很精细的这个论题，就是对于那些有用的那些真理，只有很少的人希望脑子里面塞满了这个细纺的fine spun arguments so just aslittle正如呃so just as little do the equally subtle objection against these truths ever enter theirminds就也也而且很少的人他会做同样的那种精细的这个对于这些论题的一些反驳啊呃反对这些真理ever他从来没有进入他们的
+
+整理稿：fine spun 字面是“细纺的”，这里指编织得很精细的论证。只有很少的人想把这些精细的论证塞进脑子里，也就是对那些有用的真理；只有很少的人希望脑子里塞满 fine spun arguments。so just as little do the equally subtle objections against these truths ever enter their minds——同样，很少会有人对这些真理作出同样精细的反驳，这些反驳从来没有进入他们的脑子。
+
+## 段落 38：00:32:41 — 00:33:43
+
+来源：`t2437:s277`, `t2437:s278`, `t2437:s279`, `t2437:s280`, `t2437:s281`, `t2437:s282`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=1961)
+
+原文：脑子，曾进入他们脑子那些真理进行那些精细的反驳，很少的人会对那些进入他们脑子的真理进行精细的反驳，那么相反on the contrary because the school in ininevitable they force intoboth因为这个经验派呢需要学院派呢，他的不可避免的他脑子里面既有这个细纺的这些论题啊，也有一些那微妙的反驳啊。没，as does everyone who raises himselfto，呃，speculation，就是只要任何人他把自己提到这么一个，把自己举举到这个思辨的这个这个空中楼阁里面去呢，the critical of reason is bound once and for all to prevent。那么理性的这种批判，他就他就注定他就应当一次性的，并且一劳永逸的去阻止，阻止the scandal that sooner or later has to be noticed even among the people in the disputes inwhich，阻止这么一个丑闻，它这个丑闻呢，呃，或早或快的就会被注意到。
+
+整理稿：很少的人会对那些进入他们脑子的真理进行精细的反驳。相反，on the contrary，因为学院派不可避免地会同时卷入这两方面：他脑子里既有这些精细的论题，也有一些微妙的反驳；任何把自己提升到思辨的空中楼阁的人都是如此。理性的批判注定要一劳永逸地阻止这样一个丑闻：它或早或迟会被注意到，甚至是在人们的争论中。
+
+## 段落 39：00:33:43 — 00:34:15
+
+来源：`t2437:s283`, `t2437:s284`, `t2437:s285`, `t2437:s286`, `t2437:s287`, `t2437:s288`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=2023)
+
+原文：那么怎么阻止呢？就通过一种基础性的一种调查，基本的一个调查，of the rights of speculativereason，就是基础性调调查啥？调查这种思辨理性的它的权利，就是就会调查出来，思辨理性你妈的根本就是在瞎搞，你没有权利去思考那些问题，你都是违规操作。那我那么理性呢？就就是理性的批判呢，它就调查出来这么一个这么一个丑闻，它就可以阻止这种丑闻，它可以一劳永逸的阻止这种丑闻再发生。
+
+整理稿：那么怎么阻止呢？通过一种基础性的调查，也就是对思辨理性的权利（the rights of speculative reason）的调查。调查会发现，思辨理性根本就是在胡来：你没有权利去思考那些问题，你都是违规操作。那么理性呢？理性的批判会调查出这样一个丑闻，从而阻止这种丑闻，一劳永逸地阻止它再发生。
+
+## 段落 40：00:34:15 — 00:35:08
+
+来源：`t2437:s289`, `t2437:s290`, `t2437:s291`, `t2437:s292`, `t2437:s293`, `t2437:s294`, `t2437:s295`, `t2437:s296`, `t2437:s297`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=2055)
+
+原文：那么这种丑闻，啊，它这或早或迟，它不得不会被啊，哪怕是在这个争论当中的那些人当中，它会被注意到啊。那么在这些争论当中，in which in the absence ofcriticism，在这些争论当中，因为缺乏了这种理性的批判呢，啊，形而上学家，and amongthis以及呃in the end evenclerics，就是甚至是那些教士，最终是那些教士，就是在形而上学家当中，甚至是那些以及最后甚至是那些教士，他会不可避免的卷进去，involvethemselves，卷进这些丑闻里面去，就形而上学丑闻里面去，and in which they afterwards evenfalsify their owndoctrines，他们最后甚至会证伪他们自己的那个那些那些信条啊，就比如说啊那些一些道德信条或者一些宗教的信条，through
+
+整理稿：这种丑闻或早或迟会被注意到，哪怕是在那些争论中的人当中。在这些争论中，in the absence of criticism——因为缺乏理性的批判——形而上学家乃至最后连教士都会不可避免地卷入这些形而上学丑闻；他们后来甚至会证伪自己的信条，比如某些道德信条或宗教信条。
+
+## 段落 41：00:35:08 — 00:35:53
+
+来源：`t2437:s298`, `t2437:s299`, `t2437:s300`, `t2437:s301`, `t2437:s302`, `t2437:s303`, `t2437:s304`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=2108)
+
+原文：criticism，通过哲学批判，alonecan为，只要通过哲学的批判，呃理理性批判，纯粹理性批判，我们就可以啊，serve the very rootof这个materialismfatalism啊这个呃，essentialism of free thinking u n b e l i e f，s e v e r就铲除啊，铲除，切开，切断，s e v e r t h e v e r y r o o t，切断这个唯物主义，这个命定主义，f a t a l i s m嘛，就是宿命论啊，还有这个无神论，它的根把它切掉，只要通过纯粹理性批判，啊，通过自由的思想啊啊就可以，o f f r e e t h i n k i n g u n b e l i e f o f e s s e n t i a l i s m，f r e e t h i n k i n g是什么意思？哦，我们就可以啊，就是这个o f还是跟前面的o f可以切断这些自由思想啊那些。unbeliefsever就铲除啊铲除切开切断sever the very root切断这个唯物主义这个命定主义fatalism嘛就是宿命论啊还有这个无神论它的根把它切掉只要通过纯粹理性批判啊通过自由的思想啊啊就可以of free thinkingunbelief of essentialismfree thinking是什么意思
+
+整理稿：通过批判——只要通过哲学的、理性的批判，也就是纯粹理性批判——我们才能铲除唯物主义、宿命论（fatalism）、无神论、自由思想、不信（unbelief）、本质主义等的根。这里的 sever 就是铲除、切开、切断，sever the very root 即切断它们的根。
+
+- 疑点：英文列举中的 essentialism/free thinking/unbelief 关系不清，正文按并列项处理；essentialism 是否应为 atheism 待核。；候选：essentialism/atheism；依据：t3378:s814
+
+## 段落 42：00:35:56 — 00:36:53
+
+来源：`t2437:s305`, `t2437:s306`, `t2437:s307`, `t2437:s308`, `t2437:s309`, `t2437:s310`, `t2437:s311`, `t2437:s312`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=2156)
+
+原文：哦我们就可以啊就是这个of还是跟前面的of可以切断这些自由思想啊那些自就是散漫的、自由的思想的那些不虔诚、不就是那些不信仰这个三位一体啊，还有对于这个还有那些呃乐观主义啊、乐观主义enthusiasm，还有那个superstition浅。我靠，你能不能给我弹出来啊？迷信啊，迷信啊，迷信啊，就可以，我们不可以把哦这个东西，这个东西enthusiasm它是指的那个就是狂喜啊、狂热、宗教狂热、宗教狂热，就是我们又可以把那些不虔诚呃就是不信啊，还有那个宗教狂热，还有迷信，就是那那胡思乱想的那些这些东西，也可以把它们根都给铲断，就是一次性的通过纯粹理性的批判。
+
+整理稿：这里的 of 还是承接前面的 of：要切断这些自由思想、散漫的自由思想中的不虔诚、不信，也就是不信仰三位一体；还有乐观主义、enthusiasm（宗教狂热）和迷信（superstition）。也就是说，我们可以把那些不虔诚、不信、宗教狂热和迷信这些胡思乱想的东西的根都铲断——一次性地通过纯粹理性批判。
+
+- 疑点：superstition 后 ASR 作“浅”，按上下文整理为“迷信”。；候选：superstition；依据：t3378:s834
+
+## 段落 43：00:36:54 — 00:37:20
+
+来源：`t2437:s313`, `t2437:s314`, `t2437:s315`, `t2437:s316`, `t2437:s317`, `t2437:s318`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=2214)
+
+原文：那就讲了半天，就讲纯粹理性批判对于这个教师共同体或者对于一个信仰共同体它的功能啊，知识共同体的功能，知识共同体、信仰共同体的一个功能，which can becomegenerally呃injurious in。那么这些东西呢，它一般而言都是有害的，并且finally alsoof，甚至最终我们可以把观念论的这个根有害的根给它干掉，还有怀疑主义的根也干掉。
+
+整理稿：讲了半天，讲的是纯粹理性批判对于教师共同体、知识共同体或信仰共同体的功能；这些东西一般而言可能变得有害（which can become generally injurious），并且最终还可以把观念论的有害的根、怀疑主义的根也干掉。
+
+- 疑点：which can become generally injurious in 原文不完整，正文按“可能变得有害”整理。；候选：；依据：t3378:s857
+
+## 段落 44：00:37:21 — 00:38:00
+
+来源：`t2437:s319`, `t2437:s320`, `t2437:s321`, `t2437:s322`, `t2437:s323`, `t2437:s324`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=2241)
+
+原文：那么康德其实教康的观念论，实际上他妈的他自己反观念论idealism，他是一个反观念论的，因为他认为这个idealism idea这个东西凭什么站的比比这个信仰、比宗教伦理要高呀？凭什么呀？Which are more dangerous to the schools？他们呢是对于这个呃经验呢是更危险的，and can hardly be transmitted to the public。他们很难被呃传播给大众，传播给大众。If governments find it good to concern themselves with a few of the scholars，then it would accord better with their wisesolicitude，呃，both for the sciences and for humanity。
+
+整理稿：康德其实被称为观念论者，但实际上他自己是反观念论的（idealism）。他认为 idea 这个东西凭什么站得比信仰、比宗教伦理更高？凭什么？which are more dangerous to the schools——这些东西对学院是更危险的，and can hardly be transmitted to the public——它们很难传播给大众。如果政府觉得只关心少数几个学者是好事，那么这会更符合他们明智的关切（wise solicitude），既关心科学，也关心人类。
+
+- 疑点：原文“教康的观念论”识别不清，正文暂作“被称为观念论者”。；候选：先验观念论/观念论者；依据：t3378:s863
+
+## 段落 45：00:38:01 — 00:38:42
+
+来源：`t2437:s325`, `t2437:s326`, `t2437:s327`, `t2437:s328`, `t2437:s329`, `t2437:s330`, `t2437:s331`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=2281)
+
+原文：这后面都是这种长句，我他妈服了。如果这个政府发现这是好的是什么好的？就是concern themselveswith，就是让这让这些政府自己只关心于一些事物，一些什么学术事物、学者的一些事物，then it would accord betterwith，那么就可以更好的适应于他们的accordbetter，更好的符合于他们的睿智的关心，睿智的关心啥？关心呃for the sciences对于这个科学的关心和对于人呃人人类的一个关心。
+
+整理稿：后面的句子都很长。如果政府发现这样是好的——什么好？就是 concern themselves with，让政府只关心某些学术事务、学者的事务——那么这就更符合他们明智的关切：既关心科学，也关心人类。
+
+## 段落 46：00:38:42 — 00:39:23
+
+来源：`t2437:s332`, `t2437:s333`, `t2437:s334`, `t2437:s335`, `t2437:s336`, `t2437:s337`, `t2437:s338`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=2322)
+
+原文：如果诶如果他们favor the freedom of such acritic，如果他们啊喜欢好或者他们赞同赞赏这个这么一种纯粹理性批判的这种自由的话，by whichalone，只要依靠这个the treatment ofreason，那么理性的这种治疗treatment呢？方法吧，应该这里就理性的这种疗法或者方法，它可以放在一个非常稳固的一个基础上啊。Instead of supporting theridiculous呃despotism of theschools，而不需要去支持那些荒谬的，这个时候就他就拉拉投资了，你政府也支持我，不要支持支支持那些学院派的一些荒谬那些专制啊。Which raises a loud cry of public
+
+整理稿：如果他们 favor the freedom of such a critique，也就是赞同纯粹理性批判的这种自由，那么只有依靠这种对理性的治疗（the treatment of reason）——这里应该译成理性的疗法或方法——才能把它放在非常稳固的基础上。Instead of supporting the ridiculous despotism of the schools，也就是不去支持学院派那种荒谬的专制。康德在这里其实是在拉投资：政府也应该支持我，而不要支持学院派那些荒谬的专制。
+
+- 疑点：原文 such a critic 可能为 such a critique，正文按 critique 整理。；候选：critique；依据：t3378:s895
+
+## 段落 47：00:39:23 — 00:40:20
+
+来源：`t2437:s339`, `t2437:s340`, `t2437:s341`, `t2437:s342`, `t2437:s343`, `t2437:s344`, `t2437:s345`, `t2437:s346`, `t2437:s347`, `t2437:s348`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=2363)
+
+原文：danger，它会使得这个呃这种学院派的这种荒谬的专制啊，会产生一个震天动地的哭喊，哭喊是什么？公众的一种危险啊一种哭喊。Whenever someone tears but theircobwebs，就是无论就怀疑论者或者说一些观念论者，他们会撕开那个这些学院派的那个cobwebs那些蜘蛛网蜘蛛网，他们那一套形而上学繁琐体系的网的时候，都会引起啊都会他们都会这些学院派都会发出一个loud cry loudcry啊这种loudcry这种就是很响的一种啊你凭什么你在渎神你在侮辱我们的什么信仰什么这种东西的，你们这些啊这这就是这这种这种loudcry它是充满了public danger的，of which the public has never taken any notice。
+
+整理稿：which raises a loud cry of public danger——学院派这种荒谬的专制会发出震天动地的哭喊，哭喊的内容就是“公众有危险”。Whenever someone tears apart their cobwebs，也就是无论怀疑论者还是观念论者，撕开学院派那些蜘蛛网、那套形而上学繁琐体系的网时，这些学院派都会发出 loud cry。这种 loud cry 很响：你凭什么渎神？你凭什么侮辱我们的信仰？这就是这种 loud cry，它充满了 public danger，of which the public has never taken any notice——可公众从来没有注意到它。
+
+- 疑点：Whenever someone tears but their cobwebs 识别不清，正文按 tears apart their cobwebs 整理。；候选：tears apart their cobwebs；依据：t3378:s917
+
+## 段落 48：00:40:20 — 00:40:47
+
+来源：`t2437:s349`, `t2437:s350`, `t2437:s351`, `t2437:s352`, `t2437:s353`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=2420)
+
+原文：那么对于对于这些loudcry呢，其实大众根本没有注意到他们。And hence the loss of which it canalso呃所以失去这些东西，你因为他妈是康德在这里毒舌的啊，你你们学院派当你受比如说受休谟这些怀疑论者怀疑的时候，你们自己发出的那个loudcry其实根本没人听到，谁他妈听得到呢？所以让你们让你们闭嘴，你所以失去这些东西也不会被被感受到，也不会被感受到。
+
+整理稿：那么对于这些 loud cry，其实大众根本没有注意到。And hence the loss of which it can also\.\.\.——因此，失去这些东西也不会被感受到。康德在这里是毒舌的：你们学院派，当你们受到休谟这类怀疑论者怀疑的时候，你们自己发出的 loud cry 根本没人听到，谁听得到呢？所以，让你们闭嘴；失去这些东西也不会被感受到。
+
+- 疑点：And hence the loss of which it can also 原文不完整，正文按“失去这些东西也不会被感受到”整理。；候选：；依据：t3378:s936
+
+## 段落 49：00:40:48 — 00:41:12
+
+来源：`t2437:s354`, `t2437:s355`, `t2437:s356`, `t2437:s357`, `t2437:s358`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=2448)
+
+原文：看我讲多少，一、二、三、四、五、二、三、四、五。怎么这？我是不是要要歇一会儿？好，我歇一会儿，我今天就讲到这边啊。B版的话，我们今天就讲到这里。嗯，这都是很虚虚多多的，但是我们为什么一定要讲这个东西呢？
+
+整理稿：看我讲了多少……我是不是该歇一会儿？好，我歇一会儿，今天就讲到这里。B 版的话，我们今天就讲到这里。这些都是很虚的东西，但我们为什么一定要讲这个东西呢？
+
+## 段落 50：00:41:12 — 00:41:49
+
+来源：`t2437:s359`, `t2437:s360`, `t2437:s361`, `t2437:s362`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=2472)
+
+原文：我们要看看清楚康德这个人啊，他不是一个纯做哲学的，他他做的这些东西，他都是有他的那个道德道德考量的，有他的那个宗教，他认为宗教事业应该这样发展比较好，然后知识事业还有教化对于市民的公众的教化是因为这样这样考虑比较好。啊，他也认为就是我们要用一套简明的大众可以理解的，可以自己自己在自己身上就能反省出来的一一种理性主义的方法，去代替那种形而上学玄思，代替那种专断的啊，代替那种呃教条主义的那种啊。
+
+整理稿：我们要看清楚康德这个人。他不是一个纯做哲学的人。他做的这些事情都有他的道德考量，也有他的宗教考量。他认为宗教事业应该这样发展比较好；知识事业以及教化，即对市民、公众的教化，也是因为这样考虑比较好。他也认为，我们要用一套简明、大众可以理解、自己在自己身上就能反省出来的理性主义方法，去代替那种形而上学玄思，代替那种专断的、教条主义的东西。
+
+## 段落 51：00:41:50 — 00:42:24
+
+来源：`t2437:s363`, `t2437:s364`, `t2437:s365`, `t2437:s366`, `t2437:s367`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=2510)
+
+原文：他某种意义上讲就是说他认为就工人是一样的，实现的工人都一样，比如说那个呃呃灵魂不朽呀，比如说自由意志啊这些东西啊，他那些独断论者，他通过一些很玄妙的玄思妙想，他也可以得出来。但是说，他认为只不过这个东西没有办法实现他的一个呃现代资产阶级啊市民社会他沐浴其中的那种呃教化的功能啊整个社会意识形态现代化的功能实现不了，所以他觉得他这套方法是更好。然后他认为他这套方法对统治者更有利啊统治者更有利，更加轻巧，更加便捷。
+
+整理稿：从某种意义上讲，他认为功能是一样的，实现的功能都有。比如灵魂不朽、自由意志这些东西，那些独断论者通过一些很玄妙的玄思妙想也能得出来。但他认为，只不过这些东西没有办法实现现代资产阶级市民社会沉浸于其中的那种教化功能，整个社会意识形态现代化的功能实现不了。所以他觉得自己这套方法更好，对统治者更有利，更加轻巧、便捷。
+
+- 疑点：ASR 中“工人”疑为“功能”，参考字幕亦作“功能”，正文据此整理。；候选：功能；依据：t3378:s971, t3378:s972
+
+## 段落 52：00:42:26 — 00:42:30
+
+来源：`t2437:s368`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=2546)
+
+原文：然后我们下次就把这个序言B给他全看完啊。
+
+整理稿：然后我们下次把这篇序言B全部看完。
+
+## 段落 53：00:42:32 — 00:43:16
+
+来源：`t2437:s369`, `t2437:s370`, `t2437:s371`, `t2437:s372`, `t2437:s373`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=2552)
+
+原文：哎呀，就是读这种书的时候，你就把就是就普通人啊，康德就是普通人，他是有点像就他的那种他那个时代人写的东西都是那个味儿，都是那种屁股屁股歪歪的，但是实际上都是为市民社会说话的，就是为所有受过教育的那个大众说话。这个public不不包含底层劳动人民的啊，public这是指的那些能说话的啊，就是能在公开演讲当中能够发表公共意见的那种人啊，参与参与那种呃整个社群的规则的讨论啊标准制定的那些人啊啊他不不包括那些真的是底层劳动人民的不包括的啊。
+
+整理稿：读这种书的时候，你就把康德当成普通人，他就是普通人。他有点像那个时代的人：那个时代的人写的东西都是那个味儿，都是那种屁股歪歪的，但实际上都是为市民社会说话的，就是为所有受过教育的大众说话。这个 public 不包含底层劳动人民。public 指的是那些能说话的人，就是能在公开演讲中发表公共意见、参与整个社群规则讨论和标准制定的那些人，不包括真正的底层劳动人民。
+
+## 段落 54：00:43:17 — 00:43:35
+
+来源：`t2437:s374`, `t2437:s375`, `t2437:s376`, `t2437:s377`, `t2437:s378`, `t2437:s379`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=2597)
+
+原文：哎啊所以我们就所以所以他这里的批判是有问题的啊，所以这里批判是有问题的。loudcry这个loudcry他对产生这个publicdanger这些教士的loudcry这些学院派的loudcry，它实际上是对最底层是有影响的，是有影响的。
+
+整理稿：所以，他这里的批判是有问题的。这个 loud cry——这些教士的 loud cry、这些学院派的 loud cry——对产生这种 public danger 是有影响的，实际上对最底层是有影响的。
+
+- 疑点：loud cry、public danger 的准确含义及断句不确定，正文保留英文原词。；候选：；依据：t3378:s1004, t3378:s1005, t3378:s1006, t3378:s1007
+
+## 段落 55：00:43:36 — 00:44:23
+
+来源：`t2437:s380`, `t2437:s381`, `t2437:s382`, `t2437:s383`, `t2437:s384`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=2616)
+
+原文：就是这教士他作为权威，虽然是非理性的权威，是被那些人非理性的信仰的权威，但是他如果大声叫出来斥责出来的话，可以能够煽动民粹，或者说的难听点煽煽动民粹，说的好听点是，他其实他有他的他的那个辐射的一片人的信众基础的，这些人他就需要那些教士用繁琐的不可思议的精细的微妙的加引号都通通加引号啊，这个对于没受过教育前现代思思维来说，那确实都确实是这些话都是就是确实是精微的精妙的了不起的飘在天上的啊神圣的，但是你受过教育的，有过逻辑学训练了，然后有基本的那种批判性思维了啊自反性的一种思维了，那你这些东西全都一下子就褪去就是皇帝的外衣了，就是赤裸裸的了啊。
+
+整理稿：教士作为权威，虽然是非理性的权威，是被那些人非理性地信仰的权威，但如果他大声叫出来、斥责出来，就能够煽动民粹。说得难听点是煽动民粹；说得轻一点，他其实有他能够辐射的一片信众基础。这些人就需要那些教士用繁琐的、不可思议的、精细的、微妙的东西——都通通加引号——对于没受过教育的前现代思维来说，这些话确实显得精微、精妙、了不起、飘在天上、神圣。但你受过教育，有过逻辑学训练，有基本的批判性思维、自反性的思维，那这些东西就一下子全都褪去皇帝的外衣，变成赤裸裸的了。
+
+## 段落 56：00:44:24 — 00:45:13
+
+来源：`t2437:s385`, `t2437:s386`, `t2437:s387`, `t2437:s388`, `t2437:s389`, `t2437:s390`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=2664)
+
+原文：但是这个东西它它对于缓和矛盾是有用的呀，它对于缓和矛盾是有用的。康德在这里相当于釜底抽薪的啊，康德相当于釜底抽薪了，他这个使得封建王权统治他失去了一个很大的一个支撑，这个支撑就是至高的至繁琐的至为精妙权威的教士阶层和最愚蠢的最浅反思的最粗鲁的底层农奴之间是短路的，但是康德这里就是要岂不是把这个短路给他切断了吗？他们的信仰就是要靠这种繁琐的矫揉造作的这种东西啊繁琐的繁文缛节的这种，然后这个那个就叫finespun就是就细纺的这些东西。你看那些人穿的那那个袖袍啊，上面都是各种花纹啊，那个东西就是直接的让那个很最底层的，一看就觉得这个东西了不起，屌，有道理，高，懂吗？
+
+整理稿：但这个东西对于缓和矛盾是有用的。康德在这里相当于釜底抽薪，使封建王权统治失去了一个很大的支撑。这个支撑，就是至高的、至为繁琐、至为精妙权威的教士阶层，与最愚蠢、最缺乏反思、最粗鲁的底层农奴之间的短路。康德这里岂不是把这个短路切断了吗？他们的信仰就是要靠这种繁琐、矫揉造作的东西，靠这种繁文缛节。这个就叫 fine spun，就是细纺的这些东西。你看那些人穿的袖袍，上面都是各种花纹。那个东西直接让最底层的人一看就觉得了不起——屌、有道理、高，懂吗？
+
+- 疑点：ASR 作“最浅反思”（参考字幕作“最前反思”），语义不确定，正文暂按“最缺乏反思”整理。；候选：最缺乏反思；依据：t3378:s1041, t3378:s1042
+- 疑点：fine spun 的拼写及“细纺”的具体含义不确定，正文保留英文原词。；候选：fine spun；依据：t3378:s1048, t3378:s1049
+
+## 段落 57：00:45:14 — 00:46:57
+
+来源：`t2437:s391`, `t2437:s392`, `t2437:s393`, `t2437:s394`, `t2437:s395`, `t2437:s396`, `t2437:s397`, `t2437:s398`, `t2437:s399`, `t2437:s400`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=2714)
+
+原文：那么康德这就他看上去给说开了个药方，说哎，你看我用这个更简单的、更简明的、更一劳永逸的、更能够让大部分人心悦诚服的一个东西来替代掉你那个东西，结果结果实际上是使得他自毁长城啊，但是毁的好，我只能说毁的好，因为减少了这种高级教士对于这个底层劳动人民的思维上的奴役啊，啊，这是有一定的进步力量啊，就是说这个资产阶级在他的头脑自我解放的过程当中，他呼唤这个封建王权放弃专制主义和这种蒙昧主义的这种看上去精致，实际上蒙昧主义的一种意识形态灌输啊教教义灌输啊这种神秘学灌输，放弃这种东西的时候，他其实是为了他自己的私利，为了这个public的私利啊城市里面的这个居民的一个一个那个发言权，或者说他们的那一套啊市民社会里面已经流传起来那种逻辑主义的那种合理性的那种生活方式，但是他附带的就解放了更多的人，他有一个当时是他代表历史进步的一个一一个阶级啊，所以它附带着能够让让让更人口当中的绝大部分那那方没有受过教育的那些人也能够卸除掉啊，也也能够打打碎他的枷锁啊，但是就是这个过程当中那些教士啊那些迷信啊，他肯定会更进一步更紧密的想要去笼络他的那些受众无脑的受众，因为他遭受到威胁了，他会战略收缩，然后他是会煽动民粹，就是这种斗争呢，它是历史没办法的，真的是啊，因为识字率那么低啊，或者说这个受教育的这个整个这个社会的一个教育机器就那么一个饱和度，对不对？你有什么办法呢？
+
+整理稿：那么康德看上去是给开了个药方，说：你看，我用这个更简单、更简明、更一劳永逸、更能够让大部分人心悦诚服的东西来替代你那个东西。结果实际上是使他自毁长城。但毁得好，我只能说毁得好，因为减少了高级教士对底层劳动人民思维上的奴役。这是有一定的进步力量的。也就是说，资产阶级在头脑中自我解放的过程中，呼唤封建王权放弃专制主义和这种蒙昧主义——这种看上去精致、实际上蒙昧主义的意识形态灌输、教义灌输、神秘学灌输。在放弃这些东西的时候，他其实是为了自己的私利，为了这个 public 的私利，为了城市居民的发言权，或者说为了市民社会里已经流传起来的那种逻辑主义的、合理性的生活方式。但他附带地解放了更多的人。他当时代表历史进步的一个阶级，所以它附带地能够让人口中绝大部分没有受过教育的人也能够卸除枷锁、打碎枷锁。但是在这个过程中，那些教士、那些迷信肯定会更进一步、更紧密地想要笼络他们的受众——那些无脑的受众，因为他们遭受到威胁。他们会战略收缩，然后会煽动民粹。这种斗争是历史没办法的，真的，因为识字率那么低，或者说整个社会的教育机器就只有那么一个饱和度，对不对？你有什么办法呢？
+
+## 段落 58：00:46:58 — 00:47:25
+
+来源：`t2437:s401`, `t2437:s402`, `t2437:s403`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=2818)
+
+原文：但是我们在这个世我们现在二十一世纪了，你不能再搞这个玩意了吧？二十一世纪了还有人，这康德明明就已经说要用这个东西来打破迷信了，甚至在二十一世纪还有人拿康德这个东西当个迷信，那我就觉得太讽刺、太可怜、太可悲、太肮脏、太太太阿渣了、太恶心了，就是抱着小霸王睡觉那些人，我觉得你们省省吧，真的是就是太恶心了，是吧？
+
+整理稿：但是我们现在是二十一世纪了，你不能再搞这个玩意了吧？二十一世纪了还有人——康德明明已经说要用这个东西来打破迷信，甚至在二十一世纪还有人拿康德这个东西当迷信。那我就觉得太讽刺、太可怜、太可悲、太肮脏、太恶心了。就是抱着小霸王睡觉那些人，我觉得你们省省吧，真的是太恶心了，是吧？
+
+- 疑点：ASR 中“阿渣”含义不明，疑为“腌臜”或重复强调，正文未保留该词。；候选：腌臜；依据：t3378:s1118
+
+## 段落 59：00:47:25 — 00:47:36
+
+来源：`t2437:s404`, `t2437:s405`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=4&t=2845)
+
+原文：啊，所以你们读康德要读出一个正确的一个姿态啊，对于现代文明那个铺展的进程啊，那么康德是一个现代哲学铺展的一个比较重要的一个环节，那就讲到这边。
+
+整理稿：所以，你们读康德要读出一个正确的姿态。对于现代文明铺展的进程来说，康德是现代哲学铺展中一个比较重要的环节。那就讲到这边。

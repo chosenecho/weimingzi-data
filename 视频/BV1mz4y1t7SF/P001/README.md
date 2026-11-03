@@ -1,0 +1,22 @@
+# 【现实观察】如果有陌生人打着“失业”的幌子向你要钱 — P1
+
+BV：`BV1mz4y1t7SF`；分 P：1。
+
+所有文件为本地产物整理副本；AI 校对稿未经人工审核。不同转录来源、版本和复核项均保留。
+
+优先阅读：[打开阅读正文](AI校对/16e2b0496aa04931/ai-draft.md)
+
+## AI 校对版本
+
+- `16e2b0496aa04931` · 状态 `needs-review` · [ai-draft.md](AI校对/16e2b0496aa04931/ai-draft.md) · [review.md](AI校对/16e2b0496aa04931/review.md)
+
+## 原始转录与源字幕
+
+- `subtitle-ai` · 内容 `7fa53e4a291ee175` · [TXT](原始转录/subtitle-ai/7fa53e4a291ee175/transcript.txt) · [JSON](原始转录/subtitle-ai/7fa53e4a291ee175/transcript.json) · [SRT](原始转录/subtitle-ai/7fa53e4a291ee175/transcript.srt) · [VTT](原始转录/subtitle-ai/7fa53e4a291ee175/transcript.vtt)
+- `asr-local` · 内容 `247e7acebd3a3309` · [TXT](原始转录/asr-local/247e7acebd3a3309/transcript.txt) · [JSON](原始转录/asr-local/247e7acebd3a3309/transcript.json) · [SRT](原始转录/asr-local/247e7acebd3a3309/transcript.srt) · [VTT](原始转录/asr-local/247e7acebd3a3309/transcript.vtt)
+
+## 历史转录包、阅读站与音频
+
+- 转录包 `b51cd1ad737e491e`：[bundle.md](已发布转录/b51cd1ad737e491e/bundle.md) · [bundle.raw.json](已发布转录/b51cd1ad737e491e/bundle.raw.json) · [bundle.srt](已发布转录/b51cd1ad737e491e/bundle.srt) · [bundle.txt](已发布转录/b51cd1ad737e491e/bundle.txt) · [bundle.vtt](已发布转录/b51cd1ad737e491e/bundle.vtt)
+- 转录包 `ed7459ff93d7dca5`：[bundle.md](已发布转录/ed7459ff93d7dca5/bundle.md) · [bundle.raw.json](已发布转录/ed7459ff93d7dca5/bundle.raw.json) · [bundle.srt](已发布转录/ed7459ff93d7dca5/bundle.srt) · [bundle.txt](已发布转录/ed7459ff93d7dca5/bundle.txt) · [bundle.vtt](已发布转录/ed7459ff93d7dca5/bundle.vtt)
+- [d9315e117f8a73bb.m4a](音频/d9315e117f8a73bb.m4a.download.md)

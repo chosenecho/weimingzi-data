@@ -1,0 +1,161 @@
+《经验主义的两个教条》里讨论定义性的那一部分，讨论的是定义对于解释分析性有什么作用。在蒯因看来，它毫无用处，除了最后一种极端意义上的定义。但蒯因在这里怂了：除了最后一种极端意义上的定义，他不敢变成一个激进的黑格尔主义者。前面的回顾我就不做了。第三节讲的是另一种想要理解“分析性”的方法，他最后告诉你，其实所有分析性都没法理解，分析本身是个语用学的东西。
+
+这里他用了 interchangeability，也就是互换性、可互换性，把它当作一个自然建议（a natural suggestion）。这个建议值得进一步仔细检查：两个语言形式、两个语言表达形式的同一性，仅仅在于它们的可互换性。这里的互换性看上去有点语用学的味道，甚至是一种很庸俗的语用学：它们可以在所有语境中互换，而不改变真值（without change of a truth value）。但我跟你讲，truth value 这个理论本身也是一种形而上学。它好像认为，在具体的语言形式或表达背后还有一个真值，一个真值表的宇宙。那不就是形而上学吗？
+
+这个东西最后也被破掉了。它是卡尔纳普的残余，也就是逻辑实证主义的残余。这个东西是很低智商的：如果一个人跳出来跟你讲什么真值表，那很低智商，这个人基本上没看过蒯因。其实不需要改真值表，只要能在语境里互换，那就是同一性。有了同一性，我们就不难再去定义分析性了。
+
+那么在莱布尼兹的 phrase 里，在莱布尼兹的一个惯常表达当中，这种可互换性就是 save the truth。它就是这个拉丁词 selva——我不知道它是什么意思，可能是“转动、可以转动”；后面的 vertitae 就是转动的意思。help truth 后面是真相的意思，所以 save vertitae 就是 save the truth。可互换性在莱布尼兹的表述里就是 save the truth。
+
+我们注意到，这些同义词（synonyms）是这样被理解的：同义词甚至不需要免于模糊性（need not even be free from vagueness），不需要免于含糊性。只要这种含糊性本身匹配，只要这两个词可以在所有语境中互换就行。比如“狗”和“犬”：“狗官”就是“犬官”，我喜欢举这个例子。狗和犬可以互换，但狗到底指什么、犬到底指什么，并不需要明确的规定。比如你来到一个国家，这个国家里没有狗这种动物，所有人也都不知道狗是什么，这两个词仍然可以有含糊性；只要它们的含糊性匹配、可以互换，就仍然符合对同一性的定义，也就是可互换性。可互换性本身不需要是清晰的。
+
+但 bachelor 和 unmarried man 这两个同义词并非处处可互换。我一开始不知道 save the truth 是什么意思，还以为它就是说它们可互换。后来我知道，save the truth 并不是“可互换性”本身的意思，而是说可互换性“拯救了真相”。所谓拯救真相，就是两个词可以互换：比如之前那个词的意义泯灭了、散佚了，大家不知道它是什么意思，但可以换成另一个词，这就是训诂学。训诂就喜欢这样搞：用另外一个字去训它，用训诂学的方式拯救真相；可能之前那个词的意思已经散佚了，或者怎么样，只要当时可以换就行了。但在这里，蒯因认为单身汉和未结婚男人并不是在每个地方都可换，并不是到处都能这样拯救真相。
+
+真理会变成虚假的，真值会变成错的。如果你在交换中把 unmarried man 换成 bachelor，很容易构造出反例，比如 bachelor's button。这里的 bachelor 不是“单身汉”，而是“人文学士”。bachelor's button 好像是结婚时穿西装用的扣子：结婚之前的那些 bachelor 穿的西装有个扣子要扣，结婚之后那个扣子就不扣了。所以这里你不能换，不能换。also with help of quotation：借助引号也能表明它不能换。换了不能拯救真值，或者说不能保留真相；我觉得这里应该是“保留真值”的意思。save 在这里……我终于想清楚了：因为这个家伙不是逻辑实证主义者，而是一个想要建立逻辑体系的形而上学家。所以这里的意思就是保留真值：我换词，它可以保留真值。我懂了这个意思。
+
+我换词，它可以保留真值。I understand。我不蠢，我只是没有很多知识量。很多人会把两件事情搞混：你笨和你没有知识量是两码事。你笨是因为你明明看到这里有不一致性、有问题，却不去改它。
+
+你看我解读这个 save the truth，解读了三遍四遍，最后回溯性地觉得得到了一个比较靠谱的答案，而且和上下文语境是融贯的。它的意思就是说，在莱布尼兹那里，用莱布尼兹的话说，可互换性可以保留真值，真值不变。学哲学的时候就要有这种勇气：你一开始读的时候肯定会不停地误解，但你读到后面，文本的内在张力会使得你前面犯的错误可以被自己回溯性地改掉。你不能说读了一遍就“这里又不对”；你尽可能要在自己已知的知识范围里搜寻一个最好的解释，但它不一定是那个恰当的解释。你读到下面，可以再回溯性地调整。我不认为我是个很聪明的人，但至少我的智商足够做这个事情。因为我读到后面，我知道这里就是换真值的意思；truth 在这里要翻译成“真值”。
+
+这样换的话就会是假的。比如你把人文学士和单身汉的那个纽扣这样去换，真值就会搞混乱。also with help of quotations：同样我们借助一个 quotation、一个引用，比如说 bachelor has less than ten letters——bachelor 这个词有少于十个字母，一二三四五六七八，八个字母，少于十个字母。但是 unmarried man 肯定多于十个字母，它就不能这样去替换了，不能用这种可替换性的方式来定义它们的同一性。
+
+这样的反例可以暂且放到一边。By trading the phrase bachelor of arts，我们可以通过什么方式把这些反例放到一边、无视它呢？这里的 phrase 是短语的意思。就是把“人文学士”（bachelor of arts）、“单身汉的纽扣”（bachelor's button）和 quotation 这种引号用法区分开。这里的 quotations 指的就是引号，不是引用谁谁谁说的话；bachelor 出现的时候不是在一个引号下面吗？所以这里的 quotations 指的是下面它是在引号里面。也就是说，把作为引语的 bachelor 单独看，把这三个东西看成三个词。有一种方法可以避免这种反例：你可以把这三种用法看成三个独立的词。
+
+然后约定、规定：你可以把三种用法看成三个独立的词；你再进一步规定，这种可互换性可以保持真值不变。Which is to be the touchstone of——这种可互换性保持真值不变，就可以成为同一性的检验标准。It's not supposed to apply to fragmentary occurrences inside the word。
+
+这种同一性并不是应用于词内部那种碎片化、不完整、支离破碎的出现。这个同一性本来就是设计出来处理用法不同、意思不同的情况：不同的意思，我就把它看成不同的词。这样我就可以继续用可互换性来定义，或者说来表明什么是同一性。定义在上面已经失败了：用定义来拯救同一性，在上一节已经失败了，所以这里是用可互换性来拯救同一性。但这个同一性本来不是用来运用于一个词内部那些支离破碎的、片段式的 occurrence、那些出现的。
+
+那这种用法就是 this account of——对同一性的这样一种解释。Supposing it acceptable on other accounts：假设它在其他方面是可以被接受的。Has indeed the drawback of appealing to a prior conception of word which can be counted on to present difficulties or formulations in its turn。它事实上有一个缺点：它求助于一个预先的 word conception，也就是对“词”的预先构想、一种先天的构想。Conception 这里翻译成“构想”比较好，是你想象出来的那个东西，不要翻译成“概念”，它是“设想”，因为它在这里依赖于一个先天的设想。但是“词”这么一个设想，反过来也会带来困难，或者在表述上带来困难。
+
+这可以算作是呈现、或者说带来了一些表达上的困难。反过来，它本身就带来了一些表述上的困难。因为我们这里本来要处理的是什么问题呢？比如就是这个词本身。你现在又告诉我，只要它的意思不同，我就要把它分成三个词。那你告诉我，什么叫意思不同？我们本来要处理的是同义性，对不对？你现在又告诉我说意思不同、要弄出三个词，这其实就是在玩一个把戏，一个分层的把戏。
+
+比如犬和狗。犬和狗已经是同义的。我们要说清楚，犬和狗的同义性到底是个什么东西——它们是两个词。你现在又跟我说，犬这一个词本身用在不同的地方时，它又是三个词；比如犬有三个意思，就又是三个词。那现在告诉我，这三个词意思不同，这个“不同”又是什么东西呢？什么叫不同义性？你要告诉我同义性，得先告诉我什么叫不同义性。
+
+不过，也许可以宣称有一些进展：我们把同义性问题，或者说词之所以为词的问题（the problem of wordhood），给还原了。也就是说，我们把同义性问题消解成了 wordhood 的问题。wordhood 就是词性——不，在这里不叫词性，这个不好翻译，中文不好翻译；它指的是一个词之所以为词的那种构想。What is a word? 就是 wordhood，就是你的什么 neighborhood，或者说就是什么什么 \-hood 这个后缀所指的。这个后缀我们真的又只能翻译成“性”，或者词与词的关系。这是中文里面没有的。反正你懂，就是跟这个词相关的一系列处理方法，也涉及状态、性质，即词的性征之类。你现在就是把同义性问题又消解成“什么才能叫词”“词是怎么样的”这些问题。Let us pursue this line\.
+
+让我们沿这个思路稍微想一想。Taking word for granted，我们先把这个 word 当作前提：何为词？你为什么说一个 bachelor，在意思不一样的时候，就默认它是三个词？现在先不管这些，先把这一点当成前提。The question remains whether\.\.\.
+
+那么这个问题仍然保留：whether interchangeability is a strong enough condition for\.\.\. 也就是，这种可互换性能否维持真值不变——apart from occurrences within words，独立于词内部的不同情形。这里应该不是 apart from，而是 within words：就是你不去管一个词可以有多种 occurrences、有各种各样的情况，你只管一个词有一种情况。这里做的就是：先不管一个词可以有多种情况，而按照这个规定——只要情况不同，我就把它看成两种情况，让它成为两个词；虽然拼写方式和规则一样，我也看成两个词。这样就是一个词对应一种情况。我们忽视词内部本身会有不同情况这种可能，就说一个词只有一种情况。现在来看这种互换性：它能够保留真值，使真值表原封不动。它是不是一个足够强的条件，可以推出同义性？也就是说，这种可互换性——而且是一词一义的可互换性——能不能推出同义性？它能推出一些东西，我们现在就要看这个问题。
+
+或者换句话说，反过来看：是否可能有一些并不同义的表达（nonsynonymous expressions），也满足这种可互换性？也就是说，可互换性并不是一个足够强的条件，无法保证同义性，反而会让一些并不同义的表达变得可以互换。Now let us be clear that we are not concerned here with synonymy in the sense of complete identity in psychological associations or poetic qualities\. 我们在这里要清楚表明，我们所关心、所研究的并不是这样一种同义性。我们的同义性并不是在心理联系意义上、或者一种诗性的质（poetic，即内在体验的质）那个意义上的同义性，也不是“我领会它是一个意思”那个意义上的同义性。
+
+我们在这里说的同义性——indeed, no two experiences are synonymous in such a sense\. 事实上，在这个意义上，没有两种体验是同义的；不存在两种表达在心理联系、内心体验或诗性的质的意义上是同义的。Poetic quality 应该也是分析哲学的黑话，不知道他们怎么编出来的。poetic quality，诗意性，就是那种第一人称的、不可言喻的体验的质意义上的同义性。我们在这里讲的同义性不是这个同义性。我们只关心可以被称为 cognitive synonymy 的东西。
+
+我们在这里研究、讨论的只是可以被称为“认知同义性”（cognitive synonymy）的东西。Just what this is cannot be said without successfully finishing the present study\. 它到底是什么，如果我们不能够成功完成现在这个研究，就说不出来。But we know something about it from the need which arose from it for it in connection with analyticity in section one\. 但是我们对它还是有所了解，因为这种认知同义性是与第一节讨论的分析性相关联的；正是这种关联产生出对它的需求。Need for it in connection\.\.\. 这种东西读多了，就能从句法结构看出来。The sort of synonymy needed there was merely such that any analytic statement could be turned into a logical truth by putting synonyms for synonyms\. 这就是说，被需要的那种同义性只是这样的：任何一种分析性表述都可以通过用同义词替换同义词，而被转换成一个逻辑真理。
+
+其实在 section one 里面，我们之前讨论过了。这篇论文比较长，现在让你重新回顾一下：有了这种同义性，你就可以去给 analytic statement（分析性表述）下定义。分析性表述就是可以被转换成一个逻辑真理（turned into a logical truth）。也就是同语反复的意思，左右两端互相包含，也就是通过同义性，把第二类分析性表述变成第一类分析性表述。看见吗？
+
+第二类分析性表述就是 the bachelor is an unmarried man。就是这种第二类，其中这些词是同义、可以替换的。那么第一类就是 an unmarried man is a man who is not married。第一类完全是逻辑真理；把 married 去掉，剩下否定词、否定前缀，它仍然保持逻辑真，这骨架上就是真。这就是为了表达、把握何为分析性：它把分析性命题分成几种，或者叫几种分析性 statement（表述）。然后用同义性把第二种分析性还原成第一种分析。第一种分析很好解决，它就是一个逻辑学构造。
+
+它就是一个纯操作主义的逻辑学构造。那么 turning the tables and assuming analyticity, indeed we could explain\.\.\. turning the tables 是什么意思？这应该是个俗语，把桌子转过来，扭转形势、占据上风。
+
+我们本来想用同义性来解释什么叫分析性。那现在把它扭转一下：先假设分析性，然后看，事实上 we could explain cognitive synonymy of terms as follows。先假设分析性，我们就可以这样来解释词项之间的认知同义性，用这样一些术语：不是 explain 什么 of 什么，而是 explain synonymy of terms。也就是说，词项之间的认知同义性可以以如下方式被解释。Keeping to the familiar example，我们还是用熟悉的例子：the bachelor and unmarried man。我知道这个 bachelor 是不是单身啊——这篇论文写出来像是求偶的，我感觉有点这个意思。要去说单身汉和未成婚的男人在认识上、认知上是同义的，也就是说，不多不少，这个表述等于说 all and only bachelors are unmarried men；这句话是分析性的。What we need is an account of cognitive synonymy not presupposing analyticity\. 我们在这里需要的是对认知同义性的解释，却不需要预先假设分析性。If we are to explain analyticity conversely with the help of cognitive synonymy as undertaken in section one\. 这里要反过来，借助认知同义性来解释分析性，正如第一节所做的那样。
+
+他说的是这样一个表述：All and only bachelors are unmarried men is analytic，也就是“所有并且只有 bachelor（单身汉）是未婚的男人”这句话是分析性的。这里，如果要在认知意义上说 bachelor 和 unmarried man 是等价的，那就等于说“所有并且只有 bachelor 是未婚的男人”这句话是分析性的。What we need is an account of cognitive synonymy not presupposing analyticity：我们需要说明认知同一性，但不预设分析性。反过来说，If we are to explain analyticity conversely with the help of cognitive synonymy as undertaken in section one，也就是如果我们想借助认知同一性来解释分析性，正如第一节所做的那样，那么我们就不能反过来预设分析性来解释认知同一性；否则，由这种同一性得出的结果，无法再回过头去说明什么叫分析性。
+
+And indeed, such an independent account of cognitive synonymy——一种独立于分析性概念的对认知同一性的解释——正是当前要考察的东西。在这里，这种认知同一性就是保持真值不变的可互换性；它各处都存在，但排除一种情况，即词内在的多义性。因为如果一个词内在有多义性，比如 bachelor 既可以理解为单身汉，又可以理解为学士，那就不行；排除这种情况之后，我们就可以把认知同一性等同于保持真值不变的可互换性。The question before us, to resume the thread at last，就是我们最后要回到的问题：这种可互换性是否足以成为认知同一性的充分条件？也就是说，它能不能给出认知同一性？如果它给不出认知同一性，那我们白忙一场，因为我们需要一种同一性来解释什么叫分析性；如果可互换性无法给出同一性，这个游戏就玩不下去了。We can quickly assure ourselves that it is by example of the following sort：我们可以很快通过下面这类例子使自己相信这一点。
+
+比如这个表述：Necessarily all and only bachelors are bachelors is true。也就是说，“必然地，所有并且只有 bachelor 是 bachelor”肯定是同语反复，是废话；只要不考虑 bachelor 的内在歧义，不考虑“只有学士是光棍汉”这一层，而只把它当作一个词、一个意思，它在这里的明证性就是对的。Even supposing “necessarily” so narrowly construed as truly applicable only to analytic statements：即便我们设定“必然的”被如此狭隘地领会，即它真正只适用于分析性陈述，这句话仍然是真的。Then, if bachelor and unmarried men are interchangeable，如果 bachelor 和 unmarried men 可以互换，并且这种互换保持真值不变，那么就会有一个结果：第四句中的 unmarried man 被换成 bachelor 的一个用法或含义，所得的句子就像第四句一样，也应该是真的。But to say that the fifth is true is to say that the third is analytic：说第五句是真的，就等于说第三句是分析性的。因此，bachelor 和 unmarried men 在认知上是等价的。所谓 cognitively，就是它们让你认识到的对象，以及关于这个对象的一些实际情况的表述，在背后的真值判断上是等价的。不过 cognitively 这个词并没有被非常严格地定义。
+
+接着上面的结论：bachelor 和 unmarried men 在认知上等价，而 cognitively 这个词并没有被严格定义。Let us say what there is about the above argument that gives it its air of hocus\-pocus：让我们看看，上述论证中究竟是什么使它带有故弄玄虚的气味。这里不是“确信”，而是“让我们说/看看”，因为后文说这种论证带有哄骗性。上述论断给自己制造了一种氛围，一种 hocus\-pocus 的氛围；hocus\-pocus 更多是指哄骗、骗人的东西。
+
+The condition of interchangeability \.\.\. varies in its force with variations in the richness of language at hand。也就是说，保持真值不变的可互换性，其条件的力量会随着手头语言的丰富程度而变化；可互换性达到什么程度、在多大程度上可靠，也会随之变化。语言越丰富，这种可互换性的效力就越会发生变化。
+
+The above argument supposes we are working with language rich enough to contain the adverb “necessarily”。上述论证预设：我们所使用的语言足够丰富，能够包含“必然地”这个副词。这个副词如果这样被领会——being so construed as to yield the truth when and only when applied to an analytic statement——也就是只有当它应用于一个分析性陈述时，才被理解为道出真理，而且仅在这种情况下才如此。换句话说，“必然地”这个副词的意思被理解为：它只适用于分析性表述，并且只有应用于分析性表述时，才用来道明真相。
+
+But can we condone a language？我们能够容忍一种语言具有这样的副词吗？也就是说，能够容忍 necessarily 只被用来表示分析性判断、分析性表述吗？这里的“必然”是在康德意义上说的，即与一切经验无关。无论怎样都是必然的，都是分析性的；它不依赖于外部那些乱七八糟的东西。因为一旦它需要依赖外部经验，只要再出现一个例外，它的必然性就没了。那么，我们可以容忍一种语言拥有这样一个副词吗？Does the adverb really make sense？这个副词真的有意义的吗？
+
+To suppose that it does，即如果你要认定这个副词是有意义的，那就意味着我们已经有了一种理解，已经知道什么叫分析性。你如果这样玩这个游戏，你用的这个 necessarily 不就已经预设了你已经领会了什么叫做分析性吗？人不能踩在自己的肩膀上往上跳。你在这里通过第三、四、五句这样的变化——也就是第四句、可互换性、保持真值的可互换性——其实已经在真值表的设定中预设了分析性，或者预设了一种超验的、超出经验的必然性。在蒯因看来，这些都是形而上学的残余，是语义学的残余。因此，你不能用这个 necessarily，因为这个“必然的”里面已经预设了一种令人满意的、已经知道什么叫做分析性的理解。
+
+Then what are we so hard at work on right now？那我们现在这么努力，到底在搞什么东西？我们在这里本来就是要探明何为分析性，你自己弄一个 necessarily，这不是换个词吗？你完全可以把 necessarily 换成 analytically：“分析性地，所有并且只有 bachelor 是未婚的男人”，然后说它是分析性的，于是又变成第三句 is analytic。这不是废话吗？
+
+所以，我们的论题 is not flatly circular：它不是一个直截了当的循环论证，而是某种类似于它的东西。我们在这里的论题是 something like it，但它不是循环论证。It has the form, figuratively speaking, of a closed curve：打个比方，它的形式是一条闭合曲线。
+
+space，它有这么一个形状。如果我用一种图画的方式来说，它就是一个空间中的一个闭合曲线。哦，他的意思就是说，它还是 circular 的；但它不是平的——直接平的是 circular 的——而是指上面这些 arguments。它虽然不是 flatly、直截了当地平，断然直截了当就是循环的，而是某种类似的循环的东西；它是空间中的一条闭合曲线。那它还是循环的。意思就是说，上面这些努力尝试仍然是一个循环论证，屁用没有，是循环解释。不要循环论证。
+
+“Interchangeability salva veritate is meaningless until relativized to a language whose extent is specified in relevant respects\.” 那么，这种保持真值的可交换性是无意义的，除非我们把它相对化到一个语言；这个语言的外延是特定的、指定的，是可以详细列出来的。这个时候，这个 necessary 就不是一种分析性的必然，而是一种罗列性的必然。比如犬和狗：这个时候只有十条犬和十条狗，它们的外延就是同样的十条狗、十条犬；这时你可以说犬和狗可互换是必然的。但这种必然性不依赖于分析性，所以这就不是同义反复，了解吗？这就不是那种循环解释，了解吗？它在这里的意思就是说，除非我们把这个必然性相对化到一个语言。这个语言是怎么样的呢？
+
+它是到它的语言的外延，它所表达这些词的外延，相互都是规定好了的，in relevant respects。在相关的一些方面，我谈到这些词，相关于这些词的那些外延都是规定好了的。就 bachelor，就这几个 bachelor，全世界就这么多 bachelor；同时全世界就这么多 unmarried man。哎，这就这些人，这外延他妈的都是确定的。那么这个时候你可以说，这就有一定的意义了；因为在这里用的这个 necessarily 就不是一种分析性的、概念内部的，也就是循环解释。我不想再说第三遍了，我他妈同一个意思。为什么我会这么啰嗦？
+
+因为我在想，我以后想这样做：当你不理解的时候，你可以拉回去一点点，重新听我怎么说的。因为在这些意思在我脑袋里面已经是很清楚明晰的。我有的时候担心我的听众、读者他妈的听不懂。我靠。Suppose now we consider a language that contains just the following material\.
+
+那么现在我们设想有这么一个语言，它只包含下面这些材料。There is an indefinitely large stock of one\- and many\-place predicates\. 还有一个不确定的、大量的 one\-place 和 many\-place predicates。不是对应一阶、二阶吗？呃，应该是的，one\-place。一元——这里应该翻成一元，不是一阶、二元。它就是谓词，是一元谓词。比如“我很胖”，这是一个一元谓词。比如“我打了我的手一下”，这个“打”就是一个二元谓词：我和这个手，我打了手一下；这个“打”就是二元谓词。可能是个三元谓词？不是，这个“一下”可能是一个什么……不是，“一下”应该也是个谓词。这个次数也是，你们了解吗？就是这种语言里面包含不确定多的、一元和多元的谓词，有这么一个语言。但是它的外延是确定的，它里面的东西是确定的。
+
+然后，1951 年版本就是 There is an\.\.\.；1961 年版本就是 There is\.\.\.。举个例子：F\(x\)，它是个一元谓词，它意味着 x 是个男人。我靠，F 为什么是个男人？应该是 M 好不好？你在搞事情？我觉得蒯因是有点……是不是有点认同问题？他用 F，竟然是个男人？难道是 fierce，残忍的、凶猛的？或者这个 F 指的是什么？female 呀。他 F 竟然是个男人？我觉得蒯因有点问题，人有问题。你看后面还有问题：后面这个 G，G\(x,y\) 代表 x loves y。G……我觉得蒯因有点问题啊，gay，啊，怪怪的。我跟你讲，你读的这种，我觉得他投这篇文章的时候特地打听了那个审稿教授的那个取向啊，然后他妈的，然后在这里颇有要挟的意味。
+
+我跟你讲，我操，举个例子，他就是举例子告诉你什么是一元谓词、多元谓词，我们就不看了。然后 mostly having to do with extra\-logical subject matter。我靠，还有几页？还有一页半，我马上就讲完，哈哈哈哈。mostly having to do with extra\-logical subject matter。一般都是和这个 extra\-logical 有关。extra\-logical 什么意思？呃，超逻辑的、超出逻辑的、额外逻辑的。啊，这些我知道，extra\-logical 是一个主题；它就是这些一元、多元谓词通常都是和那些超出逻辑的东西有关，就是它不是表述逻辑关系。它不是表述逻辑关系，extra\-logical 应该是指这些谓词不表述逻辑关系，然后它处理的是这些主题内容、subject matter。
+
+就是比如说……比如说它不是这些谓词，不是一些什么谓词，不是那种说废话的谓词，不是那种 logical，不是那种说废话的谓词。比如说，我举个 a=b=c=d≠a、b、c、e、f、g，这种 a=a=非 a，就是你光用逻辑符号写出来的那种，然后把它合并起来，就是 a 取并集、什么不等于什么、取析取什么这种东西。我举个例子，绝大部分语言里面的这些谓词都不是纯逻辑构造，不是叨逼叨说梦话，而是确实言有所指。那么 the rest of language is logical。这个语言剩余部分是逻辑性的，剩余的是……什么分析性的必然啊这些东西，或者说可以蕴含、可以推出这东西。还有一部分语言是逻辑性的。The atomic sentences consist each of the predicate followed by one or more variables\.
+
+你看这里，其实蒯因为了反证整个分析哲学背后的分析性问题，还不得不采取罗素的逻辑原子主义。没办法，因为他们玩的就是花招：他只要证明它是不行的，但他又用一个注定失败的语言来表示这个理论内部的不一致性。其实我这一点就是看不上：他妈的，这会让很多聪明的头脑浪费在这种逻辑构造里面。
+
+一个原子句子、命题，是由每一个谓词——each predicate followed by one or more variables x, y——组成的。这里 consist 应该表示“由……组成”，consist of 的 of 应该跟 consist 搭配；each 应该修饰这个，放到前面就好了：每一个原子命题都是由一个谓词，跟着一个或更多的变元 x、y 等等组成。
+
+他还在继续介绍这个语言的结构。那些复杂的命题，就是由这些原子性的句子构成；复杂的句子由原子句子构成，然后通过真值函数来构成——是真值函项，不是函数，函项。比如 not，这个主要只要三个就行了；一般其实只要两个就可以了，只要两个就行：非、并，还有或，等等等等。就真值函项。And quantification，和量词，quantification 和前面的量词。呃，这就简单建构了一个语言，蛮挫的，一阶语言。
+
+那么事实上，这么一个语言也享有描述的便利，also of descriptions——描述摹状词，或者说 and class names，一些类的名字，and indeed singular terms generally，还有普遍意义上的单称词项这些东西。这些东西在语境中都是可以定义的，那就不具体讲了；这些东西都是一些语义学构造，很烦的，很挫的。
+
+这并不难，其实很简单。他妈的，弄张纸给你写写画画，你全都懂了。这个你要教，一节课就够了，只不过我不想搞这东西。Even abstract singular terms naming classes, classes of classes, etc\.
+
+甚至是一些抽象的单称词项，比如它命名了这些类的单称词项、类的类的单称词项等等；它们都是在语境上可定义的。In case of the assumed stock of predicates，它们是在我们所假设的这么一些谓词当中；它包含在一个二元谓词，就是类关系的二元谓词当中，它可以用这个来建构，都是可以定义的，在语境中都是好定义的。类也好定义：这些东西都有同样的某一个谓词，我就把它看成是一类；然后类的类，我可以进一步……类的类不同类，然后这里面都分享同样一个类的类、类的类，就可以这样无限搞这个游戏，很无聊的。然后后面这句应该是一样的，左右两边差别不大。
+
+先看这边：这么一个语言 can be adequate to classical mathematics，它可以是适配于经典数学，或者经典数理逻辑，and indeed to scientific discourse，和一般意义上的科学话语。Except in so far as the latter involves debatable devices such as modal adverbs and contrary\-to\-fact conditionals。除了一种情况，就是后者——因为科学话语当中包含一些有争议的 devices，一些装置、一些设备，一些逻辑构造，比如模态副词和反事实条件词。conditionals 应该是一些条件词吧，反事实条件词和模态副词。基本上是一样的。比如说他举了个例子：necessarily，举的这个例子 necessarily。就是科学语言中它包含的那些东西其实都是反事实的，因为你真得不到这种东西。
+
+然后，now a language of this type is extensional，这么一种语言就是外延性的，extensional，它就是外延性的。in this sense，在这个意义上。Any two predicates which agree extensionally are interchangeable salva veritate。所有外延一致的两个任意谓词——任意两个谓词，比如“吃”和“啖”，吃和这个口字旁那个“啖”，吃和啖，它们的外延是一致的：我吃饭、我啖饭。但是在这个语言里面不能包含打麻将，因为打麻将的时候“吃”“碰”啊，这个就不能包含在里面。就是说它是外延性的。就当前你让我把这个语言先设置成：就是我和一个苹果，这个语言里面只有两个东西——我和一个苹果。那么“我吃苹果”“我啖苹果”，它涉及到的外延性是一致的，然后 they are true of the same objects，它们对于同样的对象都是一样的，都是对的。那么它们就是可以保持真值不变，而是可换的。但是它构造了一个外延有限的语言，或者说它构造了一个理想语言，一个外延性的理想语言。就是……哎，不扯了，我不跟你扯了。反正你就懂了；你说到这里还不懂，那你就是杠精了。我真的醉了。
+
+最简单的例子就是我刚才说的：这个语言里只有“我”和“苹果”两个 material，谓词可以只有一个“吃”；不过也可以拿“吃”和“蛋”这两个谓词来说明，它们外延一致，可以保持真值不变。因此这个语言可以说是 extensional。
+
+所谓外延性一致，就是可以替换，并且对所有对象真值都不变。比如“我吃苹果”是真的，我确实吃了这个苹果；“我‘蛋’了苹果”也是真的。反过来，如果我没有吃这个苹果，“我吃苹果”是假的，“我‘蛋’苹果”也是假的。总之，换掉这个词，真值不变。In an extensional language，这种维持真值不变的互相可替换性，并没有保证认知同一性（cognitive synonymy），is no assurance of cognitive synonymy。
+
+它并不能确保我们想要的那种认知同一性。比如，that bachelor and unmarried man are interchangeable in an extensional language，只表明 all and only bachelors are unmarried men 这个命题是真的。这个命题是计数式、枚举式的，并不包含分析性。
+
+这不是分析性。分析性是概念内部的同一，可以说是同一个；而蒯因最后要告诉你，分析性是个幻觉，光靠外延说明不了。比如这个世界里总共只有十个男人，十个男人都是光棍汉，这十个男人可以都说是 bachelor，也都可以说是 unmarried man。那么这叫分析性吗？如果很巧合，这十个 bachelor 又都是本科生、都是学士毕业，那这个命题其实不包含任何分析性，它只是枚举罗列：恰好大家都符合这个，同时也都符合那个。于是你就可以说 bachelor 和 unmarried man 是分析关系吗？不能这样说；能说它们是认知上的同一关系吗？也不能。所以这种外延性语言的构造，并不能保证我们想要获得的认知同一性。bachelor（光棍汉）和 unmarried man（未结婚的男人）在外延性语言中互相保持真值可替换，只保证我们那个第三句话是真的，却没有保证它是分析性的。There is no assurance here that the extensional agreement——这种外延性的一致，即 bachelor 和“未结婚的男人”外延相同——并没有保证 rest on meaning rather than\.\.\. 并没有保证它们的一致性取决于意思；恰恰相反，它只是偶然事实。恰好这十个人是 bachelor，同时恰好又是 unmarried man，这跟两个词是不是同一个意思一点关系都没有。
+
+或者那十个人又穿了黑T恤呢？我说“十个穿黑T恤的就是光棍”，这也没有任何关系，只是巧合。在外延性语言里，and does extensional agreement of creature with heart and creature with kidney——有心脏的生物肯定有肾脏，这也是一种外延性巧合。解剖学上循环系统确实如此，有心脏就有肾脏，我不知道为什么，这也是巧合；你总不能说有心脏和有肾脏是同一的吧，对不对？
+
+For most purposes, extensional agreement is the nearest approximation to something\. 对于大部分目的而言，外延性一致最接近我们所要关心的那种同一性。但 the fact remains: the extensional agreement falls far short of cognitive synonymy of the type required for explaining analyticity in the manner of section one\. 外延性一致远不足够解释，也远不足够等同于这种认知同一性。
+
+认知同一性是这样一种东西：我们要求用它来解释什么是分析性，而解释分析性的方式仍然是 section one 里的方式。我们所要求的那种认知同一性，要求把 bachelor（光棍）和 unmarried man 之间的同一性，等同于命题三的分析性，而不仅仅是命题三的真。你光说它是真的没有用，它可能是巧合；这不代表这个命题是分析性的。命题真和命题是分析性是两码事，它真有可能只是出于某个具体事实的偶然巧合，了解吗？
+
+分析性意味着必然性，意味着不受这些外部偶然巧合的影响，是这两个概念内在的——或者不叫概念，他们这里已经不用概念了，至少这里的用法其实很矬。这里的问题域是康德的问题域，不，这里的问题域不能叫康德的问题域；这里用的术语体系有点康德意义，但概念框架其实是前康德的。真用概念不就好解释了吗？算了吧，不跟他说了。用概念就会导向辩证法，都是导向辩证法；辩证法是这些人不敢接受的。他们宁愿玩这种语词游戏，也不敢接受辩证法。
+
+所以进展缓慢。So we must recognize that：我们必须承认，保持真值不变的可互换性，如果被理解为关于外延性语言的可互换性，并不是一个充分条件，不能由此得到认知同一性。认知同一性在这个意义上被需要，是用来派生出或推出分析性的；而派生出分析性的方式，就是 section one 里的那种方式。
+
+如果一个语言包含一种内涵性的副词——即必然性、必然的 intensional operator——不，这个可以翻译成“内涵的”，即一个内涵性的谓词，意思上它们是必然的。In the sense lately noted，也就是我们刚刚提过的那个意义上，或者包含其他 particles to the same effect，或者其他具有同样效果的组成部分，那么这种保持真值不变的可互换性，在这样一种语言中，就不能为认知同一性给出一个充分条件。
+
+But such a language is\.\.\. 但是，这样一种语言是可理解的。它告诉你：如果你的语言里包含这种内涵性的必然性，即两个词不依赖于外部偶然巧合相等的外延，而是自身内涵一致、必然一个可以导出另一个，那么最后又会变成循环论证。必然不就是同一性吗？同一性不就是分析性吗？对吧？这又回到同一性了。所以这里又告诉你：如果我们不用外延性语言，而用一种具有内涵性必然副词的语言，它又回到那个问题。The effort to explain cognitive synonymy first for the sake of deriving analyticity from it afterwards as in section one is perhaps the wrong approach\.
+
+那么，这种努力——首先解释认知同一性，然后再冒险从它当中派生出分析性，就像第一节展示的那样——好像是一条错误路径。搞了半天，想从同一性派生出何为分析性，好像搞不定。因为同一性是在语言非常肤浅的表层上构造出来的：比如通过构造定义，或者通过不同语境中维持真值不变的可互换性，来把握所谓的同一性，再用这个同一性去把握分析性。但你会发现在把握同一性的过程中，其实已经用到了各种各样的分析性和内涵性必然。于是蒯因就说：这是错误的路。
+
+如果我写这篇论文，我就会写 thus the effort \.\.\. is wrong。我不会说这么多废话。我觉得他就是在水字数。相反，我们或许可以尝试以某种方式解释分析性，而不求助于认知同一性。Afterwards we could doubtless derive——在那之后，我们无疑可以派生出、推演出认知同一性。也就是说，我不用同一性来获得分析性，而是先以某种方式获得分析性；如果你想要认知同一性，那么在有了另一种方法之后，我们就可以无疑地从分析性中派生出认知同一性。
+
+We have seen that cognitive synonymy of bachelor and unmarried man can be explained as the analyticity of the third proposition——即命题三是分析地真。The same explanation works for any pair of one\-place predicates：不仅“单身汉/未结婚男人”，其他一元谓词对子，如“单身女/未结婚女人”，也有同样的解释。Of course, it can be extended in obvious fashion to many others syntactical categories：很容易扩展到多元谓词，比如“吃”和“蛋”、“打开”和“起”这类多元谓词，也可以这样解释；还可以扩展到其他句法范畴。
+
+另外一些句法范畴——不仅是这些谓词，其他句法范畴也可以这样处理。甚至可以扩展到一整个句子，句子意义上的一些范畴。比如“他今天吃了一碗饭”就是一个句法范畴，它是一堆谓词加上对象叠起来的。我们之前讨论的那么多东西，用的是“单身汉”和“未结婚的人”，对不对？现在可以从一元谓词的情况扩展到多元谓词的情况，还可以从多元谓词的情况扩展到整个句子的谓语，也就是句法性范畴的情况。
+
+例如“他今天吃了一碗饭”和“他今天‘蛋’了一碗米”，或者“他今天吃了一碗粥”和“他今天‘蛋’了一碗煮得很烂的饭”，就是这种关系。
+
+这种情况也适用，而且是以一种相当平行的方式适用：单称词项可以被说成是认知上同义的，当由在两个词项之间放置等号而形成的同一性表述是分析性的。
+
+什么叫单称词项在认识上的同一性？比如“犬”和“狗”都是单称词项。单称词项（singular terms）不是句子，它直接指向一个对象；我们只要说“犬等于狗”，然后说“犬等于狗”是分析性的，就表达了二者之间的同一性关系。这里相当于做一个推演：前面讨论的一阶谓词、一元谓词和短句等情况，现在通通适用于多元谓词、句法句子意义上的范畴以及单称词项。就这么简单，把前面的结论复制粘贴过来，也可以运用在这上面。
+
+这些结论也都适用于其他几种情况。陈述句也可以被简单地说成是认知上同义的，当用“当且仅当”把它们连接起来所得的结果是分析性的。单称词项是加等号，而加了等号的这个句子是分析性的，因此它们是分析性相等的。“犬”和“狗”是分析性相等的，不是外延性相等的；这就代表它们在认识上是同义的。
+
+然后是一些陈述句，比如“犬吃屎”和“狗吃翔”。这些 statements 之间，如果说“犬吃屎”和“狗吃翔”在认识上是同义的，你就可以说它们之间是 if and only if 的关系。IFF 其实就是等于号，只不过这里是两个句子、两个表述，所以不能直接写等号，而要写成句子之间的关系；在一阶谓词逻辑里就要写 IFF。然后说这个句子是分析性的，它们以分析性的方式具有“当且仅当”的关系，所以它们在认知上是同义的，意思是同一个意思。
+
+这就预设了存在一种认知的维度，即意义的维度。如果我们想把所有范畴都归并成一个单一的 formulation，代价就是要再次假设“词”这个观念。这里会有问题：一个表述可能有多义性或歧义性。所谓代价，就是要再次假设“词”这个理念，承认“词”这种东西存在；这一节前面已经讲过，要么假设一义即一词，要么多义即多词。我们把所有范畴都 lump 进一个单独的 formulation。这样，我们就可以把任何两个语言形式描述为认知上相似的，当这两个形式在分析性上可以互换。这里用了一个新词。
+
+这时，我们就可以说任何两个语言形式在认识上是同义的：当这两个形式可以互换。怎么互换呢？就是 apart from occurrences：可以互换，但要忽视词内部的歧义，把它忽视掉，也就是“一词一义”。这里的“一”就是 occurrences，指它出现的那种情况、那种 occurrence。
+
+其实“occurrence”这个词也没有被精确定义，很矬。比如“bachelor”这个词里面有两个意思，我通篇讲下来，要是再听不懂，我也真是服了；但考虑到有些人头脑比较木讷，我再讲一下：“occurrence”就是，比如“bachelor”既有“学士”的意思，也有“单身汉”的意思。这就是“bachelor”里面的两个 occurrences，它们出现的情况不一样、情形不一样。我们忽视这种差异，假设情形不一样时它就是两个词：这个“bachelor”是两个不同的“bachelor”，也就是两个不同的词。
+
+所以在这里我们先假设“word”这种情况，先采纳“word”这个点子。我们把语言看成一种意义对应一种用法、对应一个词，而不去考虑词内在会有多种用法、多种用途的情况。
+
+那么，当两个语言形式可以互换，并且这种互换维持的是分析性不变，而不是真值不变；它可以保证、维持分析性，而不是保证真值。这个时候，我才可以说它们在认识上是同义的。
+
+前面讲的那些，最后不就是使命题三仅仅为真吗？我现在不仅要让命题三为真，还要让它在替换之后保持、维持分析性，让它仍然是分析性的。光是真的不够，因为真有好几种方式；外延一样也是真，但那是巧合。我还要它的内涵一致，那才叫真。所以他就把认识上的同一性换了一个定义：你必须能够互换，并且使句子依然保持分析性；可互换的同时维持分析性，保持、获得一种分析性。
+
+那么就会出现一些技术问题，事实上是在歧义、同音异义（homonym，也就是同名异义）的情况下，也就是一个词有好几个意思，或者它的意思是模糊的。
+
+那我们现在先停下来。不过，因为我们这里已经偏题、已经离题了，所以让我们 turn our backs on the problem of synonymy，重新 address ourselves，重新开始研究分析性的问题。这里要离题了。它要抄分析哲学的老巢，但用的方法还是分析哲学的方法，里面还预设了很多默认的东西。
+
+没办法，这篇文章还行吧。我当年读的是中文，读的是一个分析哲学选本的中文，还是课上一个老师教的。就讲到这边。

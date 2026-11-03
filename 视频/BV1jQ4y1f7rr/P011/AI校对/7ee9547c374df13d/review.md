@@ -1,0 +1,632 @@
+# 【原文译读】齐泽克《自由的深渊》英文版（完结）：校验参照稿件
+
+AI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。
+
+修订：`7ee9547c374df13de084a702e7f80257fd881aba646432b461da00651aadd509`
+
+输入快照：`717e3bc2e14b5996686974057974a8ca583870c51574f983b517c73e51c4c2aa`
+
+模型：`deepseek-flash`；思考：`high`；top_p：`0.95`
+
+规则：`readable-prose-v2`；模板：`ai-draft-v1`
+
+基础转录：`2214`；参考转录：`3386`
+
+## 段落 1：00:00:00 — 00:00:24
+
+来源：`t2214:s0`, `t2214:s1`, `t2214:s2`, `t2214:s3`, `t2214:s4`, `t2214:s5`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=0)
+
+原文：Choice ofsymbolization啊，就是说符号化呢是一个呃强迫的一个选择啊。Theforce，它的结构就是forcedchoice啊，就是齐泽克其实是一个其实是一个就是搅烂泥的啊。我跟你讲，他把自由和必然这最后就是他告诉你有个辩证化的机制叫forced choice啊，the forcedchoice强迫了一个选择。To
+
+整理稿：Choice of symbolization，也就是符号化，是一个强迫的选择。The force 的结构就是 forced choice。齐泽克其实是一个“搅烂泥”的。我跟你讲，他讲自由和必然，最后告诉你有一个辩证化的机制叫 forced choice，the forced choice，也就是强迫选择。
+
+- 疑点：“搅烂泥”为口语/ASR，具体所指不确定，正文保留原词。；候选：；依据：t3386:s3
+
+## 段落 2：00:00:24 — 00:01:58
+
+来源：`t2214:s6`, `t2214:s7`, `t2214:s8`, `t2214:s9`, `t2214:s10`, `t2214:s11`, `t2214:s12`, `t2214:s13`, `t2214:s14`, `t2214:s15`, `t2214:s16`, `t2214:s17`, `t2214:s18`, `t2214:s19`, `t2214:s20`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=24)
+
+原文：recapitulate，那我们简简简简单来说一下，就是说the c r u x，t h e t u r n i n g p o i n t那么一个关键点啊，那么一个转环的一个点啊，在这个绝对的历史当中的i s t h e u n c o n s c i o u s a c t o f a n t这个东西，这个翻译一下啊。T h e r e s o l u t i o n t h a t就是决断啊，是决断啊。但是它中间要加个这个号啊，这个号的意思就是我们看一下啊，稍微了解一下。D e c i s i o n，d i v o r c e决断啊是可以这样翻译的，确实后面呢是呃分离的意思，前面一个是那个前面这个暗沉啥意思？我操，不管了，反正它就决断的意思啊。E n t s c h e i d u n g，E n t s c h e i d u n g，好吧。T h e r e s o l u t i o n t h a t b y w a y o f r e j e c t i n g t h e f o r t e f o r t e d r i v e t h e i r m a d d a n c e，就是说关键点就是那个做决定的那一瞬间啊，关键点就是做决决断的，就是拒斥那个呃驱力的漩涡，他们的疯狂的舞蹈，然后进入一个永恒的过去的一个黑暗当中，收缩进去啊。E s t a b l i s h e s t h e u n i v e r s e o f t e m p o r a l p r o g r e s s i o n，这么一个瞬间，这么个原初决断呢，它是一个无意识的活动啊，它是一个u n c o n s c i o u s a c t，它把自己缝起来了，不会有u n c l e的啊，把把把自己缝起来，不会再出出来的。它建构起了一个时间性的宇宙的那个相继p r o g r e s s i o n的那个宇宙，它是被罗格斯光和欲望啊，前面是d r i v e，就说上就是前面都是d r i v e，然后是决断，是这个是这个疯狂啊，然后后面呢则是一个时间性的，然后是一个历程性的、历史性的啊，就是p r o g r e s s i o n a l啊，就是进展性的。然后它是被罗格斯光明和欲望啊所，这个欲望实际上是个弱小的东西啊，这个欲望已经是被调和过了，欲望辩证法已经是一个就是永远失败的一个东西了，它不是驱力的啊，这个东西已经是中被中介过的东西了。呃，C o n t r a r y t o t h e c o m m o n p l a c e，a c c o r d i n g t o S c h e l l i n g o u t l i n e d t h e c o n s e q u e n c e s o f t h e t h o r o u g h h i s t o r i z a t i o n，h i s t o r i z a t i o n o f t h e a b s o l u t e，就和一个庸俗的观点。cruxthe turning point那么一个关键点啊那么一个转环的一个点啊在这个绝对的历史当中的is the unconsciousact of ant这个东西这个翻译一下啊The resolution that就是决断啊是决断啊但是它中间要加个这个号啊这个号的意思就是我们看一下啊稍微了解一下Decisiondivorce决断啊是可以这样翻译的确实后面呢是呃分离的意思前面一个是那个前面这个暗沉啥意思我操不管了反正它就决断的意思啊EntscheidungEntscheidung好吧The resolution that by way of rejectingthe forte forte drivetheir mad dance就是说关键点就是那个做决定的那一瞬间啊关键点就是做决决断的就是拒斥那个呃驱力的漩涡他们的疯狂的舞蹈然后进入一个永恒的过去的一个黑暗当中收缩进去啊Establishes the universe of temporal progression
+
+整理稿：To recapitulate，我们简单说一下：the crux，the turning point，即关键点、转折点；在绝对历史中，它就是 the unconscious act of ant。这个东西翻译一下：The resolution that，就是决断。决断中间要加一个符号，这个符号的意思我们稍微了解一下。Decision/divorce，确实可以这样翻译，后面是“分离”的意思；前面那个词是什么意思？我操，不管了，反正它就是决断的意思。Entscheidung，好吧。The resolution that by way of rejecting the vortex of drives, their mad dance，就是说关键点就是做决定的那一瞬间，就是做决断，就是拒斥驱力的漩涡、它们疯狂的舞蹈，然后进入一个永恒的过去，在黑暗当中收缩进去。Establishes the universe of temporal progression。
+
+- 疑点：原文 the unconscious act of ant 疑为 the unconscious act of Entscheidung 或类似表述，未能确认；正文保留原英文。；候选：the unconscious act of Entscheidung；依据：t3386:s12
+- 疑点：原文“前面这个暗沉”无法确认，正文改为“前面那个词”。；候选：；依据：t3386:s24
+- 疑点：原文 the forte forte drive 疑为 the vortex of drives，正文按后文“驱力的漩涡”整理。；候选：the vortex of drives；依据：t3386:s29
+
+## 段落 3：00:01:59 — 00:02:45
+
+来源：`t2214:s21`, `t2214:s22`, `t2214:s23`, `t2214:s24`, `t2214:s25`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=119)
+
+原文：这么一个瞬间这么个原初决断呢它是一个无意识的活动啊它是一个unconscious act它把自己缝起来了不会有uncle的啊把把把自己缝起来不会再出出来的它建构起了一个时间性的宇宙的那个相继progression的那个宇宙它是被罗格斯光和欲望啊前面是drive就说上就是前面都是drive然后是决断是这个是这个疯狂啊然后后面呢则是一个时间性的然后是一个历程性的历史性的啊就是progressional啊就是进展性的然后它是被罗格斯光明和欲望啊所这个欲望实际上是个弱小的东西啊这个欲望已经是被调和过了欲望辩证法已经是一个就
+
+整理稿：这么一个瞬间，这么个原初决断，它是一个无意识的活动，是一个 unconscious act。它把自己缝起来了，不会再露出来。它建构起了一个时间性的宇宙，那个相继 progression 的宇宙。它是被逻各斯、光和欲望……前面是 drive，前面都是 drive，然后是决断，是疯狂；后面则是一个时间性的、历程性的、历史性的，就是 progressional，进展性的。然后它是被逻各斯、光明和欲望……这个欲望实际上是个弱小的东西，这个欲望已经是被调和过了，欲望辩证法已经是一个永远失败的东西了；它不是驱力的，这个东西已经是中介过的东西了。
+
+- 疑点：原文“不会有 uncle 的”无法确认，正文按“不会再露出来”处理。；候选：；依据：t3386:s41
+
+## 段落 4：00:02:45 — 00:03:52
+
+来源：`t2214:s26`, `t2214:s27`, `t2214:s28`, `t2214:s29`, `t2214:s30`, `t2214:s31`, `t2214:s32`, `t2214:s33`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=165)
+
+原文：是永远失败的一个东西了它不是驱力的啊这个东西已经是中被中介过的东西了呃Contrary to the commonplaceaccordingto Schelling outlined the consequences of the thorough historizationhistorizationof the absolute就和一个庸俗的观点啊，相反，这个庸俗的观点呢，是认为谢林呢勾勒出来的这个，呃，一个绝对者的这个through彻底的历史化历史化啊的结果，啊，谢林的呃最伟大的成就呢，是去勾勒出这个呃历史的这么一个confine啊，不叫勾勒出了，是去限制历史的界限，限制历史的界限啊，是把历史给限制住。谢林并不是把历史性的原则，把把绝对者拼命的给历史化，就是庸俗的见解对于晚期谢林的晚期对于谢林这个理解是把认为谢林把历史给怎么怎么样，把这是渗透到什么绝对者的各个环节怎么怎么样的。
+
+整理稿：Contrary to the commonplace：按照这种庸俗观点，谢林勾勒出了 the consequences of the thorough historization，即绝对者彻底历史化的结果。与这种庸俗观点相反，谢林最伟大的成就是去勾勒出历史的 confine；不，不是“勾勒出”，而是去限制历史的界限，限制历史的界限，是把历史给限制住。谢林并不是把历史性的原则、把绝对者拼命地历史化；那是庸俗见解对晚期谢林的理解，认为谢林把历史渗透到绝对者的各个环节。
+
+## 段落 5：00:03:53 — 00:04:44
+
+来源：`t2214:s34`, `t2214:s35`, `t2214:s36`, `t2214:s37`, `t2214:s38`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=233)
+
+原文：谢林真正的成就在于他是限制了历史的一个维度啊，限制了历史的范围。To trace a line of separation between history and the n o n\-h i s t o r i c a l，谢林的贡献就在于啊，就是画了一条线，分开了历史的位面，就是说那个神圣词汇的，就是符号学秩序的那一面，罗格斯的那一面，和那个非历史性的，也就是说驱力的循环运动那一面。T h e r e i n r e s i d e s S c h e l l i n g's r e l e v a n c e f o r t o d a y's d e b a t e o n h i s t o r i c i s m，这里就是说在就在这个点上就就坐落着，就有的就是谢林他和当前的关于历史主义的一个一个关系啊，就是谢林的历史性为什么比历史主义要屌呢？因为历史主义是个垃圾，历史主义不能够限制历史性，它不能够限制历史的范围啊。谢林对于原初的决断的这个或者说差异化的啊这么一个呃这么一个理解啊，他目的是什么？他的这么一个观点，这么一个观念啊，这么个理念，他的目的a i m s a t t h e g e s t u r e t h a t o p e n s u p t h e g a p b e t w e e n t h e i n i t i a l o f t h e p r e h i s t o r i c a l r e a l a n d t h e d o m a i n o f h i s t o r i c i t y，他目的是啊是就是是用来去指向的是那个指向的是那个姿势或者说那一瞬间的那个行动，他打开了在前历史的原质r e a l，我就喜欢翻译成原质，你甭管你就理解成就是这里就和拉康那个原质就他妈短路，它就是d r i v e s啊，是b o t t l e s o f d r i v e s，你就翻译成原质就他妈行了，懂就是了，非要学哲学还一天到晚翻译学，你他妈跟我比翻译学，老子做老编辑的，还跟我比翻译学呢，别烦了。老我至少做过三年学术编辑啊，p r e h i s t o r i c r e a l，它的那种呃惰性啊，在这种惰性的和那个历史性的那个位面，也就是说和那个多重的m u l t i p l e a n d s h i f t i n g和那个不停的转移的那个叙事化的n a r r a t i v i z a t i o n s。nonhistorical谢林的贡献就在于啊就是画了一条线分开了历史的位面就是说那个神圣词汇的就是符号学秩序的那一面罗格斯的那一面和那个非历史性的也就是说驱力的循环运动那一面Therein resides Schelling's relevancefor today's debate on historicism这里就是说在就在这个点上就就坐落着就有的就是谢林他和当前的关于历史主义的一个一个关系啊就是谢林的历史性为什么比历史主义要屌呢因为历史主义是个垃圾历史主义不能够限制历史性它不能
+
+整理稿：谢林真正的成就在于，他限制了历史的一个维度，限制了历史的范围。To trace a line of separation between history and the non\-historical：谢林的贡献就在于画了一条线，分开了历史的位面，也就是符号学秩序、逻各斯的那一面，和非历史性的、也就是驱力循环运动的那一面。Therein resides Schelling's relevance for today's debate on historicism：就在这个点上，坐落着谢林与当前关于历史主义争论的关系。谢林的历史性为什么比历史主义更厉害？因为历史主义是垃圾，历史主义不能限制历史性，不能限制历史的范围。
+
+## 段落 6：00:04:44 — 00:06:08
+
+来源：`t2214:s39`, `t2214:s40`, `t2214:s41`, `t2214:s42`, `t2214:s43`, `t2214:s44`, `t2214:s45`, `t2214:s46`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=284)
+
+原文：够限制历史的范围啊谢林对于原初的决断的这个或者说差异化的啊这么一个呃这么一个理解啊他目的是什么他的这么一个观点这么一个观念啊这么个理念他的目的aims at the gesture that opens up the gap betweenthe initial of the prehistorical real and the domain of historicity他目的是啊是就是是用来去指向的是那个指向的是那个姿势或者说那一瞬间的那个行动他打开了在前历史的原质real我就喜欢翻译成原质你甭管你就理解成就是这里就和拉康那个原质就他妈短路它就是drives啊是bottles of drives你就翻译成原质就他妈行了懂就是了非要学哲学还一天到晚翻译学你他妈跟我比翻译学老子做老编辑的还跟我比翻译学呢别烦了老我至少做过三年学术编辑啊prehistoric real它的那种呃惰性啊在这种惰性的和那个历史性的那个位面也就是说和那个多重的multipleand shifting和那个不停的转移的那个叙事化的narrativizations叙事化尝试之间的历史性，这个你懂了吗？
+
+整理稿：谢林对于原初决断、或者说差异化活动的理解，他的目的是什么？他的观点、他的理念，其目的 aims at the gesture that opens up the gap between the initial of the prehistorical real and the domain of historicity：它指向那个姿势，或者说那一瞬间的行动，它打开了前历史的原质（real）的开端与历史性领域之间的沟壑。我就喜欢把 real 翻译成“原质”。你甭管，就把它理解成拉康所说的“原质”，这里它就是 drives，是 bundles of drives，翻译成“原质”就行了。懂就是了。非要学哲学还一天到晚谈翻译学，跟我比翻译学？我做过老编辑，至少做过三年学术编辑，别烦了。prehistoric real 的那种惰性，与历史性的位面之间——也就是与多重的 multiple and shifting、不停转移的叙事化 narrativizations 之间——的历史性，这个你懂了吗？
+
+- 疑点：原文“bottles of drives”疑为“bundles of drives”，正文按后者整理。；候选：bundles of drives；依据：t3386:s112
+
+## 段落 7：00:06:08 — 00:06:48
+
+来源：`t2214:s47`, `t2214:s48`, `t2214:s49`, `t2214:s50`, `t2214:s51`, `t2214:s52`, `t2214:s53`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=368)
+
+原文：什么叫做为什么历史性就是multiple and shiftingnarrativeization？你懂了吗？历史性就是每历史性就是在A这个点历史化一切，那就是所有的整个现实，所有的过去和未来的解读都是都是在A的视角里面，就是这个是垃圾的历史性，你知道吗？这个就是那种很垃圾的那些那些历史主义者，很垃圾的、很蠢的那些历史整体主义那些历史主义者，那些就是相对主义最后走向不可知论那些傻逼历史主义者，他们就是说就是说叙事化是多重的，然后是不停的迁移的。
+
+整理稿：为什么说历史性就是 multiple and shifting narrativization？你懂了吗？历史性就是在 A 这个点历史化一切：整个现实，所有过去和未来的解读，都是在 A 的视角里面。这就是垃圾的历史性，你知道吗？这就是那种很垃圾的历史主义者，很垃圾、很蠢的历史整体主义者，那些相对主义最后走向不可知论的历史主义者，那些傻逼历史主义者。他们就是说，叙事化是多重的，然后是不停迁移的。
+
+## 段落 8：00:06:49 — 00:08:01
+
+来源：`t2214:s54`, `t2214:s55`, `t2214:s56`, `t2214:s57`, `t2214:s58`, `t2214:s59`, `t2214:s60`, `t2214:s61`, `t2214:s62`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=409)
+
+原文：你比如说你是在新中国成立之前去看待整个历史，那这个历史就是王侯将相史；成立之后看待历史，这个历史就是个什么什么啊阶级斗争史。再怎么之后啊，或者说你是在什么就是清朝灭亡之前看待历史就是什么什么玩意儿史，就是这种历史主义就是这种视角的迁移啊，视角迁移就是没有一个真的历史，没有一个公开的他妈的统一的客观的唯一的历史，因为历史性那些原则就告诉你叙事化是是多重的，是会不停的迁移的。这个东西叫叙事化narrativenarrativizations，这是垃圾历史主义，这是蠢货历史主义，好了吧？要清楚的理理解到这一点啊，这是个蠢货历史主义，因为后面的这个东西历史性的那个维度，那个那个历史是后来的东西，是垃圾玩意儿，垃圾玩意儿。如果你你是个历史主义者，你竟然他妈的是这样去理解历史性的话，你是个垃圾历史主义者，你是个前反思的蠢货历史主义者，你这个历史主义根本没有辩证的张力在里面，是很愚蠢的东西，stupid things，you know。我这样讲了你还听不清楚的话，那你这辈子和智慧绝缘了，拜拜了啊！
+
+整理稿：你比如说，你是在新中国成立之前去看待整个历史，那这个历史就是王侯将相史；成立之后看待历史，这个历史就是阶级斗争史。再往后，或者你是在清朝灭亡之前看待历史，那这个历史就是某种“什么什么史”。这种历史主义就是视角的迁移。视角迁移就是没有一个真正的历史，没有一个公开的、统一的、客观的、唯一的历史，因为历史性的原则就告诉你，叙事化是多重的，是会不停迁移的。这个东西叫叙事化，narrative，narrativizations。这是垃圾历史主义，这是蠢货历史主义，好了吧？要清楚地理解到这一点：这是个蠢货历史主义。因为后面的东西，历史性的那个维度，那个历史是后来的东西，是垃圾玩意儿，垃圾玩意儿。如果你是一个历史主义者，你竟然这样去理解历史性，你就是个垃圾历史主义者，是个前反思的蠢货历史主义者。你这个历史主义根本没有辩证的张力在里面，是很愚蠢的东西，stupid things。我这样讲了你还听不清楚，那你这辈子和智慧绝缘了，拜拜了！
+
+## 段落 9：00:08:01 — 00:08:41
+
+来源：`t2214:s63`, `t2214:s64`, `t2214:s65`, `t2214:s66`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=481)
+
+原文：谢林在这里就是把这种愚蠢的历史主义和前历史的那个静态的那个那个原质啊，给它啊把它那个沟壑给打开了，是由什么来打开的呢？是由这个是由差分化的差异化的那个原初决断的这个活动来打开的，它打开了这两个位面啊。后面这个东西一直是没有办法得到一个绝对的确定的，为什么？因为它已经和它原初分裂了啊。This act is thus a quasi transcendental unhistorical condition of possibility and simultaneous a condition of the impossibility of his toratization。
+
+整理稿：谢林在这里就是把这种愚蠢的历史主义和前历史的、静态的原质之间的沟壑打开了。由什么来打开呢？由差分化的、差异化的原初决断活动来打开，它打开了这两个位面。后面这个东西一直没有办法得到绝对的确定，为什么？因为它已经和它原初分裂了。This act is thus a quasi\-transcendental unhistorical condition of possibility and simultaneously a condition of the impossibility of historization。
+
+## 段落 10：00:08:42 — 00:09:54
+
+来源：`t2214:s67`, `t2214:s68`, `t2214:s69`, `t2214:s70`, `t2214:s71`, `t2214:s72`, `t2214:s73`, `t2214:s74`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=522)
+
+原文：所以这种原初决断呢，它是一个准先验的非历史的条件啊，对于可能性的关于可能性可能性条件啊，就是它是。啊，就是它一方面是使得有一有有可能有一个先验化的，就是这个二分使得知道让所有人知道有一个前历史的一个原初前本体论的一个阶段，所以这个时候我们就可以符号学的理智去设立一些准先验的啊非历史的一些条件啊一些可能性条件，了解吗？可能性条件possibility condition ofpossibility，就是你可以假设我现在设立的这个先验框架是超历史的，是unhistorical的，了解了吗？是就是懂了吗？我们可以回到那个东西，就通过这种原初切断在本体论上二分有一个前本体论前历史的，然后有个历史性的一个维度，历史性那个维度永远是相对主义化的，永远是历史主义化的，永远是妈的不确定的，永远是没有办法的，了解吗？
+
+整理稿：所以这种原初决断是一个准先验的非历史条件，是关于可能性的条件，即 possibility condition of possibility。它一方面使得先验化成为可能：这个二分让所有人知道有一个前历史的、原初的、前本体论的阶段，所以这个时候我们就可以用符号学的拟制去设立一些准先验的、非历史的条件，一些可能性条件。也就是说，你可以假设我现在设立的这个先验框架是超历史的，是 unhistorical 的，了解了吗？我们可以回到那个东西：通过这种原初切断，在本体论上二分，有一个前本体论、前历史的维度，然后有一个历史性的维度。历史性这个维度永远是相对主义化的，永远是历史主义化的，永远是妈的不确定的，永远是没有办法的，了解吗？
+
+## 段落 11：00:09:58 — 00:10:57
+
+来源：`t2214:s75`, `t2214:s76`, `t2214:s77`, `t2214:s78`, `t2214:s79`, `t2214:s80`, `t2214:s81`, `t2214:s82`, `t2214:s83`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=598)
+
+原文：同时它也它也是一个acondition，一个条件是一种不可能性啊历史化的不可能性simultaneously a condition of the impossibility ofhistorization。唉，它也表明了所有的历史化的活动都是注定失败的，它也是一种不可能性，因为它那个原初的开端那边是永远被压抑的，它被它原初切断掉了，二分化了，左边就是永远呃逃遁闭合到深渊的隐匿的那个黑暗当中的去那个past永恒的过去，右边是整个一个differentialative的differentialization啊差分化了的一个historization的一个一个一个世界，那个世界里面历史主义的原理大就是后面已经是符号学编织了，在符号学编织的体系里面的话，你找不到一个绝对
+
+整理稿：同时它也是一个 condition，一种不可能性的条件，即历史化的不可能性，simultaneously a condition of the impossibility of historization。它也表明，所有历史化活动都是注定失败的，它也是一种不可能性，因为那个原初开端永远被压抑，被原初切断了、二分了：左边永远逃遁、闭合到深渊的隐匿黑暗当中，是那个 past，永恒的过去；右边是整个一个 differentialization，差分化了的一个 historization 的世界。
+
+## 段落 12：00:10:57 — 00:11:41
+
+来源：`t2214:s84`, `t2214:s85`, `t2214:s86`, `t2214:s87`, `t2214:s88`, `t2214:s89`, `t2214:s90`, `t2214:s91`, `t2214:s92`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=657)
+
+原文：基准点，你找不到一个绝对基准点，但是这种二分恰恰给了一个伪先验准先验的一个条件，因为你可以说援引那个援引那个原初基础嘛，援引那个被压抑下去的那个非历史的那个那个沉浸在过去深渊当中的那个基础，所以它叫做quasitranscendent，同时它又是同时但是这种又是因为它已经完全埋下去了，所以它同时也是历史化的不可能性，你没有办法去设立一个稳固的历史化，就历史化活动本身的不可能性啊impossibility就行不通，impossibility的意思就是行不通，你懂了吗？impossibility通不过去，行不通，不能够实现，总会失败，就是every
+
+整理稿：在那个世界里，历史主义的原理，大体上后面已经是符号学编织了；在符号学编织的体系里面，你找不到一个绝对的基准点，你找不到一个绝对基准点。但是这种二分恰恰给了一个伪先验、准先验的条件，因为你可以援引那个原初基础，援引那个被压抑下去的非历史的基础，那个沉浸在过去深渊当中的基础。所以它叫做 quasi\-transcendent。同时，又因为它已经完全埋下去了，所以它同时也是历史化的不可能性：你没有办法去设立一个稳固的历史化，也就是历史化活动本身的不可能性，impossibility。impossibility 的意思就是行不通，你懂了吗？通不过去，行不通，不能够实现，总会失败。
+
+## 段落 13：00:11:41 — 00:12:33
+
+来源：`t2214:s93`, `t2214:s94`, `t2214:s95`, `t2214:s96`, `t2214:s97`, `t2214:s98`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=701)
+
+原文：historization every symbolization每每一种符号化has to reenact thisgap，它每一种历史化每一种符号化都不得不去重新启用这一个沟壑，this passage from the real to history都不得不去重新启用这么一个从原质真正的真实前符号学的前本体论的真实到历史前历史的那个真实到到到历史的那个那个通道，它必须启用，它不启用的话，它不能宣称自己是先验的，不能宣称自己是非历史的，一个非历史的先验框架，实际上在就是在历史性的语境当中，假装宣称自己援引的是一套非历史的一个前历史化的前本体论的一个原质的一个基础，然后说再把这一切给它历史化，啊，很好理解吧？
+
+整理稿：就是 every historization，every symbolization，每一种符号化，每一种历史化，都不得不去重新启用这个沟壑，this passage from the real to history：都不得不去重新启用从原质——真正的真实、前符号学的前本体论的真实，前历史的真实——到历史的那个通道。它必须启用；不启用的话，它不能宣称自己是先验的，不能宣称自己是非历史的。一个非历史的先验框架，实际上是在历史性的语境当中，假装宣称自己援引的是一套非历史的、前历史化的、前本体论的原质基础，然后再说把这一切历史化。很好理解吧？
+
+## 段落 14：00:12:33 — 00:12:56
+
+来源：`t2214:s99`, `t2214:s100`, `t2214:s101`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=753)
+
+原文：不能理解，goodbye了啊，不能再到这里不能理解，goodbye了，就是说我在这里说不能理解，就是说你看了我前面那么多东西到这里还不能理解，那goodbye了啊，那你就这个这个你goodbye了，这本书是其实个可以说是最小的一本书了，最薄的一本书，非常薄的一本书，呃呃呃，purpose of a apropos of Ilius
+
+整理稿：不能理解，goodbye 了。不能到这里还不能理解，goodbye 了。就是说，你看了我前面那么多东西，到这里还不能理解，那 goodbye 了。这本书其实可以说是最小的一本书，最薄的一本书，非常薄的一本书。
+
+- 疑点：末尾英文“purpose of a apropos of Ilius”不完整，疑为 apropos of \.\.\.，正文未纳入。；候选：apropos of Ilius；依据：t3386:s275
+
+## 段落 15：00:12:56 — 00:13:38
+
+来源：`t2214:s102`, `t2214:s103`, `t2214:s104`, `t2214:s105`, `t2214:s106`, `t2214:s107`, `t2214:s108`, `t2214:s109`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=776)
+
+原文：Ilius，我都不知道这些东西怎么念啊，烦死了，就关于俄狄浦斯，举个例子，就是我们在这里可以举个例子啊，it iseasy就是关于俄狄浦斯情节啊，it is easy to play the game ofhistorization and to demonstrate how theIlius呃constellation is embedded in a specificpatriarchalcontext，就是说你你可以玩一个历史化的游戏，玩一个历史化的游戏，就说哎呀俄狄浦斯这个东西不过是当时古希腊或者就是当时欧洲文明当中的一个，就是地中海文明当中的一个啊历史性的一个结构，它不具有普遍性，你弗洛伊德或者你拉康凭什么把俄狄浦斯情节啊说说所有人都有这个情节，都有这个结构，都有这个架构呢？
+
+整理稿：关于俄狄浦斯，我在这里举个例子。这里很容易玩一个历史化的游戏：说明俄狄浦斯的星丛（constellation）如何被嵌入一个特定的父权制语境之中。也就是说，你可以玩一个历史化的游戏，说：俄狄浦斯不过是当时古希腊、或者说当时欧洲文明、地中海文明中的一个历史性结构，它不具有普遍性。那么，弗洛伊德或拉康凭什么说俄狄浦斯情结是所有人都有、都有这个结构、都有这个架构呢？
+
+## 段落 16：00:13:38 — 00:14:41
+
+来源：`t2214:s110`, `t2214:s111`, `t2214:s112`, `t2214:s113`, `t2214:s114`, `t2214:s115`, `t2214:s116`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=818)
+
+原文：就是很好玩这个，很容易去玩一个历史化的，就叫相对主义化或者虚无主义化的一个游戏，然后去呃去表明啊俄狄浦斯的这么一个constellation，它的这个新新从啊，这一整套的这个俄狄浦斯的，还有什么各种弑父情节啊，各种什么压抑啊，什么就是弗洛伊德那那一套精神分析那一套那种批判方式批判的一个新从constellation，这个里面我在constellation这个概念我在阿多诺那一期里面也讲过了，你听不懂，请你回去看阿多诺那一期，我已经讲过了，你听不懂就滚，就回去看阿多诺那一期，你听不懂，请你走，get awayplease，学哲学有门槛的，前置点前置学的东西你不学，跑这里来干嘛？丢人现眼，所以啊很容易去，如果用历史化历史主义的方式，很容易矬的历史主义啊，很容易去表明俄狄浦斯的这个新从啊，它是嵌入在一个特定的父权制的语境里面的啊等等啊，and so
+
+整理稿：这个游戏很好玩，很容易滑向相对主义化或虚无主义化：去表明俄狄浦斯的星丛，这一整套俄狄浦斯、弑父情节、各种压抑，也就是弗洛伊德那一套精神分析批判方式所批判的星丛，是如何嵌入一个特定的父权制语境之中的，等等。
+
+## 段落 17：00:14:41 — 00:15:40
+
+来源：`t2214:s117`, `t2214:s118`, `t2214:s119`, `t2214:s120`, `t2214:s121`, `t2214:s122`, `t2214:s123`, `t2214:s124`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=881)
+
+原文：forth，反过来也可以这样说啊，it requires far greater effort of thought todiscern，但是呢，它需要一个很大的一个更为巨大的努力，思考的努力去察觉到，去分析出来，去分辨出来啊，in the very historical contingency of ofIlios，就是恰恰就是在俄狄浦斯的那种历史性的偶然性当中，one of thereenactments of the gap that opens up the horizon ofhistoricity，就是对于这个沟壑的一个重新的一个呃激活激发，reenactments重新的一个征用啊，或者就是重新的把，就是恰恰是在俄狄浦斯在那种历史偶然性当中，我们再一次看到了前本体论和本体论闭合这两个阶段之间的那个沟壑，你才能再看到了，这个沟壑就打开了历史性的视域，that opens up the horizon of h i s t o r i c i t y。W e a r e t a l k i n g a b o u t t h e h o r i z o n o f h i s t o r i c i t y的它的发生学机制本身，w e a r e n o t t a l k i n g a b o u t，我们并不是说我们在一个历史性的囚笼里面，我们不得不受历史性的一个什么什么自我指涉的这种悖论的一个限缩，一个不停的叙事化的，它注定失败的这种玩意儿的这种绝望的沮丧的虚无主义的，我们恰恰就是在说为什么会进入这个阶段，在俄狄浦斯那种偶然性历史偶然性当中，我们能看到它为什么意识意识结构意识一定会进入，意识通过符号学的阉割弑父情节一定会进入到一定会进入到一定会有这么沟壑产生，我们才能看到这个沟壑，了解吗？就是只能通过历史的偶然性啊，只能通过h i s t o r i c a l c o n t i n g e n c y o f I l i o s，那你把那可能或者它不叫I l i o s叫二I l i o s或者三I l i o s四I l i o s都有可能，随便，不重要，w e d o n't c a r e a b o u t w h e t h e r i t i s i n a n y h i s t o r i c i z e d c o n t e x t，我不在乎它到底是不是在某个，就是我们在乎它就是历史的偶然性本身，它越偶然越好，你就指着他啊俄狄浦斯是一个偶然的一个历史事件，你不能把这个偶然历史事件当中包含的精神性结构扩大到所有人整个历史环节里面去，放了一狗屁，我们恰恰是因为它是偶然，大家越偶然越好，越偶然越让我们看到历史性和非历史的维度这两个东西之间的一个沟壑一个间隙，历史当中的偶然性本身这个僵局本身，特恰恰是你这种历史化的不可能性，让我们看到的这个僵局，谢谢你，你这种历史虚无的历史主义者越是这样相对主义越是这样虚无主义，我们越能够看到这种僵局越能看到这个间隙，我们就要看到的就是这个东西，就要看到就是什么东西打开了h i s t o r i c i t y的它的这个视域，s o w h a t e x a c t l y t h e n i s t h e r e l a t i o n s h i p b e t w e e n h i s t o r i c i z a t i o n a n d t h e r e a l a s i t s i n h e r e n t l i m i t？
+
+整理稿：反过来也可以这样说：它需要远为巨大的思想努力，才能察觉到、分析出来、分辨出来——恰恰是在俄狄浦斯的历史偶然性之中，在那种历史性的偶然性当中，重新激活、重新征用那个沟壑，即打开历史性视域的那个沟壑。也就是说，恰恰是在俄狄浦斯的历史偶然性当中，我们再一次看到前本体论与本体论闭合这两个阶段之间的那个沟壑；看到这个沟壑，才打开了历史性的视域，that opens up the horizon of historicity。
+
+## 段落 18：00:15:40 — 00:17:41
+
+来源：`t2214:s125`, `t2214:s126`, `t2214:s127`, `t2214:s128`, `t2214:s129`, `t2214:s130`, `t2214:s131`, `t2214:s132`, `t2214:s133`, `t2214:s134`, `t2214:s135`, `t2214:s136`, `t2214:s137`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=940)
+
+原文：那么是什么什么是这么一个在历史化和啊作为它内在的historicityWe are talking about the horizonof historicity的它的发生学机制本身we are not talking about我们并不是说我们在一个历史性的囚笼里面我们不得不受历史性的一个什么什么自我指涉的这种悖论的一个限缩一个不停的叙事化的它注定失败的这种玩意儿的这种绝望的沮丧的虚无主义的我们恰恰就是在说为什么会进入这个阶段在俄狄浦斯那种偶然性历史偶然性当中我们能看到它为什么意识意识结构意识一定会进入意识通过符号学的阉割弑父情节一定会进入到一定会进入到一定会有这么沟壑产生我们才能看到这个沟壑了解吗就是只能通过历史的偶然性啊只能通过historical contingency of Ilios那你把那可能或者它不叫Ilios叫二Ilios或者三Ilios四Ilios都有可能随便不重要we don't care about whether itis in any historicized context我不在乎它到底是不是在某个就是我们在乎它就是历史的偶然性本身它越偶然越好你就指着他啊俄狄浦斯是一个偶然的一个历史事件你不能把这个偶然历史事件当中包含的精神性结构扩大到所有人整个历史环节里面去放了一狗屁我们恰恰是因为它是偶然大家越偶然越好越偶然越让我们看到历史性和非历史的维度这两个东西之间的一个沟壑一个间隙历史当中的偶然性本身这个僵局本身特恰恰是你这种历史化的不可能性让我们看到的这个僵局谢谢你你这种历史虚无的历史主义者越是这样相对主义越是这样虚无主义我们越能够看到这种僵局越能看到这个间隙我们就要看到的就是这个东西就要看到就是什么东西打开了historicity的它的这个视域
+
+整理稿：We are talking about the horizon of historicity——我们谈论的是历史性视域的发生学机制本身；we are not talking about，我们并不是说我们身处一个历史性的囚笼，不得不受历史性中某种自我指涉悖论的限缩，受一种不停叙事化、注定失败之物的限制，陷入绝望、沮丧、虚无主义。我们恰恰是在说：为什么会进入这个阶段。在俄狄浦斯那种历史偶然性当中，我们能看到意识、意识结构为什么一定会进入；意识通过符号学的阉割、弑父情节为什么一定会进入，一定会有这样一个沟壑产生；我们才能看到这个沟壑。也就是说，只能通过历史的偶然性，只能通过 the historical contingency of Oedipus。它可能不叫俄狄浦斯，叫俄狄浦斯二号、三号、四号都有可能，随便，不重要；we don't care about whether it is in any historicized context，我不在乎它到底是不是在某个历史化语境中。我们在乎的是历史偶然性本身；它越偶然越好。你就指着它说：俄狄浦斯是一个偶然的历史事件。你不能把这个偶然历史事件中包含的精神性结构扩大到所有人、整个历史环节里面去，那是放屁。我们恰恰是因为它是偶然——大家越偶然越好——越偶然，越让我们看到历史性与非历史维度这两个东西之间的沟壑、间隙。历史当中的偶然性本身、这个僵局本身，恰恰是你这种历史化的不可能性让我们看到的僵局。谢谢你：你这种历史虚无主义的历史主义者，越是这样相对主义、越是这样虚无主义，我们越能够看到这种僵局，越能看到这个间隙。我们就要看到这个东西，就要看到究竟是什么东西打开了 historicity 的视域。
+
+## 段落 19：00:17:47 — 00:18:10
+
+来源：`t2214:s138`, `t2214:s139`, `t2214:s140`, `t2214:s141`, `t2214:s142`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1067)
+
+原文：so what exactly then is the relationship between historicizationand the real as its inherent limit那么是什么什么是这么一个在历史化和啊作为它内在的啊，内在的局限性，inherentlimit，内在的界限的这么一个真实之间的一个关系到底是什么？他们的关系到底是什么呢？
+
+整理稿：So what exactly then is the relationship between historicization and the real as its inherent limit？那么，历史化与作为其内在界限的真实（the real）之间，关系到底是什么？这种关系到底是什么呢？
+
+## 段落 20：00:18:10 — 00:18:51
+
+来源：`t2214:s143`, `t2214:s144`, `t2214:s145`, `t2214:s146`, `t2214:s147`, `t2214:s148`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1090)
+
+原文：弗洛伊德在啊，那么他就解答了，告诉你了，就是说弗洛伊德区分所谓正常的压抑啊，正常的压抑和和那个原初压抑啊，我这不念了啊，德文我他妈不会念，别烦了。正常压抑和原初压抑之间的这种区分，提供了一个关键的线索，提供了一个解答。The firstpreposition，那么正常的所谓的normalrepression，它预设了后者，它必须预设后者啊。所谓的正常压抑必须要预设原初压抑。That is for certain content to be repressed\.It is not sufficient for it to be pushed away from the domain of consciousness,
+
+整理稿：弗洛伊德在这里给出了解答：他区分了所谓正常的压抑与原初压抑。这个区分提供了一条关键线索，提供了一个解答。The first proposition：所谓 normal repression，它预设了后者，它必须预设后者。也就是说，正常压抑必须预设原初压抑。That is, for certain content to be repressed, it is not sufficient for it to be pushed away from the domain of consciousness/preconsciousness\.
+
+## 段落 21：00:18:52 — 00:20:09
+
+来源：`t2214:s149`, `t2214:s150`, `t2214:s151`, `t2214:s152`, `t2214:s153`, `t2214:s154`, `t2214:s155`, `t2214:s156`, `t2214:s157`, `t2214:s158`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1132)
+
+原文：preconsciousness\.就是说，要让某种特定内容被压抑，你光是把它从意识和啊潜意识，前面的潜啊，就是那个审查机制，意识和潜意识当中给它驱逐出去，这是不充分的，没有用的。It must also be exposed to someattraction from theununconsciousness\.它也必须，你要压抑它，它也必须被暴露在这个无意识的某种兴趣之下，attraction，某种就是吸引子啊，或者说，知道他们围绕它转的attraction，你可以翻译成在这里啊，就是吸引，就是那个那个立场，你可以理解成啊立场。From the side of the alreadyrepressed，它，你要真正压抑它的话，就是说你要压抑一个东西的话，你不是说把它从你的清醒的意识当中给它排除出去，而是你要把它放到你的无意识的，就是，我举个例子，比如说你家庭成员有一个去世了，然后大家就闭口不谈它，压抑这个东西。
+
+整理稿：也就是说，要让某种特定内容被压抑，你光是把它从意识与前意识——前面那个“潜”的审查机制——中驱逐出去，这是不充分的，没有用的。It must also be exposed to some attraction from the unconscious。它还必须被暴露在无意识的某种吸引之下，某种吸引子，或者说围绕它转的 attraction；这里可以翻译成“吸引”，也可以理解成一种立场。From the side of the already repressed：要真正压抑一个东西，并不是把它从清醒的意识中排除出去，而是把它放到你的无意识之中。举个例子：比如你的家庭成员中有人去世了，大家闭口不谈，压抑这个东西。
+
+## 段落 22：00:20:10 — 00:21:04
+
+来源：`t2214:s159`, `t2214:s160`, `t2214:s161`, `t2214:s162`, `t2214:s163`, `t2214:s164`, `t2214:s165`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1210)
+
+原文：你你其实你你不仅仅是把这个去世了的这个人或者他的名字悲惨的去世了驱逐出意识或者潜意识，而是其实你们都把它放在你们心最深处，懂了吧？都放在你们的，其实你最他妈想讨论的，最想大哭一场啊，你知道吗？最想这样爽一番，这才能压抑它。了解了吗？啊，就是你你还得把它放到已经被压抑的东西里面去，就是放到你的无意识的那个对你的无意识最有吸引的那个，最会让你直接坠落的，直接直接崩溃陨落的那个东西，你把它放到from the side of the alreadyrepressed，它必须。暴露在啊，暴露在那边。One should translate this opposition into topological terms。
+
+整理稿：其实，你不仅仅把去世的这个人、把他的名字和悲惨的去世驱逐出意识或前意识，而是你们都把它放在心最深处，懂了吧？都放在你们最想讨论、最想大哭一场、最想这样痛快一番的地方——这才能压抑它。也就是说，你还得把它放到已经被压抑的东西里面去，放到你的无意识中最吸引你、最会让你直接坠落、直接崩溃陨落的那个东西那里。你把它放到 from the side of the already repressed，它必须暴露在那边。
+
+## 段落 23：00:21:04 — 00:21:22
+
+来源：`t2214:s166`, `t2214:s167`, `t2214:s168`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1264)
+
+原文：我们必须把这种对立啊，把它翻译成拓扑学的一些术语啊。Every part ofthe，这不是这个拓扑学不是数理化的拓扑学，这个拓扑学只是就是画结构、画嵌套关系。我们普通人不能做了吗？
+
+整理稿：我们必须把这种对立翻译成拓扑学的一些术语。这里的拓扑学不是数理化的拓扑学，而只是画结构、画嵌套关系。我们普通人就不能做吗？一定要用数理化的方式，我们才有资格做吗？
+
+## 段落 24：00:21:22 — 00:22:47
+
+来源：`t2214:s169`, `t2214:s170`, `t2214:s171`, `t2214:s172`, `t2214:s173`, `t2214:s174`, `t2214:s175`, `t2214:s176`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1282)
+
+原文：一定要用你数理化的方式，我们才有资格做吗？Every part of the repressed content is historisable\.Historisizable啊，被压抑的内容的每一部分都是可被历史化的。That is，也就是说，it should not bestigmatized into the untouchable taboo\.它不应当被这个，它不应当被指责、侮辱为那种就是不可触碰的禁忌，因为it can be retranslated back into the system啊。因为如果你真的要压抑那个东西的话，你你必须要让它可被历史化，它是可被历史化的，它不能够被就是污名化变成一个就是禁忌。如果它变成一个禁忌的话，它总是能够重新被翻译到那个意识和潜意识的系统里面去。Everything except the very form of the conscious of the unconscious expect the empty place itself啊。这个意识和潜意识就是所有东西啊，所有东西就是除了无意识的形式之外的所有东西，除了那个空白的场位本身，就是无意识其实什么都不是。Unconscious is nothing\.It is
+
+整理稿：Every part of the repressed content is historisable——被压抑内容的每一部分都是可以被历史化的。也就是说，它不应当被污名化为不可触碰的禁忌，因为它可以被重新翻译回系统之中。因为如果你真的要压抑那个东西，你就必须让它可被历史化；它是可被历史化的，不能被污名化成一个禁忌。如果它变成一个禁忌，它总是能够重新被翻译到意识与前意识的系统里面去。Everything except the very form of the conscious of the unconscious, except the empty place itself——除了无意识的形式之外，除了那个空白的场位本身，其他所有东西都是意识与潜意识的内容。Unconscious is nothing\.
+
+## 段落 25：00:22:47 — 00:23:29
+
+来源：`t2214:s177`, `t2214:s178`, `t2214:s179`, `t2214:s180`, `t2214:s181`, `t2214:s182`, `t2214:s183`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1367)
+
+原文：just，它就是用来无意识就是用来收集被压抑的内容的那个空白的位置。无意识什么都没有，你知道吗？无意识不是一个深似海有很多东西的一个东西，无意识什么都没有，无意识只有一个功能，它就是那个空白的场场，空白的场啥都没有的，它就是用来收集被压抑的内容的，collects the repressed content。它的效果，它的功能就是就是帮你去repress。所以在这个意义上讲，就是说无意识的功能就是repress。
+
+整理稿：无意识就是用来收集被压抑内容的那个空白位置。它什么都没有，你知道吗？无意识不是一个深似海、里面有很多东西的东西；无意识什么都没有。无意识只有一个功能：它就是那个空白的场位，空无一物，只用来收集被压抑的内容，collects the repressed content。它的效果、它的功能就是帮你去 repress。所以在这个意义上讲，无意识的功能就是 repress。
+
+## 段落 26：00:23:32 — 00:24:34
+
+来源：`t2214:s184`, `t2214:s185`, `t2214:s186`, `t2214:s187`, `t2214:s188`, `t2214:s189`, `t2214:s190`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1412)
+
+原文：但是是它下面的那个潜潜符号化的潜符号化的一个，那它本身是符号化的，就是就是前没有尚未被能够被意识符号化的领会，它它本身是有一个符号学秩序的。糟糕，哲学和精神分析在术语术语术语表上肯定会有。前后拉会拉开距离了，没办法啊，就就在哲学上前符号学的东西，在在这个精神分析上，我们得说它是符号化的，但是它是一个比较原初的符号化的一个东西啊，很糟糕了，没办法，这是没办法的，没有办法啊。The empty this empty place is created by the promotive repression that relates to normal repression as a kind of transcendental a priori frame to its empirical a post aposteriori content。
+
+整理稿：但它下面那个前符号化的东西——它本身是符号化的，只是尚未被意识符号化地领会——它本身有一个符号学秩序。糟糕的是，哲学和精神分析在术语表上肯定会有前后拉开的距离，没办法。在哲学上叫前符号学的东西，在精神分析上我们得说它是符号化的，只不过是一种比较原初的符号化。很糟糕，没办法，这没办法。The empty place is created by primal repression, which relates to normal repression as a kind of transcendental a priori frame to its empirical a posteriori content\.
+
+## 段落 27：00:24:35 — 00:25:44
+
+来源：`t2214:s191`, `t2214:s192`, `t2214:s193`, `t2214:s194`, `t2214:s195`, `t2214:s196`, `t2214:s197`, `t2214:s198`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1475)
+
+原文：这种这个空白的位置，它就是被这个原初压抑啊，就原初压抑就可以理解成那个收缩，好了吧，很好理解吧？这个这个原初压抑，无意识的这个原初压抑，它就是就是这种收缩，它会和那个正常压抑关联起来，它作为一个什么呀？作为某种鲜艳的先天的框架啊，和它的这个经验性的后验的那些内容啊关联起来啊，就是这个空白场位，无意识是空白场位作为鲜艳的先天框架啊，收缩起来作为空白的场，而那些后来那些压抑，就诊断性的那些压抑，具体的那些压抑，诊断性的具体的压抑啊，就有些人会异证化，会视而不见啦，就会视而不见，听耳充充耳不闻，就刻意不说这东西。你们跟跟大家交谈的时候，他就是就比如说就是其实他这个问题就是性绯闻嘛，或者说就谈来谈去谈来谈去他就不说那东西，就不说那东西有有压抑机制在那边，这种这种诊断学诊断性的这种压抑呢，它就相当于是它的精神性的后验的一个内容啊。Aposteriori content this gesture of promotive repression。
+
+整理稿：这个空白的位置就是被原初压抑创造出来的。原初压抑可以理解成那种收缩，很好理解吧？无意识的这个原初压抑就是这种收缩；它会和正常压抑关联起来，作为一个什么？作为某种先验的先天框架，和它的经验性、后验的内容关联起来。也就是说，无意识作为空白场位，作为先验的先天框架收缩起来，成为空白的场；而那些后来的压抑、诊断性的具体压抑——有些人会视而不见，充耳不闻，刻意不说这个东西；你跟人交谈时，他谈来谈去就是不说那个东西，比如那个问题其实就是性绯闻——这种诊断性的压抑，就相当于它的经验性的后验内容。A posteriori content, this gesture of primal repression\.
+
+## 段落 28：00:25:45 — 00:26:28
+
+来源：`t2214:s199`, `t2214:s200`, `t2214:s201`, `t2214:s202`, `t2214:s203`, `t2214:s204`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1545)
+
+原文：那么这种原初压抑的这个这gesture啊这个姿态啊或者这个活动呢这个决断呢，of它就是清空了原质的那个场，原初压抑的作用就是清空它的场，清空了the place of thething原质的那个场啊，就是place就他妈real别烦了。这个thing就是让他感到绝望焦虑的，就是这个我不想翻译好吧，原质whose psychoanalytic name is deathstrip，他的名字就是死亡区里啊，死亡区里cannot behistorized，它不能够被历史化，它不能够被历史化，不能被说出来啊，不能被历史化，就是说
+
+整理稿：那么，这种原初压抑的姿态、活动、决断，就是清空了原质的那个场位；原初压抑的作用就是清空它的场，清空 the place of the thing——原质的那个场位，也就是 place，就是 the real，别烦了。这个 thing 就是让他感到绝望、焦虑的东西，我不想翻译，好吧；原质，whose psychoanalytic name is death drive，它在精神分析中的名字就是死亡驱力。死亡驱力 cannot be historized，它不能够被历史化，不能够被历史化，不能被说出来。
+
+## 段落 29：00:26:29 — 00:26:56
+
+来源：`t2214:s205`, `t2214:s206`, `t2214:s207`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1589)
+
+原文：压抑内容的每一部分都是可被历史化的，historizable，它能被说出来的，通过诊断，通过对谈，通过分析，它是可以被历史化的，它不是它不能够被就是污名化变成那种不可触碰的禁忌的啊，否则它会回来的，它回来的。你并没有压抑他呀，这不是压抑啊。
+
+整理稿：被压抑内容的每一部分都是可以被历史化的，historizable；它是可以被说出来的，通过诊断、通过对谈、通过分析，它可以被历史化。它不能被污名化，变成不可触碰的禁忌；否则它会回来的，它会回来。你并没有压抑它，这不是压抑。
+
+## 段落 30：00:27:01 — 00:27:26
+
+来源：`t2214:s208`, `t2214:s209`, `t2214:s210`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1621)
+
+原文：Since呃it isa因为这么一个对于驱力的这一种收缩和压抑呢，它是历史性本身的非历史的条件。For thatreason，出于这个原因呢，死亡驱力并不指称某种实证性的或者积极的内容。One should directly refer to in order to explain some event\.
+
+整理稿：因为对驱力的这种收缩和压抑，是历史性本身的非历史条件。For that reason，出于这个原因，死亡驱力并不指称某种实证性的或积极的内容。One should not directly refer to it in order to explain some event——人们不应当直接援引它来解释某个事件。
+
+- 疑点：末句英文原字幕缺少否定词，依上下文整理为“不应当直接援引它来解释某个事件”。；候选：One should not directly refer to it in order to explain some event\.；依据：t3386:s598
+
+## 段落 31：00:27:26 — 00:27:54
+
+来源：`t2214:s211`, `t2214:s212`, `t2214:s213`, `t2214:s214`, `t2214:s215`, `t2214:s216`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1646)
+
+原文：Event，你不能够直接援引死亡驱力来解释某个事件啊。People kill each other in wars because of the death drive。不是这种东西啊，deathdrive不是这种东西啊，deathdrive已经被预先压抑了。But the emptyframe，它是一个空白的一个框架，within which the game ofhistorization is taking place。它是一个空白的框架，在这空白框架里面，历史化的游戏才会发生。It maintains open the minimal gap。
+
+整理稿：你不能够直接援引死亡驱力来解释某个事件。People kill each other in wars because of the death drive——不是这种东西。死亡驱力已经被预先压抑了。但那个空白的框架（empty frame）是一个空白框架，历史化的游戏就在其中发生。它维持着一个最小间隙的敞开（It maintains open the minimal gap）。
+
+## 段落 32：00:27:55 — 00:28:22
+
+来源：`t2214:s217`, `t2214:s218`, `t2214:s219`, `t2214:s220`, `t2214:s221`, `t2214:s222`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1675)
+
+原文：它维持着死亡驱力呢，或者它维持什么？维持着那个最小的那个间隙啊。Thedelay，最小的一个迟缓一个迟滞。Between an event and the mode of itshistorization，在一个事件和它的历史化之间的那个形式之间有一个delay，就是时间实际上这么来的，你知道吗？没有这个delay就没有这个时间啊。
+
+整理稿：它维持着死亡驱力呢，或者它维持什么？维持着那个最小的间隙。The delay，最小的一个迟缓、一个迟滞。Between an event and the mode of its historization，在一个事件和它的历史化形式之间有一个delay——时间实际上就是这么来的。没有这个delay，就没有这个时间。没有这个delay，你就没有时间性的体验。
+
+## 段落 33：00:28:24 — 00:29:46
+
+来源：`t2214:s223`, `t2214:s224`, `t2214:s225`, `t2214:s226`, `t2214:s227`, `t2214:s228`, `t2214:s229`, `t2214:s230`, `t2214:s231`, `t2214:s232`, `t2214:s233`, `t2214:s234`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1704)
+
+原文：没有这个delay，你没有时间性的体验的。Of its in symbolicdescription啊，就是symbolicdescription，符号性的这个注册或者叫铭刻i n s c r i p t i o n，i n s c r i p t i o n和事件之间它会有个d e l a y和有个g a p，这个g a p就是由这个由d e a t h d r i v e来维持的啊。这g a p是由它来维持的。D e a t h d r i v e s t a n d s f o r t h e f a c t t h a t t h e p a s s a g e f r o m a n e v e n t t o i t s h i s t o r i z a t i o n i s r a d i c a l l y c o n t i n g e n t，n e v e r g r o u n d e d i n r e a l i t s e l f。就是死亡驱力呢，它代表着这么一个事实，就是说我们从一个事件走向它的历史化，就是它注册进符号系统啊，铭刻进符号系统，它是一个极端的偶然的，从来都不是在死亡驱力里面，它没有没有没有基础的，它怎么会被历史化？是根本不知道的，极端偶然的。因为这个就是他他是他自己人，你知道吗？他自己内在不一致性啊，他自己内在他就是这个间隙，他就是这个间隙，代表这种历史化本身是没有任何保障的，他就代表这个间隙啊，他代表他啥都没有，他就他妈的是很无力的，他就是空白的框架，他把已经把下面的根据全都给你澄清掉了，这些东西不能够再符号化，他们没了啊。那么以一种类似的一个一种脉络的话，德里达呢他会讨论这个那些他会讨论解构活动的它的不可解构那些条件啊。S p e a k s o f t h e n o n\-d e s t r u c t i b l e c o n d i t i o n s o f d e s t r u c t i o n s啊，d e c o n s t r u c t i o n s，n o n\-d e c o n s t r u c t i b l e c o n d i t i o n so f inscriptioninscription和事件之间它会有个delay和有个gap这个gap就是由这个由death drive来维持的啊这gap是由它来维持的Death drive stands for the fact thatthe passage from an event to its historization is radically contingentnevergrounded in real itself就是死亡驱力呢它代表着这么一个事实就是说我们从一个事件走向它的历史化就是它注册进符号系统啊铭刻进符号系统它是一个极端的偶然的从来都不是在死亡驱力里面它没有没有没有基础的它怎么会被历史化是根本不知道的极端偶然的因为这个就是他他是他自己人你知道吗他自己内在不一致性啊他自己内在他就是这个间隙他就是这个间隙代表这种历史化本身是没有任何保障的他就代表这个间隙啊他代表他啥都没有他就他妈的是很无力的他就是空白的框架他把已经把下面的根据全都给你澄清掉了这些东西不能够再符号化他们没了
+
+整理稿：在符号性描述（symbolic description）中，符号性的注册或铭刻（inscription）与事件之间会有一个delay和gap，这个gap由death drive来维持。Death drive stands for the fact that the passage from an event to its historization is radically contingent, never grounded in real itself。死亡驱力代表着这样一个事实：从一个事件走向它的历史化，也就是注册、铭刻进符号系统，是极端偶然的，从来不是在real itself中有根基的。它没有基础；它如何被历史化，根本不可知，是极端偶然的。因为死亡驱力就是它自身的内在不一致性，它就是这个间隙；它代表历史化本身没有任何保障。它代表自己什么都没有，是很无力的空白框架；它把下面的根据全都清除掉了，这些东西不能再被符号化，它们没了。
+
+## 段落 34：00:29:47 — 00:30:13
+
+来源：`t2214:s235`, `t2214:s236`, `t2214:s237`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1787)
+
+原文：啊那么以一种类似的一个一种脉络的话德里达呢他会讨论这个那些他会讨论解构活动的它的不可解构那些条件啊Speaks of thenondestructible conditions of destructions啊deconstructionsnondeconstructibleconditions of deconstruction啊，这个他妈的我就不想去看了啊，这这德里达哪本书？
+
+整理稿：以一种类似的脉络，德里达会讨论解构活动的那些不可解构的条件。He speaks of the non\-deconstructible conditions of deconstruction。这个我就不想看了——这是德里达哪本书？
+
+## 段落 35：00:30:13 — 00:30:41
+
+来源：`t2214:s238`, `t2214:s239`, `t2214:s240`, `t2214:s241`, `t2214:s242`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1813)
+
+原文：你们真正想要看德里达这个讨论的话，那你自己去到这本书的三十八页看他的这句话里面的第三十八个脚注，然后再往后面看他的第三十八个脚注，三十八个这个尾注。How is the emergence of word connected with thepulsating,uh,rotating in God?That is with the interchange of expansion and contraction ofexternalization andinternalization。
+
+整理稿：你们如果真想看德里达这个讨论，就自己到这本书的第三十八页，看这句话里的第三十八个脚注，然后再往后看他的第三十八个尾注。How is the emergence of word connected with the pulsating, rotating in God? That is with the interchange of expansion and contraction of externalization and internalization\.
+
+## 段落 36：00:30:42 — 00:31:24
+
+来源：`t2214:s243`, `t2214:s244`, `t2214:s245`, `t2214:s246`, `t2214:s247`, `t2214:s248`, `t2214:s249`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1842)
+
+原文：就是说，那么现在齐泽克要问的就是这个符号系统的它的涌现呢，它是如何和那个pulsatingrotation，那个就是那个紧张的、不停的脉搏的，嘣嘣嘣嘣，是在原初主体当中的那种rotation，那种循环运动啊。That iswith，就是说这个符号系统的涌现是怎么和这个收缩和这个和扩张的它的一个交互变化发生关系的？它和它们怎么和联系起来的？为什么这种收缩和为什么这个前本体论这种扩张和收缩活动，它能够会导致符号系统的涌现啊？Of
+
+整理稿：那么齐泽克现在要问的是：符号系统的涌现，如何与那个pulsating rotation——那种紧张的、不停搏动的、在原初主体中的循环运动——联系在一起？That is with\.\.\. 也就是说，符号系统的涌现如何与收缩和扩张的交互变化发生关系？它和它们究竟怎么联系起来？为什么这种前本体论的扩张和收缩活动能够导致符号系统的涌现？
+
+## 段落 37：00:31:24 — 00:32:12
+
+来源：`t2214:s250`, `t2214:s251`, `t2214:s252`, `t2214:s253`, `t2214:s254`, `t2214:s255`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1884)
+
+原文：externalization，呃，就是为什么这种外化和内化运动啊，外在化和内在化运动，它会导致符号系统的一个涌现？How,uh,precisely does word discharge the tension of the rotary motion？那么如果我们再更精确的说，就是说啊，符号系统它是符号啊，它是它是符号秩序呢，它是如何卸除了discharge，卸除了什么？卸除了这种rotary motion这种循环运动呢它的张力的？How does it mediate？它是如何中介呃在收缩性的和扩张性的力量原初力量之间的那种呃它是如何中介它们的对抗的？如何调和它们的这对抗的呢？Word is a contraction in the guise of its very opposite of expansion。
+
+整理稿：也就是，为什么这种外化和内化运动，外在化和内在化运动，会导致符号系统的涌现？How, precisely, does word discharge the tension of the rotary motion? 更精确地说，符号系统、符号秩序如何卸除（discharge）这种循环运动（rotary motion）的张力？How does it mediate? 它如何中介收缩性的和扩张性的原初力量之间的对抗，如何调和这种对抗？Word is a contraction in the guise of its very opposite of expansion\.
+
+## 段落 38：00:32:12 — 00:32:36
+
+来源：`t2214:s256`, `t2214:s257`, `t2214:s258`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1932)
+
+原文：那么结果答案就是啊，词词和物啊，或者说词和物质，物质就是contraction，物质是啊符号性，就是那个罗格斯它收缩起来就是物，而词呢它是反过来的，它是它是一个contraction in the guise of its very opposite of an uh expansion。
+
+整理稿：答案就是：词和物，或者说词和物质。物质就是contraction；物质是符号性，就是那个Logos，它收缩起来就是物。而词相反，它是一个contraction in the guise of its very opposite of an expansion。
+
+## 段落 39：00:32:36 — 00:33:18
+
+来源：`t2214:s259`, `t2214:s260`, `t2214:s261`, `t2214:s262`, `t2214:s263`, `t2214:s264`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1956)
+
+原文：在这里我们其实就这远开来讲，就是说在这个符号符号符号性力量的收缩和扩张的辩证法当中，词和物的这个辩证对子也出现了，词和物的辩证对子也出现了，物是物其实是光，物啊就是matter，它其实是光，但是它被收缩，没办法被收缩了，它是。无奈的被收缩了，你可以理解吧？就是说，实际上他想把自己注册到符号系统里面去，但他被收缩了。他然后，但是这些符号学秩序在内部不停的转，比如这个玻璃，这里面的这些玻璃他妈的，这里面这分子什么在不停的动吧，运转，它自
+
+整理稿：这里可以展开来讲：在符号性力量的收缩和扩张的辩证法中，词与物的辩证对子也出现了。物其实是光，物就是matter，它其实是光，但它被收缩了——无可奈何地被收缩了，你可以理解吧？实际上，它想把自己注册到符号系统里面去，却被收缩了。
+
+## 段落 40：00:33:18 — 00:33:35
+
+来源：`t2214:s265`, `t2214:s266`, `t2214:s267`, `t2214:s268`, `t2214:s269`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=1998)
+
+原文：己内在有符号，有有有秩序性，不，它被收缩了。而词其实相反的，theword是反过来的。词啊，其实是站在收缩运动那边的，它是一种收缩运动，但是呢，它是伪装成它的反面，in the guise of itsopposite，伪装成是一个扩张运动。
+
+整理稿：但这些符号学秩序在内部不停地转。比如这块玻璃，里面的分子不停运动、运转，它自身内部有符号、有秩序性——不，它是被收缩了。词则相反，the word是反过来的。词其实站在收缩运动那一边，它是一种收缩运动，但它伪装成自己的反面（in the guise of its opposite），伪装成一种扩张运动。
+
+## 段落 41：00:33:36 — 00:34:18
+
+来源：`t2214:s270`, `t2214:s271`, `t2214:s272`, `t2214:s273`, `t2214:s274`, `t2214:s275`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2016)
+
+原文：词的本质，符号学秩序铺设的本质，是对于符号化运动本身的限制。词恰恰是站在收缩性的力量这一边，而物是站在扩张性的力量那边的。物代表了符号化运动尚未结束，它还要扩张。Understand，物代表了不一致性要涌现出来，而词代表了把你限说死，把你他妈本质化，把你编到一个僵死的框架里面去，很好理解吧？所以在扩张和收缩，这个光线的扩张和收缩，收缩缩成一个黑暗的一个深渊或者怎么样，这个运动里面，词和物的辩证法也也在里面啊。
+
+整理稿：词的本质、符号学秩序铺设的本质，是对符号化运动本身的限制。词恰恰站在收缩性力量这一边，而物站在扩张性力量那一边。物代表符号化运动尚未结束，它还要扩张。Understand，物代表不一致性要涌现出来；词则把你限死、本质化，把你编进一个僵死的框架里，很好理解吧？所以在扩张和收缩的运动中——光线的扩张和收缩，收缩成一个黑暗深渊之类——词与物的辩证法也在其中。
+
+## 段落 42：00:34:19 — 00:34:42
+
+来源：`t2214:s276`, `t2214:s277`, `t2214:s278`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2059)
+
+原文：那它这个文本里面没讲，那我要给你扯出来讲一下啊，否则你不好接入其他东西啊。我再给你讲，这里只讨论词嘛。That is in pronouncing a word,the subject contracts its being outside himself。在说出一个词的时候，主体呢，宣布一个词的时候，主体把它的存在收缩起来，contracts his
+
+整理稿：这个文本里没有讲，我要给你扯出来讲一下，否则你不好接入其他东西。我再讲一遍，这里只讨论词。That is in pronouncing a word, the subject contracts its being outside himself\.
+
+## 段落 43：00:34:42 — 00:35:36
+
+来源：`t2214:s279`, `t2214:s280`, `t2214:s281`, `t2214:s282`, `t2214:s283`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2082)
+
+原文：being，把它存在缩起来，缩到它外面之外的，自己之外的。He c o a g u l a t e s，c o a g u l a t e s是啥意思？搜一下，它凝凝结了啊，知道，凝结了它的核心的存在变成了一个外部的一个征兆。这很好理解吧？这是我刚刚说那个意思，只不过他用一个主主体说的词，就是说，当主体说出这个，就主动辩证法这么简单吧。他说出这个词，他就把自己的存在寄托在这个词上面了，这个词缩起来了，他自己的整个存在，就它的存在的核心就被凝结干瘪的凝结到一个外在的一个s i g n，一个迹象上面去了，a s i g n，或者说一个一个一个标记上面去了，标记上面去了啊。所以主体把自己的存在给凝缩起来了啊，它是以一种扩张的方式，实际上伪装成扩张，实际上是收缩。词的本质啊。I n t h e v e r b a l s i g n，在这么一个呃语言，就是口头道出来的这个这么一个呃标记上面呢，我发现我自己是外在于我自己的，正如他曾所示的，a s i t w e r e啊，正如他所示的，我发现我自己是外在于我自己的。I p o s i t m y u n i t y o u t s i d e m y s e l f。其实这个在这里中介的。coagulatescoagulates是啥意思搜一下它凝凝结了啊知道凝结了它的核心的存在变成了一个外部的一个征兆这很好理解吧这是我刚刚说那个意思只不过他用一个主主体说的词就是说当主体说出这个就主动辩证法这么简单吧他说出这个词他就把自己的存在寄托在这个词上面了这个词缩起来了他自己的整个存在就它的存在的核心就被凝结干瘪的凝结到一个外在的一个sign一个迹象上面去了a sign或者说一个一个一个标记上面去了标记上面去了啊所以主体把自己的存在给凝缩起来了啊它是以一种扩张的方式实际上
+
+整理稿：在说出一个词的时候，主体把它的存在收缩起来，收缩到自己之外（contracts his being outside himself）。He coagulates——coagulate是凝结的意思：他的存在的核心凝结成一个外部的征兆。这很好理解吧？这就是我刚才说的意思，只不过他用主体来说：当主体说出一个词，他就把自己的存在寄托在这个词上；词收缩起来，他自己的整个存在、存在的核心就被干瘪地凝结到一个外在的sign、一个迹象或标记上。所以主体把自己的存在凝缩起来了。它以一种扩张的方式出现，实际上伪装成扩张，实际上是收缩，这就是词的本质。
+
+## 段落 44：00:35:36 — 00:36:06
+
+来源：`t2214:s284`, `t2214:s285`, `t2214:s286`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2136)
+
+原文：伪装成扩张实际上是收缩词的本质啊In the verbal sign在这么一个呃语言就是口头道出来的这个这么一个呃标记上面呢我发现我自己是外在于我自己的正如他曾所示的as it were啊正如他所示的我发现我自己是外在于我自己的I positmy unity outside myself其实这个在这里中介的用主体性做中介，就是让了读在这里用主体做中介是让读者更好理解了。
+
+整理稿：In the verbal sign，在口头道出的这个标记上，我发现我自己外在于我自己，as it were，正如所说的那样，我发现我自己外在于我自己。I posit my unity outside myself。其实这里是用主体性做中介，用主体做中介，是为了让读者更好理解。
+
+## 段落 45：00:36:06 — 00:36:37
+
+来源：`t2214:s287`, `t2214:s288`, `t2214:s289`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2166)
+
+原文：但是我用另外一种方法，就是用词和物的一个呃辩证关系也可以，也可以理解啊，一样的，就道理是他妈一样的，别烦了，你是个辩证法家，你还他妈纠缠一些小细节。I posit my unity outsidemyself，我把我自己的统一性放到我外面去了，啊，放到一个能指里面，它代表我。It seems universal that every creature that cannot contain self or draw itself together in its own fullness draws itself together outside itself。
+
+整理稿：但我用另一种方法，也就是词与物的辩证关系，也可以理解；道理是一样的。别烦了，你是个辩证法家，还纠缠这些小细节。I posit my unity outside myself——我把我自己的统一性放到我外面去了，放到一个能指里面，它代表我。It seems universal that every creature that cannot contain self or draw itself together in its own fullness draws itself together outside itself\.
+
+## 段落 46：00:36:38 — 00:37:20
+
+来源：`t2214:s290`, `t2214:s291`, `t2214:s292`, `t2214:s293`, `t2214:s294`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2198)
+
+原文：就是就好像看上去就是说是普遍一个情况，就是说每一种被造物的被造出来东西呢，它都不能够把它自己包含在它自己里面啊，或也不能把它自己自己完整的，就是呃把自己draw itself together画出来或怎么样的，弄到一起去啊啊，它就会把自己弄到外面去，拉到外面去啊，draw itself outside together outside itself once the就是举个例子，比如说the elevated miracle of the formation of the word in the mouth belongs。
+
+整理稿：这看起来是一个普遍情况：每一种被造物都不能把它自己包含在它自身里面，也不能把它自己完整地draw itself together、聚拢到一起；它就会把自己弄到外面去，拉到外面去，draw itself outside itself。举个例子：once the elevated miracle of the formation of the word in the mouth belongs\.\.\.
+
+## 段落 47：00:37:21 — 00:38:09
+
+来源：`t2214:s295`, `t2214:s296`, `t2214:s297`, `t2214:s298`, `t2214:s299`, `t2214:s300`, `t2214:s301`, `t2214:s302`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2241)
+
+原文：啊，他这里引的是谁的话，我都醉了，可能是他妈的这里引的是黑格尔的话吧，要么就是就是说这么一个提升的奇迹，就是说这个词的一个形成啊，词的一个表述，在嘴巴里这个表述，它就属于啊，它就属于呃once它就属于这个东西啊，属于这种情况，属于这种情况啊，就属于这种情况。Which is a true creation of the fullinside，呃，就是它是一个inside when it can no longer remain itself。哎，烦死了，这是一个应该是黑格尔的鸟话，烦死了。Which is它是一个真正的真实的一个创造，它是一个完全内在性的一个创造。
+
+整理稿：这里引的是谁的话？我都醉了，可能是黑格尔的话吧。也就是说，这种提升的奇迹——词的形成、词在嘴里的表述——就属于这种情况。Which is a true creation of the full inside，也就是一个inside when it can no longer remain itself。烦死了，这应该是黑格尔的鸟话。Which is，它是一个真正的、真实的创造，是一个完全内在性的创造。
+
+## 段落 48：00:38:09 — 00:38:36
+
+来源：`t2214:s303`, `t2214:s304`, `t2214:s305`, `t2214:s306`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2289)
+
+原文：当它不能够保持在它自己自在存在的时候，不能够维持它自在存在的时候，就相当于就是说就分裂了，就好像他妈词和这个东西本身就分裂了，就好像这个东西，好像这个东西，这个杯子不能自己代表它自己，它必须我们用一个词来表达它，了解吗？我们就是这个杯子，它好像它不能够自己得出它自己一样的，我必须要用词来把握它，
+
+整理稿：当它不能保持在自身自在存在中、不能维持自在存在时，就相当于分裂了：词和这个东西本身分裂了。就好像这个杯子不能自己代表它自己，必须由我们用一个词来表达它，了解吗？这个杯子好像不能自己给出它自己，我必须要用词来把握它。
+
+## 段落 49：00:38:38 — 00:38:56
+
+来源：`t2214:s307`, `t2214:s308`, `t2214:s309`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2318)
+
+原文：就比如说刘思木，操，你不这是必没办法，他妈要用个名字来他妈指代老子，你知道吗？为名字或者怎么样的，你好像我我这我不不靠这个名字，我不能成为我自己一样的，You understand？
+
+整理稿：就比如刘思木，没办法，必须用一个名字或者类似的标记来指代我，你知道吗？我不靠这个名字，就不能成为我自己，You understand？
+
+- 疑点：姓名识别不确定：原文为“刘思木”，参考字幕作“刘思慕”。；候选：刘思慕；依据：t3386:s850
+
+## 段落 50：00:38:59 — 00:39:44
+
+来源：`t2214:s310`, `t2214:s311`, `t2214:s312`, `t2214:s313`, `t2214:s314`, `t2214:s315`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2339)
+
+原文：我不想多多浪费时间的notion of symbolization就是说，呃，符号化的这么一个呃观念呢，of the pronunciation of the word就是说就是呃神圣词神圣的词啊，它的道出啊，它的宣布呢，as the contraction of the subject它就是主体的收缩，但是它是outside itself的外在于它自己的收缩，就它的分裂，然后裂到外面去了。That is in the form of its very opposite啊，也是也就是说以一种扩张的形式的一种收缩，就理解了，所以说符号化实际上是扩张的形式的一种收缩。它宣布the structural differential Asian notion of the signifier as an element whose identity stands for its very opposite。
+
+整理稿：我不想多浪费时间在notion of symbolization上。符号化的观念，of the pronunciation of the word，也就是神圣的词、它的道出和宣布，as the contraction of the subject：它就是主体的收缩，但这是outside itself、外在于它自己的收缩，是它的分裂，裂到外面去了。That is in the form of its very opposite。也就是说，这是一种以扩张形式出现的收缩。所以，符号化实际上是扩张形式的一种收缩。它宣布了the structural differential notion of the signifier as an element whose identity stands for its very opposite。
+
+- 疑点：“structural differential Asian notion”疑为识别错误，正文按“structural differential notion”整理。；候选：structural differential notion；依据：t3386:s871
+
+## 段落 51：00:39:44 — 00:40:29
+
+来源：`t2214:s316`, `t2214:s317`, `t2214:s318`, `t2214:s319`, `t2214:s320`, `t2214:s321`, `t2214:s322`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2384)
+
+原文：它宣布了这个一种结构性的差分化的一个观点啊，就是一个理念，宣布的就是能指啊，能指的这个结构性的差分化的这个能指之能指，什么叫做能指？能指是个什么屌东西？notion of the signifier就是能指之观念，能指这个东西的这个对大家对它的这个，就是这个词儿在中文里面也没notion of something这个词，notion of something这个词就是什么什么的想法，对于什么什么的设想，懂吗？这个词在中文里面很难翻，它有一个张力在里面。你说它是能指的观念，操，什么观念？他就以为是the idea of the
+
+整理稿：它宣布了这种结构差分化的观点，也就是能指的观念：能指是一个其同一性代表其反面的要素。什么叫做能指？能指是个什么东西？notion of the signifier就是能指之观念，是大家对于能指这个东西的……这个词在中文里也没有notion of something这个词；notion of something就是“什么什么的想法”“对于什么什么的设想”，懂吗？这个词在中文里很难翻，它有一个张力在里面。你说它是“能指的观念”，什么观念？他就以为是……
+
+- 疑点：s322末尾英文“the idea of the”未说完，正文只保留到完整的反问句。；候选：；依据：t3386:s890
+
+## 段落 52：00:40:29 — 00:40:53
+
+来源：`t2214:s323`, `t2214:s324`, `t2214:s325`, `t2214:s326`, `t2214:s327`, `t2214:s328`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2429)
+
+原文：signifier，或者说the concept ofsignifier，不对的。the notion of signifier就是你说就是我们我们当我们用signifier这个词说这个词的时候，我们在想的是个什么东西，了解吗？啊，就是就是能指的想法，关于能指的想法，就是当我们在说能指的时候，我们在说什么？我们在想signifier的时候我们在想什么？
+
+整理稿：不是 the concept of signifier，而是 the notion of signifier。当我们用 signifier 这个词、当我们说“能指”的时候，我们在想的到底是什么？当我们说能指的时候，我们在说什么？我们在想 signifier 的时候，我们在想什么？
+
+## 段落 53：00:40:53 — 00:41:42
+
+来源：`t2214:s329`, `t2214:s330`, `t2214:s331`, `t2214:s332`, `t2214:s333`, `t2214:s334`, `t2214:s335`, `t2214:s336`, `t2214:s337`, `t2214:s338`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2453)
+
+原文：那么它但是就也就是说我们在想signifier的时候，我们是在想的是一个结构性的一个差分性的差异化的一一个一个一个机制一个符号学机制，它是作为一个什么？作为一个要素，作为element，它的它的同一性呢代表了它的恰恰代表它的反面。能指的同一性代表它的反面就是玻璃杯，玻璃杯是玻璃杯，它自己同一性恰恰代表了反面，了解吗？玻璃杯就这个能指，它永远不是它自己，它永远代表另外一个东西。它的identity，它的identity stands for its very opposite for puredifference，它就代表纯粹差异，你了解吗？它代表它代表这个玻璃杯和它的能指在符号学符号系统里面的那个占位符之间的一个元素差异，它和它的符号学的二分之那个差异。
+
+整理稿：我们在想 signifier 的时候，想的是一个结构性的、差分性的、差异化的机制，一个符号学机制。它作为一个要素、作为 element，它的同一性恰恰代表它的反面。能指的同一性代表它的反面，就像玻璃杯：玻璃杯是玻璃杯，它自身的同一性恰恰代表了反面。玻璃杯作为能指，永远不是它自己，永远代表另外一个东西。它的 identity stands for its very opposite, for pure difference，也就是代表纯粹差异。它代表玻璃杯和它在符号学符号系统里的那个占位符之间的原初差异，也代表它和它的符号学二分之间的差异。
+
+- 疑点：原话“符号学二分之那个差异”语义不清，疑为“符号学二分之间的差异”；正文按后者整理。；候选：符号学二分之间的差异；依据：t2214:s338, t3386:s923, t3386:s924
+
+## 段落 54：00:41:44 — 00:42:41
+
+来源：`t2214:s339`, `t2214:s340`, `t2214:s341`, `t2214:s342`, `t2214:s343`, `t2214:s344`, `t2214:s345`, `t2214:s346`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2504)
+
+原文：好好好，我他妈懂了，你和你的名字的差异，不仅仅是那个道出来那个那个这个符号不仅仅说出来就是声音写出来那个几个字儿，不是这个，而是你和你在整个你的符号化的所有人生关系，所有的生命关系源流因果关系。你和你和一切的关联，你甚至和你自己的关联的那个那个那个符号，不要把符号理解成很庸俗的东西，它是个它是个本体论机制，它是在这里是个本体论机制，signifier在这里是个本体论机制，还他妈不懂吗？是个前本体论机制，我说说，但是是本体化、本体论化了一个机制，不要理解成很庸俗的东西。有人学哲学学什么东西嘛？当我们讨论符号学秩序的时候，不是在讨论什么文论、语文学、语言学那些鸟东西，我们讨论很严肃的东西，很原始的东西。
+
+整理稿：你和你的名字的差异，不仅仅是说出来、写出来的那个符号，不只是声音或那几个字；而是你和你在整个符号化过程中所有的人生关系、所有的生命关系、源流因果关系，你和一切的关联，甚至你和你自己关联的那个符号。不要把符号理解成很庸俗的东西，它是本体论机制。signifier 在这里是本体论机制；更准确地说，是前本体论机制，但已经是被本体化、本体论化的机制。有人学过哲学吗？当我们讨论符号学秩序的时候，不是在讨论文论、语文学、语言学那些鸟东西，我们讨论的是很严肃、很原始的东西。
+
+## 段落 55：00:42:47 — 00:43:10
+
+来源：`t2214:s347`, `t2214:s348`, `t2214:s349`, `t2214:s350`, `t2214:s351`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2567)
+
+原文：那么我们会进入符号学秩序呢？符号性的秩序，呃，在什么时候？The moment a feature functions as an index of itsobject，什么时候进入符号性的秩序呢？就是说，当一个特征啊，当一个feature，一个什么一个特征啊，一个一个东西的占重要地位的一个特征，它会起作用作为什么？
+
+整理稿：那么，我们什么时候进入符号学秩序、符号性的秩序？The moment a feature functions as an index of its object——当一个特征作为其对象的索引发挥作用的时候。也就是说，当一个特征，一个东西的占重要地位的特征起作用时，它作为什么起作用？作为它对象的索引。
+
+## 段落 56：00:43:10 — 00:44:27
+
+来源：`t2214:s352`, `t2214:s353`, `t2214:s354`, `t2214:s355`, `t2214:s356`, `t2214:s357`, `t2214:s358`, `t2214:s359`, `t2214:s360`, `t2214:s361`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2590)
+
+原文：它对立面的那个、那个、那个、那个、那个i n d e x，i n d e x这翻译成什么比较好？指数、指数吧，或者是索引，翻译成索引比较好。索引啊，索引啊，它对立面那个索引。T h e m o m e n t t h e p o l i t i c a l l e a d e r's h a t r e d o f t h e e n e m i e s i s p e r c e i v e d b y h i s s u b j e c t a s a r a r e f o r m o f a p p e a r a n c e o f h i s u n l i m i t e d l o v e f o r t h e p e o p l e，理解吗？啊，这不不说了啊，这个就是说，比如说一个政治领袖的对于敌人的恨，他会被他的啊他的那些臣民理解成对于那个他的那个他的人民的无限的爱的一个表达。他越是一个政治领袖，越是表现恨他的敌人，越表表现他爱他的人民。我觉得我没有什么好恨的，我对这代货你们离我远点，我从来不恨他们，没什么好恨的，所以我不是一个p o l i t i c a l l e a d e r，I'm j u s t I'm n o b o d y，我我也无意成为一个蛇皮p o l i t i c a l l e a d e r啊，在这个意识形态意义上的p o l i t i c a l l e a d e r没有任何意义。我会直接表达我对于m y p e o p l e的h a t r e d，如果我有所谓的我的p e o p l e，我靠，哈哈哈哈哈哈，笑死我靠！你们这些你们身上的愚蠢和无知就是我的e n e m y啊。T h e m o m e n t t h e u h a p a t h e t i c i n d i f f e r e n c e o f a f e m a l e呃这个时候，他就举了两个例子啊，一个例子是这个例子，就是一个东西正好指向它的反面的时候，索引向它的反面的时候。A p a t h e t i c是什么意思啊？啊，冷漠的无动于衷，就是说一个这蛇蝎美女啊，这蛇蝎美女致命致命诱惑的那种蛇蝎美女，她那种无动于衷的那种冷漠啊。indexindex这翻译成什么比较好指数指数吧或者是索引翻译成索引比较好索引啊索引啊它对立面那个索引The moment the political leader's hatredof the enemies is perceived by his subject as a rare form ofappearance of his unlimited love for the people理解吗啊这不不说了啊这个就是说比如说一个政治领袖的对于敌人的恨他会被他的啊他的那些臣民理解成对于那个他的那个他的人民的无限的爱的一个表达他越是一个政治领袖越是表现恨他的敌人越表表现他爱他的人民我觉得我没有什么好恨的我对这代货你们离我远点我从来不恨他们没什么好恨的所以我不是一个political leaderI'm just I'm nobody我我也无意成为一个蛇皮politicalleader啊在这个意识形态意义上的political leader没有任何意义我会直接表达我对于my people的hatred如果我有所谓的我的people我靠哈哈哈哈哈哈笑死我靠你们这些你们身上
+
+整理稿：它对立面的那个 index——index 翻译成什么比较好？指数，还是索引？翻译成索引比较好。这里说的是：The moment the political leader's hatred of the enemies is perceived by his subjects as a rare form of appearance of his unlimited love for the people\. 一个政治领袖对敌人的恨，会被他的臣民理解成他对人民无限的爱的一种罕见表现形式。他越是一个政治领袖，越是表现恨他的敌人，就越表现他爱他的人民。我觉得我没有什么好恨的；我对这帮货——你们离我远点——我从来不恨他们，没什么好恨的。所以我不是一个 political leader，I'm just I'm nobody。我也无意成为一个蛇皮 political leader；在这个意识形态意义上的 political leader 没有任何意义。我会直接表达我对于 my people 的 hatred。如果我有所谓的我的 people，我靠，笑死，你们身上的愚蠢和无知就是我的 enemy。
+
+- 疑点：“这代货”疑为“这帮货”的口误，正文按“这帮货”整理。；候选：这帮货；依据：t2214:s358, t3386:s974
+
+## 段落 57：00:44:27 — 00:45:33
+
+来源：`t2214:s362`, `t2214:s363`, `t2214:s364`, `t2214:s365`, `t2214:s366`, `t2214:s367`, `t2214:s368`, `t2214:s369`, `t2214:s370`, `t2214:s371`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2667)
+
+原文：的愚蠢和无知就是我的enemy啊The moment the uh apathetic indifference of afemale呃这个时候他就举了两个例子啊一个例子是这个例子就是一个东西正好指向它的反面的时候索引向它的反面的时候Apathetic是什么意思啊啊冷漠的无动于衷就是说一个这蛇蝎美女啊这蛇蝎美女致命致命诱惑的那种蛇蝎美女她那种无动于衷的那种冷漠啊它被它的男性的那个崇拜者会感受成是什么？它的内在激情的一个token啊，一个那个一个代币啊，就是一个一个伪装啊，一个象征，一个记号啊，等等等，就是你进入，你你进入，你已经进入象征秩序了，你已经进入符号学秩序了，符号秩序了。For the very samereason，出于同样的原因，failure is for Lacan's pure signifier。所以出于同样的原因，failure就对于拉康来说就是纯粹的能指啊。
+
+整理稿：The moment the apathetic indifference of a female\.\.\. 这时他举了两个例子，都是这样一个东西正好指向它的反面、索引向它的反面的时候。Apathetic 是什么意思？冷漠、无动于衷。就是说，一个蛇蝎美女，那种致命诱惑的蛇蝎美女，她那种无动于衷的冷漠，会被她的男性崇拜者感受成什么？感受成她内在激情的一个 token、一个代币，一个伪装、一个象征、一个记号，等等。这时你已经进入象征秩序、符号学秩序、符号秩序了。For the very same reason，出于同样的原因，failure 对拉康来说就是纯粹的能指。
+
+- 疑点：英文引文“The moment the apathetic indifference of a female\.\.\.”在字幕中未完整结束，正文按上下文只保留可确定部分。；候选：；依据：t2214:s362, t3386:s987
+
+## 段落 58：00:45:34 — 00:46:09
+
+来源：`t2214:s372`, `t2214:s373`, `t2214:s374`, `t2214:s375`, `t2214:s376`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2734)
+
+原文：这个能指具有本体论地位的，我在求求你们了，你们小孩千万不要语言学、语文学、语法学那屌东西理解什么能指。我们在通通在讲的本体论啊，前本体论。It stands for its ownopposite，它代表它自己的对立面啊。Signifier就代表它自己对立面，failure啊failure就代表不可能性啊，它没有东西可指。That is，it functions as a signifier of castration。那它就它它它它的功能就是代表这个符号学阉割的一个能指啊，符号学阉割的一个能指。呃，the transition from the real to the
+
+整理稿：这个能指具有本体论地位。我在求求你们了，你们小孩千万不要用语言学、语文学、语法学那屌东西来理解什么能指。我们通通在讲本体论，前本体论。It stands for its own opposite，它代表它自己的对立面。Signifier 就代表它自己的对立面；failure 代表不可能性，它没有东西可指。That is, it functions as a signifier of castration——它的功能就是代表符号学阉割的一个能指。
+
+## 段落 59：00:46:09 — 00:46:59
+
+来源：`t2214:s377`, `t2214:s378`, `t2214:s379`, `t2214:s380`, `t2214:s381`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2769)
+
+原文：symbolic，从从实在走向象征或走向符号的这么一个这么一个转变转化呢，也就从这个前符号性的张力的那个位面啊，of contraction andexpansion，就是就是晚期谢林那以上那种收缩和扩张的前符号的前本体论的那个位面，走向一个啊符号性的一个秩序，在其中呢啊能指的网络或者能指链条呢就啊相互关联起来，和这个和这个意义的这个场意义场相互关联起来，这么一种转变啊，这一种从一个就比较原初的前本体论到本体论的前符号学到本体到符号学的，can take place only by means of aparadoxical pure signifier。
+
+整理稿：The transition from the real to the symbolic，从实在走向象征、走向符号的转变，也就是从前符号性的张力那个位面——of contraction and expansion，晚期谢林意义上的收缩和扩张的前符号、前本体论位面——走向一个符号性秩序；在其中，能指的网络或能指链条相互关联起来，和意义的场域相互关联起来。这样一种从比较原初的前本体论到本体论、从前符号学到符号学的转变，can take place only by means of a paradoxical pure signifier。
+
+## 段落 60：00:47:00 — 00:48:18
+
+来源：`t2214:s382`, `t2214:s383`, `t2214:s384`, `t2214:s385`, `t2214:s386`, `t2214:s387`, `t2214:s388`, `t2214:s389`, `t2214:s390`, `t2214:s391`, `t2214:s392`, `t2214:s393`, `t2214:s394`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2820)
+
+原文：它能发生怎么发生呢？只能通过符号学阉割来发生。那符号学阉割靠什么来发生？靠一个能指，纯粹能指。这个纯粹能指就是就是前面说的那个w o r d，w o r d啊w o r d，它是一个伪装成它的对立面的，伪装成扩张的一个收缩，它必须要通过一个能指啊，纯粹能指，a s i g n i f i e r w i t h o u t s i g n i f i e r，它是一个没有所指的能指啊，它它指称就是它指的东西就是我这个能指，没东西可指，不指称任何东西。I n o r d e r f o r t h e f i e l d o f m e a n i n g t o e m e r g e，为了让意义的这个场域啊要涌现出来，t h a t i s，i n o r d e r f o r t h e s e r i e s o f s i g n i f i e r s t o s i g n i f y s o m e t h i n g，为了让一系列的能指能够去指称某个东西，去有一个确定的意义，必须有一个能指某个东西a s o m e t h i n g t h a t s t a n d s f o r n o t h i n g，它代表什么都不是，理解吗？它要它自己要代表s t a n d s f o r n o t h i n g，它要指称n o t h i n g，它就就说我这个f a i l u r e这个s i g n i f i e r o n l y s i g n i f i e s m y s e l f。wordw o r d啊word它是一个伪装成它的对立面的伪装成扩张的一个收缩它必须要通过一个能指啊纯粹能指a signifierwithout signifier它是一个没有所指的能指啊它它指称就是它指的东西就是我这个能指没东西可指不指称任何东西Inorder for the field of meaning to emerge为了让意义的这个场域啊要涌现出来thatis in order for the series of signifiers to signify something为了让一系列的能指能够去指称某个东西去有一个确定的意义必须有一个能指某个东西a something that standsfor nothing它代表什么都不是理解吗它要它自己要代表stands for nothing它要指称nothing它就就说我这个failure这个signifier only signifies myself And nothing else\.And myself is nothing\.我自己，I am just a signifier\.我只是一个能指，我是一个指称者，我只指称我自己，我他妈只指称我自己，就是我自己什么都不是，我除了是个能指，我啥都不是，了解吗？
+
+整理稿：它能发生，怎么发生呢？只能通过符号学阉割来发生。那符号学阉割靠什么发生？靠一个能指，纯粹能指。这个纯粹能指就是前面说的那个 word。它是一个伪装成自己对立面的东西，是伪装成扩张的一个收缩。它必须通过一个能指，纯粹能指，a signifier without a signified，一个没有所指的能指；它指称的就是它自己这个能指，没东西可指，不指称任何东西。In order for the field of meaning to emerge，为了让意义的场域涌现出来；that is, in order for the series of signifiers to signify something，为了让一系列能指能够指称某个东西、有一个确定的意义，必须有一个能指，a something that stands for nothing，它代表什么都不是。它自己要 stands for nothing，要指称 nothing。它就是：我这个 failure，这个 signifier only signifies myself, and nothing else\. And myself is nothing\. 我自己，I am just a signifier。我只是一个能指，一个指称者，只指称我自己；我自己什么都不是。我除了是个能指，啥都不是。
+
+- 疑点：原字幕作“a signifier without signifier”，但随即解释为“没有所指的能指”，正文按术语写作“a signifier without a signified”。；候选：a signifier without a signified；依据：t2214:s386, t3386:s1045
+
+## 段落 61：00:48:19 — 00:49:08
+
+来源：`t2214:s395`, `t2214:s396`, `t2214:s397`, `t2214:s398`, `t2214:s399`, `t2214:s400`, `t2214:s401`, `t2214:s402`, `t2214:s403`, `t2214:s404`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2899)
+
+原文：这个时候他就制造起了一个一个就一个扩张性的一个收缩，你懂吧？就代表这个nothing啊，代表a signifyingelement，它是一个指称性的一个要素，它的在场就代表了一个意义的缺失啊，它就代表意义缺失，代表没有任何意义。Orrather，那这样一来就好了呀，就这个能指它代表没有任何，那么其他默认的其他人指都是有意义的了。Or rather forabsence啊，它就代表这个这个啊这个这个词就代表那个不在场啊，我们翻译一下，就代表最简单的不在场，代表forabsence这个词的意思，我靠，选择工具这个词的意思就是，呃这是法语啊，好烦呀。
+
+整理稿：这个时候，它就制造起了一个扩张性的收缩。它代表这个 nothing，代表 a signifying element，一个指称性的要素；它的在场就代表意义的缺失，代表没有任何意义。Or rather，这样一来就好了：这个能指代表没有任何意义，那么其他能指就都是有意义的了。Or rather for absence，它代表这个 absence，代表那个不在场。我们翻译一下：它就代表最简单的不在场，代表 for absence 这个词的意思。这是法语啊，好烦。
+
+- 疑点：原字幕“选择工具”与上下文不符，疑为对“for absence”的误识别；正文未保留该词。；候选：for absence；依据：t2214:s404, t3386:s1086, t3386:s1087
+
+## 段落 62：00:49:14 — 00:50:15
+
+来源：`t2214:s405`, `t2214:s406`, `t2214:s407`, `t2214:s408`, `t2214:s409`, `t2214:s410`, `t2214:s411`, `t2214:s412`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=2954)
+
+原文：哦，是allshort的意思啊，应该翻译成all s h o r t，a l l s h o r t，i n s h o r t，a l l就是最简单的啊，a l l s h o r t，t h i s n o t h i n g这么一个，o f c o u r s e i s a s u b j e c t i t i t s e l f，这个就是主体性本身啊，t h i s n o t h i n g这个无就是主体性本身，t h e s u b j e c t c o r e就是呃就是s b a r r e d，就是划了一，就是这个也是美元的符号了，就是s上面加一竖了，把这个s给它划掉，就是它是一个不是能指的能指，没有实现能指功能的能指，不指称任何东西的能指，它指称就是虚无，它代表不在场，最简单的不在场。那么这这是一个拉康的一个数学型啊，它指称的就是主体是呃所有内容都被去掉的一个主体啊，或者说所有内容都被去掉的一个主词，这这里也可以说是一个主词啊，一样的，因为它就是个原初能指，纯粹能指。T h e e m p t y s e t是一个空的集，t h e v o i d t h a t是一个空虚t h a t e m e r g e a s a r e s u l t o f t h e c o n t r a c t i o n i n t h e f o r m o f e x p a n s i o n，它是呃在作为以扩张为形式进行收缩的，也就是w o r d词进行收缩的大写W，它的一个结果啊，它的结果啊，它的结果啊，它的结果就是一个虚空涌现出来，这个虚空就是一个空的集，就是主体本身主体性。W h e n I c o n t r a c t m y s e l f o u t s i d e m y s e l f，当我把自己就主体性必须要有个符号学的一个分裂，符号性的分裂，就你得有个名字你才有主体性啊，你得有个名字才有主体性，你懂吗？你你通过说一个词儿把这个搂到外面去。shortall shortin shortall就是最简单的啊all shortthisnothing这么一个of course is a subject it itself这个就是主体性本身啊this nothing这个无就是主体性本身the subject core就是呃就是s barred就是划了一就是这个也是美元的符号了就是s上面加一竖了把这个s给它划掉就是它是一个不是能指的能指没有实现能指功能的能指不指称任何东西的能指它指称就是虚无它代表不在场最简单的不在场那么这这是一个拉康的一个数学型啊它指称的就是主体是呃所有内容都被去掉的一个主体啊或者说所有内容都被去掉的一个主词这这里也可以说是一个主词啊一样的因为它就是个原初能指纯粹能指The empty set是一个空的集the void
+
+整理稿：哦，是 all short 的意思，应该翻译成 all short、in short，就是最简单的。all short, this nothing——这个无就是主体性本身，of course is a subject itself。The subject core 就是 S barred，也就是在 S 上加一竖、把 S 划掉，它是一个不是能指的能指，没有实现能指功能的能指，不指称任何东西的能指；它指称的就是虚无，代表不在场，最简单的不在场。这是拉康的一个数学型，它指称的是所有内容都被去掉的主体，或者所有内容都被去掉的主词；这里也可以说是主词，因为它就是原初能指、纯粹能指。The empty set 是一个空的集。
+
+- 疑点：“all short”疑为“in short”或相应法语表达的口语转写，正文保留原英文并附 in short。；候选：in short；依据：t2214:s406, t3386:s1090, t3386:s1091
+
+## 段落 63：00:50:15 — 00:51:15
+
+来源：`t2214:s413`, `t2214:s414`, `t2214:s415`, `t2214:s416`, `t2214:s417`, `t2214:s418`, `t2214:s419`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=3015)
+
+原文：that是一个空虚that emerge as a result of the contraction in the formof expansion它是呃在作为以扩张为形式进行收缩的也就是word词进行收缩的大写W它的一个结果啊它的结果啊它的结果啊它的结果就是一个虚空涌现出来这个虚空就是一个空的集就是主体本身主体性When I contract myself outsidemyself当我把自己就主体性必须要有个符号学的一个分裂符号性的分裂就你得有个名字你才有主体性啊你得有个名字才有主体性你懂吗你你通过说一个词儿把这个搂到外面去你才有主体性。I deprive myself of my substantialcontent，就是说，当我把我自己在收缩为外在我自己的时候，我清空了我所有的实体性的内容啊。
+
+整理稿：The void that emerges as a result of the contraction in the form of expansion——这个虚空是作为以扩张为形式进行收缩的结果而涌现出来的，也就是 word、词进行收缩的大写 W 的结果。它的结果就是一个虚空涌现出来；这个虚空就是一个空的集，就是主体本身、主体性。When I contract myself outside myself，当我把自己收缩到我自己之外——主体性必须有一个符号学上的分裂、符号性的分裂；你得有个名字才有主体性。你通过说一个词，把这个“我”抛到外面去，你才有主体性。I deprive myself of my substantial content，就是说，当我把自己收缩为外在于我自己的时候，我清空了我所有实体性的内容。
+
+## 段落 64：00:51:15 — 00:52:16
+
+来源：`t2214:s420`, `t2214:s421`, `t2214:s422`, `t2214:s423`, `t2214:s424`, `t2214:s425`, `t2214:s426`, `t2214:s427`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=3075)
+
+原文：当我把自己就很简单，我就是我喽。这怎么做这个？我就是我。实际上就是你把你自己收到一个外面的东西，收到我这个声音上面去了呀。这个声音，这个妈单纯无聊的符号上面，里面没有任何内容了，只有说我就是我，我，我就是我，我就是我。这个时候，你的整个实体性的生生存的这些内容，这些意义，变成最小的一片，一个能指，一个声音，一个一个荒谬的一个符号，一个偶然的一个符号了。你其他所有的这个什么，你有一双手，你有一个头，有两个鼻孔，有你有多少钱，你有几几年的生存史，你有什么几什么有什么有什么有个玩具，有个电脑，什么这些东西都他妈没了，就我就是我，I myself。这个时候只有有主体，你知道吗？主体就是清空运动，主体就是通过一个主人能指，通过这个Phileus啊，就通过Phileus纯粹能指，它能够清空它自己。
+
+整理稿：当我把自己……很简单，我就是我。实际上就是你把你自己收到一个外面的东西上，收到我这个声音上面去了。这个声音，这个单纯无聊的符号上面，里面没有任何内容，只有“我就是我”。这个时候，你整个实体性生存的内容、这些意义，变成最小的一片，一个能指、一个声音、一个荒谬的符号、一个偶然的符号。你其他所有的东西——你有一双手、有一个头、有两个鼻孔、有多少钱、有几年生存史、有什么玩具、有个电脑——这些东西都他妈没了，就剩下“我就是我”，I myself。这个时候才有主体。主体就是清空运动，主体就是通过一个主人能指，通过这个菲勒斯、这个纯粹能指，能够清空它自己。
+
+- 疑点：原字幕“Phileus”疑为 Phallus/菲勒斯，正文按参考字幕作“菲勒斯”。；候选：菲勒斯；依据：t2214:s427, t3386:s1165, t3386:s1166
+
+## 段落 65：00:52:16 — 00:52:57
+
+来源：`t2214:s428`, `t2214:s429`, `t2214:s430`, `t2214:s431`, `t2214:s432`, `t2214:s433`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=3136)
+
+原文：这主体性，主体性就是能够撤到这个东西上面去，那个以扩张的方式收缩啊，以扩张甩到甩到一个符号学剩余，甩到一个符号性那个剩余，就是一个无意义的一个能指，没有任何意义的一个能指，甩到上面去。主体就是这个东西。The formation of the word is just the exact point of the promotive construction objection by means of which,according toSchleins这个，哎呀，这个烦死了。斯图加特研讨会啊，斯图加特研讨会from the same time。那么，哎，我把这段讲完了，我就歇息了啊。
+
+整理稿：主体性就是能够撤到这个东西上面去：以扩张的方式收缩，甩到一个符号学剩余、一个符号性剩余上去，也就是甩到一个无意义的、没有任何意义的能指上面去。主体就是这个东西。The formation of the word is just the exact point of the promotive construction objection, by means of which, according to Schelling\.\.\. 这是同一时期斯图加特研讨会的内容。那么，我把这段讲完就歇息了。
+
+- 疑点：英文引文中“promotive construction objection”疑为口误或 ASR 误识，未能确认其确切术语；正文保留原英文。；候选：primordial construction/opposition；依据：t2214:s430, t3386:s1175, t3386:s1176, t3386:s1177
+
+## 段落 66：00:52:58 — 00:54:02
+
+来源：`t2214:s434`, `t2214:s435`, `t2214:s436`, `t2214:s437`, `t2214:s438`, `t2214:s439`, `t2214:s440`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=3178)
+
+原文：词的表述啊，就恰恰是词的形成啊，词就W啊，大写的这个词啊，就是原初的，就是那个神圣那个词，就是符号符号秩序它的形成，恰恰它就是恰恰就是对立面。Exactopposite就是那个原初收缩和这个objection驱逐啊，收缩和驱逐啊的一个对立面，是它的对立面啊，它是甩出，收缩驱逐是要隐匿起来。通过这种原初收缩和驱逐呢，呃，根据谢林的斯图加特这个研讨班呢，呃，在同一时期的，呃，这个God expels,discharges,casts out,rejects out of himself。这个绝对者呢，他把自己驱逐出去，就绝对者就是最后之神跑了嘛，就这个简单很理很好理解，这个就是他妈从本有而来里面那个最后之神和主体擦肩而过，就是这段话。Very,is it you understand?对不对？
+
+整理稿：词的表述恰恰就是词的形成；词就是 W，大写的词，就是原初的、神圣的词，就是符号秩序的形成。而它的形成恰恰就是对立面，exact opposite，就是那个原初收缩与 objection 的对立面。收缩和驱逐是要隐匿起来的，而它是甩出。通过这种原初收缩和驱逐，根据谢林同一时期在斯图加特研讨班所讲的：God expels, discharges, casts out, rejects out of himself。这个绝对者把自己驱逐出去——绝对者就是最后之神，他跑了。这很简单，很好理解。这就是《从本有而来》里面那个最后之神与主体擦肩而过，就是这段话。你们明白吗？对不对？
+
+- 疑点：“objection”疑为原初收缩/驱逐相关术语的误读或口误，正文保留原词。；候选：；依据：t2214:s436, t3386:s1191
+
+## 段落 67：00:54:02 — 00:55:07
+
+来源：`t2214:s441`, `t2214:s442`, `t2214:s443`, `t2214:s444`, `t2214:s445`, `t2214:s446`, `t2214:s447`, `t2214:s448`, `t2214:s449`, `t2214:s450`, `t2214:s451`, `t2214:s452`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=3242)
+
+原文：请你们去看海德格尔的那个《从本有而来：哲学论稿》里面《最后之神》里面讲的那个《最后之神》跟你擦肩而过啊，就是它是对立面啊，词被甩出去，主体现现世了。这同一个过程，上帝或者这个神呢，他把自己驱逐了，把自己把自己expels，把自己驱逐了，把自己discharges，把自己解雇了或者怎么样cast out驱逐出去，rejects out ofhimself，把自己从自己当中弄走了，his realside，啊，把他的那个真正的那现实的那一面，就是说把他原质的那一面，把他那个驱力的那个漩涡给驱逐掉了，给驱逐掉了。And thus constitutes himself in hisideality，因此他反过来把自己建构成，在他的观念性当中建构起来了，as a freesubject，把自己建构成一个自由的主体的主体往前走了。那个绝对者把他的那些原质的那个驱力性那些东西给他驱逐掉了，驱逐掉了。
+
+整理稿：请你们去看海德格尔的《从本有而来：哲学论稿》，看里面《最后之神》讲的那个最后之神：他跟你擦肩而过。它就是对立面：词被甩出去，主体就现世了。这同一个过程是，上帝或这个神把自己驱逐了，把自己 expels，把自己 discharges——把自己解雇了，或者 cast out，驱逐出去，rejects out of himself，把自己从自己当中弄走，his real side。也就是把他真正现实的那一面、把原质的那一面、把他那个驱力的漩涡给驱逐掉了。And thus constitutes himself in his ideality：他反过来把自己建构起来，在他的观念性当中建构起来，as a free subject，把自己建构为一个自由的主体；主体往前走了。那个绝对者把他的那些原质性的、驱力性的东西都驱逐掉了。
+
+## 段落 68：00:55:07 — 00:56:12
+
+来源：`t2214:s453`, `t2214:s454`, `t2214:s455`, `t2214:s456`, `t2214:s457`, `t2214:s458`, `t2214:s459`, `t2214:s460`, `t2214:s461`, `t2214:s462`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=3307)
+
+原文：主体作为词往前走了，原质的驱力性的东西被甩到后面去了。The promordial rejection is an act of supremeegotism，啊，那么原初的这种句式呢，因此啊是一个什么？是一个至高的自我主义的一个行动啊，至高的自我主义的一个行动啊。Since，因为在其中，God as it were gets rid of the shit inhimself，就是说，就是绝对者把他肚子里那些屎给他驱逐掉了。你看这么简单的这么理解。God as it were gets rid of the shit inhimself，把那些驱力啊、混乱的或者那种驱力的循环那些活动给他驱逐掉了，把它缝合、压抑掉了。哎呀。Inorder，他为目的呢是为了纯化，并且keep for himself the preciousspiritual，然后为自己保留那个宝贵的精神性的本质啊，它的精神性的它的存在的本质。Whereas in the formation of the
+
+整理稿：主体作为词往前走了，原质性的、驱力性的东西被甩到后面去了。The primordial rejection is an act of supreme egotism：原初的拒绝因此是至高的自我主义行动。Since God as it were gets rid of the shit in himself：也就是说，绝对者把自己肚子里那些屎驱逐掉了。你们看，这么理解很简单。God as it were gets rid of the shit in himself，把那些驱力、混乱的或驱力循环的那些活动都驱逐掉，把它们缝合、压抑掉了。In order——他的目的是为了纯化，并且 keep for himself the precious spiritual，为自己保留那个宝贵的精神性本质，即他精神性的、存在性的本质。
+
+- 疑点：“原初的这种句式”疑为“原初的拒绝”（rejection）的 ASR 误识，正文按 rejection 整理。；候选：原初的拒绝；依据：t2214:s454, t3386:s1231
+
+## 段落 69：00:56:12 — 00:57:11
+
+来源：`t2214:s463`, `t2214:s464`, `t2214:s465`, `t2214:s466`, `t2214:s467`, `t2214:s468`, `t2214:s469`, `t2214:s470`, `t2214:s471`, `t2214:s472`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=3372)
+
+原文：world，就是在这里就是就是形成了这个词，真正的词的这个维度。He articulates outsidehimself，他在他自己之外说清楚了那种。That is，hediscloses，啊，surrenders this very ideal spiritual essence of hisbeing，他discloses，他敞开了，派生出来了。当然这surrenders屈屈从于啊，你这里可以加了一个sir，也就是说他派生出来的，他生成出来的，他敞开了也自己也屈从于这么一个啊观念性的、精神性的它的存在的一个本质。就是可以说他是，你可以说他是把自己的shit，把自己的get my shit offmyself，他也可以说就是实际上他是献身于他自己，献身于一个比他更更好的一个更更了不起的一个一个一一种。存在论样态的，就是主体化的一种存在论样态的。In this precise precise
+
+整理稿：在世界的形成中——也就是在这里形成了词、真正的词的维度——He articulates outside himself，他在自己之外说清楚；That is, he discloses, surrenders this very ideal spiritual essence of his being，他敞开、派生出来了。当然，surrender 也有屈从于的意思；也就是说，他派生出来、生成出来、敞开出来，同时自己也屈从于一个观念性的、精神性的存在本质。可以说，他是把自己的 shit、把自己的 get my shit off myself；也可以说，他实际上是献身于他自己，献身于一个比他更好、更了不起的存在论样态，即主体化的一种存在论样态。
+
+- 疑点：“sir”疑为口误或术语残片，语义不明，未纳入正文。；候选：；依据：t2214:s468, t2214:s469, t3386:s1258, t3386:s1259
+
+## 段落 70：00:57:11 — 00:58:16
+
+来源：`t2214:s473`, `t2214:s474`, `t2214:s475`, `t2214:s476`, `t2214:s477`, `t2214:s478`, `t2214:s479`, `t2214:s480`, `t2214:s481`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=3431)
+
+原文：sense，在那么恰恰在这个意义上讲，the formation of the world is a supreme act and theparadigmaticparadigmatic case of creation。所以说，呃词啊符号性的这个位面的这么一个形成，它就是一个至高的一个行动，并且是一个啊范式性的一个the就是主导性的范式性的paradigmaticparadigmatic范式性的啊范式性的啊一个这个造物的这么一个一个情形啊，它是就最重要的。Creation means that I reveal hand over to the other the innermost essence of my being。创造意味着我揭露了，然后把我的最内在的我的存在最内在的本质交予他者，这叫创造。把我最内在我最精华的最精神性神圣的最精神性的理念性的那一面，我的主体性给到他者手上去，这是至高的创造，就是就是这才叫创造啊。
+
+整理稿：在这个意义上讲，the formation of the world is a supreme act and the paradigmatic case of creation。所以说，词、符号性位面的形成，就是一个至高的行动，并且是一个范式性的、即主导性的 paradigmatic 造物情形，它是最重要的。Creation means that I reveal, hand over to the other the innermost essence of my being：创造意味着我揭露，并把我最内在的、我的存在最内在的本质交予他者，这才叫创造。把我最内在、最精华、最精神性、最神圣、最理念性的那一面，把我的主体性交到他者手上，这是至高的创造；这才叫创造。
+
+- 疑点：英文引文作“the formation of the world”，而上下文讲词/符号性位面的形成；正文保留原英文并据上下文译述。；候选：the formation of the word；依据：t2214:s473, t3386:s1270
+
+## 段落 71：00:58:20 — 00:59:28
+
+来源：`t2214:s482`, `t2214:s483`, `t2214:s484`, `t2214:s485`, `t2214:s486`, `t2214:s487`, `t2214:s488`, `t2214:s489`；[回看](https://www.bilibili.com/video/BV1jQ4y1f7rr/?p=11&t=3500)
+
+原文：生而不有啊，长而不恃啊，你要理解，这这至高的创造，交给交交付给他者，交付给我们，还没懂吗？交付给你，你的主体性拿来的，小朋友，绝对者给你的啊，最后之神，他妈撤了，他不是要给你你他妈走上去了，你的主体性不往前走一步吗？给你小朋友，你不就这么一个虚空吗？他他他他把自己的屎给他憋憋憋出去，压压压抑起来，原初压抑起来，把他自己的那个符号学区里给原初压抑起来。所以我就要说啊主体性和这个否定性啊是天地之至贵也，是天地之至贵也，最贵的啊，你的主体性是是最贵的啊，是最宝贵的，是绝对者他把自己最最宝贵最了不起的内在本质，精神性的啊理念性的关联性的本质，交给交托给他者，你就是个他者嘛，你是不是蛇皮他者嘛？啊你们真是废物，我靠，我醉了，我靠，好了好了好了，就讲到这里，讲到这里，我他妈累死了。
+
+整理稿：生而不有，长而不恃。你要理解，这就是至高的创造：把它交付给他者，交付给我们，还没懂吗？交付给你——你的主体性是从哪儿来的，小朋友？是绝对者给你的。最后之神撤了，他不是要给你吗？你走上去了，你的主体性不往前走一步吗？给你，小朋友，你不就这么一个虚空吗？绝对者把自己的屎憋出去、压抑起来，原初压抑起来，把自己的符号学剩余原初压抑起来。所以我要说，主体性和否定性是天地之至贵也，是最贵的，是最宝贵的。绝对者把自己最宝贵、最了不起的内在本质——精神性的、理念性的、关联性的本质——交给、交托给他者；你就是个他者，你这不是蛇皮他者吗？你们真是废物，我真是服了。好了，就讲到这里，我累死了。
+
+- 疑点：“蛇皮他者”疑为 ASR 误识，语义不确定，正文保留原词。；候选：；依据：t2214:s488, t3386:s1319
+- 疑点：“最后之神，他妈撤了，他不是要给你你他妈走上去了”断句与指代不确定，正文按“最后之神撤了，他不是要给你吗？你走上去了”整理。；候选：；依据：t2214:s484, t3386:s1300
+
+## 未匹配的参考字幕
+
+- `t3386:s1089`

@@ -1,0 +1,131 @@
+存有论的第二部分是说：如果你对讨论一个抽象的开端不感兴趣，或者没有这个耐心，那一个人就应该说：开端不应从开端开始，而应直接从事实本身开始（the beginning is not to be made with the beginning, but directly with the fact itself）。那么，这个主题不是别的，就是那个空的存在（empty being）。
+
+在黑格尔看来，这个作为事实的开端依然是一个空淡的、empty 的存在。但这个主题恰恰应当是科学进程的结果（what this subject matter is, is precisely what ought to result in the course of science）。因为主题是什么？它恰恰应当是在逻辑学的研究过程中才确定下来的。什么叫事实？你不能预先知道，不能提前知道什么叫事实。你说这个开端要从事实开始，要从第一事实开始，那你告诉我什么叫事实？我们首先只能讨论纯粹开端本身。
+
+如果以任何其他形式、努力不以空的存在为开端，这种开端仍然会遭受同样的缺陷（should still suffer from the same defects）。关于任何其他形式：如果努力不以空淡的存在、而以某种开端来开始哲学、逻辑学或本体论的探索，那么这种开端还是会遭受同样的缺陷，仍然只是一个空淡的存在。让那些还不满于我所说的这个纯粹开端、不满于这条开始逻辑学的路径的人，自己去尝试吧；让他们自己承担风险，以某种其他方式开始。也就是说，让他们自己去肩负起这一挑战（take upon themselves the challenge），以其他方式开始哲学、逻辑学、本体论的讨论，并让他们自己去努力避免这些缺陷、弊病和不利之处。懂这个意思就行了。
+
+但是，我们不能完全不提一个对哲学来说更原初的开端（we cannot leave entirely unmentioned a more original beginning to philosophy），它最近变得臭名昭著（which has recently gained notoriety）。这就是费希特的“我”（I）：费希特把这个“我”当作开端，当作哲学的起点。它来源于两点：一是反思——凡从第一真理推出的一切，都必须由它演绎出来；二是需求——第一真理应当是我们已经熟悉的东西，甚至不只是熟悉，而是我们能够直接确定的东西。
+
+为什么把“我”当作开端呢？这要从两方面看：一方面是从反思来的，要以这个“我”（I）作为它的开端；另一方面是从一种需求来的。
+
+先分别说明：这种反思是从哪里来的？这种反思认为，凡从第一真理推出的一切，都必须由它演绎出来（all that follows from the first truth must be deduced from it）。也就是说，从第一真理中得到的一切，都必须从第一真理中演绎出来。这是第一个反思，也是第一个原因：必须以“我”作为起点。这个反思认为，肯定要有一个第一原理，然后所有其他知识都要从第一真理中演绎出来。这是第一点。
+
+第二点是需求：第一真理应当是我们已经熟悉的东西，甚至不只是熟悉，而是可以直接对它加以确证的东西。胡塞尔其实也是这个腔调，他的先验我思也是这么一个东西。胡塞尔和费希特真是一对活宝。我跟你讲，它是某种直接的确证。所以，从这两点看：第一，所有知识都得从第一真理演绎出来；第二，第一真理必须是我们早就熟悉的东西，甚至不只是熟悉，而是可以立即确证、不加中介地确证的东西（immediately certain），直接就是第一人称的明证性，直接就是自我把握。那这个不就是“我”吗？“我”存在，甚至把这个东西看作哲学的起点。
+
+这个被提倡的开端（this proposed beginning）——被费希特、胡塞尔这类人所提倡的开端——就其所是（as such）并不是一个偶然的表征，也不是对某个主体是一回事、对另一个主体是另一回事的东西，因为所有人的“我”都是同一个“我”，都是第一人称的明证性；或者说，这个视角锁定在“我”上面（for the I）。因为这个“我”是一种无中介的意识、自身意识，the self。每一个人的意识、每一个人的主体都可以说是一个 self，前面加冠词就是 the self。the self 从一开始就显现为既是它本身，又是直接的东西（to be both itself and immediate something），并且是我们在更深意义上熟悉的东西，比任何其他表征都熟悉。也就是说，我们对于自我这个表征，相比于其他所有表征都熟识得多。原因有两个：一方面它是无中介的东西；另一方面，相比其他所有表征，我们对它熟悉得多，非常亲切，觉得它可靠。不用说了，自我意识太直接了。
+
+没错，任何其他被认识的东西都从属于这个“我”（to anything else known belongs to this I），但它是作为内容从属于“我”的，而这个内容仍然与“我”区别，因此是偶然的（it belongs to it as content which remains distinct from it and is therefore accidental）。这里的“它”指的就是这个“我”：事物从属于这个直接的自身意识（immediate consciousness of the self），但只是作为内容从属于它；那些事物本身仍不同于它（which remains distinct from it），并因此是偶然的。这个“我”（I）则被看作必然的形式，而其他内容从属于这个“我”、从属于自我意识框架，被视为不同于它的东西。反过来，这个“我”只是自身简单的确定性（the I by contrast is a simple certainty of itself），是自身的一个简单明证性（of itself）。所谓“自身”（the self）就是本质观的一种反思：它像连续统一样，不停地能够看回来，这就是自身。学过谢林就会知道“自身”是什么。
+
+但这个“我”同时又是具体的（the I is as such at the same time also concrete）。一方面，它是自身简单的确定性（certainty），这里就译为确定性；另一方面，这个“我”本身又是具体的东西。黑格尔用的“具体”就是 concrete；他甚至说“我”是所有事物中最具体的（the I is the most concrete of all things），因为它是作为无限多重世界的意识（the consciousness of itself as an infinitely manifold world）。所以这个“我”既具体又丰富。因为你可以把整个视域都看成“我”：一方面，视域本身的稳定性或确定性是这个“我”；另一方面，这一切都是意识，都是我，是一个最丰富的、无限丰富的世界。
+
+在这个“我”能够成为开端、成为哲学的基础和开端之前，这种具体性必须先被演绎出来（before the I can be the beginning\.\.\.）。为什么会有一种 concreteness？这个“我”、这个第一人称视域，为什么里面有这么多丰富的具体性？所以你看，在黑格尔看来，意识是不纯的，它有二重性：一方面有 simple certainty of itself，即自身简单的确定性；另一方面又有丰富性，即视域的丰富性。因此它不能作为开端，不能作为哲学的开端，因为它的规定性太丰富了。它至少有两重，更不用说第二重：manifold world、infinity、concrete。什么叫 concretion？什么叫 all things？什么叫 infinity？什么叫 manifoldness？什么叫 world？这些在哲学上都未加辨明，所以意识不能作为哲学的开端，因为意识是一个复杂的结构。
+
+意识是一个复杂的结构。我读它作“意识”，是吧？德语里面是 Ich，英文里面就是 I。I 是一个复杂的开端。所以，在它能够成为哲学的开端和基础之前，这种具体性必须被演练出来、演绎出来。And this is the absolute act by virtue of which the I purifies itself and makes its entrance into consciousness as abstract I。也就是说，这是一个绝对行动：通过这个绝对行动，自我把自己弄干净了，把自己纯化、净化了，然后为自己制造出一个入口，进入意识之中，作为抽象的我进入意识之中。
+
+这里说的是具体性，concreteness，the consciousness of itself as infinite manifold。哦，这里我说错了。这里作为最具体东西的“我”，不是指意识本身作为一个视域，不是说它是一个轮廓、轮廓里面可以放无限丰富的东西，不是这个意思。这个“我”指的是人的自我认同，而人的自我认同可以无限丰富，as an infinite manifold world。意思就是：我可以是士兵、将军、元帅、智者、魔法师、痞子流氓，可以是男人、女人、动物。也就是说，the consciousness of itself，它对自身的意识是一个无限丰富的世界。这并不是说自我意识里面包含了这一切意识、一切意识要素和内容，黑格尔在这里不是这个意思。
+
+黑格尔的意思，看下面就知道了：要通过一个绝对行动，这个我把自身纯化，然后进入意识，作为抽象的我；但这个抽象的我也可以是非常丰富、具体的东西。这个我就是自我意识，自我意识可以是具体的，it's concrete，具体的意识是一个具体的意识。这里的意思就是自我意识可以是丰富的。比如革命领袖的自我意识就是非常丰富的，他不会觉得他的自我只是一个他妈的 certainty，simple certainty of self，不仅仅是一个确定性、一个简单的确定性；他的意识里面包含了非常丰富的东西。
+
+然后怎么进入呢？要靠一个绝对行动：这个自我把自己纯化，为自己制造出一个入口，进入意识，作为纯粹的自我进入意识，entrance into consciousness。But this pure I is now not immediate\. 但是，这个纯粹的自我在现在还不是直接的，is not the familiar ordinary I of our consciousness to which everyone immediately links science。它还不是大家都熟悉的、一般意义上的那个自我，不是我们的意识意义上那个每个人都会立刻把科学与它联系起来的自我。可是现在这个纯粹自我还不是个东西。Truly, the act of exertion would be none other than the elevation to the standpoint of pure knowledge in which\.\.\. 真的就是说这种 act of excision——我操，excise——就把抽象化变成什么意思？切除，是吧？
+
+这个切割的行动，the act of excision，就是纯化，是自我的纯化，它 purifies itself。它把自己纯化了，才能进入意识，作为抽象的我进入进去；它要把自己纯化进去。这个 excision——应该读作 excision 嘛——就是这种切割的行动，would be none other than the elevation，它其实就是 none other than 那个提升，the elevation to the standpoint of pure knowledge in which。也就是把它提升到纯粹知识的 standpoint、它的立场和标准。在这个标准、这个立场下，the distinction between 主体和客体之间的区分就消失掉了。But as immediately demanded，但是作为一个直接的、被需求的东西，正如这种提升是直接被要求的，is subjective postulate，这种提升是一个主观的假设。Before it proves itself as a valid demand，在它证明自己是一个有效需求之前，the progression of the concrete I from immediate consciousness to pure knowledge must be demonstratively exhibited within the I itself，也就是说，从直接意识到纯粹知识的进展，必须在自我内部明证性地展示出来。
+
+纯粹自我没问题，黑格尔的意思是说，知识学里面用的那个纯粹自我是可以的；但纯粹自我并不是我们通常意义上所说的那个非常具体、丰富的自我。这里的 excised 应该 as concreteness，这里又翻译错了：就是要把具体性消除掉，excise。我他妈的一看，走眼了，没文化啊，是 excised，excise 加一个 e，e\-x\-c\-i\-s\-e；exercise 才是演练。这里应该把它消掉，要把这个具体性给它消除掉。因为这个自我的具体性太丰富了，要把它的具体性消除掉，消除掉变成纯粹自我；纯粹自我是可以做起点的。在黑格尔看来，这个纯粹自我做起点，就相当于前面的绝对知识一样，是一个去主体化的东西，所以在这里面主体和客体的区分就消失掉了。你如果说加以纯化，或者加以这么一个切除的话，这个行动是可以的。但是，由于很多人不知道，绝大部分笨蛋不知道，并且这个提升本身是一个主观的假设，是 subjective postulate，是一个先验知识学、纯粹知识学的主观假设。那怎么办呢？
+
+我们说，before it proves itself as\.\.\. 所以它是对的。黑格尔的意思是说：费希特大师、费希特老哥，他妈的确实对得不得了；谢林也是对的。但是，他们都用的是主观假设。我要在逻辑学里面慢慢给他辩护出来，到那个时候我们就可以正儿八经地说，你精神现象学的起点，或者说你这个主体性的起点，也就是逻辑学的起点。但是，从严格的学术体系建构角度来讲，在我还没辩护成之前，我还不要把这个“我”作为它的起点。Before it proves itself as a valid demand，在它证明自己是一个有效需求、要求之前，这么一个具体的自我从直接意识变成纯粹知识的进展，必须被明证性地展示出来，在自我内部明证性地展示出来，demonstratively exhibited within the I itself through its own necessity，通过它自己的必然性展示出来。
+
+如果没有做到这一点，without this objective movement，如果没有这个客观的运动，纯粹知识——also when defined as intellectual intuition，也就是说也可以被定义成理智直观——appears as an arbitrary standpoint，它就会对普通人、笨人显现成一个非常武断的立场。It is itself one of those empirical states of consciousness for which everything depends on whether someone, though not necessarily somebody else, discovers it within himself or is able to produce it there。它本身会成为某种经验性的状态，经验性意识状态当中的一种；对于这些经验性的意识状态而言，一切东西都依赖于某个人是否在自己身上发现它，或者能否在自己那里把它生产出来——尽管并不必然是其他人。好像这就取决于那个个体、取决于那个运思的人的个人状态。
+
+但是，in as much as this pure I must be essential，鉴于这个纯粹的自我必须是本质性的，是纯粹知识，并且纯粹知识无论如何应当是某个…… is however one which is only posited in individual consciousness through an absolute act of self\-elevation。它无论如何是这么一种知识：它只不过是被设定在个体的意识当中，而且是通过一个绝对的自我提升行动被设定在个体意识当中。它只有通过一个绝对的 self\-elevation、自身提升的绝对行动，才能被设立在个体化的意识当中。它不是像其他经验性的意识那样，莫名其妙地出现在个体意识当中；我这个纯粹知识是通过把个体意识里面的具体性消除掉、把它纯化掉，给它提升到一个纯粹的精神位面、那个层次，然后就变成纯粹知识了。
+
+Is not present in its immediate，它并不是直接在经验性的意识中、在个体化的意识中直接呈现的。We lose the very advantage which was to derive from the beginning of philosophy，我们就失去了从哲学的开端加以演绎的那个优势，我们就失去了它。这个优势 namely 就是：that it is something with which everyone is well acquainted，这个东西是每个人都熟悉的。我们就失去了这个优势，就因为纯粹自我——费希特你说拿纯粹自我作为开端——那说这个东西是我们最熟悉的，这样搞要先纯化，人家都不知道什么叫纯化，熟悉个屁。黑格尔说，我们作为哲学开端，一开始就失去了演绎的便利，那个最重要的方便，就是说我们要对它很熟悉，所有人都可以从它开始。Namely that it is something with which everyone is well acquainted, something which everyone finds within himself and to which he can attach further reflection。这个开端得是每个人都熟悉的东西，得是每个人都能在自己身上发现的东西，得是每个人都能从中获得进一步反思的东西。那么，纯粹自我反过来说，以它的抽象的本质性天性而言，它对于普通意识来说是一个无法知道的东西，is unknown，是未知的某个东西，that the latter does not find within itself；后者，那些笨蛋，他没办法在自己脑子里面获得这个东西。
+
+他无力去进行纯化，脑子比较蠢、比较笨，纯化做不到。What comes with it is rather the\.\.\. 那么随之而来的反而是幻象、是不利条件。We are speaking of something supposedly very familiar，哲学家们正在讨论某种他们认为所有人都应该很熟悉的东西，The I of empirical consciousness，也就是经验意识中的那个我。
+
+普通人讨论费希特的知识学时，实际上讨论的是他们很熟悉的东西，但只是经验意识中的经验的自我意识里的那个“我”，并没有讨论先验纯化了的、纯粹知识学或理智直观意义上的“我”。而真正被讨论的东西，事实上是某个 far removed from that、从经验意识中被消除掉、被驱离得很远的东西。这里会有一个弊端：那些民哲，或者说那些笨蛋、蠢货，以为自己在讨论知识学，或者以为自己在讨论先验观念论，但这样讨论个屁——你根本没有对自己的自我意识进行先验纯化，第一步就错了，相当于拿泡屎去做蛋糕卷，真是做梦。原文接着说：“Determining pure knowledge as I, as a continuing remainder of the subjective I, whose limitation should rather be forgotten\.” 把纯粹知识规定为“我”，作为持续着的主观之我的剩余，而它的界限恰恰应当被遗忘。
+
+这句话是说，分析掉主观自我之后留下的那个“我”起什么作用？相当于你把主观的自我纯化了，于是留下一个 continuing reminder——这里不是“剩余”，而应理解为“提醒者”，它总是让我们想到那个主观的我，也就是经验性的我、经验性自身意识中的那个我、普通人脑子里的那个“傻逼我”。原文说：“As a continuing reminder of the subjective subjectivity, I, whose limitation should rather be forgotten\.” 这个主观自我的界限恰恰应该被忘掉：进入知识学、纯粹知识学时要把它忘掉，进入先验观念论时也要把它忘掉。原文又说：“It leads to the belief that the propositions and relations which result from the further development of the I occur within ordinary consciousness and can be found, provided there indeed that the whole issue is about this consciousness\.” 这会导致一种信念，认为从自我进一步发展出来的那些命题和关系，也发生在普通意识之中，甚至可以在普通意识中被发现、被预先给予。但事实上这是不对的：所有被讨论的东西，其实都是这种经验意识。这就导致俗人把费希特的哲学理解成唯我论。把纯粹知识规定为“我”，即 determining pure knowledge as I，只是给纯粹知识加上一重规定；但“as I”并不意味着“only as I”。这里要弄清楚：纯粹知识的起点是自身意识，是自身意识的纯粹确证性，即 pure certainty of the self\-consciousness as a self。费希特做的就是这件事。Determining pure knowledge as I, firstly as I，首先把它规定为自我；但这样做的后果是总会让人想到一个主观的我。可是这个主观的我的那些规定、限制，恰恰应当被忘掉。
+
+这些限制、对它的描画，其实应该通通被忘掉。你不应该站在主观自我的局限里去把握对它的进一步演绎，也就是对先验自我的演绎。费希特讨论的先验自我，不是主体性的我，不是人的我，而是神的我、神的意识，是原初主体——这玩意儿不能叫“主体”，是神的、原初神体，whatever，是自身的那个意识。费希特不是唯我论，再强调一遍：他不是唯我论，而是观念论；他的观念论讨论的是神的意识。你当然可以说，他声称把自己的第一人称意识说成是神的意识；但他可就这么做了。你不能违背他的本意来批评他，否则就不算内部批评，对不对？他自己都说了：我这个“我”指的不是主体性的我，不是人类有限的我，而是上帝的、无限的自身意识，我只是描述他的自身意识而已。但这会导致一个错误的信念：认为先验自我进一步发展所得到的一些命题和关系，也可以发生在一般意识中，发生在普通人的意识中，甚至本来就已经存在于普通人的意识里。这都是错误的。Indeed，甚至有人认为所有讨论都是关于这个普通意识的。这个错误 far from bringing clarity, produces instead an even more glaring and bewildering confusion：它远没有带来清晰性，反而在公众中造成了更 glaring、更 bewildering 的混乱——glaring 是发强光的、显要的、粗俗的，即更耀眼；bewildering 是让人更迷惑、更狂野的。Among the public at large，在很多笨蛋、很多公众当中——这些公众是什么？是接受知识的人，是小布尔乔亚、布尔乔亚，还有上层贵族——it has occasioned the crudest of misunderstandings，也就是最粗鲁的误解。那就让他们这些蠢货再多蠢几百年吧，我觉得挺好，这是人类之福；傻逼就一直当傻逼，不是挺好吗？因为他们都是既得利益者，他们越蠢，对咱们的事业越有利。真的是这样，你不要以为……
+
+好，这边已经讲过了。再进一步，原文说：“As regards the subjective determinateness of the I in general, pure knowledge does remove from it the restriction that it has when understood as standing in insurmountable opposition to an object\.” 也就是说，考虑到一般意义上的“我”的主观规定性、主观限定，纯粹知识确实去除了它身上的那种限制——当它被理解成与一个对象处在不可克服的对立之中时，它似乎就带上了这种限制。这里 determinateness 可以译成“限定”，也有明确、确定之意；一般人对“我”、对自我总会有一种主观的、主体化的错误理解，仿佛这个“我”有明确的边界、明确的描述、明确的刻画。纯粹知识则把这种 restriction（约束、限制）去掉了。这个限制是它被理解成 standing in insurmountable opposition to an object 时才拥有的：当它被理解成处在一个不可克服的、与对象对立的关系中时，它就好像得到一个限制。但纯粹知识已经把这个限制去除了。
+
+普通的蠢人以为，纯粹知识一定要和对象打交道才叫知识，知识要认识对象才叫知识。但在黑格尔的辩证法，或者说在观念论这一系里，在费希特和他的徒子徒孙谢林、黑格尔这边，纯粹知识就是理智直观，没有主客二分，小朋友。它是所谓“神照术”也好，看到什么就是什么也好，这个“看”本身就是那个被看到的东西。当它被错误地理解成与一个对象处在不可克服的对立中时，它才会有一个限制；但纯粹知识已经把这个限制去除了。所以说，纯粹知识考虑到这个自我，反倒是给费希特做了开脱：费希特这位费大拿已经考虑过这件事了。这个自我意识，或者说一般意义上的自我意识，会带有一种主观的明确状态、明确性的主观规定——这个 determinacy 不好译成“规定性”，应译成“明确性”“明确状态”。但出于这个原因，仍然坚持把纯粹知识规定为自我，至少是多余的。
+
+也就是说，如果他还采取这种主观主义、主观性的姿态和态度，那至少是肤浅的、流于表面的。你既然已经把纯粹知识规定成“我”，这不是有点多余吗？你前面已经说把它去掉了，把“它与对象对立”这一层限制去掉了；而与对象对立不就是主体与客体对立吗？你既然把纯粹知识当作先验自我，它已经不是与客体相对立的“我”，那又何必还把它叫作“我”呢？所以黑格尔说，你这样做不是肤浅吗？因为这种规定本身就带有一种令人恼怒、troublesome 的主客二重性，一种主体与客体的二分、二元性。你把绝对知识、纯粹知识规定成“我”，给它加上一重“我”的规定，这就天然会让别人误解其中还有主客二元对立。
+
+On closer examination，我们再进一步检查：这个纯粹知识由于加上了这一层规定，所以它还是一个主体性的“我”，归根结底是一个有限的东西。The actual development of the science that proceeds from the I……唉，黑格尔这段话真让人受不了，我跟你讲。
+
+他上面讲了那么多，讲到这里其实都在夸费希特：费希特做得还是对的，只不过被蠢人误解了。啊，可讲到这里，费希特又成了傻逼！
+
+他讲到这里说：如果我们更仔细地检查，on closer examination，it also remains subjective。也就是说，给纯粹知识加上这么一个“我”的规定，它还是一个主体性的我、一个主观的我。The actual development of the science that proceeds from the I shows that in the course of it the object has\.\.\. 哎呀，我是费希特，我要吐了，我真的受不了了。
+
+那费希特就会说：我这样搞，变成所谓的主观唯心论了；可你这样搞，变成客观唯心论不是更恶心？反正思维方式是一样的，只是在外边被人家臭名昭著化的方式不太一样。那这两种方式，哪一个更能够让哲学本来的含义幸存下来？费希特和黑格尔采取了不太相同的策略：费希特、胡塞尔、贝克莱，或者说海德格尔这类人采取了这个策略；而黑格尔、谢林、晚期海德格尔采取了另一个策略。这个策略都是传播学策略。至于黑格尔怎么批判他，我真的觉得没有必要。
+
+“The actual development of science that proceeds from the I shows that in the course of it the object has and returns the self\-perpetuating determination of another with respect to the I\.” 逻辑学的进一步发展、它的现实发展，从自我出发，会在发展过程中表明这一点：对象依然拥有并且保持着一个自我，始终自我维持着；perpetuate 就是“保持、不朽”的意思。它一直保持着一个规定，即规定一个相对于“我”的他者，也就是对立于我的规定。在这个过程中，这个对象一直会是 the object。你从这个自我、从这个哲学的开端出发，有了这个自我之后，the science——这里应指整个科学的发展；整个科学发展中出现了主观意识，当然是 absolute I、绝对自我——这个先验纯化的先验自我，它也是一个自我。从它开始之后的后面环节，都已经成为这个对象，都已经拥有并一直保持一个自我，始终维持着 self\-perpetuating 的规定；这种规定就是作为一个他者、相对于我的他者的规定。That therefore the I from which the start was made does not have the pure knowledge that has truly overcome the position of consciousness。
+
+所以，如果你从这个自我开始，把它作为纯粹知识的一个开端，does not have the pure knowledge：它并没有拥有那种纯粹知识；这种纯粹知识是真正克服了意识的那种对立的。But it is rather still entangled in appearance：但它仍然纠缠在表象当中，还是限于表象；换句话说，是卷入在表象当中，卷入在这个主客二元对立的表象当中。
+
+所以黑格尔会说：你这样搞，把它叫作自我，那么我们的逻辑学，包括后面跳过自然哲学、到精神哲学演绎里面的环节，但凡有一个开始、有一个自我，就意味着总会有一个客体一直在里面，并且作为自我的他者一直在里面，随叫随到。你要确认自我同一性，立刻就会有一个他者冒出来。因此黑格尔说，这个证明要在很后面很后面；他在这里没有告诉你具体怎么来的，包括我现在也没有时间具体讲怎么来的。他只是说，如果我们在整个哲学体系、整个科学当中，从以这个先验自我为开端的后面环节而论，它总会有二元对立、总会有主客对立。所以你把自我作为一个开端，然后进行关于绝对纯粹知识的讨论，那是没有办法克服意识的对立的；这个对立已经被设定起来了，它还是限于表象当中。
+
+“In this connection”，所以在这样一个关联当中，there is the further essential observation to be made：我们还要作出一个更本质、更必要的观察。也就是说，尽管这个“我”可能、will be determined，很有可能被规定成在其本身当中 in itself 是纯粹知识，being in itself pure knowledge；仅就其自在而言，如果把它看成一个封闭的东西，不考虑它有什么他者，不考虑别人、另一个他者对它进行什么审视，那么仅就其自在而言，它是纯粹知识，或者说是理智直观。就一个第一人称的、孤独的智者他自己的第一人称体验而言，这个自我可以说是纯粹知识，或者说是智性直观，and declared to be the beginning，并且可以有合法性地被宣称是一个开端。
+
+那么在科学当中，we are not concerned with what is present itself。这里的科学指的是整个历史，the science is the whole history of absolute spirit，也就是绝对精神的整个显象史或整个运动史。我们所关注的并不是它自在显现出来的东西——也不能叫“自顾自”，而是它封闭的、仅就它自己那个环节本身而论所呈现出来的东西。我们关注的不是某种内在的东西，but with the external existence of what in thought is inner，and with the determinateness which this inner assumes in that existence；我们关注的是那些外在的实存，是那些在思想中是内在的东西的外在实存，以及这种内在在实存中获得的规定性。
+
+我们关注的是这些东西；更准确地说，是 what in thought is inner 的外在实存，以及这种内在在实存中所获得的规定性。说得简单一点，我们不关注你这个第一人称意识体验到底怎样。你说你这个先验自我是绝对者、绝对者的第一人称意识，他体验到什么，关我什么事？我不在乎这个东西；我在乎的是它的本体论效应，是它的 concrete。黑格尔其实老实说，对他本体论前面那些 reflection、immanent reflection，并不是太在乎；他在乎的是 existence。所以说，海德格尔以实存论作为黑格尔哲学的一个补充，或者说一个直接的续篇，是很有道理的，很有道理。
+
+因为黑格尔真正和其他传统观念论者不一样的地方，就是他不在乎绝对者第一人称怎么想——关我什么事。他不在乎；他在乎的是，他想这些东西会带来什么外部的灾难，或者说会有什么外部的效应。他在乎的是 external existence，这些 external existence 是那些内在的、在思想当中的东西的外在实存。绝对者第一人称体验到了什么狗屁内在东西，关我什么事？他在乎的是：他说他体验到这些东西，那肯定有代价，肯定会有效果，肯定会有那种不可避免的灾难，或者说肯定会跑到外面来，会有剩余。他在乎的是跑到外面的那些东西的 external existence，那些外在的实存；以及 the determinateness which this inner assumes in that existence。
+
+也就是一种明确状态：这个内在的 this inner，这个内在状态——你可以说它是绝对者的内在状态，或者绝对者的精神状态、心理状态，或者一个自在状态——它在这些实存当中，在它的外部剩余当中，在它的本体论效应当中，获得了什么样的明确状态？或者说它得到了什么样的规定、什么样的 determinateness、什么样的刻画？这个词我真想把它翻译成“刻画”。他得到了什么样的 determinateness？不要翻译成“规定性”；“规定性”是 determinacy，那个挺好的。英文译者是按德文那个词的构词法对译的：遇到 determinacy 的时候，我们把它翻译成“规定性”；而 determinate 这个词不好翻译成“规定”，可以翻译成“明确的、明晰的、确定的”。反正你知道这个词就行了：它是一种明确状态。也就是说，内在的东西不得已跑到外面来的时候，这个内在的东西也怎么样？也弄脏了，也会得到新一层的、进一步的刻画，更明晰了，不再是一个虚的、空洞的东西。
+
+但是，无论理智直观的外在化在科学开端是什么，But whatever externalization that might be of intellectual intuition at the beginning of science；或者，如果科学的研究课题、它的 subject matter、主题内容，可以被叫作永恒的、神圣的、绝对的，是那个永恒者、神圣者、绝对者，那么无论那个永恒的或绝对者的外在化是什么，this cannot be anything else than the first：它不会是别的，而只会是一个初步的、直接的、不加中介的简单规定，a simple determination。它出来总得有所规定吧，所以把它叫作首要的、直接的、简单的规定。
+
+它作为开端。这个规定就是 beginning，也就是 being。黑格尔在乎的是“出来”。他其实有唯物主义倾向，而且是很强的唯物主义倾向；相比于谢林、费希特，他可以说是个唯物主义者。他在乎的是这个，不在乎绝对者脑子里想什么——想什么关我屁事。他在乎的是你瞎想出来的东西：你想出自己有什么生理反应，或者这个绝对者这样瞎想，想出这个宇宙有一个开端了。他在乎的是这个，所以他把绝对者、神圣者、永恒者的理智直观的第一个存在论效应作为自己哲学的开端；他不会把理智直观本身作为哲学的开端。你随便想亿万年——或者说不以年纪计，根本没有时间可言——怎么想都没有任何意义；不出来就没有任何意义，没有历史可言。必须出来，出来就是开端，懂了吧？所以黑格尔的开端是发生学开端，不是分析论的开端。
+
+“Whatever richer name be given to it than is expressed by mere being\.” 无论给它一个多么丰富的名字，都不会有比 mere being 所表达的更丰富的名字；它被称作存在，这是一个原初规定——一开始的规定就是存在。The only legitimate consideration is how such an absolute enters into discursive knowledge：唯一合法的考量就是，这样一个绝对者如何进入 discursive knowledge，也就是进入可思性的知识。这里的 the absolute 不是“绝对事件”，可以翻译成“绝对者”。英文译者把它翻译成“可讨论性的知识”或“可思性的知识”；可思性的知识就是变成思维的知识。翻译成 discursive knowledge 也可以，即论说性的、可思性的知识。关键问题是：它进来的第一个东西，我们干脆就把它叫作存在，叫 being；叫别的其实没有意义。
+
+它既然叫 being，我们对它唯一合法的思量就是：它怎么进来，怎么进入可思的知识当中？And the enunciation of this knowledge——也就是说，它如何进入知识，这个知识如何变得可以加以阐明。这个知识如何变得可理解、可思，变得 intelligible；哲学要研究这个问题。
+
+Intellectual intuition might well be the violent rejection of mediation and of demonstrative external reflection。理智直观当然可以是对中介、对证明性的外在反思的一种粗暴拒斥。也就是说，理智直观当然可以无视知识如何如何、知识如何被阐明、知识如何被讨论这些东西——这是在讽刺谢林：你当然可以搞一些溢出的、直觉性的玩意。但无论如何，anything which it says over and above simple immediacy would be something concrete。理智直观讨论任何东西，只要是在简单的直接性之上、凌驾于它之上去讨论，都会是某种具体的东西。And this concrete would contain a diversity of determinations in it：这个具体东西会在自身中包含规定的多样性，也就是好多不同的规定。这个时候这里就很丰富了：一开始有一个作为开端的简单规定，这个规定其实啥都没有，所以它同时就是无了。
+
+另外一方面，在这个规定当中，一开始只要它变得可以讨论，然后你要在它的前提之上讨论其他更多的东西，那么这个时候我们就说，这里面有更多的规定了，有变化，有 diversity of determination，有个差别了。divers 就是不同了；divers 这个词就是 different。你以为差很多吗？diver 里的 f 和 v 这两个字母，在日耳曼语里面其实是一样的。
+
+But as already remarked——正如已经评论过的：the enunciation and exposition of this concrete something is a process of mediation which starts with one of the determinations and proceeds to another。对具体某物的阐明和剖析（exposition）是一个中介过程；这个中介过程以众多规定中的一个开始，然后进展到下一个。即便 this other 会回到第一个（this other returns to the first），而这是 movement which moreover is not allowed to be arbitrary or assertoric。这个过程不容许你瞎搞，不容许你武断，它是有章法的。你要讨论一个具体的东西，它肯定要从一个规定开始；你要讨论任何东西，都是讨论一个具体的东西。那何为具体东西？我们先得从一个规定开始，这个规定就是它存在，然后进入到第二个规定；这个第二个规定又会回到第一个规定。这是这样一种运动。这个运动不容许是专断的运动；它是绝对者自己在运动，所以它有章法、是科学的、是逻辑的。你们在把握这个东西、从一个规定到另外一个规定的过程中，is not allowed to be arbitrary or assertoric。Consequent 的结果是：that from which the beginning is made in any such exposition is not something itself concrete, but only the simple immediacy from which the movement proceeds。也就是说，在任何一个这样的剖析中——对一个具体东西的剖析中——开端被做出的那个东西本身不是具体的东西；它只是运动由之出发的简单直接性。我们要对一个具体东西加以剖析，就要开始着手这项工作。
+
+首先开始的那个规定，那个简单的规定，本身不是一个具体的东西。我们对一个具体东西加以评判、加以详述；本来所有东西都是要讲出来的，那么它有一个作为开端的东西，这东西本身不能是具体的。组成这个具体性的第一个环节不是具体的，那它就是存在了。But only the simple immediate：它只是一个简单的非中介性，或者说只是简单的直接性。从这个非中介性开始，the movement proceeds；这整个运动，对这个具体东西的 exposition、对它的详述，才开始了。
+
+Besides——另外，what is lacking if we make something concrete the beginning is the demonstration which the combination of the determinations contained in it requires。另一方面，如果我们把某个具体的东西当作对具体东西加以详述的过程的开端，而不是以一个不具体的东西、不是以存在或简单的存在作为开端；如果我们以某个具体东西作为 exposition 过程的开端，那么 what is lacking 呢？我们失去的是什么？我们就失去了这么一个证明，也就是包含在其中的这些规定的组合所需要的证明。
+
+我获得了一个 concrete，I have something concrete；然后我要详述这个 concrete something 里面的 determination，这里面的规定；然后我要说，这些规定组成了它的 concreteness，组成了它的具体性。那我如果一开始就以一个具体东西做开端的话，这个具体性是如何被装配起来的？这个证明就没有办法被给出了，对不对？所以另一方面，如果我们一开始就以某个具体的东西来作为剖析这个具体之物的开端，那么如何把这些规定组合起来——包含在这个具体之物当中的那些规定，它们的组合所需要的那个证明——就没有了。这个证明就是要证明怎么把这个具体性给出来，就是这个意思。你如果一开始分析具体性，它的开端就已经是个具体东西了，那还分析什么？我就是要分析具体某物，它这个具体的规定从哪里来嘛。所以它的第一个规定不能是具体的，第一个规定不能具体。那么因此，if in the expression of the absolute——如果说在绝对者、永恒者或者神（甚至加斜体的那个神）的表达当中，在那个 expression、它的表现当中，或者它的 manifestation。
+
+或者说，在它的这个——就是刚刚那个词——exposition当中；在对他加以表述、加以表达，加以这个所谓“圣光普照”的过程，也就是在他的环节的展露过程当中：And God would have the perfectly undisputed, undisputed right that the beginning be made with him。
+
+我靠，黑格尔在这里又怂了，在这里又他妈的——哎，怎么这么多呀？我呕了，我靠。垃圾文本讲你妈这么多，这里都像放屁一样。哎，不是，我讲到这里就行了，讲到这里就行了——就是又开始舔教会了。
+
+我跟你讲，这里就开始舔教会，黑格尔开始舔教会了。就是说，这个上帝呢，would have perfectly——他非常完美地、无可争议地拥有一个权利：让这个开端是由他制作出来的，made with him，是神自己创造出来的。这是黑格尔干的，黑格尔加上这么一句，向教会服个软。
+
+他前面只不过在扯：这不是自我，不是纯粹我思，不是那个先验自我。当然，这个开端当然是神创造的，很明确了。黑格尔逻辑学的这个being，作为逻辑学开端，是神创造的，made with him。然后，“if in the intuition or the thought of them”，如果说对于他们，there is more than……他用的是them，也挺有意思的。
+
+如果说在对永恒者、绝对者、上帝进行直观时，这里用的是them，应该指的就是这些东西，它们不是同一个。永恒者可能指天使，绝对的比如圣灵，这些都是复数，不管了。
+
+好，然后说，在对他们加以直观的过程当中，在对他们加以直观和思维当中，在他们的直观和思维当中，there is more than there is in pure being，比在纯粹存在当中有的东西还更多。也就是说，如果在对他们进行直观、进行思考的过程中，还有某种比纯粹存在更多的东西，then this more should first emerge in a knowledge which is discursive and not figurative。那么，这么一个更多的东西必须首先以一种知识的方式出现：它是论述性的，而不是图像性的；是思想性的，是嘴巴上可以说出来、可以用语言表达的、符号性的，而不是想象性的、图像性的，不是figurative的东西。
+
+这就是说——他的意思就是说：你们那些神棍，或者说那些直接具有神智论、具有神智论那种理智观、眼睛冒光的那些人，你们说自己在理智之观中把握上帝，或者把握这种绝对者、永恒者的时候，立刻直觉到了某种比纯粹存在更多、更丰富的东西。黑格尔认为，你这东西得是discursive的，而不能是figurative的；你得是嘴巴可以讲得清的，不能是一幅画。
+
+我靠，我闭上眼看到了一个天堂，你不能这样的。你得是——knowledge，a knowledge which is discursive，得是一个论述性；它下面那个词还是那个denk，是吧，denkendes，它还是一个思想性的，而不是一个图像性的。
+
+As rich as what is implicitly contained in knowledge may be——无论知识中隐含地包含的东西有多么丰富，the determination that first images in it is something simple；其中首先呈现出来的规定，是某种简单的东西。For it is only in the immediate that no advance is yet made from one thing to another。因为只有在直接性当中、在没有中介的直接性当中，才不会有从一个东西到另一个东西的进展；这个进展就是从一物跳到另一物。
+
+你们不是说自己是直觉吗？你们这些鸟人不是宣称自己他妈的是直觉吗？好，你既然是直觉，那么你首先领会、把握到的就是直接性；这个直接性就意味着不会从一物跳到另一物。你们这些神棍都这样，神棍都会站到黑格尔这边：“哎，我们都获得直觉，都是直觉，都是直觉，对吧？”都直觉。因为这样一来，黑格尔就会说：你们既然获得的都是直觉性的知——好吧，神圣的知、直觉性的知——那么这个东西应该是某种没有此彼之分的东西；既然没有此彼之分，它就是being，就是存在，就是那个纯粹的、简单的直接性。所以，第一个涌现出来的规定，就是某个简单的东西，something simple，或者就是简单性本身、直接性本身；它并没有一个“no advance is yet made from one thing to another”。那么结果呢，whatever in the rich representation of the absolute or God might be said or implied over and above being——所以，无论如何，无论你接下来对绝对者或神的表征可以说出、可以蕴含多少比存在更丰富的规定，无论这些规定如何凌驾于这个简单的存在之上，all this is at the beginning only an empty word：它在一开始仅仅只是一个空洞的词，and only being，仅仅是一个空洞的存在。
+
+哎，这不是直接性吗？你不能造假。你说这个开端不是直接性，那你就是造假，你心不诚。这样，黑格尔就把这些人绑上战船了。The simple determination which has no further meaning besides——这样一个简单的规定，它就没有进一步的意义，has no further meaning besides，在它旁边没有进一步的意义。This empty something，这么一个空洞的某物，is such therefore the beginning of philosophy；它本身就是哲学的开端。
+
+那么，黑格尔非常非常聪明地把神智论的开端和哲学的开端做成同一个，做成同一个。This insight也其实把经验主义、独断论，把那些注重外在实存、无视纯粹理智观的人，把纯粹知识那些人也绑上了战船。所以，黑格尔在这个“哲学落地学”——也就是哲学如何与那些垃圾、愚蠢的宗教、科学，以及之前的蛇皮哲学获得一个比较好的关系——上，是比较聪明的。黑格尔比较有实践智慧，这是一种学术技巧、学术智慧，比较会做人。你看，他把这些傻逼都统统捆上战船了，我靠。
+
+This insight is itself so simple——这个洞见本身如此简单，that this beginning is at the beginning in no need of any preparation or further introduction。所以，这个开端作为开端的开端，不需要任何准备或进一步的引导。And the only possible purpose of this preliminary disquisition regarding it was not to lead up to it, but to dispense rather with all preliminaries。我这里搞了这么大一通、说了这么大一通，这个初步的disquisition——初步的论说——唯一可能的目的，仅在于regarding it，考虑到它，was not to lead up，并不是要导向它，并不是要把你引导到“我们就以being作为开端吧”；而是通过这么一个关于being的初步论说，不是向你证明、把你导向它——它本身就是开端——but to dispense rather with all preliminaries，而是要免去、反而是要免去所有初步准备，preliminaries就是初步准备的预备性工作。
+
+黑格尔的意思是说：我在这里说这么多，就是为了避免让我说太多；或者说，我说这些东西就是要告诉大家，其实我根本不用说——这个being就是开端，the beginning of philosophy就应该是开端。我说这些就是要让你明白，其实我什么都不用说。But to dispense rather with all preliminaries——我不是要通过这一通论说，让你顺理成章地认为“哦，我们接下来就以being作为哲学的开端”，不是这个意思；而是要让你恍然大悟：原来不需要预备工作，直接就可以从being开始。开端本身不需要进一步的引导，不需要任何准备。
+
+这就很有意思。你看，黑格尔这整本书的引导性部分，都自己自我取消掉、回溯性取消掉了，看到了吗？所以，黑格尔的逻辑正如齐泽克所言，在一开始就是他妈的回溯性取消，是否定性的自我指涉；它在时间性上是回溯性取消。黑格尔一开始他妈讨论being，把being作为哲学的开端，讨论到后面却说：这个玩意儿不需要讨论，我讨论这么多的目的就是告诉你，前面的讨论都是白费的，不需要任何讨论，不需要任何预备性，它本身自己就是开端。这不很有意思吗？
+
+好，那今天就讲到这边。下一次我们来讲存在的一般区分，讲质、量、尺度，然后是什么存有论，然后就正式开篇。今天先讲到这里；下面这两个他妈的下一次再水时长，今天不扯了。Goodbye，讲到这里，拜拜拜拜。

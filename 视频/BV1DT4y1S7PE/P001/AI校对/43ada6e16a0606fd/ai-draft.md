@@ -1,0 +1,71 @@
+这是黑格尔《逻辑学》中生成的环节。纯有论第一章的第二个环节是生成，即 the movements of becoming。第一个环节是有和无；有和无都是片面的，所以第二个环节是生成。生成是前面那个环节的真理，并推动后一个环节；这个环节自己也会证明自己不是真理。我们来看：生成是存在和无的不可分离性，是不被分离状态、未分离状态，没有被知性片面地拆散。
+
+它不是 the unity that abstracts from being and nothing，即不是从存在和无那里抽离出来的统一性；它就是存在和无本身，是存在和无克服自身片面性、扬弃自身，这就是生成。作为 the unity of being and nothing，它不是存在和无之外的一个第三者把二者统一起来，也不是一个额外的框架。
+
+它就是存在和无本身；存在和无本身就是生成。存在就是生成，无就是生成。存在没有它本身，无也没有它本身；存在必须通过无才有它本身，无必须通过存在才有它本身。存在通过无才有它本身，这就是生成；无通过存在才有其本身，这也是生成。存在和无之间彼此援引、彼此指涉的那个运动，即生成。存在和无没有其本身，没有自己的真相；我们不能说存在本身，也不能说无本身，除非我们已经把握到生成。
+
+纯粹的纯有，没有什么本身而言，没有自在自为的自身（no in itself）。它没有自我打包的过程，也没有自我打包；因为自我打包要有一个自我取消，要有另外一个意向性操作，而这里没有。它是纯思，一个空淡、虚浮的纯思，没有额外操作。我们就设定它没有额外操作，它自我设定自己没有额外操作，这是它的纯粹概念。
+
+所以这时一定要把握住：生成是存在和无的统一性，不是额外的统一性，不是把二者罗列、包裹起来的统一性；它就是二者本身。也就是说，存在和无一定在其复数性当中才具有统一性。这里有一个 priority，但它还隐含在过程中；这个隐含的 priority 会使存在走向量，也就是使质走向量。其实这个意思在这里已经存在：存在光靠自身，不走向某种复数性、某种加倍，就无法有其自身，无法有其统一性。它要变，要给出自身、给出这一统一性，就一定要通过某种复数性、加倍性。
+
+这种自我加倍、这种指向他者而不可避免的缺陷，就会走向量（magnitude）。Understand？这是后面要讲的，我提前透露一点：你们知道为什么黑格尔的存有论后面会从质走向量吗？其实它已经隐含在存在的非独一性里，就隐含在这里。但此时还是隐含状态，it's not explicit, it's implicit，它仍隐藏在过程中。不过聪明的人一下子就跳到量上面。我们继续看。
+
+现在看生成作为存在和无的统一性：it is rather this determinate unity。它是这样一个明确的统一性，就是这一个明确统一性。它并不是一个额外的统一性，不是某种外加的统一；它的明确性来自它仅是存在和无的统一性。它不是 additional determination。如果它是额外的一个 determination，那它就是不确定的（indeterminate），你就不知道什么在统一存在和无。我们现在说它是存在和无的自身统一、自我统一，所以它是明确的。这里的“明确性”加了斜体：它不是存在和无之外的第三者来统一二者，而是存在和无自身在进行统一，所以它是明确的统一性，不是不明确的统一性。
+
+Understand？或者说，a one in which being and nothing equally are：它是这样一种统一性，在其中的存在和无都是平等的，都是存在（equally are）。存在是这样一种统一性，无也是这样一种统一性。Being is this determinate unity; Being is this unity; Nothing is this unity; Being is becoming; Nothing is becoming; Being and nothing are equally becoming。一定要把握到。However, inasmuch as being and nothing are each unseparated from its other, each is not。但是，由于存在和无彼此不可分离（each is unseparated from its other），所以每一个又不是 becoming。
+
+正因存在和无不可分离，所以不能说存在单独就是 becoming。存在必须经由 nothing 的中介，或者体现出它与 nothing 的他指、外指关系（other reference），才是 becoming；光凭自身，它不是 becoming。这里 each is not，后面省略的就是 becoming：each is not becoming。也就是说，存在和无必须在一起，才能是 becoming。这里要把握这种矛盾：being is not this unity, being is this unity; being is this unity。它是通过一个 transition、通过 nothing 的中介、通过它“自我增降”的一个现象：原来你是 nothing，then you are this unity, you are becoming; but alone being, alone you are not。如果你 grasp it as each，把每一个把握为单独的 being，then it is not, it is not the unity, it is not becoming。好吧，in this unity。
+
+在这种统一性当中，therefore they are：它们共同才存在。它们共同存在，they are，但 as vanishing。在生成中，我们可以说有存在，无也存在，但它们是作为消逝的（as vanishing）：有存在，但立刻消失为无；无存在，也立刻消失为有。所以 only as sublated，它们本身只是被扬弃的。在生成中，它们在里面存在，但立刻是作为一个消逝过程、一个走向其对立面的过程、一个运动而存在；所以它们是被扬弃的。因此是 they are。比如说 being……这里一定要用 they are。真理的道说不能说 being is as vanishing as sublated in this unity，you can't say that；要用 they are 加斜体，表示这两个不可分离。
+
+They sink from their initially represented self\-subsistence into movements which are still distinguished but at the same time sublated。也就是说，有和无会从它们一开始被表征的状态——被“垃圾的知性”、被外部反思、被“蛇皮知性”表征为自我持存的东西——跌落（sink），沉没下去，掉进环节里，sink into movements，掉进一个运动的环节当中。
+
+这些环节仍然是被区分的：有变成无的 transition，即 the transition of being towards nothing，以及无变成有的 transition，即 the transition of nothing towards being。它们就变成环节；这些环节还被区分，但同时 at the same time sublated，它们又被扬弃掉了。这两个环节虽然被区分，但同时又都被扬弃，因为它们不是两个环节，而是一个运动，it's one moment, it's one determination，是一个规定，不能彼此区分。你不能把它们彼此区分：你抵达那个就代表抵达这个，抵达这里就代表……归根结底是一码事。懂了吗？归根结底，这是一个名相的自我二分化运动，然后又以他者不停地彼此指涉；其实是自我指涉，以造作出一个他者来指向那个他者，其实就是自我指涉。
+
+所以这些环节是复数的，仍然是被区分的。The twofold, the double movements, the double transition are still distinguished, but they are at the same time sublated。它们同时又被扬弃了。They are not two moments; they are one moment; they are not two moments; they are one determination。被扬弃就是说：此时把握到它们不是两个环节，而是一个环节、一个规定。Grasp as thus distinguished, each is in their distinguishedness a unity with the other。所以，如果有和无被把握为区分，那么每一个在它的被区分状态（distinguishedness）中，都是一个与他者的统一性：being is a unity with nothing; being is the unity of being with nothing; nothing is the unity of nothing with being。
+
+In their distinguishedness, becoming thus contains being and nothing as two such unities, each of which is itself unity of being and nothing。生成因此包含着存在和虚无作为两种这样的统一性，而每一种本身都是存在和无的统一。这个时候，这两个统一性：从有这里说，无归根结底也是一种有；从不明确状态而言，无的明确状态归根结底也是一种不明确状态。那么这个明确状态作为无、作为对不明确状态的否定，也会说你这个不明确状态归根结底也是个明确状态。所以它包含两种统一性；两种统一性的每一种本身都是有和无的统一，都是明确状态和不明确状态的统一。The one is being as immediate and as reference to……
+
+第一种统一性是：存在作为直接者、作为不被中介的东西，也就是作为非中介者，它指向无（as reference to nothing）。存在是一种不明确状态；但这种不明确状态本身的明确性，恰恰在于它没有什么可明确，所以它指向无。作为非中介者，它一触即发就暴露出自身：它其实很明确，它的不明确状态立刻就指向无，就是一种否定。
+
+Immediate 不允许你中介它，不允许你反思它，不允许你认识它、弄清楚它；它无可被认识、无可被反思。于是它指向一种否定，指向无。这就是存在：作为一种统一性，它站在存在、有这一边。它是一种不明确状态，是一个纯粹的开端，是原初的不明确状态；这种原初不明确状态不允许被中介。这里立刻就把握到一种非常清晰的抵抗力：我不能理解它、不能认识它、不能把握它，它不就指向无吗？不就指向一种不允许、一种拒绝吗？不就指向一种明确性——明确地不能这样做：You can't mediate，你不能中介它。那这个就是无，就是第一种统一性。
+
+另外一种统一性是：the other is nothing as immediate and as reference to being。另一个统一性也是不被中介的无，is nothing as immediate。这个无本身也指向一种状态：无说自己不明确，我里面没有任何东西，我是不能被中介的；我就是不能被中介的，我就是这个统一性。它立刻指向：你想看，你看好了，没东西可看。
+
+它立刻指向 being，指向 without content：“A beginning as pure beginning\. It has no content; it is just being\. It has no content; it is a pure being of itself\. It has no content at all\.” 它指向一种匮乏、一种缺失，所以立刻就指向 being。Being 就是 contentlessness，就是没有内容性；它就指向 contentlessness。Understand？The informal, informalized，就是那个不可形式化的无内容性。所有的存在都应该把握成不可形式化的无内容性。
+
+也就是说，直接的一种不被中介的不明确状态，就是不可形式化的无内容性。这是另一侧的统一性，它立刻又指向有。另一侧的统一就是“我就是无”，我没什么好看的；I just have nothing for you to see，我没有什么让你可看的东西。这个第二侧的统一性是从无这里开端的：无就是说我明确我没东西可被把握。
+
+所以前面那个是向你封闭：存在作为直接者，它的直接性或者说非中介性，落脚点是非中介，它是封闭的。它不允许你看，它有一种禁令向你显现。后面这个则是一种向你敞开：我敞开，里面是空荡荡的，什么都没有；就是“你来吧，随便你”，整个人裂开来，里面空无一物，你能怎么样？它就是作为一个空荡的东西、作为一种毫无内容的状态向你敞开。它作为一种非中介者、一种直接者——这里的 immediate 你可以把握成这种不设防状态，完全向你敞开。作为无的那一侧，它明确自己什么都没有。
+
+同时，它指向 being，指向纯粹存在。In these unities determinations are of unequal value：在这些统一性当中，有和无具有不同的权重，它们的意义是不一样的，They are of unequal value。它们并不是可以相互替换的；意思不一样，我刚刚跟你解说，它们意思是不一样的，You understand？在前面那个规定当中，being 是优先的，然后它指向无；在后面那个统一性当中，无是优先的，然后它指向有。Becoming is in this way double determined：生成以这种方式被双重规定，它是一个 doubled，是一个双重的统一性。
+
+In one determination，在一个规定当中，nothing is immediate：无是那个非中介者，是不允许你看的东西。That is, the determination begins with nothing and this refers to being：这个规定从无开始，然后指向存在。你来探查吧，我让你探查，我明确让你探查，我是一种明确状态。无是确定的无。I let you, I show you this nothingness\. I show you that I am being; it refers to being\. I show you as nothing I am being\. You want to say what is nothing? Okay, I tell you I am being\. I have nothing to tell you\. 你想知道什么是无吗？
+
+“我告诉你，我就是存在。”我就是空泛的，没有内容，纯粹无内容可言的一个存在而已。没有东西加载在我这个存在上面，没有东西对我进行刻画、规定。我明确告诉你，我没什么可明确的。就这么回事，对吧？这种规定是从无开始，然后指向有。也就是说，that is to say, it passes over into being：从无转向有。
+
+然后在另外一个规定当中，being is immediate：存在则是那个非中介者，是直接的非中介者。也就是说，that is the determination begins with being and this passes over into nothing：这个规定从有开端，然后转向无。它这个规定是从一种不明确状态开始的。我不知道我有什么，我不知道我有什么呀，懂吧？
+
+这不是说我明确告诉你我什么都没有，而是说我不知道我有什么。I don't know what I have\. I don't know what I am\. Being 就是 it doesn't know what it is，它就是那个“doesn't know”的状态。I don't know what I am\. I am just pure thinking\. I don't know what I am thinking\. I am as a pure thinking but without content。它是作为一种纯粹思维，但是没有内容，是一种空洞的状态。第二层规定是：I am being, but what is being? 就是这种状态：我是存在，但存在是什么？这就懂了吧？然后别人一看：哦，you are nothing\. I know you are nothing\. 这时就懂了：I know what is being\. It's nothing\.
+
+别人看这个 pure thinking，本来以为这个 pure thinking 很聪明、很厉害。Please tell me, can you tell me who you are? Pure thinking\. Can you tell me who you are, with the name of being? 你能告诉我你是谁吗？这个“存在”小朋友，你能告诉我你是谁吗？存在说：我不知道我是谁啊，我是谁啊？哦，我知道了，它什么都不是；这个存在就是个无，就是 passes over into nothing。所以黑格尔把这两个规定叫做：一个叫 coming to be（开始存在），一个叫 ceasing to be（停止存在）。一个是 coming to be，一个是 ceasing to be。了解吗？前面那个是开始存在，它 refers to being，指向存在；后面一个指向无，passes over into nothing。前面那个有一点“假装”：我明确告诉你我是存在，我明确告诉你我没什么可明确的；我只是后面那些定在的、concrete being 或 determinate being 里的那个 being，但我这个 being 是没什么内容可言的。
+
+Coming to be 是一种开端、发端；它目光开始犀利、锐利起来，是一种敞开状态，像认识论判明（判断）的过程一样敞开，像一个 epistemological 的判明过程。这个“判明”用英语怎么说？就是判断。它就像认识论判明的过程敞开，就这么简单。Coming to be 就是：“来啊，你看我是什么”，它就是一个无，就是这种状态：你来看我是什么——let me show you who I am，let me show you what I am。那就是开始存在。后面那个就是 what I am。
+
+后面那个就是 what I am，但没有力量了，认识论显象的那个力量没有了。那怎么说来着，是 ceasing to be。它这个 being 指向了无。这个 being 像强弩之末不能穿鲁缟一样：I am, but I only know my name is being\. 我只知道我的名字叫存在，但是我不知道我是什么。没话说了。Ceasing to be 指向的是无。而且这个时候要有一个视角的转换，要有 perspective of the other 来看：你现在什么都不说，得滚吧。懂了吧？Ceasing to be 是这么一个东西：认识论上显象那个力量没有了，这个存在就垮了、没劲了，滚蛋吧。所以这两个规定是不一样的，it's two determinations；里面包含了本体论和认识论的非常细腻的纠缠，你要看清楚。这里看清楚才是关键：你要把无把握成一种明确状态，它是一种可以对一切东西加以明确、对不确定性加以明确的明确状态；无是一个锐利的、认识论发起的意识。而存在则是一个懵懵懂懂的本体论发生，它对于它所要显象的东西没有什么可说的，本身是不定的、不明确的，本身只是一个 this kind。懂了吧？这两个是同一个吗？
+
+他们说两个都是同一个，这两个规定都是同一个生成。And even as directions that are so different, they interpenetrate and paralyze each other\. Paralyze 是什么意思？翻译成“使彼此瘫痪”。然后他们都是生成，作为方向又如此不同，they are so different。所以他们会彼此 interpenetrate，彼此侵入；然后会相互妨碍、相互阻滞。
+
+The one is ceasing to be，一个就是不再存在：being passes over into nothing，存在指向无。But nothing is just as much the opposite of itself\. 但是无同样等同于它的对立面，也是 passing over into being。无也不过就是转化为有，coming to be；就是有转化为无，而无也不过是转化为有。它们互相侵入，这个运动会一直有，会一直有，所以才有事物的持存和定在，懂了吧？如果这两个东西立刻互相对冲、取消掉，goodbye 了，那不会有定在。This coming to be is the other direction：nothing goes over into being。那么，the one is ceasing to be，就是不再存在；我前面翻译错了，不再存在就是说存在转向了无。然后这个开始存在是另外一个方向：无 goes over into being，无变成了有，转向了有。
+
+同样，这个所谓的有也扬弃了自身，它只不过是转向了无；所谓的有无非就是转向无的过程，也就是 ceasing to be。那么 coming to be 就是 ceasing to be。但这里一定不要把它当作系词“是”，而要把它把握成一个中介过程，即本体论现实的一个中介过程。并且，它要通过认识论中介：通过你的意识位面，通过本体论位面和认识论位面彼此不断往返、不断往返来中介。所谓中介，不就是这个往返过程吗？所以 coming to be 就是 ceasing to be。
+
+“They do not sublate themselves reciprocally”：它们并不会相互扬弃自身，不能相互取消。The one sublating，它们永远是一个扬弃另一个；一个会从外部扬弃另一个。
+
+如果你看一个过程，就其发生而言，就会忽视里面的消逝；如果你看一个过程，就其消逝而言，就会忽视里面的发生。它们不会相互取消，懂吗？它们是彼此冲撞的，不会相互取消。一个会扬弃另一个：The one sublating the other externally，即一个从外部扬弃另一个，把另一个强行说成是它的一个环节，懂了吧？But each rather——但每一个又相反，恰恰相反，它会在自身当中扬弃自己。And is within it the opposite of itself：每一个在自身当中，就是它自己的一个对立面。You understand？
+
+这里我不想再讲那个认识论机制，太烦了。我们在这里不要把它认识论化，因为认识论化太累了。你们可以在头脑里自己把这个过程认识论化一下，就会得到一种名正性；但这种名正性实际上没有必要去攀援。我们可以简单地说，所谓 coming to be，无非就是无指向有，无非是一种认识论敞开、认识论发生。Ceasing to be 就是有指向无，无非是存在自身的自我取消，存在自己指向无，就是认识论闭合；认识论上的效率没有了，那个 efficiency 瓦解了。但这个是不停的：事件是不会消散的，懂吧？历史和宇宙会不停地注册认识论事件。那么所有认识论事件不停注册的过程，就是 coming to be and ceasing to be 不停的一环扣一环、一环扣一环的过程。You understand？
+
+但这个过程本身已经是一种垃圾了；这种视角本身已经是一种外部反思。为什么？因为我们在这里站在认识论显象这一侧，觉得只有认识论显象才是事件。认识论显象就是浮动到本体论上面一层的认识论层面，那才是事件。所以这个时候，我们实际上是在什么层次来把握这个东西？我们是在 appearance 的层次来把握它。具体实存呢？我们是在具体实存、在本质论的具体实存里的 appearance，即表象论的层面来把握的。也就是说，我们觉得表象是存在之真理，懂吗？在这个意义上讲，所以我们会把它浮起来又降下去，不停地浮起来又降下去，好像有一种力量不停地让它出来又让它下去。
+
+这个东西最后会走向实体 substance。appearance 和 word itself 会走向 substance and mode，you understand？但是，如果我们非要以认识论和本体论二分的方式来解这个东西，当然可以降解；不过这种解法是后面的东西，这跟你跳阶次了。这是后面的东西，后面的东西给你跳阶次了。但可以暂时这样解释，通过这种方式让你理解。因为不仅仅是我们通过这种方式来理解，这本身其实是有问题的。为什么？因为后面那个认识、那个表象的位面，就是潮汐涌动：本体论下面的东西浮上来变成表象，又掉下去，又涌起来，又掉下去；这个东西本身也是不停地涌起来又掉下去。认识论沉降那个机制本身也是不停要涌起来、要掉下去、涌起来又掉下去。它的结构很复杂，所以它会走向后面更复杂的环节。you understand？了解吧？所以，这种让你可以弄清楚这个东西的清楚本身，其实是不太清楚、不是很清楚的。但由于你们现在的自信相对孱弱，所以我们用这个比较简单的方式让你明白这个东西。好的。

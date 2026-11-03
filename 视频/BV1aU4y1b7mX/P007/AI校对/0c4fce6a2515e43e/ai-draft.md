@@ -1,0 +1,137 @@
+我们接着看 A 版导言的第二部分，即分析和综合判断之间的差别。在所有判断中，我们要看的是这样一种判断：主词与谓词的关系在其中被思考。这种判断所思考的，就是主词和谓词之间的关系。如果我只考虑肯定性的判断——在这里，康德只考虑肯定性的判断，因为把这些结论应用到否定性判断（application to negative ones）也很容易。
+
+这种关系只有两种可能。思考主词与谓词关系的判断只有两种：分析的或综合的。要么谓词 B 从属于主词 A，以 covertly（隐蔽地）的方式被包含、隐匿在 A 之中；也就是说，关于 A 的这个谓词只是把 A 中已经有的东西说出来，这就是分析判断。要么 B 完全外在于概念 A；尽管我们可以确定它仍然与 A 有关联、发生联系，这就是综合判断。在前一种情况里，我把这种判断叫做分析判断；在后一种情况里，我把它叫做综合判断。
+
+分析判断只讨论肯定性的那些；要把这些结论再运用到否定性判断上，他认为很容易，照搬即可。分析性的、肯定性的判断是这样一种判断：其中谓词与主词的联系（the connection of the predicate）是通过同一性（through identity）被思考到的。而那些没有通过同一性而被思考到的联系，则叫做综合判断。在分析判断里，你所说的谓词已经包含在主词之中，属于同一性部分，是 thought through identity。因此，前者也可以叫做 clarification（阐明判断），后者叫做 amplification（扩展判断）。所谓阐明，就是它里面已经有了，我把它说清楚；它属于这个东西的同一性部分。后面一种判断则叫做 amplification，就是把它扩大、放大，使它变得更丰满。
+
+我们再看 amplification 这个词翻译成什么。它就是放大、扩大判断；amplify 就是放大，expand 即扩充判断。因为通过这样一个谓词，the former do not add anything：前一个分析判断并没有给主词概念增添任何东西，but only break it up，只是通过分析的方式把它拆开，变成它的组成部分，即一些已经包含在其中的概念。这些概念本来就在里面，当然是比较含混、令人困惑、有点搞不清楚的；这就是分析判断。
+
+后一种判断，即综合判断，恰恰相反：它给主词概念增加了一个谓词，一个 predicate that was not thought in it at all，即根本没有在主词概念中被思考到的谓词。这是你在这个主词概念里无法想到、出乎意料的；你也没有办法通过任何分析从它当中 extracted，即把它从主词概念中引出来、推出来、提取出来。
+
+举个例子：如果我说“所有的物体都是广延的”（all bodies are extended），那么这是一个分析判断。因为广延性（extension、extendedness）属于物体（bodies）的概念；我不需要走出 body 这个概念。康德在第一版的一条注释里补充说：I exist 是一个分析判断，而 body exists 则是一个 synthetic one。因为 I exist 就是“我思故我在”，可以理解为他在这里有所继承。当你这样说的时候，它就是一个分析判断。这里还涉及 I 与先验统觉本身的问题，先不展开。
+
+我们在这里还是要理解第一版中的说法：a body exists，即一个东西存在，是一个综合判断。因为你从先验统觉里没有办法得出任何 body，得不出 outside 的 body。所以当你说一个 body 存在时，它就是一个 synthetic one。这里的主词其实不是 body，而是你的先验统觉。先验统觉认识到 a body，应该说是 I know a body exists。这句话其实是一个综合性命题：I know，我知道 a body exists；你从 I know 或 cogito、从我思当中，是没有办法推出有一个物体存在的。所以它是综合的，是外部的一个东西。
+
+康德在正文里没有拿这种比较容易出争议的东西。他说，因为我不需要走出这个概念，不需要走出我与 body 这个词结合起来的那个概念，以便发现 extension 与它相连；然后再把 extended、extension（广延）这个概念和它联合、结合起来。我只需要分析这个概念，也就是说只需要意识到 the manifold that I always think：当我总是思考 body 的时候，我总会思考到那个杂多（the manifold）里面的多样性、多种多样的丰富的东西。In order to encounter this，这样我就可以在思考 body 这个概念的过程中遇到这个谓词，遇到 extend、extension，遇到广延。It is therefore an analytic judgment：因此它是一个分析判断。
+
+其实康德在这里过于自然主义了，或者说他过于依赖一个先验的谓词体系；其实不是这样的。All bodies are extended，其实远远不是这样。因为在拉康那里，他会告诉你，有很多 body 并没有一个完整的想象性图示，所以它是 partial object；很多 object 是 partial object，它不是 extended，不是广延性的，不是在三维空间里可以延展的。但它们还是会被我们人类识别为某种 kind of body，还是会被看成 body。
+
+与之相反，如果我说 all bodies are heavy，所有物体都是重的，那么谓词就是某种完全不同的东西。康德认为 body 是一个先验的图示，一个图示；这个图示包含它的几何结构，包含一种空间上的延展性。而当你说是重的时候，重就不一定了，它可能飘在里面，没有重量。你在想象、分析 body（物体）这个概念的时候，会发现遇不到它、遭遇不到它、看不到它。但这个时候你理解的 heavy 已经是一个后天概念；在康德那里，heavy 被看成后天概念。所以这个命题就是一个综合命题。这个谓词是某种完全不同于 that I think in the mere concept body in general 的东西，完全不同于我在一般意义上的物体概念里所能想到的东西。The addition of such a predicate thus yields a synthetic judgment：给 body 这个主词增添 heavy 这么一个谓词，就需要一个综合判断。
+
+从这一点可以清楚地得出：通过分析判断，我们的认识根本没有被放大（our cognition is not amplified at all）；我们的认识没有被丰富、增添或增补。But rather the concept which I already have is set out：只是我已经拥有的这个概念被 set out，被展开、被布置出来，and made intelligible to me，使这个概念对我来说变得可思考。通过分析命题，我们使一个装配好的、有点令人困惑、含混的概念变得可以理解；我可以条分缕析地把它理出来。它本来是一团乱麻，我把它一条一条捋出来，这就是分析判断。
+
+That in synthetic judgment：而在综合判断里，我必须（I have must in addition）——这里既可以说“必须”，也可以说“我一定是已经”——给主词概念增补了 something else，某个未知的东西；这里用一个 X 来表示，增补了某种不属于这个主词概念的东西。On which the understanding depends in cognizing a predicate：知性在认识一个谓词的过程中，就依赖于这么一个 something else，依赖于这个 something else。
+
+它依赖的那个东西，并不存在于概念本身之中，不存在于原本的主词概念之中，也不是从属于它的。That does not lie in the concept, as nevertheless belonging to it\. 在经验判断或经验性判断那里，In the case of empirical judgment or judgments of experience, there is no difficulty here，并没有什么困难。举例来说，在经验判断，或者说关于经验性的判断、由经验构成的判断中，就没有什么难度。
+
+B 的注释我就不看了，以免浪费时间。For this X is a complete experience of the object that I think through some concept：这个 X 是通过某个概念所思考的对象的完整经验，是对于这个对象的完备经验。也就是说，我通过某个概念 A 所获得的那个经验，which constitutes only part of this experience，只构成这个经验的一部分。X 是对这个物体的完整经验，包含所有经验的可能性；但我只是通过概念 A 来体验它、思考它，所以 A 只能构造起这个经验的一部分。
+
+尽管我并没有在一般意义上的物体概念中把重量的谓词包含进去，但这个概念 that nevertheless designates a complete experience through a part of it：它仍然通过自身的一部分指称一个完整的经验。body 这个概念仿佛是预先张开的一张网，它可以指称对 body 的所有经验；因此它是敞开的，不是闭合的，我可以往里面添加东西。于是，add still other parts of the very same experience as belonging to the former：我可以把同一个经验的其他部分，即仍然属于对 body 的经验的那些部分，增补进去，归属于前一个部分。尽管 body 这个概念里不包含 weight，不包含重量，但我对 body 的经验是完整经验，可以是完整经验。通过 body 这个概念只能达到经验的一部分，而这一部分不包含 weight。这时我可以通过 weight 这个谓词，把另外一部分包含到同一个对象、同一个对物体的经验里面；这样它就会属于前面那个部分，被增补进去。
+
+我可以首先以分析的方式，通过广延的标记来认识物体这个概念。比如广延、不可侵入性，即物体有边界，没有办法被刺穿，也没有办法透过它看；物体概念代表它有外部轮廓，是 impenetrability，也是 body 这个概念的分析性规定，of shapes，还有形状等等。康德认为，广延、不可侵入性、形状都是 body 的分析性属性，是可以通过分析的方式从概念中判断出来的；which are all thought in this，这些东西都在这个概念中被思考到。这是第一步：我们可以分析性地从 body、物体这个概念中得出这些东西。
+
+但现在我要丰富我的认识。And in looking back to the experience from which I had extracted this concept of body，我要回过头去看那个完整的经验；我之所以能够拥有 body 这个概念，是从那个完整经验中提取出一部分，才得出 concept of body、物体这个概念。但这个完整的物体经验中，不仅仅有物体这一个概念，还可以从中产生其他概念。I find that weight，我后来发现，重量也总是连接在前面那些标记，the previous marks 里面。Experience is therefore that x that lies outside the concept A：因此，经验可以看成是一个 X，一个未知的、丰富的 X，即 manifold，它处在概念 A 之外；而把重量谓词 B 和物体概念 A 连接起来、综合起来的可能性，就奠基于这个 X 之上。因为这个经验本身是一个完整的 complete，我们预设它是完整的。
+
+concept A 只是这个经验当中的一部分。因为它是一部分，所以我可以回到这个经验再去看看，又会发现另外一个 weight：总是 A，总是 body，总是有 weight；绝大部分 body 总是有 weight 的，所以就可以把它拼到一起。But in synthetic a priori judgment，在先天综合判断里面，前面那些都是经验判断，你要回到 experience，一个完整的 experience，依赖这个未知的 X，来丰富一个从 X 当中提取出来的、比较 partial、单薄、偏狭的 concept A。但是，如果我不借助 experience，那这个时候就是先天综合判断了。
+
+在先天综合判断里，this means of help is entirely lacking：这种帮助方式完全缺失，没有经验过来帮助你。If I am to go outside concept A，如果我要走出概念 A，去认识与它结合的概念 B，那么我究竟依赖什么、通过什么来使这种综合成为可能？在经验判断里，我依赖的是一个完整的 complete experience；但在先天综合判断里，完全不是这种有经验的情况。我可以依赖的是什么呢？我可以通过什么使这种综合判断变得可能？Since I here do not have the advantage of looking around for it in the field of experience，因为我这时没有那个优势、便利或有利条件，可以到经验领域里四处寻找这样一个东西。
+
+Take the proposition，Everything that happens has its cause，也就是：一切发生的事情都有其原因。In the concept of something that happens，在“正在发生的某事某物”这个概念里面，I think to be sure，非常确定的是，其中包含 existence which was preceded by a time：某个事情在发生，它当然有一个存在，并且它当然是 preceded by a time，肯定是被一个时间所先行的；也就是说，这个东西发生之前肯定是有时间的。which was preceded by a time，它是在一段时间之前就发生的。由此可以得出一些分析性的命题。Everything that happens 里面肯定包含 something that happens，它之前肯定 happens in time，肯定是 was preceded。这里的 was preceded by a time，不能简单地翻译成“被一段时间所领先”；它有一段时间先发生，然后 existence 再发生，好像只能这样翻译。of existence which was preceded by time，就是这个已经发生了一段时间的存在。
+
+从 something happens、发生的某物这个概念里，我们可以得出一些分析判断；但“原因”这个概念则预设了另一个不同于已经发生之物的东西。“发生的某物”只和什么东西产生关系呢？它这个概念里只有 something、existence、time，即某物、存在、时间，可能还有 persistence，也就是持续性等等；但它没有另外一个东西，这个概念里不包含另外一个东西。如果你要把它并入一个因果性网络，它就要包含某种 other things：它有原因，代表另外一个东西；它还要有因果性 causality，有两物之间的激发关系，A 激发 B。这些东西都是 something that happens 这个概念里所没有的。它指示的是某种不同于“发生的某物”的概念，and is not contained，并不包含在 the latter representation at all，在后面的这些表征中根本不包含。
+
+那这个时候我怎么能说 something quite different about that which happens in general？关于一般意义上的“发生的某物”，我怎么能够说出某种相当不同的东西？我怎么来对它说一些不同的东西，怎么来扩充它？我没有资格扩充它，也没有资格对它加以综合。And to cognize the concept of cause as belonging，我也没有资格把原因概念认识为从属于“发生的某物”这个概念的东西；这里的 cause 既可以翻译成“原因”，也可以翻译成“引发”，它好像属于、从属于 something that happens 这个概念，even though 我甚至不能说它包含于其中。那么，what is the x here on which the understanding depends？在这里，知性要依赖的那个 X 是什么？知性所依赖的就是那个未知数。
+
+为什么康德把这个X写成这个X？其实这就是他的思考过程：这个X——我现在还不知道它究竟是什么——它依赖知性；在先天综合判断里，它依赖的到底是什么呢？When it believes itself to discover beyond the concept A，当它相信自己可以发现超出概念A的一个谓词。这个谓词是陌生于概念A的、外在于概念A的，and that is yet，但它仍然和概念A关联在一起。
+
+这个时候，我们没办法到经验里面把这个X说成“complete this experience”，没办法。那你这个时候这个X到底是什么呢？It cannot be experience，它不可能是经验，for the principle that has been adduced as the latter representation。因为那个原则被引出的这个原理，它会把后一个表象representations加到前一个表象上。
+
+这样一种原理，not only with greater generality than experience，并不仅仅是比经验所能提供的更大的普遍性、更大的一般性than the experience can provide，but also with the expression of necessity。也就是说，你要说它不可能是经验，因为经验没有办法说“发生的东西一定有原因”。相对于“发生的东西一定有原因”这个原理，这个原理本身比所有经验都更具有一般性。That has adduced，把后面一个表征给到前面一个，就是把“原因”这个representation给到前面那个表征，即something that happens；把原因这个表征给到前面这个representations，其实就可以理解成那个predicate，把后面一个表征、有原因的原因、因果关系加到前面一个。
+
+这个原理——“凡是发生了的东西都有原因，都是处在因果性网络里面的”——它不仅仅是比经验所能提供的所有东西都具有更大的generality；这个原理的普遍性太强了，太general、太一般了，它是一个普遍原理。如果我们要去支持一个普遍原理，就不能去找那些不普遍的东西，因为经验并不能给我们那么强的普遍性。这个命题是个原理，它需要普遍性：“凡是发生了的东西都具有原因”，你用经验没有办法支持这一点，因为经验顶多一个一个地……你永远没办法得到全部，对不对？同时，经验只能得到特殊状况，没有办法得到这个generality、一般性。
+
+但同时，with the expression of necessity，经验也没有办法提供这种必然性。因为“一切发生的事物都有它的原因”这个原理，本身包含一种必然性：必然有它的原因。Hence entirely a priori and from mere concepts。因此，它完全是先天的；这种命题完全是先天的，这种判断是先天的判断，也是先天综合判断。但它到底对不对呢？它是先天的，仅仅从概念当中推出来的，不能从经验里面推出来。Now the entire final aim of speculative a priori cognition rests on such synthetic\.\.\. 所以，现在所有先天思辨认知的整个最终目的，就是去判断这样的先天综合判断是对还是错。
+
+也就是去判断这种ampliative、有增添性的、把概念扩大、扩充的、不仅仅是分析性而是扩充性的原理，看看它到底是对还是错。For the analytic ones are to be sure most important and necessary。因为那些分析性的原理或判断是很确定的、最重要的，也是最必然的。But only for attaining this distinctness，它只是用来获得概念的明晰性。所以分析性判断没有多大价值。它就像把衣服一件件脱下来，看你穿了几件，再穿回去，并没有给它穿上新衣服，了解吗？它是分析性的，只是把概念给你弄清楚，到底上面有哪些东西。
+
+但这种分析性判断是必要的，也是需要的；它是为了得到一个安全的、extended synthetic，它是出于安全。分析判断也是必要的。它对于一个安全的、还有一个真正扩大的……就是扩大概念范围的、扩大了的那些综合性判断，也是必要的，是为了在扩大概念范围的过程中，其他操作也是安全的。
+
+那么综合性判断才是真正的新的一种建构，a really new construction，really new construction；而分析性判断不是new construction。A certain mystery thus lies hidden here，这里藏着某个谜。你看后面the elucidation，这种阐明of what alone can make progress in the boundless field of pure cognition of understanding secure and reliable。就是说，这个谜要阐明的是：什么东西独自就可以产生进步；只要有了这个东西、阐明了什么，就可以产生进步。产生什么进步呢？就是在纯粹知性的认知运用中——这里的of其实应理解为“运用”，of the understanding——secure and reliable，就是那些安全的、可靠的、用知性进行的纯粹认知的那么一个boundless、无限的、没有界限的领地里面，我通过阐明什么东西就可以获得进步呢？这就是个谜：在纯粹知性认知过程中，它既要安全、可靠，又可以是无限地展开，那我把什么东西说清楚、讲清楚，我们就可以make progress、获得进步呢？
+
+就是这个谜，这个which指前面那个谜，就指那个namely。那么我可以说namely，也就是说to uncover the ground of the possibility of synthetic a priori judgments with appropriate generality。也就是说，我们要去uncover，解开遮蔽，去揭露这么一种可能性的基础。什么的可能性基础？就是先天综合判断的可能性基础，用一些合适的普遍性。先天综合判断是具有合适的普遍性的。我们要去……这里的with不是“uncover什么什么with”，不是的；这里的with是整个这个with，是修饰这个东西的。这个with appropriate generality，是用来修饰先天综合判断的，就是那些真正具有恰当普遍性的先天综合判断。康德很啰嗦，你这里就说“合法的先天综合判断”就行了，对的先天综合判断。他非要用个“具有合适的普遍性的先天综合判断”。就是说，这个谜就是我们要去揭露这种好的、对的、有效的先天综合判断的可能性的基础；也就这个谜就是要告诉我：什么样的先天综合判断是对的，它的标准是什么？
+
+其实，也就是说，他这个namely——康德真的是很啰嗦的一个人。他这里其实直接可以说：哪种先天综合判断是对的就行了啊？哪种不依赖经验的概念扩充是对的？就gain insight，我们就是要去获得洞见，获得洞见，就是看清楚gain insight，到里面去看清楚the conditions，那个条件，使得每一种这种具有恰当普遍性的先天综合判断变得可能的那些条件。我们要知道在什么条件下，这种先天综合判断就可能是对的、就是好的。
+
+Not merely，我们不仅仅要把它支撑起来；我们更要把这个entire notion标明、说清楚、designate出来，把它指称出来，把它写清楚。把整个认知活动以一种cursory、以一种非常草率的草案勾勒出来——我们不仅要用草率的方式勾勒，把整个过程标明出来，which comprises its own。它包含自己，包含自己的组成部分；那么一整个认知过程，里面包含了它自己的那个组成部分，comprises its own。而且要完整地把它弄清楚，determine it；determine其实可以翻译成“定义”，完整地定义清楚、界定清楚——这个翻译成“界定”比较好，因为“定义”一般翻译成define、definite、defined——我们要把这么一个认知过程完整地界定清楚，并且恰当地界定清楚，for every use in the system，在一个体系里面的每一种使用情况都要把它界定清楚。它是in accordance with its primary sources，符合于它的首要来源——它从哪里来？accordance其实就是determine it in accordance；这里的in accordance with是跟determine搭配的。我们要按照它的首要来源、它的区分、它的论域和它的边界、界限，来把先天综合判断所可能的条件界定清楚，并且恰当地加以界定。
+
+那么去界定它在每一种使用当中，every use，在每一种、一个体系里面的使用当中，so much provisionally for the peculiarity。所以，暂时地，我们就讨论到这里，对吧？这里的意思就是说，我们暂时对于综合判断的这种特点，就讨论到这里；so much for it，这个东西我们就讨论到这里。Now from all of this, the result, the idea of special science。就关于前面这一切，导致了一个特殊的科学概念产生出来。作为康德，我产生了一个新点子：可以有一门新的科学、特殊科学，which could serve for the critical pure vision；它可以用来帮助纯粹理性批判，帮助纯粹理性进行批判。Every cognition is called pure。所有认识都可以被称为纯粹的。However, that is not mixed with anything foreign to it。也就是说，只要你的认识没有和外在于它、陌生于它的东西搞混，所有认识都可以被称为纯粹的。But a cognition is called absolutely pure。但是什么叫绝对纯粹？举个例子，所有认识都可以是pure的。比如你喝茶，品那个茶香，只要它很纯，没有和茶渣子的渣味混到一起，或者和你嘴里那颗金牙的金子的酸涩味混到一起——当然金牙、金子没有酸涩味；如果你感受到酸涩味，说明你被骗了，你镶了一颗黄铜牙。如果你喝茶时只感受到茶的香醇、茶的味道，能把舌头感受到的味道和鼻子闻到的香气等都区分开来，集中在那个pure cognition上面，那你就是pure的，就是pure cognition。这个在康德那里不值钱：只要没有混杂起来，都是pure cognition。但是，一个认识被叫做绝对纯粹，尤其是in which其中没有经验、也没有感觉，根本没有经验和感觉混在里面的时候，这时才叫绝对纯粹，absolutely pure。它这时只有概念，只有符号性的、内在概念性的、范畴性、符号性的这些cognition。那么它就是完全先天的，这种认知就是完全先天的。
+
+于是产生了一个特殊科学的概念。我作为“点子王”康德产生了一个新点子：可以有一门新的特殊科学，它可以用来帮助纯粹理性批判。每一种认识都可以被称为纯粹的——只要这种认识没有和外在于它、陌生于它的东西搞混，那么所有认识都可以被称为纯粹的。但一个认识要被称为绝对纯粹，得举个例子来说：比如你喝茶，品茶的茶香，只要它很纯，没有和茶渣的渣味混在一起，或者和你嘴里那颗金牙的金子的酸涩味混在一起——当然，金牙、金子并没有酸涩味；如果你感受到酸涩味，说明你被人骗了，镶了一颗黄铜牙。如果你喝茶时只感受到茶的香醇、只感受到茶的味道，并且能把舌头感受到的味道和鼻子闻到的香气等东西都区分开来，只集中在那个纯粹的cognition上，那你得到的就是纯粹的cognition。这在康德那里并不值钱：只要没有混杂起来，都是pure cognition。
+
+但是，他说，一个认识被称为绝对纯粹，尤其是当其中没有经验、也没有感觉混在里面的时候，这时才叫绝对纯粹（absolutely pure）。这时它只有概念，只有符号性的、内在概念性的、范畴性的cognition。因此它是完全先天的；这种认知只能被符号性语言把握，不能被经验把握。这种符号性语言都具有普遍性。Now, reason is the faculty that provides the principles of cognition a priori。
+
+所以，理性（理智）现在被康德看作这样一种官能、一种能力：它提供先天认识的原则。先天认识是被谁安排的？被理性安排的。Principles of cognition a priori——它为先天认识提供原则，也就是为它订立法度，或者说安排先天认识。Hence, pure reason，因此，纯粹理性就是包含一些原理的那种能力，这些原理用来认识某些绝对先天的东西；而绝对先天的东西不包含经验，也不包含感觉。
+
+那么，纯粹理性就包含了如何组织、安排这些绝对先天认知的原则。An organ of pure reason，纯粹理性的一种工具论——organon——这种工具论将会成为一个新学科，即纯粹理性的工具论；它将是一个总和（sum total）。什么总和呢？就是那些用来安排绝对先天认知过程的原理的总和。按照这些原理（in accordance with which），所有纯粹先天认知才能被获得；只有按照这些原理，你才能获得这些纯粹先天认知，并且事实上把它们得出来、产生出来。The exhaustive application of such an organon would create a system of pure reason。我们穷尽地应用这样一种工具论、这样一种方法论，就可以推导出、建构起一个纯粹理性的体系，把纯粹理性的原理全部列出来。
+
+我把这些原理的总和（sum total of those principles）全列出来，然后在各种情况下、各种先验的纯粹先天判断中，把它的各种用法都罗列清楚。这时我就建构了一个纯粹理性的系统、一个体系。But since that requires a lot，它需要很多；and it is still an open question whether such an application of our cognition is possible。
+
+这仍然是一个开放性的问题：对我们的知性作这样一种扩展，到底是不是可能的？它到底是不是可能的？以及它在什么情况下才是可能的？
+
+我们这时就可以考虑（regard）去建构这样一种科学、一种学科：它完全是一门评估（mere estimation）纯粹理性的科学。我们可以思考有一门科学是用来评估纯粹理性的，评估它的来源和界限（of its sources and boundaries），看纯粹理性的来源是否干净、它的界限到底在哪里。它作为纯粹理性体系的一个预备、一个入门（as a prelude to the system）。
+
+也就是说，当我们先构造整个纯粹先天的、不经过经验的那些判断、那些认知时，我们需要纯粹理性的所有原则为它提供原则。我们把这些原则搞清楚、搞出来，这时就可以建构一个纯粹理性的体系。但是，我们现在还不知道这个纯粹理性体系弄出来之后到底有没有什么用，因为我们现在还不知道先天综合判断到底是不是可能的，也就是我能不能拓展那些概念。我能不能把不属于概念A的另一个概念B，不借助经验地拓展进去？这个游戏到底能不能玩？我不确定。
+
+那我们这时就可以先搞一个评估、一种评估法，去判断这种纯粹理性本身：它的材料、它的sources、它的来源，或者说它的信息源——我们从哪里获得纯粹理性？或者说，关于纯粹理性里面的那些东西，它的界限是怎么样的？我们可以建构这样一门学科，它是纯粹理性体系的一个前置学科，看我到底能做到怎么样：它的材料是哪些？是不是真的是先天的？是不是合法的？然后加以评估。然后看它的界限：纯粹理性用到哪里就算越界，就错了、不对了；用到哪里就有问题，就不能这样用。
+
+我们就既可以搞出这样一门学科。而这样一个东西不会是doctrine（教条），它不是一个教条，而必须被叫做“纯粹理性批判”。这时就告诉你纯粹理性批判是什么：纯粹理性批判就是这个东西，critique of pure reason，就是我判断你纯粹理性的来源和你的界限在哪里。它针对的是这样一种纯粹理性：它自称为那种完全不依赖经验的认知立法。它本身的来源、它所立的原则、它自己运行的模式和准则是什么？它的界限在哪里？这门学科叫纯粹理性批判，and its utility would really be only negative。
+
+它的有效性只能是否定性的：我只能给你设立界限，只能说你这个不行、那个不行，这不行、那不行。我不能作肯定性的断言；也就是说，它不能成为教条。如果它是教条，就会说这个可以、那个也可以，那不就成了教条吗？它只能说：你这不普遍，这个涉及经验，这个自相矛盾。所以它是纯粹否定性的，它告诉哪些来源是不合法的，哪些边界是不能逾越的。它不是服务于应用；纯粹理性批判本身并不是用来扩展概念的，并不是用来得出先天综合判断的，它没有资格。
+
+纯粹理性批判不是用来得出先天综合判断的；先天综合判断属于纯粹理性本身那个体系、思辨体系的。纯粹理性批判只是前导性的、预备性的学科，所以它本身并不能扩展纯粹理性，而只能用来纯化我们的理性，使它免于错谬。by which a great deal is already won：通过它，我们已经获得了很多，已经赢得了很多东西。
+
+I call cognition transcendental that is occupied not so much with objects but rather with our a priori concepts of objects in general。我把那些认识称为先验认识（transcendental）：它们所关注的与其说是对象，不如说是我们关于一般对象的先天概念；或者说，它们是被我们关于一般对象的先天概念所占据的那些认识。也可以叫超越性的认识。
+
+它是能够从关于对象的认识当中超越出来，超越到一个先天概念，即关于这些一般对象的先天概念，超越到那个维度上去，所以叫做transcendental。transcend是飞升的意思（灵能飞升），transcendental就是指超越性的。不过我们在哲学里面一般把它翻译成“先验”；a priori一般翻译成“先天”，而这个我们把它翻译成“先验”，或者叫“超验”；翻译成“超验”更好，因为它超越于经验。
+
+因为在感性经验里面，一般都被objects、被对象，或者被一些sensations、被experience所占据。但我们要超越于这个，来获得一些先天的、不依赖于经验、没有经验的概念。那么是从什么东西超越出来呢？是从那个一般的物体——in general，这里in general是修饰objects的——从这一类、这一类对象当中去获得这种a priori concepts。然后，完全由这种先天概念所构成的这些认识，就叫做先验认识。
+
+所以，当你们说先天的认识（cognition a priori）时，我们只是说这个认识怎么样呢？它是和经验没有关系的，这是一种否定性的说法。当然，我们说先验认识的时候，这是一种肯定性的说法。它指的是同一种东西，我们甚至可以说它们指的是同一种东西；但又不太一样，因为cognition a priori（先天认识）里面还可以包含直观性的东西，而cognition transcendental里面只包含concepts，只包含概念性的东西，它处理的就是概念性的东西。
+
+所以这个东西你可以把它看成一个后台的、程序背景里写的代码：cognition transcendental就可以理解成写好的程序性代码、背景性的代码。然后a system of such concepts would be，由这些概念所构成的一个体系将会叫做先验哲学。由这些概念构成的一个系统、一个体系，就是先验哲学；先验哲学其实就相当于我们对于这个世界感知背后的那个代码库，或者正在跑的那个程序。
+
+But this is again too much for the beginning。但是，这个东西在一开始说太多了，我在这里不应该讲这么多。
+
+这样一门科学一开始没有办法直接得到，一开始讲它还是太多了；我们还是先搞纯粹的批判。因为先验哲学这样一个领域——胡塞尔后来其实把它做完了——transcendental philosophy 将会完全包含分析性的以及综合性的先天认识，也就是与经验无关的先天认识。就我们的目的而言，这些分析性的东西比较好搞，但综合性的东西就得一个个来，得一个个用纯粹批判去加以梳理，很难。
+
+就我们的目的而言，这门科学在范围上太广泛了。我们只需要在不可或缺、必然的限度内进行分析，以提供对先天综合原理的洞见。也就是说，我们要分析那些概念中绝对不可或缺、不可避免、必然的东西；分析的目的，就是对于先天综合原理在其整个范围内提供一定的洞见。
+
+我先要看清哪些是不可或缺的认识，先对它们加以分析，把基本概念一条一条弄清楚。弄出来之后，我才能去看那些先天综合判断，比如因果性的判断——一切事物都有原因，一切正在发生的事物都有原因。对于这类判断，我得先把原因、事物正在发生的时间、相互作用关系，以及诸如此类的次序性等概念都分析清楚，然后才能判断它们的综合是否合法。对不对？这正是我们所关心的。
+
+后面这些先天综合判断、综合性认识，其实才是我们真正要关注的。但要判断这些先天综合认识本身对不对，我得先把分析性的工作做好。你们理解了吗？不把分析工作做好、不把这些东西条分缕析，我怎么知道它综合的东西对不对？中间会不会出矛盾？会不会跨越界限？不过，真正唯一的任务还是那些先天综合判断，this investigation（这一研究）。因为先天综合判断可以得出新知识，而分析判断没有办法得出新知识，先天综合判断则可以。
+
+所谓分析判断，就像说“对方是我的同桌”“对方跟我同班”“对方跟我一块上语文课”“对方中午跟我在食堂一块吃饭”——这些都是分析性的判断。什么是综合性判断呢？综合性判断是“对方对我有好感”“对方很愿意和我一块放学回家、走一条路”“对方喜欢我”。前面那些分析性判断没有太大的意义，但你不把它分析清楚，就没有办法得到综合判断。你没有办法看出对方到底是喜欢我，还是对方只是一个爱笑的女孩、见谁都笑。如果你把这个一分析，就会发现“对方对我笑，所以对方喜欢我”这个综合判断有点问题，了解吗？所以，你先要把一个概念里可能包含的所有属性、所有规定性都分析清楚，然后再看它综合的时候是不是真正意义上的综合，它的综合是不是合法，有没有自相矛盾的地方。比如这几个概念相互之间，如果分解到最后，会发现大A这个概念分析到最后有一个小A，大B这个概念分析到最后有一个小B，而小A和小B互相冲突，所以大A和大B不能连接。但是你先要分析，然后再看它们其他综合是不是合法。我有点啰嗦了，不好意思。
+
+那么这种研究——which we can properly call not doctrine——我们可以非常正当地说，它不是一种教条，而是一种先验批判。since it does not aim at the amplification of the\.\.\.，它并不致力于让认识活动本身得到增补或扩充、变得丰富，也就是不致力于综合；它的目的并不是去丰富它。这里说的是导论性的《纯粹理性批判》，而不是后面要搭构整个先验哲学体系的那个东西。它只是致力于纠正错误：你什么时候弄错了，我帮你纠正出来；and is to supply the touchstone of the worth or worthlessness of all cognitions。它致力于提供一个试金石，告诉你所有先天认识当中，它到底是值得还是不值得，是对还是错。is that with which we are now concerned——我们现在关心的就是这个，现在这本书里讲的就是这个东西。such a critique is\.\.\. 那么这样一个批判，accordingly，是一种 preparation，只是一种准备工作。
+
+你看，《纯粹理性批判》八百页全是准备工作。如果可能的话，它是一种工具论，是对于工具论的准备工作；对于工具论本身，它还是个准备工作。And if this cannot be accomplished，如果它不能被完成的话，那么至少对于 canon，也就是至少作为一个准则。如果说它被准备好了，它是什么？For an organon，它就是一个推理法，可以以此为标准去推出所有的东西。也就是说，这种批判是一种准备性工作。这里的 possible 不是指这个批判是可能的——批判绝对是可能的——而是说，如果有可能的话，我们可以搞个推理法出来，去推那些先天综合判断。
+
+organon 就是推理法，它可以推先天综合判断。如果这种推理法是有可能的话，那么这个批判就是对于这个推理法的一个准备性工作。如果没有办法完成这种推理法，推理法就是生产性的，是产生先天综合判断的那种推理法。我有点觉得不可思议：怎么可能有这种东西呢？现象学就是 organon，后来的现象学就是那种 organon。但是，如果说这种 organon 不可能——如果那种不停生产出先天综合判断的逻辑体系、学科体系是不可能的话——那么这个批判至少是一种准备性工作。是什么的准备性工作？是一个 canon，是一种准则的准备性工作，是一个用来作为标准的准备性工作，就是为了排除掉什么东西不是、什么东西不是。In accordance with\.\.\.
+
+which\.\.\. complete the system of\.\.\. whether it is\.\.\. 那么要按照这个准则，也就是 canon。canon 这种准则指的是否定性的意思，就是用来表明什么东西不是合法的；它就是那个原则、准则、标准，是一个判定标准。它至少是一个判定标准的准备工作，《纯粹理性批判》至少是判定标准的准备工作。那么按照这种判定标准，整个纯粹理性哲学的一个体系，无论它是用增补或扩充的方式构成的，还是仅仅用限制认识界限的方式构成的，can in any case at least someday be exhibited both\.\.\. 也就是说，依照 canon 这个准则、这个标准，就可以判断一个纯粹理性的哲学体系，在每一种情况下，至少在某某一天，可以被表明它既是分析的也是综合的。这很绕；下面这一整段都是用来解释 canon 到底是什么。
+
+canon 就是：依据 canon，一整个纯粹理性哲学的完整体系，无论它是由增补、也就是由综合性的东西构成的，还是由 mere limitation 构成的——这里 amplification 更好翻译成增补性的，意思就是肯定性地给出一些新东西——还是它仅仅是限制。这里的 it 应该还是指 philosophy of pure reason，complete system of philosophy of pure reason，也就是由对认识的限制来构成的。它在任何情况下，至少在某某一天，都能够按照 canon 被展现出来，是分析的或者是综合的。
+
+或者是综合的。我真是累死了。其实这个手册——或者说《纯粹理性批判》——可以看成一个手册的准备性工作。这个手册就是用来判断所有的纯粹理性哲学体系：到底可以把它们以分析的方式展现出来，还是以综合性的方式展现出来。for that this should be possible。如果我们要让这种成为可能，如果这样一个体系要是可能的，它就不应该在范围上太大。
+
+对于我们来说，在我们的视野内、在我们的见识眼界内，它不应该太大，不应该大到我们完全没有能力去期望完整地完成它。not to be too great for us to hope。can be assessed in advance from the fact that our object is not the nature of things。我们的对象不是事物的本性，那它可以怎么样呢？就是说，如果可能的话，这个体系不能太大；这么一个纯粹理性的哲学体系不应该太大，不应该大到我们没有办法期盼自己有能力完整地完成它。
+
+那么，for that this should be possible，这里的 can be 是连前面的 that：for that can be assessed in advance from the fact that our object is not the nature of things which is inexhaustible。就是说，这可以被预先评估：这个体系是不是没有那么大的？它确实没那么大。这一点可以被这样评估出来，就是这样被预先确定、评估下来。为什么它没那么大呢？
+
+因为我们的对象——这个纯粹理性哲学的完整体系的对象——不是事物的本性。事物的本性是不可穷尽的，而是知性对事物本性加以判断；and this in turn only in regard to this，反过来，它只是关于事物本性的先天认识。the supply of which, since we do not need to search for it externally，这种先天认识的获取，我们并不需要到外部去寻找、搜寻；它不可能对我们隐藏起来。and in all likelihood is small enough，也就是说，在所有的可能性里，它都足够小，可以被记录下来。
+
+它可以被完全记录下来。它的价值或无价值是可以评估的，我们就可以评判它是对还是错、是值当还是不值当，也就是它是合法的还是不合法。这里的 worth 不要翻译成“值还是不值”，而是指它是有益的还是无益的，是对的还是错的。简单来说，就是 subjected to correct appraisal。这是什么意思？就是一个评估。因为纯粹理性的哲学的完整体系并不是针对外部事物的——外部事物是不可穷尽的——而是针对我们知性中的那些概念、范畴及其相互关系。
+
+这些概念范畴只是用来判断事物的本性。所以这个体系是有限的，我们不需要向外求；它不能对我们隐藏，在我们的意识里面是澄明的。它是足够小的，我们可以完成它，可以把它全都记录下来，把其中的关系穷尽。这个体系中的东西是对还是错、是可能还是不可能、是好的还是坏的，我们都可以加以评估，然后我们可以把它置于 subjected to correct appraisal 之下，也就是让它听从正确评估法则的话。它是 subject，臣服于这样一个正确的评估法。这个正确的评估法就是《纯粹理性批判》。
+
+好了，那我们这里就讲完了。我们下一次讲 division of transcendental philosophy，也就是先验哲学的不同部门、它的内部划分，它可以分成哪些部分。我们下次讲这个。

@@ -1,0 +1,42 @@
+{
+  "model": "qwen-audio-3.1-asr-flash",
+  "audio_sha256": "fea0a19ba3c9496eee165bfb22e02a4bc7284eeca75bfef661e40839e9986934",
+  "chunk_seconds": 240,
+  "speaker_diarization_enabled": true,
+  "sample_rate": 16000,
+  "version": 1,
+  "source": "asr-cloud",
+  "duration_seconds": 922.3805,
+  "segments": [],
+  "usage": [],
+  "speaker_ids_are_chunk_local": true,
+  "untranscribed_intervals": [
+    {
+      "start": 0,
+      "end": 240,
+      "reason": "provider_returned_no_words",
+      "evidence": "chunk-0000.json"
+    },
+    {
+      "start": 240,
+      "end": 480,
+      "reason": "provider_returned_no_words",
+      "evidence": "chunk-0001.json"
+    },
+    {
+      "start": 480,
+      "end": 720,
+      "reason": "provider_returned_no_words",
+      "evidence": "chunk-0002.json"
+    },
+    {
+      "start": 720,
+      "end": 922.3805,
+      "reason": "provider_returned_no_words",
+      "evidence": "chunk-0003.json"
+    }
+  ],
+  "requires_review": true,
+  "timed_exports_available": false,
+  "text": ""
+}

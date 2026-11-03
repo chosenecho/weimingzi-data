@@ -1,0 +1,757 @@
+# 【批判德勒兹】差异与重复（更新中，但是不确定我能忍受这种恶心忍受多久）：校验参照稿件
+
+AI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。
+
+修订：`226d1ea616df1f8f854c8261ffe3b143afa5732760f1b30d821be445fdd431d7`
+
+输入快照：`0b58552f80570fb4432da1691f83a726aa65363802c84b7bd6f1ff8beef865b7`
+
+模型：`deepseek-flash`；思考：`high`；top_p：`0.95`
+
+规则：`readable-prose-v2`；模板：`ai-draft-v1`
+
+基础转录：`2141`；参考转录：`3131`
+
+## 段落 1：00:00:02 — 00:00:45
+
+来源：`t2141:s0`, `t2141:s1`, `t2141:s2`, `t2141:s3`, `t2141:s4`, `t2141:s5`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=2)
+
+原文：就有有人说我他妈读不懂什么德勒兹，我醉了，我他妈的，我们直接来看一看这德勒兹的那个什么差异与重复啊，我看英文版好了。他说indifference has twoaspect，第一章difference in itself啊，差异本身，他要把差异做成一个本体论结构的差异，他用差异本身就相当于差异本身是那种啊规定性的。他说difference has twoaspect，它相当于这个差异相当于在黑格尔体系里面就是规定性啊。Indifference has twoaspect，他说就是这种非差异，就是无关性啊，就这种indifference
+
+整理稿：有人说我他妈读不懂德勒兹，我真是醉了。我们直接来看德勒兹的《差异与重复》，我看英文版好了。他说“difference has two aspects”，第一章是“Difference in Itself”，也就是差异本身。他要把差异做成一种本体论结构上的差异；他用差异本身，就相当于说差异本身是那种具有规定性的东西。这个差异相当于在黑格尔体系里就是规定性。然后他说“indifference has two aspects”，讲的就是这种非差异，也就是无关性、indifference。
+
+- 疑点：开头引文 ASR 作“indifference has two aspects”，但后文又出现“difference has two aspects”；结合第一章“Difference in Itself”，正文按“difference has two aspects”处理。；候选：difference has two aspects；依据：t3131:s5, t3131:s9
+
+## 段落 2：00:00:45 — 00:02:27
+
+来源：`t2141:s6`, `t2141:s7`, `t2141:s8`, `t2141:s9`, `t2141:s10`, `t2141:s11`, `t2141:s12`, `t2141:s13`, `t2141:s14`, `t2141:s15`, `t2141:s16`, `t2141:s17`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=45)
+
+原文：我就不翻译了啊，我就翻译我就说i n d i f f e r e n c e，i n d i f f e r e n c e有两种，有两个方面，一种是那个未差分化的深渊，那这就很很明显是晚期谢林的那个深渊未差分化的t h e b l a c k n o t h i n g n e s s，那个黑的n o t h i n g n e s s，晚期谢林的那个a b y s s或者a b g r u n d，呃t h e i n d e t e r m i n a t e a n i m a l i n w h i c h e v e r y t h i n g，还有第二种啊不是，哎呦我就觉得很奇怪，就是德勒兹的这个观念论体系跟大家不太一样啊，他就说有一个是，然后这是动物性啊，这是动物性，是一个未被决定的动物，在其中所有事情都消解了，可能这个动物的解释你你不要把理解成是那个动物啊，这个动物是黑的未差分的未差分化的深渊，这个动物不是真正的动物，这个动物指的是原初主体，但是它的主体性尚没有主体化，尚没没有符号化的主体性出来，这个相当于就是那个谢林那边的那个那个原初主体啊，谢林那边那个原初主体就是比上帝还要原初的那个，但是他说它是一个i n d e t e r m i n a t e，未被规定的不被规定的一个动物也对的，i t's r i g h t，因为那种状态它就是在m a d n e s s里面，在疯狂里面，在其中一切都被消解了，呃这有点问题，就是说德勒兹的这个起手式在这里有点问题，因为在晚期谢林那边它不是一切都被消解了，而恰恰是在里面e v e r y t h i n g i s在快速循环，无脑循环啊，不是d i s s o l v e d，它没有d i s s o l v e d，b u t a l s o t h e啊那么好的这种i n d i f f e r e n c e，还有另外一种就是t h e w h i t e n o t h i n g n e s s，白色的无w h i t e n o t h i n g n e s s就是一个符号化下面的一个空虚啊，呃t h e o n c e m o r e c a l m s u r f a c e u p o n w h i c h f l o a t u n c o n n e c t e d d e t e r m i n a t i o n s l i k e s c a t t e r e d n u m b e r s，它是一个一个o n c e m o r e一而再出现的c a l m s，o n c e m o r e c a l m s u r f a c e u p o n w h i c h，呃一个平平静的一个表面，在这个平静的表面上那些浮动的未加连接起来的规定性。indifferenceindifference有两种有两个方面一种是那个未差分化的深渊那这就很很明显是晚期谢林的那个深渊未差分化的the black nothingness那个黑的nothingness晚期谢林的那个abyss或者abgrund呃the indeterminate animal in which everything还有第二种啊不是哎呦我就觉得很奇怪就是德勒兹的这个观念论体系跟大家不太一样啊他就说有一个是然后这是动物性啊这是动物性是一个未被决定的动物在其中所有事情都消解了可能这个动物的解释你你不要把理解成是那个动物啊这个动物是黑的未差分的未差分化的深渊这个动物不是真正的动物这个动物指的是原初主体但是它的主体性尚没有主体化尚没没有符号化的主体性出来这个相当于就是那个谢林那边的那个那个原初主体啊谢林那边那个原初主体就是比上帝还要原初的那个但是他说它是一个indeterminate未被规定的不被规定的一个动物也对的it's right因为那种状态它就是在madness里面在疯狂里面在其中一切都被消解了呃这有点问题就是说德勒兹的这个起手式在这里有点问题因为在晚期谢林那边它不是一切都被消解了而恰恰是在里面everything is在快速循环无脑循环啊不是dissolved它没有dissolved but also the啊那么好的这种indifference
+
+整理稿：Indifference 有两种。第一种是未差分化的深渊。这很明显是晚期谢林所说的深渊，是“the black nothingness”，那个黑的 nothingness，是晚期谢林的 abyss 或 Abgrund，是“the indeterminate animal in which everything\.\.\.”。这里说的动物性，是一个未被决定的动物，在其中所有事情都消解了。你不要把这个动物理解成真正的动物；这个动物是黑的、未差分的、未差分化的深渊。它指的不是真正的动物，而是原初主体。只是它的主体性还没有主体化，还没有符号化的主体性出来。这相当于谢林那边的原初主体，那个比上帝还要原初的东西。但他说它是一个 indeterminate，一个未被规定、不被规定的动物，这也是对的。因为那种状态就是在 madness 里面，在疯狂里面，在其中一切都被消解了。不过德勒兹的这个起手式在这里有点问题。因为在晚期谢林那里，并不是一切都被消解了，而恰恰是在里面 everything is 在快速循环、无脑循环；不是 dissolved，它没有 dissolved。
+
+- 疑点：参考字幕在“因为晚期谢林那边”处识别为“在网线那边”，据上下文应为“晚期谢林那边”。；候选：晚期谢林；依据：t3131:s51
+- 疑点：引文“the indeterminate animal in which everything\.\.\.”在原文中未完整给出，正文保留省略号。；候选：；依据：t3131:s21
+- 疑点：末尾英文“but also the”未成句，正文未纳入。；候选：；依据：t3131:s57
+
+## 段落 3：00:02:27 — 00:02:50
+
+来源：`t2141:s18`, `t2141:s19`, `t2141:s20`, `t2141:s21`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=147)
+
+原文：还有另外一种就是the white nothingness白色的无white nothingness就是一个符号化下面的一个空虚啊呃the once more calm surface upon which float unconnecteddeterminations like scattered numbers它是一个一个once more一而再出现的calms once more calm surface upon which
+
+整理稿：另一种 indifference 是“the white nothingness”，白色的无，是符号化下面的一种空虚。它是“the once more calm surface upon which float unconnected determinations like scattered numbers”：一个平静的表面，在这个平静的表面上，那些浮动的、未加连接的规定性，就好像一些分散开来的数字飘在上面。
+
+## 段落 4：00:02:52 — 00:04:15
+
+来源：`t2141:s22`, `t2141:s23`, `t2141:s24`, `t2141:s25`, `t2141:s26`, `t2141:s27`, `t2141:s28`, `t2141:s29`, `t2141:s30`, `t2141:s31`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=172)
+
+原文：呃一个平平静的一个表面在这个平静的表面上那些浮动的未加连接起来的规定性啊，就好像是一些分分散开来的数字飘在那个上面，它是另外一种i n d i f f e r e n c e，a h e a d w i t h o u t n e c k，一个头却没有脖子，a n a r m w i t h o u t s h o u l d e r，这个东西就可可以理解成是个理念世界，但理念世界它是一个无动于衷的理念世界，但是实际上这些东西是短路的，你知道吗？实际上这些东西这这一种w h i t e n o t h i n g n e s s啊，在黑格尔那边的是对应世界之夜，在黑格尔在那边对应世界之夜，但它恰恰它不是w h i t e，i t's n o t w h i t e，但是可能在德勒兹的体系里面，他认为这个是带对应一种成名性吧，成名性，它直接的就是这些东西可以浮现出来，规定性可以浮现出来啊，有有一个头没有却没有脖子，一个手却没有肩膀，一个眼却没有眉毛，t h e i m m e t h e i n d e t e r m i n a t e i s c o m p l e t e l y d i f f e r e n t，这种未被规定、不被规定的，它是绝对的是i n d i f f e r e n t，它是无动于衷的，b u t s u c h f l o a t i n g d e t e r m i n a t i o n s，但是这些漂浮着的规定性呢，a r e n o l e s s i n d e t e r m i n a t e，它们互相之间也是无动于衷的，就是在等在理念的，它不是个等级制，不是个等级自治区，相当于说是一个这个东西相当于啥呢？就是我觉得就是德勒兹的本体论的框架预设的就是和晚期谢林和海德格尔都不一样，不太一样啊，不是太一样的，他会设想有一种i n d i f f e r e n t的状态，种不管了，反正他就这样说了嘛，他说就是在这个漂浮着的白色的虚无当中的这些这些规定性相互之间是怎么样？相互之间是无动于衷的，不管的呀，没有没有没有纠葛的，i t s d i f f e r e n c e i n t e r m e d i a t e b e t w e e n t h e s e t w o e x t r e m e s，那么他就问了，差异是否是在这两个极端当中的那个中介？是不是它的一个i n t e r m e d i a t e是它的相互的一个一个中介传递子或者怎么样的？或者说，o r i s i t n o t r a t h e r t h e o n l y e x t r e m e，t h e o n l y m o v e m e n t o f p r e s e n c e a n d p o s i t i o n，或者说差异是不是是否是啊恰当的说它更是那个唯一的极端，因为那两个东西都是i n d i n d i f f e r e n t的，因为那两个极端黑黑色的i n d i f f e r e n c e和那个白色的i n d i f f e r e n c e，白色的w h i t e n o t h i n g n e s s，黑色那里面是没有规定性，白色那边是漂浮的、互相不关联的规定性，它都是i n d i f f e r e n t，也就是说它们都不能算极端啊，也只有只有差异本身可以被看成是t h e o n l y e x t r e m e，也就是差异本身才使得极化出现了，就是这两个东西的差异本身，就是甚至可以说这两个东西都里面没有差异嘛，里面没有没有差异，t h e o n l y e x t r e m e，t h e o n l y m o v e m e n t o f p r e s e n c e a n d p o s i t i o n，它是唯一的一个现成或者说在场，这里应该翻译成唯一在场的瞬间或者唯一的一个精确性的瞬间，这里面才有。indifferencea head without neck一个头却没有脖子an arm without shoulder这个东西就可可以理解成是个理念世界但理念世界它是一个无动于衷的理念世界但是实际上这些东西是短路的你知道吗实际上这些东西这这一种white nothingness啊在黑格尔那边的是对应世界之夜在黑格尔在那边对应世界之夜但它恰恰它不是white it's not white但是可能在德勒兹的体系里面他认为这个是带对应一种成名性吧成名性它直接的就是这些东西可以浮现出来规定性可以浮现出来啊有有一个头没有却没有脖子一个手却没有肩膀一个眼却没有眉毛the imme the indeterminate is completely different这种未被规定不被规定的它是绝对的是indifferent它是无动于衷的but such floating determinations但是这些漂浮着的规定性呢are no less indeterminate它们互相之间也是无动于衷的就是在等在理念的它不是个等级制不是个等级自治区相当于说是一个
+
+整理稿：这种 white nothingness 可以理解成理念世界，但这是一个无动于衷的理念世界。实际上这些东西是短路的。这种 white nothingness 在黑格尔那里对应世界之夜，但它恰恰不是 white，it's not white。不过在德勒兹的体系里，他可能认为这对应一种现成性：这些东西可以直接浮现出来，规定性可以浮现出来。有一个头却没有脖子，一只手却没有肩膀，一只眼却没有眉毛。“the indeterminate is completely different”：这种未被规定、不被规定的，它是绝对的，是 indifferent，是无动于衷的。但“such floating determinations”，这些漂浮着的规定性，“are no less indeterminate”，它们相互之间也是无动于衷的。它不是在理念里的等级制，不是一个等级制秩序。
+
+- 疑点：“成名性”疑为“现成性”，正文暂作“现成性”。；候选：现成性；依据：t3131:s85
+- 疑点：“等级自治区”疑为“等级制秩序/等级制体系”，正文暂作“等级制秩序”。；候选：等级制秩序；依据：t3131:s101
+
+## 段落 5：00:04:16 — 00:06:15
+
+来源：`t2141:s32`, `t2141:s33`, `t2141:s34`, `t2141:s35`, `t2141:s36`, `t2141:s37`, `t2141:s38`, `t2141:s39`, `t2141:s40`, `t2141:s41`, `t2141:s42`, `t2141:s43`, `t2141:s44`, `t2141:s45`, `t2141:s46`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=256)
+
+原文：这个东西相当于啥呢就是我觉得就是德勒兹的本体论的框架预设的就是和晚期谢林和海德格尔都不一样不太一样啊不是太一样的他会设想有一种indifferent的状态种不管了反正他就这样说了嘛他说就是在这个漂浮着的白色的虚无当中的这些这些规定性相互之间是怎么样相互之间是无动于衷的不管的呀没有没有没有纠葛的its difference intermediate between these two extremes那么他就问了差异是否是在这两个极端当中的那个中介是不是它的一个intermediate是它的相互的一个一个中介传递子或者怎么样的或者说or is it not rather the only extremethe only movementof presence and position或者说差异是不是是否是啊恰当的说它更是那个唯一的极端因为那两个东西都是ind indifferent的因为那两个极端黑黑色的indifference和那个白色的indifference白色的white nothingness黑色那里面是没有规定性白色那边是漂浮的互相不关联的规定性它都是indifferent也就是说它们都不能算极端啊也只有只有差异本身可以被看成是the only extreme也就是差异本身才使得极化出现了就是这两个东西的差异本身就是甚至可以说这两个东西都里面没有差异嘛里面没有没有差异the only extremethe only movementof presence and position它是唯一的一个现成或者说在场这里应该翻译成唯一在场的瞬间或者唯一的一个精确性的瞬间这里面才有明晰，才有一个顶出来的一个实存，顶出来一个东西。Difference is the state in which one can speak of determination as such。
+
+整理稿：这个东西相当于什么呢？我觉得，德勒兹本体论框架的预设和晚期谢林、海德格尔都不一样，不太一样。他会设想一种 indifferent 的状态。不管了，反正他就这样说了：在漂浮着的白色虚无当中，这些规定性相互之间是无动于衷的，没有纠葛。“it's difference intermediate between these two extremes”。那么他就问：差异是否是在这两个极端当中的那个中介？是不是它的一个 intermediate，是它们相互之间的一个中介、传递子？或者说，“or is it not rather the only extreme, the only movement of presence and position”，差异是不是应该说更是那个唯一的极端？因为那两个东西都是 indifferent 的：黑色的 indifference 和白色的 indifference，白色的 white nothingness。黑色那里面没有规定性，白色那边是漂浮的、互相不关联的规定性，它都是 indifferent。也就是说，它们都不能算极端。只有差异本身可以被看成是“the only extreme”，也就是差异本身才使得极化出现了，就是这两个东西的差异本身。甚至可以说，这两个东西里面都没有差异。它是“the only extreme, the only movement of presence and position”，唯一的一个现成或者说在场。这里应该翻译成唯一在场的瞬间，或者唯一的一个精确性的瞬间；这里面才有明晰，才有一个顶出来的实存，顶出来一个东西。
+
+- 疑点：“the only movement of presence and position”的译法不确定；正文保留英文，并暂译作“唯一在场的瞬间/唯一精确性的瞬间”。；候选：唯一在场的瞬间；唯一精确性的瞬间；依据：t3131:s140, t3131:s141
+
+## 段落 6：00:06:17 — 00:06:57
+
+来源：`t2141:s47`, `t2141:s48`, `t2141:s49`, `t2141:s50`, `t2141:s51`, `t2141:s52`, `t2141:s53`, `t2141:s54`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=377)
+
+原文：差异呢是这么一种状态啊，在这种状态下，它是一种状态啊，是一个state。给大家法文原文我不知道是什么，不管了。在其中呢，一个人可以讨论规定性本身，差异是规定性本身啊，可以讨论。Assuch这里加的斜体。The difference between two things only empirical。啊这这个时候他就告诉你就是这里啊就是说两个事物之间的差异只是经验性的差异，不是差异本身。And the corresponding determinations are onlyextrinsic。那种和这个两个事物之间的差异所对应的那些规定性呢，它只是外在的，它只是外在的。
+
+整理稿：“Difference is the state in which one can speak of determination as such\.”差异是这么一种状态；在这种状态下，一个人可以讨论规定性本身。差异就是规定性本身，可以讨论。这里 as such 加了斜体。法文原文我不知道是什么，不管了。“The difference between two things is only empirical\.”这时他就告诉你：两个事物之间的差异只是经验性的差异，不是差异本身。“And the corresponding determinations are only extrinsic\.”那种和两个事物之间的差异相对应的规定性，只是外在的，只是外在的。
+
+## 段落 7：00:06:58 — 00:07:44
+
+来源：`t2141:s55`, `t2141:s56`, `t2141:s57`, `t2141:s58`, `t2141:s59`, `t2141:s60`, `t2141:s61`, `t2141:s62`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=418)
+
+原文：但是instead of something distinguished from somethingelse，就是Imagine something which distinguishes itself。就是德勒兹这里的差异不是两个东西之间的差异，它是东西和它自己的差异。如果用齐泽克的话说，就是东西和它的符号系统和它的在符在符号系统当中的位置的一个差异，它和它所占据的符号系统的位置的差异，就更确切的说是它和它自己的符号化的差异。没有一个符号系统啊，符号系统都是由这些局域的本地的差异本身的自我差分化，就是差异不是个东西，它是个运动，甚至它就是个自我差分化的运动。在这里就是基本的起手式，当然是辩证法，我们所有人都是这样的。And yet that from that from which it
+
+整理稿：不是“something distinguished from something else”，而是“imagine something which distinguishes itself”。德勒兹这里的差异不是两个东西之间的差异，而是东西和它自己的差异。用齐泽克的话说，就是东西和它的符号系统、和它在符号系统当中的位置的差异，是它和它所占据的符号系统位置的差异；更确切地说，是它和它自己的符号化的差异。没有一个总的符号系统；符号系统都是由这些局域的、本地的差异本身的自我差分化构成的。差异不是一个东西，它是一个运动，甚至就是自我差分化的运动。这里的基本起手式当然是辩证法，我们所有人都是这样的。
+
+## 段落 8：00:07:44 — 00:08:34
+
+来源：`t2141:s63`, `t2141:s64`, `t2141:s65`, `t2141:s66`, `t2141:s67`, `t2141:s68`, `t2141:s69`, `t2141:s70`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=464)
+
+原文：distinguishes itself does not distinguish it from it。但是呢，从这当中它把自己区分出来，它把自己显现出来。Distinguish就是让自己与众不同，但是它并不是让自己与自己与众不同，它反而让自己视为自己。这里就有一个基本的一个辩证法，就是差异和它自己的这个二分化，和它自己的二分化，和它自己的差分化，它是让自己作为规定性本身被这个distinguish，你可以就是就是它distinguishitself，就是相当于踊跃出来，涌现出来，就是与众不同那种感觉，就是它它就是它自己别具一格那个意思。
+
+整理稿：“And yet that from which it distinguishes itself does not distinguish it from it\.”但是，从这当中它把自己区分出来，它把自己显现出来。distinguish 就是让自己与众不同，但它并不是让自己与自己与众不同，反而让自己作为自己。这里就有一个基本的辩证法：差异和它自己的二分化，和它自己的差分化；它让自己作为规定性本身被 distinguish。你可以说，它就是 distinguish itself，相当于涌现出来、冒出来，就是与众不同那种感觉，就是它自己别具一格那个意思。
+
+## 段落 9：00:08:34 — 00:09:01
+
+来源：`t2141:s71`, `t2141:s72`, `t2141:s73`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=514)
+
+原文：但是它并没有就是是让它和自己不一样，你不能把差异理解成是什么变化什么什么这种东西，它可能是应该是这个意思啊，就是说我们应该在这里就是用黑格尔的逻辑学来讲的话，就就是差异就是你只要把它理解成是determination就行了，不要把它理解成是后面的这个变化，后面的流变，不要把它后面那个alteration，不要把后面理解成后面的a l t e r a t i o n。I t's n o t i t's n o t a l t e r a t i o n y e t。I t's n o t
+
+整理稿：但它并没有让自己和自己不一样。你不能把差异理解成什么变化之类的东西，它大概应该是这个意思。用黑格尔的逻辑学来讲，差异就是你只要把它理解成 determination 就行了，不要把它理解成后面的变化、后面的流变，不要把它理解成后面的 alteration。“It's not alteration yet\.”
+
+## 段落 10：00:09:01 — 00:10:40
+
+来源：`t2141:s74`, `t2141:s75`, `t2141:s76`, `t2141:s77`, `t2141:s78`, `t2141:s79`, `t2141:s80`, `t2141:s81`, `t2141:s82`, `t2141:s83`, `t2141:s84`, `t2141:s85`, `t2141:s86`, `t2141:s87`, `t2141:s88`, `t2141:s89`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=541)
+
+原文：a alterationIt's not it's not alteration yetIt's not a You youcan，甚至你可以说，it's not becoming i t。b e c o m i n g是在因果关系的那个链条里面的一一一种不停的互相这个激发那个的那个发生学发生学过程。I t's还是有差别的。L i g h t i n g f o r i t s e l f，他举个例子啊，就是说闪电闪光，举个例子，d i s t i n g u i s h e s i t s e l f f r o m t h e b l a c k s k y，b u t m u s t n o t t r a i l i t b e h i n d。他会把自己和这个黑色的天空给区分出来，但是必须是t r a i l i t b e h i n d。就是就拖曳在自己身后是吧？把拖曳在自己身后，a s t h o u g h好像i t w i l l d i s t i n g u i s h i t s e l f f r o m t h a t w h i c h d o e s n o t d i s t i n g u i s h i t s e l f f r o m i t。就仿佛他是把自己从那当中，就是，他就是闪电就好像是把自己从黑色的天空当中，就是，就是弄出来的，而不是w i t h t h a t w h i c h d o e s n o t d i s t i n g u i s h i t。I t w i l l在这里我们要看这个句子里面辩证结构了，就仿佛他是把自己从t h a t w h i c h d o e s n o t d i s t i n g u i s h i t s e l f f r o m i t。他是把自己从那么一个东西当中区分出来的，就是闪电不同于黑云啊，闪电不同于黑色的天空，他的意思就是黑色的天空，他就是t r a i l i t b e h i n d。M u s t a l s o t r a i l i t b e h i n d。T r a i l i t b e h i n d的意思，我操，关键是，哎，不好意思，你就是要知道这个t r a i l i t b e h i n d的意思。为什么要手性工具？手性工具。哎，又选选不中了，不好意思，我搜一下。T r a i l i t b e h i n d，英语差没办法。尾随其中是吧？尾随其中，t r a i l b e h i n d，落在某人后面。这就是翻译成英文的话就觉得有点牵强，牵引式的，又好像又牵引他。啊，i n s t e a d o f s o m e t h i n g。他这里就是要讲清楚差异的这个东西。举个例子，闪电他把自己从黑云当中区分开来，必须同时也把黑云牵引在自己的后面，拉在自己的后面，甩在拉在自己的后面。黑黑天啊，然后就仿佛他是自己，他是把把自己从那些不把自己从他这边区分出来的东西那里区分出来的，就是黑色天空是不会把自己和他，w h i c h d o e s n o t d i s t i n g u i s h i t s e l f f r o m i t。itbecoming是在因果关系的那个链条里面的一一一种不停的互相这个激发那个的那个发生学发生学过程It's还是有差别的Lighting for itself他举个例子啊就是说闪电闪光举个例子distinguishes itselffrom the black sky but must not trail it behind他会把自己和这个黑色的天空给区分出来但是必须是trail it behind就是就拖曳在自己身后是吧把拖曳在自己身后as though好像it will distinguish itself fromthat which does not distinguish itself from it就仿佛他是把自己从那当中就是他就是闪电就好像是把自己从黑色的天空当中就是就是弄出来的而不是with that which does not distinguish itIt will在这里我们要看这个句子里面辩证结构了就仿佛他是把自己从that which does not distinguishitself from it他是把自己从那么一个东西当中区分出来的就是闪电不同于黑云啊闪电不同于黑色的天空他的意思就是黑色的天空他就是trail it behindMustalso trail it behindTrail it behind的意思我操关键是哎不好意思
+
+整理稿：甚至你可以说，它还不是 becoming。becoming 是在因果关系的链条里，一种不停地互相激发、这个激发那个的发生学过程。它还是有差别的。他举了闪电的例子：“Lightning for itself distinguishes itself from the black sky, but must not trail it behind\.”闪电会把自己和黑色的天空区分出来，但必须 trail it behind，也就是把它拖曳在自己身后。就好像“it will distinguish itself from that which does not distinguish itself from it”：它仿佛把自己从那当中区分出来。这里我们要看句子里的辩证结构：闪电就好像把自己从黑色的天空当中弄出来，而不是“with that which does not distinguish it”。闪电不同于黑云，不同于黑色的天空；他的意思是，黑色的天空就是它 trail it behind 的东西。“Must also trail it behind\.”关键是得知道 trail it behind 的意思。我查了一下，trail behind 是“尾随其后”“落在某人后面”。翻成英文的话，觉得有点牵强，牵引式的，好像又牵引它。这里就是要讲清楚差异这个东西：闪电把自己从黑云当中区分开来，必须同时也把黑云牵引在自己后面、拉在自己后面、甩在自己后面。就好像它是把自己从那些不把它从自己这边区分出来的东西那里区分出来；黑色的天空不会把自己和它区分开，也就是“which does not distinguish itself from it”。
+
+- 疑点：原话作“翻译成英文的话”，按上下文可能指“翻译成中文的话”；正文保留原话。；候选：翻译成中文的话；依据：t2141:s74
+
+## 段落 11：00:10:43 — 00:11:11
+
+来源：`t2141:s90`, `t2141:s91`, `t2141:s92`, `t2141:s93`, `t2141:s94`, `t2141:s95`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=643)
+
+原文：你就是要知道这个trail it behind的意思为什么要手性工具手性工具哎又选选不中了不好意思我搜一下Trail it behind英语差没办法尾随其中是吧尾随其中trail behind落在某人后面
+
+整理稿：你就是要知道这个“trail it behind”的意思。我又选不中了，不好意思，我搜一下“Trail it behind”；英语差，没办法。它是“尾随其中”的意思，也就是“尾随其中，trail behind”，即落在某人后面。
+
+- 疑点：s91 的“手性工具”疑为 ASR 识别错误，参考字幕作“守信工具属性工具”，语义仍不清楚，正文未纳入。；候选：守信工具属性工具；依据：t3131:s247
+
+## 段落 12：00:11:12 — 00:12:17
+
+来源：`t2141:s96`, `t2141:s97`, `t2141:s98`, `t2141:s99`, `t2141:s100`, `t2141:s101`, `t2141:s102`, `t2141:s103`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=672)
+
+原文：这就是翻译成英文的话就觉得有点牵强牵引式的又好像又牵引他啊instead of something他这里就是要讲清楚差异的这个东西举个例子闪电他把自己从黑云当中区分开来必须同时也把黑云牵引在自己的后面拉在自己的后面甩在拉在自己的后面黑黑天啊然后就仿佛他是自己他是把把自己从那些不把自己从他这边区分出来的东西那里区分出来的就是黑色天空是不会把自己和他which does not distinguishitself from it黑色的天空是这么一种东西，它并不把自己和闪电区分开来，而闪电是要把自己和这种惰性的这些东西区分开来的。
+
+整理稿：这就是翻译成英文的话，会觉得有点牵强：牵引式的，又好像又牵引。他这里就是要讲清楚差异这个东西。举个例子：闪电把自己从黑云当中区分开来，必须同时也把黑云牵引在自己的后面，拉在自己的后面、甩在身后。黑色天空——黑天——就仿佛它是把自己从那些不把它从自己这边区分出来的东西那里区分出来的。黑色天空不会把自己和它区分开来，which does not distinguish itself from it。黑色的天空是这么一种东西：它并不把自己和闪电区分开来，而闪电是要把自己和这种惰性的东西区分开来的。
+
+- 疑点：s97 的“instead of something”听不清，参考字幕作“state of something”，语义不完整，正文未纳入。；候选：state of something；依据：t3131:s260
+
+## 段落 13：00:12:20 — 00:13:06
+
+来源：`t2141:s104`, `t2141:s105`, `t2141:s106`, `t2141:s107`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=740)
+
+原文：它还要把这个天空不仅仅要要要把自己和天空呃发生关联，还要把还要把天空甩在身后。呃，it is as if the ground rose to the surface with without ceasing to be ground\.The ground rose to thesurface，就好像这个基础，asif这rose应该是raised它的那个它的那个那个就是就是那个它的那个叫什么，raised它的那个虚拟语气啊，就好像是基础地基涌现到了表层，但是却不停止去成为表层，它还不停止去成为地基，它还是地基。There is cruelty
+
+整理稿：它还要把这个天空——不仅仅是自己与天空发生关联——还要把天空甩在身后。It is as if the ground rose to the surface without ceasing to be ground\. The ground rose to the surface\. 就好像基础……这里的 rose 应该按虚拟语气来理解。就好像基础、地基涌现到了表层，但并不停止作为地基，它仍然是地基。
+
+- 疑点：s106 讨论 rose 的词形，原文又出现 raised，参考字幕提示 rise；正文按虚拟语气处理，未确定具体词形。；候选：rise；依据：t2141:s106, t3131:s281
+
+## 段落 14：00:13:06 — 00:13:25
+
+来源：`t2141:s108`, `t2141:s109`, `t2141:s110`, `t2141:s111`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=786)
+
+原文：cruelty even monstrous on both sides of this struggle against an elusiveadversary in which the distinguished postopposes something which cannot distinguishitself from it but continues to expose that which divorces it\.
+
+整理稿：There is cruelty, even monstrous on both sides of this struggle against an elusive adversary, in which the distinguished opposes something which cannot distinguish itself from it but continues to expose that which divorces it\. 也就是说，在针对一个 elusive adversary——一个不断逃逸的敌手——的斗争两边，都有残忍，甚至怪物性；其中，被区分者反对某种不能把自己和它区分开来的东西，却继续 expose 那个拆散它的东西。
+
+## 段落 15：00:13:27 — 00:13:58
+
+来源：`t2141:s112`, `t2141:s113`, `t2141:s114`, `t2141:s115`, `t2141:s116`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=807)
+
+原文：嗯，我觉得他这里有点有点残酷啊，过分残酷。他说的there iscruelty有残酷性啊，就是他的意思就是闪电不仅仅要把自己显现出来，他还要把自己和那个黑云，就是黑色的天空夜晚黑夜给它区分开来，因为他要把自己显现出来的方式就是要使得自己不同于不同于那些不能够把自己显现出来的东西，了解吗？
+
+整理稿：我觉得他这里有点残酷，过分残酷。他说的“There is cruelty”，有残酷性。他的意思是：闪电不仅仅要把自己显现出来，还要把自己和那个黑云——也就是黑色的天空、夜晚、黑夜——区分开来，因为它把自己显现出来的方式，就是要使自己不同于那些不能够把自己显现出来的东西。可以理解。
+
+## 段落 16：00:13:59 — 00:14:34
+
+来源：`t2141:s117`, `t2141:s118`, `t2141:s119`, `t2141:s120`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=839)
+
+原文：就是他要显现出自己，他是有一种力量，而那种黑云呢，它是没有一黑色的黑夜，它没有没有力量，你可以理解就是说黑夜没有力量把自己与众不同那面显现出来，与与其他东西不同那面显现出来，所以闪电不仅仅要闪出来，不仅要亮出来，它不仅要把自己从那个黑色天空里面显现出来，他还要把它甩到身后，还要把它甩到身后，有点就是还要把它作为它的背景，作为它的底层，你可以理解吧？
+
+整理稿：也就是说，闪电要显现自己，它是有一种力量的；而那种黑云、黑色的黑夜没有力量。你可以理解为：黑夜没有力量把自己与众不同的那一面、与其他东西不同的一面显现出来。所以闪电不仅仅要闪出来、亮出来，不仅要把自己从黑色天空里面显现出来，还要把它甩到身后，把它作为自己的背景、作为自己的底层。可以这样理解。
+
+## 段落 17：00:14:34 — 00:15:14
+
+来源：`t2141:s121`, `t2141:s122`, `t2141:s123`, `t2141:s124`, `t2141:s125`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=874)
+
+原文：我觉得你可以这样去理解，就是说他不仅仅要这个这个差异的现身呢，他不仅仅要和他的背景不一样，他还要使得他的背景成为他的背景。我觉得这样你去好理解他这里涉摄入的，因为他这是隐喻性的，因为是隐喻性的文本，所以你的解读有隐喻性也非常正常，了解吗？因为是隐喻性的文本，所以你的解读对他的理解领会是隐喻性的也很正常。但这里设立这个辩证法的话，我觉得就是有点刻意为之的一个对抗张力啊。这个辩证法有刻意为之的对抗张力，那么不管了，前景和背景，如果要我去把握的话，就是前景和背景，前景和背景啊，你们继续来看吧，
+
+整理稿：我觉得可以这样去理解：差异的显现，不仅与自己的背景不一样，还要使自己的背景成为自己的背景。这样你比较好理解他这里涉及的内容。因为这是隐喻性的文本，所以你的解读带有隐喻性也非常正常；因为是隐喻性的文本，你对他的理解、领会是隐喻性的，也很正常。但这里设立这个辩证法，我觉得就是有点刻意为之的对抗张力。这个辩证法有刻意为之的对抗张力。那么不管了，前景和背景，如果要我去把握的话，就是前景和背景。你们继续来看吧。
+
+## 段落 18：00:15:14 — 00:16:25
+
+来源：`t2141:s126`, `t2141:s127`, `t2141:s128`, `t2141:s129`, `t2141:s130`, `t2141:s131`, `t2141:s132`, `t2141:s133`, `t2141:s134`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=914)
+
+原文：它如果能不能颠覆我这个印象嘛？呃，It is as if the ground rose to thesurface，就好像那个下面东西涌到上面来，哦，就是它的意思，就闪电，闪电，闪电显现，就好像闪电本来隐藏在下面，隐藏在这个黑色的天空下面，它涌到下面来，涌到下面来，你，你有你你知道这涌涌到表层来，涌到表层来，有这种感觉吧？就好像这是一个平面，然后，然后又再下来，它这个下面这个基础，它涌上来之后再下去，它就撕裂了这个撕裂了这个表层，就是使得就是就这样的话，我我能理解它的意思，这样的话我能够理解这意思，就是说下面这个ground它本身有它自己现身的那个力量，但用现身这个词不太好，我们可以用它就是有它自己的这个成为当下的那种力量，present的那种力量啊，在场的那种力量，
+
+整理稿：It is as if the ground rose to the surface，就好像下面那个东西涌到上面来。哦，这就是他的意思：闪电闪现，就好像闪电本来隐藏在下面，隐藏在黑色天空下面，然后涌到表层来。你知道这种涌到表层来的感觉吧？就好像这是一个平面，然后它又再下来；下面这个基础涌上来之后再下去，它就撕裂了这个表层，撕裂了这个表层。这样的话，我能理解他的意思：下面这个 ground 本身有它自己显现的力量——不过用“现身”这个词不太好，可以说它有自己成为当下、present、在场的那种力量。而这个表层呢，它没有这个力量，表层没有这个力量。
+
+- 疑点：s128 的“涌到下面来”与上下文及 s129 的“涌到表层来”矛盾，正文按“涌到表层来”整理。；候选：涌到表层来；依据：t2141:s128, t3131:s344
+
+## 段落 19：00:16:25 — 00:17:59
+
+来源：`t2141:s135`, `t2141:s136`, `t2141:s137`, `t2141:s138`, `t2141:s139`, `t2141:s140`, `t2141:s141`, `t2141:s142`, `t2141:s143`, `t2141:s144`, `t2141:s145`, `t2141:s146`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=985)
+
+原文：而这个表层呢，它没有这个力量，表层没有这个力量，This is c r u e l t y，c r u e l，c r u e l，c r u e l，哎呀妈的，这发音怎么念啊？C r u e l t y，c r u e l t y，t h i s i s c r u e l t y，e v e n m o n s t r o u s啊，它这是残忍性，甚至是一种就是说一种兽性啊，野兽性，怪物性，O n b o t h s i d e o f t h i s s t r u g g l e，在这么一种斗争的两边，a g a i n s t a n，呃，这个s t r u g g l e是用来和什么来斗争呢？是a g a i n s t a n e l u s i v e一个逃脱性的a d v e r s a r y，a d v e r s a r y是敌手啊，这个这个s t r u g g l e是用来是针对一个e l u s i v e a d v e r s a d v e r s a r y一个不停的在逃跑的一个敌手，在这一斗争里面，i n w h i c h t h e d i s t i n g u i s h e d呃o p p o s e s s o m e t h i n g w h i c h c a n n o t d i s t i n g u i s h i t s e l f f r o m i t，这还是个代词的问题啊，在这里面这个代词这个i t的话，还是指的就是，我觉得它们的竞争性关系没有那么强，因为我刚刚的解读就是说就是呃那些能够把自己和自己区分出来的东西，它压倒了那些不能够把自己和自己区分出来的东西，但是实际上不是压倒，而是它本身它自己是更基础的力量，更基更基础的力量涌现出来啊，作为差异嘛，它是更基础的本体性的一个力量啊，呃，所以这里的i t它们不是一个相互相互区分的，相互区分的，就是就是这个这里。crueltycruelcruelcruel哎呀妈的这发音怎么念啊Crueltycrueltythis is crueltyeven monstrous啊它这是残忍性甚至是一种就是说一种兽性啊野兽性怪物性On both side of this struggle在这么一种斗争的两边againstan呃这个struggle是用来和什么来斗争呢是against an elusive一个逃脱性的adversaryadversary是敌手啊这个这个struggle是用来是针对一个elusive advers adversary一个不停的在逃跑的一个敌手在这一斗争里面in which the distinguished呃opposes something which cannotdistinguish itself from it这还是个代词的问题啊在这里面这个代词这个it的话还是指的就是我觉得它们的竞争性关系没有那么强因为我刚刚的解读就是说就是呃那些能够把自己和自己区分出来的东西它压倒了那些不能够把自己和自己区分出来的东西但是实际上不是压倒而是它本身它自己是更基础的力量更基更基础的力量涌现出来啊作为差异嘛它是更基础的本体性的一个力量啊呃所以这里的it它们不是一个相互相互区分的相互区分的
+
+整理稿：This is cruelty, even monstrous，意思是残忍，甚至带有一种兽性、野兽性、怪物性。On both sides of this struggle against an elusive adversary：在针对一个 elusive adversary——一个不停逃跑的敌手——的斗争两边。In which the distinguished opposes something which cannot distinguish itself from it：其中，被区分者（the distinguished）反对某种不能把自己和它区分开来的东西；但它又 continues to expose that which divorces it，继续 expose 那个拆散它的东西。这里仍然是代词 it 的问题。我觉得它们的竞争性关系没有那么强。因为我刚才的解读是：那些能够把自己和自己区分开来的东西，压倒了那些不能够把自己和自己区分开来的东西；但实际上不是压倒，而是它本身是更基础的力量，更基础的力量作为差异涌现出来，是更基础的本体性力量。所以这里的 it，它们并不是一个相互区分的关系。
+
+## 段落 20：00:18:00 — 00:18:46
+
+来源：`t2141:s147`, `t2141:s148`, `t2141:s149`, `t2141:s150`, `t2141:s151`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=1080)
+
+原文：就是就是这个这里我的意思就是说，那个黑夜不是要和闪电相互区分，它的无能不是说它不能够和闪电相互区分，它的无能是它不能和自己相互区分，它不能和它自己相互区分，它不能超出它自己，了解吗？也就是说，它不能有一个自激发的力量，就这个东西就相当于在康德的那个呃先验想象力里面的那个时间，A版先验想象力里面的那个时间，那个时间就是个就是观念论，所有先验观念论里面一直有那个自激发力量，就是费希特自我学，费希特的知识学里面的那个A自我等于自我，一十等于一十，自A等于A的那种自激发力量啊，自激发的那种力量，观念论的秘密就是这种自激发力量，
+
+整理稿：我的意思是：那个黑夜不是要和闪电相互区分；它的无能不在于不能和闪电相互区分，而在于不能和自己相互区分，不能超出它自己。也就是说，它不能有一个自激发的力量。这个东西相当于康德在 A 版先验想象力里讲的那个时间；那个时间就是观念论所有先验观念论里一直有的自激发力量，也就是费希特自我学、费希特知识学里的那个 A 自我等于自我、A 等于 A 的自激发力量，自激发的那种力量。观念论的秘密就是这种自激发力量。
+
+## 段落 21：00:18:48 — 00:19:49
+
+来源：`t2141:s152`, `t2141:s153`, `t2141:s154`, `t2141:s155`, `t2141:s156`, `t2141:s157`, `t2141:s158`, `t2141:s159`, `t2141:s160`, `t2141:s161`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=1128)
+
+原文：那这不就被他叫做差异嘛，差异，但是它是在这个斗争和一个不停的逃脱的一个敌手的一个斗争的两边啊，在这种两侧，bothsides啊，这个in which the distinguished opposes something which cannot distinguishitself fromit，在这种在在在这个inwhich应该是指的这，因为加了逗号嘛，所以这个which应该指的这个斗争，在这个斗争中那些是什么在就是那个被区分的东西在反对某种不能够把自己和自己区分开来的东西，但是呢，它又必须是什么，它又不停的，but continues to expose that which continued toexpose，不停的要去拥护whichdivorcesit，拥护了，它又不得不去不停的拥护那个拆散，就是divorces，我操，divorces应该divorces两个东西啊，判死他离异的东西，
+
+整理稿：那这不就被他叫做差异吗？差异。但是它是在这个斗争——和一个不停逃脱的敌手的斗争——的两边，在这两侧，both sides。这个 in which the distinguished opposes something which cannot distinguish itself from it。in which 应该指的是这个斗争，因为加了逗号；所以在这个斗争中，那个被区分的东西在反对某种不能把自己和自己区分开来的东西。但是呢，它又必须不停地 but continues to expose that which divorces it，不停地要去拥护那个拆散它、使它离异的东西。它又不得不去不停地拥护那个拆散——divorces，divorces 应该指拆散两个东西——拆散它、使它离异的东西。
+
+## 段落 22：00:19:51 — 00:20:29
+
+来源：`t2141:s162`, `t2141:s163`, `t2141:s164`, `t2141:s165`, `t2141:s166`, `t2141:s167`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=1191)
+
+原文：这个是你文本自己内在张力啊，它又divorcesit，又拆散呃拥护拆散的那个东西，它difference is this state in which determination takes the form ofunilaterallydistinction，差异是这么一种状态，在其中规定性它变成了一种unilaterally双侧性，一边性啊单边性，uni单边性的一个区分啊，采取了单边性区分的这么一种规定性就是差异，它把定义成差异，
+
+整理稿：这是文本自身的内在张力：它又 divorces it，又拆散它，同时又拥护那个拆散它的东西。difference is this state in which determination takes the form of unilateral distinction\. 差异是这么一种状态，在其中规定性变成了一种单边性、一边性——unilateral——的区分；采取了单边性区分的这种规定性，就是差异，它被定义成差异。
+
+- 疑点：s166 先说“双侧性”，随即改为“一边性、单边性”；按 unilateral 及上下文，正文取“单边性”。；候选：单边性；依据：t3131:s443, t3131:s444
+
+## 段落 23：00:20:32 — 00:21:22
+
+来源：`t2141:s168`, `t2141:s169`, `t2141:s170`, `t2141:s171`, `t2141:s172`, `t2141:s173`, `t2141:s174`, `t2141:s175`, `t2141:s176`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=1232)
+
+原文：但是我我要讲的就是说，but continues toexpose that which divorcesit，它还继续去拥护那个拆散它的东西，呃in which the distinguished opposes something which cannot distinguish itself fromit，哎我其实就有点怪啊，most on both sides of this struggle against an elusive a d v e r s a r y，t h i s t h e r e i s c r u e l t y c r u e l t y e v e n m o n s t r o s i t y啊，o n b o t h s i d e s。adversarythis there is cruelty cruelty even monstrosity啊on bothsides这么一个斗争，of this elusiveadversary，好吧，这到底这个elusive elusive adversary它指的是什么呢？是指的是这两侧中间的一侧呢？
+
+整理稿：但是我要讲的就是说，but continues to expose that which divorces it——它还继续去拥护那个拆散它的东西。In which the distinguished opposes something which cannot distinguish itself from it。哎，我其实觉得有点怪。On both sides of this struggle against an elusive adversary; there is cruelty, cruelty even monstrosity on both sides。在这么一个针对 elusive adversary 的斗争中，这个 elusive adversary 到底指的是什么呢？是指斗争两侧中的一侧吗？
+
+## 段落 24：00:21:22 — 00:22:22
+
+来源：`t2141:s177`, `t2141:s178`, `t2141:s179`, `t2141:s180`, `t2141:s181`, `t2141:s182`, `t2141:s183`, `t2141:s184`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=1282)
+
+原文：我们刚刚知道就是闪电，闪电对比对应差异嘛，黑天对应的是不能够自我差分化的那个东西，啊，不能够自我差分化，那么闪电对应差异，它就是更像是像像那基础涌现的表面，对吧？更屌，好吧，那么那你这里的elusive adversary是什么呢？这种不停的逃逸的那个敌手到底指的是什么呢？可能是这两边共同在面对这个敌手吧，我在我在想啊，但是他又说了是这一斗争的两侧，这一斗争的两侧，那这么你得是有一个东西坐在这一侧，有一东西坐在这一侧，转瞬即逝的那一侧，我其实在这里就是我们可以自己去思考，比如说，那你说这个黑天它没有办法自己差分化，但是这种无法自我差分化的这一个惰性的显现，黑天没有它自己规定性吗？有，肯定有它自己规定，而且它在意识当中不停的设立的它的自我规定，它肯定它否则它不可能定在啊，对吧？
+
+整理稿：我们刚刚知道：闪电对应差异，黑天对应的是不能够自我差分化的东西，不能够自我差分化；那么闪电对应差异，它更像是基础涌现出来的表面。那么你这里的 elusive adversary 是什么呢？这种不停逃逸的敌手到底指的是什么？可能是这两边共同在面对这个敌手吧——我在想。但是他又说了，是这一斗争的两侧；既然是两侧，那就得有一个东西坐在这一侧，坐在转瞬即逝的那一侧。我其实在这里觉得，我们可以自己去思考。比如说，你说这个黑天没有办法自我差分化，但这种无法自我差分化的惰性显现，黑天没有它自己的规定性吗？有，肯定有它自己的规定；而且它在意识当中不停地设立自己的自我规定，否则它不可能定在。
+
+## 段落 25：00:22:23 — 00:23:01
+
+来源：`t2141:s185`, `t2141:s186`, `t2141:s187`, `t2141:s188`, `t2141:s189`, `t2141:s190`, `t2141:s191`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=1343)
+
+原文：但是只不过它静态不变化，但是这这种不变化性本身是只有在闪电闪现的一瞬间才被额外的被凸显出来，所以这个elusive adversary本身，你也可以说那个黑夜的indifference也是这个elusiveadversary，在这里我们要避免一种癖好，就是去追逐那个转瞬即逝的，避免一种恋奇癖，就是那种奇特的啊那种炫目的东西，我们不能够陷于这种癖好里面，我们要审慎一点，we haveto，就是我们在这里要看到这种indifference本身也现身了，它也一定能现身，对不对？
+
+整理稿：只不过它静态地不变化。但这种不变化性本身，只有在闪电闪现的一瞬间才被额外凸显出来。所以，这个 elusive adversary 本身，你也可以说黑夜的 indifference 也是这个 elusive adversary。在这里，我们要避免一种癖好，就是去追逐那个转瞬即逝的东西，避免一种恋奇癖——追逐那种奇特的、炫目的东西。我们不能陷于这种癖好里面，我们要审慎一点，we have to。我们要在这里看到这种 indifference 本身也现身了，它也一定能现身，对不对？
+
+## 段落 26：00:23:01 — 00:23:35
+
+来源：`t2141:s192`, `t2141:s193`, `t2141:s194`, `t2141:s195`, `t2141:s196`, `t2141:s197`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=1381)
+
+原文：不管，那反正就是说in which在这么一种程度中，the distinguished opposes something which cannot distinguish itself fromit，这里的文这里的文法本身也是多多义，呃也是双关性的，那个被区分了的不一定是指这个被区分了的不一定是指闪电本身的，它有可能是指闪电和黑夜的二元对子，和某种something which cannotdistinguish itself fromit，某种不能够自我区分的东西，这里可能就指的是就是i n d i f f e r e n c e，I m e a n s o m e t h i n g w h i c h c a n n o t d i s t i n g u i s h i t s e l f f r o m i t，可能指的是i n d i f f e r e n c e，i n d i f f e r e n c e它说只有两种，只有两种i n d i f f e r e n c e，好吧，那不管了，我们一般的理解就是说这个t h e d i s t i n g u i s h e d它对对应的就是闪电了，就是d i f f e r e n c e，嗯d i f f e r e n c e它要c o n t i n u e s t o e x p o s e t h a t w h i c h d i v o r c e s i t，也就是说它要不停的拥护那个把自己啊拆开的那个东西，让自己拆散离异的那个东西，让自己背叛它自己的东西。
+
+整理稿：不管，反正就是说 in which——在这么一种斗争中，the distinguished opposes something which cannot distinguish itself from it。这里的文法本身也是多义、双关的：那个被区分了的东西，不一定指闪电本身；它有可能指闪电和黑夜的二元对子，和某种 something which cannot distinguish itself from it，某种不能够自我区分的东西。这里可能指的就是 indifference。I mean something which cannot distinguish itself from it，可能指的是 indifference；文本说只有两种 indifference。好吧，那不管了。我们一般的理解是：the distinguished 对应的就是闪电，就是 difference。difference 要 continues to expose that which divorces it，也就是说，它要不停地拥护那个把自己拆开的、让自己拆散离异的、让自己背叛自己的东西。
+
+## 段落 27：00:23:35 — 00:24:08
+
+来源：`t2141:s198`, `t2141:s199`, `t2141:s200`, `t2141:s201`, `t2141:s202`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=1415)
+
+原文：indifferenceI mean something which cannot distinguish itselffrom it可能指的是indifferenceindifference它说只有两种只有两种indifference好吧那不管了我们一般的理解就是说这个the distinguished它对对应的就是闪电了就是difference嗯difference它要continues to expose that which divorces it也就是说它要不停的拥护那个把自己啊拆开的那个东西让自己拆散离异的那个东西让自己背叛它自己的东西
+
+整理稿：这里所谓 indifference，I mean something which cannot distinguish itself from it，可能指的是 indifference；文本说只有两种 indifference。好吧，那不管了。我们一般的理解是：the distinguished 对应的就是闪电，也就是 difference。difference 要 continues to expose that which divorces it，也就是说，它要不停地拥护那个把自己拆开的、让自己拆散离异的、让自己背叛自己的东西。
+
+- 疑点：“只有两种 indifference”语义不明，正文保留原话，未作解释。；候选：；依据：t3131:s519, t3131:s520
+
+## 段落 28：00:24:10 — 00:24:36
+
+来源：`t2141:s203`, `t2141:s204`, `t2141:s205`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=1450)
+
+原文：好吧，就这这个悲剧性的命运呢，他这也没有继续来讲解，那就不管了。是德勒兹自己没说，不要锅甩到我头上去，不是我没有能力讲解为什么他要continue to expose that which divorces it。我是说他可能就是这种自我差分化，它一定会导致异化，它一定会使得这么一种，你可以说这个distinguish的这个difference difference
+
+整理稿：好吧，就这个悲剧性的命运，他这里也没有继续讲解，那就不管了。这是德勒兹自己没说，不要把锅甩到我头上，不是我没有能力讲解为什么他要 continue to expose that which divorces it。我是说，他可能认为，这种自我差分化一定会导致异化，一定会使得这个 distinguish 的 difference……
+
+- 疑点：s205 末尾停在“difference”，句子未完成；readonly\_context 中虽有后续补充，但不能作为正文来源，正文保留未完成处。；候选：；依据：t2141:s205, t3131:s542
+
+## 段落 29：00:24:36 — 00:25:31
+
+来源：`t2141:s206`, `t2141:s207`, `t2141:s208`, `t2141:s209`, `t2141:s210`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=1476)
+
+原文：本身它一定得附着于一个符号系统，这个符号系统要把它差分化嘛，它会divorcesit，把它和它的符号学对应和就是分离开来。就是这里的这个which that which这个that到底指什么还不明晰啊，因为德勒兹自己的符号学姿态啊，我们要看we have to see difference is this is this state in which determination takes the form of unilateral distinction。那么这个说过了，we must therefore say that difference is made or makes itself as in the expression makes a difference。我们必须因此就必须说差异是被弄出来造出来的，或者说就是自己造出来的，就好像在一个表述就是弄点差异，弄点不一样给我瞧瞧啊。This difference of determination as such is also cruelty cruelty。
+
+整理稿：差异本身一定得附着于一个符号系统，这个符号系统要把它差分化，它会 divorce it，把它和它的符号学对应分离开来。这里的 which、that 到底指什么还不明晰。因为德勒兹自己的符号学姿态，我们要看：“we have to see difference is this state in which determination takes the form of unilateral distinction\.”这个说过了。“We must therefore say that difference is made or makes itself as in the expression makes a difference\.”我们必须因此说，差异是被弄出来、造出来的，或者就是自己造出来的，就好像在一个表述里说：弄点差异，弄点不一样给我瞧瞧。这种规定性的差异本身也是 cruelty。
+
+- 疑点：参考字幕将 unilateral distinction 识别为 unlibrary distinction，正文按德勒兹原文整理为 unilateral，需核对。；候选：unilateral distinction；依据：t3131:s550
+
+## 段落 30：00:25:33 — 00:26:28
+
+来源：`t2141:s211`, `t2141:s212`, `t2141:s213`, `t2141:s214`, `t2141:s215`, `t2141:s216`, `t2141:s217`, `t2141:s218`, `t2141:s219`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=1533)
+
+原文：就这种差异或者这种规定性的本身也是也是这个cruelty啊，也是这么一种本身就是，我甚至可以说本身同时也是就是这种残酷性啊。The Platonists used to say that not one distinguished ititself from theone，就是那种非一啊。柏拉图主义者曾经说非一把他自己从一太一当中区分出来，但是but not theconverse，而不是反过来，而不是反过来，since one does not flee that which flees it。因为这个太一呢，它并不会逃逃跑，它并不会逃避，这flee就是我这不是他妈的及物当及物动词来用，我有点古怪啊，一般这个词不会当及物动词来用啊，一般这个词它他妈的都是当这个不及物来用啊。
+
+整理稿：这种差异，或者说这种规定性本身，也是 cruelty；我甚至可以说，它本身同时就是这种残酷性。“The Platonists used to say that not one distinguished itself from the one\.”柏拉图主义者曾经说，非一把自身从太一中区分出来；“but not the converse”，而不是反过来，因为“one does not flee that which flees it”。太一并不会逃避那逃离它的东西。这里的 flee 当作及物动词用，我觉得有点古怪；一般这个词不会这么用，通常是作不及物动词。
+
+## 段落 31：00:26:28 — 00:27:42
+
+来源：`t2141:s220`, `t2141:s221`, `t2141:s222`, `t2141:s223`, `t2141:s224`, `t2141:s225`, `t2141:s226`, `t2141:s227`, `t2141:s228`, `t2141:s229`, `t2141:s230`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=1588)
+
+原文：我这我主要是就是说这个太一并不会从他那些就是面对那些从他逃离的东西，他不会再就他就看到自己那些非一看到自己小弟他不会被吓走嘛。And at the otherpole，那么在另外一极的话，from distinguishes its form形式会把自身和质料或者呃或者是和那个基础根据区分开来。这个你可以你可以非常大方的就在谢林的基础上把matter和ground理解成一回事，matter和ground理解成一回事。But not theconverse，而不是反过来，since distinction itself is aform，因为这个差别，这里翻译成差别啊，不要翻译成差异，distinction就是做出，说出它们的差别，distinction它本身是一个形式，本身是一个形式啊，本身它是个理型，所以它可以用来区分别人，所以它，所以理念观念论在装配起来的时候，它可以调用distinction做一个理念，来调用它和那些matter或者和基础这些东西，matter和基础本身，你可以说它就是difference啊，它是非常异性的这些东西，
+
+整理稿：我主要是说，太一面对那些从它逃离的东西，看到自己的非一、自己的“小弟”，并不会被吓走。“And at the other pole”，在另一极，形式会把自身和质料，或者和那个基础、根据区分开来。这个你完全可以在谢林的基础上，大方地把 matter 和 ground 理解成一回事；“but not the converse”，而不是反过来，因为“distinction itself is a form”。这里的 distinction 要翻译成“差别”，不要翻译成“差异”；distinction 就是做出、说出它们的差别。distinction 本身是一个形式，本身是一个理型，所以它可以用来区分别的东西。理念论在装配起来的时候，可以调用 distinction 作为一个理念，用它来和 matter 或基础这些东西相区分。matter 和基础本身，你可以说它就是 difference，就是非常异质性的东西。
+
+## 段落 32：00:27:43 — 00:30:15
+
+来源：`t2141:s231`, `t2141:s232`, `t2141:s233`, `t2141:s234`, `t2141:s235`, `t2141:s236`, `t2141:s237`, `t2141:s238`, `t2141:s239`, `t2141:s240`, `t2141:s241`, `t2141:s242`, `t2141:s243`, `t2141:s244`, `t2141:s245`, `t2141:s246`, `t2141:s247`, `t2141:s248`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=1663)
+
+原文：不对不对，它是就是差异性的这些东西啊，没有被没有被d i s t i n g u i s h e d，u n d i s t i n g u i s h e d d i f f e r e n c e这些东西，所以它自己可以和，所以就是理性啊，f o r m理理型啊，它自己可以和这东西区分开来，i n t r u t h，那么在在真理当中，a l l t h e f o r m s a r e d i s s o l v e d w h e n t h e y a r e r e f l e c t e d i n t h i s r i s i n g g r o u n d，那么在真理当中，它就是这里是德勒兹公布他自己的真理观啊，在真理当中，也就是在巴迪欧，阿兰巴迪欧的那种真理，其实这个真理是阿兰巴迪欧式的真理，y o u h a v e t o k n o w i t's n o t p l a t o n i c的，就当然这个p l a t o n i c i s m也被也被也被巴迪欧重改了，重改版本不管了啊，所有的理型都消解了，当它们被在那个涌现起来的基础，这个r i s i n g g r o u n d其实你可以换个名词，就是z i o n啊，你不要，我觉得就是为什么就是逃避存在学呢，烦死了啊，不烦了，不管了，r i s i n g g r o u n d就是z i o n就是存在啊，就是存在，t h i s r i s i n g g r o u n d它因为它是升起来的，所以就是z i o n，都是在其中被啊被r e f l e c t e d被反映的，啊都反映，他们在这个涌现起来的这个基础当中被反映的时候，他们都消解掉了，a l l t h e f o r m s都消解掉，这个等级制瓦解了啊，等级制瓦解的f o r m s这些理型理念等级制瓦解，因为它重新洗白了，t r u t h是重新洗白的，i t h a s c e a s e d t o b e t h e p u r e i n d e t e r m i n a t e w h i c h r e m a i n s b e l o w，它停止去成为那个纯粹的啊非规定的东西，不被规定东西，w h i c h r e m a i n s b e l o w，这里的i t，这里的i t我靠，你知道吗？这里的i t应该是就是g r o u n d啊g r o u n d就是基础呢，它不再是那个纯粹的非规定的，不被规定的，不可被规定的，甚至可以说不可被规定的啊，它是永远是在下面的，这里的i t就是谢林的世界时代里面的p a s t啊，你如果要去理解这个东西，就是谢林的世界时代里面的p a s t就是g r o u n d，就是同一个词啊，甚至我们可以说它是u p p e r g r o u n d加u p没问题的，是还是同一个东西啊，r i s i n g g r o u n d就可以写成那个大写的比较神圣的那个z i o n啊，s e y n啊那个东西啊。distinguishedundistinguished difference这些东西所以它自己可以和所以就是理性啊form理理型啊它自己可以和这东西区分开来in truth那么在在真理当中all the forms are dissolvedwhen they are reflected in this rising ground那么在真理当中它就是这里是德勒兹公布他自己的真理观啊在真理当中也就是在巴迪欧阿兰巴迪欧的那种真理其实这个真理是阿兰巴迪欧式的真理you have toknow it's not platonic的就当然这个platonicism也被也被也被巴迪欧重改了重改版本不管了啊所有的理型都消解了当它们被在那个涌现起来的基础这个rising ground其实你可以换个名词就是zion啊你不要我觉得就是为什么就是逃避存在学呢烦死了啊不烦了不管了rising ground就是zion就是存在啊就是存在this rising ground它因为它是升起来的所以就是zion都是在其中被啊被reflected被反映的啊都反映他们在这个涌现起来的这个基础当中被反映的时候他们都消解掉了all the forms都消解掉这个等级制瓦解了啊等级制瓦解的forms这些理型理念等级制瓦解因为它重新洗白了truth是重新洗白的it has ceased to be thepure indeterminate which remains below它停止去成为那个纯粹的啊非规定的东西不被规定东西which remains below这里的it这里的it我靠你知道吗这里的it应该是就是ground啊ground就是基础呢它不再是那个纯粹的非规定的不被规定的不可被规定的甚至可以说不可被规定的啊它是永远是在下面的这里的it就是谢林的世界时代里面的past啊你如果要去理解这个东西就是谢林的世界时代里面的past就是ground就是同一个词啊甚至我们可以说它是upper ground加up没问题的是还是同一个东西啊rising ground就可以写成那个大写的比较神圣的那个zion啊s e y n啊那个东西啊It ceased to\.But the forms also ceased to be the coexisting or complementary determinations\.
+
+整理稿：不对，matter 和基础本身是差异性的东西，是那些没有被 distinguished 的 undistinguished difference。Form、理型可以把自身和这些东西区分开来。“In truth, all the forms are dissolved when they are reflected in this rising ground\.”在真理中，所有理型都消解了，当它们在这个涌现起来的基础中被反映的时候。这里是德勒兹公布他自己的真理观；这个真理其实是阿兰·巴迪欧式的真理，不是柏拉图式的——“you have to know it's not platonic”；当然，柏拉图主义也被巴迪欧重改过，重改版本先不管。rising ground 其实可以换个名词，就是 Zion，就是存在；它因为是升起来的，所以就是 Zion，所有东西都在其中被 reflected。forms 在这个基础中被反映的时候就都消解掉了，等级制瓦解了；这些理型、理念的等级制瓦解，因为 truth 被重新洗白了。“It has ceased to be the pure indeterminate which remains below\.”它停止成为那个纯粹非规定的、不被规定的、不可被规定的东西，永远在下面。这里的 it 应该是 ground；ground 不再是那个纯粹非规定的、不可被规定的东西。这里的 it 就是谢林《世界时代》里的 past，past 就是 ground，是同一个词。甚至可以说它还是同一个东西。rising ground 可以写成大写的、比较神圣的那个 Zion，Seyn 那个东西。
+
+- 疑点：Zion 与 Seyn 的拼写及所指不确定：原话同时出现 Zion 和 s e y n，正文保留两种写法，需核对是否应统一为 Seyn。；候选：Seyn；依据：t3131:s669
+- 疑点：“upper ground 加 up”疑似 ASR 或口误，无法确认具体术语，正文未展开该短语，仅保留“还是同一个东西”。；候选：upper ground 加 up；依据：t3131:s667
+
+## 段落 33：00:30:15 — 00:31:13
+
+来源：`t2141:s249`, `t2141:s250`, `t2141:s251`, `t2141:s252`, `t2141:s253`, `t2141:s254`, `t2141:s255`, `t2141:s256`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=1815)
+
+原文：但是呢，形式也不再作为那个互存的，或者说那个互补的规定性。因为其实这个时候要斗争了，因为重新洗牌了。你可以很好理解，因为一个本体性的事件降降临了，在真理事件降临的情况下，要洗牌了啊，本体论机制要洗牌了，本体论框架洗牌，就这么简单，很简单，理念理念的等级制要重新来了，它不能够再以那种共存的方式了，或者说互补的方式作为互补的规定性了。The rising ground is no longer below it below\.Itacquires autonomousautonomous existence\.它不再在下面，它这个时候需求那种自主的自主的实存啊，要求自治的实存，它需求自自治的实存，它不再应该是不再听你那个符号系统的呃对你的约束了。The form reflected in this ground is no longer a form,but an abstract line\.
+
+整理稿：但形式也不再作为互存的或互补的规定性。因为这时要斗争了，要重新洗牌了。很好理解：一个本体性事件降临了，在真理事件降临的情况下，本体论机制、本体论框架要洗牌，就是这么简单。理念的等级制要重新来了，它不能再以共存的方式，或以互补的方式作为互补的规定性。“The rising ground is no longer below it\. It acquires autonomous existence\.”它不再在下面，这时它要求自主的、自治的实存，不再应该听你那个符号系统对它的约束。“The form reflected in this ground is no longer a form, but an abstract line\.”在这个基础中被反映的形式不再是一个形式，而是一条抽象的线。
+
+## 段落 34：00:31:13 — 00:32:12
+
+来源：`t2141:s257`, `t2141:s258`, `t2141:s259`, `t2141:s260`, `t2141:s261`, `t2141:s262`, `t2141:s263`, `t2141:s264`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=1873)
+
+原文：妈的，它这都是隐喻，risingground其实就是它就是指的就是那个左翼运动兴起啊，这就这个意思。The form reflected in this ground is no longer form\.在这个基础当中被反思的、被反映的，也就是被反映的一些形式就不再是一个形式，but an abstract line acting directly upon the soul\.而是一个直接在灵魂当中起作用的一个抽象的一个线，一个抽离的线。他这他的意思就是斗争路线吗，或者怎么样的？Whatever，就是一个原初争执吧，你可以说在这里就是有个原初争执，如果我们可以用用那个用比较存在学的话说，原初争执，好吧，这里面会有一个原初争执，它是一个抽象的线，抽离的线啊，这里抽象不是跟那个什么抽象性跟abstracting没关系啊，啊，它是一个抽离的线，acting directly upon the soul\.When
+
+整理稿：这些都是隐喻：rising ground 指的就是左翼运动的兴起，就是这个意思。“The form reflected in this ground is no longer a form, but an abstract line acting directly upon the soul\.”在这个基础中被反映的形式不再是一个形式，而是一条直接在灵魂中起作用的抽象线、抽离的线。他的意思就是斗争路线吗？或者怎么样？Whatever，就是一个“原初争执”。用比较存在学的话说，这里会有一个原初争执；它是一条抽象的线、抽离的线。这里的“抽象”跟 abstracting 意义上的抽象性没关系，它是抽离的线，acting directly upon the soul。
+
+## 段落 35：00:32:12 — 00:33:09
+
+来源：`t2141:s265`, `t2141:s266`, `t2141:s267`, `t2141:s268`, `t2141:s269`, `t2141:s270`, `t2141:s271`, `t2141:s272`, `t2141:s273`, `t2141:s274`, `t2141:s275`, `t2141:s276`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=1932)
+
+原文：the关键这个soul，我要最最的，我这个时候我要最最的了，我先我这个时候我请问一下，它作为autonomousexistence，autonomous它自治的这个实存，它本来是下面涌现起来，它原初意志是怎么样的？你这里没有描述，对不对？它何以有一个soul？它是否有一个soul的问题？还是它是a soul？它是否有一个soul的问题啊？就是你看海德格尔是很谨慎的，他会说没有，本有它不能说就是直接的主体化的，你不能这样说的。它至少要以深渊要以无来中介的，但是它直接就是说这里可以哦这些form就被反射在这个基础当中，然后它不再是个形式，而会变成一个抽象的线，然后你再去描述这个线的运动的动力学或者它的一个机制，我觉得都是有点问题的。
+
+整理稿：关键这个 soul。这里我要最较真：它作为 autonomous existence、自治的实存，本来是从下面涌现起来的，它的原初意志是怎么样的？你这里没有描述，对不对？它何以有一个 soul？它是否有一个 soul 的问题，还是说它就是 a soul？你看海德格尔很谨慎，他会说没有——本有不能说就是直接主体化的，你不能这样说。它至少要以深渊、以无来中介。但这里直接就说：这些 form 被反射在这个基础当中，然后它不再是一个形式，而会变成一条抽象的线；然后你再去描述这条线运动的动力学或机制，我觉得都是有点问题的。
+
+## 段落 36：00:33:10 — 00:35:13
+
+来源：`t2141:s277`, `t2141:s278`, `t2141:s279`, `t2141:s280`, `t2141:s281`, `t2141:s282`, `t2141:s283`, `t2141:s284`, `t2141:s285`, `t2141:s286`, `t2141:s287`, `t2141:s288`, `t2141:s289`, `t2141:s290`, `t2141:s291`, `t2141:s292`, `t2141:s293`, `t2141:s294`, `t2141:s295`, `t2141:s296`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=1990)
+
+原文：这里就是幻想一个没还未是乌托邦的一个战斗状态的乌托邦，我觉得在这里就是有一个问题，就是他在幻想一个还不是还没有走向乌托邦建构之开端的一个幻想的一个战斗中的乌托邦。战斗中的乌托邦就是有一个abstract line acting directly upon the soul。你何以acting directly upon the soul呢？不行的，因为它本身是个深渊性的东西。这rising ground rising活动是rising了，但并不意味着它是opening的，是敞开的。它要继续是一个ground。如你所说，it继续是一个ground，就像闪电闪了一瞬间，它并不是真正就是open itself。恰恰相反，闪电闪出一瞬间的方式是它自己闭合，紧张的闭合掉了它自己。在这里同样的道理也是的，我觉得这里德勒兹主义者要深思，你你需要深思的一点就是说，这里包含了一个乌托邦，包含了一种神话，就这个深渊涌现出来，它尚在主体化的过程的。it it issubjectivization it issubjectivizing yet它还在它还在主体化呢。subject你知道吗？它还在主体化呢，你知道吗？它还没有一个主体性呢。没有主体性的话，你何以清晰的判明有一个这个直接性如何清晰的判明？没办法判明。抽象性，一个单一性unity line unity如何判明？也没法判明。就是这个巴迪欧和德勒兹都共有的一种，就是他们得不到一个建设中的乌托邦，他则幻置一个战斗中的乌托邦，把主体化过程抬到审慎的理性反思主体性前上面去，并且并且廉价的直接预设一个战斗的乌托邦，这是不行的。You you shouldn't do that\.
+
+整理稿：这里是在幻想一个尚未成为乌托邦的、处在战斗状态的乌托邦。我觉得问题就在这里：他幻想一个还没有走向乌托邦建构之开端的、处在战斗中的乌托邦。战斗中的乌托邦就是有一条“abstract line acting directly upon the soul”。你何以能 acting directly upon the soul？不行的，因为它本身是深渊性的东西。rising ground 的 rising 活动是 rising 了，但不意味着它是 opening、是敞开的；它要继续是一个 ground。“如你所说，it 继续是一个 ground”，就像闪电闪了一瞬间，并不是真正 open itself；恰恰相反，闪电闪出一瞬间的方式，是它自己闭合、紧张地把自己闭合掉。同样的道理，我觉得德勒兹主义者要深思的一点是：这里包含了一个乌托邦、一种神话——这个深渊涌现出来，它尚在主体化的过程。“it is subjectivization, it is subjectivizing yet”，它还在主体化，它还没有主体性。没有主体性的话，你如何清晰判明有一个直接性？没办法判明。抽象性、一个单一性、unity、line unity，如何判明？也没法判明。巴迪欧和德勒兹共有的一点是：他们得不到一个建设中的乌托邦，就幻置一个战斗中的乌托邦，把主体化过程抬到审慎的理性反思主体性之上，并且廉价地直接预设一个战斗的乌托邦，这是不行的。“You shouldn't do that\.”
+
+- 疑点：“unity line unity”识别不清，疑为口误或 ASR 错误，正文保留英文表述，需核对。；候选：unity line unity；依据：t3131:s782
+
+## 段落 37：00:35:14 — 00:36:26
+
+来源：`t2141:s297`, `t2141:s298`, `t2141:s299`, `t2141:s300`, `t2141:s301`, `t2141:s302`, `t2141:s303`, `t2141:s304`, `t2141:s305`, `t2141:s306`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=2114)
+
+原文：这我以我的身份，而不是一个娱乐化的，说是要去群里面骂两句，骂了我两句就要跑过去打之狼的一个有由公家经费豢养着的一个小学者。我以我的姿态，我对很多人的行动负责任的。我讲的东西会影响很多人的，这很痛苦的，你知道吗？It's所以我要讲清楚这件事情，你们不能幻想一个战斗的乌托邦。When the ground rises to the surface,the human face uhdecomposes in this mirror in which both determinations and theindeterminate combine in a single determination which makes the difference\.好吧，这里都是这这都明显是政治宣言啊。当这个基础涌现到表表面的时候，你这个基础甚至可以说是某种矛盾啊或者某种态势了，当它涌现出来的时候。但是他偏不说，基础是就是最凡俗不过的、最普通的生产当中所蕴含的各式各样的矛盾张力的，它是无处不在，没有什么rises to the surface，the surface is theground，啊，那么继续说吧，按照德勒兹的这个态度，我他妈这我老实说我不，鸟书不想读啊，因为他战斗经验没有我丰富，
+
+整理稿：我以我的身份说话，而不是以一个娱乐化的、到群里骂两句、骂完就跑过去打只狼的、由公家经费豢养着的小学者的身份。我以我的姿态说话，我对很多人的行动负责。我讲的东西会影响很多人，这很痛苦。所以我要讲清楚：你们不能幻想一个战斗的乌托邦。“When the ground rises to the surface, the human face decomposes in this mirror in which both determinations and the indeterminate combine in a single determination which makes the difference\.”好吧，这明显是政治宣言。当基础涌现到表面的时候，这个基础甚至可以说是某种矛盾或某种态势。但他偏不说：基础就是最凡俗不过的、最普通的生产中所蕴含的各式各样的矛盾张力，它无处不在，没有什么“rises to the surface”，因为“the surface is the ground”。那么继续说吧。按照德勒兹的这个态度，我老实说，这鸟书我不想读，因为他战斗经验没有我丰富。
+
+- 疑点：“打只狼”疑为游戏名《只狼》，未确认，正文保留原字幕说法。；候选：打《只狼》；依据：t3131:s794
+
+## 段落 38：00:36:27 — 00:37:26
+
+来源：`t2141:s307`, `t2141:s308`, `t2141:s309`, `t2141:s310`, `t2141:s311`, `t2141:s312`, `t2141:s313`, `t2141:s314`, `t2141:s315`, `t2141:s316`, `t2141:s317`, `t2141:s318`, `t2141:s319`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=2187)
+
+原文：因为他的战斗经验甚至都没有我丰富，他不知道面对这东西应该怎么来恰当的，学院派没有实际经验的人在这边，妈的喊口号，我操，the human facedecomposes in thismirror，他在这个镜子里面就消解掉了，人类的这个那一面啊，就就瓦解掉了，这也是双关，你不要看，好像是人类面对这个东西，他摇消解的，不是的，而是在这个镜子里面，这个镜子可能是指那个form，也就是说，其实为什么这个ground不在surface，有辩证法的，它其实一直在surface，只不过用个镜子，用符号系统给它压抑住了，而且这个符号系统是打着human face人道主义的脸庞的，但是当然真的涌到这个surface的时候，涌到界面的时候，我的我的意我的意思就是为什么是这个human face它decomposes，而不是this mirrordecomposes，我就觉得有点怪怪的，
+
+整理稿：因为他的战斗经验甚至都没有我丰富，他不知道面对这东西应该怎么恰当地处理。学院派没有实际经验的人在这边喊口号。接着英文：“the human face decomposes in this mirror”。人类的那一面在这个镜子里面消解掉了、瓦解掉了。这也是双关，你不要以为好像是人类面对这个东西就消解了——不是的，而是在这个镜子里面。这个镜子可能是指 form。也就是说，为什么这个 ground 不在 surface？这里有辩证法：它其实一直在 surface，只不过用一面镜子、用符号系统把它压抑住了；而且这个符号系统打着 human face、人道主义的脸庞。当然，真的涌到 surface、涌到界面的时候，我的意思就是：为什么是 human face 它 decomposes，而不是 this mirror decomposes？我就觉得有点怪怪的。
+
+## 段落 39：00:37:28 — 00:38:01
+
+来源：`t2141:s320`, `t2141:s321`, `t2141:s322`, `t2141:s323`, `t2141:s324`, `t2141:s325`, `t2141:s326`, `t2141:s327`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=2248)
+
+原文：腐烂，这可以甚至可以翻译成腐烂掉，in which both determinations and the indeterminate combine in a singledetermination，在其中呢，那些规定性呢和那些不被规定的，就底层的那个深渊了，它就是结合到了一个单单个的规定，a singledetermination，这个single determination it'selusive，呃it's illusion啊，它是一个，it's not single，youknow，它一开始就不是single，在这里single determination本身是背叛你的，它不是single的，它就是它最低限度是有个复数性的，
+
+整理稿：腐烂，甚至可以翻译成“腐烂掉”。in which both determinations and the indeterminate combine in a single determination：在其中，那些规定性和那些不被规定的——也就是底层那个深渊——结合到一个单一的规定，a single determination。但这个 single determination 是 elusive 的，是 illusion：它并不是 single。它一开始就不是 single。这里的 single determination 本身是背叛你的，它不是 single 的，它最低限度也具有复数性。
+
+## 段落 40：00:38:02 — 00:38:51
+
+来源：`t2141:s328`, `t2141:s329`, `t2141:s330`, `t2141:s331`, `t2141:s332`, `t2141:s333`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=2282)
+
+原文：就是我在这里我们就要采取的一个姿态就是说，呃，那个叫什么人呢，就是把把量词把量词也引入到，就是一个也是个分析哲学家吧，把量词也引入到这个这个这个语法体系构造里面去了，我这我们要采取这么一个姿态，在本体论上我们要把量词也引入到本体论的关键环节里面去，it's not a singledetermination，啊，它它是不会天然的中心化，啊，它不会天然的中心化，所以它不会有天然的去中心化，这个determination这个规定性本身不会天然的中心化，所以你不能因为这个事件，说这个事件天然的中心化成一个单个的或者单一化、统一化成一个单个的规定性，所以我们其他所有人都不能来争取这个中心，了解吗？
+
+整理稿：所以，我们在这里要采取的姿态是：把量词也引入语法体系的构造。有位分析哲学家（名字我一时想不起来）就这么做。我们要采取这样一个姿态：在本体论上，也要把量词引入本体论的关键环节。it's not a single determination。它不会天然地中心化，因此也不会有天然的去中心化；这个 determination、这个规定性本身不会天然地中心化。所以，你不能因为这个事件，就说这个事件天然地中心化、单一化、统一化成一个单个的规定性。这样一来，其他所有人也都不能来争取这个中心，明白吗？
+
+- 疑点：“中心化/中性化”听感不确定，参考字幕多处作“中性化”；正文暂按“中心化”整理。；候选：中性化；依据：t3131:s870, t3131:s871, t3131:s872, t3131:s873
+- 疑点：分析哲学家的姓名未听清，正文未补具体人名。；候选：；依据：t3131:s862, t3131:s864
+
+## 段落 41：00:38:51 — 00:39:12
+
+来源：`t2141:s334`, `t2141:s335`, `t2141:s336`, `t2141:s337`, `t2141:s338`, `t2141:s339`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=2331)
+
+原文：在这里又是一个又是一个坑，就德勒兹在这里这个姿态就是说，这个事件本身这个真理显现的时候，这个ground升到平面的时候，会有一个singledetermination，而其他人都不能说自己对应这个singledetermination，所以它可以实现。啊，团体的去中心化，It's not right,It's notright，因为这个东西从来不直接是一个single
+
+整理稿：这里又是一个坑。德勒兹的姿态是：当事件本身、这个真理显现的时候，当这个 ground 升到平面的时候，会有一个 single determination，而其他人都不能说自己对应这个 single determination，所以它可以实现团体的去中心化。It's not right, it's not right。因为这东西从来不直接是一个 single determination。
+
+- 疑点：参考字幕此处作“国王的声道平面”，疑为识别错误；正文按“ground 升到平面”整理。；候选：ground 升到平面；依据：t3131:s880
+
+## 段落 42：00:39:12 — 00:42:03
+
+来源：`t2141:s340`, `t2141:s341`, `t2141:s342`, `t2141:s343`, `t2141:s344`, `t2141:s345`, `t2141:s346`, `t2141:s347`, `t2141:s348`, `t2141:s349`, `t2141:s350`, `t2141:s351`, `t2141:s352`, `t2141:s353`, `t2141:s354`, `t2141:s355`, `t2141:s356`, `t2141:s357`, `t2141:s358`, `t2141:s359`, `t2141:s360`, `t2141:s361`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=2352)
+
+原文：determination，连理论化的表述也不能这样表述，It's w r o n g，Y o u c a n't s a y a s i n g l e d e t e r m i n a t i o n w h i c h m a k e s a d i f f e r e n c e，N o，I t's n o t t h a t。当事态发生的时候，罗生门，简单来说必然有罗生门，其次用复杂的话来说，这个事件自己它都不知道它自己如何，它要复数化还是单数化，它不知道自己量的存在样态、实存样态是什么，它不知道自己的就是q u a n t i f i c a t i o n t h e t h e s t y l e或者t h e m o d e o f q u a n t i f i c a t i o n，它不知道，I t d o e s n't k n o w，没有一个超语言在设定，它一定是a s i n g l e d e t e r m i n a t i o n，Y o u c a n't s a y l i k e t h a t，I t i s a p o o r r e c i p e f o r p r o d u c i n g m o n s t e r s t o a c c u m u l a t e h e t e r o c l i t d e t e r m i n a t i o n，不规则，它是它自己喜欢用的h e t e r o c l i t h e t e r o c l i t d e t e r m i n a t i o n s o r t o o v e r d e t e r m i n e t h e a n i m a l，就是说这是一个错误的一个药剂啊药方啊，f o r如果你要去p r o d u c i n g要去生产恶魔来加速是吧，来积累积攒那些异态的异样的一些规定性，或者去啊超定o v e r d e t e r m i n e t h e a n i m a l，o v e r d e t e r m i n e t h e a n i m a l就是这个我讲过，这是一个o v e r d e t e r m i n e是啊阿尔都塞的一个术语，t h e a n i m a l就是a n i m a l，它是也是它应该是它的黑化，就它前面所所说的那个b l a c k n o t h i n g n e s s，就是这个g r o u n d啊就是g r o u n d，o v e r d e t e r m i n e t h e g r o u n d，就是说I t's a p o o r r e c i p e t o o v e r d e t e r m i n e t h e g r o u n d，你不能去超定这个这个这个这个这个深渊，也就是说你对于它就是交叉符号化去诊断诊断学方式都是不不能这样做的，你不能这个时候采取一个阿尔都塞的姿态，你不能够采取一个前面这个姿态，a c c u m u l a t e h e t e r o c l i t d e t e r m i n a t i o n，这个东西可能是另外一些后现代左翼的一些姿态，这两种姿态它是看不起，应该是这个意思，I t's b e t t e r t o r a i s e u p t h e g r o u n d a n d d i s s o l v e t h e p r o b l e m，更好的方式就是抬起这个就是就是你去积攒这些就是那些不规则的规定性没用的，准备好了什么应对这些东西没用的，你或者说你去超定这个超定这个a n i m a l也没用的，就就都没有用的，唯一的方式就是去抬升起底底下的这个层面，抬升起这个这个基础，我觉得我现在做的就某种方式算r a i s e u p t h e g r o u n d，Y o u k n o w，Y o u k n o w w h a t w h a t i s t h e g r o u n d？G r o u n d i s n o t u n c o n s c i o u s。wrongYou can't say a single determination which makes a differenceNoIt'snot that当事态发生的时候罗生门简单来说必然有罗生门其次用复杂的话来说这个事件自己它都不知道它自己如何它要复数化还是单数化它不知道自己量的存在样态实存样态是什么它不知道自己的就是quantification the the style或者the mode of quantification它不知道It doesn't know没有一个超语言在设定它一定是a single determinationYou can'tsay like thatIt is a poor recipe for producing monsters to accumulateheteroclit determination不规则它是它自己喜欢用的heteroclitheteroclit determinations or to overdetermine the animal就是说这是一个错误的一个药剂啊药方啊for如果你要去producing要去生产恶魔来加速是吧来积累积攒那些异态的异样的一些规定性或者去啊超定overdetermine the animaloverdetermine the animal就是这个我讲过这是一个overdetermine是啊阿尔都塞的一个术语the animal就是animal它是也是它应该是它的黑化就它前面所所说的那个black nothingness就是这个ground啊就是groundoverdetermine theground就是说It's a poor recipe to overdetermine the ground你不能去超定这个这个这个这个这个深渊也就是说你对于它就是交叉符号化去诊断诊断学方式都是不不能这样做的你不能这个时候采取一个阿尔都塞的姿态你不能够采取一个前面这个姿态accumulate heteroclit determination这个东西可能是另外一些后现代左翼的一些姿态这两种姿态它是看不起应该是这个意思It's better to raise up the groundand dissolve the problem更好的方式就是抬起这个就是就是你去积攒这些就是那些不规则的规定性没用的准备好了什么应对这些东西没用的你或者说你去超定这个超定这个animal也没用的就就都没有用的唯一的方式就是去抬升起底底下的这个层面抬升起这个这个基础我觉得我现在做的就某种方式算raise up the groundYou
+
+整理稿：这种表述是错的；连理论化的表述也不能这样说：It's wrong\. You can't say a single determination which makes a difference\. No, it's not that。当事态发生的时候，简单来说必然有“罗生门”；用复杂的话说，这个事件自己都不知道它自己会怎样，它要复数化还是单数化，它不知道自己量的存在样态、实存样态是什么，它不知道自己的 quantification，the style 或 the mode of quantification，它不知道，it doesn't know。没有一个超语言在设定它一定是 a single determination，you can't say like that。It is a poor recipe for producing monsters to accumulate heteroclit determination——也就是那些不规则的、他喜欢用的 heteroclit determinations——or to overdetermine the animal。这是一个错误的药剂、药方：如果你要去 producing、要去生产恶魔来加速，来积累、积攒那些异态的、异样的规定性，或者去 overdetermine the animal……overdetermine the animal 我讲过，这是一个 overdetermine，是阿尔都塞的术语；the animal 就是 animal，它应该是它的“黑化”，就是前面所说的 black nothingness，也就是这个 ground。overdetermine the ground，就是说 It's a poor recipe to overdetermine the ground。你不能去超定这个深渊；也就是说，你对他采取交叉符号化、诊断学的方式，都是不能这样做的。你不能在这个时候采取阿尔都塞式的姿态，也不能采取前面那个 accumulate heteroclit determination 的姿态。这个东西可能是另外一些后现代左翼的姿态；这两种姿态，德勒兹都看不起，应该是这个意思。It's better to raise up the ground and dissolve the problem。更好的方式就是抬起这个 ground。你去积攒那些不规则的规定性没有用，准备好什么应对这些东西也没有用；或者说，你去超定这个 animal 也没有用。都没有用。唯一的方式就是去抬升起底下的这个层面，抬升起这个基础。我觉得我现在做的，在某种意义上就算 raise up the ground。You know, you know what is the ground? Ground is not unconscious\.
+
+- 疑点：heteroclit 疑为 heteroclite，术语拼写不确定；正文保留原听感拼写。；候选：heteroclite；依据：t3131:s908, t3131:s909
+
+## 段落 43：00:42:04 — 00:42:20
+
+来源：`t2141:s362`, `t2141:s363`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=2524)
+
+原文：knowYou know what what is the groundGround is not unconscious ness，it's not unconscious\.The ground is pure lucid consciousness\.I am raising it up\.I can saythat啊，这一点我承认，但是我不承认后面一点，dissolve the
+
+整理稿：It's not unconscious\. The ground is pure lucid consciousness\. I am raising it up\. I can say that。这一点我承认，但后面一点我不承认：dissolve the form。
+
+## 段落 44：00:42:20 — 00:42:53
+
+来源：`t2141:s364`, `t2141:s365`, `t2141:s366`, `t2141:s367`, `t2141:s368`, `t2141:s369`, `t2141:s370`, `t2141:s371`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=2540)
+
+原文：form，我不承认后面这一点。It's not dissolve the form\.You have to formation new forms\.You haveto就是甚至是融合，fusfusion make some fusion offorms\.你要融合它们，你把它们融合起新的形式，超越性的一些形式。我不承认这一点啊，就是这一点就是说dissolve theform，然后却又是一个a a single determination\.Wherethis这个这个自我同一性从哪来？这个这个unification从哪里来？
+
+整理稿：我不承认后面这一点。It's not dissolve the form\. You have to formation new forms\. You have to——甚至要融合，fusion，make some fusion of forms。你要融合它们，把它们融合成新的形式，超越性的一些形式。我不承认这一点：一方面说 dissolve the form，另一方面却又是一个 a single determination。Where does this 自我同一性从哪里来？这个 unification 又从哪里来？
+
+## 段落 45：00:42:54 — 00:44:04
+
+来源：`t2141:s372`, `t2141:s373`, `t2141:s374`, `t2141:s375`, `t2141:s376`, `t2141:s377`, `t2141:s378`, `t2141:s379`, `t2141:s380`, `t2141:s381`, `t2141:s382`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=2574)
+
+原文：不管了，什么Goya worked with a quondand什么这个BGoya西班牙画家戈雅，他和同事quondand叫做石板刻画和就是他就画石板刻画和那个凹铜板腐蚀就石板刻画了。TheGrisel他开始你看这个知识分子开始装逼了，开始讲一些妈的高雅文学，这样他这是吃饭呀，他学术界不给他饭吃，他跟到艺术界换饭吃啊。什么浮雕式灰色装饰画画法of the one andthe呃就是一个是画一个就是用浮雕式装饰画画，然后用the severity of theother然后用严就严厉对待另外一个什么好吧哦，他就指的这些人，他的意思哦，我知道我我知道了，我他妈知道了，他妈的就就这个人就是他所说的抬升基础，然后消解形式，一个这个艺术家这样干的，他具体怎么干我不想看了，没意思。
+
+整理稿：不管了。什么 Goya worked with a quond……西班牙画家戈雅，他和 quond 这种技法——石板刻画、凹铜版腐蚀，也就是石板刻画。Grisaille，他开始……你看，这个知识分子开始装逼了，开始讲一些高雅文学。这也是吃饭呀：学术界不给他饭吃，他就到艺术界换饭吃。什么浮雕式灰色装饰画画法，of the one and the other，就是一边用浮雕式装饰画画，另一边用 the severity of the other，用严厉对待另外一个。好吧，他指的就是这些人。他的意思——我知道了，我他妈知道了——这个人就是他所说的“抬升基础，然后消解形式”，这个艺术家就是这样干的。他具体怎么干，我不想看了，没意思。
+
+- 疑点：quond 疑为 aquatint（凹版腐蚀），Grisel 疑为 grisaille（灰色装饰画法）；专名和术语识别不确定。；候选：aquatint；grisaille；依据：t3131:s974, t3131:s975, t3131:s976, t3131:s977
+
+## 段落 46：00:44:04 — 00:45:20
+
+来源：`t2141:s383`, `t2141:s384`, `t2141:s385`, `t2141:s386`, `t2141:s387`, `t2141:s388`, `t2141:s389`, `t2141:s390`, `t2141:s391`, `t2141:s392`, `t2141:s393`, `t2141:s394`, `t2141:s395`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=2644)
+
+原文：然后Audenland这个Radomused什么什么卡什么玩意儿，什么布尔乔亚明暗对照法，明暗对照法and the abstractline，然后抽象线啊抽离线abstractline就这个line不是现实存在，它是个抽离线，抽离线明暗对照法和抽离线。然后the abstract line acquires all its force from giving up themodel一个抽那个抽象线呢，它获得所有它的力量啊，是通通过放弃那个模型，抽象线获得所有的力量，就是所有的这个对于绘画计划的一个一个决决断力嘛，或者怎么样的，或者所有的就很很很有用了，是通过什么？通过放弃from giving up themodel，通过放弃这个模型。That is to say the plastic symbol of theform用放弃那个就是那个廉价的plastic形式的那个符号，抽象线应该是种绘画技法，我就很不喜欢这种人，他妈的把他自己没有造术语的能力的。啊，没有造术语的能力的，看图像就知道了。Abstractline，绘画。
+
+整理稿：然后，Audenland 这个 Radom 用了某种——什么卡、什么玩意儿——布尔乔亚明暗对照法、明暗对照法 and the abstract line。然后就是抽象线、抽离线，abstract line。这个 line 不是现实存在，它是一个抽离线：明暗对照法和抽离线。然后 the abstract line acquires all its force from giving up the model。抽象线获得它全部的力量，是通过放弃那个模型；抽象线获得所有力量，就是所有对于绘画计划的决断力，或者说所有很有用的东西，是通过什么？通过放弃，from giving up the model，通过放弃这个模型。That is to say, the plastic symbol of the form——也就是放弃那个廉价的 plastic 形式的符号。抽象线应该是一种绘画技法。我就很不喜欢这种人，他妈的自己没有造术语的能力。没有造术语的能力，看图像就知道了。Abstract line，绘画。
+
+- 疑点：Audenland、Radom 等专名识别不确定，正文保留听感形式。；候选：；依据：t3131:s998
+
+## 段落 47：00:45:27 — 00:46:25
+
+来源：`t2141:s396`, `t2141:s397`, `t2141:s398`, `t2141:s399`, `t2141:s400`, `t2141:s401`, `t2141:s402`, `t2141:s403`, `t2141:s404`, `t2141:s405`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=2727)
+
+原文：哎呀，这中文互联网里面还不太能搜到这个东西啊。抽象线是吧？抽象线就是用用来抛弃model，抛弃模型，giving up themodel，放弃模型。这个模型其实也是，是你只画的那个东西吗？画那个模型吗？啊，明暗对照法和抽象线，我们来看这个人他的作品啊，就知道了，大概就知道了，没什么好神秘的哦，就是用抽象线条，我知道了。明暗对照法，然后用抽象线条，放弃了模型，放弃了它写实性吧。就是他认为不仅仅放弃的是写实性，放弃也是那个廉价的形式的那个符号。但是某种意义上，他造了自己的符号呀，他更凸显了某种张力啊。反正都是你他妈在说，对不对？都是你德勒兹在一张嘴在那边说啊。And
+
+整理稿：哎呀，这中文互联网里还不太能搜到这个东西。抽象线是吧？抽象线就是用来抛弃 model，抛弃模型，giving up the model，放弃模型。这个模型其实也是你所画的那个东西吗？画那个模型吗？明暗对照法和抽象线，我们来看这个人的作品就知道了，大概就知道了，没什么好神秘的：就是用抽象线条。我知道了：明暗对照法，然后用抽象线条，放弃了模型，放弃了写实性。就是他认为，不仅仅放弃的是写实性，放弃的也是那个廉价的形式的符号。但某种意义上，他造了自己的符号呀，他更凸显了某种张力。反正都是你他妈在说，对不对？都是你德勒兹一张嘴在那边说。
+
+## 段落 48：00:46:25 — 00:47:36
+
+来源：`t2141:s406`, `t2141:s407`, `t2141:s408`, `t2141:s409`, `t2141:s410`, `t2141:s411`, `t2141:s412`, `t2141:s413`, `t2141:s414`, `t2141:s415`, `t2141:s416`, `t2141:s417`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=2785)
+
+原文：participates in the ground all the more violently in that it distinguishes itself from it without the ground distinguishing itself from theline，并且参与在了这个，并且就是整个的更为暴烈的去参与在了这个，就是投身入就进进入了那个基础啊，进入了这，反正这个是好东西了。这个在意思就是，但最坏的东西，最坏的东西，就是在德勒兹看来最好的东西了。这个直接爱这个东西啊不？对吧？是大绝对者，别烦了，这个东西就未经中介的绝对者，我真是烦死了，我靠。在晚期，怎么样？The moreviolently啊，inthat在这种在这种过程当中啊，也就是在或者说在这个ground里面，在或者说在这个姿态里面，it distinguishes it fromit，它把自己和它自己区分开来，就变成一个差异了，就变成一个差异了，就是这个抽象线把自己变成一个差异了。Without the grounddistinguishing itself from theline，而这个基础呢，则不需要把它自己和这个这条线给它分离开来。
+
+整理稿：And participates in the ground all the more violently in that it distinguishes itself from it without the ground distinguishing itself from the line。并且，它更为暴烈地参与在这个 ground 之中，投身、进入那个基础。反正这是好东西了。意思就是：最坏的东西，在德勒兹看来就是最好的东西了。这个东西直接爱这个东西啊？对吧？这是大绝对者，别烦了，这个东西就是未经中介的绝对者，我真是烦死了，我靠。到了晚期又怎么样？The more violently，in that——在这种过程当中，或者说在这个 ground 里面，在这个姿态里面，it distinguishes it from it。它把自己和它自己区分开来，就变成一个差异了；就是这个抽象线把自己变成一个差异了。Without the ground distinguishing itself from the line，而这个基础则不需要把它自己和这条线分离开来。
+
+## 段落 49：00:47:37 — 00:47:49
+
+来源：`t2141:s418`, `t2141:s419`, `t2141:s420`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=2857)
+
+原文：他举了个例子，后面的柱啊，我就不想看了。啊，而这个基础，without the ground distinguishing itself from theline，那不需要这个ground把它和这个线啊区分开来。
+
+整理稿：他举了个例子，后面的柱啊，我就不想看了。而这个基础，without the ground distinguishing itself from the line，不需要这个 ground 把它和这条线区分开来。
+
+## 段落 50：00:47:52 — 00:49:00
+
+来源：`t2141:s421`, `t2141:s422`, `t2141:s423`, `t2141:s424`, `t2141:s425`, `t2141:s426`, `t2141:s427`, `t2141:s428`, `t2141:s429`, `t2141:s430`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=2872)
+
+原文：所以我我们现在也可以回过头去理解，就是说在其实，在这个闪电和黑黑夜之间的那个关系里面，黑夜怎么样？黑夜其实是好东西啊，黑夜其实是好东西。某种意义上，它是因为在下面在艺术作品的评论里面，其实他把这个啊，就是。就是说，甚至他可以说，就是说，呃，我觉得德勒兹的辩证法有点有点有点有意思的地方，就是他认为就是说，呃，我刻意撕裂形式的地方，就一定会有ground，就有点怪啊。你还有个形式没撕裂，就是你这个撕裂形式的主体性本身，这个形式没撕裂啊，就是你对主体化失败的地方才会有ground。你不能刻意这样做。我我在这里我我就就说，因为在这种情况下，你不能使得subjectivity it belost，或者说对于一种新的主体化过程的期待，这是一种最贫乏的主体性，它它不能够，这个形式也应当消解，也就是你不能刻意求知。啊，这是我的观点啊，这是我的观点。
+
+整理稿：所以我们现在也可以回过头去理解：其实在闪电和黑夜之间的关系里面，黑夜怎么样？黑夜其实是好东西。某种意义上，因为下面在艺术作品的评论里面，他把这个……甚至他可以说——我觉得德勒兹的辩证法有点意思——他认为，我刻意撕裂形式的地方就一定会有 ground。这有点怪。你还有一个形式没撕裂，就是你这个“撕裂形式”的主体性本身，这个形式没撕裂；就是你对主体化失败的地方，才会有 ground。你不能刻意这样做。我在这里就说：因为在这种情况下，你不能使得 subjectivity 被 lost，或者说不能把希望寄托在对一种新的主体化过程的期待上；这是一种最贫乏的主体性。它不能够——这个形式也应当消解，也就是你不能刻意求之。这是我的观点，这是我的观点。
+
+## 段落 51：00:49:00 — 00:49:45
+
+来源：`t2141:s431`, `t2141:s432`, `t2141:s433`, `t2141:s434`, `t2141:s435`, `t2141:s436`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=2940)
+
+原文：啊，这个基础则不需要把它自己和这条线区分开来，那么在这一点上，在这么一个镜子里面，faces aredistorted，啊，脸呢就扭曲了，脸就扭曲了，在这么一个镜子当中，在这么一个镜面当中，脸就扭曲了，就是那些plastic form of symbolform它就扭曲掉了啊，扭曲掉了。Nor is it certainthat，啊，既不是如此确定的，就是说，it is only the sleep of reason which gives rise tomonster，你不能把它，你也不能把它简单的理解成是那个呃就是理性沉睡了，然后啊恶魔就就是怪物就显现出来。And also it is alsothe，不不不，
+
+整理稿：这个基础不需要把它自己和这条线区分开来。那么在这一点上，在这么一个镜子里，faces are distorted——脸就扭曲了。在这么一个镜子当中、这么一个镜面当中，脸就扭曲了；就是那些 plastic form of symbol form，它就扭曲掉了，扭曲掉了。Nor is it certain that——既不是如此确定的：it is only the sleep of reason which gives rise to monster。你不能把它简单地理解成“理性沉睡了，然后恶魔、怪物就显现出来”。And also it is also the……不，不，不。
+
+- 疑点：末尾“And also it is also the……”被中止，未形成完整信息，正文未续补。；候选：；依据：t3131:s1131, t3131:s1132
+
+## 段落 52：00:49:48 — 00:51:15
+
+来源：`t2141:s437`, `t2141:s438`, `t2141:s439`, `t2141:s440`, `t2141:s441`, `t2141:s442`, `t2141:s443`, `t2141:s444`, `t2141:s445`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=2988)
+
+原文：好吧，哦，守夜，它也是一个守夜，它也是个守夜，the i n s o m n i a，i n s o m n i a是一个失眠症，思想的失眠症，实际上这个文本我小时候读过。我我读到这里，我记得我他妈这本书我读过。S i n c e t h o u g h t i s t h a t m o m e n t i n w h i c h d e t e r m i n a t i o n m a k e s i t s e l f o n e，因为思想啊是这么一个瞬间，这么一个环节，在其中规定性使得它自己变成一啊。呃，就说理性在这里没有沉睡是吧？他是守夜人，i t i s a l s o t h e v i g i l，他是那个思想的就是失眠症啊，因为思想呢是这么一个环节或这么一个瞬间，它使得规定性成为他自己，也就是你这个规定性。哦，那你意思就是说，在这种我们所说这种翻天覆地的变化当中，还是要知识分子来掌舵了，你还是给知识分子某种优越性的一个地位啊。T h o u g h t i s t h a t m o v e m e n t i n w h i c h d e t e r m i n a t i o n m a k e s i t s e l f o n e，但是就是你不应该这样搞啊，失眠症，你们那个时候会巴不得自己早点睡着，了解吗？我对我对这些什么某个姓江的，你们那个时候你早就机票买好想跑了，你巴不得自己能睡得越死越好，我跟你讲。insomniainsomnia是一个失眠症思想的失眠症实际上这个文本我小时候读过我我读到这里我记得我他妈这本书我读过Since thought is that moment in which determinationmakes itself one因为思想啊是这么一个瞬间这么一个环节在其中规定性使得它自己变成一啊呃就说理性在这里没有沉睡是吧他是守夜人it is also the vigil他是那个思想的就是失眠症啊因为思想呢是这么一个环节或这么一个瞬间它使得规定性成为他自己也就是你这个规定性哦那你意思就是说在这种我们所说这种翻天覆地的变化当中还是要知识分子来掌舵了你还是给知识分子某种优越性的一个地位啊Thought is that movement in whichdetermination makes itself one但是就是你不应该这样搞啊失眠症你们那个时候会巴不得自己早点睡着了解吗我对我对这些什么某个姓江的你们那个时候你早就机票买好想跑了你巴不得自己能睡得越死越好我跟你讲还失眠症，还是守夜人，
+
+整理稿：守夜，它也是一个守夜。the insomnia，insomnia 是一个失眠症，思想的失眠症。实际上这个文本我小时候读过。我读到这里，记得我他妈这本书我读过。Since thought is that moment in which determination makes itself one，因为思想是这么一个瞬间、一个环节，在其中规定性使它自己变成一。也就是说，理性在这里没有沉睡，是吧？它是守夜人，it is also the vigil，它是思想的失眠症。因为思想是这么一个环节或瞬间，它使得规定性成为它自己，也就是你这个规定性。哦，那你意思就是说，在这种翻天覆地的变化当中，还是要知识分子来掌舵了，你还是给知识分子某种优越性的地位。Thought is that movement in which determination makes itself one，但是你不应该这样搞啊。失眠症？你们那个时候会巴不得自己早点睡着，了解吗？我对这些什么某个姓江的……你们那个时候早就机票买好想跑了，巴不得自己睡得越死越好，我跟你讲。还失眠症、还是守夜人？
+
+- 疑点：“某个姓江的”姓氏听写不确定，参考字幕作“姓姜”。；候选：姓姜；依据：t2141:s445, t3131:s1155
+
+## 段落 53：00:51:15 — 00:51:31
+
+来源：`t2141:s446`, `t2141:s447`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=3075)
+
+原文：笑死了，我靠。Since thought is that moment in which determinations makes itselfone，它是思想是在这么这么一个瞬间，这么环节在其中，然后规定性让自己变成一，有点列宁ism，但实际上不是啊，It's n o t，I t's有点列宁i s m，看上去有点像，B u t i t's n o t a c t u a l l y，因为列宁i s m不会有前面那些那些对于g r o u n d的那些假设，什么它是有一个a s i n g l e d e t e r m i n a t i o n，N o，N o，N o，N o，N o，N o，N o，啊，S o d e t e r m i n a t i o n s a n d i n d e t e r m i n a t e c o m b i n e i n a s i n g l e d e t e r m i n a t i o n w h i c h m a k e s t h e d i f f e r e n c e，N o，I t i t n o t m a k e s t h e d i f f e r e n c e，它这个时候m a k e s的就不是d i f f e r e n c e的，I t m a k e s d i a l e c t i c s o f d i f f e r e n c e，I t m a k e s t h e i d e n t i t y。A s a t h o u g h t，a s a s i n g l e d e t e r m i n a t i o n，w e m a k e i t a a a l t e r e d e d a l t e r a t i o n，w e m a k e i t a w e m a k e i t a a a a a q u a l i t y，w e m a k e i t a q u a l i t y，n o t a d i f f e r e n c e，w e h a v e t o s a y，w e m a k e i t a q u a l i t y，a n d w e w e a s t h o u g h t m o r e a n d m o r e，w e m a k e i t q u a n t i t y。Y o u u n d e r s t a n d？I t's d i f f e r e n t，W e a r e d i f f e r e n t，A s a L e n i n i s t，w e a r e d i f f e r e n t f r o m y o u，Y o u f a k e l e f t i s t，Y o u k n o w，Y o u a r e j u s t a f a k e l e f t i s t，Y o u d o n't k n o w h o w t o d o t h a t j o b，Y o u y o u k n o w n o t h i n g，C a u s e y o u y o u d o n't n e e d m o n e y t o l i v e，Y o u a r e f e d，Y o u a r e f e d b y y o u r m a s t e r s，Y o u k n o w，Y o u a r e j u s t s l a v e i n m y i n m y i n m y s i g h t，I n m y p e r s p e c t i v e。然后他说的啊什么什么什么什么什么什么什么这个啊不管了，这个都看过了，我就讲到这里，我就不想讲了，这个东西不是我们不是一路人啊。好，S o t h o u g h t m a k e s d i f f e r e n c e，b u t d i f f e r e n c e i s m o n s t r o u s。啊，我们这边看过，这边就是说，S i n c e t h o u g h t i s b y v i r t u e o f m a i n t a i n i n g a n u n i l a t e r a l a n d p r e c i s e r e l a t i o n t o t h e i n d e t e r m i n a t e i n d e t e r m i n a t e，那么思想是如何来使得这个d e t e r m i n a t i o n获得统一性的呢？或者至少具有这个单一性呢？使得它变成一个东西呢？是通过思想不停的啊单边的单边的和一个精确的一个关系，让它和那个就是让这个涌现出来的差异和那个不被规定者和它之前那个母体或者说它之前那个基础还没有到没有到这个s u r f a c e被差分化然后被把握的，就是抽象线，它只是抽象线，抽象线是抽象线在这里原初就具有一种妥协性，你知道吗？因为它抽象线这看成是下面的基础和下面碎裂的那个碎裂了的形式之间的一个，为什么不是没有形式呢？为什么不是撤到先验主体性里面形式本身？
+
+整理稿：笑死了，我靠。Since thought is that moment in which determination makes itself one，它是思想在这么一个瞬间、这么一个环节，在其中规定性让自己变成一。
+
+## 段落 54：00:51:31 — 00:53:20
+
+来源：`t2141:s448`, `t2141:s449`, `t2141:s450`, `t2141:s451`, `t2141:s452`, `t2141:s453`, `t2141:s454`, `t2141:s455`, `t2141:s456`, `t2141:s457`, `t2141:s458`, `t2141:s459`, `t2141:s460`, `t2141:s461`, `t2141:s462`, `t2141:s463`, `t2141:s464`, `t2141:s465`, `t2141:s466`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=3091)
+
+原文：notIt's有点列宁ism看上去有点像But it's not actually因为列宁ism不会有前面那些那些对于ground的那些假设什么它是有一个a single determinationNoNoNoNoNoNoNo啊So determinationsand indeterminate combine in a single determination which makesthe differenceNoIt it not makes the difference它这个时候makes的就不是difference的It makes dialectics of differenceIt makes theidentityAs a thoughtas a single determinationwe make it a a alterededalterationwe make it a we make it a a a a a qualitywe make ita qualitynot a differencewe haveto saywe make it a qualityand we we as thought more and morewemake it quantityYouunderstandIt's differentWe are differentAs a Leninistwe are differentfrom youYou fake leftistYou knowYou are just a fake leftistYoudon't know how to do that jobYou you knownothingCause you you don't need money to liveYou are fedYou arefed by your mastersYouknowYou are just slave in my in my in mysightIn my perspective然后他说的啊什么什么什么什么什么什么什么这个啊不管了这个都看过了我就讲到这里我就不想讲了这个东西不是我们不是一路人啊好So thought makes differencebut differenceis monstrous啊我们这边看过这边就是说Since thought is by virtue of maintaining
+
+整理稿：It's not；它有点列宁ism，看上去有点像，but it's not actually，因为列宁ism不会有前面那些对ground的假设。什么它是有一个a single determination，No, no, no\.\.\. So determinations and indeterminate combine in a single determination which makes the difference。No，it does not make the difference。它这个时候makes的就不是difference，it makes dialectics of difference，it makes the identity。As thought, as a single determination, we make it an altered alteration, we make it a quality, not a difference; we have to say, we make it a quality, and we, as thought, more and more, we make it quantity\. You understand? It's different\. We are different\. As a Leninist, we are different from you\. You fake leftist, you know, you are just a fake leftist\. You don't know how to do that job\. You know nothing\. 'Cause you don't need money to live\. You are fed, you are fed by your masters\. You know, you are just a slave in my sight, in my perspective\. 然后他说的那些什么……不管了，这些我都看过了。我就讲到这里，不想讲了；这个东西不是我们一路人。So thought makes difference, but difference is monstrous。
+
+## 段落 55：00:53:20 — 00:54:15
+
+来源：`t2141:s467`, `t2141:s468`, `t2141:s469`, `t2141:s470`, `t2141:s471`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=3200)
+
+原文：an unilateral and precise relation to the indeterminate indeterminate那么思想是如何来使得这个determination获得统一性的呢或者至少具有这个单一性呢使得它变成一个东西呢是通过思想不停的啊单边的单边的和一个精确的一个关系让它和那个就是让这个涌现出来的差异和那个不被规定者和它之前那个母体或者说它之前那个基础还没有到没有到这个surface被差分化然后被把握的就是抽象线它只是抽象线抽象线是抽象线在这里原初就具有一种妥协性你知道吗因为它抽象线这看成是下面的基础和下面碎裂的那个碎裂了的形式之间的一个为什么不是没有形式呢为什么不是撤到先验主体性里
+
+整理稿：我们这边看过，这边就是说，Since thought is by virtue of maintaining a unilateral and precise relation to the indeterminate。那么思想是如何来使得这个determination获得统一性的呢？或者至少具有这个单一性呢？使得它变成一个东西呢？是通过思想不停的、单边的和精确的关系，让它与那个涌现出来的差异、与那个不被规定者，以及它之前的母体——或者说它之前的基础——发生关系；这个基础还没有到surface，没有被差分化然后被把握，就是抽象线，它只是抽象线。抽象线在这里原初就具有一种妥协性，你知道吗？因为抽象线在这里被看成是下面的基础和下面碎裂的那个碎裂了的形式之间的一个……为什么不是没有形式呢？为什么不是撤到先验主体性里面形式本身？
+
+## 段落 56：00:54:15 — 00:55:08
+
+来源：`t2141:s472`, `t2141:s473`, `t2141:s474`, `t2141:s475`, `t2141:s476`, `t2141:s477`, `t2141:s478`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=3255)
+
+原文：面形式本身哦，先有主体性在他们看来是形式，啊，这个这个问题，这个问题来了，就是说这个形式为什么碎裂的和它融合呢？我觉得不应当是如此，我们应当意识到在ground里面，首先我们不应当把animal，我们不应当把这个ground或者说theindeterminate就理解成散掉的碎掉的，应该在一开始，他就把它理解成是散掉碎掉blacknothingness，然后是什么d i s s o l v e d，e v e r y t h i n g i s d i s s o l v e d，n o，e v e r y t h i n g i s n o t d i s s o l v e d i n i t，i t's s e l f s e l f c y c l i n g i t，它是在里面自自我循环的，所以在深渊当中包含了，实际上包含了那些理型它的运动的动力学机制是包含在深渊里面的，就是本有是不停的支撑着天空的，这一点要说清楚，这点我们要说清楚，然后第二点就是说啊，就是说，我麻多，第二点我要说什么，b y v i r t u e o f m a i n t a i n i n g a u n i o n a n d t o t h e i n d e t e r m i n a t e，就是第二点我就说就是说，呃，你融合出来的这个东西，你这样搞融合出来的这个东西，其实先天的就带有妥协性，融合出来的理性，就是你你又预设了有一种白色的b l a c k n o t h i n g n e s s，这里面理型悬空了，就这些东西只是散开来了，但是你有没有想它本来的单一化本身，那些东西那些理型的单一性本身t h e f o r m s，它自己得裂开，它光是它散开是不够的，它不能是就是怎么说呢？说就是它自己得崩解，然后它自己重得重新在基础里面重新在，不是变成抽象线，而是变成一种比抽象线更夸张的一种状态，更夸张一种状态，不会有一个一致的抽象线，你不能你不能通过，因为这种情况下t h e r e i s n o t a t h o u g h t t h a t i s m a i n t a i n t h i s a b s t r a c t l i n e，i t's i t's i t's i m p o s s i b l e，这是不可能的，这做不到的，你知道吗？这是做不到，这反而是做不到的，我觉得你们为什么会幻想可以有这种可能性呢？就每个人都保持思想，然后每个人都说这个这个抽象线拉你拉出来抽象线，它不是那个未被确定者，不是那个深渊，不是那个最原初的，你这个不是那个最原初，不，你这个不是那个最原初的，连我我我要说连那个最原初的它都不是它自己，啊，你你不可能说找到一个单边的，然后一个精精确的关系和这个i n d e t e r m i n a t e有这么一个关系，t h o u g h t m a k e s d i f f e r e n c e，好的，t h o u g h t思想创造了差异，但是差异是妖怪般的，w e s h o u l d n o t b e s u r p r i s e d t h a t d i f f e r e n c e s h o u l d a p p e a r a c c u r s e d，它出现是被诅咒的一种方式，就是被咒的可憎的一种方式出现，我们不应该这个话说给人家小布尔乔亚听听，让他们自恋自恋，哦，我们如此勇敢，我们如此哦。dissolvedeverything is dissolvednoeverything is not dissolvedin itit's self self cycling it它是在里面自自我循环的所以在深渊当中包含了实际上包含了那些理型它的运动的动力学机制是包含在深渊里面的就是本有是不停的支撑着天空的这一点要说清楚这点我们要说清楚然后第二点
+
+整理稿：哦，先验主体性在他们看来是形式。这个问题就来了：这个形式为什么是碎裂的，又如何与它融合呢？我觉得不应当是如此。我们应当意识到，在ground里面，首先我们不应当把animal——我们不应当把这个ground或者说the indeterminate就理解成散掉的、碎掉的；应该在一开始就把它理解成是散掉、碎掉的black nothingness，然后是什么dissolved，everything is dissolved，no，everything is not dissolved in it，it's self\-cycling；它是在里面自我循环的。所以在深渊当中包含了，实际上包含了那些理型，它的运动的动力学机制是包含在深渊里面的，就是本有是不停地支撑着天空的。这一点要说清楚，这点我们要说清楚。
+
+## 段落 57：00:55:09 — 00:56:53
+
+来源：`t2141:s479`, `t2141:s480`, `t2141:s481`, `t2141:s482`, `t2141:s483`, `t2141:s484`, `t2141:s485`, `t2141:s486`, `t2141:s487`, `t2141:s488`, `t2141:s489`, `t2141:s490`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=3309)
+
+原文：就是说啊就是说我麻多第二点我要说什么by virtue of maintaining a union and to theindeterminate就是第二点我就说就是说呃你融合出来的这个东西你这样搞融合出来的这个东西其实先天的就带有妥协性融合出来的理性就是你你又预设了有一种白色的blacknothingness这里面理型悬空了就这些东西只是散开来了但是你有没有想它本来的单一化本身那些东西那些理型的单一性本身the forms它自己得裂开它光是它散开是不够的它不能是就是怎么说呢说就是它自己得崩解然后它自己重得重新在基础里面重新在不是变成抽象线而是变成一种比抽象线更夸张的一种状态更夸张一种状态不会有一个一致的抽象线你不能你不能通过因为这种情况下there is not a thought that is maintainthis abstract lineit's it's it's impossible这是不可能的这做不到的你知道吗这是做不到这反而是做不到的我觉得你们为什么会幻想可以有这种可能性呢就每个人都保持思想然后每个人都说这个这个抽象线拉你拉出来抽象线它不是那个未被确定者不是那个深渊不是那个最原初的你这个不是那个最原初不你这个不是那个最原初的连我我我要说连那个最原初的它都不是它自己啊你你不可能说找到一个单边的然后一个精精确的关系和这个indeterminate
+
+整理稿：然后第二点就是说……by virtue of maintaining a union and to the indeterminate，就是第二点我就说，你融合出来的这个东西，你这样搞融合出来的这个东西，其实先天地就带有妥协性；融合出来的理性，就是你又预设了有一种白色的black nothingness，这里面理型悬空了，就这些东西只是散开来了。但是你有没有想过，它本来的单一化本身，那些东西、那些理型的单一性本身，the forms，它自己得裂开；光是散开是不够的。它不能是……怎么说呢？就是它自己得崩解，然后重新在基础里面重新存在，不是变成抽象线，而是变成一种比抽象线更夸张的状态，更夸张一种状态。不会有一个一致的抽象线，你不能通过——因为这种情况下there is not a thought that is maintain this abstract line，it's impossible，这是不可能的，这做不到的，你知道吗？这是做不到的，这反而是做不到的。你们为什么会幻想有这种可能性：每个人都保持思想，然后每个人都说这个抽象线——你拉出来的抽象线，它不是那个未被确定者，不是那个深渊，不是那个最原初的。你这个不是那个最原初的；不，我要说，连那个最原初的它都不是它自己。你不可能说找到一个单边的、然后一个精确的关系，和这个indeterminate有这么一个关系。
+
+## 段落 58：00:56:54 — 00:58:07
+
+来源：`t2141:s491`, `t2141:s492`, `t2141:s493`, `t2141:s494`, `t2141:s495`, `t2141:s496`, `t2141:s497`, `t2141:s498`, `t2141:s499`, `t2141:s500`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=3414)
+
+原文：有这么一个关系thought makes difference好的thought思想创造了差异但是差异是妖怪般的we shouldnot be surprised that difference should appear accursed它出现是被诅咒的一种方式就是被咒的可憎的一种方式出现我们不应该这个话说给人家小布尔乔亚听听让他们自恋自恋哦我们如此勇敢我们如此哦我们如此有信心，竟然可以成为这么一种高级的德勒兹主义者，然后他妈的面对这些monstrous difference，it's not monstrous actually，it's ugly，it's ugly，it's notugly，甚至它不是ugly，it'sboring，无聊的，就是它撕裂符号学的方式不由你这种不由你这种预先设想的小布尔乔亚美学规定啊，因为你们小布尔乔亚美学好像已经做好准备了，这什么goya，什么这个aud audilen，random，你们小布尔乔亚好像已经对这种对这种monstrous已经做好心理准备了，在这个图式上在预期一种就是indeterminate，that it should be error，thing or the figure of evil for which there must be
+
+整理稿：有这么一个关系。Thought makes difference，好的，思想创造了差异，但是差异是妖怪般的；we should not be surprised that difference should appear accursed，它出现是被诅咒的一种方式，就是被咒的、可憎的一种方式出现。我们不应该感到惊讶。这个话说给人家小布尔乔亚听听，让他们自恋，哦，我们如此勇敢，我们如此哦，我们如此有信心，竟然可以成为这么一种高级的德勒兹主义者，然后他妈的面对这些monstrous difference。It's not monstrous actually，it's ugly，it's not ugly，甚至它不是ugly，it's boring，无聊的。它撕裂符号学的方式，不由你这种预先设想的小布尔乔亚美学来规定。因为你们小布尔乔亚美学好像已经做好准备了——这什么goya、audilen、random——你们好像已经对这种monstrous做好心理准备了，在这个图式上预期一种indeterminate，that it should be error, thing or the figure of evil for which there must be\.\.\.
+
+- 疑点：goya、audilen、random 疑为艺术家名，听写不确定。；候选：Goya, Odilon Redon；依据：t2141:s498, t3131:s1317
+
+## 段落 59：00:58:07 — 00:59:21
+
+来源：`t2141:s501`, `t2141:s502`, `t2141:s503`, `t2141:s504`, `t2141:s505`, `t2141:s506`, `t2141:s507`, `t2141:s508`, `t2141:s509`, `t2141:s510`, `t2141:s511`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=3487)
+
+原文：exploitation，这句话我当然承认了，但是我更承认说如果如果哪里必须有啊expiation啊expiation，如果哪里for there must beexpiation，有赎罪的话有补偿的话啊，it should beerror，它可能是错误的是罪恶的啊或者是一个邪恶的形象，for which它必须被补偿啊被被补偿为那些地方哪种地方there must必须有补偿那种东西啊，that it should它就是它是有合法性的，你不能去这种东西出出现啊有合法性的，there is no thing other than raising the ground and dissolving theform，没有没有罪恶，不存在罪恶，就唯一的罪恶就是抬升就是抬升起抬升起这个基础，然后消解掉形式，形式就是布尔布尔乔亚世界了，但是it's not dissolving，it's replacing actually，but it's not replacing from below，it'sreplacing the by itselfactually，它不是它是被被替代了你知道吗？
+
+整理稿：exploitation，这句话我当然承认了；但我更承认，如果哪里必须有expiation，如果哪里for there must be expiation，有赎罪、有补偿的话，it should be error，它可能是错误的、是罪恶的，或者是一个邪恶的形象，for which它必须被补偿；在那些地方、那种地方，there must be必须有补偿。它就是有合法性的，你不能去否定这种东西的出现——它是有合法性的，there is no thing other than raising the ground and dissolving the form。没有罪恶，不存在罪恶；唯一的罪恶就是抬升，就是抬升起这个基础，然后消解掉形式，形式就是布尔乔亚世界了。但是it's not dissolving，it's replacing actually，but it's not replacing from below，it's replacing the by itself actually，它不是——它是被替代了，你知道吗？
+
+- 疑点：此处“exploitation”与后文反复出现的“expiation”混用，按上下文取“expiation/补偿”，需核对原词。；候选：expiation；依据：t2141:s501, t2141:s502, t3131:s1322, t3131:s1326
+
+## 段落 60：00:59:22 — 01:00:20
+
+来源：`t2141:s512`, `t2141:s513`, `t2141:s514`, `t2141:s515`, `t2141:s516`, `t2141:s517`, `t2141:s518`, `t2141:s519`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=3562)
+
+原文：它是被替代了，它不你们不要幻想有一个壮烈的符合你们那种暴力美学那种消解，你们小布尔乔亚不要有这种幻想，我们根本不在乎你们那套玩意的，因为你们不是因为你们因为你们只是观念意识形态的再生产者，但是你不是那些真正强力机器的再生产者，理解吗？recall art art我操idea，好的好的好的，这个B是谁？阿尔托的这个理念啊，这个残忍是什么都不是，而只是规定性本身啊，that precise uh point at which它是这么一个精确的一个点啊，在这个点上the determinate被决定被规定的东西maintains its essential relation with the undetermined的that它和它一直维持着它和那个未被决定者的那种本质性的关系，这么一种啊。
+
+整理稿：它是被替代了。你们不要幻想有一个壮烈的、符合你们那种暴力美学的那种消解，你们小布尔乔亚不要有这种幻想；我们根本不在乎你们那套玩意的，因为你们不是——因为你们只是观念意识形态的再生产者，但你们不是那些真正强力机器的再生产者，理解吗？Recall art，idea……好的好的好的，这个B是谁？阿尔托的这个理念啊，这个残忍什么都不是，而只是规定性本身啊，that precise point at which——它是这么一个精确的点，在这个点上the determinate，被决定、被规定的东西，maintains its essential relation with the undetermined，它和那个未被决定者一直维持着那种本质性的关系。
+
+## 段落 61：01:00:21 — 01:01:03
+
+来源：`t2141:s520`, `t2141:s521`, `t2141:s522`, `t2141:s523`, `t2141:s524`, `t2141:s525`, `t2141:s526`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=3621)
+
+原文：那么这么一种that thatrigorous abstract line fed by它是由这个明暗对照法明暗对照法由明暗对照法所喂养的抽象线所抽那个严酷的严酷的那个抽象线严酷的抽象线所喂养出来的就是这么一个暴力啊that这个这个都是一个东西啊就是cruelty is nothing but determination as such然后是这个东西然后又是这个东西啊都讲来讲去就是要讲它的一个本体论的一个单元基本单元cruelty它是一个事件啊或者就是这个
+
+整理稿：那么，这么一种that rigorous abstract line fed by——它是由明暗对照法所喂养的抽象线，所抽出的那个严酷的抽象线，严酷的抽象线所喂养出来的，就是这么一个暴力啊。这都是一回事，就是cruelty is nothing but determination as such。然后是这个东西，然后又是这个东西，都讲来讲去，就是要讲它的一个本体论的单元、基本单元：cruelty它是一个事件，或者就是这个……
+
+## 段落 62：01:01:03 — 01:03:37
+
+来源：`t2141:s527`, `t2141:s528`, `t2141:s529`, `t2141:s530`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=3663)
+
+原文：this再去引入，再去解解释一些事件的发生学机制，主体性如何生成的？啊，本体性的事件，啊，本体性的世界，还有就真正本体性的事件，还有那些虚假的事件怎么来区分？啊，他会后面做这些东西。
+
+整理稿：determination as such，或者就是difference in itself本身。它被看成是它的发生学机制：基础涌出来，然后是什么理型瓦解、无的交汇啊。你看这个本体论做得多漂亮啊，但是我不感兴趣啊。因为他这个什么animal那种无、black nothingness有点怪啊——不是怪，就是错的；这个本体论框架在我看来是错了，it's wrong，错的。他幻想有这种东西很怪啊。我靠，里面everything is dissolved，我告诉你可能有everything is dissolved，因为there must be something that cannot be dissolved，某种东西是不可瓦解的，主体性——因为按我们的说法，就是主体性，subjectivity，the death drive，whatever。唯物主义的基本态势是there must be something that cannot be dissolved，even in so\-called ground，甚至在所谓的ground里面，ground自身有内在的僵局、内在的不予之心，它不能把自己交给自己，不可能使得自己作为一种indeterminate animal而存在。它在最低限度上是subjective，在最低限度上是主体化的。我一直不知道“主体化”的那个动词化应该是subjectivized还是subjecti——应该是subject，主体化的，而不是主体性化的，而不是主体性化的，subjective，就变成主体性化的subjective嘛，objective，然后把这个变成动词；如果是subject case，那就是主体化的，差别不大了。不管，反正我们懂这个道理就行了。在齐泽克的文本里面讲得很清楚，就是说这个东西不会成为我的本体论起手式。说我读不懂，我为什么读不懂呢？他这个模型继续往下去做，那无非是再去引入黑格尔的框架，再去引入一些辩证法，再去继续做吧，再去引入，再去解释一些事件的发生学机制：主体性如何生成的？本体性的事件、本体性的世界，还有真正本体性的事件，还有那些虚假的事件，怎么来区分？他会后面做这些东西。
+
+- 疑点：t2141:s527 的 ASR 文本只保留末尾一句，中间关于本体论框架、主体性等大段论述依据参考字幕补全，需核对。；候选：；依据：t3131:s1392, t3131:s1412, t3131:s1435
+- 疑点：“关键论家”疑为“精神分析家”等，未能确认，正文弱化处理。；候选：精神分析家；依据：t3131:s1408
+- 疑点：“内在的不予之心”听写不确定，可能为“内在的不一致性”等。；候选：内在的不一致性；依据：t3131:s1417
+
+## 段落 63：01:03:37 — 01:03:54
+
+来源：`t2141:s531`, `t2141:s532`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=3817)
+
+原文：啊，我要讲的就是说，在这个本体论的基本态势里面，我们我看到的一种姿态，这种姿态是我不能认可的。啊，白嫖的，有这白嫖的，还有这个思，它这还可以什么什么这个insomnia，我靠，这都是小布尔乔亚幻想，你知道吗？
+
+整理稿：我要讲的是，在这个本体论的基本态势里，我看到的一种姿态是我不能认可的。这里有白嫖的，还有这个思——它还可以是什么insomnia？我靠，这都是小布尔乔亚幻想。
+
+- 疑点：“还有这个思……insomnia”语义不清，insomnia疑为术语，具体所指待核；候选：insomnia；依据：t2141:s532
+
+## 段落 64：01:03:54 — 01:04:30
+
+来源：`t2141:s533`, `t2141:s534`, `t2141:s535`, `t2141:s536`, `t2141:s537`, `t2141:s538`, `t2141:s539`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=3834)
+
+原文：你你何德何能？你你这种弱小的，我靠，每个月的他妈的油钱还得是上面发给你的，那这种弱小的何德何能？这还吹嘘自己有这种，把这种看成一个病症，我是守夜人，一种诗性的诗化的一种病态诗化的病病那种就是十二十世纪初维也纳的那种，十九世纪末二十世纪初维也纳或者就是伦敦的那种腔调的那种自恋的那种结构，没想到法国里面依然有啊，依然有，谁会喜欢这种东西呢？你喜欢这东西是你的问题啊，啊，你喜欢这东西是你的问题。
+
+整理稿：你何德何能？你这种弱小的人，每个月的油钱还得靠上面发给你，这种弱小的人何德何能？还吹嘘自己有这种东西，把这种看成一种病症：我是守夜人，一种诗性的、诗化的、病态诗化的病症……就是十九世纪末二十世纪初维也纳，或者伦敦的那种腔调、那种自恋的结构。没想到法国里面依然有。谁会喜欢这种东西呢？你喜欢这东西是你的问题。
+
+- 疑点：“病态诗化的病病”为口吃重复，已整理为“病态诗化的病症”，具体措辞待核；候选：病态诗化的病症；依据：t2141:s535
+
+## 段落 65：01:04:32 — 01:05:09
+
+来源：`t2141:s540`, `t2141:s541`, `t2141:s542`, `t2141:s543`, `t2141:s544`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=3872)
+
+原文：我觉得我们学习哲学的人就是，我就是问我就是提出这些本体论问题，我希望你可以给我一个解答嘛，就是我给你一个解答，啊，你可以给我一个解答，就这个德勒兹的这个两个ness的这个二分啊，它里面为什么会是这屌样的？而且他一直在绕过，他一直在语言不详的讲一个主体性的问题，就是这个thought问题，他语言不详，而且在这里的时候，他都没有讲到thought，他会讲到person啊，他会讲讲到faces，他会讲到这个，但是他没有直接面对，但是这里面所有的环节都需要辩证法来中介，就是这这是个关键问题，这里面都有辩证化的机制。
+
+整理稿：我觉得，我们学习哲学的人，我提出这些本体论问题，希望你能给我一个解答：就这个德勒兹的两个ness的二分，它里面为什么会是这屌样？而且他一直在绕过，一直语焉不详地讲一个主体性问题，也就是thought问题。他语焉不详，而且在这里他都没有讲到thought；他会讲到person，会讲到faces，会讲到这个，但没有直接面对。然而这里所有环节都需要辩证法来中介，这是个关键问题，里面都有辩证化的机制。
+
+- 疑点：“两个ness的二分”术语不确定，参考字幕作“两个二分”，具体所指待核；候选：两个ness的二分；依据：t2141:s541
+
+## 段落 66：01:05:09 — 01:05:24
+
+来源：`t2141:s545`, `t2141:s546`, `t2141:s547`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=3909)
+
+原文：哦，确定的，没错，它本身就是结构就是辩证化的机制，本身这结构就是形式瓦解，形式瓦解在最低限度上是辩证法，又重新构造，我们要讲重新构造，它只是构造一个abstractline抽象线抽离线，
+
+整理稿：没错，它本身就是结构，就是辩证化的机制；这结构本身就是形式瓦解，而形式瓦解在最低限度上是辩证法，又重新构造。我们要讲重新构造，它只是构造一个abstract line——抽象线。
+
+- 疑点：“形式瓦解在最低限度上是辩证法”中“辩证法”与参考字幕“变的吧”不一致，语义待核；候选：辩证法；依据：t2141:s545
+
+## 段落 67：01:05:26 — 01:06:29
+
+来源：`t2141:s548`, `t2141:s549`, `t2141:s550`, `t2141:s551`, `t2141:s552`, `t2141:s553`, `t2141:s554`, `t2141:s555`, `t2141:s556`, `t2141:s557`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=3926)
+
+原文：呃，关键问题就是这个这个a singledetermination它如何变成single d e t e r m i n a t i o n？a s i n g l e在这里就是q u a n t i t y哪来的？白嫖了吗？怪怪的啊，怪怪的，主体化是可以给带来量的规定性，它是一个不是规定性的规定性，不是质的规定性，量的规定性，一个可以说是不在场的规定性，但是它又可以，如果它过头了，会决定它的相互关系，决定它的在场不在场，这量的规定性很很有意思，在这里就没有谈论到单数性和复数性的问题，在他的本体论的起手是没有谈论到，理解吗？y o u y o u k n o w一根线两根线的问题很重要，这要区分清楚，因为它对我们后面的姿态很很关键。然后这里的t h o u g h t的地位问题，啊，它是i t i s t h e v i g i l，我不知道v i g i l还是什么，不知道怎么念啊，t h e i n s o m n i a o f t h o u g h t s i n c e t h o u g h t i s t h a t m o m e n t i n w h i c h d e t e r m i n a t i o n m a k e si t s e l f determinationa single在这里就是quantity哪来的白嫖了吗怪怪的啊怪怪的主体化是可以给带来量的规定性它是一个不是规定性的规定性不是质的规定性量的规定性一个可以说是不在场的规定性但是它又可以如果它过头了会决定它的相互关系决定它的在场不在场这量的规定性很很有意思在这里就没有谈论到单数性和复数性的问题在他的本体论的起手是没有谈论到理解吗you you know一根线两根线的问题很重要这要区分清楚因为它对我们后面的姿态很很关键然后这里的thought的地位问题啊它是it is the vigil我不知道vigil还是什么不知道怎么念啊the insomnia of thoughtsince thought is that moment in which determination makes itselfone关键问题就是说你在这里既然它是一个原初的本真的一个事件的话，主体化的机制怎么样？
+
+整理稿：关键问题就是这个a single determination，它如何变成single determination？a single在这里就是quantity，哪来的？白嫖了吗？怪怪的。主体化可以带来量的规定性：它是一个不是规定性的规定性，不是质的规定性，而是量的规定性，一个可以说是不在场的规定性；但如果它过头了，会决定它的相互关系，决定它的在场不在场。这量的规定性很有意思。在这里就没有谈论到单数性和复数性的问题，在他的本体论起手处没有谈论到，理解吗？一根线两根线的问题很重要，要区分清楚，因为它对我们后面的姿态很关键。然后这里的thought地位问题：它是it is the vigil，我不知道vigil还是什么，不知道怎么念，the insomnia of thought，since thought is that moment in which determination makes itself one。关键问题在于：你在这里既然把它当作一个原初的、本真的事件，那么主体化的机制怎么样？
+
+- 疑点：a single determination/quantity等英文术语按原音保留，具体拼写和含义待核；候选：；依据：t2141:s549
+- 疑点：“vigil”与“insomnia”的引文辨认不确定，参考字幕作“majail/enzomia”等；候选：vigil；依据：t2141:s555
+
+## 段落 68：01:06:29 — 01:06:48
+
+来源：`t2141:s558`, `t2141:s559`, `t2141:s560`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=3989)
+
+原文：我需要你更精确的描述给我。Thought makesdifference啊这个这个姿态太小布尔乔亚我受不了。But difference ismonstrous这是明显有一个这里就是相当于说是不是一个小布尔乔亚图书馆爱读书的小女孩，她把那个男孩底层男孩给逼疯了，因为怎么怎么样的？
+
+整理稿：我需要你更精确地描述给我：thought makes difference。啊，这个姿态太小布尔乔亚，我受不了。但difference is monstrous。这里明显相当于说：是不是一个小布尔乔亚、爱读书的小女孩，把那个底层男孩给逼疯了，因为怎么怎么样？
+
+- 疑点：“difference is monstrous”中monstrous参考字幕作masterous，拼写待核；候选：monstrous；依据：t2141:s560
+
+## 段落 69：01:06:48 — 01:07:17
+
+来源：`t2141:s561`, `t2141:s562`, `t2141:s563`, `t2141:s564`, `t2141:s565`, `t2141:s566`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=4008)
+
+原文：我就想到那种狗血电影剧情，把那个底层男孩逼疯了，让这个底底层男孩的那个野性的那一面暴露出来了。但是什么后面是什么又给他开脱啊是吧？啊thing什么it should be arrow thing or the figure of evil for which there must beexpiationexpiation我不知道怎么样there is no thing other than right raising the ground and dissolving theform哎呀recall这什么呀过了这好好不管了啊
+
+整理稿：我就想到那种狗血电影剧情：把那个底层男孩逼疯了，让这个底层男孩野性的那一面暴露出来。但后面又是什么给他开脱？啊，thing——什么it should be \.\.\. or the figure of evil for which there must be expiation？我不知道。There is no thing other than raising the ground and dissolving the form。哎呀，recall，这什么呀？过了，好好，不管了。
+
+- 疑点：英文引文中“arrow thing”及“right raising”辨认不确定，已按原音和上下文整理，具体措辞待核；候选：arrow thing；依据：t2141:s563
+
+## 段落 70：01:07:19 — 01:07:45
+
+来源：`t2141:s567`, `t2141:s568`, `t2141:s569`, `t2141:s570`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=4039)
+
+原文：他这个姿态啊是一个就是一个啊就是一个偏左翼的小布尔乔亚偏左翼的你那些自恋的小知识分子，当然也有可能学院化的嘛拿到教职的就自居大知识分子自居文化人和这些你看举了几个例子就是他妈的就是啊艺术家举了一个这边的你不过为什么不直接举现实的这个政治事事事件呢更有穿透力他他怕露馅儿你知道吗？因为现实不是这样运作的。
+
+整理稿：他这个姿态是一个偏左翼的小布尔乔亚，是你们那些自恋的小知识分子——当然也可能学院化了，拿到教职，就自居大知识分子、文化人。你看他举的几个例子，他妈的举的都是艺术家之类的。为什么不直接举现实的政治事件？那更有穿透力。他怕露馅儿，你知道吗？因为现实不是这样运作的。
+
+## 段落 71：01:07:45 — 01:08:08
+
+来源：`t2141:s571`, `t2141:s572`, `t2141:s573`, `t2141:s574`, `t2141:s575`, `t2141:s576`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=4065)
+
+原文：你稍微有点经验的人就知道现实不是这样玩的，还他妈的还abstractline啊single abstract line are you kidding me？还有什么fedon这个chiaroscuro是吧？这什么叫明暗法明暗对照法？我靠吃这个东西吃也就是也就吃符号学等级制对不对？吃上面那个明暗对照吃它专门吃它
+
+整理稿：稍微有点经验的人就知道，现实不是这样玩的。还他妈的abstract line，single abstract line，are you kidding me？还有什么fed on这个chiaroscuro，是吧？什么叫明暗法、明暗对照法？我靠，吃这个东西，也就是吃符号学等级制，对不对？吃上面那个明暗对照，专门吃它。
+
+- 疑点：“fed on chiaroscuro”英文短语辨认不确定；chiaroscuro指明暗对照法；候选：fed on chiaroscuro；依据：t2141:s572
+
+## 段落 72：01:08:10 — 01:08:32
+
+来源：`t2141:s577`, `t2141:s578`, `t2141:s579`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=4090)
+
+原文：然后然后然后就可以得到这个抽象就是专吃我这不太懂啊，可能专吃二人对立来获得抽象线，这抽象线就是一个就是一个就是有力的思想武器，找到这个abstractline有力的思想武器，它是个rigorous它可以给你这些小布尔乔亚斗争的是有嗯嗯有有底气有强烈意志或者怎么样whatever
+
+整理稿：然后就可以得到这个抽象——就是专吃……我这不太懂啊，可能是专吃二元对立来获得抽象线。这抽象线就是一个有力的思想武器，找到这个abstract line，一个有力的思想武器。它是个rigorous，可以给这些小布尔乔亚斗争提供底气、强烈意志或者怎么样，whatever。
+
+## 段落 73：01:08:32 — 01:09:29
+
+来源：`t2141:s580`, `t2141:s581`, `t2141:s582`, `t2141:s583`, `t2141:s584`, `t2141:s585`, `t2141:s586`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=4112)
+
+原文：思想要做的守夜人这个起手式我就不喜欢，因为这个起手式很明显观念论上有有点粗糙，设置的这本体性的这两个两个对立极有点粗糙，虽然他掩盖了一下说这不是一个什么理性睡着恶魔跑出来的问题我要说的是这是绝大部分理性睡着一个自恋的理性还醒着，然后这个自恋的理性看到了某个事件目睹某个事件他受不了，另外的理性醒来之后他做假报告我刚看到的怪物然后讲了一个怪物的故事，让其他的醒来的理性哎很好玩好好玩的怪物的故事就这种场景呃就是起手式的问题就起手式的问题作为晚期谢林主义者我受不了这种粗糙的本体论，我不太吃得下这个东西我吃不下这个东西简单来说I can't eatit我吃不下这个东西啊，
+
+整理稿：思想要做的守夜人这个起手式我就不喜欢，因为这个起手式在观念论上明显有点粗糙，所设置的本体性两个对立极也有点粗糙。虽然他掩盖了一下，说这不是一个什么理性睡着、恶魔跑出来的问题，但我要说的是：这是绝大部分理性睡着，一个自恋的理性还醒着；这个自恋的理性看到、目睹某个事件，他受不了；另外的理性醒来之后，他做假报告：“我刚看到怪物”，然后讲了一个怪物的故事，让其他醒来的理性觉得——哎，很好玩，好好玩的怪物故事。就是这种场景。就是起手式的问题。作为晚期谢林主义者，我受不了这种粗糙的本体论，我不太吃得下这个东西，吃不下这个东西。简单来说，I can't eat it，我吃不下这个东西。
+
+- 疑点：“思想要做的守夜人”断句和语义不确定，按原话保留；候选：；依据：t2141:s580
+
+## 段落 74：01:09:30 — 01:10:04
+
+来源：`t2141:s587`, `t2141:s588`, `t2141:s589`, `t2141:s590`, `t2141:s591`, `t2141:s592`, `t2141:s593`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=4170)
+
+原文：当然我会，如果有机会的话，我会再再再讲一点啊，再讲一点。你叫我直接照本宣科讲，不加批判的讲，我是没有这个精力的，我肯定会骂的，我肯定会一边讲一边骂。至于某个小朋友说我这个东西看不懂，或者说我觉得这个看了之后，你这他妈小布尔乔亚真的是，别烦了，我不想跟你说了，我我，我们我们我们我们是怎么哪种人你知道吗？你知道我们是哪种人吗？
+
+整理稿：当然，如果有机会，我会再讲一点。你叫我直接照本宣科、不加批判地讲，我是没有这个精力的；我肯定会骂，肯定会一边讲一边骂。至于某个小朋友说我这个东西看不懂，或者说看了之后……你这他妈小布尔乔亚真的是，别烦了，我不想跟你说了。我们——你知道我们是哪种人吗？
+
+## 段落 75：01:10:04 — 01:10:36
+
+来源：`t2141:s594`, `t2141:s595`, `t2141:s596`, `t2141:s597`, `t2141:s598`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=4204)
+
+原文：我们不会像你那么时髦，在什么这个上海什么哲学圈、艺术界他妈的做风云人物了。我们是那种很辛苦了，在宿舍里面，哪怕时间到了都舍不得搬走。然后就我我有老博士那些朋友，我们这些人学关键论、学辩证法，是学的很野的。我们是很辛苦了，很艰难的，我们过日子过的是很惨的日子。我我们那些老博士学了这些东西，写文章写再漂亮没用的，版面买不起，了解吗？
+
+整理稿：我们不会像你那么时髦，在上海什么哲学圈、艺术界他妈的做风云人物。我们是那种很辛苦的人，在宿舍里面，哪怕时间到了都舍不得搬走。我有一些老博士朋友，我们这些人学关键论、学辩证法，是学得很野的。我们很辛苦、很艰难，日子过得很惨。我们那些老博士学了这些东西，文章写得再漂亮也没用，版面买不起，了解吗？
+
+- 疑点：“关键论”疑为专名或书名，可能是“《资本论》”等，无法确认；候选：关键论；依据：t2141:s596
+
+## 段落 76：01:10:36 — 01:10:49
+
+来源：`t2141:s599`, `t2141:s600`, `t2141:s601`, `t2141:s602`, `t2141:s603`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=4236)
+
+原文：你你妈你还有钱出国了？你家里是什么条件？什么背景？讲来听听，跟我我洗耳恭听，讲来听听。你讲某人是一个什么条件、什么背景？一个月挣的钱是哪些钱啊？讲来给我听听。啊，你不想讲也没事，我不强迫你。
+
+整理稿：你他妈还有钱出国？你家里是什么条件、什么背景？讲来听听，我洗耳恭听。你讲讲，你是一个什么条件、什么背景？一个月挣的钱是哪些钱？讲来给我听听。你不想讲也没事，我不强迫你。
+
+- 疑点：ASR作“你讲某人是一个什么条件”，按上下文整理为“你讲讲你是一个什么条件”，人称待核；候选：你讲讲你；依据：t2141:s601
+
+## 段落 77：01:10:50 — 01:11:12
+
+来源：`t2141:s604`, `t2141:s605`, `t2141:s606`, `t2141:s607`, `t2141:s608`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=4250)
+
+原文：另外一方面就是说，我们的出路就是要到现实当中去温习。早饭是哪里还有时间去像你一样打打之狼啊，装逼在群里面跟人家小孩忽悠他们，自己是个权威有教职的，在那边人群里面就是就捧着你，众星捧月一样捧着你这个小鬼，在我眼里就是小鬼一样的。还有一点就是说，
+
+整理稿：另外一方面，我们的出路就是要到现实当中去。早饭后哪里还有时间像你一样打打《只狼》，在群里装逼，跟人家小孩忽悠，说自己是个权威、有教职的，在那边人群里面就捧着你，众星捧月一样捧着你这个小鬼？在我眼里就是小鬼一样的。
+
+- 疑点：“早饭是哪里”语义不清，按上下文整理为“早饭后哪里”；“之狼”按游戏名整理为《只狼》；候选：早饭后；依据：t2141:s606
+
+## 段落 78：01:11:14 — 01:11:47
+
+来源：`t2141:s609`, `t2141:s610`, `t2141:s611`, `t2141:s612`, `t2141:s613`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=4274)
+
+原文：呃，我们这些人，就我那朋友，我们后来就就去很很三四流的养学者的地方，那还是学者。当然你可以看不起我们，我们可能就是去某某校啊，某某办公室里面去做办公室主任啊，啊写稿子去了呀。我们可能就是我我我的朋友啊，我的一些朋友啊，他们就可能成为这种身份了，或者就去啊某某这个院的里面去当小老师了，就教本科生的一些课程去了，就必修课的课程去了。
+
+整理稿：我们这些人，就我那朋友，后来就去很三四流的、养学者的地方，那还是学者。当然你可以看不起我们，我们可能就是去某某校，在某某办公室做办公室主任，写稿子去了。我的朋友、我的一些朋友，可能就成为这种身份，或者去某某院里面当小老师，教本科生的一些课程，教必修课去了。
+
+- 疑点：“三四流的养学者的地方”语义不确定，疑为“三四流学者待的地方”，按原话保留；候选：；依据：t2141:s609
+
+## 段落 79：01:11:48 — 01:12:06
+
+来源：`t2141:s614`, `t2141:s615`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=4308)
+
+原文：但不不意味着我们不懂你这套把戏，不会玩你这套把戏，而且只不过甚至我们可以说，我们不屑于玩你这套把戏，玩你这套用一堆文化符号装点自己，不讲点实实在在东西，你不就是被布尔乔亚体系豢养的一个人吗？有什么了不起？
+
+整理稿：但这不意味着我们不懂你这套把戏，不会玩你这套把戏；甚至可以说，我们不屑于玩你这套把戏——用一堆文化符号装点自己，不讲点实实在在的东西。你不就是被布尔乔亚体系豢养的一个人吗？有什么了不起？
+
+## 段落 80：01:12:07 — 01:12:39
+
+来源：`t2141:s616`, `t2141:s617`, `t2141:s618`, `t2141:s619`, `t2141:s620`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=4327)
+
+原文：啊好吧，我我我虽然说你说我读这文本读的磕磕拉拉了，至少半懂不懂，我能讲讲出点门道出来吧，我能和黑格尔和谢林联合起来讲一讲吧，我能和海德格尔结合起来讲一讲吧。我很期待你会讲这个东西讲成什么样子，你来讲讲德勒兹的这个本体论的起手式，这个事件理论、真理理论的起手式。Chooseevent，它的起手，这个chooseevent，呃，涌上来那个碎开了，这个中间那个去符号化的，甚至去主体化了，因为人格的面向都瓦解掉了。
+
+整理稿：好吧，我虽然读这文本读得磕磕绊绊、至少半懂不懂，但我能讲出点门道吧？我能和黑格尔、谢林联合起来讲一讲吧？我能和海德格尔结合起来讲一讲吧？我很期待你会把这个东西讲成什么样子。你来讲讲德勒兹这个本体论的起手式，这个事件理论、真理理论的起手式。Choose event，它的起手，这个choose event，涌上来那个碎开了，中间那个去符号化的，甚至去主体化了，因为人格的面向都瓦解掉了。
+
+- 疑点：“Choose event”英文辨认不确定，参考字幕作“truth bent/choy b”等，具体所指待核；候选：Choose event；依据：t2141:s619
+
+## 段落 81：01:12:39 — 01:14:20
+
+来源：`t2141:s621`, `t2141:s622`, `t2141:s623`, `t2141:s624`, `t2141:s625`, `t2141:s626`, `t2141:s627`, `t2141:s628`, `t2141:s629`, `t2141:s630`, `t2141:s631`, `t2141:s632`, `t2141:s633`, `t2141:s634`；[回看](https://www.bilibili.com/video/BV1Fq4y1M7Rb/?p=1&t=4359)
+
+原文：就是你阿尔都塞想太多了，不用去超定那个呃indeterminate，你不需要去搞那个东西的，我们不需要over over determine theindeterminate，我们不要这样搞，阿尔都塞你太想太多了，我们只要让它下面涌起来，煽风点火就是拱火，然后再让上面这个碎开，甚至这个时候自然会大家的主体，大家的面貌，大家的主体化的那个样态会变掉，extensuality它会发生改变，就会make thedifference，就通过，当然是通过thought要把握到这些时机make the d i f f e r e n c e。I w a n t t o k n o w h o w t o r a i s e t h e g r o u n d w h e n y o u a r e o n t h e s k y,o n t h e c l o u d,o n t h e s k y\.H a n g o n t h e s k y,m a y b e\.Y o u a r e s o h a n g o n t h e s k y\.H a n g嘛，我们就h u n g，不管了，我反正我不太在乎这些东西，我经常犯语法错误。我很想知道，我很想知道你如何面对这些东西。I t's i n t e r e s t i n g,i t's i n t e r e s t i n g\.这个东西我吃不下去，我对你简单来说吧，这种这种这种这种这种渣渣我吃不下去啊，因为在这里大家已经分道扬镳了，我们真的吃不下去啊，我们真的吃不下去，我们这些学谢林、康德、费希特的人、海德格尔的这些人，当然后来都是很明确的，我们学马克思的这些人，我们真的吃不下你这玩意儿，吃不下这种小布尔乔亚唯左，真的吃不下。D i s g u s t i n g，你呢？G o o d b y e\.differenceI want to know how to raise the groundwhen you are on the skyon the cloud on the skyHang on the sky maybe You are so hang on the skyHang嘛我们就h u n g不管了我反正我不太在乎这些东西我经常犯语法错误我很想知道我很想知道你如何面对这些东西It'sinteresting it's interesting这个东西我吃不下去我对你简单来说吧这种这种这种这种这种渣渣我吃不下去啊因为在这里大家已经分道扬镳了我们真的吃不下去啊我们真的吃不下去我们这些学谢林康德费希特的人海德格尔的这些人当然后来都是很明确的我们学马克思的这些人我们真的吃不下你这玩意儿吃不下这种小布尔乔亚唯左真的吃不下Disgusting你呢Goodbye
+
+整理稿：就是你阿尔都塞想太多了。不用去超定那个indeterminate，你不需要去搞那个东西；我们不需要overdetermine the indeterminate，不要这样搞，阿尔都塞太想太多了。我们只要让它下面涌起来，煽风点火，就是拱火，然后再让上面那个碎开。甚至这个时候，自然，大家的主体、大家的面貌、大家主体化的那个样态会变掉，extensuality会发生改变，就会make the difference——当然是通过thought要把握到这些时机，make the difference。I want to know how to raise the ground when you are on the sky, on the cloud, on the sky\. Hang on the sky, maybe\. You are so hang on the sky\. Hang嘛，我们就hung，不管了。我反正不太在乎这些东西，我经常犯语法错误。我很想知道，我很想知道你如何面对这些东西。It's interesting, it's interesting。这个东西我吃不下去。我对你简单来说吧，这种渣渣我吃不下去，因为在这里大家已经分道扬镳了。我们真的吃不下去，我们真的吃不下去。我们这些学谢林、康德、费希特的人，学海德格尔的这些人，当然后来都是很明确的；我们学马克思的这些人，真的吃不下你这玩意儿，吃不下这种小布尔乔亚唯左，真的吃不下。Disgusting，你呢？Goodbye。
+
+- 疑点：末段英文术语（overdetermine the indeterminate、extensuality、hang/hung等）按原音保留，拼写与语义待核；候选：；依据：t2141:s621, t2141:s623, t2141:s629
+- 疑点：“小布尔乔亚唯左”中“唯左”表述不确定，疑为“左翼”等，按原话保留；候选：唯左；依据：t2141:s633
+
+## 未匹配的参考字幕
+
+- `t3131:s365`
+- `t3131:s732`

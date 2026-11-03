@@ -1,0 +1,73 @@
+我们继续来讲黑格尔的文本。因为我出门在外，抽不出空来完整地讲一门课，所以就直接讲文本，继续讲这个练习课。
+
+因此，当我们说某个东西是可能的，它纯粹只是一种形式的确证，即 formal assertion。它本身是肤浅的、空洞的，只是一个矛盾律的确证。当我们说“这是可能的”，只不过是在确证一个矛盾律：这个东西不矛盾。我们把任意一个内容放进矛盾律里，说它符合矛盾律、它不矛盾，于是说它是可能的；这时它只是一个自在的东西，一个空转的东西。
+
+说 A 是可能的，它什么都没说，says no more than A is A；它只不过说 A 就是 A。矛盾律是同一律的否定性表述，这一点前面已经讲过。说 A 是可能，就等于说 A 就是 A。Left undeveloped：这个内容没有被发展。如果把它放在矛盾律或同一律里而不去发展它，它就具有简单性的形式，this content has a form of simplicity。它就是简单性，就是“这个内容”本身；它只是一个可能的东西，无非是在逻辑空间里空转，在本质位面空转。Only after being resolved into its determinations：只有当这个内容消解进、进入它的规定之中，差异才会从里面涌现出来，difference emerges within it。在那之前，它只有 simplicity。在可能性空间、可能性位面里，说一个内容是可能的，它只是一个单纯同一性或不矛盾性，一个很纯、很简单的东西，里面没有差异，它直接就是它自己，no difference。只要它瓦解到规定里去，具体看它有什么规定，这时才有差异显现出来；否则它就直接是它自己，无非是它自己而已，在可能性位面里悬浮着。你不进一步看，里面没有任何差异，there is no difference, no difference within it。所谓 resolved into its determinations，就是进一步进去看里面的规定。
+
+进一步看，这里的这个 A 到底是什么样的 A？它里面有哪些一环扣一环的规定、怎样的规定？然后才有差异。
+
+如果它只是说它是可能的，那无非就是一个悬浮在可能性位面里的简单性，或者一个自在。To the extent that we stop at a simple form：只要我们停留在简单形式上，只做到这一步，也就是只论它是一个简单的可能性形式，那么 the content remains something self\-identical and hence possible。这个内容就会始终是某种自我同一的东西，纯粹的自我同一者。
+
+因此，它仅仅是一个可能者，一个 possible；it's just possible, nothing else——什么都不是，只是一个可能者。
+
+我常因为说 what's the different 被人嘲笑，说我英语说错了。其实这只是因为我黑格尔读得多：我不喜欢说 what's the difference，而喜欢说 what's the different，也就是 the 加形容词。黑格尔这里不只有定冠词加形容词，还有不定冠词加形容词：a possible，一个可能的东西、一个可能者。it's just possible，是空转中的一个候选项。But we do not say anything by it：我们这样说，其实没有说出任何东西，只说这个东西是同一的，是在绝对者看来悬在本质性位面——a domain of possibility，一个可能性的位面——里的一个待选项、一个可能者、可行者。这个 possible 也可以理解为可被假设者、可被绝对者铺设者。Just as we do not\.\.\.：我们说的假设都是 employed，可以被部署、可以被绝对者部署。And we do not do with the principle of identity：正如我们用同一律去把握一个东西时，说 A 是 A、A 等于 A，其实没有说 A 到底是什么，只是用同一律在把握它。但这里有差别：黑格尔继续说，可能性和同一性是两个规定，这两个规定肯定有差别。差别在哪里？他说，the possible amounts to more than just the principle of identity——可能者比同一律所代表的东西要更多。
+
+可能者是一个被反思了的、内在的被反思性：reflected immanent reflectiveness。它是一种被反思了的内在反思状态；immanent 可以理解为固有的。我们说一个东西是可能的，意思是它早就被反思过、被审视过了。它符合矛盾律、同一律，是被检查过一遍、里面没有错误的东西——被谁检查过？绝对者，大他者已经先把它中介过一次。所以它是一个被中介过了的中介性。reflectiveness 才是已经被审视过一遍、又仍处在被审视中的被审视状态，即 reflected immanent reflectiveness，被反思了的被反思状态。说一个东西是可能的，无非是说它可行、可以出来，像一张清单上可供选择的东西；它既然在清单上，就应该是已经被看过、可以被铺设的，已经检查过、可被铺设。这就叫 reflectiveness，而且是 immanent reflectiveness：它本来就固有地可以被铺设，现在又被 reflected、被反思出来。
+
+什么叫又被反思？因为它是在那个东西上面，是在 the possible 上；也就是说，reflected 是在具体实存单元上面折射出来的被反思性。这个 immanent reflectiveness 很好理解：它在可能性空间的列表里悬浮着，是一个候选项；既然是候选项，就应该是无矛盾的，是可能者。但关键问题是，这个可能者是 reflected，the possible is reflected immanent reflectiveness。那这个 reflected 是被谁 reflect 的？它已经被审视过了；被谁审视？它冒出来的时候直接就在清单里，好像没有人做这项工作，它直接就冒在清单里说“我是可能者”。比如这个杯子，杯子里面没有水，但“倒满水”的状态是不是一个可能者？当然是；这个杯子当然可以被倒满，这个被倒满的事态是一个可能者，但它没有发生。但它就是可能者，是罗列在可能性位面里的一个合法的、稳定的、固有的候选项。
+
+它好像已经被别人、自动地设立成一个候选项了。谁？绝对者，the absolute。所以可能性里包含绝对性，也包含现实性；这不是它的否定性样态。否定现象无非是它还没有实现、还没有成为绝对的、还没有被实现出来。或者它是 the identical simply as a movement of the totality：可能者是一个同一者，但它仅仅是作为总体性的一个环节的同一者，as a movement of the totality，只是总体性的一个环节的同一者。
+
+这个 totality，前面已经讲过。什么叫总体性？就是要把两个本质关系的两侧总合成一个，totalized as one，把内在侧和外在侧总合成一个；它们是同一的。同一起来，这个 totality 就带有一种历史的驱动性，好像有一个绝对者在驱动，把一个总体演化出来，把内在和外在两个东西都总体地、统一地演化出来。所以它是作为一个环节：里面的每一个环节都具有可能性。a movement of the totality 意味着这个 movement 是 totality 在铺设它时的一个候选项。总体性要把自己铺设出来；绝对者要是总体的，它要把自己铺设出来，一个环节、一个环节地铺设出来。这时，在总体性的这些环节里，有一个环节叫作同一性，the identical，那个同一者。这个同一者只是其中的一个环节。
+
+我在总体性中铺设这些环节的时候，每一个环节都得有它的同一性。这里的同一性是 the identical，是 simply as a movement of the totality。总体性不是某个“total”，而是 totality；总体性这个概念本身包含一个环节，即：我铺设下来的每一个东西都得有同一性。但在它还没有被铺设时，我先把这个同一性准备好；这个准备好了的同一者，就是 the identical。
+
+那个被统一好的、准备好了的同一者，就是可能者。它是已经被准备好、将要作为总体性的环节被铺设下来的同一者；但这个同一者还没有被铺设，所以它是可能者。它有没有被铺设，我们并不知道，但它是总体性内部的一个环节。既然它是总体性的环节，而总体性最终一定要内外合一、一定要铺设出来，所以它 also as determined not to be itself。因此，它也被规定成不是自在的。被谁规定？这是 also determined，都要问被谁规定。答案是绝对者：它被绝对者规定成不是自在的，是绝对必然性在规定它。更具体地说，是绝对者的自我返回运动、自我显现（manifestation）的运动在规定它。因此，它只是一个总体性环节，不是一个自在，not to be itself；它不能在自身中存在，not to be in itself。它无法在自身中存在，只是这盘大棋里的一个环节。
+
+在这个环节当中，需要一个统一者来占这个位置，需要一个统一者来扮演得好像它是自在存在一样，这个统一者就是可能者。所以，it therefore has a second determination：它具有第二种规定，即 being only a possible，它仅仅是一个可能者；同时还有 the ought to be of the totality of the form，即它是形式的总体性的一个应当存在，ought to be。这里的应当存在，就是应当出来变成自在。一方面，它是背后那个候补列表里的候补选项；另一方面，这些候补选项一出来，就要变成 in itself。因为它们在背后的时候都是一个个 in itself，所以出来之后也应当是 being，ought to be。背后这个形式的总体性就是后景，前面的显现就是前景，两者要统一；后面驱动前面，前面又展现后面，这是一个统一的总体性。这就是绝对者之路，是绝对者不停显现自身的路，这就叫形式总体性。在形式总体性中，这些可能性扮演什么角色呢？
+
+它应当出来变成存在，ought to be，应当来存在。出来之后，你就不能继续停留在形式中，不能继续做 essence 了。因为你本来在 essence 这个位面，或者在 possibility、essentiality 那个位面的时候，就是被当作 in itself，被当作一个个已经组建好的实存单元。好，那你出来之后就直接做实存吧；直接做从这里面出来的 being，直接做存在，就是 ought to be。它背后准备好的这一排小兵，冲出来就变成阵亡将士了。因为存在是比较低、比较死的东西，一出来你就准备死。叫你 ought to be，你出来这个 possible 就是要变成 being 的。这个 possible 出来变成 being 的过程，就叫 actuality，就叫 actualize，actualize of the absolute，of the totality of the form。
+
+我们把形式的总体性实现出来，它出来就要变成实存，就要实现它，这个过程就是实现它的过程。Without this ought to be，如果没有这种“应当变成存在”“应当存在”“应当出来存在”的规定性，那么可能性就只是本质性本身；它不用出来，它就是 essentiality，是藏在背后的东西。它就是一个本质性，而不是本质；本质性代表的是躲在后面空转的那种状态。这个时候，它只是一种 in itself 的 essentiality。Essence 里面所包含的、自我指涉的那种 essence，把存在赋予 essentiality。前面已经讲过——当然我没有给你们讲过，你们自己回去看——essentiality 好像是 essence 的 reflection 的 reflection 的第三个环节，是 one essentiality 和 essentiality 的问题。Essentiality 无非是说，这个 essence 要自己自居为“我是个 in itself”“I am in itself”“我是个 being inside of essence”“我是个 essence as a being”。如果没有这种应当出来变成实存、变成存在的运动，那么可能性就是一个躲在后面空转的东西，什么都不是。But the absolute form entails：绝对形式要求这个东西，要求它出来，要求 ought to be；要求 essence itself is only a movement。它要求你躲在后面时，只能是一个环节，因为本质一定会闪烁，本质本身会闪出它的 essentiality。而且绝对形式要求内外合一，要求你给我出来、显象出来，要使 essence 一定只是一个环节，and it has no truth without being。本质如果不出来，就没有任何真理可言，不道出任何东西，就是完全虚的东西，一定要出来。
+
+为什么绝对形式能提出这个要求？因为 absolute form 是从整个本质来的。本质不出来，不想出来变成 ground，也不想只做 ground；ground 不行，还要出来做具体实存。它还没有完全出来时，就还在里面做具体实存；具体实存又没办法，要出来变成 appearance；appearance 又太出来了，于是回过头来成为 essential relations。我找到最关键的那个 relations，其中的同一性之点就是 absolute form。绝对形式可以有要求：你给我出来。这并不是说 absolute form 要求它们出来，而是说这个运动自己就出来了，本质自己不得不走向前台。本质如果不出来，脱离存在，就没有任何真理可言；如果不在这种矛盾当中，它就是空乏的。
+
+然后，可能性呢？is this mere essentiality？它仅仅就是这种本质性。但它是这样被设定的，so posited：它被仅仅当成一个环节，被设定为一种本质性。也就是说，我把你放在这里空转，只是临时的；这只是绝对者摆出一排候选项放在那里，我随时会把你放出来。它是被设定成在总体性中仅仅作为一个环节的可能性；可能性只是一个环节、一种临时状态，是绝对者设定的，to be disproportionate with respect to the absolute form。相对于绝对形式而言，它被看成是不合适的、不成比例的、不相称的、不均衡的，所以它一定要出来。在绝对形式这一边，我摆着一堆可能性在那里，而绝对形式要求内外合一，我总要把你放出来，你总要出来。It is in itself：它是那么一个自在者，determined as only a posited；它被规定成仅仅是一个被设定者，一个被设定的自在者。equally as not to be in itself，所以它既然是被设定的自在者，就被规定为不是自在；它不是封闭的，而是被别人造出来的，是被绝对者设立出来的，不是真正意义上的自在。
+
+as not to be in itself，所以在黑格尔那里，in itselfness 永远是一个环节，它只不过是代表这个环节的纯粹被设定性。环节本身是一般意义上的 movement。它就是一个 in itself，看起来莫名其妙；为什么呢？因为一般意义上的 movement，movement in general，与 totality 相对立，与整个计划表相对立。因为整个计划如果很厉害、直接实现自己，那么 totality 或者说 absolute 就要说：我没有那么厉害，我不得不依靠环节。所以，这些环节相对于整个计划而言具有一定的自在性；它要把环节弄成封闭的，因为绝对者或者说总体性要实现自己、铺设自己，就一定得介入环节。但另一方面，它又是被铺设的。一方面，我绝对者要实现我自己，I want to actualize myself，那么我一定得有环节；另一方面，这些环节又是我设定的，是绝对者设定的。它是 determined as only posited or equally as not to be in itself，所以它同样不是自在的：自在者同时又不是自在的。
+
+如果它是一个纯粹的自在性，那么从内在说，internally，possibility is a contradiction or it is impossibility；所以，可能性就是矛盾的，或者它就是不可能性。因为可能性作为在本质位面空转的一个自在，同时不仅仅是本质性，它还要被放出来，or to be；它又不是一个自在的东西，而是被设定的东西。它就是这样一种自在性、同时又不是自在性的矛盾状态，所以同时是不可能性。This finds expression at first in this way：这个真相首先可以这样表达——that possibility as form determination posited as sublated possesses a content in general。这是一个矛盾，所以可以把下面这句话当作上面那句话的第一个表达：可能性作为形式规定，被设定成被扬弃的形式规定，posited as sublated。它既是可能性又是不可能性，既是自在性又是被设定性，因而被设定成被扬弃的。可能性一定要附着到某个东西上面，所以 it possesses content，所以它获得了一个一般意义上的内容。
+
+这个内容不是某种具体内容，而是一般意义上的内容；可能性必须附着到某个东西上面，所以它是被规定的（determined）。我们不能只说“可能性是可能的”，而必须说某个东西是可能的：We have to say something is possible，不能说 possibility is possible。不能这样说。Possibility is actual, actually；possibility is a movement of the absolute。这个可能性具有一个内容，有一个一般意义上的内容；但这是空的内容，是空的一般意义上的内容，possess a content in general。它是一个形式规定，form determination，是形式的一种规定。形式规定在黑格尔那里被看成被扬弃的；一个被扬弃的形式规定就可以有内容来填充它。这个形式规定不再强势、不再起主导作用，它本身并不主宰事情本身。这时它就会有它的内容。
+
+举个例子，比如美。美是一个形式规定，form determination。如果我们把它当成一个被设定为被扬弃的形式规定，那么什么叫美？美也是有标准的；或者说，再美的东西也可以是丑的。这时它被扬弃了，变成矛盾性的东西，possessed as sublated，是一个被扬弃的形式规定。于是美一定得有它的载体，美一定得有一个内容：具体是什么东西让美的这个形式规定冒出来？它借由什么东西才冒出来？As possible, this content is in itself。作为一个可能者，这个时候这个内容就可以说是一个可能者，as possible。
+
+可能性和可能者要分清楚。可能性是 actuality 的一种比较纯粹的形式或样态，或者说是绝对者的一个 modality；而可能者具体指那个内容，即 as possible 的内容。作为可能者，或者作为可能的东西，这种内容是一个自在，which is at the same time something sublated or an otherness——它同时又是某种被扬弃的东西、某种他者，带有某种他者性或他异性。因为它同时被扬弃了，所以这个可能者作为 possible，是被扬弃的，是一个 in itself。它一方面是一个 in itself，另一方面又是被扬弃掉的东西，which is at the same time sublated。也就是说，它作为可能者，是 in itself，同时又是被扬弃掉的 in itself。
+
+Otherness 就是 it is in itself, but it is at the same time sublated。它是一个自在的东西，同时又是被扬弃掉的。这就意味着它被什么东西扬弃了？它被设定状态扬弃了。它这个 in itself 为什么会被扬弃？因为它不是纯粹的 in itself，而是 posited as in itself；也就是说，它不是 in itself，它是 posited in itself，不是纯粹的自在。那么这里告诉我们什么？它旁边有“大佬”吗？有“大哥”吗？它无非告诉我们一个真相：它好像是个自在的玩意，但它偏偏又不是自在的东西，因为它是被设定成自在的东西。这时真正透露出来、显露出来的是什么？显露出来的是一个他者。是谁设定它？无非是说，在 in itself 表面上看似一个自在的东西，但它又是被设定的自在东西。从这里看出的端倪是：有一个他者在设定它；而这个他者借由这种 in itself、借由这种自在显露出来。所以它是一种他者性，otherness，他异性。它在这个矛盾上面不停显露出来的，是一个很强势的另外一个东西，不停想要把自己搞出来，想要把自己伪装起来。这里只能“做差”：in itself 是空的，in itself 是绝对空的；说它不是 in itself，这也是空的。中间唯一的一个就是那个 positedness，就是有一个他者在设定这个 in itself。所以我们的意识只能把握到：我这里有一个他者，借由这个 in itself 显露出来。既然这个他者、这个 other 是借由这个 in itself 显露出来的，所以它是一个 otherness，是一个名词化的他者性，an otherness，无非是一个他异性 otherness。这样懂了吗？就因为 in itself 什么都没有，它就矛盾掉了，被扬弃掉了。这时你就不能说它是 in itself，还是不是 in itself；这个规定性就 goodbye 了，只剩下这两个规定性中间的那个差异，而那个差异本身就是 otherness，就是有一个 positing。
+
+有一个设定者把它设定出来，或者有一个扬弃者把它扬弃掉。它莫名其妙：我本来看到你还是好好的，怎么忽然就没了呢？这时你看到的就不是这个东西本身，你看到的是一个东西；或者说，你看到的这个东西代表着一个他者的在场，可以这么简单说。
+
+But because this content is only possible——由于这个内容只是一个可能者，只是一个 another，opposite to it is equally possible。所以它的对立面同样是一个可能者，也就是说 the other opposite to it is equally possible。它是被设定状态。这个意思很简单：这个内容是设定状态，是可能的；它不被设定的状态也是可能的。所以它的另外一个他者、那个对立面同样是可能的，这就是可能性当中所包含的矛盾：这个东西可发生可不发生。我拉了一排清单：今天吃早饭是可能的，今天不吃早饭也是可能的，对不对？You understand？把这个环节铺设下来是可能的，不把它铺设下来也是可能的，因为这种差异性就涌现出来了。可能性最终这时就显现为一种 otherness，一种差异性，一种被设定性，一种身不由己：后面小兵要被拎到前面去送死。这个小兵拎出来也是拎，不拎出来也是拎。所以这个内容是一个可能性，就意味着它的对立面也是可能性，有一个差异的 another，一个 opposite；它的对立面同样是可能的、可被铺设的。
+
+A是A，非A是非A。These two statements each express the possibility of its content determination：这两个陈述每一个都表达其内容规定的可能性。内容规定和形式规定不一样，是 its content determination。但作为 identical statements——A是A、非A是非A，这都叫 identical statements，同一性的陈述——它们彼此是 indifferent to each other，是互相漠然的、彼此没有关系的。比如 A是A、B是B、C是C、D是D。作为同一性的陈述，它们相互之间彼此没有关联。
+
+但黑格尔接下来就说，可能性就是它们之间的关联。作为同一性的陈述，它们相互之间是彼此不相干的。但黑格尔说：the other is also added, is not posited in either——他者也被增补进来，却并没有在其中被设定出来。也就是说，当你说 A是A 时，仅就这个东西是一个同一律的表述而言，它还不是可能性的表述；这里只是把它把握为 identity、self\-identity，或者把握为 essentiality。这个时候，它并没有增补它的对立面；它并没有说 A 可以被设定，非A 也可以不被设定。它没有一个 positedness，没有一个 posited 的意涵。也就是说，在 A是A 作为一个同一性命题里面，并不包含他异性；不像可能性命题：A是可能的，意味着 A 不发生也是可能的。当我们说 A 是可能的，这里面包含了同一性命题——A是A，A是它自己，它可以无矛盾地在那边空转；但它不仅仅说了这个，同时当我们说 A 是可能的时候，我们也说了 A 不发生也是可能的，也就是非A也是可能的。所以，作为同一性的命题，他者同样被增补其中，并没有在同一性命题当中被设定下来，is not posited in either。在 A是A、非A是非A 这两个命题里面都没有：光看 A是A，你并不能看出非A是非A；光看非A是非A，你也并不能看出 A是A。因为它就是说：当我们说 A 是可能的，意味着这个世界 A 发生了，这个世界是一个融贯的世界，OK；A 不发生，这个世界也可以跑，也照跑。但在同一性命题里面说 A是A，我们无非是说 A 是自我融贯的；A是A，但并不意味着非A是非A也是一个可以接受的事态。
+
+在同一性命题里，说 A 是 A，我们无非是在说 A 是自我融贯的，A 就是 A；但这并不意味着非 A 就是非 A，也不意味着非 A 是一个同样可以接受的事态。比如，当我们说绝对精神是绝对精神时，就不能说非绝对精神也是非绝对精神。
+
+在这里，我们只能说 A 这种情况可接受，并不能同时说非 A 这种情况也可以接受、也可以被铺设下来。但在可能性里，是可以这样说的。
+
+当我说“我今天可能要迟到”，意思是：我迟到这件事、整个世界、整个事态可以延续下去；我不迟到，这整个事态也可以延续下去。这里面差异性被增补了，另一种情况被增补进去了，它也是可能的。但在同一律里并不是这样。
+
+我活着就是我活着，我死了就是我死了，你死了就 goodbye 了；你死的那个状态是不能接受的。所以这个时候你只能说我活着，这是现实性，你不能说它是可能性。
+
+所以，这种差异性的增补——差异性直接被增补到其中——并没有被设定在同一性命题里。但可能性不同：is a connection between the two，它把正面和反面这两个东西都连接起来了。
+
+所以，A 这种情况可被铺设，A 不被铺设这种情况也可被铺设。可能性无非表达同一性命题和它反面的同一性命题之间的关联，也就是那个联系，as a reflection of the totality。它作为一个总体性的反思，it implies that the opposite also is possible；它意味着对立面也是可能的，对立的那种情况也可以发生。当我们说“我今天可能要迟到”，那就是：我不迟到这件事也会发生、也可以发生，我迟到这件事也可以发生。it is therefore the ground of drawing the connection that because A equals A, minus A also equals minus A\.
+
+因此，它就是这么一个基础；可能性就是这么一个基础，它拉出了这么一个联系。这种联系就意味着这种 connection 把对立面连接到一块。因为 A 等同于 A，所以非 A 也等同于非 A。可能性无非就是说的这句话。Entailed in the possible A，there is also the possible not A。也就是说，在可能的 A 当中，A 作为一个可能者、作为一个可能项，同样把非 A 那个可能项也提供出来；它要求、它隐含着，也就需要一个可能的非 A。And it is this reference itself connecting them which determines both as possible\.
+
+它就是这么一种 reference：在 A 的可能样态当中，它会有个 reference，会指向一个非 A，把两个东西连接起来；就是这个 reference 同时规定着这两者。这个 reference 就代表一个绝对者，一个 totality，一个 reflection of the totality。
+
+总体性的这种反思，它出来的时候总归要以单侧出来，它有个单侧性：它只能说 A，A 是可能的。但实际上这句话里也隐含着：A 不发生也是可能的，非 A 也是可能的。A 的这种可能的样态，或者说这种自在的样态，里面隐隐地又指向一个非 A 的隐隐状态。这代表什么？所以前面这个任意性——我这里说的 arbitrariness——要讲，指的就是一种自由。我这样来可以，那样也可以。所谓可能性，就意味着这样可能、那样也可能，不这样也可能；可能性就代表这个力量。但归根结底，它代表说：在这样可能当中，隐隐地也包含着那样也可能；或者说，这个东西所谓的可能，就是它可以被铺设、也可以不被铺设的那个 reference。A 指向非 A，同一的 A 指向一个同一的非 A，这种指向关系，这个 reference 就是可能性。可能性作为一个 actuality 的环节，我们这个时候就隐隐看到，可能性实际上要道出的真理是偶然性，它后面就是偶然性、被设定性。后面有个大王在那边，告诉你今天是点这个妃子还是点那个妃子；今天可以叫这个，明天可以今天不叫这个。后面有个大王，这个大王的那种武断性就出来了。它就是 contingency，偶然性出来了；accident，或者说就是偶然性。Hegel 后面会用 accidentality，也就是偶性、偶然性、巧合性；accidental 可以翻译成巧合性。好，我们今天先讲到这里。

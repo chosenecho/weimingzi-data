@@ -1,0 +1,177 @@
+哲学导论部分。上面已经说过，那些批判其实就是康德主义者对经验意识的批判，或者说是不可知论者、内在论者对经验意识的批判。他们因此只是 removed the forms of objective thinking，只是取消了对象性思维的形式，把这些形式从物当中去除掉；也就是说，物本身被去除了 objective thinking 的形式。这些 form 现在不再属于 thing，但他却把这些形式留在主体当中，as it originally found them——正如他一开始发现它们是在主体内部的一样。
+
+他们并没有 in and for themselves 来考察思维的形式和思维的材料，没有在思维形式与材料的内部、按照其自身来考虑它们。更准确地说，这里的 them 仍然指那些 forms。他们没有思考这些形式自身的内在性，也没有看到这些形式如何把握自身；他们没有把握这些意识官能就其自身而言是什么，以及它对自己而言是一种什么样的自我确证机制。所以黑格尔说，they did not consider them in and for themselves。
+
+换句话说，他们本可以设想一个自在的形式、一个自为的形式，一个在自身内部支撑自身、依据自身而自我设立（self\-positing）的形式；但他们没有考虑这种形式的发生学机制。
+
+这些康德主义者只找到范畴，却没有察觉范畴是如何产生出来的；他们没有追问范畴对自身而言是什么，它如何看待自己。这些范畴归根结底只是意向性而已。他们还预设了一个先验谓词体系，仿佛它千秋万代、天经地义。按照这些形式的真正内容本身（according to their proper content），应当考虑的是形式自身的内容，而不是这些形式所结合的认识材料。然而他们所做的，仅仅是把这些形式从主观逻辑中拿过来，以一种引理（lemmas）的方式把它们当作不证自明之理，当作 premises taken for granted。
+
+因此，根本谈不上对这些形式作一种内在的演绎，也谈不上把它们作为逻辑的或主观的形式演绎出来，更谈不上对它们作辩证的处理（dialectical treatment）。这些形式本可以表现为逻辑运算的标准规则或结构，也可以表现为主观的认知范畴框架或意向性结构；而辩证的研究则要让它们在自身矛盾中演化生成，并加以扬弃。
+
+在更一致的形式中，先验观念论——例如费希特、谢林那种形态——确实承认那个幽灵般的物自体实际上是虚无，是一个抽离了一切内容的抽象阴影，是批判哲学留下来的残余（left over by critical philosophy）。先验观念论的目标就是把它完全摧毁。知识学要建立先验观念论，谢林则直接构造先验观念论体系，也就是要把物自体完全摧毁。
+
+那么，这种哲学同时以什么作为起点呢？它以 reason produces determinations from itself 为起点，也就是让理性从自身当中生产出规定性。但是，这种主体主义的、主观的态度，以及在这种尝试中所预设、所采用的主观态度，阻止了它结出硕果（prevented it from coming to fruition）。这种态度的变迁，连同与它相伴的尝试，以及对纯粹科学的 cultivation（培养），最终都被抛弃了，因为它太主观主义。这里应当指费希特哲学，还不是谢林。
+
+谢林的自身辩证法虽然也带有主观主义色彩，却具有某种所谓的实证性。这里说的一八〇〇年的东西，其实可以对应一八五几年、一八六几年的法国的东西，也就是法国实证主义运动中的一些东西。可是，通常所理解的逻辑（what is commonly understood by logic）——也就是普通人用“逻辑”这个词时所指的东西——是被带着一种对形而上学意义的完全忽视（with a total disregard of metaphysical significance）来理解的。一般人认为，逻辑学与形而上学毫无关系，不带有任何本体论预设。
+
+但黑格尔指出，普通人所理解的这门科学，还处在它仍然发现自己所处的那种状态中；它被公认为不包含任何 ordinary consciousness 会当作现实来接受的内容（of the kind which ordinary consciousness would accept as reality）。也就是说，普通人认为逻辑学不包含关于现实的内容，不包含一个真正的事实（as a genuine fact），逻辑学是空的。
+
+一方面，人们认为逻辑学是空的，不包含现实性；另一方面，它也不能被做成本体论或形而上学。但逻辑学并不因此就是一门形式科学，一门不具有任何材料性真理的形式科学。同时，真理的领域并不是要在 material missing in it 中、在真理中已经消失了的材料当中去寻找。
+
+逻辑学的不充分性通常被归因于一种缺失——也就是逻辑学缺少材料。也就是说，普通人认为逻辑学不充分、不充足，是因为它缺失材料，因为它没有材料；他们认为真理的领域要在材料中才能找到。但黑格尔认为，真理的领域并不是要在 material missing in it 中、在材料中寻找。
+
+这里英文的 to which 是跟着 attribute to 的，which 指代的是 a lack；这个 lack 就是 a lack of material，或者 a lack of the region of truth。因此，a lack to which the insufficiency of logic is usually attributed 的意思就是：逻辑学的不充分性通常被归因于这种缺失。换句话说，通常认为逻辑学不充分，是因为它缺乏材料，或缺乏真理的领域。这里的 material missing in it，仍然是指在逻辑学中缺少材料。
+
+也就是说，一般人认为逻辑学是不充分的、不自足的，因为它缺少材料，缺少真理的领域；他们以为真理要在材料中寻找。但黑格尔认为不是这样。更关键的一点是，逻辑形式的空疏性恰恰仅仅在于考察和处理它们的方式（the manner in which they are considered and dealt with）。这些形式散落在固定的规定中（scattered in fixed determinations），因而没有被把握为有机的统一体（not held together in organic unity）。问题不在于逻辑本身没有真理、没有材料，而在于研究逻辑的方法。scattered 也就是零落、疏散、彼此分离而不成整体。
+
+寻找这个真理领域，就是这个意思。我们可以说，一般人认为逻辑学是不充分的、不充足的——不是在 complete（完备）意义上说的，而是在 sufficient（充足）意义上说的：它不是一个自足、充足的逻辑学科，因为它缺失材料，没有材料。一般人也认为材料才是真的领域，the region of truth 是要在材料当中找到的。普通人这么认为，但黑格尔认为不是的，is not to be sought。More to the point is that the emptiness of logical forms lies rather solely in the manner in which they are considered and dealt with。
+
+更关键的一点在于，逻辑形式本身的匮乏性。其实可以反过来说，它仅仅在于一种方法，仅仅在于逻辑被思考、被研究的那种方法本身是空洞的、匮乏的。不是逻辑本身有问题，是你们研究逻辑的人傻逼，就这个意思。不是逻辑学本身没有真相、没有真理、没有材料，而是你们研究它的人水平太次了。几千年来，只有我黑格尔能做成这件事；你们这些几千年来的芸芸众生、滚滚诸公全是白痴，就这个意思——你们用的方法全错了。
+
+Scattered in fixed determinations and thus not held together in organic unity——零落疏散，scattered。查一下词源：scatter 等于 to scatter，scattering，及物意义是 to separate、drive off in disorder，把它分掉；它来自中古英语 scattering，也就是 shatter。它也有 go or flee in different directions 的意思；disperse 则从十三世纪开始有，作为名词是从一六四〇年开始。它的词根就是 shatter，shatter 就相当于 scatter。
+
+反正就是分散了，散落成那些僵死的规定性，并且因此没有把它把握成一个有机的整体。那些笨人研究逻辑学的时候，把逻辑学里面的规定性都僵死地把握，没有把它看成有机的整体。They are dead forms，它们都是死的形式；and spirit which is a vital concrete unity does not reside in it，那种在活生生的、具体的统一性当中的灵魂，并没有存在于僵死的逻辑学里面，并不住在里面。Therefore they lack proper content。
+
+因此，这种几千年来的逻辑学——甚至后来弗雷格、卡尔纳普这些傻逼也继续在研究这种傻逼逻辑学——缺乏真正的内容。A matter that would itself be substance：这种材料本身就会是一种实体、一种实质。The content which is missed in the logical form is nothing else \[than fixed foundation\]：在逻辑形式中失去的、找不见的那些内容，什么都不是，而只是一个僵死的、固定的基础，a fixed foundation，以及对这些抽象规定性的一种具体化、具体内容。And such a substantial being is usually sought for them outside them：这种有机的、活生生的内容，很多之前的哲学家是打着心理学、知识论的旗号来研究的，或者用神学、本体论的形式来研究。实际上，黑格尔认为，这种 substantial（实体性的）存在，通常是为了这些僵死的逻辑形式而去寻找的，但却是在逻辑形式之外寻找的，sought for them outside them。
+
+人们想为这些逻辑形式找到那种实体性的内容，却是在它们外面找到的。But logical reason is itself：逻辑形式本身就是一个实体性的、现实的要素。这种要素在逻辑形式自己当中，在逻辑自身当中，holds together；任何一种逻辑形式都在它自己当中把所有抽象的规定性汇总、汇合到一块，hold together，抓到一起，构造起它们真正的、绝对的具体统一体。
+
+这就是它的逻辑。This is no——there is no need therefore to look far and wide for what is usually called matter：因此，没有必要去找得太远、太宽，去寻找通常所说的材料，即认识的材料、认识的研究对象、研究内容。It is not the fault of the subject matter of logic if the latter seems empty, but only of the manner in which this subject matter is grasped：这不是逻辑学本身的主题、主要研究内容的错；如果逻辑学看上去是空洞的，错只在于研究、把握这个主题内容的方式。不是逻辑学本身有问题，是你们这些思考、把握逻辑学的人太笨了，你们把握的方法错了。
+
+这种反思把我们带到一个 statement of the standpoint，即一个立场的陈述。从这个 standpoint、这个立场、这个出发点出发，逻辑学将得到理解；而对于这个立场，我们要作出表达、作出陈述，也就是为这个让我们得以理解逻辑学的立场提供一个陈述。这个陈述要说明这一立场如何不同于此前对这门学科的其他研究方法，说明我的逻辑学为什么和之前那些垃圾逻辑学都不一样，并且只有它是真正的逻辑学的基础。
+
+在这个基础之上，这门科学可以在未来 to rest in the future；on which 就是逻辑学这门科学在将来将 rest on the true base，将依托于这个真正的基础。
+
+但非常不幸，可能后面只有辩证法家坚持这条路。那些欧美、特别是英美的研究者，那些好的、厉害的现象学家还是回到逻辑学的，比如海德格尔、萨特、梅洛\-庞蒂，他们都还是回去的。但也有很多叛徒，很多叛徒他妈的叛了、叛走了，都跑到美国抢烂钱去了，操，就背叛了这种运动。
+
+这个背叛是什么？在当时，那些理工科知识分子——其实那个时候文理不分家——我指的是现代数学运动，现代数学里希尔伯特那群人。他们可能基本上也逐步逐步就背叛了，就逐步就背叛了，就 goodbye 了。他们好像不能两全一样：你要对它进行一个比较充沛的形式化把握，就不得不牺牲另外一种自身反思的能力。实事求是讲，比如爱因斯坦的哲学水准就是一个蛇皮新康德主义，新康德主义再加点直觉主义那种水平，他就完全不能把握这个逻辑关联体系里面丰沛的面向、这个环节，他就把握不了了。什么原因呢？就是那个时代精神，仓促的时代精神卡住了。你说黑格尔的话卡在那边。
+
+在现象学当中，我已经呈现了：意识从它一开始那种直接与自身的对立当中，逐渐进展到面对它的 subject matter、它的内容、主题内容，并在这种对立中慢慢进展到绝对知识。意识一开始是和它的意识内容对立的，但后来逐渐能够进展到绝对知识，这在《精神现象学》里面已经告诉你了。
+
+这么一条路径，它穿越了、经历了所有的形式。这些形式就是意识和对象的关系的形式；意识可以和对象有不同的关系，different kinds of relations。它把所有这些关系的不同形式都穿越了。And its result is the concept of science，它的结果就是关于科学的概念。what is science，对于科学的概念，there is no need therefore to justify this concept here：所以不需要在这里再继续为科学的概念加以辩护。这里指的是他的那种体系化的科学。
+
+除了一点：这个学科概念要从逻辑本身当中产生出来，it emerges within logic itself。科学的概念不需要在这里做额外辩护，但除了一点，即它是从逻辑学的概念中产生出来的。It has already been justified in the other work，这在另一部作品中已经得到论证、辩护了。And would indeed not be capable of any other justification than is produced by consciousness as all its shapes dissolve into that concept as into their truth：事实上，除了由意识产生的那种辩护——当意识的所有形态都消解到那个概念之中，如同消解到它们的真理之中——不可能提供任何别的辩护。
+
+我只能给出一个辩护，这个辩护就是 produced by consciousness，即由意识本身所产生出来的：意识的所有形态都消解到科学的概念当中，如同消解到它们的真理之中。也就是说，意识以它的所有形态最后都消解到科学、消解到《精神现象学》所呈现的科学概念当中。科学本身就是对意识和它的内容——其实可以看成一种理论化的意识——的全部关联，都已经消解到那个学科当中；那个学科对意识的每一个形态都有了直接的把握，进入到绝对知识。这就是对科学概念的一个辩护。除此之外我提供不了其他任何辩护，而且我已经在那部作品里提出了这个辩护。
+
+对于科学概念的一种讨论性的辩护或解释，最多只能提供关于它的一般观念，以及一种历史性的认识。
+
+这最多是一种关于科学概念的讨论性的（discursive）辩护或解释。discursive 在这里就是口头上的、嘴上说说；也就是说，如果还要对“科学”（science，Wissenschaft）这个概念加以辩护或解释，最多只能提供一个普泛、一般的观念，说明到底什么叫科学，并加上一种历史性的熟悉（acquaintance）。这种历史性的熟悉，是你所熟悉的。
+
+但对科学本身的定义，更精确地说，对逻辑本身的定义，只有在其被意识产生出来的那种方法的必然性中才能得到证明。意识与它的对象发生关联，必然会这样演化、这样演化，最终一定会变成逻辑，变成科学；它一定会呈现为逻辑，一定会呈现为科学。这才是对科学的定义，或者说，这才是对逻辑的定义。
+
+我们要把这整个演化过程都显现出来。Any definition with which science makes a beginning can contain nothing else than the precise and concrete expression of what is present in one's mind and as the traditionally accepted subject matter and the purpose of science\. 所以，任何一种定义，只要它是科学用来设立绝对开端的定义，都不能包含别的东西，只能包含那个精确而具体的表达：表达在一个人头脑中呈现出来的东西。而头脑中呈现出来的，就是传统上被广泛接受的这门学科的研究主题（subject matter）和目的（purpose）。一门科学拿这样一个定义作为绝对开端，这个定义实际上只是习俗，只是一个共识，是“蛇皮定义”；用更直白的话说，你们那些蛇皮科学用的定义，都只是老太太传下来的裹脚布。
+
+这种 subject matter 和 purpose 被如此表征出来，只是一个历史性的 warrant，用来援引这样或那样被 conceded（被承认）的事实；更精确地说，它只是用来 pleading：为这样或那样的事实应当被接受和承认而辩护。这更说明它是臭裹脚布了吧？
+
+这里的 pleading，just pleading，可以翻译成“恳求”，plead 也有“恳求、央求、求情”的意思；但在这里更多是“辩护”：to plead is to present or argue for a position in court or in another public context\. 它就是 plead 这个词所表达的“我恳求辩护”。我一度把 plead 和 pledge（发誓、保证）搞混了，觉得不管了；总之这里应是一个信誓旦旦的辩护。于是，至于这里 that just——究竟什么样的科学研究主题、或者说科学的目的，被呈现、被表征在一个人头脑中——它只是一个历史性的 warrant，一张轻飘飘的历史性的保证书：你的老师的老师的老师都是这样想的。它用来唤起这样或那样的事实，认为这些事实是 conceded，是大家都承认的；更准确地说，它只是用来为这样或那样的事实辩护，使这些事实可以作为被承认的东西被接受。这也点明了，许多科学实际上充满偏见，充满历史传承下来的臭裹脚布，充满那些公社前提——都是爷爷的、子子孙孙传下来的东西——仅仅是历史性的 warrant，一张信誓旦旦的保证书，要求你必须接受 fact A、fact B、fact C、fact D 之类。
+
+比如那个笨蛋培根在搞三表法的时候，怎么列这个表、怎么划分这些东西——他对于现实加以划分的分类学，他也不知道是从哪来的。这是传下来的，是祖宗传下来的；知识里面的哪些现象可以看成是一类，哪些看成另一类，他也不知道怎么来的，只是默认的，只是在历史语境中传承下来的。它只是一个 historical warrant 而已。
+
+总会有一种可能性：另外一个人会 adduce a case，一个 instance，引入一个新的例子、一种情况，在其中某些更多或不同的东西必须由某个术语或其他术语来理解。这个术语因此就必须在一个更窄或更广的意义上被定义，也就是得重新定义。这样一来，这门学科、这门科学本身也必须相应地重新塑造（refashioned），需要重新定义，它里面的定义表也得重新改，因为它本来那些公社假设很多就是偶然的。
+
+再进一步，定义总是 argumentation 的一个事项，也就是总是要加以争论的事项；argumentation 就是论证、争论、论争。争论什么？争论什么应当被包含在定义里，什么应当被排除在定义之外。所以，定义本身可以看成是一个阶级矛盾的博弈场，是知识垄断、知识话语权的博弈场：在什么界限内定义，定义到什么程度，什么东西可以包含在里面，什么东西要排除掉——所有定义都是这样一种动态争夺的过程。
+
+而争论对最多样的、最不同形式、最多变的意见都是开放的。对于这些意见，最终只能武断地作出一个决定：a decision can finally be determined only arbitrarily。以这样一种方法、以定义来开端——science with a definition，也就是通过一个定义来开始一个学科、开始一门科学。
+
+以这种方式开始科学，根本没有提及一种需要：要证明它的研究主题内容具有必然性；这也就是摆烂。我觉得好多学科学的人、好多科学工作者，在他们学科的内容、研究对象的发生学上，就是在摆烂；这些人就是笨蛋，就是宋青书那种人，或者林平之那种人。因此，他对于科学本身的必然性，也就没有提供证明。
+
+于是黑格尔提出“纯粹科学”（the concept of pure science）的概念；在他的体系里，他提供了一种纯粹科学。纯粹科学的概念以及它的演绎，因此在目前这本书中是被预设的（presupposed）。正如他在《精神现象学》中所预设的：纯粹科学的概念不是别的，只是这一演绎本身；它就是精神形态的变化史、发展史中的一个先验演绎过程。绝对知识（absolute knowledge）则是所有意识形式的真理（the truth of all the modes of consciousness）。作为《精神现象学》所展开的过程，只有在绝对知识中，subject matter 与它自身的确定性（certainty）之间的分离，或者说，科学研究主题内容与它自己的必然性的分离，才被完全消解。
+
+也就是说，物理学为什么要研究这些东西？你的这个论域里面为什么要研究这玩意？你的问题域里面为什么要讨论这些问题？只有到了绝对知识的时候，这个分离才被克服掉。Truth has become equal to certainty and this certainty to truth：真理就等同于确定性，确定性等同于真理。所谓真理，无非是这一问题必然发生的那个确定性；也就是说，答案无非是：问题一定会发生。
+
+这个问题的答案，就是这个问题为什么一定会发生，就这个意思。所有学科都有它的 subject matter，也就是它的问题：它要问什么、要讨论什么。黑格尔则把我们在整个精神演化史当中一定会关心到的问题，用下一个形态的问题来把握。所以黑格尔《精神现象学》里面的精神、意识，实际上都是问题意识；这和海德格尔在《时间概念史导论》里提出的此在作为一种问题意识，是完全一致的。因为黑格尔的《精神现象学》实际上就是问题史，实际上就是问题发生史。他最后告诉你：最终在绝对知识那里，你会把握到，所有问题归根结底就是——这个问题本身发生的必然性。所有问题的答案，就是这个问题为什么会发生；它具有 certainty。这样你就明白了。你要我完全给你说透，那下次等我把《精神现象学》这本书拿出来讲的时候，我们到时候就明白了，黑格尔这个思路是怎样的。这里至少可以看成一个学科发展史的思路：学科要发展到一个更科学、更成熟的形态，就在绝对知识当中把握到它的研究内容，它的 subject matter。学科的 subject matter 不是任意的，而是有问题史演化的必然性；问题史演化的过程，实际上也是学科史发生的过程。它那种分裂就被消解掉了，分裂本身被消解掉了，问题本身就变成问题自己出现的确定性。
+
+纯粹科学因此已经假设了一种免于 liberation from the opposition of consciousness 的状态，已经免于意识当中的对立，即意识和它的 subject matter 的对立。这里的意识尤其是 theoretical consciousness，也就是马克思所批判的黑格尔《精神现象学》里的 consciousness；它就是 theoretical consciousness，是纯粹理论性的，纯粹一个理论性的姿态。
+
+它包含思想，it contains thought in so far as this thought is equally the fact that it is in itself：它以这样的方式包含思想——思想同时就是它在自身之中的事实。as this is equally pure thought，思想本身就是事实。纯粹科学所包含的，就是思想本身就是事实；思想并不额外有一个事实。你大概就明白了：这里的 thought，即思维活动，可以看成研究的冲动、分析的冲动、了解的冲动；而 fact 是它要研究、了解的内容。研究冲动 thought 可以说就是问题意识，fact 就是答案。就这么简单：thought 就是问题，fact 就是答案。你这样理解：思维就是问题，事实就是答案。那么在纯粹科学当中所包含的这些问题，是这样一种问题：这些问题就等同于答案，答案在它自身当中；问题本身就是答案，或者说答案在它自身当中。它是这样的：as this is equally pure thought，它本身就是纯粹的问题。答案就是问题的发生学机制，就这么简单。这些思维，纯粹科学当中所包含的思维，就是如它在它自身当中的那种事实；这个思维就是它自己的活动史，相当于一个人，不过就是他的一生。这样你懂了吧？这个人是什么？
+
+这个人就是他的一生。这里面的东西，其实就是马克思所说的劳动者，不过就是他现实的劳动过程。在这个意义上讲，一个人就是他的生活过程。A human being is becoming towards its essence，可以这样说。或者反过来说，or the fact in itself in so far as this is equally pure thought；事实上，这个事实就是我们的研究内容，就是科学的研究内容。科学当中的思维和它的事实：思维是科学的研究方式、研究形式，事实是它的研究内容，就是 subject matter。它只不过这里换了词。
+
+这里换了一个词而已：前面用 subject matter 和 consciousness，现在用 thought、用思维这个词。纯粹科学里面包含思维，或者包含意识；这个意识就是它所包含的思维，也就是它的事实。比如说逻辑学里面也是一样的。逻辑学可以看成是一个缩小版的精神现象学：它里面所有问题发生时，其实就已经是答案；你把握到问题发生时，就已经把握到答案了。到最后绝对知识里面，问题发生的过程和知识是一回事。所谓 absolute knowledge，就是绝对的一种异证化状态；绝对知识实际上就是崇高的异证化。它就是那种状态：把那个最极端的问题当成答案，把问题意识本身就当成自己的答案。作为科学，truth is pure self\-conscious，真理是纯粹的自身意识；as it develops itself and has the shape of itself，它把自己发展出来，并具有自身的形式。这个东西我们系列里面早就讲过了，所以说要学《精神现象学》，前提要把握自身辩证法。作为科学，真理是纯粹的自身意识；它把自己发展出来，并且要以自身的形式把自己发展出来。科学就是这个东西，就是自身意识以自身形式的发展史。
+
+所以说，那个在自身之中、为自身而实存的东西，就是有意识的概念，the conscious concept；而概念本身也就是那个在自身之中、为自身而实存的东西。So that what exists in and for itself is a conscious concept, and the concept as such is that which exists in and for itself。这里可以看成《法哲学原理》里面讲的“存在即合理，合理即存在”的另一种表述方式。那些外显地实存的、仿佛脱离自身控制、与意识对立起来并在外面显现出来的东西，in and for itself，实际上就是一个 conscious concept。这句话要有前提：作为科学、作为科学真理，才是这样的。
+
+只有在科学里面，那些才是有意识的概念，才是 conscious concept；在完成了的科学、在《精神现象学》里面，在绝对知识当中，所有外部实存的东西，实际上都是有意识的概念。然后这个概念本身只是 in and for itself，which exists in and for itself。这可以分两方面说：外部那些看上去和自身脱离关系的外在实存的社会现象、伦理关联，还有具体的超越性的物，什么这些蛇皮玩意，其实通通都是一个有意识的概念。它在科学当中、在绝对知识当中抵达了对它们的理解，就真的理解这些东西了。你跑完一整个自身辩证法，知道这个自身如何演化出外在的伦理性、内在性等等环节之后，那个时候你就开始知道：外面那一坨狗屎，大马路上那狗屎，它也一样，你也理解它的发生学机制了。它不再继续作为一个问题对你存在；你懂它了，you understand it。这不只是懂，你领会它、把握它，把它消解掉了。
+
+但这种消解并不是真正意义上的消解。因为你反过来说，概念本身也只是那个外部存在的东西，在它自身当中为它自身而实存的东西；都还是自身，都还是 self。这是自身辩证法的一个最终结论。黑格尔的这个研究站在自身辩证法的基础上，但对他有一定的超越：在绝对否定性上，他后面更多会提及 pure negativity，而不会一天到晚提什么 self revert、self intuition，他不会经常说这个东西。考虑到这两个人住一个寝室，他们的思维经常彼此互相影响，而且是非常深刻地互相影响；他是在自身辩证法的基础上来把握的。
+
+这种客观性的思想，this objective thinking is thus the content of pure science；这种客观的思想、对象化的主动思维，objective thinking，就是纯粹科学的内容。它认为整个人类历史、观念史的演进、自然史的演进、心理史的发展、制度史的发展、经济史的出现和涌现，所有一切可以被称作什么史的东西，都是 objective thinking，都是客观思维；都是自身在这些外部环境中设立自己，外部性也是自己设立的。都是自身意识把自己发展出来的，发展到最后，它对自己进行了一个完全的把握；在绝对知识当中，对自己进行完全把握。所以这种对象性的、主动的思维，就是纯粹科学的内容。那么结果呢？Far from being formal，所以它不是形式的；far from lacking the matter，它远远不是缺乏内容的；required for actual and true cognition，它远远不是缺乏那种为一个现实的、真正的认识所需要的内容。它不缺。真实的认识需要内容，需要这些材料，但它不缺这种材料。Far from，它远不是缺乏这种材料。
+
+这种纯粹科学，其内容本身就具有绝对真理；内容本身就是真的，不需要额外的形式去判定它是不是真，它的真并不来自形式。内容本身就是绝对真，具有绝对真相。或者，如果一个人现在还脑袋不开窍，还要用 matter（材料）这个词，那么只有它才是名副其实的 matter：它只是真正的材料、一个中介，是一种形式对它而言并非外在的材料。
+
+对这种材料来说，形式不是外在的东西，因为这种材料只是纯粹的思。因此在黑格尔的纯粹科学中，它的材料就是纯粹的思，是 thought，pure thought。这里用的是名词，而不是被动意义上的 thought；如果写成 purely thought，thought 就成了被思的东西。所以这里用名词，也就是说，所谓的材料只是纯思而已，and hence absolute form from itself：它只是绝对形式本身。材料本身也是思维活动的形式，是绝对精神的运动形式。所谓物质，我们甚至可以说，物质也是绝对精神的一种运动形式。
+
+在这里，黑格尔还是把物质把握成某种名词性的东西，把它当作某种 nominal 的东西。因此，逻辑就要被理解成纯粹理性的体系，一个 pure reason 的系统。这个 pure reason 的 pure，并不是说它薄薄一层；pure reason 的 pure 在于它囊括一切，把一切都消化掉了，digested everything。
+
+但正如齐泽克所说，它的 digest 就是拉稀——腹泻，英语是 diarrhea；它只是从肠子里面过了一遍，根本没有消化。于是，逻辑被理解成纯粹理性的体系，被理解成纯粹思维的位面。这个 realm 是 truth unveiled，是开显了的真相，是不加遮掩的真理，是 truth as it is in and for itself，即在自身之中、并且如其所是地显现的真理。因此甚至可以说，逻辑学的内容就是上帝本身的一个 exposition，是上帝在自然和有限精神被创造之前、在其内在本质中的展示。
+
+这个 exposition 我一开始想到“推论”，好像一二三能推到四；但应该不是，我可能记混了另一个术语，whatever。总之，逻辑学的内容就是对上帝本身的 exposition，就是这个词。你甚至可以说它是一种外部设立，把上帝剖析出来、弄出来——这就是逻辑学这本书。
+
+这就像克苏鲁传说里那样：逻辑学这本书一打开，那个邪神就从里面冒出来了，大致是这种感觉。
+
+它就是一个神的 exposition，as he is in his eternal essence。这个神是在他的永恒本质之中的，是在自然被创生之前、在他变成有限精神之前——神会创造自然，也变成自然，然后创造有限灵魂——的那个永恒的上帝，是处在永恒本质中的上帝的一个 exposition。这个上帝就像一个程序员：他已经写好了程序全书，但还没有开始写软件，还没有写出一个自然界，还没有跑出一些人工智能、一些有限的灵魂；他陶醉在自己的程序全书当中。那种状态、那种神，就是对处在永恒本质中的那种神的展示——一打开这本书，那个神就冒出来了。
+
+阿那克萨戈拉被铭记、被称颂，是因为他首次赋予思想以声音：nous，努斯，让思维发声，或者让思维具有发言权。当时古希腊哲学还有一种对物的崇拜。阿那克萨戈拉是第一个把思维看成事物的原理、看成世界本源的人，因此他给予了思维很高的本体论地位。And that's the essence of the world is to be defined as thought：他认为世界的本质要被定义为思维。
+
+在这样做的时候，in this he laid down the foundation for an intellectual view of the universe：他奠定了一个基础，让人们可以采取一种对宇宙的智性观看方式，intellectual view，来看这个宇宙怎么发展出来、思维怎么把这一切发展出来。The pure shape of which must be logic：这个世界、整个宇宙的纯粹形状一定是逻辑学，一定是逻辑。
+
+逻辑学不是关于某物的思维——那个某物靠它自己停留在思维之外，作为思维的基础。逻辑学并不是关于某个这样的某物的东西，逻辑学跟那种思维没有关系。
+
+逻辑学不是奴婢学——我差点说出那个更难听的字。很多人把逻辑学当成奴婢学，好像你的思维不过是奴婢，去伺候事物本身、伺候那些知识内容。分析哲学就试图把哲学矮化为一种逻辑学，矮化为一种思维规范学，奴婢的行动指南。这就像某个夜总会里的奴婢，什么脏东西都得舔上去。
+
+它也不是仅仅提供真理标记的形式。Nor does it have to do with forms meant to provide mere markings of the truth：逻辑学也不和那些仅仅为真理提供标记的形式相关，不是只标出哪些是真理。它不像扫雷游戏里插小旗子，逻辑学并不负责插旗说“这里有炸弹，这里有真理”。
+
+逻辑学也不是这种东西，不是一种批卷子式的辩证。Rather the necessary forms of thinking and its specific determinations as content and the ultimate truth itself：恰恰相反，思想活动的必然形式及其具体规定性，就是内容，就是终极真理本身。因为整个世界的演化史都依据逻辑学，所有位面——不说不同位面，所有位面——的演化史都依据逻辑学，所有位面的发生学机制都是逻辑学。甚至“位面”本身这种想法、这个 realm 本身，也来自逻辑。
+
+所以，黑格尔主义才是他妈的真正的逻辑主义。你说弗雷格，或者说有些数学家，他们的逻辑主义并不是因为他们是逻辑主义者，而是因为他们是伪装成逻辑主义的奴婢主义者、奴才主义者；他们的逻辑主义不够逻辑，远不够逻辑主义。
+
+这惹得观念论者不爽，惹得辩证法家不爽。看他们不爽，不是因为他们本身，而是因为他们站着茅坑不拉屎，或者站着茅坑拉稀，站着茅坑擤鼻涕。这种奴婢战战兢兢地伺候大人物，受大人物邀请一起去上厕所，却又不敢拉屎，因为怕自己拉出来的屎太臭，臭到隔壁的大人物。
+
+他伺候的是具体学科，数学、物理学，他伺候它们，懂了吗？这些数理逻辑学家其实挺没有尊严的，实事求是地说。于是他只能坐在那个茅坑上战战兢兢，只敢流汗，只敢假装擤鼻涕，让那点水看上去有点绿色、黄色或怎么样，冲一下，然后自我安慰：我来厕所确实是有事情做的，并不是什么都没做。就是这么一种状态。
+
+我说得很恶心，但我希望你们留下深刻印象：面对这些人，不要听他们整天一嘴一个逻辑、一嘴一个模态逻辑、数理逻辑，就觉得他们有资格讨论逻辑。至少要得到一点暗示、一点 inkling——ink 就是墨水，至少要留下一点墨水的痕迹。
+
+什么叫纯粹科学？什么叫逻辑学是上帝的造世学，或者说把上帝本身弄出来？这到底是什么意思？你对这一点至少要得到一点暗示。为此我们必须 put aside some notions，把一些观点放到一边。哪种观点？就是认为真理必须是某种 tangible 的东西。这个词我一时忘了，好像可以翻译成“明确的”。
+
+它这个词是“有形”的意思，真相必须是这个词意义上的“有形”，也就是有形物、有形的物体。我们看一些物理学的书时，里面会说 tangible things、tangible matters，即“有形状的东西”。所以这里应该抛弃一个观念：认为真相必须是某种看得见、摸得着的东西；或者说，这里应该翻译成“明确的东西”。这种有形性，或者这种明确性、明白性——“Tangibility, for example, is carried over even into the ideas of Plato, which are in God’s thought”——这种明确性可以翻译成什么？是“明白性”“明证性”，即它是切实、明明白白的这种东西的性质吗？
+
+明白性、明证性，就是它是切实、明明白白的这种东西的性质。举个例子，它实际上是“is carried over even into the ideas of Plato”。它被带进柏拉图的理念，甚至被带进柏拉图的理念之中；而在柏拉图的理念中，它们都在神的思维之中。“as it were”，可以说，“so to speak, things that exist but in another world, another region”。在神的思想中，这些事物是实存的，确实实存。这些理念在神的思想中是一些 things，是一些东西，是实存的东西、实际存在的东西，但只存在于另外一个世界、另外一个位面。“And the world of actuality”，而那个具有现实性的世界——所谓尘世，普通的世界，普通人、有限的人所生活的、有时间的世界——“what is to be found outside them?” 它要在这些理念之外被发现，要在理念之外被发现。
+
+他就是这么个意思：这种明证性都被柏拉图带到他的理念世界里面去了。也就是说，你要抛弃一个观念，认为真相就是某种明白可见的东西。但这些所谓的明白性、明明白白的可见性、有形性，都被柏拉图看作不属于这个城市本身：城市当中不存在可见性，城市当中一无所见，城市当中不存在真正的看。你在这个普通的世界当中看不到任何东西；你看到的东西全是幻影，全是假的，全是洞穴里面的影子。
+
+“carry over”就是都给它输送、运到；“over into”“carry over into”里的 over 有点整个打包、给它弄进去的感觉。可以翻译成什么？“转”呀，这里可以译成转接、转入。“carry over into”就好像翻滚着进去那种感觉。它整个都被转入柏拉图那个理念当中去了。这个 tangibility 是柏拉图的理念。
+
+然后这些理念是上帝的思维。这些理念是一些东西，它们存在于另外一个世界、另外一个位面当中；它们不属于那个具有现实性的世界，而那个具有现实性的世界只能在这些理念之外被发现。“which has a substantiality distinct from those ideas”：它具有一种与这些理念不同的实体性，有另外一种实体性，“and is real only because of this distinctness”。现实的世界之所以是现实的，只是由于它和理念世界的实体性有差别、有分别；它是依附性的。那么，柏拉图式的理念什么都不是，而只是共相，the universal；说得更精确一点，“it is the concept of the subject matter”，它只是对于材料的概念，是意识所研究的对象、意识所研究的主体对象的一些概念。不要把柏拉图理念看成很高的东西，它只是共相，the universal。
+
+“subject: it is only in the concept that something has actuality\. And to the extent that it is different from its concept\.” 也就是说，只有在概念当中，某个东西才获得现实性；并且只有在这个意义上，它才不同于它的概念。在概念当中，某物才具有它的现实性；只有在这个意义上，在获得现实性的意义上，它才不同于它的概念。这里都是在讲柏拉图：在柏拉图那里，一个事物只在概念当中才获得现实性。更准确地说，这个“something”应该是说，只有在概念当中，某个东西才能获得现实性；也就是说，只有马的概念才是真的、才是现实的。“And to the extent\.\.\.”也只在这个意义上讲，它才不同于它的概念——“it is different from its concept”。
+
+不，这应该是两句话；“and”后面是另外一句话，跟前面没关系。更准确地说，如果某物不同于它的概念，那么在这个程度上，它就不再是现实的，并且它就是一个 knowledge，就什么都不是。“the side of tangibility and of sensual self\-externality belongs to this north side\.” 也就是说，可见性的那个维度、可见性的那一边——可见性是个理念；可见性这个理念在柏拉图那里，也是用来否定那些东西的：它也是个理念，但它是用来否定现实那个位面的。所以，可见性、有形性的那一边，和感性的自我自身外部性的那一边——self\-externality——这些事物，它们的自身都显得是在外面的；感性的东西，其自身显现好像在外面，具有外部性，这叫 self\-externality，叫自身外部性。它的那一侧都属于无意义的那一侧，都是柏拉图那边的，即可感的、自外的。好像这些东西都具有某种超越性，外在于理念世界的那种超越性；这些东西全是无意义的，在柏拉图那里全是没有意义的，全是 knowledge。那么判明这一点，就是用 tangibility 这个理念来判明。所以在理念世界里面要有一个 tangibility，要有一个可感性，要有一个 tangibility。这相当于说：你这个东西是 tangible 的，滚蛋，那你就不是理念世界的一部分，你就不是现实的。
+
+但是另外一方面，“on the other side, one can appeal to the representations typical of ordinary logic”。也就是说，如果你不采取这种柏拉图主义的理念论，那你又可以寻求表征的帮助，寻求通常的逻辑、一般逻辑中那种类型的表征的帮助——“to the representations typical of ordinary logic”。那么就要看，他怎么运用一般逻辑、普通逻辑当中所包含的那种表征学说、representation 学说的帮助。“For it is assumed that in definitions, for example, the determinations are not just of the knowing subject\.”
+
+因为这些人假定——“it is assumed”——在定义当中，举个例子，在一些具体的定义当中：英文 determinations 后面加了 s，就表示一些具体的定义。“the determinations are not just of the knowing subject\.” 也就是说，规定性不仅仅来自认识者、认识主体；“but rather determinations of the subject matter”，规定性属于这里的 of，都是“属于”的意思，规定性属于那个被认识的主题材料，“such that it constitutes its innermost essential nature”。这些规定性，就是定义当中的那些规定，不来自主体，不来自认识主体，而来自主体所认识的那些比较客观的、外在的主题材料。规定性来自这些东西，所以它能够构造起最内在、最本质的类型。nature 在这里可以翻译成类型、种类，甚至可以翻译成“种”，即最本质的天性、本性，最本质的本性。
+
+然后，“all in an inference drawn from given determinations to others”，或者说在这么一种推论当中——这种推论来自给定的规定性，推及其他者的规定性；“the assumption or in an inference drawn from the given”，它来自给定的规定性——“given determinations to others”，即从给定的对于他者的规定性当中得出来的推论。这样一个假设：“the assumption is that the inferred is not something external to the subject matter\.” 也就是说，被推论出来的东西不是外在于它的主题材料的，也不是陌生于它的主题材料的；“but that it belongs to it instead”，而是认为它属于它。
+
+而是认为，你从那些给定的、对于他者的规定性——“given determinations to others”——比如说，这个杯子，它是个 other，它的 given determination 是什么？它是圆的。你从这里面可以推，那就会假定这些推论有一些给定的规定性：它是圆的、亮的、透明的，然后是什么硬的，它有这些给定的规定性。然后我从这些给定规定性当中要推出结论，进行 inference，进行一些推理。那么就会假设——不采取柏拉图理念论、不采取那种逻辑真理观的人，就会采用这种方式——他们就会假设，那个被推论出来的东西不是外在于这个东西的，也不是外在于它的，而是属于它的。
+
+这就是“but that it belongs to it instead”。“that to the thought there corresponds being”，也就是说，他们假设思维和存在是相一致的。这里“to the thought there corresponds being”是倒装句。这里的 but that 就是 the assumption：它的假设不是前面那个，而是这个。也就是说，这些人所假定的是：我在进行推理的时候，比如它有一些给定的属性，我要推理，他们就从它的属性当中推出一些东西，比如说这个杯子摔到地上会碎，它有脆性，或者我给它喷了漆，它就不会透明。他们认为这些推论不是某种外在于那个材料的东西，不是某种外在于这个研究内容、研究对象的东西，而是属于它的东西。他们假设这些推论属于它，而且假设这个思维和存在相一致——“to the thought there corresponds being”。
+
+他们假设这些推论属于对象本身，并且假设思维与存在相一致。原文说 to the thought there corresponds being，即“与思维相对应的是存在”。这里的 there 是方位副词，表示“在此”“在那儿”，也可以翻译成“有”，所以这是倒装；corresponds 可以当作系动词，句子可改写成 to the thought there is being corresponding，意思接近 there comes being。这里可以把它看成倒装。他们的假设有两个：第一，我从研究对象的属性推论出这些东西，而这些推论属于对象本身；第二，认为存在与思维相一致。在这里，在这样一个推论当中，存在与思维相一致。这是一种比较庸俗的真理观。
+
+这就是庸常逻辑中的符合论，或者所谓 representation，也就是表征观：表征不就是和事物本身相一致吗？他说，我们的思维可以对事物进行再呈现；这里的 representation 可以翻译成“再呈现”。他们求助于典型的、普通逻辑中的再呈现。推论（inference）的直接规定性（determinations）是 presentation，也就是一阶的呈现；然后我从这些 given determinations 推出、推导出来的东西就是再呈现（representations）。这些再呈现就是真理，存在就在这些再呈现之中，并与我的思维等同。
+
+他讲清楚了另一种比较庸俗的真理观：前面是一种柏拉图式的真理观，后面又有另外一种真理观。这里的关键是：everywhere presupposed by the use of forms of concepts of judgment, inference, definition, division, etc\. 也就是说，不是在其他地方，而是在所有地方；只要你使用判断、推论、定义、分类这些概念形式——division 就是加以二分、加以区分——你就会预设什么？
+
+你会预设：它们不只是自我意识着的思维活动的形式，不只是形式，而且也是客观知性（objective understanding）的形式。人们于是觉得这些东西天然就是对的：概念就是对的，同一性、相等性也是 objective understanding。这就是标准弗雷格式的蠢货的看法。用那句话来说：thought is an expression which attributes the determination contained in it primarily to consciousness。思维于是变成一种表达、一种表现；思维本身成为一种表现，而且只是一个表现。所谓思维，只是把一开始包含在自身中的规定性赋予意识。这就是思维。也就是说，思维只是一种表达式。这些比较一般、庸俗的逻辑主义者便认为，思想只不过是一个表达，思想只是一个表达而已；这个表达把原先包含在其中的规定性派给意识。思维不过是：意识读取一个逻辑命题，于是就有了思维。就是这意思。他们认为客观的理解有一种客观的理解性，存在一种客观的知性；这种客观知性由概念、判断、推理、定义这些逻辑环节和形式构成。这些东西保证了表征的可真性，于是可以构造出客观知性内容，而这些内容就是逻辑命题。逻辑命题被意识读取、显现出来，就变成思维。这都很庸俗、很庸常。但有些人文知识分子却屈辱地匍匐在这种真理观、这种思维观之下。
+
+这很可耻，这些都是叛徒。But in as much as it is said that understanding, that reason is in the objective world：只要据说所谓的知性、理性存在于客观世界之中；That spirit and nature have universal laws：精神和自然具有普遍法则，而它们的活动、它们的生命（life）——也可以译成生命，其实就是它们活生生的变化——都 conform to 这些普遍法则，也就是服从、协同于那些最普遍的法则，即知性、逻辑法则。这就是一种没有先验性的、表征主义的逻辑法则；这种人就是表征主义者。Then it is conceded just as much that the determinations of thought have objective value and concrete existence\.
+
+于是它就被承认了：思维的规定性具有客观价值，并且具有具体的、真实的实存。这里的 just as much \.\.\. as 与前面的 in as much as 相呼应。你有多大程度承认知性、理性在客观世界之中，有多大程度承认判断、定义、推理等操作的规则，以及概念之间的可靠性——例如卡尔纳普幻想的同一、对称、相等具有天然的亲缘性——活在客观世界之中，你也就有多大程度必须承认思维的规定性具有客观价值，并具有真实的、具体的实存。
+
+这是柏拉图主义之外的另一种立场。理念实在论者会有一个形而上学的理念位面；但另外一些人——那些新康德主义者——则把逻辑操作、表征操作、判断的一些环节看成绝对真实的。他们不是把全部理念都放进形而上学世界，而是把部分用来生产知识、判定知识有效性和可靠性的逻辑环节，把逻辑判断的机制和关联，送到天上去，说它是千秋万代的，然后徒子徒孙一个个跪下来磕头。
+
+我跟你讲，分析哲学里有很多这种人。知乎上有人说我是邪教徒；我说，老大不要笑老二。你们跪这些东西的时候不比我强，我好歹跪的是全人类的解放，或者一些政治图腾；我不知道你们跪的是什么。在这个意义上，由于我讲全人类解放，我根本不存在一个跪的问题。所以这里他批判的是另一个东西：这种东西也被看成新康德主义。新康德主义把这一部分发扬光大了，后来还争论判断（judgment）能不能被看成一种特别表征、是不是高级表征，并去构造这些逻辑环节和观点。但这个工作黑格尔早就做过了。只不过那个时代很多人把黑格尔把握成一种很粗糙的形而上学，刻意看不见黑格尔。但新康德主义的命全被海德格尔干翻了——全被黑格尔的头号粉丝海德格尔干翻了。我再强调一遍。
+
+今天就讲到这里。这个导论还有多少页？半页、一页、两页、三页、四页、五页、六页、七页……还有七页；这导论好长，九页、十页、十一页，还有十一页；我们算十二页，还有十二页。要讲完的话，差不多还要四天时间，下个星期就可以把导论讲完。今天讲的这几种逻辑学观都是错的；黑格尔在这里是通过做减法，排除错误选项。

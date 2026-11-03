@@ -1,0 +1,19 @@
+# 【一小时哲学】“不”字的四种写法，你知道几种？（何为否定） — P1
+
+BV：`BV1Vz4y1r7b2`；分 P：1。
+
+所有文件为本地产物整理副本；AI 校对稿未经人工审核。不同转录来源、版本和复核项均保留。
+
+优先阅读：[打开阅读正文](AI校对/c1ffc0f9f7874ac3/ai-draft.md)
+
+## AI 校对版本
+
+- `c1ffc0f9f7874ac3` · 状态 `needs-review` · [ai-draft.md](AI校对/c1ffc0f9f7874ac3/ai-draft.md) · [review.md](AI校对/c1ffc0f9f7874ac3/review.md)
+
+## 原始转录与源字幕
+
+- `subtitle-cc` · 内容 `f91d183bd61fc6df` · [TXT](原始转录/subtitle-cc/f91d183bd61fc6df/transcript.txt) · [JSON](原始转录/subtitle-cc/f91d183bd61fc6df/transcript.json) · [SRT](原始转录/subtitle-cc/f91d183bd61fc6df/transcript.srt) · [VTT](原始转录/subtitle-cc/f91d183bd61fc6df/transcript.vtt)
+- `asr-local` · 内容 `5349b5851a82c527` · [TXT](原始转录/asr-local/5349b5851a82c527/transcript.txt) · [JSON](原始转录/asr-local/5349b5851a82c527/transcript.json) · [SRT](原始转录/asr-local/5349b5851a82c527/transcript.srt) · [VTT](原始转录/asr-local/5349b5851a82c527/transcript.vtt)
+
+## 历史转录包、阅读站与音频
+

@@ -1,0 +1,32 @@
+{
+  "model": "qwen-audio-3.1-asr-flash",
+  "audio_sha256": "4c965f22a29a38b07e82a09ee9f1d03e269c1b4d3f32ceb47c5bdb10eb1958ef",
+  "chunk_seconds": 240,
+  "speaker_diarization_enabled": true,
+  "sample_rate": 16000,
+  "version": 1,
+  "source": "asr-cloud",
+  "duration_seconds": 148.5005,
+  "segments": [
+    {
+      "start": 76.16,
+      "end": 77.44,
+      "text": "要，你给他留。",
+      "speaker_id": 0,
+      "chunk_offset_seconds": 0
+    }
+  ],
+  "usage": [
+    {
+      "duration": 77,
+      "input_tokens": 1857,
+      "output_tokens": 23,
+      "total_tokens": 1880
+    }
+  ],
+  "speaker_ids_are_chunk_local": true,
+  "untranscribed_intervals": [],
+  "requires_review": false,
+  "timed_exports_available": true,
+  "text": "要，你给他留。"
+}

@@ -1,0 +1,1023 @@
+# 【经典译读】康德《纯粹理性批判》（连载中）：校验参照稿件
+
+AI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。
+
+修订：`8048120a96acd6bc488676074b5aad3bc36991b9e73a09d2b5a9903e03fc5c67`
+
+输入快照：`e0f0a8c14534431022381578c1997a5becb534f2d4f0c14b11d3164aefa58217`
+
+模型：`deepseek-flash`；思考：`high`；top_p：`0.95`
+
+规则：`readable-prose-v2`；模板：`ai-draft-v1`
+
+基础转录：`2358`；参考转录：`3332`
+
+## 段落 1：00:00:00 — 00:00:45
+
+来源：`t2358:s0`, `t2358:s1`, `t2358:s2`, `t2358:s3`, `t2358:s4`, `t2358:s5`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=0)
+
+原文：讲那个康德哲学的那个序言啊，序言，这个preface的话叫前言部分。然后我们今天就是开始一个系列讲《纯粹理性批判》啊，这本书的话，总共差不多七百页，七百页，我们一次看一次能讲多少啊？我主要以一个以译，通过翻译来代替这个讲解的方式。这个书其实呃没有很多人把它鼓吹的，好像很神秘、很了不起。其实它只是一个基础文本啊，基本性的文本，它就跟什么英语一那种水平差不多，就是四六级，这是算四级，你知道吗？或者说这种四级都不算，就像有点像那种中考英语那种感觉的，你不要把它抬太高了。
+
+整理稿：今天讲康德哲学的序言，preface就是前言部分。我们开始一个系列讲《纯粹理性批判》。这本书差不多七百页，一次能讲多少就讲多少。我主要通过翻译来代替讲解。这本书其实没有很多人鼓吹得那么神秘、了不起；它只是一个基础文本、基本性的文本，水平跟英语一差不多，也就是四六级，算四级；或者说四级都不算，有点像中考英语。不要把它抬得太高。
+
+## 段落 2：00:00:46 — 00:01:27
+
+来源：`t2358:s6`, `t2358:s7`, `t2358:s8`, `t2358:s9`, `t2358:s10`, `t2358:s11`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=46)
+
+原文：就是我们之所以没办法理解这些哲学，是因为我们的思维不够具有严格性，而且我们思维还不敢去放开手，就相当于是游泳教练教你教你游泳，对吧？就是教了你，就是呃前面手搭着，后面腿怎么摆，好会了。然后呢，教你这后面给你腿给你撑住，然后前面手怎么来那个推推水，也会了。现在问题就是说，你自己不敢把这两个结合起来，然后手和脚都离开那个支撑物，自己去游。这个你不敢的话，那就没办法了。那那就再再厉害的人也没有办法把你带到这个哲学当中去啊。
+
+整理稿：我们之所以没办法理解这些哲学，是因为思维不够严格，而且不敢放开手。就像游泳教练教你游泳：他先教你前面手搭着、后面腿怎么摆，你会了；再教你后面腿撑住、前面手怎么推水，你也会了。现在的问题是，你自己不敢把这两者结合起来，手和脚都离开支撑物，自己去游。你不敢，那就没办法；再厉害的人也没有办法把你带进哲学。
+
+## 段落 3：00:01:28 — 00:01:58
+
+来源：`t2358:s12`, `t2358:s13`, `t2358:s14`, `t2358:s15`, `t2358:s16`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=88)
+
+原文：就是你自己内心还有一种自恋的保护壳啊，或者还对于这个世界的某种啊那种物欲还是很强的那种状态，那你没办法的，对吧？你或者说你自己是个自私自利的，是个庸俗的，是一个很很或者说是一个很懦弱的，是一个或者说是一个很很很骄狂的一个人，那那你就是那你就不适合哲学，我只能说，那学不懂也很正常了。就是我们要大胆的跳到康德给我们挖的这个坑里面去啊。
+
+整理稿：如果你内心还有一种自恋的保护壳，或者对世界的物欲仍然很强，那就没办法。或者你自私自利、庸俗、懦弱、骄狂，那你就不适合哲学；我只能说，学不懂也很正常。我们要大胆跳到康德给我们挖的坑里去。
+
+## 段落 4：00:01:59 — 00:02:46
+
+来源：`t2358:s17`, `t2358:s18`, `t2358:s19`, `t2358:s20`, `t2358:s21`, `t2358:s22`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=119)
+
+原文：我们放大一下，然后我们直接看这个它的序啊。人类理性啊具有一种特殊的一种命运啊，has thespeculative一种特别的一种命运，奇怪的古怪的一种命运啊。呃，in one species of itscognitions that it is burdened with questions which it cannot dismiss。它是呃在它的这个认知，它的知识当中有一种啊，它这种认知它会认识到什么呢？就是说，它的人类理性呢，它是被一些问题所就困扰的，或者说承载的这些问题。
+
+整理稿：我们放大一下，直接看它的序。人类理性具有一种特殊的、思辨的、奇怪的命运。'in one species of its cognitions that it is burdened with questions which it cannot dismiss\.' 在它的认知、知识当中有一种认知，它会认识到：人类理性被一些问题所困扰，或者说承载着这些问题。
+
+## 段落 5：00:02:47 — 00:03:32
+
+来源：`t2358:s23`, `t2358:s24`, `t2358:s25`, `t2358:s26`, `t2358:s27`, `t2358:s28`, `t2358:s29`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=167)
+
+原文：那么这些问题呢，是它不能够dismiss的，不能够就是很简单的把它拒斥掉的，因为they are given to its problems，they are given to it as problems by the nature of reason itself。因为这些问题呢，它是呃给到这个人的理性，是作为一些problems，作为一些麻烦给到他的。那么这些麻烦呢，是出于理性本身的一个天性啊，所所带来的一些麻烦。But which it also cannotanswer，嗯，since they transcend every capacity of human reason。然后这些问题呢，是人类理性没有办法解答的，没有办法回答的。因为这些问题呢，超越了这个人类理性的每一项能力啊。
+
+整理稿：这些问题它不能dismiss，不能简单地拒斥掉，因为它们是作为问题、由理性本身的天性给到理性的。这些麻烦出于理性本身的天性。'But which it also cannot answer, since they transcend every capacity of human reason\.' 这些问题人类理性没有办法解答，因为它们超越了人类理性的每一项能力。
+
+## 段落 6：00:03:32 — 00:04:04
+
+来源：`t2358:s30`, `t2358:s31`, `t2358:s32`, `t2358:s33`, `t2358:s34`, `t2358:s35`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=212)
+
+原文：这这里的能力啊，主要就是他讲的最前面，其实讲的就是人类的形而上学问题，就是形而上学。人类要探索形而上学问题，这个是理性与生俱有的啊。就是康德认为，他妈人类是不可避免的要思考形而形而上学问题的，但是人类不应该思考形而上学问题。人类没有权利啊，没有资格思考形而上学问题。就是康德，其实你说他是个哲学家，他其实是个反哲学家，反形而上学家。他不认为人有资格像上帝一样思考形而上学问题。
+
+整理稿：这里说的能力，最前面主要讲的是人类的形而上学问题，就是形而上学。人类要探索形而上学问题，这是理性与生俱来的。康德认为，人类不可避免地要思考形而上学问题，但人类不应该思考形而上学问题；人类没有权利、没有资格思考形而上学问题。康德其实是个反哲学家、反形而上学家，他不认为人有资格像上帝一样思考形而上学问题。
+
+## 段落 7：00:04:05 — 00:04:38
+
+来源：`t2358:s36`, `t2358:s37`, `t2358:s38`, `t2358:s39`, `t2358:s40`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=245)
+
+原文：一旦人突破这个纯粹理性批判的一个界限的话，去思考形而上学问题，人注定就会陷入二律背反啊，陷入一些一些非常就是其实后来的海德格尔和康德也是一样的啊，也是一样的，就是突破了这个界限去思考一些你不该思考的问题，那你就会遭遇一些伦理上的一些一些灾难啊，你就会招致伦理上的一些灾难。你的认知也是完全就是错误的。这个这种哲学，我们可以把它叫做一种有限主义哲学。
+
+整理稿：一旦人突破《纯粹理性批判》的界限去思考形而上学问题，人注定会陷入二律背反。后来的海德格尔和康德也是一样的。突破这个界限去思考一些你不该思考的问题，你就会遭遇、招致伦理上的灾难，你的认知也完全错误。这种哲学可以叫作一种有限主义哲学。
+
+- 疑点：原话在“陷入一些非常……”处未完成，正文未补出具体内容。；候选：；依据：t3332:s100
+
+## 段落 8：00:04:39 — 00:05:55
+
+来源：`t2358:s41`, `t2358:s42`, `t2358:s43`, `t2358:s44`, `t2358:s45`, `t2358:s46`, `t2358:s47`, `t2358:s48`, `t2358:s49`, `t2358:s50`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=279)
+
+原文：所以在康德哲学当中，就是有一个有限主义，但是这个有限性在这里是一种认识论上的有限性啊。Reason falls into this perplexity through no fault of its own。理性呢，掉进了这么一个困境，它自己并没有犯犯什么错啊，并没有犯什么错。Through no fault of itsown，它并不是自己犯了什么错掉进去的。It begins from principles whose use isunavoidable in the course of experience。它开始是从一些原则，这些原则的使用它是不可避免的，在这个经验过程当中。然后and at the sametime，同时也是sufficiently充足的被保证的啊，被被被保证的。被什么保证呢？By by i t。R e a s o n啊，r e a s o n啊，r e a s o n，r e a s o n是从一些原则开始的，b e g i n s f r o m p r i n c i p l e s。那么这些原理的使用是在这个经验过程当中不可避免的，同时呢，它们也是被这个理性所保证的，或者说是被这个过程所保证的。这个i t妈的这个他自己指称不明啊，那不管了。W i t h t h e s e p r i n c i p l e s i t r i s e s，那么啊，a s i t s n a t u r e a l s o r e q u i r e s e v e r h i g h e r啊，t o m o r e r e m o t e c o n d i t i o n s。itReason啊reason啊reasonreason是从一些原则开始的begins from principles那么这些原理的使用是在这个经验过程当中不可避免的同时呢它们也是被这个理性所保证的或者说是被这个过程所保证的这个it妈的这个他自己指称不明啊那不管了With these principles it rises那么啊as its nature alsorequires ever higher啊to more remote conditions
+
+整理稿：所以在康德哲学当中有一个有限主义，但这里的有限性是认识论上的有限性。'Reason falls into this perplexity through no fault of its own\.' 理性掉进这样一个困境，它自己并没有犯什么错，并不是自己犯了错才掉进去的。'It begins from principles whose use is unavoidable in the course of experience\.' 它从一些原则开始，这些原则的使用在经验过程中不可避免；同时它们也被理性充分保证，或者说被这个过程保证。这里的“it”指称不明，先不管它。'With these principles it rises, as its nature also requires, ever higher to more remote conditions\.'
+
+## 段落 9：00:05:58 — 00:06:33
+
+来源：`t2358:s51`, `t2358:s52`, `t2358:s53`, `t2358:s54`, `t2358:s55`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=358)
+
+原文：就是我们用这些原则，他所提出的给出的这些原则，把它用的更高，everhigher啊，没有更高的，everhigher就是越来越高，把它用的越来越高，把这些水平用的提的越来越高，这些水平被他提的越来越高了。那么，然后按照它的本质，这个按照它的天性，理性也需要用运用到这些思维的一些原则，去把它运用到什么上面去呢？去运用到一些remote遥远的情况上面，遥远的情况上面。But since it becomes aware in this way that its business must always remain incomplete because the questions never
+
+整理稿：我们用这些原则，把它用得更高，ever higher，越来越高，把这些原则提得越来越高。按照理性的天性，理性也需要把这些思维原则运用到一些remote、遥远的情况上。'But since it becomes aware in this way that its business must always remain incomplete, because the questions never cease\.'
+
+## 段落 10：00:06:33 — 00:07:27
+
+来源：`t2358:s56`, `t2358:s57`, `t2358:s58`, `t2358:s59`, `t2358:s60`, `t2358:s61`, `t2358:s62`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=393)
+
+原文：cease，然后但是因为它意识到在这么一种过程中，在这么一个如果它这样做的话，把这些原则去运用到越来越远的情况的时候，那么它的这个任务总是会是没有办法完全完成的，它没有办法完全完成，its business must always remainincomplete，因为呢这些问题永远不会结束。Reason sees itselfnecessitated to take refuge in principles that overstep all possible use in experience。那么理性就看到它自己有必要去使用啊，去怎么样去寻找庇护啊，在一些原则中寻找庇护，这些原则它是overstep是超出了所有可能性，经验当中的可能性用，就是这个时候我不再一次一次的在经验里面使用这些原则了，我他妈一劳永逸，一次性的跳出所有的可能性的经验当中可能性的使用，然后在
+
+整理稿：但它意识到，如果把这些原则运用到越来越远的情况，它的任务总是无法完全完成，因为这些问题永远不会结束。理性看到自己有必要在一些原则中寻找庇护，这些原则overstep，超出了经验中所有可能的使用。这时我不再在经验中一次次使用这些原则，而是一劳永逸，一次性跳出所有可能经验的使用。
+
+## 段落 11：00:07:30 — 00:08:54
+
+来源：`t2358:s63`, `t2358:s64`, `t2358:s65`, `t2358:s66`, `t2358:s67`, `t2358:s68`, `t2358:s69`, `t2358:s70`, `t2358:s71`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=450)
+
+原文：在一种鲜艳的原则当中去寻求一些庇护所啊，我直接把它做成当成一个无条件有效的，我不我是不再把它们具体的运用在经验里面。And yet seem so suspicious that even ordinary common use agrees with t h e m。A n d y e t s e e m看上去尽管它看上去是如此的u n u n s u s p i c i o u s不可疑啊，看上去是尽管如此的就是不会被人怀疑，不会引引起怀疑，他们甚至日常的使用都会都会那个同意他们，都会同意他们。呃，但是i t t h e r e b y f a l l s i n t o o b s c u r i t y a n d c o n t r a d i c t i o n s。但是呢，就是这些前面所说的这些原则，就是一些形而上学原则，它就会把一些形而上学原则运用到日常生活中，比如说这个这康德这个序言里面就是讲的我们对于理性的使用，理性的一些原则的使用不能超出它的经验的限度，不能超出它的一个认识论的一个限度，不能不能跨越所有可能情况，然后跳到形而上学维度，否则的话i t t h e r e b y它就会掉入这个o b s c u r i t y，掉入那种昏暗啊，就是掉入那种神秘主义兮兮的啊，这种蒙昧，o b s c u r i t y就蒙昧，然后和一些自相矛盾，就是f r o m w h i c h i t c a n i n d e e d s u r m i s e t h a t i t m u s t s o m e w h e r e b e p r o c e e d i n g o n t h e g r o u n d o f h i d d e n e r r o r s。themAnd yet seem看上去尽管它看上去是如此的un unsuspicious不可疑啊看上去是尽管如此的就是不会被人怀疑不会引引起怀疑他们甚至日常的使用都会都会那个同意他们都会同意他们呃但是it thereby falls intoobscurity and contradictions但是呢就是这些前面所说的这些原则就是一些形而上学原则它就会把一些形而上学原则运用到日常生活中比如说这个这康德这个序言里面就是讲的我们对于理性的使用理性的一些原则的使用不能超出它的经验的限度不能超出它的一个认识论的一个限度不能不能跨越所有可能情况然后跳到形而上学维度否则的话it thereby它就会掉入这个obscurity掉入那种昏暗啊就是掉入那种神秘主义兮兮的啊这种蒙昧obscurity就蒙昧然后和一些自相矛盾就是from which it can indeed surmise that it must somewherebe proceeding on the ground of hidden errors
+
+整理稿：在一种先验的原则中寻求庇护，直接把它当成无条件有效的，不再具体运用在经验里。'And yet seem so unsuspicious that even ordinary common use agrees with them\.' 这些原则看上去如此不可疑，不会引起怀疑，甚至日常使用都会同意它们。但'it thereby falls into obscurity and contradictions'。这些形而上学原则一旦被运用到日常生活中，就会陷入obscurity，也就是昏暗、蒙昧，带有神秘主义气息，并陷入自相矛盾。比如康德在这篇序言里讲，我们对于理性的使用、对理性原则的使用，不能超出经验的限度，不能超出认识论的限度，不能跨越所有可能情况跳到形而上学维度；否则就会掉入obscurity，掉入蒙昧和自相矛盾。'from which it can indeed surmise that it must somewhere be proceeding on the ground of hidden errors\.'
+
+## 段落 12：00:08:56 — 00:10:39
+
+来源：`t2358:s72`, `t2358:s73`, `t2358:s74`, `t2358:s75`, `t2358:s76`, `t2358:s77`, `t2358:s78`, `t2358:s79`, `t2358:s80`, `t2358:s81`, `t2358:s82`, `t2358:s83`, `t2358:s84`, `t2358:s85`, `t2358:s86`, `t2358:s87`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=536)
+
+原文：那么从这个呃萌妹和这些自相矛盾当中呢，它事实上就能够推测，它必须it must somewhere be proceeding on the ground of hiddenerrors，它必须啊要怎么样，不管往哪个方向，它要继续去往前走啊，proceeding继续往前推进。那么在隐藏的这些困难的这个这个这个这这么一个领域当中，我要继续推进，要避免这些困难啊。它就是but it cannotdiscover，它但是呢，它不不不能够发现这些，不能够发现这个for the principle on which it is proceeding，since itsupport，但是它没有办法发现发现这些hiddenerrors，或者说这里的them指代也不明的，这里的them可能是指代的是那个somewhere啊，但也有可能这里指代是指的那些hiddenerrors，就是说理性没有办法发现那些隐藏的隐藏的问题，因为它把这些原理用用到了形而上学，一个超越超越现实经验的一个维度啊，因为这些原则on which it is proceeding啊，就是就是这些理性在其上运行的那些原则，就是理性运行在原则之上吧，啊，它的推进在原则上推进吧，依靠这些原则来推进它的这个推理过程啊，因为这些它所依依赖依赖的这些原则，因为它们是超出了所有经验的一个界限，它们不再recognize any touchstone ofexperience，它们不再承认任何的这个touchstone，touchstone一个什么意思？试金石啊，就标准啊，它们不再承认任何这个经验的标准，所以这些东西没有办法发现它们隐藏的一些问题啊。The battlefield of this endless
+
+整理稿：从这种蒙昧和自相矛盾中，它事实上能够推测：'it must somewhere be proceeding on the ground of hidden errors'，它必须在某个地方、沿着隐藏错误的地面继续推进。也就是说，不管往哪个方向，它都要继续往前走、继续推进。在隐藏着困难的领域里继续推进、要避免这些困难，但它'cannot discover'，没有办法发现这些隐藏的错误。这里的“them”指代不明：可能指“somewhere”，也可能指“hidden errors”。理性没有办法发现那些隐藏的问题，因为它把这些原理用到了形而上学、超越现实经验的维度。因为这些原则'on which it is proceeding'，就是理性在其上运行、依靠它推进推理过程的原则；这些原则超出了所有经验的界限，它们'no longer recognize any touchstone of experience'，不再承认任何经验的试金石、标准。所以这些东西没有办法发现隐藏的问题。
+
+## 段落 13：00:10:40 — 00:11:30
+
+来源：`t2358:s88`, `t2358:s89`, `t2358:s90`, `t2358:s91`, `t2358:s92`, `t2358:s93`, `t2358:s94`, `t2358:s95`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=640)
+
+原文：controversies，那么这种无止境的争论的这个战场is calledmetaphysics，就就是形而上学啊，就是就是形而上学，形而上学就是这么一个东西啊。There was a time when metaphysics was called the queen of all thesciences，就曾经有一段时间，就是在经院神学、经院哲学时代，就是什么形而上学它是被叫做这个科学的女王的。And if the will be taken for thedeed，呃itdeserve deserved this title of honor on account of thepreeminent importance of its object。如果它if the will betaken，什么意思啊？这里是the will是啥意思？will这里是不是遗嘱吧？这是决心吧？意志？对吧？
+
+整理稿：这种无止境争论的战场'is called metaphysics'，就是形而上学。形而上学就是这样一个东西。'There was a time when metaphysics was called the queen of all the sciences\.' 曾经有一段时间，在经院神学、经院哲学时代，形而上学被称为科学的女王。'And if the will be taken for the deed, it deserved this title of honor on account of the preeminent importance of its object\.' 这里“the will”是什么意思？是遗嘱吗？是决心吧？意志？对吧？
+
+## 段落 14：00:11:30 — 00:12:04
+
+来源：`t2358:s96`, `t2358:s97`, `t2358:s98`, `t2358:s99`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=690)
+
+原文：如果是真的是这样的话啊，如果the will to be taken for thedeed，这句话的意思，作为契约的代理人，我靠，我觉得有点怪怪的。如果把采取if It will be used as a deed\.If thewill，你看这他妈的英文版，the will be taken。这里的the，这里的will只能当名词看啊，will只能当名词。If the
+
+整理稿：如果是这样的话，如果“the will to be taken for the deed”，这句话是什么意思？作为契约的代理人，我觉得有点怪。'If it will be used as a deed\. If the will\.\.\.' 你看英文版，'the will be taken'。这里的“the”、这里的“will”只能当名词看，will只能当名词。'If the will'……
+
+## 段落 15：00:12:04 — 00:12:29
+
+来源：`t2358:s100`, `t2358:s101`, `t2358:s102`, `t2358:s103`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=724)
+
+原文：will，如果这个决心要taken for d e e d，b e t a k e n f o r d e e d，f o r t h e d e e d，f o r t h e d e e d，f o r t h e d e e d。契税，器具，做凭据。如果要把这个当成凭据的话，我们姑且这样翻译。D e s e r v e t h i s t y p e o f h o n o r，他就，如果他真的是要做的，做的，要能做得成这个事儿的话，我觉得应该是这个意思。如果形而上学真的能做得成他自己所说的那些事的话，他确实是配得上了他的那个，他的荣誉的。就是说，呃，鉴于，a c c o u n t，因为这个，他的对象，他研究的对象具有那种p r e v a l e n t，具有一种卓越的重要性。形而上学研究对象是啥？本体啊，上帝啊，还有什么乱七八糟这东西，灵魂啊这种东西。N o w，i n a c c o r d a n c e w i t h t h e f a s h i o n o f t h e a g e，那么要和这个时代的这个流行趋势相一致。T h e q u e e n p r o v e s d e s p i s e d o n a l l s i d e s。这个形而上学这个，这个女王啊，现在被证明啊，结果她现在是在所有的维度都被鄙视了，都被鄙视了。A n d t h e m a t r o n，还有那个女看守，o u t c a s t，被抛弃的那f o r s a k e n。不要，他的那个，这个形而上学女王的那个女看守啊，看守，他的那个侍卫，就是被抛弃了，然后被就是很矬了，现在已经不行了，被抛弃了，然后堕落了，f o r s a k e n被抛弃的被。M o r s l i k e就就像这个，应该是也是一个神话里面那个人物啊，我们搜一下。就是那个赫卡柏，特洛伊国王的妻子啊，像赫卡柏一样在那边哀悼，就是形而上学不行了，然后他的那些看守，他的那些拥护者拥趸啊，他就像像那个特洛伊的国王的老婆一样在那边哀悼，然后他哀悼哀悼的那个词儿吧，我靠，这是康德掉书袋，我靠，我看不懂。拉丁语啊，像像抛弃的老妇一样抱怨。这个我这个玩意儿他妈的是啥意思啊？特洛伊国，来看一下，拉丁语，最伟大的事情，那么多儿子和现在。O h w a i t,m a d a m\.P o s t\.deedbe taken for deedfor thedeedfor the deedfor the deed契税器具做凭据如果要把这个当成凭据的话我们姑且这样翻译Deservethis type of honor他就如果他真的是要做的做的要能做得成这个事儿的话我觉得应该是这个意思如果形而上学真的
+
+整理稿：如果这个决心要taken for deed，be taken for deed，for the deed……契据？字据？做凭据。如果要把这个当成凭据，我们姑且这样翻译。'Deserve this type of honor'，如果它真的是要做的、要能做得成这个事儿的话，我觉得应该是这个意思：如果形而上学真的能做得成他自己所说的那些事，它确实配得上它的荣誉。就是说，鉴于——account——因为它的对象、它研究的对象具有那种prevalent，具有一种卓越的重要性。形而上学研究对象是什么？本体、上帝、灵魂这些乱七八糟的东西。'Now, in accordance with the fashion of the age'，那么要和这个时代的流行趋势相一致。'The queen proves despised on all sides\.' 这个形而上学女王现在被证明在所有方面都被鄙视了。'And the matron outcast, forsaken\.' 还有那个女看守，被抛弃的、被遗弃的。他的那个形而上学女王的看守、侍卫被抛弃了，现在已经不行了、堕落了。'More like'，就像这个，应该也是一个神话里面的人物，我们搜一下：就是那个赫卡柏，特洛伊国王的妻子，像赫卡柏一样在那边哀悼。就是形而上学不行了，他的那些拥护者、拥趸就像特洛伊国王的老婆一样在那边哀悼。然后哀悼的那个词儿吧，这是康德掉书袋，我看不懂。拉丁语，像被抛弃的老妇一样抱怨。这个玩意儿是什么意思？特洛伊国，看一下，拉丁语，最伟大的事情，那么多儿子和现在。Oh wait, madam\.
+
+- 疑点：“契税、器具”为音近词，疑为“契据、字据”，正文暂按后者处理。；候选：契据、字据；依据：t3332:s294
+- 疑点：“prevalent”与前文英文“preeminent importance”可能不一致，疑为preeminent。；候选：preeminent；依据：t2358:s100
+- 疑点：拉丁语引文及“最伟大的事情，那么多儿子和现在”识别不清，正文保留原话。；候选：；依据：t2358:s100
+
+## 段落 16：00:12:29 — 00:13:10
+
+来源：`t2358:s104`, `t2358:s105`, `t2358:s106`, `t2358:s107`, `t2358:s108`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=749)
+
+原文：能做得成他自己所说的那些事的话他确实是配得上了他的那个他的荣誉的就是说呃鉴于account因为这个他的对象他研究的对象具有那种prevalent具有一种卓越的重要性形而上学研究对象是啥本体啊上帝啊还有什么乱七八糟这东西灵魂啊这种东西Nowinaccordance with the fashion of the age那么要和这个时代的这个流行趋势相一致The queenproves despised on all sides这个形而上学这个这个女王啊现在被证明啊结果她现在是在所有的维度都被鄙视了都被鄙视了
+
+整理稿：如果形而上学真能做成他自己所说的那些事，它确实配得上它所享有的荣誉。鉴于它的对象——本体、上帝、灵魂之类乱七八糟的东西——具有一种卓越的重要性……Now in accordance with the fashion of the age，它也必须与时代的流行趋势相一致；但 The queen proves despised on all sides，这位形而上学女王如今在所有方面都遭到鄙视。
+
+- 疑点：原 ASR 的 account、prevalent 识别不确定；参考字幕作 preeminent，正文按“卓越的”处理。；候选：preeminent；依据：t3332:s304, t3332:s306
+
+## 段落 17：00:13:12 — 00:14:20
+
+来源：`t2358:s109`, `t2358:s110`, `t2358:s111`, `t2358:s112`, `t2358:s113`, `t2358:s114`, `t2358:s115`, `t2358:s116`, `t2358:s117`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=792)
+
+原文：And the matron还有那个女看守outcast被抛弃的那forsaken不要他的那个这个形而上学女王的那个女看守啊看守他的那个侍卫就是被抛弃了然后被就是很矬了现在已经不行了被抛弃了然后堕落了forsaken被抛弃的被Morslike就就像这个应该是也是一个神话里面那个人物啊我们搜一下就是那个赫卡柏特洛伊国王的妻子啊像赫卡柏一样在那边哀悼就是形而上学不行了然后他的那些看守他的那些拥护者拥趸啊他就像像那个特洛伊的国王的老婆一样在那边哀悼然后他哀悼哀悼的那个词儿吧我靠这是康德掉书袋我靠我看不懂拉丁语啊像像抛弃的老妇一样抱怨
+
+整理稿：And the matron，还有那个女看守，outcast、forsaken，被抛弃了。也就是说，形而上学女王的女看守、看守她的侍卫被抛弃了，现在已经不行了、堕落了。这个形象应该是神话里的一个人物，我们搜一下：就是赫卡柏，特洛伊国王的妻子；像赫卡柏一样在那边哀悼，就是说形而上学不行了。他的那些看守、拥护者、拥趸，也像特洛伊国王的妻子一样在那边哀悼。哀悼用的那个词，康德是在掉书袋，我看不懂拉丁语，大意是像被抛弃的老妇一样抱怨。
+
+- 疑点：Morslike/most like 一处识别不清，正文按上下文处理为“像这个神话人物一样”。；候选：most like；依据：t3332:s331, t3332:s332
+
+## 段落 18：00:14:23 — 00:15:12
+
+来源：`t2358:s118`, `t2358:s119`, `t2358:s120`, `t2358:s121`, `t2358:s122`, `t2358:s123`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=863)
+
+原文：这个我这个玩意儿他妈的是啥意思啊特洛伊国来看一下拉丁语最伟大的事情那么多儿子和现在Oh wait madam Post应该是greatest下面有翻译greatest of all by race and birth所有种类和出身的这个最伟大的I now am cast我现在被驱逐了powerless没有没有哦就是没有权利的这个意思然后in the beginning那么在一开始under the
+
+整理稿：这个拉丁文究竟是什么意思？特洛伊……看一下拉丁文，原句好像是“最伟大的事情……那么多儿子，而现在……”；Oh wait，应该是 greatest，下面有翻译：greatest of all by race and birth，即“所有种类和出身中最伟大的”。接着是 I now am cast，我现在被驱逐了；powerless，也就是没有权力。
+
+- 疑点：拉丁语引文及“Oh wait madam Post”等识别不清，正文只保留可辨识的 greatest 与 powerless 部分。；候选：；依据：t3332:s348, t3332:s350, t3332:s352
+
+## 段落 19：00:15:12 — 00:16:11
+
+来源：`t2358:s124`, `t2358:s125`, `t2358:s126`, `t2358:s127`, `t2358:s128`, `t2358:s129`, `t2358:s130`, `t2358:s131`, `t2358:s132`, `t2358:s133`, `t2358:s134`, `t2358:s135`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=912)
+
+原文：administration ofdogmatists在被那个独断论者教条主义独断论者的这个管理之下啊啊her rule was despotic这个形而上学的统治是暴君的很很很残暴的yet because herlegislation will retain traces但是他的呃因为他的立的法会维持retain traces of ancient barbarism他的他所立下的那些法维持着呃古代的野蛮主义的一些痕迹啊this rule gradually degenerated就形而上学立下的那些规则呢逐渐的就瓦解了啊腐烂了through internal wars啊他因为内在的一些内在的那个战争啊内在战争他自己体系里面的矛盾into从从内在战争变成了完全的anarchy变成了完全的无政府状态完全的无序and the
+
+整理稿：in the beginning, under the administration of dogmatists，一开始，形而上学处在独断论者（教条主义者）的管理之下，her rule was despotic：它的统治是暴君式的、很残暴的。yet because her legislation will retain traces of ancient barbarism：但它所立下的法会维持古代野蛮主义的痕迹。this rule gradually degenerated：形而上学立下的规则逐渐瓦解、腐烂，through internal wars，因为内在的战争、它自己体系里的矛盾；into anarchy，从内在战争变成了完全的无政府状态、完全的无序。
+
+## 段落 20：00:16:11 — 00:17:21
+
+来源：`t2358:s136`, `t2358:s137`, `t2358:s138`, `t2358:s139`, `t2358:s140`, `t2358:s141`, `t2358:s142`, `t2358:s143`, `t2358:s144`, `t2358:s145`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=971)
+
+原文：skeptics和那些怀疑论者kind of nomads一些就是好像一些流浪流浪人一样kind of那种流民游牧者一样的who这个skeptics比如说休谟这种怀疑论者啊他们憎恶所有的permanent永久的cultivation of the soil cultivation就是那个就是它是开化的意思但是也是就是耕田的那个意思啊耕就是把那个地给弄得可以去种种东西啊耕种啊培养他们就是他们就有点像游牧人他们厌恶所有的那个就是就是就是定居下来耕种土地啊他们settled他这些怀疑论者呢他就像这种游牧人一样游牧游牧民族一样的他就动摇了这个这个市民社会的这个统一体from time to time一次又一次动摇就是他就是用一个世俗王权的一种情况来比拟这个形而上学的一个统治的崩塌的but since there were fortunately only a few of them
+
+整理稿：and the skeptics，那些怀疑论者，kind of nomads，像流浪者、游牧者一样。比如休谟这样的怀疑论者，他们憎恶所有 permanent cultivation of the soil；cultivation 有开化、耕田、耕种、培养的意思，他们就像游牧人厌恶定居下来耕种土地一样。这些怀疑论者像游牧民族一样，from time to time，一次又一次地动摇市民社会的统一体。这里是用世俗王权的情况来比拟形而上学统治的崩塌。不过，幸好这样的人只有少数。
+
+## 段落 21：00:17:21 — 00:18:27
+
+来源：`t2358:s146`, `t2358:s147`, `t2358:s148`, `t2358:s149`, `t2358:s150`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=1041)
+
+原文：但是很很庆幸的是只有几个没多少这种怀疑论者没多少they could not prevent the dogmatists from continually attempting to rebuild他们这些人啊没有办法阻止那些独断论者去啊持续不停的去尝试去重建啊通过never according to plan尽管啊尽管这些重建啊永远不是依据一个计划的呃，这些计划是无意义的，全体一致的被他们所，他们自己所所，就是说这些独断论者，他势力很强，但是他们在重建形而上学大厦的时候，没没有一次是他妈的是无争议的，自己还是窝里斗的。Once in recent times,it even seemed as though an end would be put to all these controversies。那么在最近的时候，看上去啊，好像一个一个终结来临了，就能够把所有这些争论，让他们去去闭嘴，不要不要再争了，这都都没意思。And the loftiness of all the competing claims would be completely decided。
+
+整理稿：他们无法阻止独断论者持续不断地尝试重建，never according to plan：这些重建从来不是依照某个计划进行的，因此他们自己之间也从未达成一致。独断论者势力很强，但他们在重建形而上学大厦时，没有一次是没有争议的，自己内部还在窝里斗。Once in recent times, it even seemed as though an end would be put to all these controversies：最近似乎出现了一个终结，好像可以让所有这些争论闭嘴，不必再争了。
+
+- 疑点：s148 中“全体一致的被他们所……”句法不完整，正文按“他们彼此之间从未达成一致”处理。；候选：彼此之间从未达成一致；依据：t3332:s423, t3332:s424
+
+## 段落 22：00:18:29 — 00:19:09
+
+来源：`t2358:s151`, `t2358:s152`, `t2358:s153`, `t2358:s154`, `t2358:s155`, `t2358:s156`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=1109)
+
+原文：而那种哦这个loftiness应该指的下面有注释啊，loftiness这个德文的意思应该是合法性，合法性啊，就是就相当于是就是像有点像释放政治犯一样的，你懂吗？就是说释放政治犯一样的，最近好像看上去就是所有这些争论都可以闭嘴了，都可以停止了。然后那个所有的啊那些竞争性的那个彼此竞争的一些宣言呀，比如说那些怀疑论的或者那些其他的一些宣言，他们都看着，他们都被现在都被看着是合法的，可以可以合法存在的。Would be
+
+整理稿：And the loftiness of all the competing claims would be completely decided。这里的 loftiness 下面有注释，德文意思应该是“合法性”。这有点像释放政治犯：最近似乎所有争论都可以闭嘴、可以停止了；那些彼此竞争的宣言，比如怀疑论的或其他宣言，现在都被看作合法的、可以合法存在的，将被完全决定。
+
+- 疑点：loftiness 的德文对应词及“合法性”这一译法带有说话者的推测性质。；候选：合法性；依据：t3332:s439, t3332:s440, t3332:s441
+
+## 段落 23：00:19:09 — 00:19:44
+
+来源：`t2358:s157`, `t2358:s158`, `t2358:s159`, `t2358:s160`, `t2358:s161`, `t2358:s162`, `t2358:s163`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=1149)
+
+原文：completely这个decided将会完全被被决定。Through acertainphysiology，通过某种这个语文学啊语文学，这里physiology啊应该是生理学，看错了。他为什么用生理学？生理机能，人类理性的生理机能。哦我知道了，因为洛克就是通过那个心理学，还有一些就是人类知识论，他就是用一些生理学的一些机制来去解释认认识过程啊，来是解
+
+整理稿：通过某种 physiology。这里我一开始读成语文学，其实是生理学，看错了。为什么用生理学？人类理性的生理机能。我知道了：洛克通过心理学以及人类知识论，用一些生理学机制来解释认识过程，解释知识形成的过程，所以他才用 physiology；著名的就是洛克。
+
+## 段落 24：00:19:44 — 00:21:37
+
+来源：`t2358:s164`, `t2358:s165`, `t2358:s166`, `t2358:s167`, `t2358:s168`, `t2358:s169`, `t2358:s170`, `t2358:s171`, `t2358:s172`, `t2358:s173`, `t2358:s174`, `t2358:s175`, `t2358:s176`, `t2358:s177`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=1184)
+
+原文：解释知识形成的过程，所以他就用physiology，就著名的就是洛克。But it turned out thatalthough就看上去好像洛克的这种经验主义的方法，或者有点其实有点愚昧的，就用用那种人类的生生理过程，我靠，认识的生理过程这种东西来去来去对于整个形而上学统治说一个加一个终结。但是呢，it turned out that although the birth of the purported queen was traced to the rubble of common experience and herpretensions would therefore have been rightly rendered suspicious。但是结果呢是尽管这个被据说是女王的这么一个这个就形而上学的诞生呢，是被追溯到这个rubble of commonexperience，就是那个日常经验的那个rubble应该是如。乌合之众啊，就是据说《形而上学》，尽管结果是把这个据称为女王的《形而上学》的它的起源追溯到是日常经验的那种乌合之众，它就是都是比喻啊，就是把我们的日常经验，就经验主义嘛，洛克经验主义，他就把《形而上学》起源说到，实际上规定自己它是从经验中起源的，是从这个乌合众起源。And her pretensions would therefore have been rightly rendered suspicious。然后他的这种自命不凡，自称自己有权利，自称自己是什么女王，《形而上学》，自称自己是很屌的，他就因此就变得就是很正当的就变得就非常恰当的就变得可疑了，rightlyrendered被识别为是可疑的。Nevertheless,she stillasserts和claims，但是他还是要坚持他的宣称，还是继续在那边宣称她就是女王，因为事实上，because in fact this
+
+整理稿：But it turned out that although\.\.\. 洛克这种经验主义方法，其实有点愚昧，想用人类的生理过程、认识的生理过程来给整个形而上学统治加一个终结。但结果呢：although the birth of the purported queen was traced to the rubble of common experience and her pretensions would therefore have been rightly rendered suspicious。也就是说，尽管这个据说是女王的形而上学的诞生，被追溯到日常经验的瓦砾——他把它解作“乌合之众”——也就是把形而上学的起源说成是从经验、从日常经验的乌合之众中起源的，这些都是比喻，指洛克的经验主义。And her pretensions would therefore have been rightly rendered suspicious：它的自命不凡，自称有权利、自称是女王、自称很了不起，因此就非常恰当地变得可疑了，rightly rendered，被识别为可疑。Nevertheless, she still asserts and claims：但它仍然坚持宣称，继续宣称自己就是女王。
+
+- 疑点：rubble 被说话者解作“乌合之众”（rabble），正文保留其解释；原词更可能是“瓦砾”。；候选：瓦砾；依据：t3332:s487, t3332:s489
+
+## 段落 25：00:21:38 — 00:21:59
+
+来源：`t2358:s178`, `t2358:s179`, `t2358:s180`, `t2358:s181`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=1298)
+
+原文：genealogy，这种谱系学啊，g e n e a l o g y，g e n e a l o g y这一谱系学w a s a t t r i b u t e d t o h e r这个f o o l i s h l y，因为事实上这个谱系学是错误的归在她身上的，错误归在她身上的。T h u s m e t a p h y s i c s f e l l b a c k i n t o t h e s a m e o l d w o r m\-e a t e n d o g m a t i s m。呃，就是康德认为这个洛克这样的批评啊，洛克对《形而上学》这种瓦解，他把它搞个系谱学，说这个女王追溯到最后，《形而上学》追溯到最后实际上是经验来自于经验，那么康德认为这是不对的啊，它是错误的，不应该把这个系谱学归在这个《形而上学》上面啊。康德认为呢，《形而上学》是和经验是没没关系的，它不能够回溯变成一种生理学或者一些经验的过程，《形而上学》根本不应该存在，《形而上学》是个理智的误用啊，是一种《形而上学》本身是个形而上的错误，是一个先验的错误，它不是一个经验的错误。因此，《形而上学》就呃调回了同样一个旧的一个w o r m\-e a t e n，w o r m\-e a t e n吃虫吃虫子一样的，吃蠕虫一样的，我靠，太恶毒了。哦，不是不是不是吃虫子，是被虫子吃的，那个已经已经烂的已经这千疮百孔的这个《形而上学》变又回到了烂的千疮百孔那种独断论了。A n d t h u s i n t o t h e s a m e p o s i t i o n o f c o n t e m p t o u t o f w h i c h t h e s c i e n c e w a s t o h a v e b e e n i n t r i c a t e d。因此就变成了一个那种沉思啊，又《形而上学》就就占据了那么一个沉思的那么位置，沉思的位置就是这个科学它已经从中解脱出来的那那么一种悬思冥想的位置，《形而上学》变成哦p o s i t i o n要鄙视是吧？应该是鄙视，哎呦没文化了。A n d t h u s i n t o t h e s a m e p o s i t i o n o f c o n t e m p t o u t o f w h i c h它就进入了这么一个。genealogygenealogy这一谱系学was attributed to her这个foolishly因为事实上这个谱系学是错误的归在她身上的错误归在她身上的Thus metaphysics fell back into the same old wormeaten dogmatism
+
+整理稿：because in fact this genealogy was attributed to her foolishly：因为事实上，这种谱系学是被错误地归在她身上的。Thus metaphysics fell back into the same old worm\-eaten dogmatism：于是形而上学又跌回同一个旧的、被虫蛀的独断论。
+
+## 段落 26：00:22:01 — 00:22:44
+
+来源：`t2358:s182`, `t2358:s183`, `t2358:s184`, `t2358:s185`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=1321)
+
+原文：呃就是康德认为这个洛克这样的批评啊洛克对形而上学这种瓦解他把它搞个系谱学说这个女王追溯到最后形而上学追溯到最后实际上是经验来自于经验那么康德认为这是不对的啊它是错误的不应该把这个系谱学归在这个形而上学上面啊康德认为呢形而上学是和经验是没没关系的它不能够回溯变成一种生理学或者一些经验的过程形而上学根本不应该存在形而上学是个理智的误用啊是一种形而上学本身是个形而上的错误是一个先验的错误它不是一个经验的错误
+
+整理稿：康德认为，洛克这样的批评、洛克对形而上学的这种瓦解，把它搞成一种系谱学，说这位女王追溯到最后、形而上学追溯到最后实际上是经验、来自经验——康德认为这是不对的，是错误地把系谱学归到形而上学上面。康德认为，形而上学和经验没有关系，不能回溯成一种生理学或经验过程；形而上学根本不应该存在，形而上学是理智的误用，是形而上学本身的错误，是一种先验的错误，而不是经验的错误。
+
+## 段落 27：00:22:46 — 00:23:49
+
+来源：`t2358:s186`, `t2358:s187`, `t2358:s188`, `t2358:s189`, `t2358:s190`, `t2358:s191`, `t2358:s192`, `t2358:s193`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=1366)
+
+原文：因此形而上学就呃调回了同样一个旧的一个wormeatenwormeaten吃虫吃虫子一样的吃蠕虫一样的我靠太恶毒了哦不是不是不是吃虫子是被虫子吃的那个已经已经烂的已经这千疮百孔的这个形而上学变又回到了烂的千疮百孔那种独断论了And thus into the same positionof contempt out of which the science was to have been intricated因此就变成了一个那种沉思啊又形而上学就就占据了那么一个沉思的那么位置沉思的位置就是这个科学它已经从中解脱出来的那那么一种悬思冥想的位置形而上学变成哦position要鄙视是吧应该是鄙视哎呦没文化了And thus into the sameposition of contempt out of which它就进入了这么一个鄙视的位置，那么这个科学已经摆脱了这么一个被鄙视的位置，但是那个形而上学还留在那个被鄙视的位置里面。Now after all
+
+整理稿：因此，形而上学又调回同一个旧的、worm\-eaten 的独断论——worm\-eaten 不是“吃虫子”，而是“被虫子吃的”，已经烂得千疮百孔；形而上学又回到那种千疮百孔的独断论。contempt 这里是“鄙视”，不是“沉思”。And thus into the same position of contempt out of which the science was to have been intricated：它于是进入同一个被鄙视的位置；科学本来应当从这个位置中解脱出来，但形而上学还留在里面。
+
+- 疑点：intricated 可能是 extricated/entangled 一类词的识别问题；正文按“科学本来应当从这个位置中解脱出来”处理。；候选：extricated；依据：t3332:s554, t3332:s555
+
+## 段落 28：00:23:49 — 00:24:18
+
+来源：`t2358:s194`, `t2358:s195`, `t2358:s196`, `t2358:s197`, `t2358:s198`, `t2358:s199`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=1429)
+
+原文：paths，那么我们在所有的这个路径have been tried invain，都是呃都是徒劳无功了，都是被尝试了，所有的可能性可能路径都as we persuadeourselves，我们我们想要劝我们自己去采取这些路径，挽救这个形而上学。What loseis这个tedium是很乏味的，completely completeindifferentindifferentism以及完全的一种无动于衷。
+
+整理稿：Now after all paths have been tried in vain：所有路径都尝试过了，都是徒劳无功，所有可能的路径都试过了；as we persuade ourselves，我们还想劝自己去采取这些路径，挽救形而上学。What is left is the tedium，剩下的就是乏味，以及 completely indifferent、indifferentism，完全的无动于衷。
+
+- 疑点：“What is left is the tedium\.\.\. completely indifferent”一句识别不完整，正文按“剩下的是乏味和完全的无动于衷/indifferentism”处理。；候选：tedium and indifferentism；依据：t3332:s579, t3332:s580, t3332:s583
+
+## 段落 29：00:24:20 — 00:25:10
+
+来源：`t2358:s200`, `t2358:s201`, `t2358:s202`, `t2358:s203`, `t2358:s204`, `t2358:s205`, `t2358:s206`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=1460)
+
+原文：这个词应该是第五个，哎这个注脚没有了，就翻到最后去，我他妈很讨厌，我靠，哎呀，那就那就不看这个注脚了。The mother of chaos and night in the s c i e n c e s，b u t就是形而上学就变成那个混乱的母亲和这个科学当中各种学科当中的那个黑暗困难的母亲。B u t a t t h e s a m e t i m e a l s o t h e a r r a n g e r，但是同时呢它又是这个起源，o r a t l e a s t t h e p r e l u d e或者至少是一个序曲o f t h e i r i n c i p i e n t t r a n s f o r m a t i o n，他们一开始的那个变形a n d e n l i g h t e n m e n t，至少是这些学科的一开始的这个t r a n s f o r m a t i o n转变和这个启蒙的一个序曲啊，一开始的。W h e n t h r o u g h i l l a p p l i e d e f f o r t t h e y h a v e b e c o m e o b s c u r e，啊但是通过这个那种i l l a p p l i e d错误的使用的那些一些努力，这些学科就都变得o b s c u r e，都变得o b s c u r e了，都变得啊蒙昧了，都变得令人c o n f u s e d，都变得糊涂难懂了，然后最后变成无用的，形而上学变成了科学毒瘤了，就整个西欧学科体系里面独立的。F o r i t i s p o i n t l e s s t o a f f e c t i n d i f f e r e n c e w i t h r e s p e c t t o s u c h i n q u i r i e s，t o w h o s e o b j e c t h u m a n n a t u r e c a n n o t b e i n d i f f e r e n t。就是对于这么一个f o r i t i s p o i n t l e s s，就是没有意义的，这是一个毫无意义的要去影响这种这种这种i n d i f f e r e n c e这种无动于衷啊w i t h r e s p e c t，就是这样一种呃这个探究过程当中所具有的这种无动于衷，你想要去影响它是没有意义的。Y o u d o n't h a v e t o t o这个a f f e c t，t o w h o s e o b j e c t呃对于他来说这个对于他们这个就是t o s u c h，呃我说应该是这里的i n q u i r i e s指的是w i t h r e s p e c t t o s u c h，这样一种研究我们没有必要去影响去影响这种无动于衷，就a f f e c t。sciencesbut就是形而上学就变成那个混乱的母亲和这个科学当中各种学科当中的那个黑暗困难的母亲But at the same time alsothe arranger但是同时呢它又是这个起源or at least the prelude或者至少是一个序曲of theirincipient transformation他们一开始的那个变形and enlightenment至少是这些学科的一开始的这个transformation转变和这个启蒙的一个序曲啊一开始的When through ill applied
+
+整理稿：这个词应该是第五个注脚，但注脚没有了，要翻到最后去，真讨厌；那就先不看这个注脚了。The mother of chaos and night in the sciences：形而上学成了科学中混乱与黑夜的母亲，也是各门学科中黑暗、困难的母亲。But at the same time also the arranger, or at least the prelude of their incipient transformation and enlightenment：但同时它又是安排者，或者至少是各学科最初转变和启蒙的序曲。
+
+## 段落 30：00:25:10 — 00:26:03
+
+来源：`t2358:s207`, `t2358:s208`, `t2358:s209`, `t2358:s210`, `t2358:s211`, `t2358:s212`, `t2358:s213`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=1510)
+
+原文：effort they have become obscure啊但是通过这个那种ill applied错误的使用的那些一些努力这些学科就都变得obscure都变得obscure了都变得啊蒙昧了都变得令人confused都变得糊涂难懂了然后最后变成无用的形而上学变成了科学毒瘤了就整个西欧学科体系里面独立的For it is pointless to affect indifference withrespect to such inquiriestowhose object human nature cannot be indifferent就是对于这么一个for it is pointless就是没有意义的这是一个毫无意义的要去影响这种这种这种indifference
+
+整理稿：When through ill\-applied effort they have become obscure：但是，通过那种错误使用的努力，这些学科都变得 obscure，也就是变得蒙昧、令人 confused、糊涂难懂，最后变成无用；形而上学变成了科学毒瘤，在整个西欧学科体系里被孤立出来。For it is pointless to affect indifference with respect to such inquiries, to whose object human nature cannot be indifferent：对于这类研究，想要去影响那种无动于衷是没有意义的；人类本性不可能对它的对象无动于衷。
+
+- 疑点：“就整个西欧学科体系里面独立的”一句语义不清，正文按“在整个西欧学科体系里被孤立出来”处理。；候选：孤立的；依据：t3332:s617
+
+## 段落 31：00:26:03 — 00:27:28
+
+来源：`t2358:s214`, `t2358:s215`, `t2358:s216`, `t2358:s217`, `t2358:s218`, `t2358:s219`, `t2358:s220`, `t2358:s221`, `t2358:s222`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=1563)
+
+原文：这种无动于衷啊with respect就是这样一种呃这个探究过程当中所具有的这种无动于衷你想要去影响它是没有意义的Youdon't have to to这个affectto whose object呃对于他来说这个对于他们这个就是to such呃我说应该是这里的inquiries指的是with respect to such这样一种研究我们没有必要去影响去影响这种无动于衷就affect想要去把这种无动于衷给他去去变得让他变得让他重新重新那个重新变得different重新变得什么就是就是就是形而上学已经变成一个无动于衷的一个僵尸机器了，但是但是在这样一种探索当中，我们这个呃我们的目的是人类的这个nature人类的本质to whoseobject对哦我知道了就是但是呢你对于他们的但是你对于形而上学的它的那些内容那些object啊它的目标它的目标啊就人类的天性是不能够对此无动于衷的不能够对此无动于衷的moreover进一步however much they may think to make themselves
+
+整理稿：这种无动于衷，也就是在探究过程中所具有的无动于衷，想要去影响它是没有意义的。你没有必要对这类研究去 affect indifference，也就是没有必要去影响这种无动于衷。这里的 inquiries 指的是 with respect to such，即针对这类研究；我们没有必要去影响、去改变这种无动于衷。有人想把这种无动于衷变得不同，好像形而上学已经变成一个无动于衷的僵尸机器了。但在这种探索中，我们的目的是人的 nature，人的本质。To whose object——我明白了：对于形而上学的内容、它的对象和目标，人的天性是不能对此无动于衷的。
+
+- 疑点：affect indifference 中 affect 的语义在原文中没有完全确定，正文暂按“采取/影响”处理。；候选：affect（采取/影响）；依据：t3332:s632
+
+## 段落 32：00:27:28 — 00:29:14
+
+来源：`t2358:s223`, `t2358:s224`, `t2358:s225`, `t2358:s226`, `t2358:s227`, `t2358:s228`, `t2358:s229`, `t2358:s230`, `t2358:s231`, `t2358:s232`, `t2358:s233`, `t2358:s234`, `t2358:s235`, `t2358:s236`, `t2358:s237`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=1648)
+
+原文：unrecognizable by exchanging the language of schools for popularstyle呃these so called indifferentindifferentists to the extent that they think anything atall呃always unavoidably fall back into metaphysicalassertions那么进一步尽管他们可能认为尽管他们可能认为they thinkto让他们自己变得这种unrecognizable变得那种不可不可分辨不可分辨they think to makethemselves呃on通过交换这个不同学派的啊把这个学派的语言变成一种流行的模式如果把学派的语言变成一个流行的模式的话就会使得他们变得不可不可察觉不可察觉不可被分辨出来那么这些所谓的这些indifferentists这所谓的无不是无差别主义者呀这是无动于衷的冷漠主义者to the extent that they think anything atall啊他们在这个就是他们认为他们已经在思考所有东西了anything at all always theythink就不是to the extent that they think anything at all alwaysunavoidably fall back intometaphysical只在这个程度上只要他们思考任何东西应该是这个anything指任何这个atall是应该思考任何东西只要他们思考任何东西的话他们总已经是不可避免的会掉入这个形而上学的一些断言里面那么they yet profess so much to
+
+整理稿：他们通过交换学院语言与流行风格，使自己变得难以辨认。这些所谓的 indifferentists，只要他们思考任何东西，就总已经不可避免地重新落入形而上学断言。进一步说，尽管他们可能认为，通过把学院语言换成流行风格，自己就能变得不可分辨、不可察觉，这些所谓的无差别主义者、无动于衷的冷漠主义者，只要他们思考任何东西——他们以为自己已经在思考所有东西——就总是不可避免地 fall back into metaphysical assertions。也就是说，只要他们思考任何东西，他们总已经不可避免地掉入形而上学的一些断言里。
+
+## 段落 33：00:29:14 — 00:29:51
+
+来源：`t2358:s238`, `t2358:s239`, `t2358:s240`, `t2358:s241`, `t2358:s242`, `t2358:s243`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=1754)
+
+原文：despise他们总这些无动哦我知道了哎呀这里的无动于衷就是whatloses就是对形而上学完全对于形而上学完全不不持有任何立场这里的indifferentism指的是悬置起所有的形而上学啊就是我们尝试过所有的方式要去拯救形而上学的但是最后失败了全失败了这个时候就会就是对形而上学表示厌厌恶，不管形而上学，保持距离，就是乏味、生厌，然后indifference
+
+整理稿：他们公开宣称自己如此鄙视这些形而上学论题；但这里的“无动于衷”指的是对形而上学完全不持有任何立场。这里的 indifferentism 指的是悬置起所有形而上学。我们尝试过所有方式去拯救形而上学，但最后都失败了；这时人们就会对形而上学表示厌恶，不管它，与它保持距离，觉得乏味、生厌，这就是 indifference。
+
+- 疑点：what loses 一处识别不清，正文按后文“对形而上学完全不持立场”整理。；候选：what loses；依据：t3332:s702
+
+## 段落 34：00:29:51 — 00:31:49
+
+来源：`t2358:s244`, `t2358:s245`, `t2358:s246`, `t2358:s247`, `t2358:s248`, `t2358:s249`, `t2358:s250`, `t2358:s251`, `t2358:s252`, `t2358:s253`, `t2358:s254`, `t2358:s255`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=1791)
+
+原文：啊，嗯，就是，然后但是康德认为，就是你对于呃with respect tosuch，对于这些研究你是没有必要去affect indifference，affect indifference，这里affect指的应该是那个施展，你没有必要去对他们采取这种无动于衷的一种姿态，啊，没有必要，to whom object nature cannot beindifference，因为人类天性对于形而上学研究那些对象是不能够是无动于衷的，那么再进一步的话，however much they may seek to make themselvesunrecognizable，就是by exchanging language of schools for popular style，this so called啊就是however，就指的那些指的那些就是这这这无动于衷对形而上学论题无动于衷的人，他只是把传统的语言变成了一个流行的方式，就是啊他们看上去好像是不再可以被察觉出来，应该是这个意思，这些所谓的这些无动于衷的人，在这个意义上，只要他们去思考任何的问题，他们在思考任何问题的时候，他们总已经是掉又又掉到这个形而上学论题里面，他只是把传统形而上学论题，妈的换了个换了个腔调说出来，应该这个意思啊，which they yet professed so much todespise，这些形而上学论题是他们拼了命的professed，就是公开宣称公开宣称他是很鄙视的，但是实际上他们只是把形而上学论题换了个腔调，呃康德指的是另外另外一种人，就是嘴巴上说自己是反形而上学，实际上他妈的还是形而上学家那些人，他只把形而上学论题换了一个换了个东西给他包装一下，
+
+整理稿：但是康德认为，对于 with respect to such，对于这些研究，你没有必要去 affect indifference，也就是没有必要对它们采取无动于衷的姿态。因为人类天性对于形而上学研究的那些对象不可能无动于衷。再进一步，however much they may seek to make themselves unrecognizable，也就是通过把学院语言换成流行风格，这些所谓的无动于衷的人，只是把传统语言变成了流行方式，看上去好像不再能被察觉出来。其实在这个意义上，只要他们思考任何问题，就总已经又掉入形而上学论题里；他们只是把传统形而上学论题换了个腔调说出来。而这些论题正是他们 professed so much to despise、公开宣称自己非常鄙视的。但实际上，他们只是把形而上学论题换了个腔调。康德指的是另一种人：嘴上说自己反形而上学，实际上还是形而上学家，只是把形而上学论题换了个东西包装一下。
+
+## 段落 35：00:31:49 — 00:33:55
+
+来源：`t2358:s256`, `t2358:s257`, `t2358:s258`, `t2358:s259`, `t2358:s260`, `t2358:s261`, `t2358:s262`, `t2358:s263`, `t2358:s264`, `t2358:s265`, `t2358:s266`, `t2358:s267`, `t2358:s268`, `t2358:s269`, `t2358:s270`, `t2358:s271`, `t2358:s272`, `t2358:s273`, `t2358:s274`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=1909)
+
+原文：nevertheless thisindifference，呃occurring amid the flourishing of all sciences anddirected，呃precisely at those sciences whose results we could least do without is a phenomenon deserving our attention andreflection，就是说，呃除了这个除了这这种啊这一种无动于衷之外，还有一个发生在这么所有的这个科学的潮流繁荣过程当中的，and directed precisely at thosesciences，以及在这些呃科学当中directed就是引导着他们的directed，这应该是有指导性的一个控制性的，啊whose result if such are to be had atall，他们的成果呢是we could last we could least dowithout我们我们都不能够去忽视的啊，他们的这些结果我们不能忽视的we could do least without do least we could least do without if such are to be had atall如果他们真的有这样的成果的话at thosesciences whose results ifsuch如果是如果这样这种情况are to be had atall如果这些结果是能够被获得的，真的能够被获得的话we could least dowithout他们的结果没有办法就无视吧，is是这么一个现象deserving our attention ofreflection值得我们去注意和反思的一个现象this is evidently the the fact not of the thoughtlessness of ourage它很明显不是呃我们这个时代的这个没头没脑的一个一个产物but of its ripened power ofjudgment而是它的那种成熟的判断力成熟的判断力啊然后他还加了个注啊now and again one hears complaints about the
+
+整理稿：Nevertheless，这种 indifference 还发生在所有科学繁荣的过程中，而且 precisely at those sciences whose results we could least do without：它恰恰指向那些我们最不能缺少其成果的科学。除了这种无动于衷之外，还有一种无动于衷发生在科学潮流繁荣的过程当中，并且 directed precisely at those sciences——它指向那些科学，引导着它们，具有指导性和控制性。这些科学的成果，如果真的有的话，是我们最不能缺少、最不能忽视的。因此，这是一个值得我们注意和反思的现象。这显然不是我们这个时代没头没脑的产物，而是它成熟的判断力的产物。然后康德还加了一个注，说现在时不时会听到一些抱怨。
+
+## 段落 36：00:33:55 — 00:36:48
+
+来源：`t2358:s275`, `t2358:s276`, `t2358:s277`, `t2358:s278`, `t2358:s279`, `t2358:s280`, `t2358:s281`, `t2358:s282`, `t2358:s283`, `t2358:s284`, `t2358:s285`, `t2358:s286`, `t2358:s287`, `t2358:s288`, `t2358:s289`, `t2358:s290`, `t2358:s291`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=2035)
+
+原文：superficiality of our age's way ofthinking呃现在又一次人们听到了一些抱怨关于我们这个时代的思维方式的有一种肤浅性and about the decay of wellgrounded然后认为那些有良好基础的科学正在衰败什么形而上学基础在衰败吧yet I do not see that those sciences whose grounds are welllaid但是我他妈不认为这些科学有什么好的基础，什么蛇皮基础比如说数学、物理学等等in the least deserve thischarge他们都他们都配不上这这个这这这这个这个他们都没有资格去指控说什么什么搞搞了什么有人家把你的基础给搞掉了rather they maintain their old reputation for wellgroundedness呃and in the case of natural science even surpass it I don't see those sciences whose grounds are welllaid不是应该是应该应该不是这个意思啊，应该不是这个意思他的意思是我没有在那些具有良好基础的科学当中看到有之前所说的肤浅性和衰败发生那就康德还是夸的康德还是在夸这些学科的，还是在认为这些学科是有良好的基础的比如说数学和这个物理学啊他认为这些这些东西还不不值得遭遭受比如说他说他肤浅或者说他是在衰败的这些指控啊相反他认为数学、物理学他们维持了他们旧有的那个名誉声誉他们是基础牢靠的。就是有一些形式逻辑基础，and in the case of naturalscience，以及在这个在自然科学当中，甚至超过了这么一个以前的它的那个基础，好的基础。The this same spirit would also prove itself effective in other species of cognition。那么这个同样的精神也会证明出它自己是有效的，在其他的一些认知的一些学科分支当中。啊，if only care had first been taken to correct their principles。只要我们很仔细的去怎么样，首先很仔细的去修正他们的一些原则就行了。In the absence of this，indifference，doubt，and finally strict criticism are rather proofs of a well grounded way of thinking。呃，our ageis，啊，如果没有这个东西的话，那么这种冷漠呀、怀疑啊，还最终那种严格的批判主义啊，啊，他们是就证明了，啊，rather，他们反而就变成了这个一个良好的思维的，就是一个思维、思考、思想的一种有良好基础的方式的一种证明。
+
+整理稿：这些抱怨针对的是我们这个时代思维方式的肤浅，以及那些有良好基础的科学正在衰败。然而，我并不认为那些基础牢固的科学——比如数学、物理学——应当受到这种指控。它们配不上这种指控，也没有理由说它们的基础被搞掉了。它们有一些形式逻辑的基础；在自然科学中，它们甚至超过了从前那个良好的基础。相反，它们维持了旧有的良好基础的名誉，是基础牢靠的。同样的精神也会在其他认知学科中证明自己有效，只要首先仔细修正它们的原则。如果没有这一点，冷漠、怀疑，最终还有严格的批判，反而是一个有良好基础的思维方式的证明。
+
+## 段落 37：00:36:49 — 00:39:33
+
+来源：`t2358:s292`, `t2358:s293`, `t2358:s294`, `t2358:s295`, `t2358:s296`, `t2358:s297`, `t2358:s298`, `t2358:s299`, `t2358:s300`, `t2358:s301`, `t2358:s302`, `t2358:s303`, `t2358:s304`, `t2358:s305`, `t2358:s306`, `t2358:s307`, `t2358:s308`, `t2358:s309`, `t2358:s310`, `t2358:s311`, `t2358:s312`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=2209)
+
+原文：我们的时代现在是一个genuineage，原原本本的、真正的、真正的一个批判的一个时代，批判主义的一个时代，对什么东西都就是指责的一个时代，无脑无脑喷的一个时代。Towhich，在下面，我靠，to which everything mustsubmit，啊，就是所有东西都必须承受这种无脑喷子，submit，都必须被被他所指摘，啊，都要顺从。这个religion，呃，through its holiness and legislation through its m a j e s t i c，m a j e s t i c，c o m m o n l y s e e k t o e x e m p t t h e m s e l v e s f r o m。就但是宗教呢，通过它的神圣性和它的l e g i s l a t i o n和它的这个法律法，通过它的威权啊，通过它的权威、主权，它是通常是想要致力于去让他们避免这种批判的，避免这种这种批判时这个时代的这种批判精神的。B u t i n t h i s w a y t h e y e x c i t e a j u s t s u s p i c i o n a g a i n s t t h e m s e l v e s。但是通过这种方式呢，它恰恰这样做的话，宗教恰恰e x c i t e引起了、激起了、激起了一个正当的一个这个怀疑，对于它自己的一个正当的一个怀疑，它自己开始怀疑它自己。A n d c a n n o t l a y c l a i m t o t h a t u n f o u n d r e s p e c t t h a t r e a s o n g r a n t s o n l y t o t h a t w h i c h h a s b e e n a b l e t o w i t h s t a n d i t s f r e e a n d p u b l i c e x a m i n a t i o n。就是他们就不能够，就宗教呢，如果他这样搞的话，他就不能够l a y c l a i m t o，不能够就是做出宣称，不不能够说话的宣称t o t h a t u n f o u n d r e s p e c t，对这么一个无l a y c l a i m啊，应该是不能够去这个。majesticmajesticcommonly seek to exempt themselves from就但是宗教呢通过它的神圣性和它的legislation和它的这个法律法通过它的威权啊通过它的权威主权它是通常是想要致力于去让他们避免这种批判的避免这种这种批判时这个时代的这种批判精神的But in this way they excite a just suspicion against themselves但是通过这种方式呢它恰恰这样做的话宗教恰恰excite引起了激起了激起了一个正当的一个这个怀疑对于它自己的一个正当的一个怀疑它自己开始怀疑它自己And cannot lay claim tothat unfound respect that reason grants only to that which hasbeen able to withstand its free and public examination就是他们就不能够就宗教呢如果他这样搞的话他就不能够lay claim to不能够就是做出宣称不不能够说话的宣称to that unfoundrespect对这么一个无lay claim啊应该是不能够去这个respect这里应该是尊重吧，就不能够宣称这么一种无条件的尊重。That reason grants only to grantto啊，应该是就是理性只会对那样一种东西，它能够去承受得住理性的自由和公开的检查。理性会对能够承受得住理性自由公开检查的东西，去施加一种啊无条件的一种尊重。那么如果宗教这样搞的话，要逃的话，要要用它的什么神圣性啊，要用它的这种这立法呀，来用它的权威啊，来避免避免这个时代对它的批判的话，那么那么理性就没有，那么宗教它就没有没有能力去宣称理理性本来可以给它的那个那个那种尊重了。
+
+整理稿：我们的时代是一个 genuine age，是真正批判的时代，对一切都加以指责，甚至可以说是一个“无脑喷”的时代。To which everything must submit：所有东西都必须服从这种批判，都必须被它指摘。宗教通过它的神圣性、立法和威严，通常企图使自己免于这种批判。但这样一来，它恰恰激起了对自己的正当怀疑，于是也不能再宣称拥有那种无条件的尊重——理性只把这种尊重给予能够经受自由而公开检查的东西。换句话说，如果宗教想用神圣性、立法和权威来逃避这个时代对它的批判，它就没有能力再宣称理性本来可以给予它的那种尊重了。
+
+## 段落 38：00:39:33 — 00:41:53
+
+来源：`t2358:s313`, `t2358:s314`, `t2358:s315`, `t2358:s316`, `t2358:s317`, `t2358:s318`, `t2358:s319`, `t2358:s320`, `t2358:s321`, `t2358:s322`, `t2358:s323`, `t2358:s324`, `t2358:s325`, `t2358:s326`, `t2358:s327`, `t2358:s328`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=2373)
+
+原文：好了，就这个注看完了。But of its ripened power ofjudgment，就是说this is evidently the effort not of the thoughtless ofage，就是说这恰恰很明显并不是说我们这个时代是无脑的，是thoughtthoughtlessness，而是它是有一个非常成熟的一种判断力的，就是可以判断什么东西是有根据，什么东西是没根据的。Which will no longer be put off with illusoryknowledge，那么这种判断力呢，这种批判精神，它就再也不会被那种幻想性的知识所所所putoff，所熄灭吧，应该是put off with。哎呀，这不是投入的意思，操他妈。O FF啊，所推迟啊，不会推迟放缓，就是它不会再放你一马了，你知道吗？我们不会啊不会。And which demands that reason should take on anew the most difficult of its all tar all its tasks，namely that of self knowledge。然后这就要求理性应当去take onanew啊，重新开始最难的，所有它的任务当中最难的一个任务，也就是说它的自我认识这么一个任务。And to institute a court ofjustice，并且去组织起一个就判断的一个法庭啊，或者正义的一个法庭，理性就可以对于整个知识体系加以加以加以这种批判了，加以批判了。By which reason may secure its rightful claims while dismissing all its groundlesspretensions，这样理性就能够去啊保护它的这种合法正当的一些宣称，同时拒斥掉所有那些它的它的那些那个无条件的、没有根基的、无根的、无根据的一些虚假的宣称。And this not by mere decrees，but according to its own eternal and unchangeable laws。但是这个呢不是，this not by mere decrees。这不是通过命令啊，这不是仅仅通过命令，而是通过他自己的永恒的和那些不会不会变的一些呃一些一些规则、一些律法，就是不是通过
+
+整理稿：这个注看完了，再回到 but of its ripened power of judgment：这显然不是我们这个时代无思想的产物，而是成熟判断力的产物。这种判断力可以判断什么有根据、什么没有根据；它不会再被幻想性的知识 put off，也就是不会再被推迟、放缓，不会再被放一马。它要求理性重新承担起所有任务中最困难的一项，即自我认识；并且建立一个法庭，也就是正义的法庭，使理性可以据此对整个知识体系加以批判，从而保护自己的正当要求，同时拒斥所有无根基的虚假要求。而这一切不是通过单纯的命令，而是按照理性自己永恒不变的法则。
+
+## 段落 39：00:41:53 — 00:42:21
+
+来源：`t2358:s329`, `t2358:s330`, `t2358:s331`, `t2358:s332`, `t2358:s333`, `t2358:s334`, `t2358:s335`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=2513)
+
+原文：命令强制的，而是我自己订立一些律法，我按照这些规则来的。And this court is none other than the critical pure reason itself。那么这个这个法庭呢？这个法庭，这个用理性开个法庭，他妈的把什么东西的？你他妈是不是有根基的？老实说，你还是一种形而上学幻想，他妈的是没根基的，瞎咧咧的胡扯掰赖的。那么这个法庭就叫做纯粹理性的批判啊，critical purereason，或者说是纯粹理性开那个法庭啊，itself。
+
+整理稿：这些律法不是靠命令强制的，而是我自己订立的，我按照这些规则来。And this court is none other than the critique of pure reason itself\. 那么这个法庭是什么？这个用理性开设的法庭，到底要拿什么东西来审判？它是不是有根基？老实说，这仍然是一种形而上学幻想，根本没有根基，纯属瞎扯。这个法庭就叫“纯粹理性的批判”，critical pure reason，或者说，就是纯粹理性本身开设的法庭。
+
+- 疑点：原文“把什么东西的”语义不完整，正文按法庭审判的语境整理为“要拿什么东西来审判”；“critical pure reason”疑为“critique of pure reason”的口误或识别问题。；候选：；依据：t2358:s331, t3332:s981, t3332:s982
+
+## 段落 40：00:42:23 — 00:43:01
+
+来源：`t2358:s336`, `t2358:s337`, `t2358:s338`, `t2358:s339`, `t2358:s340`, `t2358:s341`, `t2358:s342`, `t2358:s343`, `t2358:s344`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=2543)
+
+原文：然后呃，yet by this I do not understand critical books and systems。尽管通过这个，我并不理解一个对于我并没有，我并不是把它理解成什么一个对于书和体系的一个批判，而是把它对于理性的一个总体的或者一般意义上的一种能力的一个批判。你他妈怎么用这个东西是合法的？我不是说你用造出来什么东西是合法，我说你怎么用啊？怎么用？你一般意义上你怎么用理性、理性的官能对它进行一个批判？哪些用法是合法？哪些是不合法的？啊，这个东西可以造哪些东西？不不可以造哪些东西？可以得出什么？
+
+整理稿：然而，我所说的批判并不是对某些书和体系的批判。Yet by this I do not understand critical books and systems\. 我不是把它理解成对书和体系的批判，而是对理性总体能力、对一般意义上的理性能力进行批判。问题在于：你怎样使用这个东西才是合法的？我不是问你用造出来的什么东西是合法的，而是问你怎么用、以什么方式用。一般意义上，你怎样用理性、用理性的官能对它进行批判？哪些用法合法，哪些不合法？这个东西可以造出哪些东西，不可以造出哪些东西，可以得出什么，又不可以得出什么？
+
+## 段落 41：00:43:01 — 00:44:07
+
+来源：`t2358:s345`, `t2358:s346`, `t2358:s347`, `t2358:s348`, `t2358:s349`, `t2358:s350`, `t2358:s351`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=2581)
+
+原文：可以不可以得出什么？In respect of all the cognitions after which reason might strive independently of all experience，and hence the decision about the possibility or impossibility of metaphysics in general。呃，就是关于所有的那些cognitions，那些认知，after which理性after which追求他们应该是after which after指的是追求他们，理性might strive independent strive应该是努力吧，努力追求，努力追求这些认知啊，关于就是就前面那个意思就是我们就是啊妈的，他他妈的状语后置啊，我就不不去把它重新再念到一遍，就反正这个状语放在后面啊，就是关于的是我在这里讨论这个是为什么我哎呀不说了，妈的烦死了，这外国话就是状语后置啊，就是说理性他会独立于所有经验去追寻的那些知识，也是也是这样去批判的啊，也这样去批判。
+
+整理稿：In respect of all the cognitions after which reason might strive independently of all experience, and hence the decision about the possibility or impossibility of metaphysics in general\. 这涉及所有那些认知——理性独立于一切经验去努力追求的那些认知——并因此涉及一般形而上学是否可能或不可能的决定。英文这里又是状语后置，我就不再重念一遍了。也就是说，理性会独立于所有经验去追求那些知识，批判也要针对这些知识来进行。
+
+## 段落 42：00:44:08 — 00:44:56
+
+来源：`t2358:s352`, `t2358:s353`, `t2358:s354`, `t2358:s355`, `t2358:s356`, `t2358:s357`, `t2358:s358`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=2648)
+
+原文：呃，这种方法尤其是要康德，尤其是要批判这种东西，他的理性法庭，尤其是你没有经验支撑的那些理性得出来那些东西，那些知识，尤其我要去我要去给你弄清楚。And hence the decision about the possibility or impossibility ofmetaphysics in general，and the determination ofit，以及这个要决定关于什么？关于这种一个形而上学一般的形而上学，一般意义上的，也就是所有形而上学了，所有形而上学的可能性或者不可能性。我们要决定，我们要通过纯粹理性批判来告诉你，到底能不能还能不能搞形而上学的，不能搞，私福不能开，不准开私福。And the determination of itssources，以及这个，并且来定义它的这个形而上学的一个来源，它怎么会有这个私福怎么开起来？你们怎么回事？
+
+整理稿：这种方法尤其适用于康德要批判的东西，尤其是他的理性法庭要处理的那些没有经验支撑、由理性得出来的东西和知识。我尤其要给你弄清楚：一般形而上学到底可能还是不可能。And hence the decision about the possibility or impossibility of metaphysics in general, and the determination of its sources\. 我们要通过《纯粹理性批判》来告诉你，到底还能不能搞形而上学。不能搞，私服不能开，不准开私服。还要确定它的来源：这个“私服”是怎么开起来的？你们怎么回事？
+
+- 疑点：“私服”是讲话者的口语比喻，具体所指不明；正文保留原词。；候选：；依据：t3332:s1056, t3332:s1062
+
+## 段落 43：00:44:56 — 00:45:41
+
+来源：`t2358:s359`, `t2358:s360`, `t2358:s361`, `t2358:s362`, `t2358:s363`, `t2358:s364`, `t2358:s365`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=2696)
+
+原文：你们查一查啊，我们这个这个网络侦查大队啊，查一查，什么怎么回事？这私福怎么开出来？As well as its extent andboundaries，以及这个形而上学的这个限度和它的边界。All however fromprinciple，呃，所有这些东西当然是从原则上来，from p r i n c i p l e，f r o m p r i n c i p l e m i g h t s t r i v e a n d h e n c e d e c i s i o n。这里f r o m p r i n c i p l e也是一个什么日耳曼语言，很烦的，p r i n c i p l e。它都是从这个这个这个p r i n c i p l e上来来来推断的，来推断。我不知道这个状语到底是连什么，什么孤零零放在这边，我默认它就是连的那个，呃，就是连的整个这个状态，就是它判断形而上学是不是有根据，哦，那就是从原则上来判断。I t i s o n t h i s p a t h，就是在这么一个思路上，在o n l y o n e l e f t，剩下最后一条路可以走了。但是I h a v e t h a t f o r c e，我把它放到前面去，a n d I f l a t t e r m y s e l f t h a t i n f o l l o w i n g i t，我自己他妈，我认为啊，我自以为我自己f l a t t e r i n f o l l o w i n g i t，我自居为我是在追寻这么一条道路。I h a v e s u c c e e d e d i n r e m o v i n g，我自己认为在追随这条道路过程怎么样呢？我已经去除了所有的错误，t h a t h a s s o f a r p u t r e a s o n i n这个呃，使得那个理性它这么这么多年来他妈的几百上千年来使得理性争吵不休的，w i t h i t s e l f和它自己争吵不休的i n i t s啊，在它的那些非经验性的使用当中，就是那种超出经验的使用当中，一直让理性争吵不休的那些东西，我已经把所有的错误都给它澄清了，你看我多屌，我操，历史第一人啊，先验哲学。I h a v e n o t a v o i d e d r e a s o n's q u e s t i o n s b y p l e a d i n g t h e u h i n c a p a c i t y o f h u m a n r e a s o n a s a n e x c u s e，我没有逃避理性的问题，通过p l e a d i n g啊，通过责备应该是，哦，恳求啊，恳求应该是p l e a d i n g。这里的这这里的应该是呃，应该是辩护，这里应该是辩护。我没有通过给这个理性，人类理性的那个无能i n c o m p e t e n c y，有限做当成一个理由，作为一个借口为它辩护，来逃开那些那些问题啊，来逃开那些理性的那些问题。相反，我完全是s p e c i f i e d t h e s e q u e s t i o n s a c c o r d i n g t o p r i n c i p l e s，完全是啊，按照原则，按照一些原则把这些问题都怎么样s p e c i f i e d，都指出来，说清楚了，详述了。principlefrom principlemight strive and hence decision这里from principle也是一个什么日耳曼语言很烦的principle它都是从这个这个这个principle上来来来推断的来推断我不知道这个状语到底是连什么什么孤零零放在这边我默认它就是连的
+
+整理稿：你们查一查，网络侦查大队查一查，这私服到底是怎么开出来的？以及形而上学的限度和边界。As well as its extent and boundaries\. 所有这一切当然都要从原则出发。All however from principle\. 这里 from principle 也是那种很麻烦的日耳曼语说法；它都是从原则上来推断的。我不知道这个状语到底连着什么，孤零零地放在这里；我默认它连着整个状态，就是判断形而上学是不是有根据，也就是从原则上来判断。
+
+## 段落 44：00:45:41 — 00:47:24
+
+来源：`t2358:s366`, `t2358:s367`, `t2358:s368`, `t2358:s369`, `t2358:s370`, `t2358:s371`, `t2358:s372`, `t2358:s373`, `t2358:s374`, `t2358:s375`, `t2358:s376`, `t2358:s377`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=2741)
+
+原文：那个呃就是连的整个这个状态就是它判断形而上学是不是有根据哦那就是从原则上来判断It is on this path就是在这么一个思路上在only one left剩下最后一条路可以走了但是I have that force我把它放到前面去andI flatter myself that in following it我自己他妈我认为啊我自以为我自己flatterin following it我自居为我是在追寻这么一条道路I have succeeded in removing我自己认为在追随这条道路过程怎么样呢我已经去除了所有的错误that has so far put reason in这个呃使得那个理性它这么这么多年来他妈的几百上千年来使得理性争吵不休的with itself和它自己争吵不休的in its啊在它的那些非经验性的使用当中就是那种超出经验的使用当中一直让理性争吵不休的那些东西我已经把所有的错误都给它澄清了你看我多屌我操历史第一人啊先验哲学I have not avoided reason's questions by pleading the uh incapacityof human reason as an excuse我没有逃避理性的问题通过pleading啊通过责备应该是哦恳求啊恳求应该是pleading这里的这这里的应该是呃应该是辩护这里应该是辩护我没有通过给这个理性人类理性的那个无能incompetency有限做当成一个理由作为一个借口为它辩护来逃开那些那些问题啊来逃开那些理性的那些问题相反我
+
+整理稿：“It is on this path”，在这么一条思路上，只剩下最后一条路可以走了。不过，我把它放到前面去；and I flatter myself that in following it\. 我自己认为，我自居为是在追寻这么一条道路。I have succeeded in removing\.\.\. 我已经去除了所有错误，也就是那些使理性几百上千年来与自己争吵不休的错误——在理性的非经验性使用、超出经验的使用中，一直让理性争吵不休的东西。我已经把这些错误都澄清了。你看我多厉害，历史第一人，先验哲学。I have not avoided reason's questions by pleading the incapacity of human reason as an excuse\. 我没有逃避理性的问题，没有把人类理性的无能、有限当作理由，当作借口来为它辩护，从而逃开那些理性的问题。
+
+- 疑点：原英文片段“I have that force”疑为识别错误，正文未单独译出，只保留后文“在唯一剩下的道路上追寻”的意思。；候选：；依据：t3332:s1094
+
+## 段落 45：00:47:24 — 00:48:04
+
+来源：`t2358:s378`, `t2358:s379`, `t2358:s380`, `t2358:s381`, `t2358:s382`, `t2358:s383`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=2844)
+
+原文：完全是specified these questions according to principles完全是啊按照原则按照一些原则把这些问题都怎么样specified都指出来说清楚了详述了仔细讨论的，你不要说我他妈没有详述。And after discovering the point where reason has misunderstooditself，然后我们再发现这个理性啊，它是在什么位置上误解了他自己，错误的理解了他自己啊。我已经解决了他们，to reason's fullsatisfaction，我已经在理性自己的完全的令他完全满意的一个程度上解决了所有这些问题。
+
+整理稿：我完全是按照原则把这些问题 specified，按照原则把这些问题都指出来、说清楚了、详述了，认真讨论过；不要说我根本没有详述。And after discovering the point where reason has misunderstood itself，然后再去发现理性是在什么位置上误解了自己、错误地理解了自己。随后我已经解决了它们，to reason's full satisfaction，在令理性完全满意的程度上解决了所有这些问题。
+
+## 段落 46：00:48:04 — 00:49:22
+
+来源：`t2358:s384`, `t2358:s385`, `t2358:s386`, `t2358:s387`, `t2358:s388`, `t2358:s389`, `t2358:s390`, `t2358:s391`, `t2358:s392`, `t2358:s393`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=2884)
+
+原文：其实没有，黑格尔说没有，小朋友没有，你别他妈骗人了，没有。To besure，那么我们要呃，to besure，啊，这个翻译成什么啊？To besure，你们总知道什么意思，要确定一点，无可否认，诚然啊。The answer to these questions have has not turned out just as dogmatically enthusiastic lust for knowledge might have expected。就是说，对于这些问题的回答，并没有最后变成只是一种啊啊一种独断论式的一种啊，就热情洋溢、开心的那种lust那种淫欲啊，那种强烈的那种强烈渴望，对于知识的强烈渴望。有些人可能会这样去想，就是我最后我最后去解决这个问题，并没有陷入独断论，然后搞出一堆什么你所渴望的这种超越性的知识，没有。For the latter could not be satisfied expected through magical powers in which I am not an expert。因为你要获得后面这种知识啊，这种它并不能够，我没办法满足这些要求，我没办法满足这种这种激烈的这种知对于知识的这种欲望啊，除非通过魔法，通过魔法力，但是我他妈不是专家，I'm notexpert，我不会我不会法力啊，我没有我没有法力啊。
+
+整理稿：其实并没有。黑格尔说没有，小朋友，没有，你别骗人了，没有。To be sure——诚然、无可否认。The answer to these questions has not turned out just as dogmatically enthusiastic lust for knowledge might have expected\. 也就是说，对这些问题的回答，结果并没有像独断论式、热情洋溢的对知识的强烈渴望所期待的那样。有些人可能会想：我最终解决这个问题，并没有陷入独断论，也没有搞出一堆你所渴望的超越性知识——没有。因为后面这种知识无法通过魔法力量来满足，而我不是魔法专家。I'm not an expert，我不会法力，我没有法力。
+
+## 段落 47：00:49:23 — 00:50:44
+
+来源：`t2358:s394`, `t2358:s395`, `t2358:s396`, `t2358:s397`, `t2358:s398`, `t2358:s399`, `t2358:s400`, `t2358:s401`, `t2358:s402`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=2963)
+
+原文：他会告诉你，只有上帝才行啊，只有神、理智之光才能做到。Yet this was also not the intent of our reason's natural vocation。而这这这个东西要获得这种啊独断论式的一种狂热的知识的热情，要满足它的话，这不是啊我们的理性的自然的这个义务，自然的职业使命，自然的天然的使命的一个一个一个intent一个一个一个一个一个意图啊，不是的。And the duty of philosophy was to abolish the semblance arising frommisinterpretation。那个哲学的义务就在于去抛弃这个这些似相啊，似是而非的东西，这外表类似而似似是而非的东西，它是从这种错误的解释当中产生出来的misinterpretation误解曲解当中产生。Even if many prized and beloved delusions havebeen，呃，have to be destroyed in the process。即便许多已经得了奖的啊，已经是就是被看着很重要的、被被珍视的以及被喜爱的一些幻觉，不得不在这个过程中要被摧毁啊。In this business,I have made comprehensiveness my chief aim in
+
+整理稿：他会告诉你，只有上帝才行，只有神、理智之光才能做到。Yet this was also not the intent of our reason's natural vocation\. 而要获得这种独断论式的、狂热的知识热情、要满足它，并不是我们的理性自然的义务、自然的职业使命、天然使命的一个意图——不是的。And the duty of philosophy was to abolish the semblance arising from misinterpretation\. 哲学的义务就在于抛弃那些似相，那些似是而非、外表类似而其实虚妄的东西；它们是从错误的解释、误解和曲解中产生出来的。Even if many prized and beloved delusions have to be destroyed in the process\. 即便许多被看重、被珍视、被喜爱的幻觉不得不在这个过程中被摧毁。
+
+## 段落 48：00:50:44 — 00:51:59
+
+来源：`t2358:s403`, `t2358:s404`, `t2358:s405`, `t2358:s406`, `t2358:s407`, `t2358:s408`, `t2358:s409`, `t2358:s410`, `t2358:s411`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=3044)
+
+原文：view\.在这么一个事业当中，我已经是让我的主要，我们说非常详尽的让我的主要的目的啊，可以被看到了。And I make a bold tosay，我可以，我可以大胆的make bold tosay，大胆的说that there cannot be a single metaphysical problem that has not been solvedhere\.不再存在任何一个形而上学问题没有被搞定了。所以《纯粹理性批判》这本书可以看成什么形而上学之死啊？我靠，就是我就形而上学的一千种死法，或者叫all at least to the solution of which the key has not beenproved\.或者至少啊那个至少解决一些形而上学问题的那些那个那个关键我没有提供，我没有不提供，就是我我已经搞得所有形，我可以大胆的说，所有形而上学问题都被我干掉了啊，或者说，我至少可以说干掉他们的钥匙那个关键我已经都给出来了。In fact,pure reason is such a perfect unity that if its principle were insufficient for even a single one of the questions,uh,that are set for it by its own nature,then
+
+整理稿：In this business, I have made comprehensiveness my chief aim in view\. 在这样一个事业中，我把全面性作为主要目标，并且已经让这一点显现出来。And I make bold to say，我可以大胆地说：that there cannot be a single metaphysical problem that has not been solved here\. 不再存在任何一个形而上学问题没有被搞定。所以《纯粹理性批判》这本书可以看成什么？形而上学之死。这简直就是形而上学的1000种死法；或者叫，or at least to the solution of which the key has not been provided\. 或者至少，解决一些形而上学问题的关键，我没有不提供。我的意思是，我可以大胆地说，所有形而上学问题都被我干掉了；或者说，至少可以说，干掉它们的钥匙、那个关键，我已经都给出来了。
+
+- 疑点：参考字幕作“the key has not been proved”，按上下文及中文解释应为“provided”（提供）；正文按“provided”理解。；候选：provided；依据：t3332:s1232
+
+## 段落 49：00:51:59 — 00:53:18
+
+来源：`t2358:s412`, `t2358:s413`, `t2358:s414`, `t2358:s415`, `t2358:s416`, `t2358:s417`, `t2358:s418`, `t2358:s419`, `t2358:s420`, `t2358:s421`, `t2358:s422`, `t2358:s423`, `t2358:s424`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=3119)
+
+原文：this那么事实上，纯粹理性是这么一个完美的一个一个一个统一体啊，就是就是如果它的这个principle，这个principle这里的最后这个principleprinciple和前面的principle不一样的principle和principle的一个差别，德语里面的看一下原则，那把这个这个去掉，原理啊，原则和原理啊，这里指的前面都是原则，出于原则，从它的原则出发，这里是个原理，就是说啊如果它的这个这个纯粹理性的原理是对于这么一个for even a singleone，对于这些问题当中的哪怕一个都是不充分的话，that are set forit被它提出的这个问题，by its ownnature被它的理性的这个自己的天性所出提出的问题，如果说它是then this principle mighthave那么这个这个principle这个原理这个是他妈谁给他添的？这是英译者给他添进去的吧？他自己写书的时候他妈的也缺个字啊，我靠，要编辑给他添进去的。那么这个原理might as well bediscarded，那么这个原理本身就要被排除掉，就被排除掉。
+
+整理稿：In fact, pure reason is such a perfect unity that if its principle were insufficient for even a single one of the questions that are set for it by its own nature, then this principle might as well be discarded\. 事实上，纯粹理性是这样一个完美的统一体：如果它的原理——注意，这里的 principle 和前面的 principle 不一样，德语里要区分原则和原理——对于理性由自己的天性给它提出的问题中的哪怕一个都不充分，那么这个原理本身就必须被排除掉。那么这个 principle、这个原理是谁给他添的？是英译者添进去的吧？他自己写书的时候也缺个字，要编辑给他添进去的。那么这个原理 might as well be discarded，就要被排除掉。
+
+## 段落 50：00:53:21 — 00:55:03
+
+来源：`t2358:s425`, `t2358:s426`, `t2358:s427`, `t2358:s428`, `t2358:s429`, `t2358:s430`, `t2358:s431`, `t2358:s432`, `t2358:s433`, `t2358:s434`, `t2358:s435`, `t2358:s436`, `t2358:s437`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=3201)
+
+原文：就是事实上，因为理性是因为纯粹理性是这么一个完美的一个统一体，如果它的原则不足以它的某个某个原理啊，不足以去支撑一个他自己提出来，由他自己的天性所提出来的一个问题。他这里其实就告诉你一个基本方法了，就是康德哲学就是说，你他妈提出的问题，你自个儿没办法解决，那说明你就不能提出这个问题。二律背反了，说明你就没有资格提出问题。By its ownnature，被这个理性的自己的天性由他提出来的这些问题，如果他的一一些原理principle，他设立的这些原理不足以去解决一个a singleone这个问题当中一个，那么这个原理就会被discarded，啊，will be discarded。他其实康德其实用了一招，就是用了一招让你自己内斗啊，左右互搏啊。他是怎么把形而上学瓦解掉的？因为他发现形而上学需要理性自己提原理，你自己提的原理自己他妈得不出答案，那你就这摊子别别设了，滚，收摊走人，知道吗？那么这个原理本身也需要被discarded，也要被抛弃掉。啊，因为then it it also would not be up to answering any of the other questions with complete reliability。如果这一个原理没有办法搞定它一个一个东西的话，那么它也就没有办法能够去解答任何其他问题，具有完整的一个可靠性啊，完整的可靠性，它没有没有办法，这个就是有瑕疵啊，我就不用了，这个原理就会被排除掉，这个原理就不会被看成是纯粹理性的一部分。While I am saying
+
+整理稿：也就是说，纯粹理性是这样一个完美的统一体：如果它的原则——确切说某个原理——不足以支撑一个由理性自己的天性提出来的问题，那么康德哲学的基本方法就出来了：你提出的问题，你自己没办法解决，那就说明你根本不能提出这个问题；一旦出现二律背反，就说明你没有资格提出这个问题。By its own nature，由理性自己的天性提出来的这些问题，如果它设立的那些原理不足以解决其中哪怕一个，那么这个原理就会被 discarded，就会被抛弃掉。康德其实用了一招，就是让你自己内斗、左右互搏。他是怎么把形而上学瓦解掉的？因为他发现，形而上学需要理性自己提出原理；而你自己提出的原理，自己又得不出答案，那这摊子就别摆了，收摊走人。这个原理本身也需要被 discarded，也要被抛弃掉。因为 then it also would not be up to answering any of the other questions with complete reliability：如果这个原理连一个问题都搞不定，它也就没有办法以完整的可靠性去解答任何其他问题。这个原理就是有瑕疵，我就不用了；它会被排除掉，不会再被看成纯粹理性的一部分。
+
+## 段落 51：00:55:03 — 00:55:12
+
+来源：`t2358:s438`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=3303)
+
+原文：this，当我说这一点的时候，我相信啊，this I believe I perceive in the face of the reader an inj
+
+整理稿：当我说这一点的时候，我相信，我在读者的脸上看到一种愤慨。While I am saying this, this I believe I perceive in the face of the reader an indignation\.
+
+- 疑点：原段止于“an inj”，参考字幕作“indignation”，正文据此补全为“愤慨”。；候选：indignation；依据：t3332:s1327
+
+## 段落 52：00:55:12 — 00:56:57
+
+来源：`t2358:s439`, `t2358:s440`, `t2358:s441`, `t2358:s442`, `t2358:s443`, `t2358:s444`, `t2358:s445`, `t2358:s446`, `t2358:s447`, `t2358:s448`, `t2358:s449`, `t2358:s450`, `t2358:s451`, `t2358:s452`, `t2358:s453`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=3312)
+
+原文：indignation，一个愤慨mixed withcontempt，啊，当我说这些的时候，我相信我会感感觉到在这个读者的脸上有一个愤慨啊，包含着一些疑虑啊，contempt应该是鄙视啊，contempt鄙视。At claims that are apparentlyso，就是在对于我做出来对康德这个人啊，对于我做出来这些宣称，他会觉得这些宣称太太明显了，是如此的，就是太高调了，pretentious，太狂妄了，and modest。你他妈的一本书可以干掉所有形而上学体系，你他妈是谁呀？你他妈是谁呀？你还说，哎呦，这么一个原则，只要他没有办法搞定一个东西，我就就全我就不要，我就整个的不要，你是谁呀？And yet they areincomparably more modest than those of anyauthor，呃，of the commonest program who pretend to prove the simple nature of the thought or the necessity of a first beginning of the world。但是啊，但是呢，但是呢，其实这些这些claims啊，他们是不可比拟的，是更加modest，更加谦虚的，他比那些东西谦虚的多，比那些任何一个关于那个一般的最平庸的一些呃写作计划，这些的那些作者是要谦虚得多。那么那些平庸的写作，就形而上学作家他会写什么？他会假装要去证明，比如说这个灵魂的一个简单的一个性质，或者说一个first beginning of theworld世界的开端的一个必然性啊，就是看上去我很狂妄，我写的东西很狂，但是其实我比所有的形而上学家都要谦逊，因为我直接
+
+整理稿：当我说这些的时候，我相信我会在读者的脸上看到一种愤慨，一种 mixed with contempt 的愤慨——contempt 应该是“鄙视”。这种愤慨针对的是我关于康德这个人所作出的那些宣称：读者会觉得这些宣称太明显、太高调、太 pretentious，太狂妄、太不谦逊了（and immodest）。他会在心里说：你他妈的一本书就可以干掉所有形而上学体系，你他妈是谁呀？你还说，只要一个原则没有办法搞定某个东西，我就整个不要——你是谁呀？然而，这些宣称其实 incomparably more modest than those of any author of the commonest program，比任何一位最平庸的写作计划的作者所提出的宣称都要谦逊得多。那些平庸的形而上学作家会写什么？他们会假装去证明，比如说灵魂的简单性质，或者 a first beginning of the world，即世界开端的必然性。
+
+- 疑点：s444 的 ASR 作 and modest，但上下文与参考字幕显示应为 and immodest。；候选：and immodest；依据：t2358:s444, t3332:s1342
+
+## 段落 53：00:56:57 — 00:58:19
+
+来源：`t2358:s454`, `t2358:s455`, `t2358:s456`, `t2358:s457`, `t2358:s458`, `t2358:s459`, `t2358:s460`, `t2358:s461`, `t2358:s462`, `t2358:s463`, `t2358:s464`, `t2358:s465`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=3417)
+
+原文：证明了形而上学就是一种最最最狂妄的。他就告诉你形而上学是他妈这是最狂妄的。只要我拒斥所有形而上学，其实我比他们都谦逊。For such an author pledged himself to extend human cognition beyond all bounds of possible experience。因为这种形而上学作家呢，他pledges就是他许诺担保他自己说可以把人类的这个知性啊，把人类的这个认知能力啊啊让他拓展的超出所有可能的经验的一个一个界限。他竟然能让你自己他妈的自己脚踩着自己的脚飞上去，我靠，这不是太狂？形而上学家就这种人啊，就可以把你的把你的头脑弄到这个世界之外去，弄到你的感知体验之外去啊，去看到这个世界的本来面目。这他妈的在这才是骗子的。Of which I humbly admit that this wholly surpasses my capacity。那么关于这种形而上学，这种什么超出经验尺度之外去把握世界，这个我要非常怎么样？我要非常谦卑的承认，这完全超出我的能力。Instead I have to。而且康德说的不是完全超出他能力啊，他要说的是I humbly admit that this wholly surpass surpasses human capacity。他认为超出了人类的能力啊。
+
+整理稿：看上去我很狂妄，我写的东西很狂，但其实我比所有的形而上学家都要谦逊，因为我直接证明了形而上学就是一种最狂妄的东西。康德就是要告诉你：形而上学才是最狂妄的。只要我拒斥所有形而上学，其实我比他们都谦逊。For such an author pledged himself to extend human cognition beyond all bounds of possible experience：因为这种形而上学作家许诺、担保他自己可以把人类的知性、把人类的认知能力拓展到超出所有可能经验的一切界限。他竟然能让你他妈的自己踩着自己的脚飞上去——我靠，这不是太狂了吗？形而上学家就是这种人，可以把你的头脑弄到这个世界之外去，弄到你的感知体验之外去，去看到这个世界的本来面目。这他妈的才是骗子。Of which I humbly admit that this wholly surpasses my capacity：对于这种形而上学，对于这种超出经验尺度之外去把握世界的事情，我要非常谦卑地承认，这完全超出我的能力。不过，康德说的不是完全超出他个人的能力；他要说的是：I humbly admit that this wholly surpasses human capacity，即这完全超出人类的能力。
+
+## 段落 54：00:58:20 — 00:59:50
+
+来源：`t2358:s466`, `t2358:s467`, `t2358:s468`, `t2358:s469`, `t2358:s470`, `t2358:s471`, `t2358:s472`, `t2358:s473`, `t2358:s474`, `t2358:s475`, `t2358:s476`, `t2358:s477`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=3500)
+
+原文：那么instead相反我不得不去做一些仅仅是和理性自己相关的一些事情，and purethinking和做一些纯粹的一些思辨的一些事情啊。To gainexhaustiveacquaintance with them I need not seek far beyond myself。那么要获得这些理纯粹理性自己相关的一些经验呢，要获得就是完全获得详尽的获得，获得他们，获取他们和他们熟悉他们。我不需要去超出我自己，就是我不需要去看外物了，我只要从心里面求就行了。我不需要去远远的超出我自己去追求这些东西，因为它是在我自己当中的，因为纯粹理性在我当自己当中。And I encounterthem，我会遇到他们。And common logic already also gives me an example of how the simple acts of reason may be fully andsystematically enumerated。呃一般的逻辑他已经啊足以也已经告诉我一个例子，就是说这些理性的简单的一些活动，理性的简单的一些活动，它是怎么是能够完整的以及系统性的被啊举例没举出来的？我只要通过一般的逻辑活动，我就能知道我我向自己心里面求，我就可以知道纯粹理性怎么运行的。Only here the question is raised how much I may hope to settle with this simple x。
+
+整理稿：Instead，相反，我不得不去做一些仅仅和理性自己相关的事情，做一些纯粹的思辨，也就是 pure thinking。To gain exhaustive acquaintance with them, I need not seek far beyond myself：要获得关于这些纯粹理性事情的详尽认识，要完全地获得它们、熟悉它们，我不需要超出我自己，不需要去看外物，只要从心里面求就行了。我不需要远远地超出我自己去追求这些东西，因为它们就在我自己之中，因为纯粹理性就在我自己之中。And I encounter them，我会遇到它们。And common logic already also gives me an example of how the simple acts of reason may be fully and systematically enumerated：普通逻辑已经给了我一个例子，说明这些理性的简单活动如何能够完整地、系统地被列举出来。我只要通过一般的逻辑活动，就能知道自己向心里面求，就可以知道纯粹理性是怎么运行的。Only here the question is raised how much I may hope to settle with this simple x：只有在这里才提出一个问题：靠着这个简单的 x，我究竟能指望解决多少？
+
+## 段落 55：00:59:51 — 01:00:40
+
+来源：`t2358:s478`, `t2358:s479`, `t2358:s480`, `t2358:s481`, `t2358:s482`, `t2358:s483`, `t2358:s484`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=3591)
+
+原文：只有在这里，这个有这么一个问题被提出来了，啊，就是how much I may hope to settle with this simple x if all the material and assistance of uh experience are taken away from me。就是说我想要我我期望着去解决这些简单的settle with研究这些简单的东西，清算这简单，就是把它弄清楚这些啊理性的简单活动，如果我我我能够弄清楚多少，对不对？如果所有的物质和这个经验性的这些帮助都都从我身上拿走的话，如果说我不依赖于经验，不依赖于外部的意志性的物质的话，我只依赖我的内在的这个理性活动和逻辑活动的话，我他妈还能知道多少这个意识结构？
+
+整理稿：这个问题就是：how much I may hope to settle with this simple x, if all the material and assistance of experience are taken away from me——如果所有物质和经验的帮助都从我身上拿走，我还能指望用这个简单的 x 弄清多少？也就是说，我想要研究、清算这些简单的东西，把这些理性的简单活动弄清楚，我究竟能够弄清楚多少？如果我不依赖经验，不依赖外部的、经验性的物质，只依赖我内在的理性活动和逻辑活动，我他妈还能知道多少这个意识结构？
+
+- 疑点：s484 的“意识结构”听感不确定，疑为“先验结构”，正文暂按“意识结构”保留。；候选：先验结构；依据：t3332:s1464
+
+## 段落 56：01:00:41 — 01:01:14
+
+来源：`t2358:s485`, `t2358:s486`, `t2358:s487`, `t2358:s488`, `t2358:s489`, `t2358:s490`, `t2358:s491`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=3641)
+
+原文：其实其实我们我们现在一个立场是告诉你，能你什么都得不到。如果你没有material没有意志性他指的话，你的整个康德先验体系就是个空转的，你甚至连那个先验主理性都没有。康德错就错在这边啊，他把这个切一刀好像可以切开来，没有切不开的啊，切不开的。你甚至连先验主理性你都体验不到的，你的先验主理性也要通过somethingmaterial，但是这个material不是一种positive，不是一种积极的material，而是一种否定性的material。
+
+整理稿：其实，我们现在的立场会告诉你：你什么都得不到。如果你没有 material，没有知性直观的话，你的整个康德先验体系就是空转的，你甚至连那个先验主体性都没有。康德错就错在这里：他好像可以切一刀，把两边切开；但这是切不开的，切不开。你甚至连先验主体性都体验不到，你的先验主体性也要通过 something material；但这个 material 不是一种 positive，不是一种积极的 material，而是一种否定性的 material。
+
+- 疑点：s486 的“意志性他指”疑为“知性直观”，正文按后者整理。；候选：知性直观；依据：t3332:s1468, t3332:s1469
+- 疑点：s486、s488 的“先验主理性”据参考字幕与上下文应为“先验主体性”。；候选：先验主体性；依据：t3332:s1471, t3332:s1476
+
+## 段落 57：01:01:15 — 01:02:26
+
+来源：`t2358:s492`, `t2358:s493`, `t2358:s494`, `t2358:s495`, `t2358:s496`, `t2358:s497`, `t2358:s498`, `t2358:s499`, `t2358:s500`, `t2358:s501`, `t2358:s502`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=3675)
+
+原文：这个他妈太自恋了，这狗逼，我跟你讲，你读康德的东西，你就觉得这个唠唠唠狗逼是很自恋的一个人，阴阳怪气的，我跟你讲，不仅自恋，阴阳怪气，而且so much for the completeness in reaching each of the ends啊，我们要为了完满的怎么完整的怎么样满足所有的要求，and for the comprehensiveness in reaching all the all of themtogether，以及就是comprehensiveness详尽的去达成所有这些要求，which ends are not proposed。他们的这个这么一个需求啊，这里它这个这里应该是指的它的那个最终结果ends，它就要达成这些结果，抵达这最终的这些结果。他们并不是proposed并不是专断的被提出来的，but are set up for us by the nature of cognitionitself，而是被这个人的知性的这个本身的一个天性向我们提出来的，就是什么时候达到一个完备，什么时候达到一个详尽。As a matter of our critical
+
+整理稿：这他妈太自恋了，这狗逼。我跟你讲，你读康德的东西，就会觉得这个唠唠叨叨的狗逼是很自恋的一个人，阴阳怪气的；不仅自恋、阴阳怪气，而且 so much for the completeness in reaching each of the ends。至于完整地达成每一个 end，以及 for the comprehensiveness in reaching all of them together，即全面地把它们全部达成——这里的 ends 应该指最终结果——这些结果并不是被专断地提出来的，but are set up for us by the nature of cognition itself，而是由认知本身的天性为我们设定下来的；也就是说，什么时候达到完备、什么时候达到详尽，是由人的知性本身的天性向我们提出来的。
+
+## 段落 58：01:02:26 — 01:03:12
+
+来源：`t2358:s503`, `t2358:s504`, `t2358:s505`, `t2358:s506`, `t2358:s507`, `t2358:s508`, `t2358:s509`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=3746)
+
+原文：investment，它就是我们这个呃这个批判性研究的一个批判性研究他妈其实你们天天都在批，不是批判性研究很简单，就是键盘侠你知道吗？或者就是干弹幕大神他妈批判性研究这没什么了不起的，或者你就那小朋小朋友初中高中的时候就有批判性研究那种社会实践课啊，那个那种课都是用来赶作业的，我感觉或者拿个课文没背的出来那个批判性研究的课就去背课文去了，或者有的小朋友拿个篮球去他妈投篮去了，它就是我们批判性研究的一个主要的内容啊，matter我们的这个任务啊，就把它翻译成什么比较好？我们就紧要的那个东西啊，最重要的那个东西啊。
+
+整理稿：作为我们的批判性事业，这其实就是我们批判性研究的主要任务。其实你们天天都在批——批判性研究没那么了不起，就是键盘侠，或者就是他妈的弹幕大神。或者就是小朋友初中、高中时候的批判性研究社会实践课：那种课都是用来赶作业的；有人课文没背出来，就跑到批判性研究课上去背课文；有的小朋友拿个篮球去投篮。这就是我们批判性研究的主要内容。我们的任务，或者说把它翻译成什么比较好？就是我们最紧要、最重要的那个东西。
+
+- 疑点：s503 的 critical investment 听感不确定，疑为 critical enterprise（批判性事业），正文按“批判性事业”整理。；候选：critical enterprise；依据：t3332:s1507
+
+## 段落 59：01:03:12 — 01:05:34
+
+来源：`t2358:s510`, `t2358:s511`, `t2358:s512`, `t2358:s513`, `t2358:s514`, `t2358:s515`, `t2358:s516`, `t2358:s517`, `t2358:s518`, `t2358:s519`, `t2358:s520`, `t2358:s521`, `t2358:s522`, `t2358:s523`, `t2358:s524`, `t2358:s525`, `t2358:s526`, `t2358:s527`, `t2358:s528`, `t2358:s529`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=3792)
+
+原文：Furthermore，进一步呢就是这个这个certainty andclarity就是它的这个可靠性啊，它的必然性啊，确确定性certainty，certainty，c e r t a i n t y，c l a r i t y应该是它的清晰啊，清晰明确。T w o t h i n g s t h a t c o n c e r n t h e f o r m o f t h e就是你这个东西得是确切的，得确定的，得这个逻辑上得是他妈的是可靠的，另外一方面得是很清晰的，你不能是模模糊糊的。这两个东西呢，它是关于这个研究这个纯粹理性的这么一个研究，批判性研究的这么一个形式的。A r e t o b e v i e w e d a s e s s e n t i a l d e m a n d s，它一它要被看成一种啊非常不可或缺的一些需求，就本质性的需求。W h i c h m a y r i g h t l y b e m a d e o n t h e a u t h o r w h o v e n t u r e怎么念？多了个s就不给我音标了。A d v e n t u r e，v e n t u r e，我知道是应该是v e n t u r e，v e n t u r e，v e n t u r e。W h i c h m i g h t r i g h t l y b e m a d e o n t h e w h o v e n t u r e s u p o n s o s l i p p e r y a n a n u n d e r t a k i n g，u p o n s o s l i p p e r y如此棘手a n u n d e r t a k i n g。啊，我知道了，就是但是呢这个它很很很很这你要让它变得这个可可靠又明确，它它是很有可能会m a d e o n t h e a u t h o r，它会呃m a d e什么什么o n t h e a u t h o r，就是r i g h t l y b e m a d e会被做成一个非常棘手的一个一个一个事情啊加注在这个作者身上，这个作者他是想要这个v e n t u r e s u p o n w h o v e n t u r e s u p o n应该是s o就是说这个要保证这两个对于这个作者很难了，就是我要我要搞定这个东西我很累啊，我很难就这这这个意思了吧，都报都抱怨了。A s f a r a s c e r t a i n t y i s c o n c e r n e d，那么只要这个确定性啊被当这个确定性被关注的时候，I h a v e m y s e l f p r o n o u n c e d t h e j u d g m e n t t h a t i n t h i s k i n d o f i n q u i r y i t i s i n n o w a y a l l o w e d t o h o l d o p i n i o n s，就是说我让我自己宣称的这么一个判断。certaintyclarity应该是它的清晰啊清晰明确Two things that concern the formof the就是你这个东西得是确切的得确定的得这个逻辑上得是他妈的是可靠的另外一方面得是很清晰的你不能是模模糊糊的这两个东西呢它是关于这个研究这个纯粹理性的这么一个研究批判性研究的这么一个形式的Are to be viewed as essentialdemands它一它要被看成一种啊非常不可或缺的一些需求就本质性的需求Which may rightly be madeon the author who venture怎么念多了个s就不给我音标了Adventureventure我知道是应该是ventureventureventureWhichmight rightly be made on the who ventures upon so slippery anan undertakingupon soslippery如此棘手an undertaking啊我知道了就是但是呢这个它很很很很这你要让它变得这个可可靠又明确它它是很有可能会made on the author它会呃made什么什么on the author就是rightly be made会被做成一个非常棘手的一个一个一个事情啊加注在这个作者身上这个作者他是想要这个ventures uponwho venturesupon应该是so就是说这个要保证这两个对于这个作者很难了就是我要我要搞定这个东西我很累啊我很难就这这这个意思了吧都报都抱怨了As far as certainty is concerned那么只要这个确定性啊被当这个确定性被关注的时候I have myself pronounced the judgment that in thiskind of inquiry it is in no way allowed to hold opinions就是说我让我自己宣称的这么一个判断
+
+整理稿：Furthermore，进一步说，就是 certainty 和 clarity，也就是它的可靠性、必然性、确定性，以及清晰、明确。你这个东西得是确切的、确定的，逻辑上得可靠；另一方面得是很清晰的，不能模模糊糊。这两件事涉及纯粹理性研究、批判性研究的形式，are to be viewed as essential demands，要被看成不可或缺的、本质性的需求。Which may rightly be made on the author who ventures upon so slippery an undertaking：这些要求会被正当地加在作者身上，而这个作者冒险从事的是如此棘手的一项事业。也就是说，要保证这两个东西，对作者来说很难：我要搞定这个东西，很累、很难——他都在抱怨了。As far as certainty is concerned，只要涉及确定性，I have myself pronounced the judgment that in this kind of inquiry it is in no way allowed to hold opinions，我自己已经作出判断：在这种研究中，绝不允许持有意见。
+
+## 段落 60：01:05:36 — 01:06:23
+
+来源：`t2358:s530`, `t2358:s531`, `t2358:s532`, `t2358:s533`, `t2358:s534`, `t2358:s535`, `t2358:s536`, `t2358:s537`, `t2358:s538`, `t2358:s539`, `t2358:s540`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=3936)
+
+原文：我让我自己宣称了，发出了这么一个判断：That in this kind ofinquiry，在这样的研究探索过程中，我们绝对不能允许holdopinion，绝对不能允许获得意见，就是不能允许有那种意见啊，意见和真理的二分，你们知道吗？就是我们要有这个certainty，所以我们不能holdopinion，我们不能就是保有意见，不能够是hold，这里hold就是坚持，hold，持有，我们不能持有某种意见，我必须要严格的对它进行纯化的分析。And the that anything that even lookslike，哎呦，你他妈的康德，你以为你就可以避免hypothesis？没有，你只能说你那个时代啊，你那个时代有些东西被你take forgranted，你自己没看出来。
+
+整理稿：我让自己宣称、发出了这样一个判断：that in this kind of inquiry，在这样的研究探索过程中，我们绝对不能允许 hold opinion，不能允许获得意见，也就是不能允许有那种意见——意见和真理的二分，你们知道吗？因为我们要有 certainty，所以不能 hold opinion，不能保有意见，不能 hold；这里 hold 就是坚持、持有。我们不能持有某种意见，我必须严格地对它进行纯化的分析。And that anything that even looks like hypothesis——任何东西，只要看上去，甚至只要看上去像一个假设，就会被禁止。你他妈的康德，你以为你就可以避免 hypothesis？没有。你只能说你那个时代有些东西被你 take for granted，你自己没看出来。
+
+## 段落 61：01:06:24 — 01:08:18
+
+来源：`t2358:s541`, `t2358:s542`, `t2358:s543`, `t2358:s544`, `t2358:s545`, `t2358:s546`, `t2358:s547`, `t2358:s548`, `t2358:s549`, `t2358:s550`, `t2358:s551`, `t2358:s552`, `t2358:s553`, `t2358:s554`, `t2358:s555`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=3984)
+
+原文：就是任何东西，只要它看上去，甚至看上去像一个假设的，它就会被禁止啊，它就会被禁止，它就是一个禁止的一个一个商品，禁止不能禁止一个有用东西，不能被用，which should not be put up forsale，不能够拿出来卖，即便它一个很低的价格，他又用比喻了，即便用很低的价格，你我们这个体系是要确定性、要可靠性的，你不能有一些杂的东西、不纯的东西，不行的，must be confiscatedas，他必须要立刻充公，他妈这些比喻都是那种比喻啊，立刻把它充公，只要被发现的话，立刻要把这种假设跟拿去充公啊。For every cognition that is supposed to be certain a priori proclaims that it wants to be held for absolutelynecessary，因为所有一个认知，它它被假设是某种啊，某种鲜艳的apriori，就是先于一切的，从事实推断结果，由因及果，就鲜艳的鲜艳的，他会宣称proclaims that it wants tobe，他想要去被啊坚持，出于一些绝对的必然性被坚持。And even more is this true of a determination of all pure cognitions apriori，甚至是那个呃，this is true of adetermination，就是来自于所有纯粹呃纯粹知性的那些呃规那些一个规范性啊，一个规范性，它是这一点是更更是如此，更是如此，更是如此，apriori，那些鲜艳的鲜艳的纯粹知性的那些来自于纯鲜艳纯粹知性的纯粹认知的那些啊规范性，它更是如此。This is even more is this true
+
+整理稿：任何东西，只要它看上去，甚至只要看上去像一个假设，它就会被禁止，它就是一个被禁止的商品，不能拿出来用；which should not be put up for sale，不能拿出来卖，即便价格很低——他又用比喻了，即便用很低的价格。我们这个体系要的是确定性、可靠性，不能有杂的东西、不纯的东西，不行，must be confiscated，必须立刻充公。只要被发现，立刻把这种假设拿去充公。For every cognition that is supposed to be certain a priori proclaims that it wants to be held for absolutely necessary：因为每一个被假定为先天确定的认知，都宣称它想要被当作绝对必然的东西来坚持。因为所有认知，如果被假定为某种先天的、先于一切的东西，从事实推断结果、由因及果，就是先验的；它会宣称 proclaims that it wants to be held，它想要被坚持，出于绝对的必然性被坚持。And even more is this true of a determination of all pure cognitions a priori：对所有纯粹先天认知的规定更是如此。甚至 this is true of a determination，就是来自所有纯粹知性的那些规范性，这一点更是如此；那些先验的、纯粹知性的、来自纯粹先天认知的规范性，它更是如此。
+
+## 段落 62：01:08:18 — 01:08:49
+
+来源：`t2358:s556`, `t2358:s557`, `t2358:s558`, `t2358:s559`, `t2358:s560`, `t2358:s561`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=4098)
+
+原文：of什么什么什么什么的，which is to be the standard and thus even the example of all apod apod apodictic philosophicalcertainty，这应该是绝对的apodictic，绝对的清晰明白的哲学意义上的一种确定性，它就是要成为一个标准，成为一个这个绝对的哲学上的一个确定性的一个标准啊，一个标准，and thusbe标准，以及甚至是even theexample，它范例啊，范例，
+
+整理稿：这应该是绝对的 apodictic，也就是哲学意义上绝对清晰明白的确定性。它要成为一个标准，成为哲学上绝对确定性的标准，并因此甚至成为一切 apodictic 哲学确定性的范例。
+
+## 段落 63：01:08:52 — 01:09:12
+
+来源：`t2358:s562`, `t2358:s563`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=4132)
+
+原文：这就告诉你，就是说，我们一定要排除所有可能的一些hypotheses，为什么呢？因为每一个被当成是鲜艳的宣称的啊，被当成是鲜艳的那些认识啊，它都会宣称它自己想要去成为一种绝对的、专断的、绝对的一种必然的东西。
+
+整理稿：这就告诉我们，我们一定要排除所有可能的假设（hypotheses）。为什么呢？因为每一种被当作先天主张的认识，都会宣称自己要成为一种绝对的、专断的、必然的东西。
+
+## 段落 64：01:09:12 — 01:09:49
+
+来源：`t2358:s564`, `t2358:s565`, `t2358:s566`, `t2358:s567`, `t2358:s568`, `t2358:s569`, `t2358:s570`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=4152)
+
+原文：所以这个时候不能掺任何杂质，我会把它就相当于是，如果它是个病毒，我操，我把它把它发到所有机器里面，不是完蛋了吗？对不对？它必须没有病毒啊，必须没有病毒。这个，但是最后黑哥，我告诉你，其实这些东西全是病毒，没有什么没有源代码，全是病毒，不存在源代码，只有病毒。康德拼了命的要把这病毒全给他弄掉，剩下源代码。但是其实他没意识到，所有只有病毒，没有源代码。就是你们玩过一个游戏叫《虐杀原型》嘛，《虐杀原型》那个虐杀原型的那个主人公，他一直以为他自己是个人，最后他发现他其实就是个病毒，他就一堆病毒。
+
+整理稿：所以这个时候不能掺任何杂质。可以这样想：如果它是一个病毒，我把它发到所有机器里面，不是完蛋了吗？它必须没有病毒，必须没有病毒。但最后，黑哥，我告诉你：其实这些东西全是病毒，没有源代码，不存在源代码，只有病毒。康德拼了命地要把这些病毒全弄掉，只留下源代码；但他其实没意识到，只有病毒，没有源代码。你们玩过一个游戏叫《虐杀原型》吧？《虐杀原型》的主人公一直以为自己是个人，最后发现自己其实就是个病毒，就是一堆病毒。
+
+## 段落 65：01:09:50 — 01:10:29
+
+来源：`t2358:s571`, `t2358:s572`, `t2358:s573`, `t2358:s574`, `t2358:s575`, `t2358:s576`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=4190)
+
+原文：他一直想要去通过收集他的回忆，然后找到自己到底是谁，然后他发现他其实他身上全是病毒。啊，when whether I have performed what I have just pledged in that respect remains wholly to the judgment of the reader。是否我刚刚所所所所，I haveperformed我所呈现出来的，what I have justpledged，我所我所许诺的那些东西，in thatrespect在这么一个方面所许诺的东西，还是完全对于啊，wholly to the judgment ofthe啊啊r e a d e r，s i n c e i t i s o n l y t o p r e s e n t t h e g r o u n d b u t n o t t o j u d g e a b o u t t h e e f f e c t s o f t h e j u d g e s。就说，因为对于一个作者，只有去呈现他的基础，而不是去判断他们呃t h e i r e f f e c t o n h i s j u d g e s。这些对于他基础的一些效果，哦，我知道了。W h a t I h a v e j u s t p l e d g e d，我知道，就是说，是否我我刚刚所那个在这方面所信誓旦旦的保证的啊，我所呈现出来那些东西，它到底是不是对的，到底是不是对的？W h e t h e r I h a v e p e r f o r m e d，这里p e r f o r m指的是这里的p e r f o r m的意思就是w h e t h e r I h a v e p e r f o r m e d，p e r f o r m就是我我到底有没有演示出它们的有效性，我到底有没有证明它们的有效性啊？I n t h e i n t h a t r e s p e c t，它还是要留给那个读者来判断，完全要交由读者来判断。我到底有没有p e r f o r m w h a t I h a v e j u s t p l e d g e d？
+
+整理稿：他一直想通过收集回忆来找到自己到底是谁，最后发现他身上全是病毒。英文原文是：Whether I have performed what I have just pledged in that respect remains wholly to the judgment of the reader, since it is only to present the ground but not to judge about the effects of the judges\. 意思是：我是否履行了刚刚在这方面所作的保证，完全要由读者来判断；因为作者只应呈现根据，而不应判断这些根据对评判者判断的影响。这里的 perform 指的是：我到底有没有演示出、证明它们的有效性。
+
+- 疑点：引文末句 ASR 作 effects of the judges，后文又作 their effect on his judges；此处按“这些根据对评判者判断的影响”整理，原词待核。；候选：their effect on his judges；依据：t2358:s576
+
+## 段落 66：01:10:29 — 01:11:39
+
+来源：`t2358:s577`, `t2358:s578`, `t2358:s579`, `t2358:s580`, `t2358:s581`, `t2358:s582`, `t2358:s583`, `t2358:s584`, `t2358:s585`, `t2358:s586`, `t2358:s587`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=4229)
+
+原文：readersince it isonly to present the ground but not to judge about the effectsof the judges就说因为对于一个作者只有去呈现他的基础而不是去判断他们呃their effect on his judges这些对于他基础的一些效果哦我知道了What I have just pledged我知道就是说是否我我刚刚所那个在这方面所信誓旦旦的保证的啊我所呈现出来那些东西它到底是不是对的到底是不是对的WhetherI have performed这里perform指的是这里的perform的意思就是whether I have performedperform就是我我到底有没有演示出它们的有效性我到底有没有证明它们的有效性啊In the in that respect它还是要留给那个读者来判断完全要交由读者来判断我到底有没有perform what I have just pledged
+
+整理稿：Since it is only to present the ground but not to judge about the effects of the judges\. 换句话说，作者只负责呈现根据，不负责判断这些根据对评判者判断的影响。我到底有没有 perform 我刚刚 pledged 的东西？perform 在这里不是“表演”，而是我到底有没有演示出、证明这些根据的有效性。在这个方面，最终仍然要完全交给读者来判断：我到底有没有做到我刚刚所许诺的事情。
+
+## 段落 67：01:11:41 — 01:13:19
+
+来源：`t2358:s588`, `t2358:s589`, `t2358:s590`, `t2358:s591`, `t2358:s592`, `t2358:s593`, `t2358:s594`, `t2358:s595`, `t2358:s596`, `t2358:s597`, `t2358:s598`, `t2358:s599`, `t2358:s600`, `t2358:s601`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=4301)
+
+原文：我啊，我到底有没有perform？我到底有没有去执行呢？我就是哦，我知道这个意思，就是说我嘴巴上说我要把所有的病毒都除掉，那么我到底有没有把所有的病毒都除掉的话，那么这个是还是要你们你们来盯紧我啊，你们来盯紧我，因为我我作为一个作者，我不是很方便，我不是很恰当，就是把只把这个基础告诉你，但是啊，不去判断他们那个他们呃关于他自己的那个判断的一些效果，not to judge about their effect on his j u d g e s，s i n c e i t i s a p u r p o s e f o r a n a u t h o r o n l y t o对啊，他如果只是呈现这些基础，但是却不把这些基础的效果用在他自己的啊，用在他自己的一些判断上面，j u d g e a b o u t t h e i r e f f e c t o n h i s j u d g e s，不去啊，应该是去不去，如果我只是呈现这么一个基础，呈现出这么理论的基础，但是呢，却并不去判断啊这些基础对于他自己的判断是不是正当的，是不是对的，那么这个对于一个作者来说，他妈的他做的不够了，你他妈嘴巴上说你立的这些基础，但是到底你有没有坚持这些基础？到底你你这些基础对你的那些判断是一个，比如说我嘴巴上说的我们要什么奉公守法什么，我后面写的东西都是合法的，然后后面写的东西全是什么犯罪指南A B C D E F G，你没有把你这些基础用用用在你自己的那些东西上面去啊，但是但是这个东西是完全是要留给读者去判断的，读者去判断。啊我妈，我的意思我搞错了吧？应该是我又搞错了，应该是这里应该是读者只要去把把那个东西呈现出来就行了，对哦，作者作者只要把这个基础呈现出来就行了，作者最好不要判断，作者不要去自己为自己做辩护啊，我觉得是这个意思啊，就是你作者妈的，你作者只要把基础呈现出来就行了，到底你有没有叫一以贯之？有没有就是对于自己也是同样的标准？那这个留有留给读者去评判啊。B e b u t i n o r d e r t h a t h e s h o u l d n o t呃i n a d v e r t e n t l y i n a d a d v e r t e n t l y怎么念？i n a d v e r t e n t l y疏忽的b e t h e c a u s e o f w e a k e n i n g h i s o w n a r g u m e n t s，t h e a u t h o r m a y b e p e r m i t t e d t o n o t e h i m s e l f t h o s e p l a c e s t h a t e v e n t h o u g h t h e y p e r t a i n o n l y t o t h e i n c i d e n t a l e n d o f t h e w o r k m a y b e t h e o c c a s i o n f o r s o m e m i s t r u s t，但是为了i n o r d e r t h a t为了怎么样？为了他不会被不合时宜的成为漫不经心的，他就是为了漫不经心的变成一个。judgessince it is a purpose for an author only to对啊他如果只是呈现这些基础但是却不把这些基础的效果用在他自己的啊用在他自己的一些判断上面judge about their effect on his judges不去啊应该是去不去如果我只是呈现这么一个基础呈现出这么理论的基础但是呢却并不去判断啊这些基础对于他自己的判断是不是正当的是不是对的那么这个对于一个作者来说他妈的他做的不够了你他妈嘴巴上说你立的这些基础但是到底你有没有坚持这些基础到底你你这些基础对你的那些判断是一个比如说我嘴巴上说的我们要什么奉公守法什么我后面写的东西都是合法的然后后面写的东西全是什么犯罪指南A B C D E F G你没有把你这些基础用用用在你自己的那些东西上面去啊但是但是这个东西是完全是要留给读者去判断的读者去判断
+
+整理稿：我到底有没有 perform？到底有没有去执行？我知道这个意思：我嘴上说要把所有病毒都除掉，但到底有没有除掉，还是要由你们盯紧我、判断我。作为一个作者，我不方便、也不恰当只把基础告诉你，却不去判断这些基础对判断所产生的效果。换句话说，作者如果只呈现这些基础，却不把这些基础的效果用在自己的判断上，不去判断这些基础对他自己的判断是不是正当、是不是对的，那他就做得不够。你嘴上说你确立了这些基础，但到底有没有坚持？这些基础对你的判断是不是一贯的？比如我嘴上说我们要奉公守法，后面写的东西都合法，结果后面写的全是犯罪指南 A、B、C、D、E、F、G，你就没有把这些基础用在自己的东西上。不过，这完全要留给读者判断。
+
+## 段落 68：01:13:25 — 01:13:57
+
+来源：`t2358:s602`, `t2358:s603`, `t2358:s604`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=4405)
+
+原文：啊我妈我的意思我搞错了吧应该是我又搞错了应该是这里应该是读者只要去把把那个东西呈现出来就行了对哦作者作者只要把这个基础呈现出来就行了作者最好不要判断作者不要去自己为自己做辩护啊我觉得是这个意思啊就是你作者妈的你作者只要把基础呈现出来就行了到底你有没有叫一以贯之有没有就是对于自己也是同样的标准那这个留有留给读者去评判啊Be but in order that he
+
+整理稿：我的意思是不是搞错了？我又搞错了。这里应该是：作者只要把这个基础呈现出来就行了，最好不要判断，也不要自己为自己做辩护。我觉得是这个意思：作者只要把基础呈现出来；到底有没有一以贯之，有没有对自己也是同样的标准，这留给读者去评判。
+
+## 段落 69：01:13:57 — 01:14:28
+
+来源：`t2358:s605`, `t2358:s606`, `t2358:s607`, `t2358:s608`, `t2358:s609`, `t2358:s610`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=4437)
+
+原文：should not呃inadvertently inadadvertently怎么念inadvertently疏忽的be the causeof weakening his own argumentstheauthor may be permitted to note himself those places that eventhough they pertain only to the incidental end of the work maybe the occasion for some mistrust
+
+整理稿：原文说：But in order that he should not inadvertently be the cause of weakening his own arguments, the author may be permitted to note himself those places that, even though they pertain only to the incidental end of the work, may be the occasion for some mistrust\. 也就是说，为了避免作者在不经意间削弱自己的论证，应当允许作者自己标出那些地方；这些地方虽然只涉及作品的偶然目的，却可能成为某种不信任的契机。
+
+## 段落 70：01:14:29 — 01:15:15
+
+来源：`t2358:s611`, `t2358:s612`, `t2358:s613`, `t2358:s614`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=4469)
+
+原文：但是为了in order that为了怎么样为了他不会被不合时宜的成为漫不经心的他就是为了漫不经心的变成一个使得他自己的论题就示弱了呀，就是为了避免一种情况，就是他这样做的话，就好像在示弱一样了。那么这个作者呢，应该被允许去note himself thoseplaces，啊，even though they pertain only to the incidental end of the work may be the occasion for some misprint in order that he may in a timely manner timely manner counteract the influence that even the reader's slightest revision on this point may have on his judgment over the chief end。
+
+整理稿：这样做是为了避免一种情况：作者仿佛在不经意间削弱了自己的论题，看起来像是在示弱。因此，作者应当被允许自己标出那些地方——即使它们只涉及作品的偶然目的，也可能成为某种不信任的契机——以便他能及时抵消一种影响：读者在这个问题上哪怕只有最轻微的保留意见，也可能影响他对主要结论的判断。原文接着说：in order that he may in a timely manner counteract the influence that even the reader's slightest revision on this point may have on his judgment over the chief end\.
+
+## 段落 71：01:15:16 — 01:16:20
+
+来源：`t2358:s615`, `t2358:s616`, `t2358:s617`, `t2358:s618`, `t2358:s619`, `t2358:s620`, `t2358:s621`, `t2358:s622`, `t2358:s623`, `t2358:s624`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=4516)
+
+原文：就是说，呃，你避免避免好像很示弱的样子，你作者还是应该被允许能够去notehimself，提醒自己，提醒自己注意到一些点，就是得得加重说明一些地方了，在写书的时候啊，即便这些地方它只是pertain only tothe，只是那个关于一些非常呃非常就是偶然的这个书的那些地方end of the world，incidental end of theworld，这个是结果吧，偶然的一些结果，导致的一些偶然的一些结果，这个作品的一些偶然结果，尽管它只是相关于这些作品的偶然结果，那么作者还是啊可以被允许去呃让他自己note himself thoseplaces，让他自己就标记出这些地方，自己来标记出这些地方may be theoccasion，这些地方可能会成为误解的一些一些导致误解啊误解的一些情况。In order that he may in a
+
+整理稿：也就是说，为了避免显得示弱，作者还是应当被允许 note himself，提醒自己注意一些地方，在写书时对这些地方加重说明。即便这些地方只涉及作品偶然的结果——incidental end of the work——只是与作品的一些偶然结果相关，作者仍可以被允许自己标出这些地方，因为它们是可能导致误解或不信任的契机。
+
+- 疑点：此处 ASR 有 end of the world，按上下文应为 incidental end of the work；讲话者译作“作品的偶然结果”，end 也可能指“附带目的”，待核。；候选：incidental end of the work；依据：t2358:s619, t3332:s1826
+
+## 段落 72：01:16:20 — 01:17:32
+
+来源：`t2358:s625`, `t2358:s626`, `t2358:s627`, `t2358:s628`, `t2358:s629`, `t2358:s630`, `t2358:s631`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=4580)
+
+原文：timely，他可以以一种及时的方式去反驳，或者就是反击了，就是counteract的反作用，反作用于那些影响the influence that even the reader's slightestrevision，这个这个作者的最小的保留意见on this point may have on his judgment over the chief end。用来去counteract theinfluence，就是如果读者读者他有一些最轻微的一些保留意见，对于这个那个最后的一个论点may have on his judgment over the chiefend，在那个主要的，就是说，哪怕这个读者只有一些最小的保留，对于某些论点还进行最小的保留，这些保留会产生一些原因啊，会对什么，可能会对这个作者的判断，对于会会对这个读者对于这个主要主要结果主要结论的一个判断产生一些影响，那么这个时候这个作者要及时出来去纠正这些影响counteract。
+
+整理稿：所谓 in a timely manner，就是作者可以及时反驳、反作用，也就是 counteract 那种影响：读者在这个问题上哪怕只有最轻微的保留意见，也可能影响他对主要结论（chief end）的判断。换句话说，哪怕读者只对某些论点有最小的保留，这些保留也可能影响他对主要结果、主要结论的判断；这时作者就要及时出来纠正这些影响，也就是 counteract。
+
+## 段落 73：01:17:33 — 01:17:57
+
+来源：`t2358:s632`, `t2358:s633`, `t2358:s634`, `t2358:s635`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=4653)
+
+原文：啊，么这个结构他妈德语的结构，它这个英语给它英语其实英语翻译德语德语不好这样翻的，它其实要把这些句子给打断，这些从句啊，这些从句啊。然后这么长的从句最好把它打断。I amacquainted with noinvestigations more important for getting to the bottom of that。
+
+整理稿：这个结构是德语的结构。用英语这样翻其实不好，德语不好这样翻；应该把这些句子打断，这些从句、这么长的从句最好打断。I am acquainted with no investigations more important for getting to the bottom of that\.
+
+## 段落 74：01:17:58 — 01:18:42
+
+来源：`t2358:s636`, `t2358:s637`, `t2358:s638`, `t2358:s639`, `t2358:s640`, `t2358:s641`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=4678)
+
+原文：我看他妈还有几页，妈这边倒逼刀，我这倒逼刀就没有太大意义了。一、二、三。我非常熟悉，我熟悉，I amacquainted。我了解with no investigations more important for getting to the bottom of that faculty we call understanding。就是说研究当中没有更没有更重要的，就最重要的就是要去知道这个我们称之为知性的那个官能的它的这个最最下面的底层啊bottom，就是把它弄清楚。And at the same time,for the determination of the rules and boundaries of its
+
+整理稿：我看还有几页。我在这边叨叨就没有太大意义了。一、二、三。I am acquainted with no investigations more important for getting to the bottom of that faculty we call understanding\. 我非常熟悉这一点：没有比刨根究底地研究我们称之为知性的那个官能更重要的研究了，也就是要弄清楚它的最底层，它的 bottom。
+
+## 段落 75：01:18:42 — 01:19:55
+
+来源：`t2358:s642`, `t2358:s643`, `t2358:s644`, `t2358:s645`, `t2358:s646`, `t2358:s647`, `t2358:s648`, `t2358:s649`, `t2358:s650`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=4722)
+
+原文：use，以及去啊决定或者是定义啊弄清楚，同时要去determine那这个太大了二百四十，要去查明吧或者用查明for the determination查明这些规则和这些界限，就是使用人的知性的时候它的一些规则和界限。Then those I have undertaken in the second chapter of the transcendental啊。所有这前面都是他妈的在这个then前面这他妈都插入语啊。Then thenthose，就是对于研究要对于要叫刨根究底的研究这个知性这个功能，以及我们的那个对于它的那个使用当中的那些规则和这个和这个界限的一个一个一个一个确定一个探明，没有什么研究是更重要的啊。
+
+整理稿：同时，还要确定知性使用的规则和界限。And at the same time, for the determination of the rules and boundaries of its use\. 前面这一大段其实都是插入语，真正的主句是 then those I have undertaken in the second chapter of the transcendental\.\.\. 也就是说，对于刨根究底地研究知性这个功能，以及确定、探明我们在使用知性时的规则和界限来说，没有什么研究比这更重要。
+
+## 段落 76：01:19:56 — 01:20:52
+
+来源：`t2358:s651`, `t2358:s652`, `t2358:s653`, `t2358:s654`, `t2358:s655`, `t2358:s656`, `t2358:s657`, `t2358:s658`, `t2358:s659`, `t2358:s660`, `t2358:s661`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=4796)
+
+原文：哪种研究是最重要的？最重要的就是最重要的就是我在这个这本书的第二章第二章就是先验分析论里面他妈的这个研究是最重要的。妈的我服了，你读英语的话不要翻译成中文，觉得这个东西还好理解。你翻译成中文的话你就受不了了。I have undertaken我在第二章里面干的就是说这个东西是研究知性最重要的。Under the title我把的题目叫做deduction of the pure concepts of the understanding啊。就是叫做纯粹概念，就是知性的纯粹概念的那个演演绎论啊演绎论。就是你怎么去deduction出来，就是或者你怎么用这个纯粹的这个概念知性的纯粹概念来加以演绎。来进行deduction deduction。They are also the
+
+整理稿：哪种研究最重要？最重要的就是我在本书第二章，也就是先验分析论里所做的研究。说实话，读英语时不要翻译成中文，还觉得好理解；一翻译成中文你就受不了了。I have undertaken\.\.\. 我在第二章里所做的，就是研究知性最重要的部分。标题是 deduction of the pure concepts of the understanding，也就是“知性的纯粹概念的演绎论”。所谓演绎，就是你怎么把知性的纯粹概念 deduction 出来，或者怎么用这些纯粹概念加以演绎、进行 deduction。
+
+## 段落 77：01:20:52 — 01:21:25
+
+来源：`t2358:s662`, `t2358:s663`, `t2358:s664`, `t2358:s665`, `t2358:s666`, `t2358:s667`, `t2358:s668`, `t2358:s669`, `t2358:s670`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=4852)
+
+原文：investigations that have costed me the most。他们也是一些研究，他花了我最多时间、最大篇幅的。但是我希望notun呃revoluble。哎，but I hope notunrevoluble effort。但是我未获报偿的努力啊，最多的，这让我花费了最多的努力啊。但是我并没有希望。But I hope notunrevoluble。那我啊，我希望他们并不是徒劳无功的，应该就这个意思。This
+
+整理稿：They are also the investigations that have cost me the most\. 这些研究也花了我最多的时间和最大的篇幅。But I hope not unrewarded effort\. 也就是说，我希望这些努力并不是徒劳无功、没有回报的。
+
+- 疑点：ASR 作 unrevoluble，讲话者译为“未获报偿/徒劳无功”，疑为 unrewarded，待核。；候选：unrewarded；依据：t2358:s664, t3332:s1936
+
+## 段落 78：01:21:25 — 01:21:55
+
+来源：`t2358:s671`, `t2358:s672`, `t2358:s673`, `t2358:s674`, `t2358:s675`, `t2358:s676`, `t2358:s677`, `t2358:s678`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=4885)
+
+原文：inquiry这么一种研究，which goes rather deep has two sides。这么一个研究呢，这个研究它走的很深了，它有两个两个两个side，两面啊，两个侧面。Oneside一方面呢，就是说refers to the objects of the pure understanding。它不是研究的是什么？研究是纯粹知性的什么？它的对象。And is supposed todemonstrate and make comprehensible the objective validity of its concepts apriori。
+
+整理稿：这项 inquiry，也就是这项探究，走得很深，它有两个侧面。一方面，它指向纯粹知性的对象；它研究的不是别的，正是纯粹知性的对象，并且应当展示、使人们理解这些概念的先天的客观有效性。
+
+## 段落 79：01:21:56 — 01:22:54
+
+来源：`t2358:s679`, `t2358:s680`, `t2358:s681`, `t2358:s682`, `t2358:s683`, `t2358:s684`, `t2358:s685`, `t2358:s686`, `t2358:s687`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=4916)
+
+原文：并且啊，尝试着，并且就是想要去supposed就就目的是，就是按道理要去展示出，并且使得什么东西呢？展示并且使得什么变得可理解呢？就是说那个客观的有效性，客观有效性它的那个概念，它的那些先天的概念啊，这个词我们以后这个就翻译成先天apriori，呃，这个那个transcendental就翻译成先验啊，这样好一点啊，那些先天概念的它的有效性啊，它的客观有效性，就是这第一部分是要就讲清楚这概念的啊，allconcepts啊，它的那个客观有效性。Thus it belongs essentially to my ends。那他们呃最终是呃不可或缺的呃，它是呃属于我的那些结论的，不可或缺属于我的最后部分结论部分的。然后the other side deals with the pure understanding itself。
+
+整理稿：也就是说，它想要展示并使人理解这些先天概念的客观有效性。这里我把 a priori 翻成“先天”，把 transcendental 翻成“先验”，这样更好一些。第一部分要讲清楚的，就是这些先天概念的客观有效性。因此，这部分本质上属于我的目的，是我结论中不可或缺的部分。
+
+## 段落 80：01:22:54 — 01:23:44
+
+来源：`t2358:s688`, `t2358:s689`, `t2358:s690`, `t2358:s691`, `t2358:s692`, `t2358:s693`, `t2358:s694`, `t2358:s695`, `t2358:s696`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=4974)
+
+原文：那么另外一方面，它是处理的是纯粹理性本身的，纯粹知性本身的。Concerning itspossibility，就是关于关注的是这纯粹知性的可能性和它的呃认知能力。On which ititself rests。它自己它自己取决于知的那个认知能力。那自己就是它的可能性和它的它依赖的那个认认知能力啊，关于它的可能性和它所依赖认知能力。Thus it considers it in a subjective relation。啊，因此呢，它是以一种主观的关系和它自己来来研究它自己来思考自己的。And although thisexpositionexposition接触，英语啊，解释啊。
+
+整理稿：另一方面，它处理的是纯粹知性本身，关注纯粹知性的可能性，以及它所依赖的认识能力。因此，它是在主观关系中考察纯粹知性，也就是从主观关系出发来研究、思考纯粹知性本身。这一部分就是 exposition，也就是解释、阐述。
+
+## 段落 81：01:23:45 — 01:24:10
+
+来源：`t2358:s697`, `t2358:s698`, `t2358:s699`, `t2358:s700`, `t2358:s701`, `t2358:s702`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=5025)
+
+原文：而且尽管这个解释is of greatimportance，它具有很大的重要性啊。In spite of my shift and对于我的主要的那个结论具有很大的重要性。It does not belong essentiallyto，但是它并不是必然的，它并不是必要的。虽然它很重要，但不是必要的。Because the chief question alwaysremains，因为主要的问题总会停在那边。What and how much can understanding and reason recognize free of all experience？
+
+整理稿：尽管这一解释具有很大的重要性，对我要得出的主要结论也很重要，但它并不是本质上必需的，并不是必要的。虽然它很重要，但并非必要。因为主要问题始终摆在那里：知性和理性在摆脱一切经验之后，能够认识什么、能够认识多少？
+
+## 段落 82：01:24:10 — 01:25:09
+
+来源：`t2358:s703`, `t2358:s704`, `t2358:s705`, `t2358:s706`, `t2358:s707`, `t2358:s708`, `t2358:s709`, `t2358:s710`, `t2358:s711`, `t2358:s712`, `t2358:s713`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=5050)
+
+原文：就是呃知性呢和理性呢它可以how much它可以cognize free of all experience？它它what？它可以了解什么？它可以就是说如果它不要所有的经验的话，那么人的知性和理性它可以去认识什么？它可以认识什么？啊以及它可以认识多少？这个问题呃是主要问题，就是摆脱了经验，不要经验，我们还可以认识到多少东西？And not？这个是主要问题，这个问题不是主要问题，就是说how is the faculty of thinking itself possible？就是知性官能本身是如何可能的？这个问题不是很重要。其实这个问题对于黑格尔这个问题才是首首要问题啊，这个问题才是首要问题。So the不仅the faculty of
+
+整理稿：也就是说：知性和理性在摆脱一切经验之后，能够认识什么、能够认识多少？这是主要问题：如果没有经验，我们还能认识到多少东西？而不是：思维官能、知性官能本身如何可能？这个问题并不重要。其实对黑格尔来说，后一个问题才是首要问题。
+
+## 段落 83：01:25:09 — 01:25:41
+
+来源：`t2358:s714`, `t2358:s715`, `t2358:s716`, `t2358:s717`, `t2358:s718`, `t2358:s719`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=5109)
+
+原文：thinking，而而是那个呃那个那那那那那那那那个appearance，就是现象的这个维度，认识论的维度，它是如何从本体论的维度产生出来的？这是这是辩证法的一个核心问题啊。那么康德是他妈的没办法，他是在这里就失之交臂的啊。因为他认为这个东西怎么可能，自己怎么可能他是不管的啊，他这个是上帝的嘛，创造给我的，我不管了。Since the latter question is something like the search for the cause of a given effect，and is therefore something like a
+
+整理稿：不仅是思维官能的问题，而且是 appearance，也就是现象这个维度、认识论的维度，如何从本体论的维度产生出来——这才是辩证法的核心问题。康德在这里没办法，他在这一点上失之交臂。因为他认为，这个东西自己怎么可能？他不管这个问题；这是上帝创造给我的，我不管了。
+
+## 段落 84：01:25:41 — 01:26:34
+
+来源：`t2358:s720`, `t2358:s721`, `t2358:s722`, `t2358:s723`, `t2358:s724`, `t2358:s725`, `t2358:s726`, `t2358:s727`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=5141)
+
+原文：hypothesis，因为后面这个问题它是某种东西看上去好像是要搜寻一个已经被给予的一个一个结果的一个原因。然后呢，因此它就好像某个某个假设。尽管啊I will elsewhere take the opportunity toshow，我在其他地方就有机会去表明它实际上this is not in fact how mattersstand，实际上不是这样的，实际上这个不是这样的，实际上这个问题并不是这样的，它不是一个假设。Itappears，嗯，是这里其实很有很有问题啊，就是how matters stand？这指指的是他妈的到底是意思是this is not in fact how matters stand？是意思是这个不是假设，还是指的是这个假设是错的？妈的，老子。It appears as if I am taking the liberty in the in this case of expression an
+
+整理稿：后面这个问题，也就是“思维官能本身如何可能”，有点像去寻找一个已被给予的结果的原因，因此看起来像某种假设。尽管我将在别处找机会表明，实际上事情并非如此——这个问题并不是这样的，它不是一个假设。这里其实很成问题：所谓“事情并非如此”，到底是指它不是一个假设，还是指这个假设是错的？
+
+- 疑点：“事情并非如此/not how matters stand”在原文中究竟指“它不是一个假设”，还是指“这个假设是错的”，讲话者本人也在追问；正文保留这一歧义。；候选：它不是一个假设，还是这个假设是错的；依据：t3332:s2071, t3332:s2072, t3332:s2073
+
+## 段落 85：01:26:34 — 01:27:26
+
+来源：`t2358:s728`, `t2358:s729`, `t2358:s730`, `t2358:s731`, `t2358:s732`, `t2358:s733`, `t2358:s734`, `t2358:s735`, `t2358:s736`, `t2358:s737`, `t2358:s738`, `t2358:s739`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=5194)
+
+原文：opinion，就好像是我好像在获得这种自由，在这种情况就是你思考思考这个理性就是思维能力是如何可能的？是不是像像是形而上学问题？它是不是像形而上学问题？思想是如何可能？因为你他妈已经在思想了。如果你要去探查已经发生的思想的这个前提的话，这是不是要突破思想的界限呢？那就是，那么对于康德来说，这这这种东西像形而上学问题，这种东西就有问题。这种东西看上去像一个意见。这个时候我就好像我就有自由，康德就认为他就有自由，在这种情况下能够表达一个意见。我发表一下意见，我认为这个东西是九天玄女，我认为这个一这个东西是是这个什么什么什么太上老君啊给我的。就是这个时候就给的是意见。And that the reader might therefore be free to hold anotheropinion，就好像我能够提这个意见，那么读者就可以提另外一个意见了。In view of t h i s，I m u s t r e m i n d t h e r e a d e r i n a d v a n c e t h a t e v e n i n c a s e m y s u b j e c t i v e d e d u c t i o n，那么关于这一点呢，你们看到这一点呢，我必须提醒读者，提前提醒读者，就是在我的这种主观的演绎过程当中，它并不会产生一种。D o e s n o t p r o d u c e t h e c o m p l e t e完整的一个这个c o n v i c t i o n完整的这种坚定的信念，我所期盼的坚定信念。T h e o b j e c t i v e d e d u c t i o n t h a t i s m y p r i m a r y c o n c e r n，那种客观演绎就是这些东西就是主观演绎了，主观演绎了，就是第二个问题就是主观演绎了。就是说这个不是我的主要问题，就t h e o t h e r s i d e啊t h e o t h e r s i d e就是关于这个纯粹知性本身它是怎么可能的，它的这个认识能力是从哪来的这个问题，它是一个次要的问题，它是个次要，它是一种主主观的演绎。我不是很，我我自己也不是很懂，我我的妈的，我不是很懂啊。这康德是康德在这个以上还是蛮谦虚的，但是他他其实不谦虚，他因为他把这个东西说成是o b j e c t i v e，而把这个东西说成s u b j e c t i v e，他这里已经是不谦虚了。那么这种客观演绎的t h a t i s m y p r i m a r y c o n c e r n w o u l d c o m e i n t o i t s f u l l s t r e n g t h，它会是全力，我会全力来来搞这个东西的。O n w h i c h w h a t i s s a i d a t p a g e s就是A版的九十二到九十三页s h o u l d e v e n b e s u f f i c i e n t b y i t s e l f，那么关于这个东西呢，在呃在这个九十二页到九十三页上写的东西，甚至是它自己都是充足的，就是充分的。F i n a l l y，我靠，我在讲多少？我要去休息了。最终a s r e g a r d t o c l a r i t y这个呃这个简明就是清晰性啊，清晰清楚清楚明白。T h e r e a d e r h a s r i g h t t o d e m a n d f i r s t d i s c u r s i v e l o g i c a l c l a r i t y，首先你可以去读者啊有一个权利就可以去要求，首先是什么？是这个话语上的清晰性，就是逻辑上的清晰性。通过概念，b u t t h e n a l s o i n t u i t i v e美学上的就是感性论上的就是直观上的清晰性。通过直观，就是不仅在概念上是清晰的，而且在直观上也清晰的。T h a t i s t h r o u g h e x a m p l e s o r o t h e r，就是那么怎么让直观上清晰呢？我们要通过例子或者其他一些。
+
+整理稿：这看起来好像是我在擅自表达一种意见。你思考理性、思考思维能力如何可能，这难道不像一个形而上学问题吗？思想是如何可能的？因为你已经在思想了。如果你要去探查已经发生的思想的前提，这是不是要突破思想的界限？对康德来说，这种东西像形而上学问题，就有问题；它看上去像一个意见。这个时候，我好像就有自由，康德也认为他有自由，可以在这种情况下表达一个意见。我来发表一下意见：我认为这个东西是九天玄女，我认为这个东西是太上老君给我的——这个时候给出的就是意见。因此，读者也可以自由地持有另一种意见。
+
+## 段落 86：01:27:26 — 01:29:05
+
+来源：`t2358:s740`, `t2358:s741`, `t2358:s742`, `t2358:s743`, `t2358:s744`, `t2358:s745`, `t2358:s746`, `t2358:s747`, `t2358:s748`, `t2358:s749`, `t2358:s750`, `t2358:s751`, `t2358:s752`, `t2358:s753`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=5246)
+
+原文：thisI must remind the reader in advance that even in case mysubjective deduction那么关于这一点呢你们看到这一点呢我必须提醒读者提前提醒读者就是在我的这种主观的演绎过程当中它并不会产生一种Does not produce the complete完整的一个这个conviction完整的这种坚定的信念我所期盼的坚定信念The objective deduction that is my primary concern那种客观演绎就是这些东西就是主观演绎了主观演绎了就是第二个问题就是主观演绎了就是说这个不是我的主要问题就the other side啊the other side就是关于这个纯粹知性本身它是怎么可能的它的这个认识能力是从哪来的这个问题它是一个次要的问题它是个次要它是一种主主观的演绎我不是很我我自己也不是很懂我我的妈的我不是很懂啊这康德是康德在这个以上还是蛮谦虚的但是他他其实不谦虚他因为他把这个东西说成是objective而把这个东西说成subjective他这里已经是不谦虚了那么这种客观演绎的that is my primary concern would come into its fullstrength它会是全力我会全力来来搞这个东西的On which what is said at pages就是A版的九十二到九十三页should even be sufficient by itself那么关于这个东西呢在呃在这个九十二页到九十三页上写的东西甚至是它自己都是充足的就是充分的Finally我靠我在讲多少我要去休息了
+
+整理稿：有鉴于此，我必须提前提醒读者：即便在我的主观演绎中，它也不会产生我所期盼的那种完整而坚定的信念。那种客观演绎才是我的主要关切。另一个方面，也就是第二个问题——关于纯粹知性本身如何可能、它的认识能力从何而来——则是主观演绎，是次要问题，不是我的主要问题。我自己也不是很懂。康德在这个意义上还蛮谦虚的，但他其实并不谦虚，因为他把客观演绎说成 objective，把主观演绎说成 subjective，这已经是不谦虚了。这种客观演绎——that is my primary concern——会全力展开，我会全力来搞这个东西。关于这一点，A版第92到93页所写的内容本身甚至就已经是充分的。我靠，我都讲了多少？我要去休息了。
+
+## 段落 87：01:29:08 — 01:29:50
+
+来源：`t2358:s754`, `t2358:s755`, `t2358:s756`, `t2358:s757`, `t2358:s758`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=5348)
+
+原文：最终as regard to clarity这个呃这个简明就是清晰性啊清晰清楚清楚明白The reader has rightto demand first discursive logical clarity首先你可以去读者啊有一个权利就可以去要求首先是什么是这个话语上的清晰性就是逻辑上的清晰性通过概念but then also intuitive美学上的就是感性论上的就是直观上的清晰性通过直观就是不仅在概念上是清晰的而且在直观上也清晰的That is throughexamples or other就是那么怎么让直观上清晰呢我们要通过例子或者其他一些事例啊，in
+
+整理稿：关于清晰性——clarity，也就是清楚、明白——读者有权首先要求 discursive/logical clarity，即话语上、逻辑上的清晰性，这是通过概念达到的；但读者也有权要求 intuitive clarity，即美学上、感性论上、直观上的清晰性，这是通过直观达到的。也就是说，不仅要在概念上清晰，而且要在直观上也清晰。这要通过例子或其他事例来做到。
+
+## 段落 88：01:29:51 — 01:31:37
+
+来源：`t2358:s759`, `t2358:s760`, `t2358:s761`, `t2358:s762`, `t2358:s763`, `t2358:s764`, `t2358:s765`, `t2358:s766`, `t2358:s767`, `t2358:s768`, `t2358:s769`, `t2358:s770`, `t2358:s771`, `t2358:s772`, `t2358:s773`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=5391)
+
+原文：concrete就具体的一些事例啊，具体的一些例子，插图啊，甚至是我靠，他们应该是他会有一些小插图，很矬的，那康德那个时候画的跟工程图一样的。Ihave那不叫插图了，那个就是把东西罗列在一块，弄几个横线画一画。I have taken sufficient care for theformer啊，我已经对于前者啊，就是说这个前面一个逻辑上的这种呃这种呃清晰性啊，我是呃给他提供了足够的这个照顾了啊。That was essential to myundertaking，他对于我做的事情是是必要的，but was also the contingent cause of the factor。但是同时它也是一个偶然这个原因啊，一个什么原因啊？就是I could notsatisfy就是也是因为我没有办法满足第二个，所以我要把前面一个搞得特别详实。我没有办法满足特别好的满足第二个，就是搞插图啊，或者让你直观上弄的这个体系很清楚，所以我只能尽量的在前面一个逻辑上，哎，这妈这个话说的我操滴水不漏，但是很恶心，我跟你讲，这代表这个小小拧巴，这个康德他妈小拧巴。你就第二个你弄不了就弄不了吧，你非要说什么你第一个弄得很详实，是因为第二个我弄不好，所以我第一个弄得特详实，所以你就放了饶了我吧。哎呦，Ihave哦我受不了了啊，I could not satisfy the seconddemand，我没有办法满足第二个需求，which is less strict but stillfair啊，它是不那么严格了，但是它还是很很重要的啊，也还是很合理的一个要求。你就要读者我要让这本书看上去直观的清晰，那么不好意思我没有那个能力。In the progress of my
+
+整理稿：具体的事例、具体的例子、插图——我靠，书里应该会有一些小插图，很粗糙；康德那时候画的跟工程图一样。那其实不叫插图，只是把东西罗列在一块，画几条横线。对于前者，也就是逻辑上的清晰性，我已经给予了足够的关注；这对我所做的工作是必要的，但同时也是那个偶然的原因：因为我无法满足第二个要求，所以我要把前一个搞得特别详实。第二个要求，也就是搞插图、让你在直观上把体系弄得很清楚，我没有办法特别好地满足。这话说得滴水不漏，但很恶心，说明康德有点小拧巴：第二个弄不了就弄不了吧，非要说什么第一个弄得详实是因为第二个弄不好，真是饶了我吧。第二个要求虽然不那么严格，但仍然是很重要、很合理的要求。读者要求这本书在直观上清晰，那我只能说不好意思，我没有那个能力。
+
+- 疑点：“偶然的原因”具体指什么，原文表述较含混；正文保留原意，未作补充解释。；候选：偶然的原因；依据：t3332:s2184
+
+## 段落 89：01:31:37 — 01:33:07
+
+来源：`t2358:s774`, `t2358:s775`, `t2358:s776`, `t2358:s777`, `t2358:s778`, `t2358:s779`, `t2358:s780`, `t2358:s781`, `t2358:s782`, `t2358:s783`, `t2358:s784`, `t2358:s785`, `t2358:s786`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=5497)
+
+原文：labor，在我这个思考的过程当中，I have been almost constantly undecided how to deal with this matter。我一直基本上一直持续的是没办法决定如何去解决这个问题。Examples andillustrations always appeared necessary tome，就是例子和这个图示呢，它总是对于我来说其实是很必要的。别找理由的，and and hence actuallyactually你画画不行呀。Appeared in their proper place in my firstdraft，在我第一版的啊第一版草稿里面，它确实是有一席之地的啊，theirproper它这么的应该待的地方都都是有的。But then I look at the size of my task and the many objects with which I would have todo，就是我看看到我的这个任务他妈的太大了啊，还有还有很多这个我必须去处理的一些很多这个那个内容。And I became aware that this a l o n e，p r e t t y i n a d r y m e r e l y s c h o l a s t i c m a n n e r，我我意识到就是说这本书它以一种干燥的，仅仅是一种学者性的学术性的一种方式，w o u l ds u f f i c e就足够去填补一个这个e x t e n s i v e一个alonepretty in a drymerely scholastic manner我我意识到就是说这本书它以一种干燥的仅仅是一种学者性的学术性的一种方式would suffice就足够去填补一个这个extensive一个啊，足够去代替一个太太他妈的写的太多的一个工作，feel足够去填充一个，就足够已经写的很多了，只我写的很干燥，写的很学究的一种方式，就已经会把这个这本书写的很多了。Thus I found it
+
+整理稿：在我思考的过程中，我几乎一直拿不定主意该如何处理这件事。例子和图示对我来说总是显得必要——别找理由了，其实就是你画画不行。它们在我第一版草稿里本来都有合适的位置。但后来我看到任务之大，以及我必须处理的许多对象，我意识到，单凭这种干燥的、纯粹学究的方式，就足以写成一部篇幅很大的著作；也就是说，以这种干燥、学究的方式，已经会把这本书写得很长。因此，我发现，再以例子和插图来扩充它并不合适。
+
+- 疑点：末尾“Thus I found it”在可编辑段中未完成；正文按后续参考字幕补足为“再以例子和插图来扩充它并不合适”。；候选：再以例子和插图来扩充它并不合适；依据：t3332:s2258
+
+## 段落 90：01:33:07 — 01:34:25
+
+来源：`t2358:s787`, `t2358:s788`, `t2358:s789`, `t2358:s790`, `t2358:s791`, `t2358:s792`, `t2358:s793`, `t2358:s794`, `t2358:s795`, `t2358:s796`, `t2358:s797`, `t2358:s798`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=5587)
+
+原文：inadvisable to swell it further with examples andillustrations。所以我发现我没有必要他妈的，呃，不明智了，再去搞一些swellit，再去把它塞满，塞满，进一步塞满，用例子和一些图示来塞满。Which are necessary only for a popular aim。就是如果我要搞图示和这个注释的话，它只是出于一种让大众喜欢的一个目的。Especially since this work could never be made suitable for popular use。特别是，尤其是因为这本书呢，它其实不适合啊，让那个大众来使用啊。And the real experts in this sense do not have so much need for things。然后真正的专家呢，在这个，在这个哲学领域，真正的专家他并没有这么多的需求去for things to be made easy forthem，不需要把东西对他们变得很，弄些图表让他们看上去好像很简单。Although this would always be agreeable。啊，here it could also be brought with it somethingcounter，呃，productive。看上去，尽管就加插图这种方式，看上去也是值得被称赞的，agreeable，令人愉快的，讨喜的，讨人喜欢的，但是它会使得整件事情变得不那么啊，productive，不那么高效，不那么就是太慢了，不那没什么意思，没什么成效。
+
+整理稿：所以我认为，没有必要不明智地再用例子和图示把这本书进一步塞满（inadvisable to swell it further with examples and illustrations）；这些只是通俗目的才需要的（which are necessary only for a popular aim）。如果我要加图示和注释，那只是为了让大众喜欢；尤其是因为这本书根本不适合大众使用（this work could never be made suitable for popular use）。真正的专家——在这个哲学领域——并没有那么大的需求，需要把东西为他们弄得容易，弄些图表让他们觉得好像很简单（the real experts do not have so much need for things to be made easy for them），尽管这总是令人愉快、讨喜（agreeable）。加插图看上去值得称赞，但在这里也可能带来反效果（counterproductive）：它会让整件事变得不那么高效、没什么成效。
+
+## 段落 91：01:34:26 — 01:36:37
+
+来源：`t2358:s799`, `t2358:s800`, `t2358:s801`, `t2358:s802`, `t2358:s803`, `t2358:s804`, `t2358:s805`, `t2358:s806`, `t2358:s807`, `t2358:s808`, `t2358:s809`, `t2358:s810`, `t2358:s811`, `t2358:s812`, `t2358:s813`, `t2358:s814`, `t2358:s815`, `t2358:s816`, `t2358:s817`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=5666)
+
+原文：呃，the这个人啊，Abbe什么Tarsen啊，他说that if the size of book is measured not by the number of pages but by the time needed to understand i t，t h e n i t c a n b e s a i d o f m a n y a b o o k t h a t i t w o u l d b e m u c h s h o r t e r i f w e r e n o t s o s h o r t e r。就像这个家伙所说的，如果一本书的这个尺寸啊，大小是不是被它的页数衡量的，而是被需要去理解它的那个花了时间来衡量的，那么就可以说很多书它就会变得很短。啊，如果它不是那么短的话，它会变得很短。就是很多书其实意思就是很多书其实他妈都是废话，是乏味的。这其实我认为康德里写的书也差不多，兄弟。B u t o n t h e o t h e r h a n d，但是另外一方面，如果我们直接d i r e c t o u r v i e w t o w a r d s t h e i n t e l l i g i b i l i t y o f a w h o l e o f s p e c u l a t i v e c o g n i t i o n t h a t i s w i d e r a n g i n g a n d y e t i s c o n n e c t e d i n p r i n c i p l e，w e c o u l d w i t h e q u a l r i g h t s a y t h a t m a n y a b o o k w o u l d h a v e b e e n m u c h c l e a r e r i f i t h a s n o t b e e n m a d e q u i t e s o c l e a r。就是说，如果我们啊，指导我们的这个呃，这个观察，指导我们这个方法态度啊，显示方法，就是对于这种一整个整体的可理解性，可理解性，可理解性，就是a w h o l e o f一整个什么东西啊，就是一整个的那种思辨认知活动的可理解性。itthen it can be said of many a book that it would be much shorterif were not so shorter就像这个家伙所说的如果一本书的这个尺寸啊大小是不是被它的页数衡量的而是被需要去理解它的那个花了时间来衡量的那么就可以说很多书它就会变得很短啊如果它不是那么短的话它会变得很短就是很多书其实意思就是很多书其实他妈都是废话是乏味的这其实我认为康德里写的书也差不多兄弟But on the other hand但是另外一方面如果我们直接direct our view towards the intelligibility of a wholeof speculative cognition that is wide ranging and yet is connectedin principlewe could with equal right say that many a book wouldhave been much clearer if it has not been made quite so clear就是说如果我们啊指导我们的这个呃这个观察指导我们这个方法态度啊显示方法就是对于这种一整个整体的可理解性可理解性可理解性就是a wholeof一整个什么东西啊就是一整个的那种思辨认知活动的可理解性如果我们把我们对于它的看待方式这样去，呃，这样去direct，这样去引导的话，使得that is wideranging，嗯，这个思辨认知呢，它是wideranging，它的范围是非常广的，and yet isconnected，然后，但是呢，它还是在原则上相互彼此连接在一起的，它是一个整体系的。我们可以，呃，有同样的这个权利说，许多书what have been muchclear，如果我们能够把这个书啊，用一种，用它上面所说的，把它联系起来，然后，按原则上联系起来，那么许多书就会变得更加清晰，如果它不是那么清晰的。If it had not been made quite so c l e a r，f o r t h i s a i d s t o，这样的话就有一种，因为，因为这样的话就对于这个t h i s a i d s t o c l a r i t y，这，这对于这个它的清晰性是有好处的。H e l p i n t h e p a r t s，呃，b u t o f t e n c o n f u s e d i n t h e w h o l e，s i n c e t h e r e a d e r c a n n o t q u i c k l y e n o u g h a t t a i n a s u r v e y o f t h e w h o l e。嗯，应该是这个意思，应该是s o c l e a r，m a n y b o o k s w o u l d h a v e b e e n m u c h c l e a r i f h a d。哦，知道了，我知道了，他的意思就是说，如果这本书没有被做的那么清楚的话，它反而会变得更清楚。就是说，如果你搞了很多图示啊，搞了很多图表呀，想要把它做的清楚，其实你反而让它变得更模糊了，反而你把它，把它变得不那么清楚了。他的意思就是说，如果这本书没有被做的那么清楚的话，那么这本书反而会变得更清楚。因为你如果想，就是想要去让它变得更更清晰，就搞了图表啊，搞了一些图示啊，什么搞了例子，啊，它会在部分上起起到好的作用，促进作用，但是呢，它总是会在整体上，会把人搞得头昏，头昏脑花。他妈什么意思啊？因为这个读者呢，不能够快速的，足够快速的去获得对于整个整体的一个一个研究调查一个把握，a s u r v e y，一个把握。A n d a l l t h e i r b r i g h t c o l o r s p a i n t o v e r a n d m a k e u n r e c o g n i z a b l e t h e a r t i c u l a t i o n o r s t r u c t u r e o f t h e s y s t e m。所有这些亮丽的颜色画的那些东西画在上面的，a n d m a k e，p a i n t o v e r，p a i n t o v e r，画在上面，以及是使得它那个整个体系的这个这个a r t i c u l a t i o n，就是清晰的阐明和结构变得不可辨认的那些颜色啊，或者什么这些东西。呃，w h i c h y e t m a t t e r s m o s t w h e n i t c o m e s t o j u d g i n g i t s u n i t y a n d s o u n d n e s s。就是就会，哎，他妈的，这后面这个w h i c h，就是它后面那个w h i c h指的是前面这个东西啊，就是说，真正重要的是，呃，这整个系统的体系的一个清楚的阐阐述和它的结构。那么这个系统的清楚阐述和结构呢，它是最重要的。
+
+整理稿：有一位叫 Abbe Tarsen 的人说：如果一本书的大小不是按页数衡量，而是按理解它所需的时间衡量，那么可以说，很多书如果不像现在这么短，反而会短得多（if the size of a book is measured not by the number of pages but by the time needed to understand it, then it can be said of many a book that it would be much shorter if it were not so short）。也就是说，很多书其实都是废话，是乏味的。我认为康德里写的书也差不多。但另一方面，如果我们把目光直接转向一个范围广泛、原则上又相互连接的思辨认知整体的可理解性（direct our view towards the intelligibility of a whole of speculative cognition that is wide ranging and yet is connected in principle），我们同样有理由说，很多书如果没有被弄得那么清楚，反而会清楚得多（many a book would have been much clearer if it had not been made quite so clear）。也就是说，这种思辨认知范围很广，但原则上彼此连接，是一个成体系的整体；按这种看待方式，许多书会变得更清晰，如果它没有被弄得那么清晰。
+
+- 疑点：人名 Abbe Tarsen 的拼写不确定，参考字幕作“被什么terrorson”，可能是 Abbé Terrasson。；候选：Abbé Terrasson；依据：t2358:s799, t3332:s2295
+- 疑点：“康德里”疑为专名识别错误，不能确认是否指康德。；候选：康德；依据：t3332:s2310
+
+## 段落 92：01:36:37 — 01:38:06
+
+来源：`t2358:s818`, `t2358:s819`, `t2358:s820`, `t2358:s821`, `t2358:s822`, `t2358:s823`, `t2358:s824`, `t2358:s825`, `t2358:s826`, `t2358:s827`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=5797)
+
+原文：clearfor this aids to这样的话就有一种因为因为这样的话就对于这个this aids to clarity这这对于这个它的清晰性是有好处的Help in the parts呃but often confused in the wholesincethe reader cannot quickly enough attain a survey of the whole嗯应该是这个意思应该是so clearmany books would have been much clear if had哦知道了我知道了他的意思就是说如果这本书没有被做的那么清楚的话它反而会变得更清楚就是说如果你搞了很多图示啊搞了很多图表呀想要把它做的清楚其实你反而让它变得更模糊了反而你把它把它变得不那么清楚了他的意思就是说如果这本书没有被做的那么清楚的话那么这本书反而会变得更清楚因为你如果想就是想要去让它变得更更清晰就搞了图表啊搞了一些图示啊什么搞了例子啊它会在部分上起起到好的作用促进作用但是呢它总是会在整体上会把人搞得头昏头昏脑花他妈什么意思啊因为这个读者呢不能够快速的足够快速的去获得对于整个整体的一个一个研究调查一个把握a survey一个把握And all their bright colors paint
+
+整理稿：这样做对清晰性是有好处的（this aids to clarity），在部分上有帮助，但在整体上常常令人困惑（help in the parts but often confused in the whole），因为读者不能足够快地把握整体（since the reader cannot quickly enough attain a survey of the whole）。我明白了：如果这本书没有被弄得那么清楚，它反而会变得更清楚。你搞了很多图示、图表、例子，想把它做得清楚，其实反而让它更模糊、更不清楚。它会在部分上起好的作用、促进作用，但在整体上总把人搞得头昏脑花。读者无法快速获得对整体的 survey，即一种把握。
+
+## 段落 93：01:38:06 — 01:39:00
+
+来源：`t2358:s828`, `t2358:s829`, `t2358:s830`, `t2358:s831`, `t2358:s832`, `t2358:s833`, `t2358:s834`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=5886)
+
+原文：over and make unrecognizable the articulation or structure ofthe system所有这些亮丽的颜色画的那些东西画在上面的and makepaintoverpaint over画在上面以及是使得它那个整个体系的这个这个articulation就是清晰的阐明和结构变得不可辨认的那些颜色啊或者什么这些东西呃which yet matters most when it comes to judgingits unity and soundness就是就会哎他妈的这后面这个which就是它后面那个which指的是前面这个东西啊就是说真正重要的是呃这整个系统的体系的一个清楚的阐阐述和它的结构那么这个系统的清楚阐述和结构呢它是最重要的当你要去判断它的这个总体性的，它的那个整体性，它的统一
+
+整理稿：而且，所有这些亮丽的颜色涂在书上（all their bright colors paint over），会使体系的结构或清晰阐明变得不可辨认（make unrecognizable the articulation or structure of the system）。而在判断体系的统一性和可靠性时，最重要的恰恰是这种结构（which yet matters most when it comes to judging its unity and soundness）。真正重要的是整个体系清楚的阐述和它的结构；这个系统的清楚阐述和结构是最重要的。
+
+## 段落 94：01:39:00 — 01:40:13
+
+来源：`t2358:s835`, `t2358:s836`, `t2358:s837`, `t2358:s838`, `t2358:s839`, `t2358:s840`, `t2358:s841`, `t2358:s842`, `t2358:s843`, `t2358:s844`, `t2358:s845`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=5940)
+
+原文：性和它的那个soundness，就是它的那个s o u n d，i t's s o u n d，它是很站得住脚的，它是否站得住脚的？我把这段讲完结束了。车轱辘话其实都是，i t c a n a s i t s e e m s t o m e，呃，就对我来说，对我来说，c a n b e n o s m a l l i n d u c e m e n t f o r t h e r e a d e r t o u n i t e h i s e f f o r t t o u n i t e h i s e f f o r t w i t h t h a t o f t h e a u t h o r w h e n h e h a s t h e p r o s p e c t o f c a r r y i n g o u t a c c o r d i n g t o t h e o u t l i n e g i v e n a b o v e a g r e a t a n d i m p o r t a n t p i e c e o f b o o k a n d t h a t i n a c o m p l e t e a n d l a s t i n g w a y。就对我来说，这个诱惑很大，诱惑挺大的，就是对于一个读者要把他的这个努力啊和这个作者努力给他结合起来。当他拥有的，呃，对于这个，呃，按照这个这个o u t l i n e g i v e n a b o v e提前给出一个大纲的这种方式，啊，当他拥有了这么一种前见前景，啊，c a r r y i n g o u t a g r e a t能够去啊完成c a r r y i n g o u t坚持一个一个巨大的和重要的一一部书，h a s a n d t h a t i n a c o m p l e t e a n d l a s t i n g w a y一个完整的和这个持续的书，它就是告诉你，这边就是要讨论我要不要给这个书搞一个很详实的大纲了。N o w m e t a p h y s i c s，那么现在形而上学根据a c c o r d i n g t o t h e c o n c e p t s w e w i l l g i v e o f i t h e r e，根据我们在这里要对它要给出的一些概念，i s t h e o n l y o n e o f a l l t h e s c i e n c e s t h a t m a y p r o m i s e t h a t l i t t l e b u t u n i f i e d e f f o r t，它是唯一一个关于所有的科学，它可能是允诺了那些几乎没有，但是是u n i f i e d，但是是一个统一的一种努力。A n d t h a t i n d e e d i n a s h o r t t i m e，而且事实上事实上也在一个很短的时间内将会完成它。I n s u c h w a y t h a t n o t h i n g r e m a i n s t o p o s t e r i t y，啊，事实上w i l l c o m p l e t e i t i n s u c h w a y以这种方式来完结它，没有东西会留下来留给后代，除了去a d a p t i t i n a以一种辩证的方式去呃e x p e c t来去调整它适应它，来去改造它改造它t o i t s i n t e n t i o n s来去实现它的目的。Y e t w i t h o u t b e i n g a b l e t o a d d t o i t s c o n t e n t i n t h e l i s t，尽管没有能力去呃没尽管没有能力f o r i t i s n o t h i n g b u t i n v e n t o r y o f a l l w e p o s s e s s t h r o u g h f e w r e a s o n，啊，这里就讲的要不要给个大纲了，他会告诉你形而上学以前就是相当于科学大纲，但是现在这个形而上学呢，它就是呃m e t a p h y s i c s。soundit's sound它是很站得住脚的它是否站得住脚的我把这段讲完结束了车轱辘话其实都是it can as it seems to me呃就对我来说对我来说can be no small inducementfor the reader to unite his effortto unite his effort with that of the author when he has the prospectof carrying out according to the outline given above a greatand important piece of book and that in a complete and lastingway就对我来说这个诱惑很大诱惑挺大的就是对于一个读者要把他的这个努力啊和这个作者努力给他结合起来当他拥有的呃对于这个呃按照这个这个outline given above提前给出一个大纲的这种方式啊当他拥有了这么一种前见前景啊carryingout a great能够去啊完成carrying out坚持一个一个巨大的和重要的一一部书
+
+整理稿：这种 soundness 就是它是否站得住脚。我把这段讲完就结束。其实都是车轱辘话：it can, as it seems to me, be no small inducement for the reader to unite his effort with that of the author when he has the prospect of carrying out, according to the outline given above, a great and important piece of book。对我来说，这个诱惑很大：读者有机会按照上面给出的大纲，完成一部巨大而重要的书，这会使他愿意把自己的努力和作者的努力结合起来。
+
+## 段落 95：01:40:14 — 01:41:52
+
+来源：`t2358:s846`, `t2358:s847`, `t2358:s848`, `t2358:s849`, `t2358:s850`, `t2358:s851`, `t2358:s852`, `t2358:s853`, `t2358:s854`, `t2358:s855`, `t2358:s856`, `t2358:s857`, `t2358:s858`, `t2358:s859`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6014)
+
+原文：has and thatin a complete and lasting way一个完整的和这个持续的书它就是告诉你这边就是要讨论我要不要给这个书搞一个很详实的大纲了Now metaphysics那么现在形而上学根据according to the conceptswe will give of it here根据我们在这里要对它要给出的一些概念is the only one of allthe sciences that may promise that little but unified effort它是唯一一个关于所有的科学它可能是允诺了那些几乎没有但是是unified但是是一个统一的一种努力And that indeed in a short time而且事实上事实上也在一个很短的时间内将会完成它In such way that nothing remains to posterity啊事实上will complete it in such way以这种方式来完结它没有东西会留下来留给后代除了去adaptit in a以一种辩证的方式去呃expect来去调整它适应它来去改造它改造它to its intentions来去实现它的目的Yet without being ableto add to its content in the list尽管没有能力去呃没尽管没有能力for it is nothing but inventory of all we possess throughfew reason啊这里就讲的要不要给个大纲了他会告诉你形而上学以前就是相当于科学大纲但是现在这个形而上学呢它就是
+
+整理稿：并且是以完整而持久的方式（and that in a complete and lasting way）。它就是告诉你，这里要讨论我要不要给这本书搞一个很详实的大纲。现在，形而上学，根据我们在这里要给出的概念（according to the concepts we will give of it here），是所有科学中唯一可以承诺一种虽小但统一的努力的科学（the only one of all the sciences that may promise that little but unified effort）。而且事实上，它会在很短的时间内完成它，以这样一种方式完成：没有东西留给后代，除了以辩证的方式把它调整、适应、改造到它的意图上（to adapt it in a dialectical manner to its intentions），却不能再增加它的内容；因为它不过是纯粹理性所拥有的全部东西的清单（inventory of all we possess through pure reason）。这里讲的就是要不要给大纲：形而上学以前相当于科学大纲，而现在这个形而上学，它就是 metaphysics。
+
+## 段落 96：01:41:54 — 01:43:01
+
+来源：`t2358:s860`, `t2358:s861`, `t2358:s862`, `t2358:s863`, `t2358:s864`, `t2358:s865`, `t2358:s866`, `t2358:s867`, `t2358:s868`, `t2358:s869`, `t2358:s870`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6114)
+
+原文：呃metaphysics The only one says promise little,but and that indeed should\.它在很短的时间将会完成它，以以这种方式，就是没有东西会留给后代，除了要把它改编成一种辩论的方法，辩证的方法，就形形而上学以后就不再是形而上学，而变成呃，diddidactic的不是辩证的，我他妈看错了，教学方法，教导法，就形而上学就不再是形而上学，而变成一个教导法，变成一种纯粹的一个知识知识大纲的那种东西啊。那么to its intentions来来manner to来满足它的那些那个intentions，就按照它的那个目的性来来把它改编成一个教学法的一个方法。Yet without beingable，尽管没有能力再去获得它的那些内容，再去获得形而上学那个一丝一毫的内容了。For it isnothing，因为它就形而上学什么都不是了，它只是所有我们所获得通过纯粹理性获得的一个inventory，一个清单，一个目录啊。Allordered
+
+整理稿：它是唯一一个承诺虽小、但确实应当如此的。它在很短的时间内就会完成，以这样一种方式：没有东西留给后代，除了把它改编成一种辩证的方法——不，我看错了，不是辩证的，而是教学法、教导法。也就是说，形而上学以后不再是形而上学，而变成一种教导法，变成一种纯粹知识大纲式的东西。按照它的目的性，把它改编成一种教学法的方法；尽管没有能力再去获得它的内容，再去获得形而上学一丝一毫的内容。因为它什么都不是了，它只是我们通过纯粹理性所获得的一个 inventory，一个清单、一个目录，全部被体系化地排列（all ordered）。
+
+## 段落 97：01:43:01 — 01:44:13
+
+来源：`t2358:s871`, `t2358:s872`, `t2358:s873`, `t2358:s874`, `t2358:s875`, `t2358:s876`, `t2358:s877`, `t2358:s878`, `t2358:s879`, `t2358:s880`, `t2358:s881`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6181)
+
+原文：是一个体系化的给它编成的，体体系化排列好了一个清单目录。Nothing here can escapeus，没有东西可以逃出我们，because what reason brings forth entirely out of itself cannot be hidden。因为理性提出来的东西，理性提出来的东西，完整的从他自己提出来的东西，完完全是从他自己提出的东西是没有办法藏起来的。这里其实又是一个预设，what what reason brings forth entirely out of itself cannot behidden，这是完全是一个意识，这是一个这是一个前现代啊，这这里是个前现代啊，前现代思想啊。什么叫理性？由他自己所提出来的东西是完全没有办法被隐藏。那如果理性本身是看some kinds ofhidden，它是本来就是一种void呢，是一种隐藏的。But is brought to light by reason itself as soon as reason's common principle has been discovered。啊，说这些东西只要是理性自己弄出来的，它立刻会被理性自己看到看清楚。只要是理性的这个呃一般原则被发现的时候，它就会被看清楚。The perfect unity of this kind of
+
+整理稿：这是一个体系化排列好的清单、目录。没有东西可以逃出我们（nothing here can escape us），因为理性完全从自身产生的东西不能被隐藏（because what reason brings forth entirely out of itself cannot be hidden）。这里其实又是一个预设：what reason brings forth entirely out of itself cannot be hidden。这是一个前现代的预设。什么叫理性？由理性自己所提出的东西完全没有办法被隐藏。那如果理性本身是某种隐藏的东西（some kinds of hidden），它本来就是一种隐藏，但一旦理性的一般原则被发现，它就会被理性自身带到光明中（brought to light by reason itself as soon as reason's common principle has been discovered）。也就是说，这些东西只要是理性自己弄出来的，它立刻会被理性自己看到、看清楚；只要理性的一般原则被发现，它就会被看清楚。这种思辨认知的完美统一（the perfect unity of this kind of cognition）。
+
+- 疑点：s877 的 some kinds of hidden 语义不清，暂按“某种隐藏的东西”整理。；候选：some kinds of hidden；依据：t2358:s877, t3332:s2522
+- 疑点：段末英文引文在 s881 处未完成，按上下文补为“思辨认知的完美统一”。；候选：the perfect unity of this kind of cognition；依据：t2358:s881, t3332:s2533
+
+## 段落 98：01:44:13 — 01:45:32
+
+来源：`t2358:s882`, `t2358:s883`, `t2358:s884`, `t2358:s885`, `t2358:s886`, `t2358:s887`, `t2358:s888`, `t2358:s889`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6253)
+
+原文：cognition，就这种这种认知，这一种认知的它的一个完美的一个统一体。And the fact that it arises solely out of pure concepts without any influence that would extend or increase it from experience or even particularintuition，就是以及这么一个事实，就是说它是单单是从纯粹概念当中产生出来，这而没有受到任何影响，受到那些呃会拓展它或者会去啊增加它啊从经验什么从里面从什么啊从经验或者甚至从一些特殊的直观当中去。啊，拓展和增加它的啊，增加了这个这个这个这这这这这这个这个认知的，增加这种认知的啊，呃，这这这种影响，哎，他妈的烦死了，这个句式结构，反正你们读得懂吧？应该是读懂吧？就是反正就是说，就是它，反正是纯的，就纯的啊，就是这种这种知识它是纯的，它是一个完美的一个一个统一体啊，它事实上它是完全是就是是从纯粹概念里面出来的，它没有受到任何污染，没有从这个经验或者从特殊直观当中获得其他任何东西，which would lead to a
+
+整理稿：这种认知是一个完美的统一体。它仅仅从纯粹概念中产生，不受任何会拓展或增加它的影响，既不来自经验，也不来自特殊直观。也就是说，这种知识是纯粹的，是一个完美的统一体；它完全从纯粹概念中产生，没有受到任何污染，也没有从经验或特殊直观中获得其他东西。
+
+## 段落 99：01:45:32 — 01:46:00
+
+来源：`t2358:s890`, `t2358:s891`, `t2358:s892`, `t2358:s893`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6332)
+
+原文：determinate，它就会它就会导致一个determinate，一个规定的一个规定性的一个体验，determinate一个确定的体验啊，determinate一个限定的体验，限定的经验啊，makes this unconditional completeness not only feasible but alsonecessary，就使得这种无条件的这种完整性不仅仅是可靠的，而且是必然的，不仅仅是可行的，而且是必然的，然后就是
+
+整理稿：这会导致一个 determinate，也就是一个规定性的、确定的、限定的体验，或者说限定的经验；它使这种无条件的完整性不仅可行，而且必然。
+
+## 段落 100：01:46:03 — 01:46:30
+
+来源：`t2358:s894`, `t2358:s895`, `t2358:s896`, `t2358:s897`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6363)
+
+原文：这个是是什么意思？又看不懂了，拉丁文，我靠，啊有有翻译啊，do it in your own house and you will know how simple your possessionsare，就是住在你自己家里面，你就会发现你的那个呃你的这个家具啊，应该是你的财产有多简单了，有多简单了，它就是因为它就是
+
+整理稿：这是什么意思？又看不懂了，是拉丁文。我靠，有翻译：do it in your own house and you will know how simple your possessions are，意思是，住在自己家里，你就会发现自己的财产有多简单。
+
+## 段落 101：01:46:30 — 01:46:55
+
+来源：`t2358:s898`, `t2358:s899`, `t2358:s900`, `t2358:s901`, `t2358:s902`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6390)
+
+原文：第一人称直观嘛，它其实是虽然它把它叫做客观客观客观演绎他妈的，其实它还是依靠死命依靠第一人直观，第一人称的一个内在的一个一个一个purereason，它说成是purereason是分析性的啊，是演绎性的，其实还是直观，实际上还是一种直观啊，一种本质直观，那么
+
+整理稿：这其实就是第一人称直观。虽然它把它称为客观演绎，其实还是死死依靠第一人称直观，依靠第一人称内在的纯粹理性。它说成是纯粹理性，是分析性的、演绎性的，其实还是直观，实际上还是一种本质直观。
+
+## 段落 102：01:46:57 — 01:47:25
+
+来源：`t2358:s903`, `t2358:s904`, `t2358:s905`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6417)
+
+原文：哎，还剩最后一段了，那我把它讲完吧，我操，那么这么一个纯粹的啊这种啊思辨理性啊的体系，I hope myself to deliver under the title metaphysicalnature，我想要去用这么一个题目，就是说呃自然形而上学的题目把它说出来，就是这个时候的那个就是说这个这个这个计划是没有完成的啊，应该是没完成的，
+
+整理稿：还剩最后一段，我把它讲完吧。这样一个纯粹的思辨理性体系，I hope myself to deliver under the title metaphysical nature，我想用“自然形而上学”这个题目把它讲出来。这个时候，这个计划并没有完成，应该是没完成的。
+
+## 段落 103：01:47:26 — 01:48:06
+
+来源：`t2358:s906`, `t2358:s907`, `t2358:s908`, `t2358:s909`, `t2358:s910`, `t2358:s911`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6446)
+
+原文：这个计划呃是他在这里吹牛逼啊，吹牛逼啊，他这个metaphysics就不再是metaph就不再是之前的metaphysics，这这个metaphysics就是一个知识分类学体系，就是知识分类学体系，然后里面就是完全都是由这个理性官能批判下来的那些东西，纯粹理性批判过后的那些东西，而没有任何是来自于经验或者来自于这个这particularintuition特殊的直观的。都是都是一些纯的啊，他他认为这种东西speculative吧，它是一种思辨理性啊，纯粹的思辨理性。
+
+整理稿：这个计划是他在这里吹牛。他这个 metaphysics 不再是之前的 metaphysics；这个 metaphysics 就是一个知识分类学体系，里面完全是由理性官能批判下来的东西，是经过纯粹理性批判的东西，没有任何东西来自经验，或者来自 particular intuition（特殊直观）。它们都是一些纯粹的东西。他认为这种东西是 speculative，是一种思辨理性，纯粹的思辨理性。
+
+## 段落 104：01:48:07 — 01:48:25
+
+来源：`t2358:s912`, `t2358:s913`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6487)
+
+原文：呃，第二版的时候应该是已经这个序言里面已经没有那么大放厥词了，已经没有那么那么装逼了。这个时候他认为他还可以搞个自然形而上学，但是这个形而上学只是一个只是一个只是一个纯的那个教法学一个目录一个清单，纯粹理性的一个清单。
+
+整理稿：第二版的时候，序言里已经没有那么大放厥词，也没有那么装逼了。这时他认为自己还可以搞一个自然形而上学，但这个形而上学只是一个纯粹的教法学、一个目录、一个清单，是纯粹理性的一个清单。
+
+- 疑点：“教法学”疑为康德术语“建筑术”（architectonic），但字幕如此，未能确认。；候选：建筑术；依据：t3332:s2633
+
+## 段落 105：01:48:25 — 01:49:07
+
+来源：`t2358:s914`, `t2358:s915`, `t2358:s916`, `t2358:s917`, `t2358:s918`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6505)
+
+原文：他认为纯粹理性可以去渗透到那些自然科学内部去啊，will which will be not have so extensivebut啊，will be incomparableincomparable richer in content than this critique not have so extensive。什么叫not have so extensive啊？非半如此extensive，妈了个巴子，广泛就是说它不会是那么包罗万象，但是它会是无比的，就是和我们现在这个纯粹理性批判相比，它会是非常的饱满的，非常饱满。
+
+整理稿：他认为纯粹理性可以渗透到自然科学内部去。它 will not have so extensive，也就是不会那么广泛、不会那么包罗万象；但 will be incomparable richer in content than this critique，与这部《纯粹理性批判》相比，它的内容会无比丰富、非常饱满。
+
+- 疑点：原文英文为 will which will be not have so extensive，语法不完整；正文按上下文理解为“不会那么广泛、不会那么包罗万象”。；候选：；依据：t3332:s2638
+
+## 段落 106：01:49:08 — 01:49:33
+
+来源：`t2358:s919`, `t2358:s920`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6548)
+
+原文：那你后来第二版我就写伦理学了，你为什么不去写他妈的数学物理学？没有能力啊。Which had first to display the sources and conditions of its all possibility。那么这种自然科学自然的形而上学呢，它首先就要去展示那个它它的可能性的一些呃来源和条件。And needed to clear and level a ground that was completely overgrown。
+
+整理稿：你后来第二版就写伦理学了，为什么不去写数学、物理学？没有能力啊。Which had first to display the sources and conditions of its all possibility：这种自然的形而上学，首先就要展示它之所以可能的一切来源和条件。
+
+## 段落 107：01:49:33 — 01:49:55
+
+来源：`t2358:s921`, `t2358:s922`, `t2358:s923`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6573)
+
+原文：然后它就有必要去呃去扫清楚，并且去就是就是level，这level是找平啊，找平整平整一个一个基地，平整一个基础。那么这个基础它是was完全是overgrown，完全是长得很快的，很快就会长满的，completely overgrown会被长满。Here I expect from my reader the patience and
+
+整理稿：And needed to clear and level a ground that was completely overgrown：它有必要清理并找平一个完全荒芜、杂草丛生的基地。这个基地 was completely overgrown，完全被长满了，很快就会长满。
+
+## 段落 108：01:49:56 — 01:50:27
+
+来源：`t2358:s924`, `t2358:s925`, `t2358:s926`, `t2358:s927`, `t2358:s928`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6596)
+
+原文：imp公平不移啊，impat啊impartiality。我我的读者会有这个耐心和这种公正啊加以判断。But there I will expect the operative spirit。我还我还他还指望有人跟他一块来干呢啊，过来来招人手呢，他们我我你看我这个计划多伟大多屌，我的妈现在累死了，我干不过来啊兄弟，我这个我还要搞个metaphysics ofnature呢，你过来帮帮忙，我靠。
+
+整理稿：Here I expect from my reader the patience and impartiality：我期待读者有耐心和公正，来加以判断。But there I will expect the operative spirit：我还指望有人跟他一块干，过来招人手。你看我这个计划多伟大、多厉害，现在累死了，我干不过来啊，兄弟；我还要搞一个 metaphysics of nature 呢，你过来帮帮忙。
+
+- 疑点：原文为 operative spirit，后文又出现 cooperative spirit，疑为 cooperative spirit。；候选：cooperative spirit；依据：t3332:s2675
+
+## 段落 109：01:50:27 — 01:50:42
+
+来源：`t2358:s929`, `t2358:s930`, `t2358:s931`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6627)
+
+原文：他其实其实他他这个方法论啊，他这个整个这个体系实际上是非常贫瘠的，它不能生产出很多东西的，一定要到黑格尔辩证法那个时候才能搞一个自然哲学。那谢林那边可能开始可以的，但是是很贫瘠的一个东西。
+
+整理稿：其实他的方法论、整个体系实际上非常贫瘠，不能生产出很多东西。一定要到黑格尔辩证法那个时候，才能搞出一个自然哲学；谢林那边可能开始可以，但还是很贫瘠的东西。
+
+## 段落 110：01:50:43 — 01:51:36
+
+来源：`t2358:s932`, `t2358:s933`, `t2358:s934`, `t2358:s935`, `t2358:s936`, `t2358:s937`, `t2358:s938`, `t2358:s939`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6643)
+
+原文：他还说要就我指望着有一个合作精神和一个帮助，a fellow w o r k e r。F o r h o w e v e r c o m p l e t e t h e p r i n c i p l e s o f t h e s y s t e m m a y b ee x workerFor however complete the principles of the system maybe ex pounded in thecritic，就是无论多完备的，就是说这个体系里面的原则，可能在这个批判过程当中被呃详述。这这个这个系统的这个这种综合性啊，无所不包罗万象的性质啊，它自己它要求also，呃requires also that no derivativeconcepts，就不需要一些派生性的，就是它它哦，它就要求那种没有，就是所有派生性的这个概念都要都不能缺，大家都得塞满它。all derivativederivative的concepts都必须有，就是这个体系怎么能够派生出来东西，演绎的方式派生出来东西，所有东西都不能缺失。which however cannot be。
+
+整理稿：他还说，我指望有一种合作精神和帮助，a fellow worker。For however complete the principles of the system may be expounded in the critic：无论这个体系的原则在《纯粹理性批判》中可能被阐述得多么完备，这个体系的那种综合性、无所不包罗万象的性质，本身也要求——requires also that no derivative concepts——也就是要求所有派生性概念都不能缺，大家都得把它塞满。all derivative concepts 都必须有，就是这个体系如何以演绎的方式派生出东西，所有东西都不能缺失。which however cannot be。
+
+- 疑点：英文片段 no derivative concepts 后疑漏掉 should be missing；正文按上下文整理为“所有派生性概念都不能缺”。；候选：no derivative concepts should be missing；依据：t3332:s2705
+
+## 段落 111：01:51:37 — 01:52:09
+
+来源：`t2358:s940`, `t2358:s941`, `t2358:s942`, `t2358:s943`, `t2358:s944`, `t2358:s945`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6697)
+
+原文：那么这这个过程这个生产，其实这里很很很很很有问题，不说了不说了。你妈的，你那你不是饿的无限吗？那么这个however不能够先验的先天的去啊把它建构起来，estimated，估计出来啊估计出来。in oneleap我不能一次性的估计出这个整个计划有多大，but must be gradually soughtout，要慢慢慢慢的把它把它怎么样查找出来，sought seek是吧？寻找出来。likewise just as in the form of the
+
+整理稿：不过这个生产过程其实很成问题，不说了。这不就是恶的无限吗？这个 however 不能先验地、先天地建构起来、估计出来；in one leap，我不能一次性估计出整个计划有多大，but must be gradually sought out，要慢慢把它查找、寻找出来。
+
+- 疑点：“饿的无限”疑为“恶的无限”（bad infinity），但字幕如此，未能确认。；候选：恶的无限；依据：t3332:s2721
+
+## 段落 112：01:52:09 — 01:53:22
+
+来源：`t2358:s946`, `t2358:s947`, `t2358:s948`, `t2358:s949`, `t2358:s950`, `t2358:s951`, `t2358:s952`, `t2358:s953`, `t2358:s954`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6729)
+
+原文：whole，呃synthesis of concepts has been exhaustedexhausted，就好像是在前面一个那个整个的一个综合，就是概念综合已经被呃被穷尽了。so in the latter it would be additionally demanded that the same thing should take place in respect of their analysis。就就好像在前面一个题目里面，整个的综合，整个的概念综合都已经被穷尽了，综合的就几个概念概念的综合写合题已经被穷尽了。那么第二步第二本书的时候，就是所有它的那个analysis，它的分析性的那些命题，要the same thing should take place in respect of of their a n a l y s i s，w h i c h w o u l d b e e a s y a n d m o r e e n t e r t a i n m e n t t h a n l a b o r。这个就哎我我第二步我我第一步前面那不综合都写完了，后面都是分析的，分析的这些东西啊是很简单的，而且是很像娱乐的，比比做苦力要开心的，你赶紧过来帮忙啊，是吧？a f e l l o w w o r k e r我靠，什么c o o p e r a t i v e s p i r i t，什么招人呢？我靠，我觉得是他单身太久了吧？他好像一辈子单身，有点惨。I h a v e o n l y a f e w m o r e t h i n g s t o r e m a r k w i t h r e s p e c t t o t h e b o o k s p r i n t i n g。我只要有一些，我我只剩一些很少一些东西要去要去评论了，就是对于这个书的印刷评论书的印刷。s i n c e t h e b e g i n n i n g o f t h e p r i n t i n g w a s s o m e w h a t d e l a y e d，因为这个书的印刷有点被耽搁了。I w a s a b l e t o s e e o n l y a b o u t h a l f t h e p r o o f s h e e t s。我只能看到一半的那个p r o o f s h e e t s是什么意思？p r o o f s h e e t s就是证明表还是什么的？analysiswhich would be easy and more entertainment than labor这个就哎我我第二步我我第一步前面那不综合都写完了后面都是分析的分析的这些东西啊是很简单的而且是很像娱乐的比比做苦力要开心的你赶紧过来帮忙啊是吧a fellow worker我靠什么cooperative spirit什么招人呢我靠我觉得是他单身太久了吧他好像一辈子单身有点惨I have only a few more things to remark with respect
+
+整理稿：likewise just as in the form of the whole，synthesis of concepts has been exhausted：就好像在前一个部分里，整个概念综合已经被穷尽了。so in the latter it would be additionally demanded that the same thing should take place in respect of their analysis：那么在后一部分，就还要求对分析也做同样的事。which would be easy and more entertainment than labor。第二步、第二本书里，所有分析性的命题都要做同样的事；第一步前面那些综合都写完了，后面都是分析，分析这些东西很简单，而且很像娱乐，比做苦力要开心。你赶紧过来帮忙啊，a fellow worker。我靠，什么 cooperative spirit，什么招人？我觉得是他单身太久了，好像一辈子单身，有点惨。
+
+## 段落 113：01:53:22 — 01:54:07
+
+来源：`t2358:s955`, `t2358:s956`, `t2358:s957`, `t2358:s958`, `t2358:s959`, `t2358:s960`, `t2358:s961`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6802)
+
+原文：to the books printing我只要有一些我我只剩一些很少一些东西要去要去评论了就是对于这个书的印刷评论书的印刷since the beginning of the printing was somewhat delayed因为这个书的印刷有点被耽搁了I was able to see only about half the proof sheets我只能看到一半的那个proof sheets是什么意思proof sheets就是证明表还是什么的就是验验验的稿吧，应该是，不是教样啊教样教样，我只能看到教样的一半啊，我我我已经看到的好一几个印刷错误了啊，你妈的吧子的，尽管none that confuses the sense expect the one
+
+整理稿：I have only a few more things to remark with respect to the book printing：我只剩很少一些东西要评论，就是关于这本书的印刷。since the beginning of the printing was somewhat delayed，因为这书的印刷有点被耽搁了。I was able to see only about half the proof sheets：我只能看到一半的 proof sheets。proof sheets 是什么意思？是证明表还是什么？应该就是校样吧，不是教样，是校样。我只能看到校样的一半。我已经看到好几个印刷错误了。
+
+## 段落 114：01:54:07 — 01:54:34
+
+来源：`t2358:s962`, `t2358:s963`, `t2358:s964`, `t2358:s965`, `t2358:s966`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6847)
+
+原文：occurring，啊，所有都不会影响那个意思，除了那个这个A版三百七十九页上面一个会影响意思啊，那么在第四行的从下往上数第四行，而这个while specific should be readin，呃，这个这个词他妈打错了啊，就是说这个应该读成这个，哦，就这个他他这个教样上面是skeptical，应该是specific啊，the antonym of pure
+
+整理稿：尽管 none that confuses the sense except the one occurring——所有错误都不影响意思，除了 A 版第379页上的一处会影响意思。从下往上数第四行，这个 while specific should be read in，这个词打错了，应该读成这个。校样上印的是 skeptical，应该是 specific，the antinomy of pure reason，即纯粹理性的二律背反。
+
+## 段落 115：01:54:35 — 01:55:16
+
+来源：`t2358:s967`, `t2358:s968`, `t2358:s969`, `t2358:s970`, `t2358:s971`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6875)
+
+原文：reason，纯粹理性的那个二律背反啊，从这个第四百二十五页的A版四部那个是没A版，到这个第四百六十页is arranged in the manner of atable，它是应该排在一个表格里面的，so that everything belongs to the thesis always continues on the left side and what belongs to theend，就是属于这个正题的都是在左边的，属于反题的都是在右边的，我希望你们这不，我希我希望你们这些编辑能不能搞得好，which I did in order to make it easier to compare proposition and counterpositionwith，我我把它左右分开来放，是想要去让呢要比较这个这些命题和它的反题相互比较变得更更简单啊，就是它的那个A版序言，我
+
+整理稿：从第四百二十五页到第四百六十页——那个是没有 A 版的——is arranged in the manner of a table：它应该排在一个表格里。so that everything belongs to the thesis always continues on the left side and what belongs to the antithesis……属于正题的都在左边，属于反题的都在右边。我希望你们这些编辑能不能搞好一点。which I did in order to make it easier to compare proposition and counterposition：我把它左右分开来放，是想让这些命题和反题相互比较变得更容易。
+
+- 疑点：页码说明中的“A版四部那个是没A版”不清；正文按上下文保留为从425页到460页，并注明“那个是没有A版的”。；候选：；依据：t3332:s2794, t3332:s2795
+
+## 段落 116：01:55:16 — 01:56:08
+
+来源：`t2358:s972`, `t2358:s973`, `t2358:s974`, `t2358:s975`, `t2358:s976`, `t2358:s977`；[回看](https://www.bilibili.com/video/BV1aU4y1b7mX/?p=1&t=6916)
+
+原文：操，很啰嗦自自夸的，最后还他妈招人呢，我靠，他妈服了，这辈子没写完啊，哎呦看，但是他自己教教书的时候，肯定是那些那课他都教过，他那些课教的时候，他那个知识体系应该是也是用这这这套体系搞的，他自己也是自自命不凡，认为里面都是纯粹理性批判过的东西，然后第二版序言我们第二版序言肯定要拍两次，第二版序言特别长，其实我读书从来不读序言的，我觉得序言都是在放屁，一二三四五六七八九十十一十二十三十四十五十六十七十八十八页，我靠，一版一二三四五六七，这七页我靠，他妈要死了，啊，我们今天就就就先到这边。
+
+整理稿：这就是他的 A 版序言。我靠，很啰嗦、很自夸，最后还在招人，我真是服了。他这辈子没写完。不过他自己教书的时候，那些课他肯定都教过；他教那些课的时候，知识体系应该也是用这套体系搞的。他自己也自命不凡，认为里面都是经过纯粹理性批判的东西。然后第二版序言——第二版序言肯定要拍两次——特别长。其实我读书从来不读序言，我觉得序言都是在放屁。第二版序言有十八页；第一版序言只有七页，我靠，真要命。今天我们就先到这里。
+
+## 未匹配的参考字幕
+
+- `t3332:s877`
+- `t3332:s1076`
