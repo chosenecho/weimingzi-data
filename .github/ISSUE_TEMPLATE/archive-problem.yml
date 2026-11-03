@@ -1,0 +1,30 @@
+name: 下载／目录问题
+description: 报告下载失败、哈希不符、链接失效或索引问题
+title: "[归档] "
+labels: []
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: 问题类型
+      options:
+        - 音频下载或校验
+        - 链接或目录
+        - 机器索引
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 重现步骤
+      description: 提供命令、批次、分卷或文件路径及 Git 提交。
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: 报错与环境
+      description: 提供系统、Python 版本及报错；请勿附 API Key、cookies 或登录资料。
+    validations:
+      required: true

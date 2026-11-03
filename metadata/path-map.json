@@ -1,0 +1,105 @@
+{
+  "schema": "weimingzi-layout-map-v2",
+  "date": "2026-11-04",
+  "previous_commit": "34b3a1d01330def52f29184de85c110ef4298c1d",
+  "moves": [
+    {
+      "from": "视频",
+      "to": "data/videos"
+    },
+    {
+      "from": "用户内容",
+      "to": "data/user-content"
+    },
+    {
+      "from": "补充音频",
+      "to": "data/supplemental-audio"
+    },
+    {
+      "from": "来源索引",
+      "to": "metadata/sources"
+    },
+    {
+      "from": "训练校正",
+      "to": "provenance/corrections"
+    },
+    {
+      "from": "AI校对补跑",
+      "to": "provenance/ai-proofreading"
+    },
+    {
+      "from": "ASR补跑",
+      "to": "provenance/asr"
+    },
+    {
+      "from": "清理记录",
+      "to": "provenance/cleanup"
+    },
+    {
+      "from": "产物目录.csv",
+      "to": "metadata/catalog.csv"
+    },
+    {
+      "from": "补充音频目录.csv",
+      "to": "metadata/supplemental-audio.csv"
+    },
+    {
+      "from": "无本地产物.csv",
+      "to": "metadata/missing-products.csv"
+    },
+    {
+      "from": "未下载到本机的音频.csv",
+      "to": "metadata/missing-audio.csv"
+    },
+    {
+      "from": "复核事项.json",
+      "to": "metadata/review-issues.json"
+    },
+    {
+      "from": "training-source.json",
+      "to": "metadata/training-source.json"
+    },
+    {
+      "from": "media-manifest.json",
+      "to": "metadata/media/base.json"
+    },
+    {
+      "from": "TRAINING.md",
+      "to": "docs/TRAINING.md"
+    },
+    {
+      "from": "PUBLICATION.md",
+      "to": "provenance/PUBLICATION.md"
+    },
+    {
+      "from": "fetch_media.py",
+      "to": "tools/fetch_media.py"
+    },
+    {
+      "from": "文件清单.csv",
+      "to": "provenance/initial-snapshot/文件清单.csv"
+    },
+    {
+      "from": "文件清单.json",
+      "to": "provenance/initial-snapshot/文件清单.json"
+    },
+    {
+      "from": "完成标记.json",
+      "to": "provenance/initial-snapshot/完成标记.json"
+    },
+    {
+      "from": "整理报告.json",
+      "to": "provenance/initial-snapshot/整理报告.json"
+    },
+    {
+      "from": "publication-report.json",
+      "to": "provenance/initial-snapshot/publication-report.json"
+    }
+  ],
+  "historical_manifest_overrides": {
+    "training-source.json": "provenance/training/2026-11-03/training-source.v1.json",
+    "TRAINING.md": "provenance/training/2026-11-03/TRAINING.v1.md",
+    "media-manifest.json": "provenance/initial-snapshot/media-manifest.json"
+  },
+  "note": "Provenance for interpreting frozen historical paths; no legacy path aliases are installed."
+}
