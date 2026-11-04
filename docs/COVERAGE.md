@@ -5,7 +5,7 @@ coverage 查询视频、分 P 或独立录音，保留每份基础转录和整�
     python tools/corpus.py coverage BV1oq4y1q7rg --part 1
     python tools/corpus.py coverage i-7fee8b9e09f3f0d185f2aaa2
     python tools/corpus.py coverage BV1oq4y1q7rg --part 1 --include-records --output .cache/a.json
-    python tools/corpus.py coverage BV1dA411T7xD --format jsonl --include-records --output .cache/a.jsonl
+    python tools/corpus.py coverage BV1dA411T7xD --format jsonl --include-records --output .cache/a.jl
 
 JSON 报告包含 scope_item_ids、四层关联、逐层计数和 summary；JSONL 每行包含查询条目、关联层及一份记录。加 --include-records 后，每个结果的 record 是未经改写的完整规范记录，包括正文、输入参照、附注、校对标注和质量快照。相同记录可能出现在不同证据层；各层按 ID 去重，summary.related 跨层按 ID 去重。此导出不选择“最佳版本”，也不更改训练选稿。
 
@@ -39,5 +39,6 @@ text_present_transcripts 只是文本筛查结果，不代表识别准确或已�
 覆盖案例依据 [issue #4](https://github.com/chosenecho/weimingzi-data/issues/4) 和仓库规范记录。
 
 填充词案例依据 [issue #5](https://github.com/chosenecho/weimingzi-data/issues/5)。
+核查范围与备用音频待办见[质量核查记录](evidence/issue-5-filler-only.md)。
 
 查询直接层为空时，应继续检查相关层；相关层有稿也不等于该分 P 已有直接整理稿。

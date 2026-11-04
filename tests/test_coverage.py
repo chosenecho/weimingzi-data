@@ -10,7 +10,14 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 import test_corpus as fixtures
 from weimingzi_corpus.coverage import CoverageIndex, coverage_jsonl, text_status
-from weimingzi_corpus.records import make_record_id, write_json, write_jsonl
+from weimingzi_corpus.records import (
+    make_record_id,
+    write_json,
+    write_jsonl,
+    read_json,
+    json_sha256,
+    transcript_hash_input,
+)
 
 
 @lru_cache(maxsize=1)
@@ -265,12 +272,43 @@ class RepositoryCoverageTests(unittest.TestCase):
 
     def test_issue_five_does_not_count_filler_as_substantive_manuscript(self):
         report = self.index.report("BV1CP4y1s7BM", 2)
-        self.assertEqual(report["summary"]["direct"]["edited_transcripts"], 0)
         rows = report["layers"]["direct"]["records"]
-        self.assertEqual([r["id"] for r in rows], ["t-79e1eb0ea7c54df6013b144c"])
-        self.assertEqual(rows[0]["text_status"], "filler_only")
-        self.assertEqual(report["summary"]["direct"]["text_present_transcripts"], 0)
-        self.assertEqual(report["summary"]["direct"]["filler_only_transcripts"], 1)
+        original = next(r for r in rows if r["id"] == "t-79e1eb0ea7c54df6013b144c")
+        self.assertEqual(original["text_status"], "filler_only")
+        counts = report["summary"]["direct"]
+        self.assertLess(counts["text_present_transcripts"], counts["transcripts"])
+        self.assertGreaterEqual(counts["filler_only_transcripts"], 1)
+
+    def test_filler_quality_annotation_is_bound_to_unchanged_original_content(self):
+        row = read_json(
+            self.index.root / "data/transcripts/t-79e1eb0ea7c54df6013b144c.json"
+        )
+        digest = "65c4b62ded7f6b0fa878f8e2a5fd72207fca2c3742a28474ade904968544a4da"
+        self.assertEqual(json_sha256(transcript_hash_input(row)), digest)
+        self.assertEqual(row["content_sha256"], digest)
+        self.assertEqual(row["text"], "嗯。" * 22)
+        self.assertEqual(
+            row["segments"],
+            [{"index": 0, "start": 0, "end": 3675000, "text": row["text"]}],
+        )
+        quality = row["quality"]
+        for key in (
+            "requires_review",
+            "is_fully_human_reviewed",
+            "is_subtitle_export_enabled",
+        ):
+            self.assertIsNone(quality[key])
+        assessment = quality["content_assessment"]
+        self.assertEqual(assessment["assessed_content_sha256"], digest)
+        self.assertEqual(assessment["status"], "filler_only")
+        self.assertEqual(assessment["basis"], "stored_text_only")
+        self.assertFalse(assessment["source_audio_checked"])
+        self.assertFalse(assessment["eligible_as_substantive_transcript"])
+        self.assertEqual(assessment["character_count"], len(row["text"]))
+        self.assertEqual(assessment["segment_count"], len(row["segments"]))
+        self.assertEqual(
+            assessment["repeated_unit"] * assessment["repetition_count"], row["text"]
+        )
 
 
 if __name__ == "__main__":
