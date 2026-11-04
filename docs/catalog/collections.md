@@ -5,7 +5,7 @@
 
 ## 【主义主义】
 
-集合：`c-815c4610d8f7a1f571117af1`（series）
+集合：`c-815c4610d8f7a1f571117af1`（video_series）
 
 1. [【主义主义】政治的理性主义（3-3-1-3）——梅洛庞蒂：看穿了《辩证法的历险》，却陷入了理性的狡计](videos.md#i-7bd74e3607cc7b81fbcace13)
 2. [【主义主义】人道主义的存在主义（3-3-1-2）——萨特存在主义的基本结构](videos.md#i-3c4a122a7901708f9f2347ea)
@@ -212,7 +212,7 @@
 
 ## 中国哲学/佛教哲学
 
-集合：`c-14f47f6fa5ca077dec347550`（series）
+集合：`c-14f47f6fa5ca077dec347550`（video_series）
 
 1. [【七十分钟哲学】佛是万能的吗？](videos.md#i-57a80aac1a9036797743b9ed)
 2. [【主义主义】龙树《中论》讲解——具有伦理热忱的虚无主义（2-2-4-1）：龙树如何破除二元（三元/四元）对立](videos.md#i-78f375e8d04b98b6b13ce33d)
@@ -246,7 +246,7 @@
 
 ## 十分钟以下短篇
 
-集合：`c-563d40bd3de7abb481188705`（series）
+集合：`c-563d40bd3de7abb481188705`（video_series）
 
 1. [【八分钟哲学·精神分析】何为大他者？何为精神病？](videos.md#i-125e06a12822d0f9354d5c44)
 2. [【10分钟哲学·齐泽克】意识形态的基本逻辑](videos.md#i-9c9886095e3214f31deedbde)
@@ -276,7 +276,7 @@
 
 ## 古希腊哲学史
 
-集合：`c-3d655db436069a2419f71b8a`（series）
+集合：`c-3d655db436069a2419f71b8a`（video_series）
 
 1. [【主义主义】话语主义（2-1-4-4）——在场形而上学的终结，对真理的解构性把握，最早的精神分析师：安提丰](videos.md#i-01aeccd1eefbe3897345e8af)
 2. [【主义主义】记忆主义（2-1-4-3）——记忆术+雄辩术；希庇亚的哲学：捕捉、保存、创造无限](videos.md#i-5cbaf5e89c1b02d87dde2bae)
@@ -308,7 +308,7 @@
 
 ## 哲学基础
 
-集合：`c-757f11b32eaadac48a685bdf`（season）
+集合：`c-757f11b32eaadac48a685bdf`（video_collection）
 
 1. [【哲学基础】第一讲：作为爱智慧的哲学](videos.md#i-8f30ec75eabb2e68bfc4235e)
 2. [【哲学基础】第二讲：作为过渡和堕落的哲学](videos.md#i-956c15c779ba9011887b4669)
@@ -325,7 +325,7 @@
 
 ## 哲学进阶•现代哲学
 
-集合：`c-698b688d715982773d9cf2e3`（season）
+集合：`c-698b688d715982773d9cf2e3`（video_collection）
 
 1. [【哲学进阶】现代哲学（总论）](videos.md#i-763d359834a15f18489eeaa0)
 2. [【哲学进阶】现代哲学《第一哲学沉思录》第一讲](videos.md#i-396911103c1d809d1cdc7e5c)
@@ -366,7 +366,7 @@
 
 ## 哲学随笔
 
-集合：`c-755b621a0eaa1e4e5d5c3048`（article_list）
+集合：`c-755b621a0eaa1e4e5d5c3048`（article_collection）
 
 1. [《论女人》|叔本华，厌女症 与 虚无主义](articles.md#i-e8ef80885b5b6411b2c0587b)
 2. [答蛇皮问题](articles.md#i-2c751853f4c133c5a9461cb3)
@@ -374,7 +374,7 @@
 
 ## 如果
 
-集合：`c-ed3b8485a28af19b67d3d301`（article_list）
+集合：`c-ed3b8485a28af19b67d3d301`（article_collection）
 
 1. [【旧作】他的钢笔和笔记本](articles.md#i-c0cb07e7a239b9db009fe992)
 2. [旧作 l love U](articles.md#i-59a9d92904dcdce08e409656)
@@ -385,13 +385,13 @@
 
 ## 往事
 
-集合：`c-9bea5680ed1392e2b90ab3d7`（article_list）
+集合：`c-9bea5680ed1392e2b90ab3d7`（article_collection）
 
 1. [【旧文】冷水澡](articles.md#i-a5d6e9ec1dae54f43eb1ac7b)
 
 ## 政治哲学
 
-集合：`c-fde0689f72a5b2e4bf8dae22`（series）
+集合：`c-fde0689f72a5b2e4bf8dae22`（video_series）
 
 1. [【性的政治学】男权主义必然失败：“只有一种性别存在”——性多元主义与女性主义的联合之路](videos.md#i-6cc0fd372661305d2d667183)
 2. [【四十分钟哲学】鉴右镜](videos.md#i-751892317caea273b2116c93)
@@ -417,7 +417,7 @@
 
 ## 未明子歌集
 
-集合：`c-05c034bf39fd68b57a7f70b7`（season）
+集合：`c-05c034bf39fd68b57a7f70b7`（video_collection）
 
 1. [【作词翻唱】秋叶](videos.md#i-8b9c44af47306fc6eba12cbe)
 2. [【作词翻唱】在风波中不停留](videos.md#i-a253cc109bd327fd20b3b1b3)
@@ -442,7 +442,7 @@
 
 ## 现代哲学史
 
-集合：`c-b8b83a60268ee05383650647`（series）
+集合：`c-b8b83a60268ee05383650647`（video_series）
 
 1. [【主义主义】实证主义（2-4-2）——为人性筑起圣坛，科学哲学、社会学创始人孔德的形而上学](videos.md#i-13456a5a7abed70389c5bc4f)
 2. [【主义主义】人类有限主义（2-4-1-4）——休谟的偷天换日计划，远不止经验主义怀疑论](videos.md#i-7d7588212f90c0281f19f5dd)
@@ -492,7 +492,7 @@
 
 ## 现实
 
-集合：`c-f8b9c16c11df93808951f3b7`（article_list）
+集合：`c-f8b9c16c11df93808951f3b7`（article_collection）
 
 1. [引导孟什维克成为孟什维克](articles.md#i-95511de55ddc845f576d296f)
 2. [反经济主义同样不可取](articles.md#i-bcfe4ce4e1a0d0ea6c5748eb)
@@ -512,7 +512,7 @@
 
 ## 现象学与存在主义
 
-集合：`c-bd60db5fbdbd9fbf8e587fa9`（series）
+集合：`c-bd60db5fbdbd9fbf8e587fa9`（video_series）
 
 1. [【主义主义】先验现象学（3-1-1）——胡塞尔的先验哲学计划](videos.md#i-48af03d3288ead54d628d91c)
 2. [【主义主义】先验直觉主义（3-1-1-1）——胡塞尔给所有意识普发的完整知识权，比经验主义更经验主义，比直觉主义更直觉主义，比先验主义更先验主义](videos.md#i-3b3fd5dbf168b93ef80aa025)
@@ -534,7 +534,7 @@
 
 ## 直播回放
 
-集合：`c-ede48630cc9ab87c8a01bf0a`（series）
+集合：`c-ede48630cc9ab87c8a01bf0a`（video_series）
 
 1. [【直播回放】随便聊聊 2026年09月04日23点场](videos.md#i-69cb140187173934b6e7dc67)
 2. [【直播回放】读书读书 2026年06月23日21点场](videos.md#i-61d339a0400de6434e436535)
@@ -578,7 +578,7 @@
 
 ## 精神分析
 
-集合：`c-d1cc8a7831a11763c3530a2a`（series）
+集合：`c-d1cc8a7831a11763c3530a2a`（video_series）
 
 1. [【10分钟哲学】美的辩证法（美-丑-诡异）](videos.md#i-57c2da9ef3c4b7ec02d28518)
 2. [【五十分钟哲学】哲学的符号学基础：他者、大他者、小他者，是什么，彼此的关系是什么](videos.md#i-6eb0a2f2a81fcb6cce15f855)
@@ -600,7 +600,7 @@
 
 ## 诗歌
 
-集合：`c-61f4d71f7b379084f749d3f3`（article_list）
+集合：`c-61f4d71f7b379084f749d3f3`（article_collection）
 
 1. [西吴曲](articles.md#i-ce86c243d26f48be39245aae)
 2. [无题](articles.md#i-73a59788236d322920625ff6)
@@ -636,14 +636,14 @@
 
 ## 资本时代
 
-集合：`c-b9c0da4e5c0543e6d04ef990`（article_list）
+集合：`c-b9c0da4e5c0543e6d04ef990`（article_collection）
 
 1. [资本时代(1)](articles.md#i-01dc9949a0a6a60404131374)
 2. [一个无力的现代性幻想：吸收有机性与无机性的整体的无机性](articles.md#i-2e9e52b39bf8877f98626fd9)
 
 ## 辩证法
 
-集合：`c-0cc62b50c07cc7dad8938ad2`（series）
+集合：`c-0cc62b50c07cc7dad8938ad2`（video_series）
 
 1. [【七十分钟哲学】辩证法的至高法要：“本体是表象之表象”](videos.md#i-4487149585d1f64fb6b24682)
 2. [【10分钟哲学】美的辩证法（美-丑-诡异）](videos.md#i-57c2da9ef3c4b7ec02d28518)
@@ -676,7 +676,7 @@
 
 ## 长课专讲
 
-集合：`c-e2dd4d8926694836a410e649`（series）
+集合：`c-e2dd4d8926694836a410e649`（video_series）
 
 1. [【五十分钟哲学】论意识形态的构成（意识形态=霸权=真理-事件，齐泽克vs拉克劳vs巴迪欧）](videos.md#i-aa6511cd477a59c286e74297)
 2. [【七十分钟哲学】辩证法的至高法要：“本体是表象之表象”](videos.md#i-4487149585d1f64fb6b24682)

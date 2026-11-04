@@ -1,108 +1,110 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "kind": "transcript",
   "item_id": "i-64c91f194e3605d050d69c1e",
-  "method": "asr-local",
+  "method": "asr_local",
   "language": "Chinese",
   "model": {
-    "model_name": "source://production/models/Qwen3-ASR-1.7B-hf",
-    "revision": "bcd2b5b7f32b480ab5790554cfa8347f246a14f3"
+    "revision": "bcd2b5b7f32b480ab5790554cfa8347f246a14f3",
+    "name": "source://production/models/Qwen3-ASR-1.7B-hf"
   },
   "time_unit": "ms",
   "text": "人心路，迷梦似流长。\n琉璃风霜，风霜破面干。\n红尘里，迷梦有几多方向？\n找痴痴梦幻中，心\n外柳随人茫茫。\n人心事，迷梦与夜忙。\n梦里依稀依稀有丽光。\n何从何去，去觅我心中方向？\n风仿佛在梦中轻叹，柳和人茫茫。\n人间路，快乐少年郎。\n琉璃崎岖，崎岖不见阳光。\n泥尘里，快乐有几多方向？\n一丝丝梦幻般风雨，留随人茫茫。\n一丝丝梦幻般风雨，留随人茫茫。",
   "segments": [
     {
-      "ordinal": 0,
       "text": "人心路，迷梦似流长。",
       "start": 9360,
-      "end": 14560
+      "end": 14560,
+      "index": 0
     },
     {
-      "ordinal": 1,
       "text": "琉璃风霜，风霜破面干。",
       "start": 17440,
-      "end": 22560
+      "end": 22560,
+      "index": 1
     },
     {
-      "ordinal": 2,
       "text": "红尘里，迷梦有几多方向？",
       "start": 25680,
-      "end": 31920
+      "end": 31920,
+      "index": 2
     },
     {
-      "ordinal": 3,
       "text": "找痴痴梦幻中，心",
       "start": 33520,
-      "end": 36800
+      "end": 36800,
+      "index": 3
     },
     {
-      "ordinal": 4,
       "text": "外柳随人茫茫。",
       "start": 37920,
-      "end": 43760
+      "end": 43760,
+      "index": 4
     },
     {
-      "ordinal": 5,
       "text": "人心事，迷梦与夜忙。",
       "start": 44160,
-      "end": 50640
+      "end": 50640,
+      "index": 5
     },
     {
-      "ordinal": 6,
       "text": "梦里依稀依稀有丽光。",
       "start": 52080,
-      "end": 59040
+      "end": 59040,
+      "index": 6
     },
     {
-      "ordinal": 7,
       "text": "何从何去，去觅我心中方向？",
       "start": 60240,
-      "end": 67360
+      "end": 67360,
+      "index": 7
     },
     {
-      "ordinal": 8,
       "text": "风仿佛在梦中轻叹，柳和人茫茫。",
       "start": 68240,
-      "end": 78400
+      "end": 78400,
+      "index": 8
     },
     {
-      "ordinal": 9,
       "text": "人间路，快乐少年郎。",
       "start": 78400,
-      "end": 87563
+      "end": 87563,
+      "index": 9
     },
     {
-      "ordinal": 10,
       "text": "琉璃崎岖，崎岖不见阳光。",
       "start": 87854,
-      "end": 162640
+      "end": 162640,
+      "index": 10
     },
     {
-      "ordinal": 11,
       "text": "泥尘里，快乐有几多方向？",
       "start": 178087,
-      "end": 184487
+      "end": 184487,
+      "index": 11
     },
     {
-      "ordinal": 12,
       "text": "一丝丝梦幻般风雨，留随人茫茫。",
       "start": 186247,
-      "end": 193687
+      "end": 193687,
+      "index": 12
     },
     {
-      "ordinal": 13,
       "text": "一丝丝梦幻般风雨，留随人茫茫。",
       "start": 193767,
-      "end": 207047
+      "end": 207047,
+      "index": 13
     }
   ],
   "quality": {
-    "human_reviewed": null,
+    "is_fully_human_reviewed": null,
     "requires_review": null,
-    "timed_exports_available": null,
+    "is_subtitle_export_enabled": null,
     "timing_issues": []
   },
-  "attributes": {
+  "id": "t-430a9b61984beed4f9e87f30",
+  "content_sha256": "7a8211114821e11317f8722b93023272bd1fd2441efe70a46221718f8db7be87",
+  "metadata": {
     "content_sha256": [
       "9c8b4f24753783de5f541dcc57d4b0fc38a17e0d56388cfe655c891c0c2733b2",
       "6ef06c692d64783d25c84c42d30517f7a455ac6edf42f53e954962f2f7d56c83"
@@ -125,11 +127,9 @@
     "version": [
       1
     ],
-    "generated_at_unix": [
+    "generated_at_unix_seconds": [
       1793503916
     ]
   },
-  "media_ids": [],
-  "id": "t-430a9b61984beed4f9e87f30",
-  "content_sha256": "430a9b61984beed4f9e87f30ac79bfa83ff50061ba3860222ccf3cc782f782db"
+  "audio_ids": []
 }

@@ -1,57 +1,59 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "kind": "transcript",
   "item_id": "i-73977fb10b2d6ac96611a7ab",
-  "method": "subtitle-cc",
+  "method": "subtitle_cc",
   "language": "zh-CN",
   "model": null,
   "time_unit": "ms",
   "text": "我们今天要来讲，这个，主义主义\n2-2-1-3\n它，它的代表人物就还是佛教\n就是部派佛教的人 ，部派佛教最后一个\n经量部\n那么这个东西写出来很有意思",
   "segments": [
     {
-      "ordinal": 0,
       "text": "我们今天要来讲，这个，主义主义",
       "start": 0,
-      "end": 5000
+      "end": 5000,
+      "index": 0
     },
     {
-      "ordinal": 1,
       "text": "2-2-1-3",
       "start": 7431,
-      "end": 12431
+      "end": 12431,
+      "index": 1
     },
     {
-      "ordinal": 2,
       "text": "它，它的代表人物就还是佛教",
       "start": 15792,
-      "end": 20792
+      "end": 20792,
+      "index": 2
     },
     {
-      "ordinal": 3,
       "text": "就是部派佛教的人 ，部派佛教最后一个",
       "start": 20900,
-      "end": 25900
+      "end": 25900,
+      "index": 3
     },
     {
-      "ordinal": 4,
       "text": "经量部",
       "start": 30348,
-      "end": 33325
+      "end": 33325,
+      "index": 4
     },
     {
-      "ordinal": 5,
       "text": "那么这个东西写出来很有意思",
       "start": 35832,
-      "end": 40125
+      "end": 40125,
+      "index": 5
     }
   ],
   "quality": {
-    "human_reviewed": null,
+    "is_fully_human_reviewed": null,
     "requires_review": null,
-    "timed_exports_available": null,
+    "is_subtitle_export_enabled": null,
     "timing_issues": []
   },
-  "attributes": {
+  "id": "t-994eb19f5d69a4a7fc935b01",
+  "content_sha256": "0a32dcf6af39f14a2c9eef843f0f14eaacfefa5f9876264e39fb2f7cd9681250",
+  "metadata": {
     "content_sha256": [
       "b486dfbaedff3e778747cff2b94f049ef40a14b9ed9a7469705514c36f485951",
       "0231afb510458fbbd8ce23466e2669f3053fe40cdba74b845a89805e582eb551"
@@ -71,11 +73,9 @@
     "version": [
       1
     ],
-    "generated_at_unix": [
+    "generated_at_unix_seconds": [
       1793585972
     ]
   },
-  "media_ids": [],
-  "id": "t-994eb19f5d69a4a7fc935b01",
-  "content_sha256": "994eb19f5d69a4a7fc935b01516d64d963bb3b0c533c70477ab4873f8a3e015b"
+  "audio_ids": []
 }

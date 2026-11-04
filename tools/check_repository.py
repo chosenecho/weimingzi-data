@@ -7,7 +7,7 @@ from pathlib import Path
 from urllib.parse import unquote
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
-from weimingzi_corpus.exports import navigation
+from weimingzi_corpus.exports import generate_catalog_docs
 
 
 def check_links(root):
@@ -32,7 +32,7 @@ def check_links(root):
 
 def main():
     root = Path(__file__).resolve().parents[1]
-    print(navigation(root, check=True))
+    print(generate_catalog_docs(root, check=True))
     print({"local_links_checked": check_links(root)})
 
 

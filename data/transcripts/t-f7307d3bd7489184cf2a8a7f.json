@@ -1,102 +1,104 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "kind": "transcript",
   "item_id": "i-6d639439bc962866b4691440",
-  "method": "asr-local",
+  "method": "asr_local",
   "language": "Chinese",
   "model": {
-    "model_name": "source://production/models/Qwen3-ASR-1.7B-hf",
-    "revision": "bcd2b5b7f32b480ab5790554cfa8347f246a14f3"
+    "revision": "bcd2b5b7f32b480ab5790554cfa8347f246a14f3",
+    "name": "source://production/models/Qwen3-ASR-1.7B-hf"
   },
   "time_unit": "ms",
   "text": "这个也是之前写的一首啊。\n玉兰清雨时，风吹散\n两枝，落去谁人知？\n同是一般痴，在晚风轻拂琉璃湖边，\n飘零有几片，更无需思量风的语言，不觉在耳边。\n玉兰清雨时，风\n吹散两枝，千问谁人知？\n秋去春来迟，在名利难免去痴人间，\n飘零有几片，倒也叫无情多情人间，不必费遮掩。\n玉兰清雨时，风吹散两枝，世情清\n冷更胜过秋风，\n不留丝雪涟漪，\n乍惊欢恨，无语吹寒意。扎进荒痕。",
   "segments": [
     {
-      "ordinal": 0,
       "text": "这个也是之前写的一首啊。",
       "start": 400,
-      "end": 1920
+      "end": 1920,
+      "index": 0
     },
     {
-      "ordinal": 1,
       "text": "玉兰清雨时，风吹散",
       "start": 26880,
-      "end": 35760
+      "end": 35760,
+      "index": 1
     },
     {
-      "ordinal": 2,
       "text": "两枝，落去谁人知？",
       "start": 37040,
-      "end": 44720
+      "end": 44720,
+      "index": 2
     },
     {
-      "ordinal": 3,
       "text": "同是一般痴，在晚风轻拂琉璃湖边，",
       "start": 47920,
-      "end": 59360
+      "end": 59360,
+      "index": 3
     },
     {
-      "ordinal": 4,
       "text": "飘零有几片，更无需思量风的语言，不觉在耳边。",
       "start": 62160,
-      "end": 80080
+      "end": 80080,
+      "index": 4
     },
     {
-      "ordinal": 5,
       "text": "玉兰清雨时，风",
       "start": 86880,
-      "end": 93760
+      "end": 93760,
+      "index": 5
     },
     {
-      "ordinal": 6,
       "text": "吹散两枝，千问谁人知？",
       "start": 95280,
-      "end": 105680
+      "end": 105680,
+      "index": 6
     },
     {
-      "ordinal": 7,
       "text": "秋去春来迟，在名利难免去痴人间，",
       "start": 108160,
-      "end": 119440
+      "end": 119440,
+      "index": 7
     },
     {
-      "ordinal": 8,
       "text": "飘零有几片，倒也叫无情多情人间，不必费遮掩。",
       "start": 122400,
-      "end": 143600
+      "end": 143600,
+      "index": 8
     },
     {
-      "ordinal": 9,
       "text": "玉兰清雨时，风吹散两枝，世情清",
       "start": 143600,
-      "end": 158080
+      "end": 158080,
+      "index": 9
     },
     {
-      "ordinal": 10,
       "text": "冷更胜过秋风，",
       "start": 159600,
-      "end": 162000
+      "end": 162000,
+      "index": 10
     },
     {
-      "ordinal": 11,
       "text": "不留丝雪涟漪，",
       "start": 164560,
-      "end": 170000
+      "end": 170000,
+      "index": 11
     },
     {
-      "ordinal": 12,
       "text": "乍惊欢恨，无语吹寒意。扎进荒痕。",
       "start": 171440,
-      "end": 189488
+      "end": 189488,
+      "index": 12
     }
   ],
   "quality": {
-    "human_reviewed": null,
+    "is_fully_human_reviewed": null,
     "requires_review": null,
-    "timed_exports_available": null,
+    "is_subtitle_export_enabled": null,
     "timing_issues": []
   },
-  "attributes": {
+  "id": "t-f7307d3bd7489184cf2a8a7f",
+  "content_sha256": "db1b7159c1f7b6b6862e7b9d4fe4c8d1b165ba42f1bba4f5e5169d84d524c784",
+  "metadata": {
     "content_sha256": [
       "49edc827358c312dfe89bdc7b57c2ce2622477393f274e35d7f53ad2ae103880",
       "1f8e87407d620779a38503a9f7e3851033680c0e73e780b9009c7bd455356824"
@@ -119,11 +121,9 @@
     "version": [
       1
     ],
-    "generated_at_unix": [
+    "generated_at_unix_seconds": [
       1792058908
     ]
   },
-  "media_ids": [],
-  "id": "t-f7307d3bd7489184cf2a8a7f",
-  "content_sha256": "f7307d3bd7489184cf2a8a7f859ee3ce6cd3d7353d85b025ee89231626c7470e"
+  "audio_ids": []
 }

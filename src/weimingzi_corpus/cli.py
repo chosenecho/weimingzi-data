@@ -11,38 +11,38 @@ import sys
 import tempfile
 from pathlib import Path
 
-from .data import (
-    DIRECTORIES,
-    TABLES,
-    canonical,
+from .records import (
+    JSON_RECORD_TABLES,
+    JSONL_TABLES,
+    canonical_json,
     read_json,
     read_jsonl,
-    records,
-    safe_target,
-    validate,
+    iter_records,
+    resolve_repository_path,
+    validate_corpus,
     write_json,
     write_jsonl,
 )
 from .exports import (
-    catalog,
-    markdown,
-    navigation,
-    review_markdown,
-    sqlite_export,
-    subtitle,
-    text_of,
+    render_catalog_csv,
+    render_markdown,
+    generate_catalog_docs,
+    render_review_markdown,
+    export_sqlite,
+    render_subtitles,
+    extract_text,
 )
 
 
-def find(root: Path, rid: str):
-    for table in DIRECTORIES:
-        path = safe_target(root, f"data/{table}/{rid}.json")
+def load_content_record(root: Path, record_id: str):
+    for table in JSON_RECORD_TABLES:
+        path = resolve_repository_path(root, f"data/{table}/{record_id}.json")
         if path.is_file():
             return read_json(path)
-    raise ValueError("Unknown content record: " + rid)
+    raise ValueError("Unknown content record: " + record_id)
 
 
-def output_path(root: Path, output: str) -> Path:
+def validate_export_path(root: Path, output: str) -> Path:
     path = Path(output).resolve()
     for protected in ("data", "selections", "src", "tools", "tests", "docs", ".git"):
         if path.is_relative_to((root / protected).resolve()):
@@ -62,7 +62,7 @@ def output_path(root: Path, output: str) -> Path:
     return path
 
 
-def import_record(root: Path, table: str, source: Path) -> int:
+def import_records(root: Path, table: str, source: Path) -> int:
     """Insert canonical records after validating an isolated hard-linked projection."""
     incoming = (
         list(read_jsonl(source)) if source.suffix == ".jsonl" else read_json(source)
@@ -71,18 +71,18 @@ def import_record(root: Path, table: str, source: Path) -> int:
         incoming = [incoming]
     if not isinstance(incoming, list) or not incoming:
         raise ValueError("Expected one record, an array, or JSONL")
-    existing = {r["id"]: r for r, _ in records(root, table)}
+    existing = {r["id"]: r for r, _ in iter_records(root, table)}
     new = []
     seen = set()
     for row in incoming:
-        rid = row.get("id")
-        if rid in seen:
-            raise ValueError("Duplicate import ID: " + str(rid))
-        seen.add(rid)
-        if rid in existing:
-            if existing[rid] != row:
+        record_id = row.get("id")
+        if record_id in seen:
+            raise ValueError("Duplicate import ID: " + str(record_id))
+        seen.add(record_id)
+        if record_id in existing:
+            if existing[record_id] != row:
                 raise ValueError(
-                    "Import would overwrite a different record: " + str(rid)
+                    "Import would overwrite a different record: " + str(record_id)
                 )
         else:
             new.append(row)
@@ -94,24 +94,28 @@ def import_record(root: Path, table: str, source: Path) -> int:
         candidate = Path(name)
         for folder in ("data", "selections"):
             shutil.copytree(root / folder, candidate / folder, copy_function=os.link)
-        if table in TABLES:
+        if table in JSONL_TABLES:
             destination = candidate / "data" / (table + ".jsonl")
             destination.unlink()  # Detach before writing; never mutate a source hard link.
             write_jsonl(destination, [*existing.values(), *new])
         else:
             for row in new:
-                destination = safe_target(candidate, f"data/{table}/{row['id']}.json")
+                destination = resolve_repository_path(
+                    candidate, f"data/{table}/{row['id']}.json"
+                )
                 write_json(destination, row)
-        validate(candidate)
+        validate_corpus(candidate)
         # No changes to the maintained tree occur before the full reference/type check.
-        if table in TABLES:
+        if table in JSONL_TABLES:
             os.replace(
                 candidate / "data" / (table + ".jsonl"),
                 root / "data" / (table + ".jsonl"),
             )
         else:
             for row in new:
-                destination = safe_target(root, f"data/{table}/{row['id']}.json")
+                destination = resolve_repository_path(
+                    root, f"data/{table}/{row['id']}.json"
+                )
                 os.replace(
                     candidate / "data" / table / (row["id"] + ".json"), destination
                 )
@@ -128,7 +132,9 @@ def main(argv=None) -> int:
     generated = commands.add_parser("generate")
     generated.add_argument("--check", action="store_true")
     imported = commands.add_parser("import")
-    imported.add_argument("--table", choices=[*TABLES, *DIRECTORIES], required=True)
+    imported.add_argument(
+        "--table", choices=[*JSONL_TABLES, *JSON_RECORD_TABLES], required=True
+    )
     imported.add_argument("source", type=Path)
     exported = commands.add_parser("export")
     exported.add_argument(
@@ -138,7 +144,7 @@ def main(argv=None) -> int:
             "jsonl",
             "txt",
             "markdown",
-            "review",
+            "review_markdown",
             "srt",
             "vtt",
             "catalog",
@@ -160,11 +166,11 @@ def main(argv=None) -> int:
     root = args.root.resolve()
     try:
         if args.command == "validate":
-            result = validate(root)
+            result = validate_corpus(root)
         elif args.command == "generate":
-            result = navigation(root, args.check)
+            result = generate_catalog_docs(root, args.check)
         elif args.command == "import":
-            result = {"inserted": import_record(root, args.table, args.source)}
+            result = {"inserted": import_records(root, args.table, args.source)}
         elif args.command == "search":
             if not args.database.is_file():
                 raise ValueError("Export a SQLite search database first")
@@ -178,7 +184,7 @@ def main(argv=None) -> int:
                 phrase = '"' + args.query.replace('"', '""') + '"'
                 if len(args.query) >= 3:
                     rows = db.execute(
-                        "SELECT id,item_id,kind,snippet(search,3,'[',']','…',30) FROM search WHERE search MATCH ? LIMIT ?",
+                        "SELECT id,item_id,kind,snippet(content_search,3,'[',']','…',30) FROM content_search WHERE content_search MATCH ? LIMIT ?",
                         (phrase, args.limit),
                     ).fetchall()
                 else:
@@ -188,35 +194,35 @@ def main(argv=None) -> int:
                         .replace("_", "\\_")
                     )
                     rows = db.execute(
-                        "SELECT id,item_id,kind,substr(text,1,180) FROM search WHERE text LIKE ? ESCAPE '\\' LIMIT ?",
+                        "SELECT id,item_id,kind,substr(text,1,180) FROM content_search WHERE text LIKE ? ESCAPE '\\' LIMIT ?",
                         ("%" + literal + "%", args.limit),
                     ).fetchall()
                 result = [dict(zip(["id", "item_id", "kind", "text"], r)) for r in rows]
             finally:
                 db.close()
         else:
-            output = output_path(root, args.output)
+            output = validate_export_path(root, args.output)
             if args.format in {"catalog", "sqlite"}:
                 if args.id or args.selection:
                     raise ValueError("Catalog/SQLite export covers all records")
-                validate(root)
+                validate_corpus(root)
                 if args.format == "sqlite":
-                    sqlite_export(root, output)
+                    export_sqlite(root, output)
                     value = None
                 else:
-                    value = catalog(root)
+                    value = render_catalog_csv(root)
             else:
                 if args.id:
-                    rows = [find(root, args.id)]
+                    rows = [load_content_record(root, args.id)]
                 elif args.selection:
                     rows = [
-                        find(root, e["reading_id"])
+                        load_content_record(root, e["edited_transcript_id"])
                         for e in read_json(root / "selections/training.json")["entries"]
                     ]
                 else:
                     raise ValueError("Choose --id or --selection")
                 if args.format == "jsonl":
-                    value = "".join(canonical(r) + "\n" for r in rows)
+                    value = "".join(canonical_json(r) + "\n" for r in rows)
                 elif args.format == "json":
                     value = (
                         json.dumps(
@@ -229,19 +235,19 @@ def main(argv=None) -> int:
                         raise ValueError("This format requires a single --id")
                     row = rows[0]
                     if args.format in {"srt", "vtt"}:
-                        value = subtitle(row, args.format)
+                        value = render_subtitles(row, args.format)
                     elif args.format == "txt":
-                        value = text_of(row)
+                        value = extract_text(row)
                     else:
                         item = next(
                             r
-                            for r, _ in records(root, "items")
+                            for r, _ in iter_records(root, "items")
                             if r["id"] == row["item_id"]
                         )
                         value = (
-                            review_markdown(row, item)
-                            if args.format == "review"
-                            else markdown(row, item)
+                            render_review_markdown(row, item)
+                            if args.format == "review_markdown"
+                            else render_markdown(row, item)
                         )
             if value is not None:
                 output.parent.mkdir(parents=True, exist_ok=True)

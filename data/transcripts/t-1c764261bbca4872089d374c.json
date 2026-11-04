@@ -1,10 +1,12 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "kind": "transcript",
   "item_id": "i-410141def65d6fedd23b9b49",
-  "method": "asr-cloud",
+  "method": "asr_cloud",
   "language": null,
-  "model": "qwen-audio-3.1-asr-flash",
+  "model": {
+    "name": "qwen-audio-3.1-asr-flash"
+  },
   "time_unit": "s",
   "text": "新任务 引导大家对你犯病对对我对你为什么为什么你在那个人员背后摆一点货签字过程要拍等会拉开哦 他翻出来了你的公章是从来不用啊直接扣下去就可以了别 没那好拍的对哦 不对这整个整片墙上都是亮的拜拜每一个夏天它都放在一起拜拜少侠 你最近在忙什么呢 少侠真能说吗头一歪就开始但超肥不一样 超肥走路是这样子啊 快去帮超肥搬搬东西看衣服就知道了谁才是真正的成分好的人我显得格格不入入就是一个我们新设置的电子决斗场这需要一定的人手来帮忙然后来帮忙 无论是打扫卫生也好来帮忙装修也好来帮忙干杂活或者等等配合这个装修师傅一起把活弄了 等等反正只要来干活然后满一定的时间我估计可能也就两三天时间吧就反正只要你来帮忙我们第一个月的会员就是免费体验对 然后作为第一批的尊贵什么尊贵VIP然后将享受到我们初次启动的所有的项目都可以随便玩师傅 你需要几个人大概就九到十个人吧就毕竟一定要有一定的这个动手能力如果不会的话 超肥会教你们的打扫完了我可以教教你很多劳动技能就尽可能让多一点人参与吧哦 你是这个意思是意思是吧。",
   "segments": [
@@ -14,7 +16,7 @@
       "text": "新任务 引导大家对你犯病",
       "speaker_id": 0,
       "chunk_offset_seconds": 0,
-      "ordinal": 0
+      "index": 0
     },
     {
       "start": 11.52,
@@ -22,7 +24,7 @@
       "text": "对",
       "speaker_id": 1,
       "chunk_offset_seconds": 0,
-      "ordinal": 1
+      "index": 1
     },
     {
       "start": 12.88,
@@ -30,7 +32,7 @@
       "text": "对我",
       "speaker_id": 1,
       "chunk_offset_seconds": 0,
-      "ordinal": 2
+      "index": 2
     },
     {
       "start": 13.68,
@@ -38,7 +40,7 @@
       "text": "对你",
       "speaker_id": 0,
       "chunk_offset_seconds": 0,
-      "ordinal": 3
+      "index": 3
     },
     {
       "start": 14.32,
@@ -46,7 +48,7 @@
       "text": "为什么",
       "speaker_id": 1,
       "chunk_offset_seconds": 0,
-      "ordinal": 4
+      "index": 4
     },
     {
       "start": 15.52,
@@ -54,7 +56,7 @@
       "text": "为什么",
       "speaker_id": 1,
       "chunk_offset_seconds": 0,
-      "ordinal": 5
+      "index": 5
     },
     {
       "start": 18.0,
@@ -62,7 +64,7 @@
       "text": "你在那个人员背后摆一点货签字过程要拍",
       "speaker_id": 2,
       "chunk_offset_seconds": 0,
-      "ordinal": 6
+      "index": 6
     },
     {
       "start": 22.4,
@@ -70,7 +72,7 @@
       "text": "等会拉开",
       "speaker_id": 2,
       "chunk_offset_seconds": 0,
-      "ordinal": 7
+      "index": 7
     },
     {
       "start": 23.28,
@@ -78,7 +80,7 @@
       "text": "哦 他翻出来了",
       "speaker_id": 3,
       "chunk_offset_seconds": 0,
-      "ordinal": 8
+      "index": 8
     },
     {
       "start": 24.8,
@@ -86,7 +88,7 @@
       "text": "你的公章是从来不用啊",
       "speaker_id": 4,
       "chunk_offset_seconds": 0,
-      "ordinal": 9
+      "index": 9
     },
     {
       "start": 28.32,
@@ -94,7 +96,7 @@
       "text": "直接扣下去就可以了",
       "speaker_id": 4,
       "chunk_offset_seconds": 0,
-      "ordinal": 10
+      "index": 10
     },
     {
       "start": 32.24,
@@ -102,7 +104,7 @@
       "text": "别 没那好拍的对",
       "speaker_id": 5,
       "chunk_offset_seconds": 0,
-      "ordinal": 11
+      "index": 11
     },
     {
       "start": 40.56,
@@ -110,7 +112,7 @@
       "text": "哦 不对",
       "speaker_id": 2,
       "chunk_offset_seconds": 0,
-      "ordinal": 12
+      "index": 12
     },
     {
       "start": 41.04,
@@ -118,7 +120,7 @@
       "text": "这整个整片墙上都是亮的",
       "speaker_id": 3,
       "chunk_offset_seconds": 0,
-      "ordinal": 13
+      "index": 13
     },
     {
       "start": 42.88,
@@ -126,7 +128,7 @@
       "text": "拜拜每一个夏天它都放在一起拜拜",
       "speaker_id": 4,
       "chunk_offset_seconds": 0,
-      "ordinal": 14
+      "index": 14
     },
     {
       "start": 49.68,
@@ -134,7 +136,7 @@
       "text": "少侠 你最近在忙什么呢 少侠",
       "speaker_id": 0,
       "chunk_offset_seconds": 0,
-      "ordinal": 15
+      "index": 15
     },
     {
       "start": 52.16,
@@ -142,7 +144,7 @@
       "text": "真能说吗",
       "speaker_id": 5,
       "chunk_offset_seconds": 0,
-      "ordinal": 16
+      "index": 16
     },
     {
       "start": 53.12,
@@ -150,7 +152,7 @@
       "text": "头一歪就开始",
       "speaker_id": 5,
       "chunk_offset_seconds": 0,
-      "ordinal": 17
+      "index": 17
     },
     {
       "start": 54.24,
@@ -158,7 +160,7 @@
       "text": "但超肥不一样 超肥走路是这样子",
       "speaker_id": 2,
       "chunk_offset_seconds": 0,
-      "ordinal": 18
+      "index": 18
     },
     {
       "start": 57.6,
@@ -166,7 +168,7 @@
       "text": "啊 快去帮超肥搬搬东西",
       "speaker_id": 5,
       "chunk_offset_seconds": 0,
-      "ordinal": 19
+      "index": 19
     },
     {
       "start": 60.56,
@@ -174,7 +176,7 @@
       "text": "看衣服就知道了谁才是真正的成分好的人",
       "speaker_id": 3,
       "chunk_offset_seconds": 0,
-      "ordinal": 20
+      "index": 20
     },
     {
       "start": 65.2,
@@ -182,7 +184,7 @@
       "text": "我显得格格不入",
       "speaker_id": 3,
       "chunk_offset_seconds": 0,
-      "ordinal": 21
+      "index": 21
     },
     {
       "start": 66.64,
@@ -190,7 +192,7 @@
       "text": "入",
       "speaker_id": 3,
       "chunk_offset_seconds": 0,
-      "ordinal": 22
+      "index": 22
     },
     {
       "start": 73.6,
@@ -198,7 +200,7 @@
       "text": "就是一个我们新设置的电子决斗场这需要一定的人手来帮忙",
       "speaker_id": 3,
       "chunk_offset_seconds": 0,
-      "ordinal": 23
+      "index": 23
     },
     {
       "start": 79.52,
@@ -206,7 +208,7 @@
       "text": "然后来帮忙 无论是打扫卫生也好来帮忙装修也好来帮忙干杂活或者等等配合这个装修师傅一起把活弄了 等等反正只要来干活然后满一定的时间我估计可能也就两三天时间吧就反正只要你来帮忙我们第一个月的会员就是",
       "speaker_id": 3,
       "chunk_offset_seconds": 0,
-      "ordinal": 24
+      "index": 24
     },
     {
       "start": 99.04,
@@ -214,7 +216,7 @@
       "text": "免费体验",
       "speaker_id": 0,
       "chunk_offset_seconds": 0,
-      "ordinal": 25
+      "index": 25
     },
     {
       "start": 100.48,
@@ -222,7 +224,7 @@
       "text": "对 然后作为第一批的尊贵什么尊贵VIP然后将享受到我们初次启动的所有的项目都可以随便玩",
       "speaker_id": 3,
       "chunk_offset_seconds": 0,
-      "ordinal": 26
+      "index": 26
     },
     {
       "start": 109.52,
@@ -230,7 +232,7 @@
       "text": "师傅 你需要几个人",
       "speaker_id": 0,
       "chunk_offset_seconds": 0,
-      "ordinal": 27
+      "index": 27
     },
     {
       "start": 111.68,
@@ -238,7 +240,7 @@
       "text": "大概就九到十个人吧",
       "speaker_id": 5,
       "chunk_offset_seconds": 0,
-      "ordinal": 28
+      "index": 28
     },
     {
       "start": 113.44,
@@ -246,7 +248,7 @@
       "text": "就毕竟",
       "speaker_id": 0,
       "chunk_offset_seconds": 0,
-      "ordinal": 29
+      "index": 29
     },
     {
       "start": 114.08,
@@ -254,7 +256,7 @@
       "text": "一定要有一定的这个动手能力",
       "speaker_id": 5,
       "chunk_offset_seconds": 0,
-      "ordinal": 30
+      "index": 30
     },
     {
       "start": 117.76,
@@ -262,7 +264,7 @@
       "text": "如果不会的话 超肥会教你们的",
       "speaker_id": 0,
       "chunk_offset_seconds": 0,
-      "ordinal": 31
+      "index": 31
     },
     {
       "start": 120.08,
@@ -270,7 +272,7 @@
       "text": "打扫完了我可以教教你很多劳动技能",
       "speaker_id": 5,
       "chunk_offset_seconds": 0,
-      "ordinal": 32
+      "index": 32
     },
     {
       "start": 123.28,
@@ -278,7 +280,7 @@
       "text": "就尽可能让多一点人参与吧",
       "speaker_id": 2,
       "chunk_offset_seconds": 0,
-      "ordinal": 33
+      "index": 33
     },
     {
       "start": 125.2,
@@ -286,7 +288,7 @@
       "text": "哦 你是这个意思是",
       "speaker_id": 5,
       "chunk_offset_seconds": 0,
-      "ordinal": 34
+      "index": 34
     },
     {
       "start": 126.256,
@@ -294,26 +296,28 @@
       "text": "意思是吧。",
       "speaker_id": 5,
       "chunk_offset_seconds": 0,
-      "ordinal": 35
+      "index": 35
     }
   ],
   "quality": {
-    "human_reviewed": false,
+    "is_fully_human_reviewed": false,
     "requires_review": false,
-    "timed_exports_available": true,
+    "is_subtitle_export_enabled": true,
     "timing_issues": []
   },
-  "attributes": {
+  "id": "t-1c764261bbca4872089d374c",
+  "content_sha256": "de6cab3d687f827a9bc487aefd3f34dc871f254224fde68680b37fbe3296ae5c",
+  "metadata": {
     "audio_sha256": [
       "bbd696a8948744ad6ed766ad5df0d43f45eab89296ada9f8c55b078cc10cf5c3"
     ],
-    "chunk_seconds": [
+    "chunk_duration_seconds": [
       240
     ],
     "speaker_diarization_enabled": [
       true
     ],
-    "sample_rate": [
+    "sample_rate_hz": [
       16000
     ],
     "version": [
@@ -335,16 +339,14 @@
     "speaker_ids_are_chunk_local": [
       true
     ],
-    "untranscribed_intervals": [
+    "recognition_issue_intervals": [
       []
     ]
   },
-  "media_ids": [
+  "audio_ids": [
     "m-bbd696a8948744ad6ed766ad5df0d43f45eab89296ada9f8c55b078cc10cf5c3"
   ],
-  "id": "t-1c764261bbca4872089d374c",
-  "content_sha256": "1c764261bbca4872089d374c0444ac4697f4a9304e9b75e68d83dc23126678e7",
-  "alignments": [
+  "recognition_chunks": [
     {
       "kind": "recognition_chunk",
       "time_unit": "ms",
@@ -3184,5 +3186,5 @@
       "id": "x-a46be6fd9052a424717a6b29"
     }
   ],
-  "alignments_sha256": "add1edc9ac992cb8c2bc43bbfe1b4ca51970acc7d06ab9dd29393a0edbb31266"
+  "recognition_chunks_sha256": "add1edc9ac992cb8c2bc43bbfe1b4ca51970acc7d06ab9dd29393a0edbb31266"
 }

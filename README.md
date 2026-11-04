@@ -3,6 +3,7 @@
 维护未明子的视频、录音转录、整理稿、动态和专栏。数据按内容类型统一存放，平台标识、原文链接和模型信息放在记录字段中。
 
 - [浏览全部内容](docs/INDEX.md)
+- [名词与概念](docs/GLOSSARY.md)
 - [数据结构](docs/SCHEMA.md)
 - [维护与入库](docs/MAINTENANCE.md)
 - [音频下载](docs/DOWNLOAD.md)
@@ -16,12 +17,12 @@
 data/
   items.jsonl           内容条目、外部标识、标题和关联
   transcripts/          带时间的基础转录
-  readings/             整理稿、段落参照和疑点
-  dynamics/             动态富文本及关联专栏
+  edited_transcripts/    整理稿、段落参照和疑点
+  posts/                动态富文本及关联专栏
   articles/             专栏正文与富文本
   collections.jsonl     文集、合集、系列及成员顺序
-  media.jsonl           音频哈希、可用状态和下载位置
-  annotations.jsonl     有范围限定的人工确认
+  audio.jsonl           音频哈希、可用状态和下载位置
+  confirmations.jsonl   有范围限定的人工确认
 selections/
   training.json         训练选稿的条目引用
 src/weimingzi_corpus/   本地维护工具

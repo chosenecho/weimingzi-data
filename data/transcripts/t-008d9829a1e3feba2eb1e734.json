@@ -1,10 +1,12 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "kind": "transcript",
   "item_id": "i-e5ff93efb368064b03c3b3cc",
-  "method": "asr-cloud",
+  "method": "asr_cloud",
   "language": null,
-  "model": "qwen-audio-3.1-asr-flash",
+  "model": {
+    "name": "qwen-audio-3.1-asr-flash"
+  },
   "time_unit": "s",
   "text": "55岁农民工为了12块钱高温补贴顶着烈日拼命工作结果高烧42度全身抽搐呼吸困难体内脏器被不断蒸煮成五分熟医生只看一眼便断定他凶多吉少不久前一名42岁的建筑工人在这里经历了一场生死抢救据主治医生介绍这名工人在户外连续工作4小时后突然晕倒被送来时体温高达43度已经出现多器官衰竭的症状今天当我们讨论39摄氏度天气的时候可能会自觉打开空调但为什么同样的温度有人只是觉得热但却有人会因此失去生命呢把一张高温预警地图铺开开它不会分贫富职业年龄太阳就那么直直地照着天气预报上的数字城里的每个人都看得见把视角从天上移到地上上真正的不平等就写在那里39摄氏度像一把刀在这座城市里劈出两个完全平行的世界有人把办公室的冷气调低两度端着一杯冰咖啡就继续打字或者索性把会议改到线上在家里躲过最热的几个小时但更多的体力无产者他们知道天气很热避暑降温可是手中的工作却不能停下来一个建筑工人蹲在脚手架上今天38摄氏度钢筋还得绑完一个环卫工扫着马路地面的温度却早已超过60摄氏度一个骑手手机里订单响个不停但政府的单子最多他关不了热的顶不住热的顶不住你这像他们跟你应该是有这种什么高温补贴吧应该没有补贴这这么大热天不给不给发点那什么防暑的呀什么的没有没有就纯自己扛还是说工地给咱发的给咱买的呢不是自己买的没有高温补贴吗我们工地哪有高温补贴没有补贴这么热的天天气补贴都没有天气补贴没有对啊应该有天气补贴的下午高温补贴没有高温补贴没有有大半个月都没有盐啊像这种电解质是是是比较常见的一些粉里面里面有有一些盐或者维生素C什么的对对对泡进去想您知道那个热射病吗它就在这种情况下产生的就是说就是说其实光尤其是你们这的衣服它虽然是个隔热的但是它也有时候不能很好的往外散散热对如果你这个身体实在太热的话它就内脏四五十度它没法没法往外排热就就很容易体温上来了你就散不掉主要是一直跑嘛注意干活的时候注意那个注意防暑多喝水这个天气就特别麻烦吃点咸菜这个咸菜赶紧赶紧赶紧吃好好好好我们就是尽量还是要太热的话水水要多一点对免费拿水汗比较多的话就只喝白开水是不行的你要喝下运动饮料啥至少买一瓶运动饮料就出汗比较多我有这汤检查检查呗你就感觉自己好像挺一挺就挺过去了但是有些情况下它其实那个呃头晕头痛啊没呃就是没没力气。",
   "segments": [
@@ -14,7 +16,7 @@
       "text": "55岁农民工为了12块钱高温补贴顶着烈日拼命工作结果高烧42度全身抽搐呼吸困难体内脏器被不断蒸煮成五分熟",
       "speaker_id": 0,
       "chunk_offset_seconds": 0,
-      "ordinal": 0
+      "index": 0
     },
     {
       "start": 9.12,
@@ -22,7 +24,7 @@
       "text": "医生只看一眼便断定他凶多吉少",
       "speaker_id": 0,
       "chunk_offset_seconds": 0,
-      "ordinal": 1
+      "index": 1
     },
     {
       "start": 11.76,
@@ -30,7 +32,7 @@
       "text": "不久前一名42岁的建筑工人在",
       "speaker_id": 1,
       "chunk_offset_seconds": 0,
-      "ordinal": 2
+      "index": 2
     },
     {
       "start": 13.826,
@@ -38,7 +40,7 @@
       "text": "这里经历了一场生死抢救据主治医生介绍这名工人在户外连续工作4小时后突然晕倒被送来时体温高达43度已经出现多器官衰竭的症状",
       "speaker_id": 1,
       "chunk_offset_seconds": 0,
-      "ordinal": 3
+      "index": 3
     },
     {
       "start": 26.88,
@@ -46,7 +48,7 @@
       "text": "今天当我们讨论39摄氏度天气的时候可能会自觉打开空调但为什么同样的温度有人只是觉得热但却有人会因此失去生命呢",
       "speaker_id": 2,
       "chunk_offset_seconds": 0,
-      "ordinal": 4
+      "index": 4
     },
     {
       "start": 36.08,
@@ -54,7 +56,7 @@
       "text": "把一张高温预警地图铺开",
       "speaker_id": 2,
       "chunk_offset_seconds": 0,
-      "ordinal": 5
+      "index": 5
     },
     {
       "start": 37.68,
@@ -62,7 +64,7 @@
       "text": "开它不会分贫富职业年龄太阳就那么直直地照着",
       "speaker_id": 2,
       "chunk_offset_seconds": 0,
-      "ordinal": 6
+      "index": 6
     },
     {
       "start": 42.4,
@@ -70,7 +72,7 @@
       "text": "天气预报上的数字城里的每个人都看得见把视角从天上移到地上",
       "speaker_id": 2,
       "chunk_offset_seconds": 0,
-      "ordinal": 7
+      "index": 7
     },
     {
       "start": 46.536,
@@ -78,7 +80,7 @@
       "text": "上真正的不平等就写在那里39摄氏度像一把刀在这座城市里劈出两个完全平行的世界有人把办公室的冷气调低两度端着一杯冰咖啡就继续打字或者索性把会议改到线上在家里躲过最热的几个小时",
       "speaker_id": 2,
       "chunk_offset_seconds": 0,
-      "ordinal": 8
+      "index": 8
     },
     {
       "start": 57.92,
@@ -86,7 +88,7 @@
       "text": "但更多的体力无产者他们知道天气很热避暑降温可是手中的工作却不能停下来",
       "speaker_id": 2,
       "chunk_offset_seconds": 0,
-      "ordinal": 9
+      "index": 9
     },
     {
       "start": 63.76,
@@ -94,7 +96,7 @@
       "text": "一个建筑工人蹲在脚手架上今天38摄氏度钢筋还得绑完一个环卫工扫着马路地面的温度却早已超过60摄氏度",
       "speaker_id": 2,
       "chunk_offset_seconds": 0,
-      "ordinal": 10
+      "index": 10
     },
     {
       "start": 70.96,
@@ -102,7 +104,7 @@
       "text": "一个骑手手机里订单响个不停但政府的单子最多他关不了",
       "speaker_id": 2,
       "chunk_offset_seconds": 0,
-      "ordinal": 11
+      "index": 11
     },
     {
       "start": 82.72,
@@ -110,7 +112,7 @@
       "text": "热的顶不住",
       "speaker_id": 3,
       "chunk_offset_seconds": 0,
-      "ordinal": 12
+      "index": 12
     },
     {
       "start": 84.0,
@@ -118,7 +120,7 @@
       "text": "热的顶不住",
       "speaker_id": 4,
       "chunk_offset_seconds": 0,
-      "ordinal": 13
+      "index": 13
     },
     {
       "start": 85.52,
@@ -126,7 +128,7 @@
       "text": "你这像他们跟你",
       "speaker_id": 4,
       "chunk_offset_seconds": 0,
-      "ordinal": 14
+      "index": 14
     },
     {
       "start": 87.76,
@@ -134,7 +136,7 @@
       "text": "应该是有这种什么高温补贴吧应该",
       "speaker_id": 4,
       "chunk_offset_seconds": 0,
-      "ordinal": 15
+      "index": 15
     },
     {
       "start": 90.48,
@@ -142,7 +144,7 @@
       "text": "没有补贴",
       "speaker_id": 3,
       "chunk_offset_seconds": 0,
-      "ordinal": 16
+      "index": 16
     },
     {
       "start": 91.84,
@@ -150,7 +152,7 @@
       "text": "这这么大热天不给不给发点那什么防暑的呀什么的",
       "speaker_id": 4,
       "chunk_offset_seconds": 0,
-      "ordinal": 17
+      "index": 17
     },
     {
       "start": 95.6,
@@ -158,7 +160,7 @@
       "text": "没有没有",
       "speaker_id": 3,
       "chunk_offset_seconds": 0,
-      "ordinal": 18
+      "index": 18
     },
     {
       "start": 96.8,
@@ -166,7 +168,7 @@
       "text": "就纯自己扛",
       "speaker_id": 4,
       "chunk_offset_seconds": 0,
-      "ordinal": 19
+      "index": 19
     },
     {
       "start": 97.76,
@@ -174,7 +176,7 @@
       "text": "还是说工地给咱发的给咱买的呢",
       "speaker_id": 5,
       "chunk_offset_seconds": 0,
-      "ordinal": 20
+      "index": 20
     },
     {
       "start": 99.84,
@@ -182,7 +184,7 @@
       "text": "不是自己买的",
       "speaker_id": 3,
       "chunk_offset_seconds": 0,
-      "ordinal": 21
+      "index": 21
     },
     {
       "start": 102.08,
@@ -190,7 +192,7 @@
       "text": "没有高温补贴吗",
       "speaker_id": 5,
       "chunk_offset_seconds": 0,
-      "ordinal": 22
+      "index": 22
     },
     {
       "start": 104.56,
@@ -198,7 +200,7 @@
       "text": "我们工地哪有高温补贴",
       "speaker_id": 3,
       "chunk_offset_seconds": 0,
-      "ordinal": 23
+      "index": 23
     },
     {
       "start": 110.32,
@@ -206,7 +208,7 @@
       "text": "没有补贴这么热的天天气补贴都没有",
       "speaker_id": 6,
       "chunk_offset_seconds": 0,
-      "ordinal": 24
+      "index": 24
     },
     {
       "start": 113.76,
@@ -214,7 +216,7 @@
       "text": "天气补贴没有",
       "speaker_id": 4,
       "chunk_offset_seconds": 0,
-      "ordinal": 25
+      "index": 25
     },
     {
       "start": 114.8,
@@ -222,7 +224,7 @@
       "text": "对啊应该有天气补贴的下午",
       "speaker_id": 6,
       "chunk_offset_seconds": 0,
-      "ordinal": 26
+      "index": 26
     },
     {
       "start": 117.12,
@@ -230,7 +232,7 @@
       "text": "高温补贴没有",
       "speaker_id": 4,
       "chunk_offset_seconds": 0,
-      "ordinal": 27
+      "index": 27
     },
     {
       "start": 118.0,
@@ -238,7 +240,7 @@
       "text": "高温补贴没有",
       "speaker_id": 6,
       "chunk_offset_seconds": 0,
-      "ordinal": 28
+      "index": 28
     },
     {
       "start": 118.866,
@@ -246,7 +248,7 @@
       "text": "有大半个月都没有",
       "speaker_id": 6,
       "chunk_offset_seconds": 0,
-      "ordinal": 29
+      "index": 29
     },
     {
       "start": 137.44,
@@ -254,7 +256,7 @@
       "text": "盐啊像这种电解质是是是比较常见的一些粉",
       "speaker_id": 7,
       "chunk_offset_seconds": 0,
-      "ordinal": 30
+      "index": 30
     },
     {
       "start": 141.6,
@@ -262,7 +264,7 @@
       "text": "里面里面有有一些盐或者维生素C什么的",
       "speaker_id": 4,
       "chunk_offset_seconds": 0,
-      "ordinal": 31
+      "index": 31
     },
     {
       "start": 144.56,
@@ -270,7 +272,7 @@
       "text": "对对对",
       "speaker_id": 7,
       "chunk_offset_seconds": 0,
-      "ordinal": 32
+      "index": 32
     },
     {
       "start": 145.28,
@@ -278,7 +280,7 @@
       "text": "泡进去",
       "speaker_id": 4,
       "chunk_offset_seconds": 0,
-      "ordinal": 33
+      "index": 33
     },
     {
       "start": 146.24,
@@ -286,7 +288,7 @@
       "text": "想您知道那个热射病吗它就在这种情况下产生的就是说就是说其实光",
       "speaker_id": 5,
       "chunk_offset_seconds": 0,
-      "ordinal": 34
+      "index": 34
     },
     {
       "start": 150.56,
@@ -294,7 +296,7 @@
       "text": "尤其是你们这的衣服它虽然是个隔热的但是它也有时候不能很好的往外散散热",
       "speaker_id": 4,
       "chunk_offset_seconds": 0,
-      "ordinal": 35
+      "index": 35
     },
     {
       "start": 156.88,
@@ -302,7 +304,7 @@
       "text": "对如果你这个身体实在太热的话它就内脏四五十度它没法没法往外排热就就很容易",
       "speaker_id": 4,
       "chunk_offset_seconds": 0,
-      "ordinal": 36
+      "index": 36
     },
     {
       "start": 163.2,
@@ -310,7 +312,7 @@
       "text": "体温上来了你就散不掉主要是一直跑嘛",
       "speaker_id": 8,
       "chunk_offset_seconds": 0,
-      "ordinal": 37
+      "index": 37
     },
     {
       "start": 166.8,
@@ -318,7 +320,7 @@
       "text": "注意干活的时候注意那个注意防暑",
       "speaker_id": 9,
       "chunk_offset_seconds": 0,
-      "ordinal": 38
+      "index": 38
     },
     {
       "start": 170.24,
@@ -326,7 +328,7 @@
       "text": "多喝水这个天气就特别麻烦",
       "speaker_id": 9,
       "chunk_offset_seconds": 0,
-      "ordinal": 39
+      "index": 39
     },
     {
       "start": 172.4,
@@ -334,7 +336,7 @@
       "text": "吃点咸菜这个咸菜赶紧赶紧赶紧吃",
       "speaker_id": 8,
       "chunk_offset_seconds": 0,
-      "ordinal": 40
+      "index": 40
     },
     {
       "start": 175.84,
@@ -342,7 +344,7 @@
       "text": "好好好好",
       "speaker_id": 10,
       "chunk_offset_seconds": 0,
-      "ordinal": 41
+      "index": 41
     },
     {
       "start": 178.8,
@@ -350,7 +352,7 @@
       "text": "我们就是尽量还是要",
       "speaker_id": 10,
       "chunk_offset_seconds": 0,
-      "ordinal": 42
+      "index": 42
     },
     {
       "start": 180.8,
@@ -358,7 +360,7 @@
       "text": "太热的话水水要多一点",
       "speaker_id": 10,
       "chunk_offset_seconds": 0,
-      "ordinal": 43
+      "index": 43
     },
     {
       "start": 182.48,
@@ -366,7 +368,7 @@
       "text": "对免费拿水",
       "speaker_id": 11,
       "chunk_offset_seconds": 0,
-      "ordinal": 44
+      "index": 44
     },
     {
       "start": 188.56,
@@ -374,7 +376,7 @@
       "text": "汗比较多的话就只喝白开水是不行的你要喝下运动饮料啥至少买一瓶运动饮料就出汗比较多",
       "speaker_id": 10,
       "chunk_offset_seconds": 0,
-      "ordinal": 45
+      "index": 45
     },
     {
       "start": 202.0,
@@ -382,7 +384,7 @@
       "text": "我有这汤",
       "speaker_id": 12,
       "chunk_offset_seconds": 0,
-      "ordinal": 46
+      "index": 46
     },
     {
       "start": 209.84,
@@ -390,7 +392,7 @@
       "text": "检查检查呗",
       "speaker_id": 13,
       "chunk_offset_seconds": 0,
-      "ordinal": 47
+      "index": 47
     },
     {
       "start": 211.2,
@@ -398,7 +400,7 @@
       "text": "你就感觉自己好像挺一挺就挺过去了但是有些情况下它其实",
       "speaker_id": 14,
       "chunk_offset_seconds": 0,
-      "ordinal": 48
+      "index": 48
     },
     {
       "start": 215.44,
@@ -406,26 +408,28 @@
       "text": "那个呃头晕头痛啊没呃就是没没力气。",
       "speaker_id": 15,
       "chunk_offset_seconds": 0,
-      "ordinal": 49
+      "index": 49
     }
   ],
   "quality": {
-    "human_reviewed": false,
+    "is_fully_human_reviewed": false,
     "requires_review": false,
-    "timed_exports_available": true,
+    "is_subtitle_export_enabled": true,
     "timing_issues": []
   },
-  "attributes": {
+  "id": "t-008d9829a1e3feba2eb1e734",
+  "content_sha256": "893fca36364ac48fa4b3f1bf4c85dea3706068c628aa0eeb1893d9ddc3f95ce9",
+  "metadata": {
     "audio_sha256": [
       "8dc31f8286e0168870bae6d51aabca714abe4685e65d7c4eacbbef3ad8aa8b05"
     ],
-    "chunk_seconds": [
+    "chunk_duration_seconds": [
       240
     ],
     "speaker_diarization_enabled": [
       true
     ],
-    "sample_rate": [
+    "sample_rate_hz": [
       16000
     ],
     "version": [
@@ -447,16 +451,14 @@
     "speaker_ids_are_chunk_local": [
       true
     ],
-    "untranscribed_intervals": [
+    "recognition_issue_intervals": [
       []
     ]
   },
-  "media_ids": [
+  "audio_ids": [
     "m-8dc31f8286e0168870bae6d51aabca714abe4685e65d7c4eacbbef3ad8aa8b05"
   ],
-  "id": "t-008d9829a1e3feba2eb1e734",
-  "content_sha256": "008d9829a1e3feba2eb1e73495726dece7f8c26aae6226d1e4b3b30155112c23",
-  "alignments": [
+  "recognition_chunks": [
     {
       "kind": "recognition_chunk",
       "time_unit": "ms",
@@ -5866,5 +5868,5 @@
       "id": "x-09f6f92ce63753f388a3d9cb"
     }
   ],
-  "alignments_sha256": "29960c5369decbc20c9f88744cd0f0be4eb853a86d2e3bd2105c32a6cdc0ab0a"
+  "recognition_chunks_sha256": "29960c5369decbc20c9f88744cd0f0be4eb853a86d2e3bd2105c32a6cdc0ab0a"
 }

@@ -4,11 +4,11 @@
 
 基础转录包含字幕和语音识别结果，整理稿包含模型整理、局部输出及有限人工修订。同一内容可以关联多个结果；模型名、生成参数、原有疑点和质量状态保存在相应记录中。
 
-`quality.human_reviewed`、`requires_review`、`timed_exports_available` 使用布尔值或 `null`：`false` 表示明确否，`null` 表示原数据未说明。训练选稿不能作为全文人工审核的凭据，确认记录只适用于锚定的字句或术语。
+`quality.is_fully_human_reviewed`、`requires_review`、`is_subtitle_export_enabled` 使用布尔值或 `null`：`false` 表示明确否，`null` 表示原数据未说明。训练选稿不能作为全文人工审核的凭据，确认记录只适用于锚定的字句或术语。
 
-现存不完整整理稿和异常时间转录的数量分别列在计数文件的 `incomplete_readings`、`timing_issue_transcripts`。其正文与时间原值仍保留；工具拒绝将不合要求的时间转换为字幕。
+现存不完整整理稿和异常时间转录的数量分别列在计数文件的 `incomplete_edited_transcripts`、`timing_issue_transcripts`。其正文与时间原值仍保留；工具拒绝将不合要求的时间转换为字幕。
 
-部分识别记录存在未转录区间。确认静音、待复核区间、不可用字幕和音频缺失分别记录，不相互推断。`audio_assessment` 记录已有音频判断，`reported_intervals` 或对应质量信息保留区间与原因。
+部分识别记录存在识别或时间异常区间，其中部分仍有可用正文。确认静音、待复核区间、不可用字幕和音频缺失分别记录，不相互推断。`audio_assessment` 记录已有音频判断，`recognition_issue_intervals` 或对应质量信息保留区间与原因。
 
 整理稿的段落时间可能来自输入块边界。它们用于回查材料，不是强制对齐结果；分块内的说话人标签也不表示跨块身份已核实。
 

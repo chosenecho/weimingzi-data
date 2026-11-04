@@ -1,84 +1,86 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "kind": "transcript",
   "item_id": "i-f149b5fe3712750e4d99d0db",
-  "method": "asr-local",
+  "method": "asr_local",
   "language": "Chinese",
   "model": {
-    "model_name": "source://production/models/Qwen3-ASR-1.7B-hf",
-    "revision": "bcd2b5b7f32b480ab5790554cfa8347f246a14f3"
+    "revision": "bcd2b5b7f32b480ab5790554cfa8347f246a14f3",
+    "name": "source://production/models/Qwen3-ASR-1.7B-hf"
   },
   "time_unit": "ms",
   "text": "沧海一声笑，滔滔两岸潮。\n浮沉聚散，知己今朝。\n苍天笑，纷纷世上潮。\n谁负谁胜出，天知晓。\n江山笑，烟雨遥。\n头棱头枕红尘俗世几多娇。\n清风笑，竟一夕了。\n后尘还剩了一今晚照。苍生笑，不再寂寥。\n豪情仍在，痴痴笑笑。\n啦啦啦啦啦，啦啦啦啦啦，啦啦啦啦啦啦啦啦，啦啦啦啦啦啦，啦啦啦啦啦啦啦啦，啦啦啦啦啦啦，啦啦",
   "segments": [
     {
-      "ordinal": 0,
       "text": "沧海一声笑，滔滔两岸潮。",
       "start": 90960,
-      "end": 98720
+      "end": 98720,
+      "index": 0
     },
     {
-      "ordinal": 1,
       "text": "浮沉聚散，知己今朝。",
       "start": 99200,
-      "end": 105360
+      "end": 105360,
+      "index": 1
     },
     {
-      "ordinal": 2,
       "text": "苍天笑，纷纷世上潮。",
       "start": 105760,
-      "end": 111280
+      "end": 111280,
+      "index": 2
     },
     {
-      "ordinal": 3,
       "text": "谁负谁胜出，天知晓。",
       "start": 113840,
-      "end": 121840
+      "end": 121840,
+      "index": 3
     },
     {
-      "ordinal": 4,
       "text": "江山笑，烟雨遥。",
       "start": 121840,
-      "end": 127040
+      "end": 127040,
+      "index": 4
     },
     {
-      "ordinal": 5,
       "text": "头棱头枕红尘俗世几多娇。",
       "start": 127040,
-      "end": 133680
+      "end": 133680,
+      "index": 5
     },
     {
-      "ordinal": 6,
       "text": "清风笑，竟一夕了。",
       "start": 133920,
-      "end": 142720
+      "end": 142720,
+      "index": 6
     },
     {
-      "ordinal": 7,
       "text": "后尘还剩了一今晚照。苍生笑，不再寂寥。",
       "start": 142800,
-      "end": 144640
+      "end": 144640,
+      "index": 7
     },
     {
-      "ordinal": 8,
       "text": "豪情仍在，痴痴笑笑。",
       "start": 179649,
-      "end": 185329
+      "end": 185329,
+      "index": 8
     },
     {
-      "ordinal": 9,
       "text": "啦啦啦啦啦，啦啦啦啦啦，啦啦啦啦啦啦啦啦，啦啦啦啦啦啦，啦啦啦啦啦啦啦啦，啦啦啦啦啦啦，啦啦",
       "start": 194449,
-      "end": 211009
+      "end": 211009,
+      "index": 9
     }
   ],
   "quality": {
-    "human_reviewed": null,
+    "is_fully_human_reviewed": null,
     "requires_review": null,
-    "timed_exports_available": null,
+    "is_subtitle_export_enabled": null,
     "timing_issues": []
   },
-  "attributes": {
+  "id": "t-24817502186560442e554ca2",
+  "content_sha256": "4d192ad0398df67083d368e4ec4fc3da882a0b2fe7544d4143383a61e465b024",
+  "metadata": {
     "content_sha256": [
       "9b47020954dddedefb38e4f4dd213aa81d5b9a9b9c32074c3424fdd0c5b7690a",
       "57a51018f98b212ab888eccd4e7b2d992152615c4685888e0e5130a25c3f9c90"
@@ -101,11 +103,9 @@
     "version": [
       1
     ],
-    "generated_at_unix": [
+    "generated_at_unix_seconds": [
       1793510533
     ]
   },
-  "media_ids": [],
-  "id": "t-24817502186560442e554ca2",
-  "content_sha256": "24817502186560442e554ca25f2b56f8d10c86eb7479f1a50f3bc1024466ae26"
+  "audio_ids": []
 }

@@ -1,30 +1,32 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "kind": "transcript",
   "item_id": "i-00971e5f62c6b8a2afc33acc",
-  "method": "asr-local",
+  "method": "asr_local",
   "language": "Chinese",
   "model": {
-    "model_name": "source://production/models/Qwen3-ASR-1.7B-hf",
-    "revision": "bcd2b5b7f32b480ab5790554cfa8347f246a14f3"
+    "revision": "bcd2b5b7f32b480ab5790554cfa8347f246a14f3",
+    "name": "source://production/models/Qwen3-ASR-1.7B-hf"
   },
   "time_unit": "ms",
   "text": "嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。",
   "segments": [
     {
-      "ordinal": 0,
       "text": "嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。嗯。",
       "start": 0,
-      "end": 3675000
+      "end": 3675000,
+      "index": 0
     }
   ],
   "quality": {
-    "human_reviewed": null,
+    "is_fully_human_reviewed": null,
     "requires_review": null,
-    "timed_exports_available": null,
+    "is_subtitle_export_enabled": null,
     "timing_issues": []
   },
-  "attributes": {
+  "id": "t-79e1eb0ea7c54df6013b144c",
+  "content_sha256": "65c4b62ded7f6b0fa878f8e2a5fd72207fca2c3742a28474ade904968544a4da",
+  "metadata": {
     "content_sha256": [
       "b06c0d1d842c517e0b5f8442bc9456664fc6d5b3f6444fde280bb8048ecea5ff",
       "1ce624563987ac7791078dfaaf5a646eb2dd2dd79482d5800b8714d932d5ddf2"
@@ -47,11 +49,9 @@
     "version": [
       1
     ],
-    "generated_at_unix": [
+    "generated_at_unix_seconds": [
       1793479798
     ]
   },
-  "media_ids": [],
-  "id": "t-79e1eb0ea7c54df6013b144c",
-  "content_sha256": "79e1eb0ea7c54df6013b144c43c41c9915dba9fca570a41fd76282935e5d2099"
+  "audio_ids": []
 }

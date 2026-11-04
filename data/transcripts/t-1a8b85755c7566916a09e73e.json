@@ -1,114 +1,116 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "kind": "transcript",
   "item_id": "i-6bce6d9362baeae1e35dd60e",
-  "method": "asr-local",
+  "method": "asr_local",
   "language": "Chinese",
   "model": {
-    "model_name": "source://production/models/Qwen3-ASR-1.7B-hf",
-    "revision": "bcd2b5b7f32b480ab5790554cfa8347f246a14f3"
+    "revision": "bcd2b5b7f32b480ab5790554cfa8347f246a14f3",
+    "name": "source://production/models/Qwen3-ASR-1.7B-hf"
   },
   "time_unit": "ms",
   "text": "这夜阑静处，独看天外星。\n每夜繁星不变，每夜长照耀。但愿人没变，愿似线长久。每夜如仙仙照，每夜长在。漫长夜漫长，若可不忧。\n万人怎么确不为永久？\n但愿留下是光辉，长星仙照。\n长漫长夜，但愿人没变，愿似线长久。\n每夜如仙仙照，每夜长在。\n这夜阑静处，独看天外星。\n每夜繁星不变，每夜长照耀。\n但愿人没变，愿似线长久。\n每夜如仙仙照，每夜长在。\n漫长夜漫长，若可不忧。\n万人怎么确不为永久？\n但愿留下是光辉，长星仙照。长漫长。\n长夜，但愿人没变，愿似线长久。\n每夜如星星照，每夜长恨在。",
   "segments": [
     {
-      "ordinal": 0,
       "text": "这夜阑静处，独看天外星。",
       "start": 17920,
-      "end": 25653
+      "end": 25653,
+      "index": 0
     },
     {
-      "ordinal": 1,
       "text": "每夜繁星不变，每夜长照耀。但愿人没变，愿似线长久。每夜如仙仙照，每夜长在。漫长夜漫长，若可不忧。",
       "start": 26160,
-      "end": 58160
+      "end": 58160,
+      "index": 1
     },
     {
-      "ordinal": 2,
       "text": "万人怎么确不为永久？",
       "start": 58160,
-      "end": 61440
+      "end": 61440,
+      "index": 2
     },
     {
-      "ordinal": 3,
       "text": "但愿留下是光辉，长星仙照。",
       "start": 62960,
-      "end": 70000
+      "end": 70000,
+      "index": 3
     },
     {
-      "ordinal": 4,
       "text": "长漫长夜，但愿人没变，愿似线长久。",
       "start": 70000,
-      "end": 84400
+      "end": 84400,
+      "index": 4
     },
     {
-      "ordinal": 5,
       "text": "每夜如仙仙照，每夜长在。",
       "start": 86160,
-      "end": 92800
+      "end": 92800,
+      "index": 5
     },
     {
-      "ordinal": 6,
       "text": "这夜阑静处，独看天外星。",
       "start": 93920,
-      "end": 136800
+      "end": 136800,
+      "index": 6
     },
     {
-      "ordinal": 7,
       "text": "每夜繁星不变，每夜长照耀。",
       "start": 136800,
-      "end": 144400
+      "end": 144400,
+      "index": 7
     },
     {
-      "ordinal": 8,
       "text": "但愿人没变，愿似线长久。",
       "start": 144400,
-      "end": 154966
+      "end": 154966,
+      "index": 8
     },
     {
-      "ordinal": 9,
       "text": "每夜如仙仙照，每夜长在。",
       "start": 155450,
-      "end": 164633
+      "end": 164633,
+      "index": 9
     },
     {
-      "ordinal": 10,
       "text": "漫长夜漫长，若可不忧。",
       "start": 165116,
-      "end": 169840
+      "end": 169840,
+      "index": 10
     },
     {
-      "ordinal": 11,
       "text": "万人怎么确不为永久？",
       "start": 169840,
-      "end": 174048
+      "end": 174048,
+      "index": 11
     },
     {
-      "ordinal": 12,
       "text": "但愿留下是光辉，长星仙照。长漫长。",
       "start": 174160,
-      "end": 183520
+      "end": 183520,
+      "index": 12
     },
     {
-      "ordinal": 13,
       "text": "长夜，但愿人没变，愿似线长久。",
       "start": 183429,
-      "end": 195029
+      "end": 195029,
+      "index": 13
     },
     {
-      "ordinal": 14,
       "text": "每夜如星星照，每夜长恨在。",
       "start": 197349,
-      "end": 207909
+      "end": 207909,
+      "index": 14
     }
   ],
   "quality": {
-    "human_reviewed": null,
+    "is_fully_human_reviewed": null,
     "requires_review": null,
-    "timed_exports_available": null,
+    "is_subtitle_export_enabled": null,
     "timing_issues": []
   },
-  "attributes": {
+  "id": "t-1a8b85755c7566916a09e73e",
+  "content_sha256": "b550221b44738a566a743803d23cacf87da76ccf300e8f79b90e77ebeaa1314d",
+  "metadata": {
     "content_sha256": [
       "734123a8386b9ae78d4ed18595afcd264ba5eac3c11dfab5f8d6368221b8fd1f",
       "12e108a0dff661951601156405559bfd144d66365d986940b4377acf82b32e63"
@@ -131,11 +133,9 @@
     "version": [
       1
     ],
-    "generated_at_unix": [
+    "generated_at_unix_seconds": [
       1793476396
     ]
   },
-  "media_ids": [],
-  "id": "t-1a8b85755c7566916a09e73e",
-  "content_sha256": "1a8b85755c7566916a09e73ec6a9638160c46bbdedd8578c5d3447142d737a01"
+  "audio_ids": []
 }

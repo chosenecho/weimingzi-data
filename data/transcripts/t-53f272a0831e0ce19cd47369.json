@@ -1,10 +1,12 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "kind": "transcript",
   "item_id": "i-ff9fca87c066b60b6073415a",
-  "method": "asr-cloud",
+  "method": "asr_cloud",
   "language": null,
-  "model": "qwen-audio-3.1-asr-flash",
+  "model": {
+    "name": "qwen-audio-3.1-asr-flash"
+  },
   "time_unit": "s",
   "text": "要，你给他留。",
   "segments": [
@@ -14,26 +16,28 @@
       "text": "要，你给他留。",
       "speaker_id": 0,
       "chunk_offset_seconds": 0,
-      "ordinal": 0
+      "index": 0
     }
   ],
   "quality": {
-    "human_reviewed": null,
+    "is_fully_human_reviewed": null,
     "requires_review": false,
-    "timed_exports_available": true,
+    "is_subtitle_export_enabled": true,
     "timing_issues": []
   },
-  "attributes": {
+  "id": "t-53f272a0831e0ce19cd47369",
+  "content_sha256": "97b9f57b5c7d9903c982d0b95f8ad4f3abcd7d657401aa06e6f80bb05ae06ed0",
+  "metadata": {
     "audio_sha256": [
       "4c965f22a29a38b07e82a09ee9f1d03e269c1b4d3f32ceb47c5bdb10eb1958ef"
     ],
-    "chunk_seconds": [
+    "chunk_duration_seconds": [
       240
     ],
     "speaker_diarization_enabled": [
       true
     ],
-    "sample_rate": [
+    "sample_rate_hz": [
       16000
     ],
     "version": [
@@ -55,16 +59,14 @@
     "speaker_ids_are_chunk_local": [
       true
     ],
-    "untranscribed_intervals": [
+    "recognition_issue_intervals": [
       []
     ]
   },
-  "media_ids": [
+  "audio_ids": [
     "m-4c965f22a29a38b07e82a09ee9f1d03e269c1b4d3f32ceb47c5bdb10eb1958ef"
   ],
-  "id": "t-53f272a0831e0ce19cd47369",
-  "content_sha256": "53f272a0831e0ce19cd473693ff0ff36396abf73af28ecf0e89ed4119832f513",
-  "alignments": [
+  "recognition_chunks": [
     {
       "kind": "recognition_chunk",
       "time_unit": "ms",
@@ -119,5 +121,5 @@
       "id": "x-2423b148e35f86122ecbcf22"
     }
   ],
-  "alignments_sha256": "1d6f78cfd6accbe269b6c54651104fdc241645d6fa063a4ffe7794eb7c7f6853"
+  "recognition_chunks_sha256": "1d6f78cfd6accbe269b6c54651104fdc241645d6fa063a4ffe7794eb7c7f6853"
 }
