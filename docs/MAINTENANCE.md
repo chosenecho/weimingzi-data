@@ -45,6 +45,28 @@ python tools/corpus.py search 唯物主义
 
 SQLite 是可删除重建的检索结果，保存各维护表的完整 JSON 和训练选稿，并建立中文正文索引。默认查询 `.cache/exports/corpus.sqlite3`；可用 `--database` 指定其他导出文件。
 
+## 查看校对标注
+
+[校对标注与复核状态](catalog/reviews.md) 列出全部整理稿，包含没有段落标注的结果。打开记录，查看 paragraphs[].issues 中的 note、candidate、evidence_labels。
+
+核对时结合段落 input_text、text、input_unit_labels 和时间范围。候选文字和参照标签可能为空或未提供。
+
+整份结果的附注见 notes_markdown，另存的完整参照稿见 review_document_markdown。review_markdown 导出会保留独立稿及未完整包含的附注；没有独立稿时，从结构化段落和全部标注生成。
+
+导出全部段落标注，或限制为一份整理稿、训练选稿：
+
+```sh
+python tools/corpus.py export --format review_issues --output .cache/exports/review_issues.jsonl
+python tools/corpus.py export --id RECORD_ID --format review_issues --output .cache/exports/record_issues.jsonl
+python tools/corpus.py export --selection training --format review_issues --output .cache/exports/training_issues.jsonl
+```
+
+每行包含原始标注和记录、段落、标注位置，可回到维护 JSON 查看上下文。该导出只汇总段落标注；完整附注、输入参照和质量快照应查看维护 JSON。
+
+普通 TXT、正文 Markdown 和字幕不包含完整标注；search 的全文索引只查正文。查询候选文字或标注说明时检索 review_issues JSONL，查询附注和独立稿时查看维护 JSON。
+
+标注中既有疑点，也有已采用修改的说明。复核后新增有依据、有适用范围的人工确认，保留原标注；不能批量把所有标注算作未解决问题，或把 AI 候选升级为人工术语释义。
+
 ## 确认和选稿
 
 新增人工确认时记录原文、修订文字、哈希、确认范围、核对依据和适用整理稿。只有实际审核过的范围才能标记为已确认。全文未审核时，保留原有 `is_fully_human_reviewed` 状态。

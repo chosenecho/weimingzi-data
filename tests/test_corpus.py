@@ -2,15 +2,17 @@
 
 import copy
 import hashlib
+import io
 import json
 import sqlite3
 import sys
 import tempfile
 import unittest
+from contextlib import redirect_stdout
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
-from weimingzi_corpus.cli import import_records, validate_export_path
+from weimingzi_corpus.cli import import_records, main, validate_export_path
 from weimingzi_corpus.records import (
     JSON_RECORD_TABLES,
     JSONL_TABLES,
@@ -29,6 +31,8 @@ from weimingzi_corpus.exports import (
     generate_catalog_docs,
     export_sqlite,
     render_subtitles,
+    render_review_markdown,
+    iter_review_issues,
 )
 
 
@@ -429,6 +433,125 @@ class CorpusTests(unittest.TestCase):
         (self.root / "docs/INDEX.md").write_text("stale", encoding="utf-8")
         with self.assertRaisesRegex(ValueError, "stale"):
             generate_catalog_docs(self.root, check=True)
+
+    def test_independent_review_export_retains_additional_notes(self):
+        row = self.create_edited_transcript()
+        row["review_document_markdown"] = "# 独立参照稿\n\n原有疑点。\n"
+        row["notes_markdown"] = "后续人工核对只确认了一个字。"
+        before = copy.deepcopy(row)
+        exported = render_review_markdown(row, self.item)
+        self.assertTrue(exported.startswith(row["review_document_markdown"]))
+        self.assertIn(row["notes_markdown"], exported)
+        self.assertEqual(row, before)
+        row["notes_markdown"] = "原有疑点。"
+        self.assertEqual(
+            render_review_markdown(row, self.item), row["review_document_markdown"]
+        )
+
+    def test_review_issues_preserve_empty_candidates_and_note_only_entries(self):
+        row = self.create_edited_transcript()
+        issues = [
+            {"note": "需要回听", "candidate": "", "evidence_labels": []},
+            {"note": "只保留说明"},
+            {"note": "候选已用于正文", "candidate": "物质", "evidence_labels": ["s1"]},
+        ]
+        row["paragraphs"][0]["issues"] = issues
+        entries = list(iter_review_issues(row))
+        self.assertEqual([entry["issue"] for entry in entries], issues)
+        exported = render_review_markdown(row, self.item)
+        for issue in issues:
+            self.assertIn(issue["note"], exported)
+        with self.assertRaisesRegex(ValueError, "edited transcript"):
+            list(iter_review_issues(self.transcript))
+
+    def test_review_issues_export_all_id_and_selection_with_exact_locators(self):
+        row = self.create_edited_transcript()
+        row["paragraphs"][0]["issues"] = [
+            {"note": '待回听\n保留原有换行与引号"。'},
+            {"note": "候选尚空", "candidate": ""},
+        ]
+        write_json(self.root / "data/edited_transcripts" / (row["id"] + ".json"), row)
+        another = copy.deepcopy(row)
+        another["id"] = make_record_id("r", "another-review")
+        write_json(
+            self.root / "data/edited_transcripts" / (another["id"] + ".json"), another
+        )
+        write_json(
+            self.root / "selections/training.json",
+            {
+                "schema_version": 2,
+                "entries": [
+                    {
+                        "item_id": self.item["id"],
+                        "edited_transcript_id": row["id"],
+                        "confirmation_ids": [],
+                    }
+                ],
+            },
+        )
+        for scope, count in (
+            ([], 4),
+            (["--id", row["id"]], 2),
+            (["--selection", "training"], 2),
+        ):
+            with self.subTest(scope=scope):
+                output = self.root / ".cache/issues.jsonl"
+                with redirect_stdout(io.StringIO()):
+                    result = main(
+                        [
+                            "--root",
+                            str(self.root),
+                            "export",
+                            "--format",
+                            "review_issues",
+                            *scope,
+                            "--output",
+                            str(output),
+                        ]
+                    )
+                self.assertEqual(result, 0)
+                entries = [
+                    json.loads(line)
+                    for line in output.read_text(encoding="utf-8").splitlines()
+                ]
+                self.assertEqual(len(entries), count)
+                for entry in entries:
+                    source = read_json(self.root / entry["record_path"])
+                    self.assertEqual(source["id"], entry["edited_transcript_id"])
+                    self.assertEqual(source["item_id"], entry["item_id"])
+                    self.assertEqual(
+                        source["paragraphs"][entry["paragraph_index"]]["issues"][
+                            entry["issue_index"]
+                        ],
+                        entry["issue"],
+                    )
+
+    def test_review_counts_catalog_and_issue_validation(self):
+        row = self.create_edited_transcript()
+        row["paragraphs"][0]["issues"] = [
+            {"note": "待核对"},
+            {"note": "已修改", "candidate": "物质"},
+        ]
+        path = self.root / "data/edited_transcripts" / (row["id"] + ".json")
+        write_json(path, row)
+        counts = generate_catalog_docs(self.root)
+        self.assertEqual(counts["review_issues"], 2)
+        self.assertEqual(counts["paragraphs_with_review_issues"], 1)
+        self.assertEqual(counts["edited_transcripts_with_review_issues"], 1)
+        self.assertIn(
+            row["id"],
+            (self.root / "docs/catalog/reviews.md").read_text(encoding="utf-8"),
+        )
+        for invalid in (
+            {"candidate": "没有说明"},
+            {"note": "说明", "candidate": None},
+            {"note": "说明", "evidence_labels": "s1"},
+        ):
+            with self.subTest(invalid=invalid):
+                row["paragraphs"][0]["issues"] = [invalid]
+                write_json(path, row)
+                with self.assertRaises(ValueError):
+                    validate_corpus(self.root)
 
 
 if __name__ == "__main__":

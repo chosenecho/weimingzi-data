@@ -95,7 +95,11 @@ def render_review_markdown(row: dict, item: dict) -> str:
     if row["kind"] != "edited_transcript":
         raise ValueError("A review requires an edited transcript record")
     if row.get("review_document_markdown"):
-        return row["review_document_markdown"]
+        document = row["review_document_markdown"]
+        notes = row.get("notes_markdown", "")
+        if notes and notes not in document:
+            return document + "\n\n## 记录附注\n\n" + notes + "\n"
+        return document
     lines = ["# " + item["title"] + "：校验稿", "", row.get("notes_markdown", ""), ""]
     if not row.get("paragraphs_match_text", True):
         lines += ["正文与段落参照有差异；以下保留原有段落参照，不代表逐字对齐。", ""]
@@ -122,6 +126,22 @@ def render_review_markdown(row: dict, item: dict) -> str:
             lines += ["- 疑点：" + canonical_json(issue)]
         lines.append("")
     return "\n".join(lines)
+
+
+def iter_review_issues(row: dict):
+    """Expose every stored annotation with an exact locator, without inferring status."""
+    if row["kind"] != "edited_transcript":
+        raise ValueError("Review issues require an edited transcript record")
+    for paragraph_index, paragraph in enumerate(row["paragraphs"]):
+        for issue_index, issue in enumerate(paragraph.get("issues", [])):
+            yield {
+                "edited_transcript_id": row["id"],
+                "item_id": row["item_id"],
+                "paragraph_index": paragraph_index,
+                "issue_index": issue_index,
+                "record_path": f"data/edited_transcripts/{row['id']}.json",
+                "issue": issue,
+            }
 
 
 def iter_content_records(root: Path):
@@ -223,8 +243,22 @@ def generate_catalog_docs(root: Path, check: bool = False) -> dict:
     counts = validate_corpus(root)
     items = {r["id"]: r for r, _ in iter_records(root, "items")}
     by_item = defaultdict(list)
+    reviews = []
     for table, row in iter_content_records(root):
         by_item[row["item_id"]].append((table, row["id"]))
+        if table == "edited_transcripts":
+            issue_count = sum(len(p.get("issues", [])) for p in row["paragraphs"])
+            reviews.append(
+                (
+                    row["item_id"],
+                    row["id"],
+                    issue_count,
+                    row.get("quality", {}).get("requires_review"),
+                    row["is_complete"],
+                    bool(row.get("notes_markdown")),
+                    bool(row.get("review_document_markdown")),
+                )
+            )
     children = defaultdict(list)
     for row in items.values():
         if row.get("parent_id"):
@@ -309,6 +343,27 @@ def generate_catalog_docs(root: Path, check: bool = False) -> dict:
             )
         lines.append("")
     output["docs/catalog/collections.md"] = "\n".join(lines).rstrip() + "\n"
+    lines = [
+        "# 校对标注与复核状态",
+        "",
+        intro,
+        "列出全部整理稿，包括没有段落标注的结果。标注数量包含疑点、候选改法和修改说明，不代表未解决问题的数量。",
+        "",
+        "[字段定义](../GLOSSARY.md#校对标注与参照稿) · [查阅与导出](../MAINTENANCE.md#查看校对标注)",
+        "",
+        "| 整理稿 | 标注数 | 待复核 | 结果完成 | 附注 | 独立校验稿 |",
+        "| --- | ---: | --- | --- | --- | --- |",
+    ]
+    labels = {True: "是", False: "否", None: "未说明"}
+    for item_id, record_id, count, review, complete, notes, document in sorted(
+        reviews, key=lambda entry: (items[entry[0]]["title"], entry[1])
+    ):
+        title = escape_markdown_label(items[item_id]["title"]).replace("|", "\\|")
+        lines.append(
+            f"| [{title} · {record_id[2:10]}](../../data/edited_transcripts/{record_id}.json) "
+            f"| {count} | {labels[review]} | {labels[complete]} | {labels[notes]} | {labels[document]} |"
+        )
+    output["docs/catalog/reviews.md"] = "\n".join(lines).rstrip() + "\n"
     output["docs/INDEX.md"] = (
         "# 数据目录\n\n[名词与概念](GLOSSARY.md) · [数据结构](SCHEMA.md)\n\n由 `python tools/corpus.py generate` 生成。计数见 [counts.json](counts.json)。\n\n"
         + "\n".join(
@@ -319,6 +374,7 @@ def generate_catalog_docs(root: Path, check: bool = False) -> dict:
                 "- [专栏](catalog/articles.md)",
                 "- [文集、合集与系列](catalog/collections.md)",
                 "- [人物资料](catalog/people.md)",
+                "- [校对标注与复核状态](catalog/reviews.md)",
                 "",
                 f"基础转录 {counts['transcripts']} 条；整理结果 {counts['edited_transcripts']} 条；动态 {counts['posts']} 条；专栏 {counts['articles']} 篇。",
                 "",

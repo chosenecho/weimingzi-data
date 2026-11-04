@@ -31,6 +31,7 @@ from .exports import (
     export_sqlite,
     render_subtitles,
     extract_text,
+    iter_review_issues,
 )
 
 
@@ -145,6 +146,7 @@ def main(argv=None) -> int:
             "txt",
             "markdown",
             "review_markdown",
+            "review_issues",
             "srt",
             "vtt",
             "catalog",
@@ -219,9 +221,17 @@ def main(argv=None) -> int:
                         load_content_record(root, e["edited_transcript_id"])
                         for e in read_json(root / "selections/training.json")["entries"]
                     ]
+                elif args.format == "review_issues":
+                    rows = (r for r, _ in iter_records(root, "edited_transcripts"))
                 else:
                     raise ValueError("Choose --id or --selection")
-                if args.format == "jsonl":
+                if args.format == "review_issues":
+                    value = "".join(
+                        canonical_json(issue) + "\n"
+                        for row in rows
+                        for issue in iter_review_issues(row)
+                    )
+                elif args.format == "jsonl":
                     value = "".join(canonical_json(r) + "\n" for r in rows)
                 elif args.format == "json":
                     value = (

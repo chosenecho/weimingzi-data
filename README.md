@@ -3,6 +3,7 @@
 维护未明子的视频、录音转录、整理稿、动态和专栏。数据按内容类型统一存放，平台标识、原文链接和模型信息放在记录字段中。
 
 - [浏览全部内容](docs/INDEX.md)
+- [校对标注与复核状态](docs/catalog/reviews.md)
 - [名词与概念](docs/GLOSSARY.md)
 - [数据结构](docs/SCHEMA.md)
 - [维护与入库](docs/MAINTENANCE.md)

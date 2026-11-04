@@ -392,7 +392,50 @@ def validate_corpus(root: Path) -> dict:
                         raise ValueError(f"{record_id}: expected paragraphs")
                     if row.get("time_unit") not in ("ms", "s", None):
                         raise ValueError(f"{record_id}: invalid paragraph time unit")
+                    if not isinstance(row.get("is_complete"), bool):
+                        raise ValueError(f"{record_id}: is_complete must be boolean")
                     counts["paragraphs"] += len(row["paragraphs"])
+                    record_issues = 0
+                    for index, paragraph in enumerate(row["paragraphs"]):
+                        if (
+                            type(paragraph.get("index")) is not int
+                            or paragraph["index"] != index
+                        ):
+                            raise ValueError(f"{record_id}: paragraph index mismatch")
+                        issues = paragraph.get("issues", [])
+                        if not isinstance(issues, list):
+                            raise ValueError(f"{record_id}: issues must be an array")
+                        for issue in issues:
+                            if not isinstance(issue, dict) or not isinstance(
+                                issue.get("note"), str
+                            ):
+                                raise ValueError(f"{record_id}: issue requires a note")
+                            if "candidate" in issue and not isinstance(
+                                issue["candidate"], str
+                            ):
+                                raise ValueError(f"{record_id}: candidate must be text")
+                            if "evidence_labels" in issue and (
+                                not isinstance(issue["evidence_labels"], list)
+                                or not all(
+                                    isinstance(label, str)
+                                    for label in issue["evidence_labels"]
+                                )
+                            ):
+                                raise ValueError(
+                                    f"{record_id}: evidence_labels must be text labels"
+                                )
+                        record_issues += len(issues)
+                        counts["paragraphs_with_review_issues"] += bool(issues)
+                    counts["review_issues"] += record_issues
+                    counts["edited_transcripts_with_review_issues"] += bool(
+                        record_issues
+                    )
+                    counts["edited_transcripts_with_notes"] += bool(
+                        row.get("notes_markdown")
+                    )
+                    counts["edited_transcripts_with_review_documents"] += bool(
+                        row.get("review_document_markdown")
+                    )
                     for ref in row.get("transcript_ids", []):
                         references.append((record_id, "transcripts", ref))
                     if row.get("derived_from_id"):
@@ -525,4 +568,12 @@ def validate_corpus(root: Path) -> dict:
                 )
     counts["training_entries"] = len(selection["entries"])
     counts["timing_issue_transcripts"] = invalid_timing
+    for name in (
+        "review_issues",
+        "paragraphs_with_review_issues",
+        "edited_transcripts_with_review_issues",
+        "edited_transcripts_with_notes",
+        "edited_transcripts_with_review_documents",
+    ):
+        counts.setdefault(name, 0)
     return dict(sorted(counts.items()))

@@ -4,6 +4,8 @@
 
 基础转录包含字幕和语音识别结果，整理稿包含模型整理、局部输出及有限人工修订。同一内容可以关联多个结果；模型名、生成参数、原有疑点和质量状态保存在相应记录中。
 
+段落校对标注、整理附注和独立校验稿分别保存，见 [校对目录](catalog/reviews.md)。标注包含疑点、候选改法及修改说明，不表示所有条目都尚未解决。标注及参照稿数量由 [counts.json](counts.json) 生成；查阅和全量导出见 [维护说明](MAINTENANCE.md#查看校对标注)。
+
 `quality.is_fully_human_reviewed`、`requires_review`、`is_subtitle_export_enabled` 使用布尔值或 `null`：`false` 表示明确否，`null` 表示原数据未说明。训练选稿不能作为全文人工审核的凭据，确认记录只适用于锚定的字句或术语。
 
 现存不完整整理稿和异常时间转录的数量分别列在计数文件的 `incomplete_edited_transcripts`、`timing_issue_transcripts`。其正文与时间原值仍保留；工具拒绝将不合要求的时间转换为字幕。

@@ -10,6 +10,7 @@
 - [专栏](catalog/articles.md)
 - [文集、合集与系列](catalog/collections.md)
 - [人物资料](catalog/people.md)
+- [校对标注与复核状态](catalog/reviews.md)
 
 基础转录 3764 条；整理结果 2018 条；动态 2756 条；专栏 71 篇。
 

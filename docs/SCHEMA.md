@@ -37,6 +37,8 @@ relations 每项使用 target_item_id、kind 和可选 evidence。has_full_text 
 
 data/transcripts/<id>.json 保存一份转录结果。item_id 指向条目；method、model、language 描述结果。method 使用 asr_local、asr_cloud、subtitle_ai、subtitle_cc 等项目自定值。
 
+audio_ids 引用 data/audio.jsonl 中的文件记录。音频记录的 item_ids 则关联内容条目；两类引用不互相代替。
+
 model 为对象或 null；对象包含 name 和可选 revision。模型名、路径或修订值原样保存。language 保留已知原值，不能仅凭字幕类型推断语言编码。
 
 text 是全文，segments 保存原始顺序的分段。每段含 index、start、end、text；index 从零起。time_unit 为 ms 或 s，作用于正文分段。说话人标签及块偏移按记录保存，不自动建立跨块人物身份。
@@ -57,14 +59,16 @@ data/edited_transcripts/<id>.json 每份结果包含 text、paragraphs、model�
 | input_text | 整理时的输入文字 |
 | text | 整理后正文 |
 | input_unit_labels | 输入单位标签 |
-| issues | 疑点、候选文字及依据 |
+| issues | 校对疑点、候选文字及修改说明 |
 | start / end | 回查用时间范围 |
 
-issues 每项保留 note、candidate、evidence_labels 等已有内容。evidence_labels 是输入侧证据标签，不是仓库记录 ID。
+issues 是标注数组，每项保存 note，可带 candidate、evidence_labels。note 为说明文字；candidate 为字符串，允许空字符串或不提供。evidence_labels 为字符串数组，允许空数组或不提供，表示输入侧证据标签，不是仓库记录 ID。
+
+标注可能记录未确定的内容，也可能说明已经用于正文的修改。当前没有统一的逐条解决状态和问题类别；不能仅凭标注存在、候选为空或全文待复核标记推断其解决状态。issues 的次序和各项原文全部保留。
 
 time_unit 描述段落时间单位。时间范围可能来自较长的输入音频块，不表示逐字、逐句对齐。paragraphs_match_text 表示段落正文与全文的一致性。不同措辞作为独立结果保留。
 
-notes_markdown 保存说明，review_document_markdown 保存独立的校验参照稿。后者存在时，review_markdown 导出使用其完整内容。
+notes_markdown 保存整份结果的附注，review_document_markdown 保存独立的校验参照稿。后者存在时，review_markdown 导出保留其完整内容；附注未完整包含在稿中时追加附注。结构化段落、附注和独立稿分别存储，不互相覆盖。
 
 input_units 保存整理时的输入参照。base 包含 upstream_transcript_id、content_sha256、method、language、segments；其中每段使用 label、start_ms、end_ms、text 及已有字符范围和块标记。upstream_transcript_id 属于输入快照，不作为内部转录外键。
 
@@ -122,6 +126,8 @@ recognition_issue_intervals 保存识别或时间异常区间，使用 start_sec
 
 quality.audio_assessment、reported_timing_issues 等已有判断分别保留。无识别词、时间异常、确认静音、不可用字幕和音频缺失不相互推断。输入质量快照保存在 quality.input_quality，仍使用相同字段约定。
 
+metadata.review_status 是已有的结果状态观测。平台对象中的 review、video_review、disable_preview 等原始名称不自动解释成校对或人工审核状态。
+
 ## ID、导出与更新
 
 id 是稳定、不透明的内部标识。现有 i-、t-、r-、d-、a-、c-、m- 前缀继续用于定位记录，引用同时校验目标表；纯命名调整不生成新记录。
@@ -129,3 +135,17 @@ id 是稳定、不透明的内部标识。现有 i-、t-、r-、d-、a-、c-、m
 新增不同结果时生成新 ID。元数据补充、JSON 排版、文件位置或导出格式不同，不构成新的正文结果。校验拒绝重复 ID、失效引用及跨条目派生。
 
 SQLite 为可重建的检索结果，各维护表保存 id、item_id、record_json。selections 保存 name、selection_json。content_search 索引正文；CSV 的 record_path 指向维护 JSON，不是音频 local_path。
+
+review_issues 导出为 JSONL，每行保存一个完整的 issue 对象。定位字段为 edited_transcript_id、item_id、paragraph_index、issue_index、record_path。
+
+两个 index 均从零开始，定位到原记录 paragraphs[paragraph_index].issues[issue_index]。不生成独立维护 ID，不推断问题类别或解决状态。
+
+docs/catalog/reviews.md 列出全部整理稿的标注数量、待复核状态、完成状态、附注及独立稿存在情况。counts.json 中的标注计数如下；这些数量均不代表未解决问题数量。
+
+| 计数字段 | 统计对象 |
+| --- | --- |
+| review_issues | 段落校对标注 |
+| paragraphs_with_review_issues | 含标注段落 |
+| edited_transcripts_with_review_issues | 含标注整理稿 |
+| edited_transcripts_with_notes | 有附注的整理稿 |
+| edited_transcripts_with_review_documents | 有独立校验稿的整理稿 |
