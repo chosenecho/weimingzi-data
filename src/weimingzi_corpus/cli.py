@@ -137,6 +137,8 @@ def main(argv=None) -> int:
         "--table", choices=[*JSONL_TABLES, *JSON_RECORD_TABLES], required=True
     )
     imported.add_argument("source", type=Path)
+    package = commands.add_parser("import-package")
+    package.add_argument("source", type=Path)
     exported = commands.add_parser("export")
     exported.add_argument(
         "--format",
@@ -173,6 +175,10 @@ def main(argv=None) -> int:
             result = generate_catalog_docs(root, args.check)
         elif args.command == "import":
             result = {"inserted": import_records(root, args.table, args.source)}
+        elif args.command == "import-package":
+            from .requested_results import import_requested_results
+
+            result = import_requested_results(root, args.source)
         elif args.command == "search":
             if not args.database.is_file():
                 raise ValueError("Export a SQLite search database first")

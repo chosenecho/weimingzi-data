@@ -1901,7 +1901,7 @@
 
 仅元数据
 
-- 2021-12-14_00-20-29：[本地语音转录（Qwen3-ASR-1.7B-hf）:42da540e](../../data/transcripts/t-42da540e9a38fd97f0a2b01a.json) · [平台 AI 字幕:a36636b5](../../data/transcripts/t-a36636b51b60d3ed5e53e045.json)
+- 2021-12-14_00-20-29：[整理稿（deepseek-v4.1-flash）:c4f6ca74](../../data/edited_transcripts/r-c4f6ca743a51bec6628c460f.json)（输入：`d8eae885`） · [本地语音转录（Qwen3-ASR-1.7B-hf）:42da540e](../../data/transcripts/t-42da540e9a38fd97f0a2b01a.json) · [平台 AI 字幕:a36636b5](../../data/transcripts/t-a36636b51b60d3ed5e53e045.json) · [本地语音转录:d8eae885](../../data/transcripts/t-d8eae8858fb23342d26132bf.json)
 
 <a id="i-f8e4b7c8497e2a048ae52c63"></a>
 
@@ -6032,7 +6032,7 @@
 
 仅元数据
 
-- 2022-02-14_23-34-24：[本地语音转录（Qwen3-ASR-1.7B-hf）:3aa202d0](../../data/transcripts/t-3aa202d0cf2e4de90e39de81.json) · [平台 AI 字幕:6f8eef1a](../../data/transcripts/t-6f8eef1af52d9516c3fe863c.json)
+- 2022-02-14_23-34-24：[整理稿（deepseek-v4.1-flash）:e218b0a4](../../data/edited_transcripts/r-e218b0a4f4d57ebb0ca1ee8c.json)（输入：`bf786aa3`） · [本地语音转录（Qwen3-ASR-1.7B-hf）:3aa202d0](../../data/transcripts/t-3aa202d0cf2e4de90e39de81.json) · [平台 AI 字幕:6f8eef1a](../../data/transcripts/t-6f8eef1af52d9516c3fe863c.json) · [本地语音转录:bf786aa3](../../data/transcripts/t-bf786aa39b8c16cf879cb006.json)
 
 <a id="i-33d3eaa798e2e3042fc44338"></a>
 

@@ -14,6 +14,16 @@ python tools/corpus.py import --table edited_transcripts incoming-edited-transcr
 
 同一条目存在多种真实结果时并列保存；没有文字或时间差异的导出副本不再入库。局部、缺失或待复核结果在质量字段中说明。
 
+### 导入双视频结果包
+
+提交中的 ZIP 使用 requested-video-results/v1 格式，可重复执行：
+
+    python tools/corpus.py import-package BV1cq4y1t7TN_BV1oq4y1q7rg.zip
+
+适配器逐一校验清单中的文件、大小和 SHA-256，按 BVID、分 P、CID 匹配现有条目；在隔离副本中同时校验新增基础转录与整理稿后写入。相同包重复入库不新增记录，不替换旧结果。源包哈希、清单、视频快照和上游运行标识保存在 metadata.source_package 与 metadata.upstream。
+
+正文、段落原文、候选改法、参照标签和完整 review.md 分别保留。is_complete 表示包内全部输入段被整理块引用一次，不证明音频全覆盖或人工审核通过；两份整理稿均待人工复核。包中只提供 ASR model_id，无法据此确定模型名称，因此规范记录的 model 为 null。字幕按原时间值校验，不排序或截断旧结果。
+
 修改数据后更新目录并检查：
 
 ```sh
