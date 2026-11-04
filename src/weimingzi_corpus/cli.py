@@ -139,6 +139,12 @@ def main(argv=None) -> int:
     imported.add_argument("source", type=Path)
     package = commands.add_parser("import-package")
     package.add_argument("source", type=Path)
+    coverage = commands.add_parser("coverage")
+    coverage.add_argument("identifier")
+    coverage.add_argument("--part", type=int)
+    coverage.add_argument("--include-records", action="store_true")
+    coverage.add_argument("--format", choices=["json", "jsonl"], default="json")
+    coverage.add_argument("--output")
     exported = commands.add_parser("export")
     exported.add_argument(
         "--format",
@@ -179,6 +185,26 @@ def main(argv=None) -> int:
             from .requested_results import import_requested_results
 
             result = import_requested_results(root, args.source)
+        elif args.command == "coverage":
+            from .coverage import CoverageIndex, coverage_jsonl
+
+            result = CoverageIndex(root).report(
+                args.identifier, args.part, args.include_records
+            )
+            if args.format == "jsonl" or args.output:
+                value = (
+                    coverage_jsonl(result)
+                    if args.format == "jsonl"
+                    else json.dumps(result, ensure_ascii=False, indent=2) + chr(10)
+                )
+                if args.output:
+                    output = validate_export_path(root, args.output)
+                    output.parent.mkdir(parents=True, exist_ok=True)
+                    output.write_text(value, encoding="utf-8", newline=chr(10))
+                    result = {"output": str(output), "summary": result["summary"]}
+                else:
+                    print(value, end="")
+                    return 0
         elif args.command == "search":
             if not args.database.is_file():
                 raise ValueError("Export a SQLite search database first")

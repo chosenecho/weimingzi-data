@@ -37,6 +37,8 @@ python -m unittest discover -s tests -v
 
 ## 导出与检索
 
+跨来源查稿见[分层文稿覆盖查询](COVERAGE.md)，可同时查看直接关联、显式引用、同音频和章节补充。
+
 从 [内容目录](INDEX.md) 找到转录或整理稿 ID；下列 `RECORD_ID` 替换为该 ID。导出文件放在忽略目录中。
 
 ```sh
