@@ -239,13 +239,44 @@ def escape_markdown_label(value: str) -> str:
     )
 
 
+def render_catalog_link(table: str, row: dict) -> str:
+    if table == "transcripts":
+        label = {
+            "subtitle_ai": "平台 AI 字幕",
+            "subtitle_cc": "平台 CC 字幕",
+            "asr_local": "本地语音转录",
+            "asr_cloud": "云端语音转录",
+        }.get(row["method"], f"基础转录（{row['method']}）")
+    elif table == "edited_transcripts":
+        label = "整理稿"
+    else:
+        label = table
+    if table in {"transcripts", "edited_transcripts"}:
+        model = row.get("model") or {}
+        if model.get("name"):
+            model_name = model["name"].replace("\\", "/").rsplit("/", 1)[-1]
+            label += f"（{model_name}）"
+    record_id = row["id"]
+    link = (
+        f"[{escape_markdown_label(label)}:{record_id[2:10]}]"
+        f"(../../data/{table}/{record_id}.json)"
+    )
+    if table == "edited_transcripts":
+        inputs = "、".join(
+            f"`{transcript_id[2:10]}`"
+            for transcript_id in row.get("transcript_ids", [])
+        )
+        link += f"（输入：{inputs}）" if inputs else "（输入未关联）"
+    return link
+
+
 def generate_catalog_docs(root: Path, check: bool = False) -> dict:
     counts = validate_corpus(root)
     items = {r["id"]: r for r, _ in iter_records(root, "items")}
     by_item = defaultdict(list)
     reviews = []
     for table, row in iter_content_records(root):
-        by_item[row["item_id"]].append((table, row["id"]))
+        by_item[row["item_id"]].append((table, row["id"], render_catalog_link(table, row)))
         if table == "edited_transcripts":
             issue_count = sum(len(p.get("issues", [])) for p in row["paragraphs"])
             reviews.append(
@@ -265,13 +296,16 @@ def generate_catalog_docs(root: Path, check: bool = False) -> dict:
             children[row["parent_id"]].append(row)
     output = {}
     intro = "此目录由 `python tools/corpus.py generate` 生成。所有结果分别列出，排序不代表审核质量。\n\n"
+    transcript_intro = (
+        "同一条目可有多份平台字幕、语音转录和整理稿。链接标明识别方式、已知模型和短 ID；"
+        "整理稿后的“输入”对应其关联的基础转录短 ID，“输入未关联”表示尚无可确认的内部引用。"
+        "模型路径仅显示末段，完整值保存在 JSON 中。"
+        "详见[基础转录与整理稿](../GLOSSARY.md#基础转录与整理稿)。\n\n"
+    )
 
     def links(item_id):
         return (
-            " · ".join(
-                f"[{table}:{record_id[2:10]}](../../data/{table}/{record_id}.json)"
-                for table, record_id in sorted(by_item[item_id])
-            )
+            " · ".join(link for _, _, link in sorted(by_item[item_id]))
             or "仅元数据"
         )
 
@@ -283,6 +317,8 @@ def generate_catalog_docs(root: Path, check: bool = False) -> dict:
         ("people", "人物资料", {"person"}),
     ]:
         lines = ["# " + title, "", intro]
+        if group in {"videos", "audio_recordings"}:
+            lines.append(transcript_intro)
         selected = sorted(
             (i for i in items.values() if i["kind"] in kinds),
             key=lambda i: (i["title"], i["id"]),
@@ -375,6 +411,8 @@ def generate_catalog_docs(root: Path, check: bool = False) -> dict:
                 "- [文集、合集与系列](catalog/collections.md)",
                 "- [人物资料](catalog/people.md)",
                 "- [校对标注与复核状态](catalog/reviews.md)",
+                "",
+                "同一条目可有多份基础转录及整理稿；目录按识别方式和模型标注，并列出整理稿关联的输入。见[基础转录与整理稿](GLOSSARY.md#基础转录与整理稿)。",
                 "",
                 f"基础转录 {counts['transcripts']} 条；整理结果 {counts['edited_transcripts']} 条；动态 {counts['posts']} 条；专栏 {counts['articles']} 篇。",
                 "",

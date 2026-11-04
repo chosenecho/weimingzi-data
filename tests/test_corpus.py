@@ -434,6 +434,30 @@ class CorpusTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "stale"):
             generate_catalog_docs(self.root, check=True)
 
+    def test_catalog_distinguishes_transcripts_and_identifies_edited_input(self):
+        self.transcript["method"] = "asr_local"
+        self.transcript["model"] = {"name": "source://production/models/Qwen3-ASR-1.7B-hf"}
+        self.save_transcript()
+        subtitle = copy.deepcopy(self.transcript)
+        subtitle["id"] = make_record_id("t", "platform-subtitle")
+        subtitle["method"] = "subtitle_ai"
+        subtitle["model"] = None
+        subtitle["content_sha256"] = json_sha256(transcript_hash_input(subtitle))
+        write_json(self.root / "data/transcripts" / (subtitle["id"] + ".json"), subtitle)
+        edited = self.create_edited_transcript()
+        counts = generate_catalog_docs(self.root)
+        catalog = (self.root / "docs/catalog/audio_recordings.md").read_text(encoding="utf-8")
+        self.assertEqual(counts["transcripts"], 2)
+        self.assertIn(f"[平台 AI 字幕:{subtitle['id'][2:10]}]", catalog)
+        self.assertIn(f"[本地语音转录（Qwen3-ASR-1.7B-hf）:{self.transcript['id'][2:10]}]", catalog)
+        self.assertIn(
+            f"[整理稿（fixture）:{edited['id'][2:10]}](../../data/edited_transcripts/{edited['id']}.json)"
+            f"（输入：`{self.transcript['id'][2:10]}`）",
+            catalog,
+        )
+        self.assertIn("../GLOSSARY.md#基础转录与整理稿", catalog)
+        generate_catalog_docs(self.root, check=True)
+
     def test_independent_review_export_retains_additional_notes(self):
         row = self.create_edited_transcript()
         row["review_document_markdown"] = "# 独立参照稿\n\n原有疑点。\n"
