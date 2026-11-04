@@ -7,6 +7,7 @@
 - [维护与入库](docs/MAINTENANCE.md)
 - [音频下载](docs/DOWNLOAD.md)
 - [数据质量与使用限制](docs/DATA-CARD.md)
+- [许可证与适用范围](LICENSE)
 - [内容权利说明](CONTENT-RIGHTS.md)
 
 ## 仓库结构
@@ -52,3 +53,7 @@ python tools/corpus.py search 唯物主义
 ```
 
 入库格式、记录 ID 和其他导出方式见 [维护说明](docs/MAINTENANCE.md)。
+
+## 许可
+
+本项目贡献者有权授权的原创代码和原创项目说明文档采用 MIT 许可。归档语料及其中的第三方内容不作统一再许可，已有的明确许可继续适用。完整范围见 [LICENSE](LICENSE)，内容使用与归属问题见 [内容权利说明](CONTENT-RIGHTS.md)。
