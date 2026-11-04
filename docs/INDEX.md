@@ -6,6 +6,7 @@
 
 - [视频与分段](catalog/videos.md)
 - [独立录音](catalog/audio_recordings.md)
+- [专题索引](catalog/topics.md)
 - [动态](catalog/posts.md)
 - [专栏](catalog/articles.md)
 - [文集、合集与系列](catalog/collections.md)

@@ -400,12 +400,22 @@ def generate_catalog_docs(root: Path, check: bool = False) -> dict:
             f"| {count} | {labels[review]} | {labels[complete]} | {labels[notes]} | {labels[document]} |"
         )
     output["docs/catalog/reviews.md"] = "\n".join(lines).rstrip() + "\n"
+    topic_navigation = []
+    if (root / "selections/topics.json").is_file():
+        from .coverage import CoverageIndex
+        from .topics import definitions, render_topic_catalog
+
+        output["docs/catalog/topics.md"] = render_topic_catalog(
+            CoverageIndex(root), definitions(root)
+        )
+        topic_navigation = ["- [专题索引](catalog/topics.md)"]
     output["docs/INDEX.md"] = (
         "# 数据目录\n\n[名词与概念](GLOSSARY.md) · [数据结构](SCHEMA.md)\n\n由 `python tools/corpus.py generate` 生成。计数见 [counts.json](counts.json)。\n\n"
         + "\n".join(
             [
                 "- [视频与分段](catalog/videos.md)",
                 "- [独立录音](catalog/audio_recordings.md)",
+                *topic_navigation,
                 "- [动态](catalog/posts.md)",
                 "- [专栏](catalog/articles.md)",
                 "- [文集、合集与系列](catalog/collections.md)",

@@ -145,6 +145,10 @@ def main(argv=None) -> int:
     coverage.add_argument("--include-records", action="store_true")
     coverage.add_argument("--format", choices=["json", "jsonl"], default="json")
     coverage.add_argument("--output")
+    topic = commands.add_parser("topic")
+    topic.add_argument("identifier")
+    topic.add_argument("--include-records", action="store_true")
+    topic.add_argument("--output")
     exported = commands.add_parser("export")
     exported.add_argument(
         "--format",
@@ -205,6 +209,25 @@ def main(argv=None) -> int:
                 else:
                     print(value, end="")
                     return 0
+        elif args.command == "topic":
+            from .coverage import CoverageIndex
+            from .topics import definitions, topic_report
+
+            matched = [
+                t for t in definitions(root) if args.identifier in (t["id"], t["title"])
+            ]
+            if len(matched) != 1:
+                raise ValueError("Expected one topic: " + args.identifier)
+            result = topic_report(CoverageIndex(root), matched[0], args.include_records)
+            if args.output:
+                output = validate_export_path(root, args.output)
+                output.parent.mkdir(parents=True, exist_ok=True)
+                output.write_text(
+                    json.dumps(result, ensure_ascii=False, indent=2) + chr(10),
+                    encoding="utf-8",
+                    newline=chr(10),
+                )
+                result = {"output": str(output), "counts": result["counts"]}
         elif args.command == "search":
             if not args.database.is_file():
                 raise ValueError("Export a SQLite search database first")

@@ -576,4 +576,14 @@ def validate_corpus(root: Path) -> dict:
         "edited_transcripts_with_review_documents",
     ):
         counts.setdefault(name, 0)
+    if (root / "selections/topics.json").is_file():
+        from .coverage import CoverageIndex
+        from .topics import definitions, select_topic
+
+        topics = definitions(root)
+        index = CoverageIndex(root, load_content=False)
+        counts["topics"] = len(topics)
+        counts["topic_entries"] = sum(
+            len(select_topic(index, topic)) for topic in topics
+        )
     return dict(sorted(counts.items()))
