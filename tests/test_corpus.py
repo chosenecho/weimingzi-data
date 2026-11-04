@@ -1,126 +1,364 @@
+"""Data semantics, references, lossless exports and isolated imports."""
+
 import copy
+import hashlib
 import json
+import sqlite3
 import sys
 import tempfile
 import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
-
-from weimingzi_corpus.bundle import create, digest, read_rows, seal, verify, write_bytes, write_rows
-from weimingzi_corpus.cli import main
-from weimingzi_corpus.pipeline import checkout, freeze, import_local, ingest, merge, project
-
-
-def delivery(path):
-    row = {"record_id": "editorial:123", "kind": "editorial", "text": "保留原来的论述。",
-           "source": {"platform": "bilibili", "source_id": "BVexample", "group_id": "bilibili:BVexample"},
-           "quality": {"status": "passed", "gate": "production-minimum/v1", "semantic_status": "unverified"},
-           "provenance": {"review_file": "bronze/review.md"}, "extensions": {"future": [1, 2]},
-           "segments": [{"start_ms": 0, "end_ms": 1000, "text": "保留原来的论述。"}]}
-    with create(path) as stage:
-        write_rows(stage, "records.jsonl", [row])
-        write_bytes(stage, "bronze/review.md", b"pending review\n")
-        write_bytes(stage, "attachments/user.json", b'{"unknown":true}')
-        manifest = seal(stage, "asr-delivery/v1", records_file="records.jsonl", record_count=1)
-    return row, manifest
+from weimingzi_corpus.cli import import_record, output_path
+from weimingzi_corpus.data import (
+    DIRECTORIES,
+    TABLES,
+    fingerprint,
+    identifier,
+    read_json,
+    records,
+    timing_issues,
+    transcript_identity,
+    validate,
+    write_json,
+    write_jsonl,
+)
+from weimingzi_corpus.exports import catalog, navigation, sqlite_export, subtitle
 
 
-class CorpusTest(unittest.TestCase):
+class CorpusTests(unittest.TestCase):
     def setUp(self):
-        self.temporary = tempfile.TemporaryDirectory()
-        self.root = Path(self.temporary.name)
-        self.row, self.manifest = delivery(self.root / "delivery")
-        self.silver = self.root / "silver"
-        ingest(self.root / "delivery", self.silver)
+        self.temp = tempfile.TemporaryDirectory()
+        self.root = Path(self.temp.name)
+        self.item = {
+            "schema_version": 1,
+            "id": identifier("i", ["recording", "fixture"]),
+            "kind": "recording",
+            "title": "测试录音",
+            "identifiers": {"fixture": ["one"]},
+            "urls": [],
+            "attributes": {},
+            "relations": [],
+        }
+        for table in TABLES:
+            write_jsonl(
+                self.root / "data" / (table + ".jsonl"),
+                [self.item] if table == "items" else [],
+            )
+        for directory in DIRECTORIES:
+            (self.root / "data" / directory).mkdir()
+        write_json(
+            self.root / "selections/training.json", {"schema_version": 1, "entries": []}
+        )
+        self.transcript = {
+            "schema_version": 1,
+            "id": identifier("t", "fixture"),
+            "kind": "transcript",
+            "item_id": self.item["id"],
+            "method": "asr",
+            "model": "fixture",
+            "language": "zh",
+            "text": "物质世界。",
+            "time_unit": "ms",
+            "segments": [
+                {"ordinal": 0, "start": 100, "end": 1500, "text": "物质世界。"}
+            ],
+            "quality": {
+                "human_reviewed": None,
+                "requires_review": False,
+                "timed_exports_available": True,
+                "timing_issues": [],
+            },
+        }
+        self.save_transcript()
 
     def tearDown(self):
-        self.temporary.cleanup()
+        self.temp.cleanup()
 
-    def test_bronze_and_unknown_fields_are_retained(self):
-        directory = self.silver / "bronze" / self.manifest["bundle_id"]
-        self.assertEqual(verify(directory)["bundle_id"], self.manifest["bundle_id"])
-        self.assertEqual(read_rows(self.silver / "records.jsonl")[0]["extensions"], {"future": [1, 2]})
-        self.assertEqual((directory / "attachments/user.json").read_bytes(), b'{"unknown":true}')
+    def save_transcript(self):
+        self.transcript["content_sha256"] = fingerprint(
+            transcript_identity(self.transcript)
+        )
+        write_json(
+            self.root / "data/transcripts" / (self.transcript["id"] + ".json"),
+            self.transcript,
+        )
 
-    def test_edit_and_freeze_does_not_reuse_producer_approval(self):
-        working = self.root / "working"
-        checkout(self.silver, working)
-        rows = read_rows(working / "records.jsonl")
-        rows[0]["text"] = "用户独立修改的论述。"
-        rows[0]["training"] = {"argument": "new arbitrary field"}
-        rows[0]["_lineage"] = {"producer_receipt_applies": True}
-        (working / "records.jsonl").write_text(json.dumps(rows[0], ensure_ascii=False) + "\n", encoding="utf-8")
-        freeze(working, self.root / "edited")
-        edited = read_rows(self.root / "edited/records.jsonl")[0]
-        self.assertFalse(edited["_lineage"]["producer_receipt_applies"])
-        self.assertEqual(edited["quality"]["status"], "downstream-edited")
-        self.assertEqual(edited["training"], rows[0]["training"])
-        self.assertEqual(verify(self.root / "delivery")["bundle_id"], self.manifest["bundle_id"])
-        self.assertEqual(read_rows(self.silver / "records.jsonl")[0]["text"], self.row["text"])
-        checkout(self.root / "edited", self.root / "working2")
-        freeze(self.root / "working2", self.root / "edited2")
-        self.assertFalse(read_rows(self.root / "edited2/records.jsonl")[0]["_lineage"]["producer_receipt_applies"])
+    def test_complete_minimal_corpus_and_unknown_review_status(self):
+        self.assertEqual(validate(self.root)["transcripts"], 1)
+        saved = next(records(self.root, "transcripts"))[0]
+        self.assertIsNone(saved["quality"]["human_reviewed"])
+        self.assertIs(saved["quality"]["requires_review"], False)
 
-    def test_independent_gold_contracts_and_preflight(self):
-        repo = Path(__file__).resolve().parents[1]
-        cpt = json.loads((repo / "profiles/cpt.json").read_text("utf-8"))
-        kb = json.loads((repo / "profiles/knowledge.json").read_text("utf-8"))
-        project(self.silver, cpt, self.root / "cpt")
-        project(self.silver, kb, self.root / "kb")
-        self.assertEqual(set(read_rows(self.root / "cpt/records.jsonl")[0]), {"id", "text", "group_id"})
-        self.assertIn("body", read_rows(self.root / "kb/records.jsonl")[0])
-        lineage = read_rows(self.root / "cpt/lineage.jsonl")[0]
-        self.assertEqual(lineage["output_sha256"], digest(read_rows(self.root / "cpt/records.jsonl")[0]))
-        bad = copy.deepcopy(cpt)
-        bad["fields"]["speaker"] = "missing.speaker"
-        with self.assertRaisesRegex(ValueError, "missing field"):
-            project(self.silver, bad, self.root / "bad")
-        self.assertFalse((self.root / "bad").exists())
+    def test_changed_content_requires_new_integrity_digest(self):
+        path = self.root / "data/transcripts" / (self.transcript["id"] + ".json")
+        changed = read_json(path)
+        changed["text"] = "改过的正文"
+        write_json(path, changed)
+        with self.assertRaisesRegex(ValueError, "SHA-256"):
+            validate(self.root)
 
-    def test_refuse_corruption_overwrite_and_traversal(self):
-        with self.assertRaisesRegex(ValueError, "already exists"):
-            ingest(self.root / "delivery", self.silver)
-        (self.root / "delivery/records.jsonl").write_text("{}\n", encoding="utf-8")
-        self.assertEqual(main(["verify", "--directory", str(self.root / "delivery")]), 1)
-        with self.assertRaises(ValueError):
-            with create(self.root / "traversal") as stage:
-                write_bytes(stage, "../escape", b"no")
-        self.assertFalse((self.root / "escape").exists())
+    def test_bad_timing_is_preserved_and_cannot_be_exported(self):
+        self.transcript["segments"].append(
+            {"ordinal": 1, "start": 50, "end": 300, "text": "倒退时间"}
+        )
+        self.transcript["quality"]["timing_issues"] = timing_issues(self.transcript)
+        self.save_transcript()
+        self.assertEqual(validate(self.root)["timing_issue_transcripts"], 1)
+        with self.assertRaisesRegex(ValueError, "starts must not decrease"):
+            subtitle(self.transcript, "vtt")
+        self.assertEqual(self.transcript["segments"][1]["start"], 50)
 
-    def test_unmodified_freeze_keeps_exact_receipt_scope(self):
-        checkout(self.silver, self.root / "working")
-        freeze(self.root / "working", self.root / "frozen")
-        self.assertTrue(read_rows(self.root / "frozen/records.jsonl")[0]["_lineage"]["producer_receipt_applies"])
+    def test_unreported_timing_problem_fails_validation(self):
+        self.transcript["segments"][0]["end"] = 0
+        self.save_transcript()
+        with self.assertRaisesRegex(ValueError, "timing issue list"):
+            validate(self.root)
 
-    def test_review_and_user_files_can_be_edited_without_touching_bronze(self):
-        checkout(self.silver, self.root / "working")
-        assets = self.root / "working/assets" / self.manifest["bundle_id"]
-        (assets / "bronze/review.md").write_text("用户自己维护的复核记录。\n", encoding="utf-8")
-        (assets / "attachments/user.json").write_text('{"new_user_field":42}', encoding="utf-8")
-        freeze(self.root / "working", self.root / "frozen")
-        self.assertEqual((self.root / "frozen/assets" / self.manifest["bundle_id"] / "attachments/user.json").read_text("utf-8"),
-                         '{"new_user_field":42}')
-        self.assertEqual(verify(self.root / "delivery")["bundle_id"], self.manifest["bundle_id"])
-        checkout(self.root / "frozen", self.root / "working2")
-        self.assertEqual((self.root / "working2/assets" / self.manifest["bundle_id"] / "bronze/review.md").read_text("utf-8"),
-                         "用户自己维护的复核记录。\n")
+    def test_subtitles_preserve_exact_milliseconds(self):
+        self.assertIn("00:00:00,100 --> 00:00:01,500", subtitle(self.transcript, "srt"))
+        self.transcript["time_unit"] = "s"
+        self.transcript["segments"][0].update(start=0.1, end=1.5)
+        self.assertIn("00:00:00.100 --> 00:00:01.500", subtitle(self.transcript, "vtt"))
 
-    def test_user_content_and_multiple_deliveries_need_no_production_database(self):
-        user = {"record_id": "article:one", "text": "独立维护的专栏。",
-                "source": {"platform": "user", "source_id": "one", "group_id": "article:one"},
-                "tags": ["new"], "quality": {"status": "passed"}}
-        write_rows(self.root, "user.jsonl", [user])
-        import_local(self.root / "user.jsonl", self.root / "article")
-        merge([self.silver, self.root / "article"], self.root / "combined")
-        rows = read_rows(self.root / "combined/records.jsonl")
-        self.assertEqual(len(rows), 2)
-        article = next(row for row in rows if row["record_id"] == "article:one")
-        self.assertFalse(article["_lineage"]["producer_receipt_applies"])
-        self.assertEqual(article["quality"]["status"], "downstream-imported")
-        self.assertEqual(article["tags"], ["new"])
-        merge([self.silver, self.silver], self.root / "deduped")
-        self.assertEqual(len(read_rows(self.root / "deduped/records.jsonl")), 1)
+    def test_submillisecond_values_are_not_rounded(self):
+        self.transcript["time_unit"] = "s"
+        self.transcript["segments"][0].update(start=0.0001, end=1.5)
+        with self.assertRaisesRegex(ValueError, "millisecond precision"):
+            subtitle(self.transcript, "srt")
+        self.assertEqual(self.transcript["segments"][0]["start"], 0.0001)
+
+    def test_explicit_disabled_timed_export_is_respected(self):
+        self.transcript["quality"]["timed_exports_available"] = False
+        with self.assertRaisesRegex(ValueError, "disables"):
+            subtitle(self.transcript, "vtt")
+
+    def test_result_must_reference_existing_item(self):
+        self.transcript["item_id"] = identifier("i", "missing")
+        self.save_transcript()
+        with self.assertRaisesRegex(ValueError, "unresolved items"):
+            validate(self.root)
+
+    def test_parent_cycle_is_rejected(self):
+        self.item["parent_id"] = self.item["id"]
+        write_jsonl(self.root / "data/items.jsonl", [self.item])
+        with self.assertRaisesRegex(ValueError, "parent cycle"):
+            validate(self.root)
+
+    def test_boolean_review_flags_cannot_be_strings(self):
+        self.transcript["quality"]["human_reviewed"] = "false"
+        self.save_transcript()
+        with self.assertRaisesRegex(ValueError, "boolean or null"):
+            validate(self.root)
+
+    def reading(self):
+        r = {
+            "schema_version": 1,
+            "id": identifier("r", "fixture"),
+            "kind": "reading",
+            "item_id": self.item["id"],
+            "text": "物质世界。",
+            "paragraphs": [{"ordinal": 0, "text": "物质世界。"}],
+            "time_unit": "ms",
+            "model": "fixture",
+            "notes": "",
+            "complete": True,
+            "transcript_ids": [self.transcript["id"]],
+            "quality": {"human_reviewed": False, "requires_review": True},
+        }
+        write_json(self.root / "data/readings" / (r["id"] + ".json"), r)
+        return r
+
+    def test_training_selection_does_not_grant_review_approval(self):
+        r = self.reading()
+        write_json(
+            self.root / "selections/training.json",
+            {
+                "entries": [
+                    {
+                        "item_id": self.item["id"],
+                        "reading_id": r["id"],
+                        "annotation_ids": [],
+                    }
+                ]
+            },
+        )
+        self.assertEqual(validate(self.root)["training_entries"], 1)
+        self.assertIs(
+            read_json(self.root / "data/readings" / (r["id"] + ".json"))["quality"][
+                "human_reviewed"
+            ],
+            False,
+        )
+
+    def test_training_selection_cannot_reference_another_item(self):
+        r = self.reading()
+        write_json(
+            self.root / "selections/training.json",
+            {
+                "entries": [
+                    {"item_id": identifier("i", "missing"), "reading_id": r["id"]}
+                ]
+            },
+        )
+        with self.assertRaisesRegex(ValueError, "training entry"):
+            validate(self.root)
+
+    def test_confirmation_is_located_by_original_text_hash(self):
+        r = self.reading()
+        text = "物质世界。"
+        digest = hashlib.sha256(text.encode()).hexdigest()
+        a = {
+            "schema_version": 1,
+            "id": identifier("a", "confirmation"),
+            "kind": "confirmation",
+            "item_id": self.item["id"],
+            "reading_ids": [r["id"]],
+            "scope": "wording_only",
+            "anchor": {"original_text": text, "original_text_sha256": digest},
+            "corrected_text": text,
+            "corrected_text_sha256": digest,
+        }
+        write_jsonl(self.root / "data/annotations.jsonl", [a])
+        self.assertEqual(validate(self.root)["annotations"], 1)
+        a["anchor"]["original_text_sha256"] = "0" * 64
+        write_jsonl(self.root / "data/annotations.jsonl", [a])
+        with self.assertRaisesRegex(ValueError, "anchor hash"):
+            validate(self.root)
+
+    def test_canonical_import_is_idempotent(self):
+        source = self.root / "incoming.json"
+        write_json(source, self.item)
+        self.assertEqual(import_record(self.root, "items", source), 0)
+
+    def test_invalid_import_does_not_change_primary_files(self):
+        r = self.reading()
+        existing = self.root / "data/items.jsonl"
+        before = existing.read_bytes()
+        r["id"] = identifier("r", "new")
+        r["item_id"] = identifier("i", "missing")
+        source = self.root / "incoming.json"
+        write_json(source, r)
+        with self.assertRaisesRegex(ValueError, "unresolved items"):
+            import_record(self.root, "readings", source)
+        self.assertEqual(existing.read_bytes(), before)
+        self.assertFalse((self.root / "data/readings" / (r["id"] + ".json")).exists())
+
+    def test_valid_import_adds_one_record(self):
+        new = copy.deepcopy(self.item)
+        new["id"] = identifier("i", "new")
+        new["identifiers"] = {"fixture": ["two"]}
+        source = self.root / "incoming.json"
+        write_json(source, new)
+        self.assertEqual(import_record(self.root, "items", source), 1)
+        self.assertEqual(validate(self.root)["items"], 2)
+
+    def test_conflicting_id_import_does_not_overwrite(self):
+        modified = copy.deepcopy(self.item)
+        modified["title"] = "其他标题"
+        source = self.root / "incoming.json"
+        write_json(source, modified)
+        with self.assertRaisesRegex(ValueError, "overwrite"):
+            import_record(self.root, "items", source)
+        self.assertEqual(next(records(self.root, "items"))[0]["title"], "测试录音")
+
+    def test_exports_cannot_overwrite_primary_data(self):
+        for target in [
+            "data/items.jsonl",
+            "docs/INDEX.md",
+            ".git/config",
+            "src/main.py",
+        ]:
+            with self.subTest(target=target), self.assertRaises(ValueError):
+                output_path(self.root, str(self.root / target))
+
+    def test_sqlite_projection_retains_records_and_searches_chinese(self):
+        self.reading()
+        output = self.root / ".cache/search.sqlite3"
+        sqlite_export(self.root, output)
+        c = sqlite3.connect(output)
+        try:
+            self.assertEqual(
+                c.execute("select count(*) from transcripts").fetchone()[0], 1
+            )
+            self.assertEqual(
+                c.execute("select count(*) from readings").fetchone()[0], 1
+            )
+            self.assertEqual(
+                c.execute(
+                    "select count(*) from search where search match ?", ('"物质世界"',)
+                ).fetchone()[0],
+                2,
+            )
+            self.assertEqual(
+                json.loads(c.execute("select data from transcripts").fetchone()[0]),
+                self.transcript,
+            )
+        finally:
+            c.close()
+
+    def test_word_alignment_tampering_fails_validation(self):
+        self.transcript["alignments"] = [
+            {
+                "id": identifier("x", "word"),
+                "time_unit": "ms",
+                "sentences": [
+                    {"words": [{"text": "物质", "begin_time": 100, "end_time": 400}]}
+                ],
+            }
+        ]
+        self.transcript["alignments_sha256"] = fingerprint(
+            self.transcript["alignments"]
+        )
+        self.save_transcript()
+        self.assertEqual(validate(self.root)["transcripts"], 1)
+        self.transcript["alignments"][0]["sentences"][0]["words"][0]["end_time"] = 700
+        self.save_transcript()
+        with self.assertRaisesRegex(ValueError, "alignment SHA-256"):
+            validate(self.root)
+
+    def test_reading_derivation_cycle_fails_validation(self):
+        r = self.reading()
+        r["derived_from"] = r["id"]
+        write_json(self.root / "data/readings" / (r["id"] + ".json"), r)
+        with self.assertRaisesRegex(ValueError, "reading parent cycle"):
+            validate(self.root)
+
+    def test_missing_input_unit_reference_fails_validation(self):
+        r = self.reading()
+        r["reference_units_reading_id"] = identifier("r", "missing")
+        write_json(self.root / "data/readings" / (r["id"] + ".json"), r)
+        with self.assertRaisesRegex(ValueError, "unresolved readings"):
+            validate(self.root)
+
+    def test_gap_evidence_cannot_reference_a_missing_alignment(self):
+        self.transcript["attributes"] = {
+            "untranscribed_intervals": [
+                [
+                    {
+                        "evidence": [
+                            {
+                                "transcript_id": self.transcript["id"],
+                                "alignment_ids": [identifier("x", "missing")],
+                            }
+                        ]
+                    }
+                ]
+            ]
+        }
+        self.save_transcript()
+        with self.assertRaisesRegex(ValueError, "unresolved alignment evidence"):
+            validate(self.root)
+
+    def test_catalog_and_navigation_derive_from_same_records(self):
+        self.reading()
+        self.assertIn(self.transcript["id"], catalog(self.root))
+        navigation(self.root)
+        navigation(self.root, check=True)
+        (self.root / "docs/INDEX.md").write_text("stale", encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, "stale"):
+            navigation(self.root, check=True)
 
 
 if __name__ == "__main__":

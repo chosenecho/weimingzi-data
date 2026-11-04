@@ -1,1 +1,1 @@
-"""Portable corpus tools. No production database or worker dependency."""
+"""Read, validate and export the independently maintained corpus."""

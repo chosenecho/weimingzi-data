@@ -18,7 +18,7 @@ body:
     id: steps
     attributes:
       label: 重现步骤
-      description: 提供命令、批次、分卷或文件路径及 Git 提交。
+      description: 提供命令、记录 ID、分卷标识或文件路径及 Git 提交。
     validations:
       required: true
   - type: textarea

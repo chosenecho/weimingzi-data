@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "kind": "transcript",
+  "item_id": "i-ff9fca87c066b60b6073415a",
+  "method": "asr-cloud",
+  "language": null,
+  "model": "qwen-audio-3.1-asr-flash",
+  "time_unit": "s",
+  "text": "要，你给他留。",
+  "segments": [
+    {
+      "start": 76.16,
+      "end": 77.44,
+      "text": "要，你给他留。",
+      "speaker_id": 0,
+      "chunk_offset_seconds": 0,
+      "ordinal": 0
+    }
+  ],
+  "quality": {
+    "human_reviewed": null,
+    "requires_review": false,
+    "timed_exports_available": true,
+    "timing_issues": []
+  },
+  "attributes": {
+    "audio_sha256": [
+      "4c965f22a29a38b07e82a09ee9f1d03e269c1b4d3f32ceb47c5bdb10eb1958ef"
+    ],
+    "chunk_seconds": [
+      240
+    ],
+    "speaker_diarization_enabled": [
+      true
+    ],
+    "sample_rate": [
+      16000
+    ],
+    "version": [
+      1
+    ],
+    "duration_seconds": [
+      148.5005
+    ],
+    "usage": [
+      [
+        {
+          "duration": 77,
+          "input_tokens": 1857,
+          "output_tokens": 23,
+          "total_tokens": 1880
+        }
+      ]
+    ],
+    "speaker_ids_are_chunk_local": [
+      true
+    ],
+    "untranscribed_intervals": [
+      []
+    ]
+  },
+  "media_ids": [
+    "m-4c965f22a29a38b07e82a09ee9f1d03e269c1b4d3f32ceb47c5bdb10eb1958ef"
+  ],
+  "id": "t-53f272a0831e0ce19cd47369",
+  "content_sha256": "53f272a0831e0ce19cd473693ff0ff36396abf73af28ecf0e89ed4119832f513",
+  "alignments": [
+    {
+      "kind": "recognition_chunk",
+      "time_unit": "ms",
+      "offset_seconds": 0,
+      "duration_seconds": 148.5005,
+      "text": "要，你给他留。",
+      "sentences": [
+        {
+          "begin_time": 76160,
+          "channel_id": 0,
+          "end_time": 77440,
+          "sentence_end": true,
+          "sentence_id": 1,
+          "speaker_id": 0,
+          "text": "要，你给他留。",
+          "words": [
+            {
+              "begin_time": 76160,
+              "end_time": 76525,
+              "fixed": true,
+              "punctuation": "，",
+              "speaker_id": 0,
+              "text": "要"
+            },
+            {
+              "begin_time": 76525,
+              "end_time": 76708,
+              "fixed": true,
+              "punctuation": "",
+              "speaker_id": 0,
+              "text": "你"
+            },
+            {
+              "begin_time": 76708,
+              "end_time": 77074,
+              "fixed": true,
+              "punctuation": "",
+              "speaker_id": 0,
+              "text": "给他"
+            },
+            {
+              "begin_time": 77074,
+              "end_time": 77440,
+              "fixed": true,
+              "punctuation": "。",
+              "speaker_id": 0,
+              "text": "留"
+            }
+          ]
+        }
+      ],
+      "id": "x-2423b148e35f86122ecbcf22"
+    }
+  ],
+  "alignments_sha256": "1d6f78cfd6accbe269b6c54651104fdc241645d6fa063a4ffe7794eb7c7f6853"
+}

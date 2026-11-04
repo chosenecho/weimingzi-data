@@ -1,0 +1,212 @@
+{
+  "item_id": "i-a710342fe61b28c28623788b",
+  "model": "deepseek-v4.1-flash",
+  "time_unit": "ms",
+  "text": "这是一六年写的一首老词。用的曲子是什么呢？是火云邪神里面的。\n\n几番风染层林如霜，化作离人泪。\n\n谁诉漂泊烟雨残声？天寒秋冷。悠悠云回月落何方？不曾入梦中。\n\n已是锦里鬓角摘星，浊酒初停。笑只笑当年又惨淡多情。\n\n春雨不雨如断如续。怨只怨他乡多忘却忧伤。\n\n归时佳人望故疏狂。谁说赠与他人的心，换得来真意？\n\n谁说种在心中的梦，不容质疑？谁说梦里清晰的你，看透了往昔？\n\n谁说告别了你，如今是我自己？\n\n不必问少年有几多痴情，春雨似雨如影随形。\n\n不必问他乡是谁在忧伤？谁说佳人望故疏狂？\n\n抢拍了，你们自己调整着唱。最后那个“不必问”抢拍了，你们自己调整一下。\n",
+  "paragraphs": [
+    {
+      "issues": [],
+      "original_text": "这个是一六年写的一首老词啊，用的这个曲子呢是什么？火云邪神的这个里面的啊。",
+      "segment_ids": [
+        "t1151:s0",
+        "t1151:s1",
+        "t1151:s2"
+      ],
+      "text": "这是一六年写的一首老词。用的曲子是什么呢？是火云邪神里面的。",
+      "start": 400,
+      "end": 9280,
+      "ordinal": 0
+    },
+    {
+      "issues": [],
+      "original_text": "几番风染层林如霜，化作离人泪。",
+      "segment_ids": [
+        "t1151:s3",
+        "t1151:s4"
+      ],
+      "text": "几番风染层林如霜，化作离人泪。",
+      "start": 20320,
+      "end": 28560,
+      "ordinal": 1
+    },
+    {
+      "issues": [
+        {
+          "candidate": "残身",
+          "evidence_refs": [
+            "t1265:s5"
+          ],
+          "note": "“残声”与参考字幕的“残身”不一致，歌词字词不确定。"
+        },
+        {
+          "candidate": "云飞",
+          "evidence_refs": [
+            "t1265:s7"
+          ],
+          "note": "“云回”与参考字幕的“云飞”不一致，暂保留原文。"
+        }
+      ],
+      "original_text": "谁诉漂泊烟雨残声？天寒秋冷。悠悠云回月落何方？不曾入梦中。",
+      "segment_ids": [
+        "t1151:s5",
+        "t1151:s6"
+      ],
+      "text": "谁诉漂泊烟雨残声？天寒秋冷。悠悠云回月落何方？不曾入梦中。",
+      "start": 31120,
+      "end": 50240,
+      "ordinal": 2
+    },
+    {
+      "issues": [
+        {
+          "candidate": "",
+          "evidence_refs": [
+            "t1265:s8"
+          ],
+          "note": "“锦里鬓角”疑为音近误识，具体字词无法确认。"
+        }
+      ],
+      "original_text": "已是锦里鬓角摘星，浊酒初停。笑只笑当年又惨淡多情，",
+      "segment_ids": [
+        "t1151:s7",
+        "t1151:s8"
+      ],
+      "text": "已是锦里鬓角摘星，浊酒初停。笑只笑当年又惨淡多情。",
+      "start": 53040,
+      "end": 69200,
+      "ordinal": 3
+    },
+    {
+      "issues": [
+        {
+          "candidate": "",
+          "evidence_refs": [
+            "t1265:s11",
+            "t1265:s12"
+          ],
+          "note": "“春雨不雨”语义不通，疑有误；参考字幕亦不清晰，暂保留原文。"
+        }
+      ],
+      "original_text": "春雨不雨如断如续。怨只怨他乡多忘却忧伤，",
+      "segment_ids": [
+        "t1151:s9",
+        "t1151:s10"
+      ],
+      "text": "春雨不雨如断如续。怨只怨他乡多忘却忧伤。",
+      "start": 70480,
+      "end": 79040,
+      "ordinal": 4
+    },
+    {
+      "issues": [
+        {
+          "candidate": "亡故",
+          "evidence_refs": [
+            "t1265:s15"
+          ],
+          "note": "“望故”与参考字幕的“亡故”不一致，歌词原字不确定。"
+        }
+      ],
+      "original_text": "归时佳人望故疏狂。谁说赠与他人的心，换得来真意？",
+      "segment_ids": [
+        "t1151:s11",
+        "t1151:s12"
+      ],
+      "text": "归时佳人望故疏狂。谁说赠与他人的心，换得来真意？",
+      "start": 80880,
+      "end": 93360,
+      "ordinal": 5
+    },
+    {
+      "issues": [],
+      "original_text": "谁说种在心中的梦，不容质疑？谁说梦里清晰的你，看透了往昔？",
+      "segment_ids": [
+        "t1151:s13",
+        "t1151:s14"
+      ],
+      "text": "谁说种在心中的梦，不容质疑？谁说梦里清晰的你，看透了往昔？",
+      "start": 97040,
+      "end": 115440,
+      "ordinal": 6
+    },
+    {
+      "issues": [],
+      "original_text": "谁说告别了你如今，是我自己？",
+      "segment_ids": [
+        "t1151:s15"
+      ],
+      "text": "谁说告别了你，如今是我自己？",
+      "start": 118880,
+      "end": 126240,
+      "ordinal": 7
+    },
+    {
+      "issues": [
+        {
+          "candidate": "丝雨",
+          "evidence_refs": [
+            "t1265:s24"
+          ],
+          "note": "“春雨似雨”与参考字幕的“丝雨”不一致，歌词字词不确定。"
+        }
+      ],
+      "original_text": "不必问少年有几多痴情，春雨似雨如影随形。",
+      "segment_ids": [
+        "t1151:s16",
+        "t1151:s17"
+      ],
+      "text": "不必问少年有几多痴情，春雨似雨如影随形。",
+      "start": 130240,
+      "end": 138880,
+      "ordinal": 8
+    },
+    {
+      "issues": [],
+      "original_text": "不必问他乡是谁在忧伤？谁说佳人望故疏狂？",
+      "segment_ids": [
+        "t1151:s18",
+        "t1151:s19"
+      ],
+      "text": "不必问他乡是谁在忧伤？谁说佳人望故疏狂？",
+      "start": 140480,
+      "end": 150720,
+      "ordinal": 9
+    },
+    {
+      "issues": [],
+      "original_text": "抢拍了，你们自己调整的唱啊，最后最后那个不必问抢拍，你们自己调整一下。",
+      "segment_ids": [
+        "t1151:s20"
+      ],
+      "text": "抢拍了，你们自己调整着唱。最后那个“不必问”抢拍了，你们自己调整一下。",
+      "start": 151520,
+      "end": 156000,
+      "ordinal": 10
+    }
+  ],
+  "notes": "# 【作词翻唱】疏狂：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`47ef32090fc2f9d96f933ddc605745e77097c9d6430346cb4d4374d972492f7c`\n\n输入快照：`a6d658428faafdf0799dc4c138756f55011e0397c7a440a7e13888d1f4ce0fe3`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`1151`；参考转录：`1265`",
+  "complete": true,
+  "transcript_ids": [
+    "t-21ae05539359bfe991bfa299"
+  ],
+  "quality": {
+    "human_reviewed": false,
+    "requires_review": true,
+    "status": "needs-review"
+  },
+  "attributes": {
+    "revision_id": [
+      "47ef32090fc2f9d96f933ddc605745e77097c9d6430346cb4d4374d972492f7c"
+    ],
+    "input_id": [
+      "a6d658428faafdf0799dc4c138756f55011e0397c7a440a7e13888d1f4ce0fe3"
+    ],
+    "generated_at_unix": [
+      1793631022
+    ]
+  },
+  "id": "r-f68c8682ac444a6c9c83b7e8",
+  "schema_version": 1,
+  "kind": "reading",
+  "paragraphs_match_text": true
+}

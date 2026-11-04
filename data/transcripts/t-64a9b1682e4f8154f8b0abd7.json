@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "kind": "transcript",
+  "item_id": "i-5a4177089dd5b084a55eaa5f",
+  "method": "asr-cloud",
+  "language": null,
+  "model": "qwen-audio-3.1-asr-flash",
+  "time_unit": "s",
+  "text": "",
+  "segments": [],
+  "quality": {
+    "human_reviewed": null,
+    "requires_review": true,
+    "timed_exports_available": false,
+    "timing_issues": [],
+    "audio_assessment": "silent_audio_confirmed",
+    "reported_intervals": [
+      {
+        "reason": "provider_returned_no_words",
+        "start": 0,
+        "end": 240,
+        "request_id": "2dffa035-cfa7-97d5-be36-a78c43abf97f"
+      },
+      {
+        "reason": "provider_returned_no_words",
+        "start": 240,
+        "end": 480,
+        "request_id": "54d905e2-5dbe-9ec8-bbfb-ef441701c077"
+      },
+      {
+        "reason": "provider_returned_no_words",
+        "start": 480,
+        "end": 720,
+        "request_id": "dbadd0bd-9285-99cc-a45b-e82bcbaac200"
+      },
+      {
+        "reason": "provider_returned_no_words",
+        "start": 720,
+        "end": 922.3805,
+        "request_id": "cc3d99db-81d8-9d4f-9929-a01686e599aa"
+      }
+    ]
+  },
+  "attributes": {
+    "audio_sha256": [
+      "fea0a19ba3c9496eee165bfb22e02a4bc7284eeca75bfef661e40839e9986934"
+    ],
+    "chunk_seconds": [
+      240
+    ],
+    "speaker_diarization_enabled": [
+      true
+    ],
+    "sample_rate": [
+      16000
+    ],
+    "version": [
+      1
+    ],
+    "duration_seconds": [
+      922.3805
+    ],
+    "usage": [
+      []
+    ],
+    "speaker_ids_are_chunk_local": [
+      true
+    ],
+    "untranscribed_intervals": [
+      [
+        {
+          "start": 0,
+          "end": 240,
+          "reason": "provider_returned_no_words",
+          "evidence": [
+            {
+              "transcript_id": "t-64a9b1682e4f8154f8b0abd7",
+              "alignment_ids": [
+                "x-15ca56d3f4105759677f9ce4"
+              ]
+            }
+          ]
+        },
+        {
+          "start": 240,
+          "end": 480,
+          "reason": "provider_returned_no_words",
+          "evidence": [
+            {
+              "transcript_id": "t-64a9b1682e4f8154f8b0abd7",
+              "alignment_ids": [
+                "x-2d89c84aabd4b88ebc09383d"
+              ]
+            }
+          ]
+        },
+        {
+          "start": 480,
+          "end": 720,
+          "reason": "provider_returned_no_words",
+          "evidence": [
+            {
+              "transcript_id": "t-64a9b1682e4f8154f8b0abd7",
+              "alignment_ids": [
+                "x-f000a60100110857c050e48b"
+              ]
+            }
+          ]
+        },
+        {
+          "start": 720,
+          "end": 922.3805,
+          "reason": "provider_returned_no_words",
+          "evidence": [
+            {
+              "transcript_id": "t-64a9b1682e4f8154f8b0abd7",
+              "alignment_ids": [
+                "x-0ab2d624857d0408e74e1f0a"
+              ]
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "media_ids": [
+    "m-fea0a19ba3c9496eee165bfb22e02a4bc7284eeca75bfef661e40839e9986934"
+  ],
+  "id": "t-64a9b1682e4f8154f8b0abd7",
+  "content_sha256": "64a9b1682e4f8154f8b0abd788f1abaef0cfd2ea50de1542e4820b84e440cd12",
+  "alignments": [
+    {
+      "kind": "recognition_chunk",
+      "time_unit": "ms",
+      "offset_seconds": 0,
+      "duration_seconds": 240,
+      "text": "",
+      "sentences": [],
+      "quality": null,
+      "id": "x-15ca56d3f4105759677f9ce4"
+    },
+    {
+      "kind": "recognition_chunk",
+      "time_unit": "ms",
+      "offset_seconds": 240,
+      "duration_seconds": 240,
+      "text": "",
+      "sentences": [],
+      "quality": null,
+      "id": "x-2d89c84aabd4b88ebc09383d"
+    },
+    {
+      "kind": "recognition_chunk",
+      "time_unit": "ms",
+      "offset_seconds": 480,
+      "duration_seconds": 240,
+      "text": "",
+      "sentences": [],
+      "quality": null,
+      "id": "x-f000a60100110857c050e48b"
+    },
+    {
+      "kind": "recognition_chunk",
+      "time_unit": "ms",
+      "offset_seconds": 720,
+      "duration_seconds": 202.38049999999998,
+      "text": "",
+      "sentences": [],
+      "quality": null,
+      "id": "x-0ab2d624857d0408e74e1f0a"
+    }
+  ],
+  "alignments_sha256": "f37c937b5f5286984e74fe5e5c71de01ef78cfeb720d5ec8b6eed32777724bfc"
+}
