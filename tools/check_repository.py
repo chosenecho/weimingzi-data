@@ -12,21 +12,30 @@ from weimingzi_corpus.exports import generate_catalog_docs
 
 def check_links(root):
     checked = 0
-    for folder in [root, root / "docs"]:
-        paths = folder.glob("*.md") if folder == root else folder.rglob("*.md")
-        for path in paths:
-            for target in re.findall(
-                r"(?<!!)\[[^\n]*?\]\(([^\n]*?)\)", path.read_text(encoding="utf-8")
-            ):
-                target = target.split("#", 1)[0]
-                if not target or re.match(r"^[a-zA-Z][a-zA-Z0-9+.-]*:", target):
-                    continue
-                resolved = (path.parent / unquote(target)).resolve()
-                if not resolved.is_relative_to(root.resolve()) or not resolved.exists():
-                    raise ValueError(
-                        f"{path.relative_to(root)}: broken local link {target}"
-                    )
-                checked += 1
+    ignored_directories = {
+        ".git",
+        ".cache",
+        ".venv",
+        ".venv-workers",
+        ".wrangler",
+        "__pycache__",
+        "node_modules",
+        "python_modules",
+    }
+    for path in root.rglob("*.md"):
+        relative = path.relative_to(root)
+        if any(part in ignored_directories for part in relative.parts):
+            continue
+        for target in re.findall(
+            r"(?<!!)\[[^\n]*?\]\(([^\n]*?)\)", path.read_text(encoding="utf-8")
+        ):
+            target = target.split("#", 1)[0]
+            if not target or re.match(r"^[a-zA-Z][a-zA-Z0-9+.-]*:", target):
+                continue
+            resolved = (path.parent / unquote(target)).resolve()
+            if not resolved.is_relative_to(root.resolve()) or not resolved.exists():
+                raise ValueError(f"{relative}: broken local link {target}")
+            checked += 1
     return checked
 
 

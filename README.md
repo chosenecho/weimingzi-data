@@ -10,6 +10,9 @@
 - [代理使用指南](docs/AGENT-GUIDE.md)
 - [音频下载](docs/DOWNLOAD.md)
 - [数据质量与使用限制](docs/DATA-CARD.md)
+- [资料库验收矩阵](docs/ARCHIVE-ACCEPTANCE.md)
+- [保存范围与完整性基线](docs/PRESERVATION.md)
+- [保存能力迭代计划](docs/PRESERVATION-ROADMAP.md)
 - [许可证与适用范围](LICENSE)
 - [内容权利说明](CONTENT-RIGHTS.md)
 

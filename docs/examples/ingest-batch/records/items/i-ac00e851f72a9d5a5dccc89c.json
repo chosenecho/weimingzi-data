@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "id": "i-ac00e851f72a9d5a5dccc89c",
+  "kind": "post",
+  "title": "合成动态示例",
+  "identifiers": {
+    "bilibili_dynamic": [
+      "0"
+    ]
+  },
+  "urls": [
+    "https://t.bilibili.com/0"
+  ],
+  "metadata": {
+    "synthetic_fixture": [
+      true
+    ],
+    "uploader_id": [
+      "23191782"
+    ],
+    "media_assets": [
+      {
+        "asset_version": 1,
+        "kind": "image",
+        "sha256": "f816327386120cc933602b964ab2a2216ae9a56dcd23f7e7b82d1d15697ca930",
+        "size_bytes": 37,
+        "mime_type": "image/png",
+        "locator": {
+          "storage": "oss",
+          "bucket_alias": "archive",
+          "object_key": "media/sha256/f816327386120cc933602b964ab2a2216ae9a56dcd23f7e7b82d1d15697ca930.png",
+          "version_id": null,
+          "access": "authenticated"
+        },
+        "verification": {
+          "mode": "readback_sha256",
+          "verified_at": "2026-11-04T20:00:00+08:00",
+          "producer_run_id": "synthetic-fixture"
+        }
+      }
+    ]
+  },
+  "relations": [
+    {
+      "kind": "has_full_text",
+      "target_item_id": "i-26a13f10fdfc708394760e5d"
+    },
+    {
+      "kind": "references_video",
+      "target_item_id": "i-7bd9de4078c5688f711355b8"
+    }
+  ]
+}

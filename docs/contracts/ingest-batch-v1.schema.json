@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Proposed weimingzi-data incremental batch v1",
+  "description": "Design contract. JSON Schema covers structure; hashes, paths, scope, identity and operation semantics require the proposed consumer validator.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["contract_version", "kind", "record_schema_version", "batch_id", "target", "producer", "source_scope", "base_commit", "created_at", "requires_batches", "sources", "files", "operations"],
+  "properties": {
+    "contract_version": {"const": 1, "type": "integer"},
+    "kind": {"const": "weimingzi_increment"},
+    "record_schema_version": {"const": 2, "type": "integer"},
+    "batch_id": {"$ref": "#/$defs/sha256"},
+    "target": {
+      "type": "object", "additionalProperties": false,
+      "required": ["repository", "branch"],
+      "properties": {"repository": {"const": "chosenecho/weimingzi-data"}, "branch": {"const": "main"}}
+    },
+    "producer": {
+      "type": "object", "additionalProperties": false,
+      "required": ["name", "code_revision", "run_id"],
+      "properties": {
+        "name": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]{0,63}$"},
+        "code_revision": {"$ref": "#/$defs/gitCommit"},
+        "run_id": {"type": "string", "minLength": 1, "maxLength": 128, "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"}
+      }
+    },
+    "source_scope": {
+      "type": "object", "additionalProperties": false,
+      "required": ["platform", "target_uid"],
+      "properties": {"platform": {"const": "bilibili"}, "target_uid": {"const": "23191782"}}
+    },
+    "base_commit": {"$ref": "#/$defs/gitCommit"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "requires_batches": {"type": "array", "maxItems": 2000, "uniqueItems": true, "items": {"$ref": "#/$defs/sha256"}},
+    "sources": {"type": "array", "minItems": 1, "maxItems": 2000, "items": {"$ref": "#/$defs/source"}},
+    "files": {"type": "array", "minItems": 1, "maxItems": 2000, "items": {"$ref": "#/$defs/file"}},
+    "operations": {"type": "array", "minItems": 1, "maxItems": 2000, "items": {"$ref": "#/$defs/operation"}}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$", "minLength": 64, "maxLength": 64},
+    "gitCommit": {"type": "string", "pattern": "^(?:[0-9a-f]{40}|[0-9a-f]{64})$"},
+    "recordId": {"type": "string", "pattern": "^[a-z]-[0-9a-f]{24,64}$"},
+    "table": {"enum": ["items", "audio", "collections", "transcripts", "edited_transcripts", "posts", "articles"]},
+    "path": {"type": "string", "maxLength": 200, "pattern": "^(?:records|observations)/(?:items|audio|collections|transcripts|edited_transcripts|posts|articles)/[a-z]-[0-9a-f]{24,64}\\.json$"},
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_id", "namespace", "external_id", "publisher_uid", "url", "observed_at", "relation", "referenced_by"],
+      "properties": {
+        "source_id": {"type": "string", "minLength": 1, "maxLength": 160, "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"},
+        "namespace": {"enum": ["bilibili_bvid", "bilibili_dynamic", "bilibili_cvid", "bilibili_opus"]},
+        "external_id": {"type": "string", "minLength": 1, "maxLength": 128, "pattern": "^[A-Za-z0-9_-]+$"},
+        "publisher_uid": {"oneOf": [{"type": "string", "pattern": "^[0-9]{1,32}$"}, {"type": "null"}]},
+        "url": {"type": "string", "maxLength": 2048, "format": "uri", "pattern": "^https://"},
+        "observed_at": {"type": "string", "format": "date-time"},
+        "relation": {"enum": ["target_publication", "referenced_content"]},
+        "referenced_by": {"type": "array", "maxItems": 2000, "uniqueItems": true, "items": {"type": "string", "minLength": 1, "maxLength": 160}},
+        "cid": {"type": "string", "pattern": "^[0-9]{1,32}$"},
+        "part_number": {"type": "integer", "minimum": 1}
+      },
+      "allOf": [
+        {"if": {"properties": {"relation": {"const": "target_publication"}}}, "then": {"properties": {"publisher_uid": {"const": "23191782"}, "referenced_by": {"maxItems": 0}}}},
+        {"if": {"properties": {"relation": {"const": "referenced_content"}}}, "then": {"properties": {"referenced_by": {"minItems": 1}}}}
+      ]
+    },
+    "file": {
+      "type": "object", "additionalProperties": false,
+      "required": ["path", "sha256", "size_bytes"],
+      "properties": {"path": {"$ref": "#/$defs/path"}, "sha256": {"$ref": "#/$defs/sha256"}, "size_bytes": {"type": "integer", "minimum": 1}}
+    },
+    "operation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["op", "table", "record_id", "path", "payload_sha256", "expected_record_sha256", "source_refs"],
+      "properties": {
+        "op": {"enum": ["insert", "enrich", "attach_audio_distribution"]},
+        "table": {"$ref": "#/$defs/table"},
+        "record_id": {"$ref": "#/$defs/recordId"},
+        "path": {"$ref": "#/$defs/path"},
+        "payload_sha256": {"$ref": "#/$defs/sha256"},
+        "expected_record_sha256": {"oneOf": [{"$ref": "#/$defs/sha256"}, {"type": "null"}]},
+        "source_refs": {"type": "array", "minItems": 1, "maxItems": 2000, "uniqueItems": true, "items": {"type": "string", "minLength": 1, "maxLength": 160}}
+      },
+      "allOf": [
+        {"if": {"properties": {"op": {"const": "insert"}}}, "then": {"properties": {"expected_record_sha256": {"type": "null"}, "path": {"pattern": "^records/"}}}},
+        {"if": {"properties": {"op": {"const": "enrich"}}}, "then": {"properties": {"expected_record_sha256": {"$ref": "#/$defs/sha256"}, "path": {"pattern": "^observations/"}, "table": {"enum": ["items", "audio", "transcripts", "edited_transcripts", "posts", "articles"]}}}},
+        {"if": {"properties": {"op": {"const": "attach_audio_distribution"}}}, "then": {"properties": {"table": {"const": "audio"}, "expected_record_sha256": {"$ref": "#/$defs/sha256"}, "path": {"pattern": "^records/audio/"}}}}
+      ]
+    }
+  }
+}

@@ -26,6 +26,8 @@ jobs:
             src
             tools
             tests
+            docs/contracts
+            docs/examples
       - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
         with:
           python-version: "3.12"
@@ -39,3 +41,5 @@ jobs:
         with:
           python-version: "3.12"
       - run: python -X utf8 tools/check_repository.py
+      - run: python -X utf8 tools/preservation_manifest.py check-current --read-only
+      - run: python -X utf8 tools/preservation_manifest.py verify-log
