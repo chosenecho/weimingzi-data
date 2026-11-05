@@ -571,6 +571,7 @@
 | [2021-12-11_00-52-43 · 33668c66](../../data/edited_transcripts/r-33668c6630bc34d26d10245e.json) | 23 | 是 | 是 | 是 | 否 |
 | [2021-12-12_00-48-55 · c3e6f42d](../../data/edited_transcripts/r-c3e6f42d1d251e3921c79187.json) | 20 | 是 | 是 | 是 | 否 |
 | [2021-12-13_01-50-46 · 283cbb35](../../data/edited_transcripts/r-283cbb35a487ca90afbef73b.json) | 8 | 是 | 是 | 是 | 否 |
+| [2021-12-14_00-20-29 · c4f6ca74](../../data/edited_transcripts/r-c4f6ca743a51bec6628c460f.json) | 29 | 是 | 是 | 否 | 是 |
 | [2021-12-15_00-23-33 · c2c14bee](../../data/edited_transcripts/r-c2c14bee462382d43ea45510.json) | 17 | 是 | 是 | 是 | 否 |
 | [2021-12-16_00-17-34 · 812dc526](../../data/edited_transcripts/r-812dc5263f3df335b63796c7.json) | 11 | 是 | 是 | 是 | 否 |
 | [2021-12-16_23-15-38 · dedbcc9b](../../data/edited_transcripts/r-dedbcc9b1a1555683a0098b3.json) | 21 | 是 | 是 | 是 | 否 |
@@ -693,6 +694,7 @@
 | [2022-02-10_00-17-03 · 6ac9de6b](../../data/edited_transcripts/r-6ac9de6b8c1e66ad50fa29bd.json) | 19 | 是 | 是 | 是 | 否 |
 | [2022-02-11_00-32-16 · 1be5c442](../../data/edited_transcripts/r-1be5c4421696dce16bf9d98f.json) | 24 | 是 | 是 | 是 | 否 |
 | [2022-02-13_23-40-00 · 9744d8a1](../../data/edited_transcripts/r-9744d8a1047cf003e7ff2e3f.json) | 30 | 是 | 是 | 是 | 否 |
+| [2022-02-14_23-34-24 · e218b0a4](../../data/edited_transcripts/r-e218b0a4f4d57ebb0ca1ee8c.json) | 49 | 是 | 是 | 否 | 是 |
 | [2022-02-15_23-39-22 · 70d0fc66](../../data/edited_transcripts/r-70d0fc6625aab1bf14be9625.json) | 22 | 是 | 是 | 是 | 否 |
 | [2022-02-17_00-03-46 · da68e93c](../../data/edited_transcripts/r-da68e93c8dfe850c17e0fff1.json) | 17 | 是 | 是 | 是 | 否 |
 | [2022-02-19_23-36-21 · 5c9a6dd6](../../data/edited_transcripts/r-5c9a6dd6f356dc86987a403c.json) | 12 | 是 | 是 | 是 | 否 |

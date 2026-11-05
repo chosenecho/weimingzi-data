@@ -33,6 +33,8 @@ duration、cover、created、ctime 等原始字段的含义或类型可能不同
 
 relations 每项使用 target_item_id、kind 和可选 evidence。has_full_text 表示关联全文，references_video 和 references 表示参照。参照关系不证明音频相同，音频同一性按文件 SHA-256 判断。
 
+audible_rerecording_of 从有声重录版指向原条目，保存确认依据和日期。它表示重录关系，不证明音轨相同或时间轴逐段对应；文稿仍归属于实际有声版本。覆盖查询将该关系列入 cross_source。
+
 ## 基础转录
 
 data/transcripts/<id>.json 保存一份转录结果。item_id 指向条目；method、model、language 描述结果。method 使用 asr_local、asr_cloud、subtitle_ai、subtitle_cc 等项目自定值。
@@ -125,6 +127,12 @@ recognition_issue_intervals 保存识别或时间异常区间，使用 start_sec
 证据引用中的 transcript_id 指向基础转录，recognition_chunk_ids 指向其识别块。transcript_text_available 标明对应区间是否存在正文。
 
 quality.audio_assessment、reported_timing_issues 等已有判断分别保留。无识别词、时间异常、确认静音、不可用字幕和音频缺失不相互推断。输入质量快照保存在 quality.input_quality，仍使用相同字段约定。
+
+用户明确确认原分 P 无声时，可将 audio_assessment 记录为 silent_audio_confirmed。
+
+audio_assessment_evidence 保存 basis=user_confirmation、原话、confirmed_on、时区及证据位置。条目级判断保存为 metadata 中的观测值；转录级质量判断与其依据分别保留。
+
+确认无声不改变音频索引的文件可恢复状态，也不代表整理稿已人工复核。
 
 metadata.review_status 是已有的结果状态观测。平台对象中的 review、video_review、disable_preview 等原始名称不自动解释成校对或人工审核状态。
 
