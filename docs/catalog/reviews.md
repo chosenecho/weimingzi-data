@@ -1248,6 +1248,7 @@
 | [【工益公益】去摆摊，去做家教，去打工，去讨生活——工益小组中临近毕业而难以就业的大学生成员的首要任务 · c21e033c](../../data/edited_transcripts/r-c21e033cf3032d6ca69df96d.json) | 16 | 是 | 是 | 是 | 否 |
 | [【工益公益】对于工益团体的经济活动和团队建设的建议 · 1389ec11](../../data/edited_transcripts/r-1389ec119cc61aa08770f157.json) | 92 | 是 | 是 | 是 | 否 |
 | [【工益公益】工益团体要赚钱应该干什么行业 · 9e70a8e5](../../data/edited_transcripts/r-9e70a8e5e192be81fca43a61.json) | 12 | 是 | 是 | 是 | 否 |
+| [【工益公益】工益小组不是政治组织，重要的不是加入小组，而是践行社会主义 · 97fac763](../../data/edited_transcripts/r-97fac763234451df943669a2.json) | 11 | 是 | 是 | 是 | 否 |
 | [【工益公益】工益小组不是政治组织，重要的不是加入小组，而是践行社会主义 · a2637d3d](../../data/edited_transcripts/r-a2637d3db4784162ccfd1245.json) | 10 | 是 | 是 | 是 | 否 |
 | [【工益公益】工益志愿者要善于识别、排斥、远离、驱除两类投机分子 · 88a63f64](../../data/edited_transcripts/r-88a63f64039867f3dcae93a7.json) | 16 | 是 | 是 | 是 | 否 |
 | [【工益公益】工益是最大的公益 · c565dc48](../../data/edited_transcripts/r-c565dc485b7c6eb68780c4ed.json) | 10 | 是 | 是 | 是 | 是 |

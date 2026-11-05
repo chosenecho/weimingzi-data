@@ -11460,7 +11460,7 @@
 
 仅元数据
 
-- 【工益公益】工益小组不是政治组织，重要的不是加入小组，而是践行社会主义：[整理稿（deepseek-v4.1-flash）:a2637d3d](../../data/edited_transcripts/r-a2637d3db4784162ccfd1245.json)（输入：`3e7e6612`） · [平台 AI 字幕:21876553](../../data/transcripts/t-21876553f63d294a5a66ae8a.json) · [本地语音转录（Qwen3-ASR-1.7B-hf）:3e7e6612](../../data/transcripts/t-3e7e6612744243e2194ce4ea.json)
+- 【工益公益】工益小组不是政治组织，重要的不是加入小组，而是践行社会主义：[整理稿（deepseek-v4.1-flash）:97fac763](../../data/edited_transcripts/r-97fac763234451df943669a2.json)（输入：`3e7e6612`） · [整理稿（deepseek-v4.1-flash）:a2637d3d](../../data/edited_transcripts/r-a2637d3db4784162ccfd1245.json)（输入：`3e7e6612`） · [平台 AI 字幕:21876553](../../data/transcripts/t-21876553f63d294a5a66ae8a.json) · [本地语音转录（Qwen3-ASR-1.7B-hf）:3e7e6612](../../data/transcripts/t-3e7e6612744243e2194ce4ea.json)
 
 <a id="i-a84a1be6149b95eb0c60eba9"></a>
 
