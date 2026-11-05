@@ -15,9 +15,11 @@ from weimingzi_corpus.records import (
     write_json,
     write_jsonl,
     read_json,
+    read_jsonl,
     json_sha256,
     transcript_hash_input,
 )
+from weimingzi_corpus.exports import generate_catalog_docs
 
 
 @lru_cache(maxsize=1)
@@ -201,6 +203,66 @@ class CoverageTests(unittest.TestCase):
         self.assertEqual(text_status("  。"), "empty")
         self.assertEqual(text_status("嗯，这是正文。"), "text_present_unverified")
 
+    def test_explicit_audible_rerecording_is_related_without_reassigning_sibling_text(
+        self,
+    ):
+        self.fixture()
+        self.item["relations"] = [
+            {
+                "kind": "audible_rerecording_of",
+                "target_item_id": self.sibling["id"],
+                "evidence": "User confirms P1 is the audible rerecording of silent P2",
+                "basis": "user_confirmation",
+            }
+        ]
+        self.sibling["metadata"]["audio_assessment"] = ["silent_audio_confirmed"]
+        self.sibling["metadata"]["audio_assessment_evidence"] = [
+            {"basis": "user_confirmation"}
+        ]
+        rows = list(read_jsonl(self.root / "data/items.jsonl"))
+        rows = [
+            self.item
+            if row["id"] == self.item["id"]
+            else self.sibling
+            if row["id"] == self.sibling["id"]
+            else row
+            for row in rows
+        ]
+        third = copy.deepcopy(self.sibling)
+        third.update(id=make_record_id("i", "third"), part_number=3, metadata={})
+        write_jsonl(self.root / "data/items.jsonl", [*rows, third])
+        original = self.edited(self.item, "audible")
+        unrelated = self.edited(self.variant, "same-audio-as-p1")
+        index = CoverageIndex(self.root)
+        report = index.report("BVfixture", part=2, include_records=True)
+        self.assertFalse(report["summary"]["has_direct_edited_transcript"])
+        self.assertTrue(report["summary"]["has_related_edited_transcript"])
+        related = report["layers"]["cross_source"]["records"]
+        draft = next(r for r in related if r["id"] == original["id"])
+        self.assertEqual(draft["record"], original)
+        self.assertEqual(draft["item_id"], self.item["id"])
+        self.assertEqual(draft["associations"][0]["kind"], "audible_rerecording_of")
+        self.assertEqual(
+            draft["associations"][0]["scope"], "audible_rerecording_not_time_alignment"
+        )
+        self.assertFalse(draft["associations"][0]["proves_audio_identity"])
+        self.assertNotIn(unrelated["id"], [r["id"] for r in related])
+        self.assertEqual(report["layers"]["same_audio"]["records"], [])
+        reverse = index.report("BVfixture", part=1)
+        self.assertIn(
+            self.sibling["id"],
+            [i["item_id"] for i in reverse["layers"]["cross_source"]["items"]],
+        )
+        third_report = index.report("BVfixture", part=3)
+        self.assertNotIn(
+            original["id"],
+            [r["id"] for r in third_report["layers"]["cross_source"]["records"]],
+        )
+        generate_catalog_docs(self.root)
+        catalog = (self.root / "docs/catalog/videos.md").read_text(encoding="utf-8")
+        self.assertIn("用户确认无声；有声重录版 P1 的文稿（相关覆盖）", catalog)
+        self.assertIn(original["id"], catalog)
+
 
 class RepositoryCoverageTests(unittest.TestCase):
     @classmethod
@@ -309,6 +371,50 @@ class RepositoryCoverageTests(unittest.TestCase):
         self.assertEqual(
             assessment["repeated_unit"] * assessment["repetition_count"], row["text"]
         )
+
+    def test_confirmed_silent_p2_links_to_the_existing_audible_p1_manuscripts(self):
+        first = "i-8520cf119fcad17735d1fb60"
+        second = "i-00971e5f62c6b8a2afc33acc"
+        report = self.index.report("BV1CP4y1s7BM", 2, include_records=True)
+        self.assertEqual(report["scope_item_ids"], [second])
+        direct = report["layers"]["direct"]["records"]
+        original = next(r for r in direct if r["id"] == "t-79e1eb0ea7c54df6013b144c")
+        self.assertEqual(
+            original["quality"]["audio_assessment"], "silent_audio_confirmed"
+        )
+        evidence = original["quality"]["audio_assessment_evidence"]
+        self.assertEqual(evidence["basis"], "user_confirmation")
+        self.assertEqual(evidence["confirmed_on"], "2026-11-05")
+        self.assertEqual(evidence["review_timezone"], "Asia/Hong_Kong")
+        self.assertEqual(
+            evidence["excerpt"],
+            "BV1CP4y1s7BM P2就是没声音的，BV1CP4y1s7BM P1是p2的有声重录版",
+        )
+        self.assertEqual(
+            self.index.items[second]["metadata"]["audio_assessment_evidence"],
+            [evidence],
+        )
+        related = report["layers"]["cross_source"]["records"]
+        for record_id in (
+            "t-0e80e9989a8827ed4f481269",
+            "t-f87ba197d7b776c27aa62a58",
+            "r-3dd2af3cb9bf5fcc38f95caf",
+        ):
+            row = next(r for r in related if r["id"] == record_id)
+            self.assertEqual(row["item_id"], first)
+            self.assertNotIn(record_id, [r["id"] for r in direct])
+            self.assertEqual(row["associations"][0]["source_item_id"], first)
+            self.assertEqual(row["associations"][0]["target_item_id"], second)
+            self.assertFalse(row["associations"][0]["proves_audio_identity"])
+        draft = next(r for r in related if r["id"] == "r-3dd2af3cb9bf5fcc38f95caf")
+        self.assertTrue(draft["is_complete"])
+        self.assertTrue(draft["requires_review"])
+        self.assertFalse(draft["is_fully_human_reviewed"])
+        self.assertEqual(draft["transcript_ids"], ["t-f87ba197d7b776c27aa62a58"])
+        self.assertEqual(
+            draft["record"], read_json(self.index.root / draft["record_path"])
+        )
+        self.assertEqual(report["layers"]["same_audio"]["records"], [])
 
 
 if __name__ == "__main__":

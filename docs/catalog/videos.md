@@ -2038,7 +2038,7 @@
 仅元数据
 
 - 2021-07-27_00-35-06：[整理稿（deepseek-flash）:3dd2af3c](../../data/edited_transcripts/r-3dd2af3cb9bf5fcc38f95caf.json)（输入：`f87ba197`） · [平台 AI 字幕:0e80e998](../../data/transcripts/t-0e80e9989a8827ed4f481269.json) · [本地语音转录（Qwen3-ASR-1.7B-hf）:f87ba197](../../data/transcripts/t-f87ba197d7b776c27aa62a58.json)
-- 2021-07-26_22-52-27：[本地语音转录（Qwen3-ASR-1.7B-hf）:79e1eb0e](../../data/transcripts/t-79e1eb0ea7c54df6013b144c.json)
+- 2021-07-26_22-52-27：[本地语音转录（Qwen3-ASR-1.7B-hf）:79e1eb0e](../../data/transcripts/t-79e1eb0ea7c54df6013b144c.json)；用户确认无声；有声重录版 P1 的文稿（相关覆盖）：[整理稿（deepseek-flash）:3dd2af3c](../../data/edited_transcripts/r-3dd2af3cb9bf5fcc38f95caf.json)（输入：`f87ba197`） · [平台 AI 字幕:0e80e998](../../data/transcripts/t-0e80e9989a8827ed4f481269.json) · [本地语音转录（Qwen3-ASR-1.7B-hf）:f87ba197](../../data/transcripts/t-f87ba197d7b776c27aa62a58.json)
 
 <a id="i-3cc1eefb3b954729cf92c000"></a>
 

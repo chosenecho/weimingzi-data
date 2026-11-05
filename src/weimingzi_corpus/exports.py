@@ -309,6 +309,38 @@ def generate_catalog_docs(root: Path, check: bool = False) -> dict:
             or "仅元数据"
         )
 
+    rerecordings = defaultdict(list)
+    for source in items.values():
+        for relation in source.get("relations", []):
+            if relation["kind"] == "audible_rerecording_of":
+                rerecordings[relation["target_item_id"]].append(source)
+
+    def recording_notes(item):
+        notes = []
+        metadata = item.get("metadata", {})
+        if "silent_audio_confirmed" in metadata.get("audio_assessment", []):
+            user_confirmed = any(
+                evidence.get("basis") == "user_confirmation"
+                for evidence in metadata.get("audio_assessment_evidence", [])
+                if isinstance(evidence, dict)
+            )
+            notes.append("用户确认无声" if user_confirmed else "已确认无声")
+        for source in sorted(rerecordings[item["id"]], key=lambda row: row["id"]):
+            label = (
+                f'P{source["part_number"]}'
+                if source.get("part_number") is not None
+                and source.get("parent_id")
+                and source.get("parent_id") == item.get("parent_id")
+                else source["title"]
+            )
+            notes.append(
+                "有声重录版 "
+                + escape_markdown_label(label)
+                + " 的文稿（相关覆盖）："
+                + links(source["id"])
+            )
+        return "".join("；" + note for note in notes)
+
     for group, title, kinds in [
         ("videos", "视频与分段", {"video"}),
         ("audio_recordings", "独立录音", {"audio_recording"}),
@@ -339,7 +371,7 @@ def generate_catalog_docs(root: Path, check: bool = False) -> dict:
                     ),
                     "",
                 ]
-            lines += [links(row["id"]), ""]
+            lines += [links(row["id"]) + recording_notes(row), ""]
             for child in sorted(
                 children[row["id"]], key=lambda x: (x.get("part_number", 0), x["id"])
             ):
@@ -348,6 +380,7 @@ def generate_catalog_docs(root: Path, check: bool = False) -> dict:
                     + escape_markdown_label(child["title"])
                     + "："
                     + links(child["id"])
+                    + recording_notes(child)
                 ]
             lines.append("")
         output[f"docs/catalog/{group}.md"] = "\n".join(lines).rstrip() + "\n"

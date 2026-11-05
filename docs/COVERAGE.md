@@ -12,11 +12,15 @@ JSON 报告包含 scope_item_ids、四层关联、逐层计数和 summary；JSON
 | 层 | 依据 | 范围 |
 | --- | --- | --- |
 | direct | 记录的 item_id | 查询条目及所查视频的分 P |
-| cross_source | 显式引用关系 | 展示原关系与来源 |
+| cross_source | 显式引用或重录关系 | 展示原关系与来源 |
 | same_audio | 完整音频 SHA-256 相等 | 展示哈希及原索引 |
 | chapter_supplement | 显式章节补充关系 | 章节范围的补充文稿 |
 
-cross_source 接受 references 和 references_video 关系，双向展示；视频级引用不证明分 P 对齐或音轨相同。same_audio 保留已记录的完整哈希身份依据，不因文件暂不可恢复而抹除。chapter_supplement 使用 chapter_supplement_not_audio_identity 关系，不证明音轨相同或整条目完整覆盖。
+cross_source 接受 references 和 references_video 关系，双向展示；视频级引用不证明分 P 对齐或音轨相同。
+
+audible_rerecording_of 也进入 cross_source：从原条目可查有声重录版的文稿，保留确认依据。重录关系不证明音轨同一或逐段时间对齐；所有文稿保留实际录音条目及原时间值。
+
+same_audio 保留已记录的完整哈希身份依据，不因文件暂不可恢复而抹除。chapter_supplement 使用 chapter_supplement_not_audio_identity 关系，不证明音轨相同或整条目完整覆盖。
 
 关系只扩展一跳，不把引用、同音频、章节补充连成可传递的等价关系。返回的 items 也列出暂时只有元数据的关联条目。每份结果分别带有原条目、记录路径、关联证据和输入 transcript_ids。
 
@@ -34,11 +38,11 @@ text_present_transcripts 只是文本筛查结果，不代表识别准确或已�
 - BV1dA411T7xD 中“美的辩证法”条目 i-7fee8b9e09f3f0d185f2aaa2：same_audio 展示其他来源版本及完整哈希。
 - “克尔凯廓尔三阶段论”条目 i-e33df3f1154c7f435ae90247：same_audio 展示其他来源版本及完整哈希。
 - 独立录音“神创论”“自然神论”“神义论”：从明确的章节补充关系查阅；未完成整理稿仍显示 is_complete=false。
-- BV1CP4y1s7BM P2：原转录只有重复的“嗯。”，应显示 filler_only，不能因记录存在或时间合法而计作实质正文，也不能据此断言音频静音。
+- BV1CP4y1s7BM P2：用户已确认原分 P 无声，P1 是有声重录版。direct 保留纯填充词原稿；cross_source 返回 P1 已有文稿。无声判断来自用户确认，filler_only 仍只表示文本筛查结果。
 
 覆盖案例依据 [issue #4](https://github.com/chosenecho/weimingzi-data/issues/4) 和仓库规范记录。
 
-填充词案例依据 [issue #5](https://github.com/chosenecho/weimingzi-data/issues/5)。
-核查范围与备用音频待办见[质量核查记录](evidence/issue-5-filler-only.md)。
+填充词案例原问题见 [issue #5](https://github.com/chosenecho/weimingzi-data/issues/5)。
+用户确认的原话、日期与重录关系见[质量核查记录](evidence/issue-5-filler-only.md)。
 
 查询直接层为空时，应继续检查相关层；相关层有稿也不等于该分 P 已有直接整理稿。

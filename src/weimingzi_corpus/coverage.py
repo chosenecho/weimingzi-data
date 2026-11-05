@@ -172,7 +172,8 @@ class CoverageIndex:
                 kind = relation["kind"]
                 layer = (
                     "cross_source"
-                    if kind in {"references", "references_video"}
+                    if kind
+                    in {"references", "references_video", "audible_rerecording_of"}
                     else "chapter_supplement"
                     if kind == "chapter_supplement_not_audio_identity"
                     else None
@@ -190,6 +191,8 @@ class CoverageIndex:
                             "proves_audio_identity": False,
                             "scope": "chapter_only"
                             if layer == "chapter_supplement"
+                            else "audible_rerecording_not_time_alignment"
+                            if kind == "audible_rerecording_of"
                             else "explicit_reference_not_part_alignment",
                         }
                         for target in sorted(self.family(far)):
