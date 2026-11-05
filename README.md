@@ -13,6 +13,7 @@
 - [资料库验收矩阵](docs/ARCHIVE-ACCEPTANCE.md)
 - [保存范围与完整性基线](docs/PRESERVATION.md)
 - [保存能力迭代计划](docs/PRESERVATION-ROADMAP.md)
+- [保存运行与交接](docs/PRESERVATION-OPERATIONS.md)
 - [许可证与适用范围](LICENSE)
 - [内容权利说明](CONTENT-RIGHTS.md)
 

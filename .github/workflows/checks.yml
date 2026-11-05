@@ -41,5 +41,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: python -X utf8 tools/check_repository.py
+      - run: python -X utf8 -m unittest discover -s tests -p test_coverage.py -v
+      - run: python -X utf8 -m unittest discover -s tests -p test_local_revision.py -v
       - run: python -X utf8 tools/preservation_manifest.py check-current --read-only
       - run: python -X utf8 tools/preservation_manifest.py verify-log

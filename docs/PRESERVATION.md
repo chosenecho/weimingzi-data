@@ -23,17 +23,17 @@
 
 ## 建立与验证
 
-在仓库根目录执行：
+在仓库根目录执行。BASELINE 替换为尚未使用的 `preservation/manifests/baseline-日期-v版本号.json` 路径：
 
-    python tools/preservation_manifest.py create --output preservation/manifests/baseline-2026-11-05-v9.json
-    python tools/preservation_manifest.py select-current --manifest preservation/manifests/baseline-2026-11-05-v9.json
+    python tools/preservation_manifest.py create --output BASELINE
+    python tools/preservation_manifest.py select-current --manifest BASELINE
     python tools/preservation_manifest.py check-current
 
 `select-current` 只接受已存在、校验值有效且没有范围错误的版本化基线。它更新单独版本控制的当前基线选择器。`check-current` 读取选择器、校验所选清单并将结果追加到事件日志。
 
 单次检查或核对指定历史基线时，可使用：
 
-    python tools/preservation_manifest.py verify --manifest preservation/manifests/baseline-2026-11-05-v9.json --record
+    python tools/preservation_manifest.py verify --manifest BASELINE --record
     python tools/preservation_manifest.py verify-log
 
 不带路径的 `--record` 将通过、差异和无法读取基线等失败结果追加到 `preservation/checks/fixity.jsonl`。日志行包含 UTC 时间、基线摘要、文件差异以及前一条事件的 SHA-256，追加前会校验已有链并串行化写入。遇到不完整末行或链条校验失败时，下一次追加会停止并报错。发现文件差异时仍会写入失败事件，命令返回非零状态。`verify-log` 只读校验整条事件链并报告事件数与末条摘要。
@@ -51,7 +51,7 @@ Windows 脚本的成功和失败路径由 [test_preservation_check.py](../tests/
 
 如果检查失败，先查看 `preservation/checks/fixity.jsonl` 最后一行并调查差异。不要为了消除失败直接改写旧基线。确认改动获准后，创建新版本基线，再用 `select-current` 指向它。若日志链自身失败，先保留原日志并调查，不要追加覆盖。
 
-当前已提供可在任务计划程序中使用的脚本，但没有注册系统任务。注册前应将仓库放在长期固定的路径；当前隔离工作树不适合作为长期计划任务目标。
+周期检查采用[默认分支审计工作流](../.github/workflows/preservation-audit.yml)，每周一 01:00 UTC 执行并保留报告。Windows 脚本仍可用于本地留痕，本轮不注册指向临时工作树的系统任务。手动触发、报告回读和交接步骤见[运行说明](PRESERVATION-OPERATIONS.md)。实际触发和通过状态以远端运行记录为准。
 
 恢复流程使用临时 ZIP 样本演练，不下载真实归档：
 
