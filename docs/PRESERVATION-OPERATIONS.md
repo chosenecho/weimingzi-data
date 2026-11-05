@@ -36,6 +36,24 @@ RUN_ID 替换为实际运行标识。取回后核对 run.json 的提交与预期
 
 仓库内容可从获准 Git 提交重新检出，使用该提交自己的当前基线核验。SQLite、导航和其他导出由维护数据重建；不把缓存或导出反向当作维护数据。恢复到新位置后再次核对文件字节和事件链。
 
+## 全量媒体审计
+
+[Media restore audit 工作流](../.github/workflows/media-restore-audit.yml)在临时运行环境逐卷下载、恢复和核对哈希。每卷核对后释放其临时目录，保留逐项报告；不会把这些临时字节计为长期副本。工作流可手动执行，修改审计实现的 PR 也会触发验收。
+
+    gh workflow run media-restore-audit.yml --ref main
+    gh run list --workflow media-restore-audit.yml --limit 5
+    gh run download RUN_ID --dir .cache/media-audit-RUN_ID
+
+本地也可使用同一入口，OUTPUT 必须是 preservation/checks/ 下尚未使用的 JSON 路径：
+
+    python tools/audit_audio_restore.py --temporary-media --workers 1 --output OUTPUT
+
+临时模式只允许单个工作线程。未指定 `--temporary-media` 时，恢复字节留在本地缓存和 media/audio/；可使用 `--archive release-tag/archive.zip` 限定范围。已有报告不会覆盖；重试时换用新路径，并保留原失败结果。
+
+最终 report.json 包含输入索引摘要、工具摘要、选择范围、归档、成员及恢复文件结果。每卷完成时另写一份不可覆盖的 .parts/ 检查点；任务中断时这些记录只证明已完成部分，不能替代最终报告。先核对输入索引与工具版本，再检查总报告的 ok、index_unchanged 及每个归档和文件的结果。
+
+全量只涵盖音频索引中有恢复定位的记录，不包含缺失或未提供恢复来源的音频。一次回读通过也不证明未来可访问、内容准确、时间对齐或权利状态。
+
 ## 责任与访问交接
 
 | 事项 | 交接内容 | 当前状态 |

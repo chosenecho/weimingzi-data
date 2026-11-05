@@ -86,6 +86,21 @@ class AudioRestoreAuditTests(unittest.TestCase):
             audit.main(["--output", "data/audit.json"])
         self.download_mock.assert_not_called()
 
+    def test_temporary_mode_does_not_replace_existing_local_audio(self):
+        target = self.root / self.row["local_path"]
+        target.parent.mkdir(parents=True)
+        target.write_bytes(b"existing local bytes")
+        result = audit.audit_temporary_group(self.key, self.group)
+        self.assertTrue(result["ok"])
+        self.assertEqual(target.read_bytes(), b"existing local bytes")
+        self.assertEqual(audit.restore_audio.ROOT, self.root)
+
+    def test_temporary_mode_rejects_shared_root_concurrency(self):
+        with self.assertRaises(SystemExit):
+            audit.main(["--temporary-media", "--workers", "2",
+                        "--output", "preservation/checks/no-race.json"])
+        self.download_mock.assert_not_called()
+
     def test_failed_download_is_preserved_in_report(self):
         self.download_mock.side_effect = OSError("fixture transport failure")
         with patch.object(audit.restore_audio, "load_audio_archive_groups", return_value={self.key: self.group}):

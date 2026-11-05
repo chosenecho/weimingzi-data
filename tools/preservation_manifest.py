@@ -25,6 +25,7 @@ SUPPORT_FILES = (
     ".gitignore",
     ".github/workflows/checks.yml",
     ".github/workflows/preservation-audit.yml",
+    ".github/workflows/media-restore-audit.yml",
     ".github/ISSUE_TEMPLATE/archive-problem.yml",
     ".github/ISSUE_TEMPLATE/config.yml",
     ".github/ISSUE_TEMPLATE/data-correction.yml",
@@ -91,6 +92,7 @@ SUPPORT_FILES = (
     "tools/preservation_manifest.py",
     "tools/preservation_check.ps1",
     "tools/restore_audio.py",
+    "tools/audit_audio_restore.py",
     "tools/check_repository.py",
     "tests/test_repository_links.py",
     "tests/test_preservation_check.py",
@@ -101,6 +103,7 @@ SUPPORT_FILES = (
     "tests/test_local_revision.py",
     "tests/test_requested_results.py",
     "tests/test_restore_audio.py",
+    "tests/test_audio_restore_audit.py",
     "tests/test_topics.py",
     "workers/ingest-probe/.gitignore",
     "workers/ingest-probe/pylock.toml",
@@ -117,6 +120,8 @@ SUPPORT_FILES = (
     "workers/ingest-probe/wrangler.jsonc",
     "preservation/checks/restore-drill-2026-11-05.json",
     "preservation/checks/restore-release-sample-2026-11-05.json",
+    "preservation/checks/restore-local-interrupted-2026-11-05.json",
+    "preservation/checks/remote-validation-2026-11-05.json",
 )
 SHA256_PATTERN = re.compile(r"^[0-9a-f]{64}$")
 BASELINE_NAME_PATTERN = re.compile(

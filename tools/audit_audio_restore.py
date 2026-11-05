@@ -7,6 +7,7 @@ import argparse
 import hashlib
 import json
 import sys
+import tempfile
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
@@ -82,17 +83,32 @@ def write_report(path, report):
         output.write("\n")
 
 
+def audit_temporary_group(key, group):
+    original_root = restore_audio.ROOT
+    try:
+        with tempfile.TemporaryDirectory(prefix="audio-restore-audit-") as scratch:
+            restore_audio.ROOT = Path(scratch)
+            return audit_group(key, group)
+    finally:
+        restore_audio.ROOT = original_root
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--archive", action="append", help="release-tag/archive.zip; repeatable")
     parser.add_argument("--workers", type=int, choices=range(1, 5), default=2)
+    parser.add_argument("--temporary-media", action="store_true",
+                        help="restore one archive at a time in a temporary directory")
     parser.add_argument("--output", required=True, help="new JSON under preservation/checks/")
     args = parser.parse_args(argv)
+    if args.temporary_media and args.workers != 1:
+        parser.error("Temporary media mode requires --workers 1")
     output = restore_audio.resolve_audio_repository_path(args.output)
     checks = restore_audio.resolve_audio_repository_path("preservation/checks")
     if not output.is_relative_to(checks) or output.suffix != ".json":
         parser.error("Output must be a JSON file under preservation/checks/")
-    if output.exists():
+    checkpoints = output.with_suffix(".parts")
+    if output.exists() or checkpoints.exists():
         parser.error("Output exists; choose a new versioned report")
     index = restore_audio.resolve_audio_repository_path("data/audio.jsonl")
     index_before = digest_file(index)
@@ -117,17 +133,27 @@ def main(argv=None):
             "indexed_restorable_audio": all_audio_count,
             "selected_archives": sorted(groups),
             "selected_audio": sum(len(group["files"]) for group in groups.values()),
+            "media_storage": "temporary_per_archive" if args.temporary_media else "local_cache",
             "excludes": "Unavailable audio, content accuracy, rights, independent-copy and future availability claims",
         },
         "archives": [],
     }
     with ThreadPoolExecutor(max_workers=args.workers) as executor:
-        futures = {executor.submit(audit_group, key, group): key for key, group in groups.items()}
+        operation = audit_temporary_group if args.temporary_media else audit_group
+        futures = {executor.submit(operation, key, group): key for key, group in groups.items()}
         for future in as_completed(futures):
             result = future.result()
             report["archives"].append(result)
+            write_report(checkpoints / (str(len(report["archives"])).zfill(3) + ".json"), {
+                "schema": "audio-restore-audit-part/v1",
+                "complete": False,
+                "index": report["index"],
+                "tools": report["tools"],
+                "archive": result,
+            })
             print(json.dumps({"archive": result["archive_key"], "ok": result["ok"],
-                              "completed": len(report["archives"]), "total": len(groups)}), flush=True)
+                              "completed": len(report["archives"]), "total": len(groups),
+                              "error": result.get("error")}), flush=True)
     report["archives"].sort(key=lambda result: result["archive_key"])
     report["index_unchanged"] = digest_file(index) == index_before
     report["ok"] = report["index_unchanged"] and all(result["ok"] for result in report["archives"])
