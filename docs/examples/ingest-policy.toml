@@ -1,0 +1,57 @@
+# Design example only. No workflow currently reads this file.
+# Copy into trusted deployment configuration and resolve aliases before enabling.
+policy_version = 1
+enabled = false
+repository = "chosenecho/weimingzi-data"
+branch = "main"
+platform = "bilibili"
+target_uid = "23191782"
+allowed_producers = ["weimingzi-bilibili-ingest"]
+dispatch_actor_id = "REPLACE_WITH_VERIFIED_APP_ACTOR_ID"
+branch_prefix = "codex/ingest/"
+
+[limits]
+# Initial design budgets, not measured production capacities.
+manifest_bytes = 2097152
+payload_file_bytes = 16777216
+payload_total_bytes = 67108864
+operations = 2000
+files = 2000
+open_pull_requests = 1
+
+[transport]
+storage = "oss"
+bucket_alias = "handoff"
+object_prefix = "handoffs/weimingzi-data/v1/"
+# Resolve aliases in deployment; never accept a host or secret from the batch.
+allowed_media_bucket_aliases = ["archive"]
+
+[retry]
+max_automatic_attempts = 5
+backoff_seconds = [60, 300, 1800, 7200]
+reconcile_before_retry = true
+hold_integrity_and_identity_errors = true
+
+[enrich.items]
+fields = ["metadata", "urls", "relations"]
+metadata_keys = ["title", "uploader_name", "duration_ms", "published_at_unix_seconds", "observed_at", "observed_at_unix_seconds", "source_artifact_sha256", "upstream_run_id", "media_assets"]
+
+[enrich.transcripts]
+fields = ["metadata", "audio_ids"]
+metadata_keys = ["upstream_transcript_id", "upstream_content_sha256", "upstream_run_id", "source_artifact_sha256", "observed_at"]
+
+[enrich.edited_transcripts]
+fields = ["metadata"]
+metadata_keys = ["upstream_revision_id", "upstream_run_id", "source_artifact_sha256", "observed_at"]
+
+[enrich.posts]
+fields = ["metadata", "article_item_ids"]
+metadata_keys = ["observed_at", "observed_at_unix_seconds", "upstream_run_id", "source_artifact_sha256"]
+
+[enrich.articles]
+fields = ["metadata"]
+metadata_keys = ["observed_at", "observed_at_unix_seconds", "upstream_run_id", "source_artifact_sha256"]
+
+[enrich.audio]
+fields = ["metadata", "item_ids"]
+metadata_keys = ["upstream_run_id", "source_artifact_sha256", "observed_at"]

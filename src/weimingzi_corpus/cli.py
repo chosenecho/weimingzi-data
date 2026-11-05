@@ -130,6 +130,17 @@ def main(argv=None) -> int:
     )
     commands = parser.add_subparsers(dest="command", required=True)
     commands.add_parser("validate")
+    ingest = commands.add_parser("ingest", help="Verify, plan and apply incremental batches")
+    ingest_commands = ingest.add_subparsers(dest="ingest_command", required=True)
+    ingest_commands.add_parser("validate-repository")
+    verified = ingest_commands.add_parser("verify")
+    verified.add_argument("batch", type=Path)
+    planned = ingest_commands.add_parser("plan")
+    planned.add_argument("batch", type=Path)
+    planned.add_argument("--report", type=Path, required=True)
+    applied = ingest_commands.add_parser("apply")
+    applied.add_argument("batch", type=Path)
+    applied.add_argument("--plan", type=Path, required=True)
     generated = commands.add_parser("generate")
     generated.add_argument("--check", action="store_true")
     imported = commands.add_parser("import")
@@ -178,6 +189,66 @@ def main(argv=None) -> int:
     searched.add_argument("--limit", type=int, default=20)
     args = parser.parse_args(argv)
     root = args.root.resolve()
+    if args.command == "ingest":
+        from .ingest import (
+            IngestError,
+            apply_batch,
+            plan_batch,
+            validate_repository,
+            verify_batch,
+        )
+
+        try:
+            if args.ingest_command == "verify":
+                result = verify_batch(args.batch).summary()
+            elif args.ingest_command == "plan":
+                report = plan_batch(root, args.batch, args.report)
+                result = {
+                    key: value
+                    for key, value in report.items()
+                    if key not in ("input_files", "operations", "changes")
+                }
+                result.update(
+                    report=str(args.report.resolve()),
+                    changed_files=len(report["changes"]),
+                )
+            elif args.ingest_command == "apply":
+                result = apply_batch(root, args.batch, args.plan)
+            else:
+                result = {"status": "valid", **validate_repository(root)}
+            print(json.dumps(result, ensure_ascii=False, indent=2))
+            return result.get("exit_code", 0)
+        except IngestError as error:
+            print(json.dumps(error.as_dict(), ensure_ascii=False, indent=2), file=sys.stderr)
+            return error.exit_code
+        except OSError as error:
+            print(
+                json.dumps(
+                    {
+                        "status": "error",
+                        "code": "LOCAL_IO_ERROR",
+                        "message": str(error),
+                        "exit_code": 5,
+                    },
+                    ensure_ascii=False,
+                ),
+                file=sys.stderr,
+            )
+            return 5
+        except (ValueError, KeyError, TypeError, AttributeError, RecursionError) as error:
+            print(
+                json.dumps(
+                    {
+                        "status": "error",
+                        "code": "PACKAGE_INTEGRITY_FAILED",
+                        "message": str(error),
+                        "exit_code": 2,
+                    },
+                    ensure_ascii=False,
+                ),
+                file=sys.stderr,
+            )
+            return 2
     try:
         if args.command == "validate":
             result = validate_corpus(root)

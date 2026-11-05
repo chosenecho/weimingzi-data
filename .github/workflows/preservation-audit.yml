@@ -1,0 +1,59 @@
+name: Preservation audit
+
+on:
+  schedule:
+    - cron: '0 1 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: preservation-audit-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  fixity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+        with:
+          python-version: '3.12'
+      - name: Prepare audit receipt
+        shell: bash
+        run: |
+          mkdir -p .cache/preservation-audit
+          python -X utf8 - <<'PY'
+          import json, os
+          from datetime import datetime, timezone
+          from pathlib import Path
+          receipt = {
+              'schema': 'preservation-audit-run/v1',
+              'recorded_at': datetime.now(timezone.utc).isoformat(),
+              'repository': os.environ['GITHUB_REPOSITORY'],
+              'commit': os.environ['GITHUB_SHA'],
+              'ref': os.environ['GITHUB_REF'],
+              'event': os.environ['GITHUB_EVENT_NAME'],
+              'run_id': os.environ['GITHUB_RUN_ID'],
+              'run_attempt': os.environ['GITHUB_RUN_ATTEMPT'],
+          }
+          Path('.cache/preservation-audit/run.json').write_text(
+              json.dumps(receipt, ensure_ascii=False, indent=2) + '\n', encoding='utf-8'
+          )
+          PY
+      - name: Verify current baseline without modifying the log
+        run: python -X utf8 tools/preservation_manifest.py check-current --read-only > .cache/preservation-audit/fixity.json
+      - name: Verify event chain
+        if: always()
+        run: python -X utf8 tools/preservation_manifest.py verify-log > .cache/preservation-audit/event-chain.json
+      - name: Retain audit receipts
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: preservation-audit-${{ github.run_id }}-${{ github.run_attempt }}
+          path: .cache/preservation-audit/*.json
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 90

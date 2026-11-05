@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Proposed video/image metadata.media_assets observation v1",
+  "description": "Design contract for an immutable OSS locator. Validation is not a network or byte-integrity check. The proposed consumer must enforce storage aliases, immutable keys and trusted readback provenance.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["asset_version", "kind", "sha256", "size_bytes", "mime_type", "locator", "verification"],
+  "properties": {
+    "asset_version": {"const": 1, "type": "integer"},
+    "kind": {"enum": ["video", "image"]},
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "size_bytes": {"type": "integer", "minimum": 1},
+    "mime_type": {"type": "string", "pattern": "^(?:video|image)/[a-zA-Z0-9.+-]+$", "maxLength": 128},
+    "locator": {
+      "type": "object", "additionalProperties": false,
+      "required": ["storage", "bucket_alias", "object_key", "version_id", "access"],
+      "properties": {
+        "storage": {"const": "oss"},
+        "bucket_alias": {"type": "string", "pattern": "^[a-z][a-z0-9_-]{0,63}$"},
+        "object_key": {"type": "string", "maxLength": 200, "pattern": "^media/sha256/[0-9a-f]{64}(?:\\.[a-z0-9]{1,12})?$"},
+        "version_id": {"oneOf": [{"type": "string", "minLength": 1, "maxLength": 256}, {"type": "null"}]},
+        "access": {"enum": ["authenticated", "public"]}
+      }
+    },
+    "verification": {
+      "type": "object", "additionalProperties": false,
+      "required": ["mode", "verified_at", "producer_run_id"],
+      "properties": {
+        "mode": {"const": "readback_sha256"},
+        "verified_at": {"type": "string", "format": "date-time"},
+        "producer_run_id": {"type": "string", "minLength": 1, "maxLength": 128, "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"}
+      }
+    }
+  },
+  "allOf": [
+    {"if": {"properties": {"kind": {"const": "video"}}}, "then": {"properties": {"mime_type": {"pattern": "^video/"}}}},
+    {"if": {"properties": {"kind": {"const": "image"}}}, "then": {"properties": {"mime_type": {"pattern": "^image/"}}}}
+  ]
+}

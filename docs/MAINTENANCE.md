@@ -37,6 +37,15 @@ python -m unittest discover -s tests -v
 
 `generate` 重建 `docs/INDEX.md`、`docs/catalog/` 和 `docs/counts.json`。不要手改生成文件。CI 会检查这些文件是否与数据一致。
 
+## 增量批次
+
+跨表批次通过[增量入库入口](INCREMENTAL-INGEST.md)处理。它核对批次身份、文件哈希和来源范围，在候选库中检查引用及冲突，并保留接收凭证。
+
+    python tools/corpus.py ingest verify BATCH_DIRECTORY
+    python tools/corpus.py ingest validate-repository
+
+规划和应用需要 origin 指向目标仓库且工作区干净；具体命令、过期计划和中断处理见该入口。不要把交接包中的文件直接复制到维护数据目录。
+
 ## 导出与检索
 
 跨来源查稿见[分层文稿覆盖查询](COVERAGE.md)，可同时查看直接关联、显式引用、同音频和章节补充。

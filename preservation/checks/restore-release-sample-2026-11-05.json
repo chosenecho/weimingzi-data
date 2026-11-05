@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "kind": "live_release_sample_restore",
+  "recorded_at_utc": "2026-11-05T13:32:09+00:00",
+  "result": "passed",
+  "index": {
+    "path": "data/audio.jsonl",
+    "sha256": "a61922c60ca160807a743353d1cca54e8c19e7153a6f8441e18fb0296f796d5f",
+    "matched_prior_baseline": "preservation/manifests/baseline-2026-11-05-v8.json"
+  },
+  "implementation": {
+    "path": "tools/restore_audio.py",
+    "sha256": "56ac5b99aeeccfa31ad6029605fa2bccaaf08ae66fb81d927a4959a4c663d66a"
+  },
+  "archive": {
+    "key": "missing-local-asr-2026-11-03/missing-local-audio-2026-11-03.zip",
+    "name": "missing-local-audio-2026-11-03.zip",
+    "sha256": "15cc0cd5b699328c4edd6fbabb7f9852797ac6e6123fcce8cdc0bbf08b60a33c",
+    "size_bytes": 134967542,
+    "url": "https://github.com/chosenecho/weimingzi-data/releases/download/missing-local-asr-2026-11-03/missing-local-audio-2026-11-03.zip",
+    "observed_size_bytes": 134967542,
+    "observed_sha256": "15cc0cd5b699328c4edd6fbabb7f9852797ac6e6123fcce8cdc0bbf08b60a33c",
+    "cache_path": ".cache/media/missing-local-asr-2026-11-03/missing-local-audio-2026-11-03.zip",
+    "cache_preexisted_before_restore": false,
+    "result": "passed"
+  },
+  "scope": {
+    "selection": "smallest release archive by indexed byte size",
+    "checked_archives": 1,
+    "indexed_available_archives": 13,
+    "checked_audio_files": 6,
+    "indexed_available_audio_files": 680,
+    "checked_audio_bytes": 134966536,
+    "live_release_archive_verified": true,
+    "full_available_corpus_verified": false,
+    "independent_copy_verified": false
+  },
+  "commands": [
+    {
+      "command": "python -X utf8 tools/restore_audio.py --archive missing-local-asr-2026-11-03/missing-local-audio-2026-11-03.zip",
+      "exit_code": 0,
+      "stdout": "Verified 6 / 6 audio files"
+    },
+    {
+      "command": "python -X utf8 tools/restore_audio.py --archive missing-local-asr-2026-11-03/missing-local-audio-2026-11-03.zip --verify-only",
+      "exit_code": 0,
+      "result": {
+        "checked": 6,
+        "missing_or_invalid": []
+      }
+    }
+  ],
+  "readback": {
+    "archive_bytes_and_sha256": "passed",
+    "zip_member_names_count_and_sizes": "passed",
+    "zip_member_sha256": "passed",
+    "restored_bytes_and_sha256": "passed"
+  },
+  "files": [
+    {
+      "record_id": "m-00b7b0e1c15bca7af3ce7e2981d8b632d1a9aede3fee7b919c1de1933d433f0a",
+      "local_path": "media/audio/00b7b0e1c15bca7af3ce7e2981d8b632d1a9aede3fee7b919c1de1933d433f0a.m4a",
+      "size_bytes": 8675924,
+      "sha256": "00b7b0e1c15bca7af3ce7e2981d8b632d1a9aede3fee7b919c1de1933d433f0a",
+      "member_path": "视频/BV14Qbk6zEis/P001/音频/bilibili.m4a",
+      "observed_member_sha256": "00b7b0e1c15bca7af3ce7e2981d8b632d1a9aede3fee7b919c1de1933d433f0a",
+      "observed_restored_sha256": "00b7b0e1c15bca7af3ce7e2981d8b632d1a9aede3fee7b919c1de1933d433f0a",
+      "observed_restored_size_bytes": 8675924,
+      "result": "passed"
+    },
+    {
+      "record_id": "m-8dc31f8286e0168870bae6d51aabca714abe4685e65d7c4eacbbef3ad8aa8b05",
+      "local_path": "media/audio/8dc31f8286e0168870bae6d51aabca714abe4685e65d7c4eacbbef3ad8aa8b05.m4a",
+      "size_bytes": 1899750,
+      "sha256": "8dc31f8286e0168870bae6d51aabca714abe4685e65d7c4eacbbef3ad8aa8b05",
+      "member_path": "视频/BV15mu46tEyf/P001/音频/bilibili.m4a",
+      "observed_member_sha256": "8dc31f8286e0168870bae6d51aabca714abe4685e65d7c4eacbbef3ad8aa8b05",
+      "observed_restored_sha256": "8dc31f8286e0168870bae6d51aabca714abe4685e65d7c4eacbbef3ad8aa8b05",
+      "observed_restored_size_bytes": 1899750,
+      "result": "passed"
+    },
+    {
+      "record_id": "m-6b861f1f2e23a761ae09b8aad45f87c4cbf7b160aec20a03e252def35ac51118",
+      "local_path": "media/audio/6b861f1f2e23a761ae09b8aad45f87c4cbf7b160aec20a03e252def35ac51118.m4a",
+      "size_bytes": 60556941,
+      "sha256": "6b861f1f2e23a761ae09b8aad45f87c4cbf7b160aec20a03e252def35ac51118",
+      "member_path": "视频/BV1F7t16iEW6/P001/音频/bilibili.m4a",
+      "observed_member_sha256": "6b861f1f2e23a761ae09b8aad45f87c4cbf7b160aec20a03e252def35ac51118",
+      "observed_restored_sha256": "6b861f1f2e23a761ae09b8aad45f87c4cbf7b160aec20a03e252def35ac51118",
+      "observed_restored_size_bytes": 60556941,
+      "result": "passed"
+    },
+    {
+      "record_id": "m-971a80f5c87c61e8afdeeb5b0e6190fd3421d72465e60c07f16a0ef6afc5a890",
+      "local_path": "media/audio/971a80f5c87c61e8afdeeb5b0e6190fd3421d72465e60c07f16a0ef6afc5a890.m4a",
+      "size_bytes": 51033430,
+      "sha256": "971a80f5c87c61e8afdeeb5b0e6190fd3421d72465e60c07f16a0ef6afc5a890",
+      "member_path": "视频/BV1F7t16iEW6/P002/音频/bilibili.m4a",
+      "observed_member_sha256": "971a80f5c87c61e8afdeeb5b0e6190fd3421d72465e60c07f16a0ef6afc5a890",
+      "observed_restored_sha256": "971a80f5c87c61e8afdeeb5b0e6190fd3421d72465e60c07f16a0ef6afc5a890",
+      "observed_restored_size_bytes": 51033430,
+      "result": "passed"
+    },
+    {
+      "record_id": "m-374e418b85bc241ec33396a7c3adb1d8440c406ea0335347a2586d37eca9c5d8",
+      "local_path": "media/audio/374e418b85bc241ec33396a7c3adb1d8440c406ea0335347a2586d37eca9c5d8.m4a",
+      "size_bytes": 12127956,
+      "sha256": "374e418b85bc241ec33396a7c3adb1d8440c406ea0335347a2586d37eca9c5d8",
+      "member_path": "视频/BV1macKzUEmV/P001/音频/bilibili.m4a",
+      "observed_member_sha256": "374e418b85bc241ec33396a7c3adb1d8440c406ea0335347a2586d37eca9c5d8",
+      "observed_restored_sha256": "374e418b85bc241ec33396a7c3adb1d8440c406ea0335347a2586d37eca9c5d8",
+      "observed_restored_size_bytes": 12127956,
+      "result": "passed"
+    },
+    {
+      "record_id": "m-bbd696a8948744ad6ed766ad5df0d43f45eab89296ada9f8c55b078cc10cf5c3",
+      "local_path": "media/audio/bbd696a8948744ad6ed766ad5df0d43f45eab89296ada9f8c55b078cc10cf5c3.m4a",
+      "size_bytes": 672535,
+      "sha256": "bbd696a8948744ad6ed766ad5df0d43f45eab89296ada9f8c55b078cc10cf5c3",
+      "member_path": "视频/BV1wj411m7GK/P001/音频/bilibili.m4a",
+      "observed_member_sha256": "bbd696a8948744ad6ed766ad5df0d43f45eab89296ada9f8c55b078cc10cf5c3",
+      "observed_restored_sha256": "bbd696a8948744ad6ed766ad5df0d43f45eab89296ada9f8c55b078cc10cf5c3",
+      "observed_restored_size_bytes": 672535,
+      "result": "passed"
+    }
+  ],
+  "limitations": [
+    "One archive is a bounded sample, not validation of all release archives or all source audio.",
+    "This is a local restore from the configured release URL; no independent preservation copy was established.",
+    "Hash agreement does not establish content truth, rights, perceptual audio quality, or future availability."
+  ]
+}

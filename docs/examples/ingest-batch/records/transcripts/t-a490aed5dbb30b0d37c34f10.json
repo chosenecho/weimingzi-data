@@ -1,0 +1,37 @@
+{
+  "schema_version": 2,
+  "id": "t-a490aed5dbb30b0d37c34f10",
+  "kind": "transcript",
+  "item_id": "i-783d0e4a20ebf2c957bb5557",
+  "method": "asr_local",
+  "model": {
+    "name": "synthetic-fixture",
+    "revision": "not-a-real-model"
+  },
+  "language": "zh",
+  "time_unit": "ms",
+  "text": "这是合成的接口示例。",
+  "segments": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 1000,
+      "text": "这是合成的接口示例。"
+    }
+  ],
+  "audio_ids": [
+    "m-d380123b4a48021487b43fe7"
+  ],
+  "metadata": {
+    "synthetic_fixture": [
+      true
+    ]
+  },
+  "quality": {
+    "is_fully_human_reviewed": false,
+    "requires_review": true,
+    "is_subtitle_export_enabled": true,
+    "timing_issues": []
+  },
+  "content_sha256": "cae475f6634130065f75a9773ff92da98d77949548efd9c0eff24ff597b20759"
+}

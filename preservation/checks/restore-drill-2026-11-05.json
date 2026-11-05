@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "recorded_on": "2026-11-05",
+  "kind": "synthetic_local_restore_drill",
+  "command": "python -m unittest tests.test_restore_audio -v",
+  "result": "passed",
+  "test_methods_passed": 9,
+  "fixture": {
+    "payload_description": "synthetic bytes: verified audio bytes",
+    "size_bytes": 20,
+    "sha256": "b64cb4ba937b6b934ce794812675a07e2b1973f3bac7e2a1b227bb37c05598ad",
+    "restored_path": "media/audio/sample.m4a"
+  },
+  "checks": [
+    "ZIP member names and set",
+    "member byte size",
+    "restored file SHA-256",
+    "hash-addressed destination",
+    "bad input does not create a restored file",
+    "bad hash does not replace an existing file",
+    "already valid file is reused",
+    "unavailable audio is skipped"
+  ],
+  "isolation": {
+    "temporary_directory": true,
+    "network_access": false,
+    "canonical_data_modified": false,
+    "live_release_archive_verified": false
+  },
+  "limitation": "This validates the local restore path with a synthetic fixture; it does not verify remote archive availability or recovery of real corpus audio."
+}
