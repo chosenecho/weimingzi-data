@@ -7,6 +7,7 @@
 - [名词与概念](docs/GLOSSARY.md)
 - [数据结构](docs/SCHEMA.md)
 - [维护与入库](docs/MAINTENANCE.md)
+- [代理使用指南](docs/AGENT-GUIDE.md)
 - [音频下载](docs/DOWNLOAD.md)
 - [数据质量与使用限制](docs/DATA-CARD.md)
 - [许可证与适用范围](LICENSE)
@@ -55,6 +56,8 @@ python -m unittest discover -s tests -v
 python tools/corpus.py export --format sqlite --output .cache/exports/corpus.sqlite3
 python tools/corpus.py search 唯物主义
 ```
+
+SQLite 是从归档记录生成的本地检索副本，不替代 JSON/JSONL 维护数据。检索结果用于定位正文；校对标注、附注等内容请按[维护说明](docs/MAINTENANCE.md)查询。代理操作本仓库前请先阅读[代理使用指南](docs/AGENT-GUIDE.md)。
 
 入库格式、记录 ID 和其他导出方式见 [维护说明](docs/MAINTENANCE.md)。
 
