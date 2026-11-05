@@ -9,17 +9,19 @@
 | 权利与使用 | 许可边界、限制与处理入口明确 | 权利说明、问题模板 | 规则具备 |
 | 入库与修订 | 哈希核对、冲突保留、接收回读 | 入库实现、回归测试 | 本地已实现 |
 | 文件完整性 | 版本化清单、差异检查、失败留痕 | 基线、事件链、校验工具 | 本地已实现 |
-| 版本留存 | 获准改动与校验记录进入版本历史 | Git 历史、发布记录 | 已合并；发布待完成 |
+| 版本留存 | 获准改动与校验记录进入版本历史 | Git 历史、发布及回读记录 | 已合并并发布 |
 | 检索与引用 | 派生索引可重建、命中可回到原记录 | 代理指南、导出与检索 | 本地已实现 |
-| 自动检查 | 全量检查及只读基线检查通过 | CI 配置、远端验收记录 | 首轮远端通过 |
+| 自动检查 | 全量检查及只读基线检查通过 | CI 配置、远端验收记录 | 本轮远端通过 |
 | 定期运行 | 默认分支周期执行、失败处置 | 周期工作流、运行报告 | 手动通过；首次计划待验收 |
-| 恢复能力 | 从保存字节恢复并核对哈希，记录抽样范围 | 恢复工具、演练证据 | 合成及真实单卷抽样通过 |
+| 恢复能力 | 恢复字节、核对哈希并记录范围 | 恢复工具、逐项报告 | 当前可恢复音频全量通过 |
 | 独立副本 | 独立故障域、权限明确、逐项回读 | 副本清单、回读记录 | 暂缓 |
 | 维护交接 | 责任人、访问恢复、保留与退出流程 | 运行说明、接收记录 | 说明具备；人员待确定 |
 
 权利规则的存在不表示归档内容已获得统一再发布许可。来源字段、校对标注与模型结果的含义按记录本身及[内容权利说明](../CONTENT-RIGHTS.md)、[数据卡](DATA-CARD.md)解释。
 
-首轮 Linux、Windows 和完整语料检查，以及合并后周期工作流的手动执行与报告回读，见[远端验收记录](../preservation/checks/remote-validation-2026-11-05.json)。记录只适用于其中的提交与基线；后续提交仍需运行 CI。真实恢复记录覆盖 2026-11-05 索引中 13 个分卷的 1 个、680 个音频的 6 个，不能扩大解释为全库或独立副本恢复通过。
+Linux、Windows 和完整语料检查、合并后周期工作流的手动执行及报告回读，见[远端验收记录](../preservation/checks/remote-validation-2026-11-05-v2.json)。记录只适用于其中的提交与基线；后续提交仍需运行 CI。
+
+[真实全量报告](../preservation/checks/restore-full-2026-11-05.json)覆盖当时索引中有恢复定位的 13 个分卷、680 个音频，共 12,189,678,232 字节。归档、ZIP 成员和恢复文件哈希全部匹配。它不涵盖缺少恢复定位的音频，也不构成独立副本恢复通过。
 
 ## 证据入口
 
@@ -32,7 +34,8 @@
 - 问题处理：[问题入口](../.github/ISSUE_TEMPLATE/archive-problem.yml)。
 - 数据反馈：[修订入口](../.github/ISSUE_TEMPLATE/data-correction.yml)。
 - 自动检查：[CI 配置](../.github/workflows/checks.yml)、[完整性工具](../tools/preservation_manifest.py)。
-- 周期运行：[审计工作流](../.github/workflows/preservation-audit.yml)、[运行与交接](PRESERVATION-OPERATIONS.md)、[Windows 周检脚本](../tools/preservation_check.ps1)。
+- 周期运行：[审计工作流](../.github/workflows/preservation-audit.yml)。
+- 运行交接：[操作说明](PRESERVATION-OPERATIONS.md)、[Windows 周检脚本](../tools/preservation_check.ps1)。
 - 脚本验收：[失败路径测试](../tests/test_preservation_check.py)。
 - 恢复操作：[下载说明](DOWNLOAD.md)、[恢复工具](../tools/restore_audio.py)。
 - 恢复验收：[恢复测试](../tests/test_restore_audio.py)。
@@ -40,6 +43,8 @@
 - 真实抽样：[单卷恢复记录](../preservation/checks/restore-release-sample-2026-11-05.json)。
 - 本地中断：[未完成的全量尝试](../preservation/checks/restore-local-interrupted-2026-11-05.json)。
 - 全量回读：[媒体审计工具](../tools/audit_audio_restore.py)、[远端工作流](../.github/workflows/media-restore-audit.yml)。
+- 全量结果：[逐项恢复报告](../preservation/checks/restore-full-2026-11-05.json)。
+- 发布验收：[标签及附件回读记录](../preservation/checks/release-2026-11-05.json)。
 
 ## 本地验收
 
@@ -61,7 +66,7 @@ Windows 脚本测试使用临时仓库，检查成功、资料变化、缺失基
 
 持续保存服务验收前，需要保留周期工作流的手动验收及实际计划触发记录，并确定处理失败的责任人。工作流每次检出默认分支，不依赖当前隔离工作树；手动通过不能替代首次计划触发证据。
 
-真实媒体的验收需要实际读取归档字节，核对归档、成员和恢复结果的哈希。当前仅完成单卷抽样，全库验收还需覆盖其余分卷并保留逐项记录。第二保存副本按当前决定暂缓；该门槛不纳入已完成项。
+真实媒体已实际读取当前有恢复定位的全部分卷，并核对归档、成员和恢复结果的哈希。今后索引增加或修订时仍需重新验收。第二保存副本按当前决定暂缓；该门槛不纳入已完成项。
 
 维护交接的保存范围、凭据处理、保留与删除规则及退出流程见[运行说明](PRESERVATION-OPERATIONS.md)。责任人及替补、访问恢复和接收记录仍需确定。凭据值不进入仓库，交接记录只保存权限与恢复入口。
 
