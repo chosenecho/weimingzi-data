@@ -1,0 +1,39 @@
+name: Media restore audit
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - '.github/workflows/media-restore-audit.yml'
+      - 'tools/audit_audio_restore.py'
+      - 'tools/restore_audio.py'
+      - 'tests/test_audio_restore_audit.py'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: media-restore-audit-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+        with:
+          python-version: '3.12'
+      - name: Check audit failure handling
+        run: python -X utf8 -m unittest discover -s tests -p test_audio_restore_audit.py -v
+      - name: Restore and verify every indexed available archive
+        run: python -X utf8 tools/audit_audio_restore.py --temporary-media --workers 1 --output preservation/checks/media-run-${{ github.run_id }}-${{ github.run_attempt }}/report.json
+      - name: Retain full and partial audit reports
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: media-restore-audit-${{ github.run_id }}-${{ github.run_attempt }}
+          path: preservation/checks/media-run-${{ github.run_id }}-${{ github.run_attempt }}/
+          if-no-files-found: error
+          retention-days: 90

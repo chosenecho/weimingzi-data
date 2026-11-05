@@ -1,0 +1,401 @@
+{
+  "schema": "remote-validation/v1",
+  "observed_at": "2026-11-05T15:05:00.986431+00:00",
+  "ci": {
+    "conclusion": "success",
+    "databaseId": 42049032329,
+    "event": "pull_request",
+    "headSha": "0288df755d64b4a72559f7ec62812d2d48090dbd",
+    "jobs": [
+      {
+        "completedAt": "2026-11-05T14:53:26Z",
+        "conclusion": "success",
+        "databaseId": 127319788328,
+        "name": "tools (windows-latest)",
+        "startedAt": "2026-11-05T14:51:15Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-05T14:51:18Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-05T14:51:16Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:51:26Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+            "number": 2,
+            "startedAt": "2026-11-05T14:51:18Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:51:26Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+            "number": 3,
+            "startedAt": "2026-11-05T14:51:26Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:53:21Z",
+            "conclusion": "success",
+            "name": "Run python -X utf8 -m unittest discover -s tests -v",
+            "number": 4,
+            "startedAt": "2026-11-05T14:51:26Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:53:21Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+            "number": 7,
+            "startedAt": "2026-11-05T14:53:21Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:53:24Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+            "number": 8,
+            "startedAt": "2026-11-05T14:53:21Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:53:24Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 9,
+            "startedAt": "2026-11-05T14:53:24Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/chosenecho/weimingzi-data/actions/runs/42049032329/job/127319788328"
+      },
+      {
+        "completedAt": "2026-11-05T14:51:33Z",
+        "conclusion": "success",
+        "databaseId": 127319788692,
+        "name": "tools (ubuntu-latest)",
+        "startedAt": "2026-11-05T14:51:14Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-05T14:51:15Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-05T14:51:14Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:51:17Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+            "number": 2,
+            "startedAt": "2026-11-05T14:51:15Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:51:17Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+            "number": 3,
+            "startedAt": "2026-11-05T14:51:17Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:51:30Z",
+            "conclusion": "success",
+            "name": "Run python -X utf8 -m unittest discover -s tests -v",
+            "number": 4,
+            "startedAt": "2026-11-05T14:51:17Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:51:30Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+            "number": 7,
+            "startedAt": "2026-11-05T14:51:30Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:51:31Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+            "number": 8,
+            "startedAt": "2026-11-05T14:51:30Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:51:31Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 9,
+            "startedAt": "2026-11-05T14:51:31Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/chosenecho/weimingzi-data/actions/runs/42049032329/job/127319788692"
+      },
+      {
+        "completedAt": "2026-11-05T14:53:29Z",
+        "conclusion": "success",
+        "databaseId": 127319788706,
+        "name": "corpus",
+        "startedAt": "2026-11-05T14:51:14Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-05T14:51:16Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-05T14:51:15Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:52:27Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+            "number": 2,
+            "startedAt": "2026-11-05T14:51:16Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:52:27Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+            "number": 3,
+            "startedAt": "2026-11-05T14:52:27Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:53:07Z",
+            "conclusion": "success",
+            "name": "Run python -X utf8 tools/check_repository.py",
+            "number": 4,
+            "startedAt": "2026-11-05T14:52:27Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:53:24Z",
+            "conclusion": "success",
+            "name": "Run python -X utf8 -m unittest discover -s tests -p test_coverage.py -v",
+            "number": 5,
+            "startedAt": "2026-11-05T14:53:07Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:53:24Z",
+            "conclusion": "success",
+            "name": "Run python -X utf8 -m unittest discover -s tests -p test_local_revision.py -v",
+            "number": 6,
+            "startedAt": "2026-11-05T14:53:24Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:53:27Z",
+            "conclusion": "success",
+            "name": "Run python -X utf8 tools/preservation_manifest.py check-current --read-only",
+            "number": 7,
+            "startedAt": "2026-11-05T14:53:24Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:53:27Z",
+            "conclusion": "success",
+            "name": "Run python -X utf8 tools/preservation_manifest.py verify-log",
+            "number": 8,
+            "startedAt": "2026-11-05T14:53:27Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:53:27Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+            "number": 15,
+            "startedAt": "2026-11-05T14:53:27Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:53:27Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+            "number": 16,
+            "startedAt": "2026-11-05T14:53:27Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:53:27Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 17,
+            "startedAt": "2026-11-05T14:53:27Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/chosenecho/weimingzi-data/actions/runs/42049032329/job/127319788706"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/chosenecho/weimingzi-data/actions/runs/42049032329"
+  },
+  "periodic_workflow_manual_run": {
+    "conclusion": "success",
+    "databaseId": 42049723019,
+    "event": "workflow_dispatch",
+    "headSha": "fb2fb1677ed408a4860105ad28438bd5ef3a2a0b",
+    "jobs": [
+      {
+        "completedAt": "2026-11-05T14:56:40Z",
+        "conclusion": "success",
+        "databaseId": 127322251417,
+        "name": "fixity",
+        "startedAt": "2026-11-05T14:55:28Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-11-05T14:55:30Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-11-05T14:55:28Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:56:34Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+            "number": 2,
+            "startedAt": "2026-11-05T14:55:30Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:56:34Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+            "number": 3,
+            "startedAt": "2026-11-05T14:56:34Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:56:35Z",
+            "conclusion": "success",
+            "name": "Prepare audit receipt",
+            "number": 4,
+            "startedAt": "2026-11-05T14:56:34Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:56:36Z",
+            "conclusion": "success",
+            "name": "Verify current baseline without modifying the log",
+            "number": 5,
+            "startedAt": "2026-11-05T14:56:35Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:56:36Z",
+            "conclusion": "success",
+            "name": "Verify event chain",
+            "number": 6,
+            "startedAt": "2026-11-05T14:56:36Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:56:38Z",
+            "conclusion": "success",
+            "name": "Retain audit receipts",
+            "number": 7,
+            "startedAt": "2026-11-05T14:56:36Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:56:38Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0",
+            "number": 13,
+            "startedAt": "2026-11-05T14:56:38Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:56:38Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+            "number": 14,
+            "startedAt": "2026-11-05T14:56:38Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-11-05T14:56:38Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 15,
+            "startedAt": "2026-11-05T14:56:38Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/chosenecho/weimingzi-data/actions/runs/42049723019/job/127322251417"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/chosenecho/weimingzi-data/actions/runs/42049723019"
+  },
+  "artifact_metadata": [
+    {
+      "id": 13427150118,
+      "name": "preservation-audit-42049723019-1",
+      "size_in_bytes": 909,
+      "digest": "sha256:96da0e3ebfb930327778f0e24d249ea8773bc13cdacbc7a55a5f76583cb8dc8f",
+      "created_at": "2026-11-05T14:56:37Z",
+      "expires_at": "2027-02-03T14:55:26Z",
+      "expired": false
+    }
+  ],
+  "retrieved_reports": {
+    "event-chain.json": {
+      "size_bytes": 180,
+      "sha256": "809d29b4c0b7b1eb80860c416fde370a148054f14e39a271a98bfb145c4cb4f8",
+      "payload": {
+        "event_log": "preservation/checks/fixity.jsonl",
+        "event_count": 10,
+        "last_event_sha256": "4939ed4605d2e3453b755220e9051ea76768547908284048627cf03997208c34",
+        "ok": true
+      }
+    },
+    "fixity.json": {
+      "size_bytes": 271,
+      "sha256": "3a0db8b892803c684660cbe9670469b8fd6f998432dff753fe78ff91af3b0e86",
+      "payload": {
+        "manifest": "preservation/manifests/baseline-2026-11-05-v10.json",
+        "manifest_sha256": "765a14fbae3e7b6c844fe9089698ea4dc235f338af928f3d48a2de69d334fb4c",
+        "verified_file_count": 8719,
+        "added": [],
+        "missing": [],
+        "changed": [],
+        "errors": [],
+        "ok": true
+      }
+    },
+    "run.json": {
+      "size_bytes": 307,
+      "sha256": "1f07addad903b6463ae5f17814ace8dccaa0c5eca8d0a2719379fd759d5b3541",
+      "payload": {
+        "schema": "preservation-audit-run/v1",
+        "recorded_at": "2026-11-05T14:56:35.043984+00:00",
+        "repository": "chosenecho/weimingzi-data",
+        "commit": "fb2fb1677ed408a4860105ad28438bd5ef3a2a0b",
+        "ref": "refs/heads/main",
+        "event": "workflow_dispatch",
+        "run_id": "42049723019",
+        "run_attempt": "1"
+      }
+    }
+  },
+  "ok": true,
+  "boundary": "Manual workflow execution and downloaded report read-back only. First scheduled trigger, future runs, media bytes and independent-copy recovery are separate acceptance items."
+}
