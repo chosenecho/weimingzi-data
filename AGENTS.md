@@ -1,0 +1,7 @@
+# 仓库代理说明
+
+开始工作前阅读 [代理使用指南](docs/AGENT-GUIDE.md) 和与当前任务相关的说明文件。该指南说明本项目的职责边界、检索方式、证据回查和数据修改流程。
+
+本仓库用于归档和保存资料。不要把归档记录、模型结果、校对标注或检索命中改写为项目对内容真实性、完整性或权利状态的判断。维护数据以 `data/` 下的 JSON、JSONL 及 `selections/` 中记录为准；SQLite 和生成目录均为派生结果。
+
+修改数据前先检查 `git status --short` 并保留已有改动。不要直接编辑 `docs/INDEX.md`、`docs/catalog/` 或 `docs/counts.json`；使用 `python tools/corpus.py generate` 生成。完成数据或工具修改后，按代理指南运行适用的校验。
