@@ -122,6 +122,9 @@ SUPPORT_FILES = (
     "preservation/checks/restore-release-sample-2026-11-05.json",
     "preservation/checks/restore-local-interrupted-2026-11-05.json",
     "preservation/checks/remote-validation-2026-11-05.json",
+    "preservation/checks/remote-validation-2026-11-05-v2.json",
+    "preservation/checks/restore-full-2026-11-05.json",
+    "preservation/checks/release-2026-11-05.json",
 )
 SHA256_PATTERN = re.compile(r"^[0-9a-f]{64}$")
 BASELINE_NAME_PATTERN = re.compile(
