@@ -1,0 +1,59 @@
+{
+  "schema": "audio-restore-interrupted/v1",
+  "observed_at": "2026-11-05T15:02:39.235921+00:00",
+  "status": "interrupted",
+  "reason": "No archive body progress observed on local download attempts; switch to isolated GitHub runner. This is not a finding of source unavailability.",
+  "audit_tool": {
+    "size_bytes": 5856,
+    "sha256": "2c79ec962d0134dbeb9846aa598c07fd30b2449cd1315756b7d6b6be94870ac8"
+  },
+  "restore_tool": {
+    "size_bytes": 8333,
+    "sha256": "56ac5b99aeeccfa31ad6029605fa2bccaaf08ae66fb81d927a4959a4c663d66a"
+  },
+  "index": {
+    "size_bytes": 1073315,
+    "sha256": "a61922c60ca160807a743353d1cca54e8c19e7153a6f8441e18fb0296f796d5f"
+  },
+  "progress_events": [
+    {
+      "archive": "snapshot-2026-11-03/audio-003.zip",
+      "ok": false,
+      "completed": 1,
+      "total": 13
+    },
+    {
+      "archive": "missing-local-asr-2026-11-03/missing-local-audio-2026-11-03.zip",
+      "ok": true,
+      "completed": 2,
+      "total": 13
+    }
+  ],
+  "cache_observation": [
+    {
+      "path": ".cache/media/missing-local-asr-2026-11-03/missing-local-audio-2026-11-03.zip",
+      "size_bytes": 134967542
+    },
+    {
+      "path": ".cache/media/snapshot-2026-11-03/audio-001.zip.part",
+      "size_bytes": 20971520
+    },
+    {
+      "path": ".cache/media/snapshot-2026-11-03/audio-003.zip",
+      "size_bytes": 12815436
+    },
+    {
+      "path": ".cache/media/snapshot-2026-11-03/audio-006.zip.part",
+      "size_bytes": 96468992
+    },
+    {
+      "path": ".cache/media/snapshot-2026-11-03/audio-009.zip.part",
+      "size_bytes": 515899392
+    },
+    {
+      "path": ".cache/media/snapshot-2026-11-03/audio-011.zip.part",
+      "size_bytes": 348127232
+    }
+  ],
+  "boundary": "Progress events are incomplete; an ok=false event without a completed report does not establish the failure cause. Existing successful sample remains separately documented."
+}
