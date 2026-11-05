@@ -1901,7 +1901,7 @@
 
 仅元数据
 
-- 2021-12-14_00-20-29：[本地语音转录（Qwen3-ASR-1.7B-hf）:42da540e](../../data/transcripts/t-42da540e9a38fd97f0a2b01a.json) · [平台 AI 字幕:a36636b5](../../data/transcripts/t-a36636b51b60d3ed5e53e045.json)
+- 2021-12-14_00-20-29：[整理稿（deepseek-v4.1-flash）:c4f6ca74](../../data/edited_transcripts/r-c4f6ca743a51bec6628c460f.json)（输入：`d8eae885`） · [本地语音转录（Qwen3-ASR-1.7B-hf）:42da540e](../../data/transcripts/t-42da540e9a38fd97f0a2b01a.json) · [平台 AI 字幕:a36636b5](../../data/transcripts/t-a36636b51b60d3ed5e53e045.json) · [本地语音转录:d8eae885](../../data/transcripts/t-d8eae8858fb23342d26132bf.json)
 
 <a id="i-f8e4b7c8497e2a048ae52c63"></a>
 
@@ -2038,7 +2038,7 @@
 仅元数据
 
 - 2021-07-27_00-35-06：[整理稿（deepseek-flash）:3dd2af3c](../../data/edited_transcripts/r-3dd2af3cb9bf5fcc38f95caf.json)（输入：`f87ba197`） · [平台 AI 字幕:0e80e998](../../data/transcripts/t-0e80e9989a8827ed4f481269.json) · [本地语音转录（Qwen3-ASR-1.7B-hf）:f87ba197](../../data/transcripts/t-f87ba197d7b776c27aa62a58.json)
-- 2021-07-26_22-52-27：[本地语音转录（Qwen3-ASR-1.7B-hf）:79e1eb0e](../../data/transcripts/t-79e1eb0ea7c54df6013b144c.json)
+- 2021-07-26_22-52-27：[本地语音转录（Qwen3-ASR-1.7B-hf）:79e1eb0e](../../data/transcripts/t-79e1eb0ea7c54df6013b144c.json)；用户确认无声；有声重录版 P1 的文稿（相关覆盖）：[整理稿（deepseek-flash）:3dd2af3c](../../data/edited_transcripts/r-3dd2af3cb9bf5fcc38f95caf.json)（输入：`f87ba197`） · [平台 AI 字幕:0e80e998](../../data/transcripts/t-0e80e9989a8827ed4f481269.json) · [本地语音转录（Qwen3-ASR-1.7B-hf）:f87ba197](../../data/transcripts/t-f87ba197d7b776c27aa62a58.json)
 
 <a id="i-3cc1eefb3b954729cf92c000"></a>
 
@@ -6032,7 +6032,7 @@
 
 仅元数据
 
-- 2022-02-14_23-34-24：[本地语音转录（Qwen3-ASR-1.7B-hf）:3aa202d0](../../data/transcripts/t-3aa202d0cf2e4de90e39de81.json) · [平台 AI 字幕:6f8eef1a](../../data/transcripts/t-6f8eef1af52d9516c3fe863c.json)
+- 2022-02-14_23-34-24：[整理稿（deepseek-v4.1-flash）:e218b0a4](../../data/edited_transcripts/r-e218b0a4f4d57ebb0ca1ee8c.json)（输入：`bf786aa3`） · [本地语音转录（Qwen3-ASR-1.7B-hf）:3aa202d0](../../data/transcripts/t-3aa202d0cf2e4de90e39de81.json) · [平台 AI 字幕:6f8eef1a](../../data/transcripts/t-6f8eef1af52d9516c3fe863c.json) · [本地语音转录:bf786aa3](../../data/transcripts/t-bf786aa39b8c16cf879cb006.json)
 
 <a id="i-33d3eaa798e2e3042fc44338"></a>
 
@@ -11460,7 +11460,7 @@
 
 仅元数据
 
-- 【工益公益】工益小组不是政治组织，重要的不是加入小组，而是践行社会主义：[整理稿（deepseek-v4.1-flash）:a2637d3d](../../data/edited_transcripts/r-a2637d3db4784162ccfd1245.json)（输入：`3e7e6612`） · [平台 AI 字幕:21876553](../../data/transcripts/t-21876553f63d294a5a66ae8a.json) · [本地语音转录（Qwen3-ASR-1.7B-hf）:3e7e6612](../../data/transcripts/t-3e7e6612744243e2194ce4ea.json)
+- 【工益公益】工益小组不是政治组织，重要的不是加入小组，而是践行社会主义：[整理稿（deepseek-v4.1-flash）:97fac763](../../data/edited_transcripts/r-97fac763234451df943669a2.json)（输入：`3e7e6612`） · [整理稿（deepseek-v4.1-flash）:a2637d3d](../../data/edited_transcripts/r-a2637d3db4784162ccfd1245.json)（输入：`3e7e6612`） · [平台 AI 字幕:21876553](../../data/transcripts/t-21876553f63d294a5a66ae8a.json) · [本地语音转录（Qwen3-ASR-1.7B-hf）:3e7e6612](../../data/transcripts/t-3e7e6612744243e2194ce4ea.json)
 
 <a id="i-a84a1be6149b95eb0c60eba9"></a>
 
