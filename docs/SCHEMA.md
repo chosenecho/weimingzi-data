@@ -114,9 +114,23 @@ anchor 使用 original_text、original_text_sha256、input_unit_label。term_glo
 
 confirmation 包含 excerpt、resolution、reviewer_label、reviewed_on、review_timezone 和已有听音事实。reviewer_label 是原记录中的角色说明，不推断真实身份。reviewed_on 保留日期，review_timezone 明确为 Asia/Hong_Kong。
 
-selections/training.json 保存 schema_version、name、confirmation_scope、entries。每个 entry 仅含 item_id、edited_transcript_id、confirmation_ids 引用。confirmation_scope=partial_text_only 说明现有确认仅限局部。
+selections/training.json 保存 schema_version、name、confirmation_scope、entries。每个 entry 含 item_id、edited_transcript_id、confirmation_ids，可选 attribution_ids。confirmation_scope=partial_text_only 说明现有确认仅限局部。
 
-选入 training 不改变 quality.is_fully_human_reviewed，也不授予第三方内容使用权。确认必须属于对应条目、适用于所选整理稿，并能定位到原文或修订文字。
+选入 training 不改变 quality.is_fully_human_reviewed，也不授予第三方内容使用权。确认必须属于对应条目、适用于所选整理稿，并能定位到原文或修订文字。attribution_ids 只能引用同一条目、同一整理稿的片段归属记录；confirmation_ids 与 attribution_ids 不能互相代替。
+
+## 片段说话人与观点归属
+
+data/attributions.jsonl 保存人工确认的片段归属，kind=segment_attribution，ID 前缀 s-。每条记录用 item_id、edited_transcript_id 指向一个条目和一份整理稿。
+
+anchor 保存 paragraph_index（零起）、paragraph_text_sha256、excerpt、start、end、time_unit。paragraph_text_sha256 是该段 text 的 UTF-8 SHA-256；excerpt 为 null 表示整段，否则须是段内原文子串。start、end、time_unit 与该段及整理稿一致，供回查时间位置。段落文字改动后哈希不再匹配，校验失败，须重新审核后另建记录。
+
+speaker_role 取 primary_speaker、other_speaker、unknown。primary_speaker 指审核者认定的本条主讲人，不由上传者、标题或识别说话人标签推断。
+
+viewpoint 取 own_view（说话人陈述本人观点）、quoted_or_read_aloud（朗读来信、引述他人原话）、explained_or_paraphrased（讲解或转述他人观点）、unknown（已审核但无法判断）。
+
+review 保存 basis、reviewer_label、reviewed_on、review_timezone、reviewer_reported_watched_original_video、assistant_listened_to_audio，可选 source_url。basis 保留审核者原话。status 只接受 human_confirmed；模型候选不写入本表。
+
+没有归属记录表示未审核，与 unknown 不同。归属记录不确认文字正确，不改变 quality，也不授予内容使用权；文字确认不能升级为归属确认。下游作为作者本人参照时，只采用 speaker_role=primary_speaker 且 viewpoint=own_view 的范围。
 
 ## 质量与异常区间
 
@@ -138,7 +152,7 @@ metadata.review_status 是已有的结果状态观测。平台对象中的 revie
 
 ## ID、导出与更新
 
-id 是稳定、不透明的内部标识。现有 i-、t-、r-、d-、a-、c-、m- 前缀继续用于定位记录，引用同时校验目标表；纯命名调整不生成新记录。
+id 是稳定、不透明的内部标识。现有 i-、t-、r-、d-、a-、c-、m-、s- 前缀继续用于定位记录，引用同时校验目标表；纯命名调整不生成新记录。
 
 新增不同结果时生成新 ID。元数据补充、JSON 排版、文件位置或导出格式不同，不构成新的正文结果。校验拒绝重复 ID、失效引用及跨条目派生。
 
