@@ -95,3 +95,11 @@ python tools/corpus.py export --selection training --format review_issues --outp
 新增人工确认时记录原文、修订文字、哈希、确认范围、核对依据和适用整理稿。只有实际审核过的范围才能标记为已确认。全文未审核时，保留原有 `is_fully_human_reviewed` 状态。
 
 更新 `selections/training.json` 时引用目标整理稿及适用确认。校验会拒绝跨条目的选稿、无法定位的确认和失效引用。
+
+## 片段归属
+
+审核者看过原视频或听过音频并给出结论后，才在 `data/attributions.jsonl` 新增片段归属。每条记录对应一个整理稿段落或段内一句：从当前段落取 `text` 计算 UTF-8 SHA-256，复制段落的 `start`、`end` 和整理稿的 `time_unit`，`review.basis` 保留审核者原话。字段和取值见[数据结构](SCHEMA.md#片段说话人与观点归属)。
+
+无法判断时写 `unknown`，不补全推测。模型给出的归属建议不写入本表。整理稿段落文字改动后，原记录的哈希校验失败；须由审核者重新确认后另建记录，不直接改写旧哈希。
+
+记录写入后运行 `python tools/corpus.py validate`。训练选稿需要引用归属时，在对应 entry 的 `attribution_ids` 中列出记录 ID。

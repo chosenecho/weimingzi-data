@@ -6,13 +6,55 @@ import hashlib
 import json
 import re
 from collections import Counter
+from datetime import date
 from decimal import Decimal, InvalidOperation
 from pathlib import Path, PurePosixPath
 
-JSONL_TABLES = ("items", "collections", "audio", "confirmations")
+JSONL_TABLES = ("items", "collections", "audio", "confirmations", "attributions")
 JSON_RECORD_TABLES = ("transcripts", "edited_transcripts", "posts", "articles")
 RECORD_ID_PATTERN = re.compile(r"^[a-z]-[0-9a-f]{24,64}$")
 SHA256_PATTERN = re.compile(r"^[0-9a-f]{64}$")
+ISO_DATE_PATTERN = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+ATTRIBUTION_ID_PREFIX = "s"
+ATTRIBUTION_SPEAKER_ROLES = ("primary_speaker", "other_speaker", "unknown")
+ATTRIBUTION_VIEWPOINTS = (
+    "own_view",
+    "quoted_or_read_aloud",
+    "explained_or_paraphrased",
+    "unknown",
+)
+ATTRIBUTION_STATUS = "human_confirmed"
+ATTRIBUTION_REVIEW_TIMEZONE = "Asia/Hong_Kong"
+ATTRIBUTION_KEYS = {
+    "schema_version",
+    "kind",
+    "id",
+    "item_id",
+    "edited_transcript_id",
+    "anchor",
+    "speaker_role",
+    "viewpoint",
+    "review",
+    "status",
+    "urls",
+}
+ATTRIBUTION_ANCHOR_KEYS = {
+    "paragraph_index",
+    "paragraph_text_sha256",
+    "excerpt",
+    "start",
+    "end",
+    "time_unit",
+}
+ATTRIBUTION_REQUIRED_REVIEW_KEYS = {
+    "basis",
+    "reviewer_label",
+    "reviewed_on",
+    "review_timezone",
+    "reviewer_reported_watched_original_video",
+    "assistant_listened_to_audio",
+}
+ATTRIBUTION_OPTIONAL_REVIEW_KEYS = {"source_url"}
 
 
 def canonical_json(value) -> str:
@@ -172,6 +214,118 @@ def validate_recognition_issues(value, record_id: str) -> None:
             validate_recognition_issues(nested, record_id)
 
 
+def validate_attribution_shape(row: dict) -> None:
+    """Check a segment attribution record on its own; links are checked later."""
+    record_id = row["id"]
+    if not record_id.startswith(ATTRIBUTION_ID_PREFIX + "-"):
+        raise ValueError(
+            f"{record_id}: attribution id must use prefix {ATTRIBUTION_ID_PREFIX}-"
+        )
+    unknown_keys = set(row) - ATTRIBUTION_KEYS
+    missing_keys = ATTRIBUTION_KEYS - set(row)
+    if unknown_keys or missing_keys:
+        raise ValueError(
+            f"{record_id}: attribution keys unknown={sorted(unknown_keys)} missing={sorted(missing_keys)}"
+        )
+    for name in ("item_id", "edited_transcript_id"):
+        if not isinstance(row[name], str) or not RECORD_ID_PATTERN.fullmatch(row[name]):
+            raise ValueError(f"{record_id}: invalid {name}")
+    anchor = row["anchor"]
+    if not isinstance(anchor, dict) or set(anchor) != ATTRIBUTION_ANCHOR_KEYS:
+        raise ValueError(
+            f"{record_id}: attribution anchor requires exactly {sorted(ATTRIBUTION_ANCHOR_KEYS)}"
+        )
+    if type(anchor["paragraph_index"]) is not int or anchor["paragraph_index"] < 0:
+        raise ValueError(f"{record_id}: invalid paragraph_index")
+    if not isinstance(
+        anchor["paragraph_text_sha256"], str
+    ) or not SHA256_PATTERN.fullmatch(anchor["paragraph_text_sha256"]):
+        raise ValueError(f"{record_id}: invalid paragraph_text_sha256")
+    if anchor["excerpt"] is not None and (
+        not isinstance(anchor["excerpt"], str) or not anchor["excerpt"]
+    ):
+        raise ValueError(f"{record_id}: excerpt must be non-empty text or null")
+    if row["speaker_role"] not in ATTRIBUTION_SPEAKER_ROLES:
+        raise ValueError(f"{record_id}: invalid speaker_role {row['speaker_role']!r}")
+    if row["viewpoint"] not in ATTRIBUTION_VIEWPOINTS:
+        raise ValueError(f"{record_id}: invalid viewpoint {row['viewpoint']!r}")
+    if row["status"] != ATTRIBUTION_STATUS:
+        raise ValueError(
+            f"{record_id}: attribution status must be {ATTRIBUTION_STATUS}"
+        )
+    review = row["review"]
+    if not isinstance(review, dict):
+        raise ValueError(f"{record_id}: review must be an object")
+    unknown_keys = set(review) - (
+        ATTRIBUTION_REQUIRED_REVIEW_KEYS | ATTRIBUTION_OPTIONAL_REVIEW_KEYS
+    )
+    missing_keys = ATTRIBUTION_REQUIRED_REVIEW_KEYS - set(review)
+    if unknown_keys or missing_keys:
+        raise ValueError(
+            f"{record_id}: review keys unknown={sorted(unknown_keys)} missing={sorted(missing_keys)}"
+        )
+    for name in ("basis", "reviewer_label"):
+        if not isinstance(review[name], str) or not review[name].strip():
+            raise ValueError(f"{record_id}: review {name} must be non-empty text")
+    reviewed_on = review["reviewed_on"]
+    try:
+        if not isinstance(reviewed_on, str) or not ISO_DATE_PATTERN.fullmatch(
+            reviewed_on
+        ):
+            raise ValueError
+        date.fromisoformat(reviewed_on)
+    except ValueError:
+        raise ValueError(f"{record_id}: reviewed_on must be YYYY-MM-DD") from None
+    if review["review_timezone"] != ATTRIBUTION_REVIEW_TIMEZONE:
+        raise ValueError(
+            f"{record_id}: review_timezone must be {ATTRIBUTION_REVIEW_TIMEZONE}"
+        )
+    for name in (
+        "reviewer_reported_watched_original_video",
+        "assistant_listened_to_audio",
+    ):
+        if not isinstance(review[name], bool):
+            raise ValueError(f"{record_id}: review {name} must be boolean")
+    if "source_url" in review and (
+        not isinstance(review["source_url"], str)
+        or not review["source_url"].startswith("https://")
+    ):
+        raise ValueError(f"{record_id}: review source_url must use HTTPS")
+    if not isinstance(row["urls"], list) or not all(
+        isinstance(url, str) and url.startswith("https://") for url in row["urls"]
+    ):
+        raise ValueError(f"{record_id}: urls must be HTTPS text")
+
+
+def validate_attribution_anchor(row: dict, edited_transcript: dict) -> None:
+    """Require the anchor to describe the current paragraph, so text edits invalidate it."""
+    record_id, anchor = row["id"], row["anchor"]
+    if edited_transcript["item_id"] != row["item_id"]:
+        raise ValueError(
+            f"{record_id}: attribution edited transcript belongs to a different item"
+        )
+    paragraphs = edited_transcript["paragraphs"]
+    if anchor["paragraph_index"] >= len(paragraphs):
+        raise ValueError(f"{record_id}: paragraph_index out of range")
+    paragraph = paragraphs[anchor["paragraph_index"]]
+    text = paragraph.get("text", "")
+    if hashlib.sha256(text.encode("utf-8")).hexdigest() != anchor[
+        "paragraph_text_sha256"
+    ]:
+        raise ValueError(f"{record_id}: attribution paragraph text hash mismatch")
+    if anchor["excerpt"] is not None and anchor["excerpt"] not in text:
+        raise ValueError(f"{record_id}: attribution excerpt not found in paragraph")
+    expected_position = (
+        paragraph.get("start"),
+        paragraph.get("end"),
+        edited_transcript.get("time_unit"),
+    )
+    if (anchor["start"], anchor["end"], anchor["time_unit"]) != expected_position:
+        raise ValueError(
+            f"{record_id}: attribution start/end/time_unit differ from the paragraph"
+        )
+
+
 def validate_corpus(root: Path) -> dict:
     """Check identity, types, coverage of exceptional timestamps, and every internal link."""
     counts, all_ids, items, contents, audio = (
@@ -189,6 +343,8 @@ def validate_corpus(root: Path) -> dict:
         unit_references,
     ) = {}, {}, {}, {}
     recognition_chunks_by_transcript, evidence_references = {}, []
+    attributions, attributions_by_edited_transcript = {}, {}
+    attribution_anchor_keys = set()
     restore_paths, archive_members, archives = set(), set(), {}
     hashes = set()
     invalid_timing = 0
@@ -217,6 +373,7 @@ def validate_corpus(root: Path) -> dict:
                 },
                 "audio": {"audio"},
                 "confirmations": {"confirmation"},
+                "attributions": {"segment_attribution"},
                 "transcripts": {"transcript"},
                 "edited_transcripts": {"edited_transcript"},
                 "posts": {"post"},
@@ -453,6 +610,10 @@ def validate_corpus(root: Path) -> dict:
                         )
                         unit_references[record_id] = row["input_units_from_id"]
                     edited_transcript_anchors[record_id] = set()
+                    for attribution in attributions_by_edited_transcript.get(
+                        record_id, []
+                    ):
+                        validate_attribution_anchor(attribution, row)
                     for confirmation in confirmations.values():
                         if confirmation["item_id"] == row["item_id"]:
                             anchor = confirmation["anchor"]["original_text"]
@@ -500,6 +661,30 @@ def validate_corpus(root: Path) -> dict:
                     != row["corrected_text_sha256"]
                 ):
                     raise ValueError(f"{record_id}: corrected text hash mismatch")
+            elif table == "attributions":
+                validate_attribution_shape(row)
+                attributions[record_id] = row
+                anchor_key = (
+                    row["edited_transcript_id"],
+                    row["anchor"]["paragraph_index"],
+                    row["anchor"]["excerpt"],
+                )
+                if anchor_key in attribution_anchor_keys:
+                    raise ValueError(
+                        f"{record_id}: duplicate attribution for the same paragraph range"
+                    )
+                attribution_anchor_keys.add(anchor_key)
+                attributions_by_edited_transcript.setdefault(
+                    row["edited_transcript_id"], []
+                ).append(row)
+                references.append((record_id, "items", row["item_id"]))
+                references.append(
+                    (record_id, "edited_transcripts", row["edited_transcript_id"])
+                )
+                counts["attributions_primary_speaker_own_view"] += (
+                    row["speaker_role"] == "primary_speaker"
+                    and row["viewpoint"] == "own_view"
+                )
     for record_id, table, target in references:
         if all_ids.get(target) != table:
             raise ValueError(f"{record_id}: unresolved {table} reference {target}")
@@ -566,9 +751,21 @@ def validate_corpus(root: Path) -> dict:
                 raise ValueError(
                     f"Training confirmation does not apply to selected edited transcript: {confirmation}"
                 )
+        for attribution in entry.get("attribution_ids", []):
+            if all_ids.get(attribution) != "attributions":
+                raise ValueError(f"Unresolved training attribution {attribution}")
+            if (
+                attributions[attribution]["item_id"] != item
+                or attributions[attribution]["edited_transcript_id"]
+                != edited_transcript
+            ):
+                raise ValueError(
+                    f"Training attribution does not apply to selected edited transcript: {attribution}"
+                )
     counts["training_entries"] = len(selection["entries"])
     counts["timing_issue_transcripts"] = invalid_timing
     for name in (
+        "attributions_primary_speaker_own_view",
         "review_issues",
         "paragraphs_with_review_issues",
         "edited_transcripts_with_review_issues",
