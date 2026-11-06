@@ -18,6 +18,20 @@
 - [许可证与适用范围](LICENSE)
 - [内容权利说明](CONTENT-RIGHTS.md)
 
+## 与训练工程协作
+
+本仓库负责资料归档和来源校订。数据制作与模型训练在 [weimingzi-thought-model][training-project] 进行；正式 train/dev、来源证据和版本清单发布到独立私有仓库 `chosenecho/weimingzi-datasets`。
+
+| 需要处理的内容 | 修改位置 |
+| --- | --- |
+| 原始正文、转录、整理稿和来源校订 | 本仓库的维护数据 |
+| 筛选、问答审核、模型导出、训练与评测 | 制作和训练工程 |
+| 已审核训练数据的新版本 | 私有正式数据仓库，由制作工程生成 |
+
+下游按完整 Git 提交读取本仓库，不跟随本地未提交改动。`selections/training.json` 记录选稿引用；选中正文不表示全文人工批准，也不代替下游 SFT 内容与证据审核。来源修订完成后，下游重新制作、审核并发布新版本，已有冻结数据保持原字节。
+
+跨仓库命令与审计流程见[多仓库工作流][training-workflow]。该流程沿用本仓库的[数据卡](docs/DATA-CARD.md)和[内容权利说明](CONTENT-RIGHTS.md)，不扩大内容许可范围。Agent 开始工作前读取 [AGENTS.md](AGENTS.md)。
+
 ## 仓库结构
 
 ```text
@@ -69,3 +83,6 @@ SQLite 是从归档记录生成的本地检索副本，不替代 JSON/JSONL 维�
 ## 许可
 
 本项目贡献者有权授权的原创代码和原创项目说明文档采用 MIT 许可。归档语料及其中的第三方内容不作统一再许可，已有的明确许可继续适用。完整范围见 [LICENSE](LICENSE)，内容使用与归属问题见 [内容权利说明](CONTENT-RIGHTS.md)。
+
+[training-project]: https://github.com/chosenecho/weimingzi-thought-model/tree/codex/multi-repo-decoupling
+[training-workflow]: https://github.com/chosenecho/weimingzi-thought-model/blob/dbb1113d5888d9f577ac5194ce0c74b542a939d9/docs/MULTI_REPO_WORKFLOW.md
