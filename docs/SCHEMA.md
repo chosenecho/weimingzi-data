@@ -78,7 +78,7 @@ input_units.unassigned_reference_labels 保存未分配参照标签。局部稿�
 
 is_complete=false 表示结果未完成或只覆盖部分输入。partial_model_output 标记保留在质量状态中。完成状态不等于音频全量覆盖、全文复核或无遗漏。
 
-derived_from_id 表示实际文字或注释修订关系，目标必须为同条目整理稿，且不得成环。confirmation_ids 关联适用的人工确认。
+derived_from_id 表示实际文字或注释修订关系，目标必须为同条目整理稿，且不得成环。confirmation_ids 关联适用的人工确认。多份整理稿中哪一份进入发布视图，由 `selections/release.json` 的 `head_edited_id` 决定，见[发布视图](RELEASE.md)；原始稿本身不改字节。
 
 ## 动态、文章和集合
 
@@ -117,6 +117,8 @@ confirmation 包含 excerpt、resolution、reviewer_label、reviewed_on、review
 selections/training.json 保存 schema_version、name、confirmation_scope、entries。每个 entry 含 item_id、edited_transcript_id、confirmation_ids，可选 attribution_ids。confirmation_scope=partial_text_only 说明现有确认仅限局部。
 
 选入 training 不改变 quality.is_fully_human_reviewed，也不授予第三方内容使用权。确认必须属于对应条目、适用于所选整理稿，并能定位到原文或修订文字。attribution_ids 只能引用同一条目、同一整理稿的片段归属记录；confirmation_ids 与 attribution_ids 不能互相代替。
+
+selections/release.json 保存发布视图指针，只含 schema_version、policy_version、generated_from_commit 和 items；每个 item 记录 item_id、head_edited_id、applied_confirmation_ids、excluded_paragraphs。段落正文不复制，由 tools/release.py 从 data/ 重建，规则见[发布视图](RELEASE.md)。
 
 ## 片段说话人与观点归属
 

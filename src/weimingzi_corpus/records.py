@@ -783,4 +783,16 @@ def validate_corpus(root: Path) -> dict:
         counts["topic_entries"] = sum(
             len(select_topic(index, topic)) for topic in topics
         )
+    if (root / "selections/release.json").is_file():
+        from .release import validate_release
+
+        report = validate_release(root)
+        if report["errors"]:
+            detail = "; ".join(
+                f"{item['code']}@{item.get('item_id') or item.get('edited_id') or '?'}"
+                for item in report["errors"][:10]
+            )
+            raise ValueError(f"Release projection is inconsistent: {detail}")
+        counts["release_items"] = report["counts"]["items"]
+        counts["release_paragraphs"] = report["counts"]["paragraphs"]
     return dict(sorted(counts.items()))
