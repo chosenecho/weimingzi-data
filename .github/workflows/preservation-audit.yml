@@ -18,14 +18,16 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
-      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+      - uses: astral-sh/setup-uv@v6
         with:
-          python-version: '3.12'
+          python-version: "3.12"
+          enable-cache: true
+      - run: uv sync --locked
       - name: Prepare audit receipt
         shell: bash
         run: |
           mkdir -p .cache/preservation-audit
-          python -X utf8 - <<'PY'
+          uv run python -X utf8 - <<'PY'
           import json, os
           from datetime import datetime, timezone
           from pathlib import Path
@@ -44,10 +46,10 @@ jobs:
           )
           PY
       - name: Verify current baseline without modifying the log
-        run: python -X utf8 tools/preservation_manifest.py check-current --read-only > .cache/preservation-audit/fixity.json
+        run: uv run python -X utf8 tools/preservation_manifest.py check-current --read-only > .cache/preservation-audit/fixity.json
       - name: Verify event chain
         if: always()
-        run: python -X utf8 tools/preservation_manifest.py verify-log > .cache/preservation-audit/event-chain.json
+        run: uv run python -X utf8 tools/preservation_manifest.py verify-log > .cache/preservation-audit/event-chain.json
       - name: Retain audit receipts
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02

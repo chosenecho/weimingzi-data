@@ -217,7 +217,7 @@ def render_topic_catalog(index: CoverageIndex, topics: list[dict]) -> str:
         "",
         "core 表示来源系列或题名前缀命中，related 表示仅标签命中，introductory 是有依据的导入材料，chapter_supplement 是章节补充。角色只说明纳入规则。",
         "",
-        "[查询与完整导出](../TOPICS.md) · [分层覆盖定义](../COVERAGE.md)",
+        "[查询与完整导出](../QUERY.md#专题查询) · [分层覆盖定义](../QUERY.md#找稿与关联)",
         "",
     ]
     labels = dict(zip(LAYERS, ["直接关联", "跨来源引用", "同音频", "章节补充"]))

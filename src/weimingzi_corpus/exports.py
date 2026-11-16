@@ -314,12 +314,12 @@ def generate_catalog_docs(root: Path, check: bool = False) -> dict:
         if row.get("parent_id"):
             children[row["parent_id"]].append(row)
     output = {}
-    intro = "此目录由 `python tools/corpus.py generate` 生成。所有结果分别列出，排序不代表审核质量。\n\n"
+    intro = "此目录由 `uv run python tools/corpus.py generate` 生成。所有结果分别列出，排序不代表审核质量。\n\n"
     transcript_intro = (
         "同一条目可有多份平台字幕、语音转录和整理稿。链接标明识别方式、已知模型和短 ID；"
         "整理稿后的“输入”对应其关联的基础转录短 ID，“输入未关联”表示尚无可确认的内部引用。"
         "模型路径仅显示末段，完整值保存在 JSON 中。"
-        "详见[基础转录与整理稿](../GLOSSARY.md#基础转录与整理稿)。\n\n"
+        "详见[基础转录与整理稿](../SCHEMA.md#基础转录与整理稿)。\n\n"
     )
 
     def links(item_id):
@@ -437,7 +437,7 @@ def generate_catalog_docs(root: Path, check: bool = False) -> dict:
         intro,
         "列出全部整理稿，包括没有段落标注的结果。标注数量包含疑点、候选改法和修改说明，不代表未解决问题的数量。",
         "",
-        "[字段定义](../GLOSSARY.md#校对标注与参照稿) · [查阅与导出](../MAINTENANCE.md#查看校对标注)",
+        "[字段定义](../SCHEMA.md#校对标注与参照稿) · [查阅与导出](../QUERY.md#查看校对标注)",
         "",
         "| 整理稿 | 标注数 | 待复核 | 结果完成 | 附注 | 独立校验稿 |",
         "| --- | ---: | --- | --- | --- | --- |",
@@ -457,7 +457,7 @@ def generate_catalog_docs(root: Path, check: bool = False) -> dict:
     if (root / "selections/topics.json").is_file():
         topic_navigation = ["- [专题索引](catalog/topics.md)"]
     output["docs/INDEX.md"] = (
-        "# 数据目录\n\n[名词与概念](GLOSSARY.md) · [数据结构](SCHEMA.md)\n\n由 `python tools/corpus.py generate` 生成。计数见 [counts.json](counts.json)。\n\n"
+        "# 数据目录\n\n[结构与术语](SCHEMA.md) · [查询与导出](QUERY.md)\n\n由 `uv run python tools/corpus.py generate` 生成。计数见 [counts.json](counts.json)。\n\n"
         + "\n".join(
             [
                 "- [视频与分段](catalog/videos.md)",
@@ -469,7 +469,7 @@ def generate_catalog_docs(root: Path, check: bool = False) -> dict:
                 "- [人物资料](catalog/people.md)",
                 "- [校对标注与复核状态](catalog/reviews.md)",
                 "",
-                "同一条目可有多份基础转录及整理稿；目录按识别方式和模型标注，并列出整理稿关联的输入。见[基础转录与整理稿](GLOSSARY.md#基础转录与整理稿)。",
+                "同一条目可有多份基础转录及整理稿；目录按识别方式和模型标注，并列出整理稿关联的输入。见[基础转录与整理稿](SCHEMA.md#基础转录与整理稿)。",
                 "",
                 f"基础转录 {counts['transcripts']} 条；整理结果 {counts['edited_transcripts']} 条；动态 {counts['posts']} 条；专栏 {counts['articles']} 篇。",
                 "",

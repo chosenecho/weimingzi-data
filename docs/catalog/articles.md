@@ -1,6 +1,6 @@
 # 专栏
 
-此目录由 `python tools/corpus.py generate` 生成。所有结果分别列出，排序不代表审核质量。
+此目录由 `uv run python tools/corpus.py generate` 生成。所有结果分别列出，排序不代表审核质量。
 
 
 <a id="i-3f6e1af0f9eba94e13961a2c"></a>
