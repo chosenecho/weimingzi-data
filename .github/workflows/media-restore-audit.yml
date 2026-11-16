@@ -22,13 +22,15 @@ jobs:
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
-      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+      - uses: astral-sh/setup-uv@v6
         with:
-          python-version: '3.12'
+          python-version: "3.12"
+          enable-cache: true
+      - run: uv sync --locked
       - name: Check audit failure handling
-        run: python -X utf8 -m unittest discover -s tests -p test_audio_restore_audit.py -v
+        run: uv run python -X utf8 -m unittest discover -s tests -p test_audio_restore_audit.py -v
       - name: Restore and verify every indexed available archive
-        run: python -X utf8 tools/audit_audio_restore.py --temporary-media --workers 1 --output preservation/checks/media-run-${{ github.run_id }}-${{ github.run_attempt }}/report.json
+        run: uv run python -X utf8 tools/audit_audio_restore.py --temporary-media --workers 1 --output preservation/checks/media-run-${{ github.run_id }}-${{ github.run_attempt }}/report.json
       - name: Retain full and partial audit reports
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02

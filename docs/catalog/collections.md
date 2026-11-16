@@ -1,6 +1,6 @@
 # 文集、合集与系列
 
-此目录由 `python tools/corpus.py generate` 生成。所有结果分别列出，排序不代表审核质量。
+此目录由 `uv run python tools/corpus.py generate` 生成。所有结果分别列出，排序不代表审核质量。
 
 
 ## 【主义主义】

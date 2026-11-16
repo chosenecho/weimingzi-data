@@ -1,6 +1,6 @@
 # 动态
 
-此目录由 `python tools/corpus.py generate` 生成。所有结果分别列出，排序不代表审核质量。
+此目录由 `uv run python tools/corpus.py generate` 生成。所有结果分别列出，排序不代表审核质量。
 
 
 <a id="i-dd094cc66c1018ffbab60745"></a>

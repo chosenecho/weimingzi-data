@@ -1,8 +1,8 @@
 # 数据目录
 
-[名词与概念](GLOSSARY.md) · [数据结构](SCHEMA.md)
+[结构与术语](SCHEMA.md) · [查询与导出](QUERY.md)
 
-由 `python tools/corpus.py generate` 生成。计数见 [counts.json](counts.json)。
+由 `uv run python tools/corpus.py generate` 生成。计数见 [counts.json](counts.json)。
 
 - [视频与分段](catalog/videos.md)
 - [独立录音](catalog/audio_recordings.md)
@@ -13,7 +13,7 @@
 - [人物资料](catalog/people.md)
 - [校对标注与复核状态](catalog/reviews.md)
 
-同一条目可有多份基础转录及整理稿；目录按识别方式和模型标注，并列出整理稿关联的输入。见[基础转录与整理稿](GLOSSARY.md#基础转录与整理稿)。
+同一条目可有多份基础转录及整理稿；目录按识别方式和模型标注，并列出整理稿关联的输入。见[基础转录与整理稿](SCHEMA.md#基础转录与整理稿)。
 
 基础转录 3766 条；整理结果 2021 条；动态 2756 条；专栏 71 篇。
 

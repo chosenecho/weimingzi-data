@@ -1,6 +1,6 @@
 # 人物资料
 
-此目录由 `python tools/corpus.py generate` 生成。所有结果分别列出，排序不代表审核质量。
+此目录由 `uv run python tools/corpus.py generate` 生成。所有结果分别列出，排序不代表审核质量。
 
 
 <a id="i-9b933e8ab39bb959bf3322f2"></a>

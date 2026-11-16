@@ -675,7 +675,7 @@ class CorpusTests(unittest.TestCase):
             f"（输入：`{self.transcript['id'][2:10]}`）",
             catalog,
         )
-        self.assertIn("../GLOSSARY.md#基础转录与整理稿", catalog)
+        self.assertIn("../SCHEMA.md#基础转录与整理稿", catalog)
         generate_catalog_docs(self.root, check=True)
 
     def test_independent_review_export_retains_additional_notes(self):

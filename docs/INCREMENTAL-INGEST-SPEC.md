@@ -1,6 +1,8 @@
-# 增量更新入口详细设计
+# 增量接收协议与外部发布设计
 
-历史设计：本文件保留增量接收方案及当时的阶段判断。已实现的是维护侧本地接收内核；云端传输、生产端 outbox、GitHub Actions 接收和自动 PR 为设计目标。当前操作以[入口概览](INCREMENTAL-INGEST.md)与[维护说明](MAINTENANCE.md)为准；训练选稿与发布策略已按[消费配置交接](RELEASE.md)迁至制作工程。
+本文保存批次输入协议、边界、错误、候选库算法及外部发布设计。已实现的是本地严格校验、规划、受限操作、安装读回、接收凭证和仓库扩展校验；云端传输、生产端 outbox、GitHub Actions 接收和自动 PR 尚未启用，相关章节为设计要求。当前操作命令集中于[维护说明](MAINTENANCE.md#增量批次)，实体和术语见[数据结构](SCHEMA.md)；训练选稿与发布分工见 [README](../README.md#与训练工程协作)。
+
+文档合并、更名与维护格式 v3 均不改变已实现的输入协议：批次清单 `record_schema_version=2`，完整载荷 `schema_version=2`，逻辑表与原生四实体分别解释。本文不是新增兼容接口或部署完成声明。
 
 ## 设计决策与依据
 
@@ -15,9 +17,11 @@
 | 原稿、AI 整理稿、人工确认分别保存 | [概念][g]、[维护][m] |
 | 生产端持久化投递任务 | 避免把 Actions 并发调度当成可靠队列 |
 
-生产端本地工作树已有 `bili-asr corpus export`、`corpus verify`、`--identity-from`，涉及 `src/bili_asr/corpus/`、`src/bili_asr/cli/corpus.py` 和 `docs/guides/corpus-export.md`。本次检查时这些文件仍未提交；接入前应固定可检出的生产端代码版本，并以其交接快照为输入运行适配器。本文不修改生产端工作树，也不把该导出路径视为已部署能力。
+设计期的生产端工作树检查曾发现 `bili-asr corpus export`、`corpus verify`、`--identity-from`，涉及 `src/bili_asr/corpus/`、`src/bili_asr/cli/corpus.py` 和 `docs/guides/corpus-export.md`，当时尚未提交。这是历史检查记录，不代表当前生产端状态。接入前仍须固定可检出的生产端代码版本，并以其交接快照运行适配器；本文不修改生产端工作树，也不据此宣称已部署。
 
 ## 运行拓扑
+
+以下为待接入的外部拓扑；其中调用的本地 `plan`、`apply`、校验及凭证内核已实现，不代表图中的云资源和发布链路已部署。
 
 ```mermaid
 flowchart TD
@@ -42,7 +46,7 @@ flowchart TD
 
 ASR 和 AI 校对沿用 `bilibili-asr-archive` 的处理契约，按目标用户和目标仓库配置隔离范围。模型、运行参数、冻结输入和已提交修订继续由生产端登记；下游不从机器目录名推断模型身份。运行失败和人工暂停重试也留在生产端。
 
-OSS 是拟采用的交接与原始媒体存储，尚未创建对应资源。仓库入口不依赖 OSS SDK：网络下载完成后，入库内核只接收本地目录，继续使用 Python 标准库。GitHub API 与对象存储访问由发布脚本适配。
+OSS 是设计拟采用的交接与原始媒体存储，本文不确认资源已创建。仓库入口不依赖 OSS SDK：网络下载完成后，入库内核只接收本地目录，继续使用 Python 标准库。GitHub API 与对象存储访问由待实现的发布脚本适配。
 
 ### FC 采集适配层
 
@@ -60,7 +64,7 @@ OSS 是拟采用的交接与原始媒体存储，尚未创建对应资源。仓�
 
 每轮发现保存扫描运行、页游标、覆盖范围和平台响应结果。只在本轮对应响应已持久化、待处理任务已可靠登记后推进已扫描位置。分页中断保留未覆盖部分；置顶、旧内容编辑和迟到更新通过重叠扫描及定期核对发现，不只比较发布时间。
 
-发现入口仍有动态列表和视频分页失败，证据由生产端项目保存。失败、空响应、确认为空分别记账；HTTP 412 不生成“无新内容”结论。达到重试策略阈值后记录暂停和证据，等待恢复，不形成无界自动重试。
+设计期发现探测曾有动态列表和视频分页失败，相关证据留在生产端项目，上线前须重新验证。失败、空响应、确认为空分别记账；HTTP 412 不生成“无新内容”结论。达到重试策略阈值后记录暂停和证据，等待恢复，不形成无界自动重试。
 
 ### 各阶段的提交条件
 
@@ -152,7 +156,9 @@ OSS 是拟采用的交接与原始媒体存储，尚未创建对应资源。仓�
 
 路径必须与规范相对路径字符串完全一致，拒绝绝对路径、盘符、反斜杠、`.` / `..`、重复分隔符、符号链接、硬链接载荷和大小写碰撞。清单不能包含自身，也不能包含未被操作引用的文件。每个操作引用一个独占载荷；同一批次内，同一表和 ID 只能出现一个操作。
 
-协议的基础结构由 JSON Schema 检查；路径与表/ID 的匹配、总容量、来源引用、哈希、操作适用范围和依赖关系由语义校验器检查。初始容量预算见[策略草案](examples/ingest-policy.toml)，属于设计参数，不是实测性能承诺。超过预算在下载前或流式读取时停止，不先全部载入内存。
+协议结构与语义须同时满足机器可读 Schema 和[本地校验实现](../src/weimingzi_corpus/ingest/manifest.py)；运行时由本地实现严格检查形状、路径与表/ID 的匹配、容量、来源引用、哈希、操作适用范围和依赖关系，不表示调用了外部 JSON Schema 引擎。
+
+当前[运行策略](../src/weimingzi_corpus/ingest/policy.py)实际限制清单为 2 MiB、单载荷为 16 MiB、全部载荷合计为 64 MiB，文件数和操作数各不超过 2000。这些是校验限额，不是实测性能承诺；[策略示例](examples/ingest-policy.toml)不覆盖代码中的生效策略。本地读取在容量边界停止；待实现的下载端也须在下载前或流式读取时检查，不先全部载入内存。
 
 ## 操作与合并规则
 
@@ -201,7 +207,7 @@ OSS 是拟采用的交接与原始媒体存储，尚未创建对应资源。仓�
 
 当前音频及其归档位于 `data/assets.jsonl`，接收载荷仍使用 `audio` 逻辑记录，首版自动分发沿用 GitHub Release 定位。生产机存在文件、OSS 有原始备份、源站临时播放地址可用，都不能直接宣称满足当前音频的可还原契约；没有分发定位时明确记为不可分发，不推断静音。
 
-视频和图片的接收载荷仍以条目 `metadata.media_assets` 观测保存类型化定位，每个观测对象遵循 [媒体定位 Schema](contracts/ingest-media-asset-v1.schema.json)。这一输入协议不新增通用媒体操作；维护侧已有 v3 资产实体，由适配器完成映射，包内路径不直接创建或覆盖资产。
+视频和图片的接收载荷以条目 `metadata.media_assets` 观测保存类型化定位，每个观测对象遵循[媒体定位 Schema](contracts/ingest-media-asset-v1.schema.json)，当前写入也保留为条目元数据观测。维护侧已有 v3 资产实体，不表示本协议会把任意视频或图片定位自动提升为独立资产；输入协议不新增通用媒体操作，包内路径不直接创建或覆盖资产。
 
 媒体定位保存内容 SHA-256、字节数、MIME、存储别名、不可变对象键和对象版本。固定存储别名由部署策略解析，不接收批次指定的任意存储主机。预签名 URL、带 Cookie 的 URL 和会过期的播放地址不作为永久定位。
 
@@ -211,15 +217,7 @@ OSS 是拟采用的交接与原始媒体存储，尚未创建对应资源。仓�
 
 ## 本地入口与候选库算法
 
-已实现的本地命令：
-
-```sh
-python tools/corpus.py ingest verify /path/to/batch
-python tools/corpus.py --root /path/to/clean/checkout ingest plan /path/to/batch --report /tmp/ingest-plan.json
-python tools/corpus.py --root /path/to/clean/checkout ingest apply /path/to/batch --plan /tmp/ingest-plan.json
-python tools/corpus.py --root /path/to/clean/checkout ingest validate-repository
-python tools/corpus.py ingest validate-repository
-```
+本地命令及检出、报告路径的操作步骤统一见[校验、规划与应用](MAINTENANCE.md#校验规划与应用)。以下说明已实现的算法与报告契约。
 
 `verify` 检查包的结构、容量、哈希、语义与来源范围，不要求增量包本身构成完整语料库。`plan` 在当前仓库上构造完整候选库，检查所有引用、操作、媒体字段与目录生成，输出可应用报告或冲突报告。`apply` 只接受可应用且基线未过期的计划。`validate-repository` 检查已入库的批次凭证和类型化媒体字段，由既有仓库检查流程调用。
 
@@ -229,9 +227,9 @@ python tools/corpus.py ingest validate-repository
 
 实施算法：
 
-1. 要求显式指定目标根目录、固定仓库身份和受信策略；`apply` 要求干净、独立的 Git 检出目录。
+1. 目标根目录默认为当前仓库，异地检出用 `--root` 指定；固定仓库身份和策略由受信代码限定，不从包内读取。`plan`、`apply` 均要求 origin 指向目标仓库、根目录确为 Git 根且工作区干净，发布使用独立检出目录。
 2. 加载当前语料、批次接收凭证及外部身份索引，记录实际基线和文件哈希。
-3. 核对依赖已合并，判断批次是否已接收或记录结果是否已经存在。
+3. 核对依赖在当前检出中已有受 Git 跟踪的接收凭证，判断 `already_accepted` 或 `already_present`；开放 PR 不满足依赖。外部发布者负责确保检出基线确实来自目标 main，本地内核不请求远端合并状态。
 4. 在隔离目录投影所有操作；一次性放入相互引用的新记录，再调用整库校验。
 5. 调用现有目录生成器，得到 `docs/INDEX.md`、`docs/catalog/`、`docs/counts.json` 的确定性输出。
 6. 验证改动路径、人工保护、类型化媒体及批次凭证，写出计划。
@@ -262,9 +260,9 @@ python tools/corpus.py ingest validate-repository
 
 接收者核对事件类型、触发主体的配置身份、固定仓库、对象键前缀、批次身份及清单哈希。桶和端点来自部署配置，载荷不能指定下载 URL、Git ref、工作目录或命令。事件值通过环境变量和结构化 JSON 读取，不能直接插入 shell 代码。
 
-GitHub 的 [dispatch 接口][github-dispatch] 支持 GitHub App 安装令牌，且需要相应仓库权限。选择仅安装于目标仓库的 App，按运行角色取得所需权限；采集 FC 不持有该 App 私钥。发布时需要内容写入及 PR 写入，日常检查保持只读，默认分支通过保护规则禁止直接写入。
+外部接入设计选用仅安装于目标仓库的 GitHub App，按角色分配权限；上线时按 [dispatch 接口文档][github-dispatch]核对令牌和仓库权限要求。采集 FC 不持有 App 私钥，发布角色取得内容写入及 PR 写入，日常检查保持只读，默认分支通过保护规则禁止直接写入。
 
-为使自动 PR 的检查无需额外批准，使用 App 安装令牌创建和更新 PR。GitHub [当前触发规则][github-trigger] 对 `GITHUB_TOKEN` 创建或更新 PR 的检查有审批行为，不能仅看“已创建 PR”便认定检查自动完成。上线时用真实机器人 PR 验证实际仓库设置。
+设计拟用 App 安装令牌创建和更新 PR；上线时按 [Actions 触发文档][github-trigger]及实际仓库设置，验证 App 与 `GITHUB_TOKEN` 的事件触发、审批及必需检查行为。本文不把设计期对触发规则的判断作为当前平台事实，也不以“已创建 PR”代替检查完成；必须用真实机器人 PR 验收。
 
 ### 生产端 outbox
 
@@ -341,7 +339,9 @@ building → uploading → ready → dispatched → validating
 
 ## 错误分类与恢复
 
-| 错误码 | 自动行为 |
+下表中除远端分支、回滚、网络及 PR 错误外，均对应本地内核的已实现错误；`BRANCH_MODIFIED`、`ROLLBACK_DETECTED`、`REMOTE_TRANSIENT`、`PR_REJECTED` 是待实现发布端的设计错误，不代表当前 CLI 可执行相应远端恢复。
+
+| 错误码 | 恢复行为 |
 | --- | --- |
 | `UNSUPPORTED_CONTRACT` | 暂停，升级适配器或消费者 |
 | `PACKAGE_INTEGRITY_FAILED` | 暂停，保留损坏证据 |
@@ -355,10 +355,11 @@ building → uploading → ready → dispatched → validating
 | `BATCH_ID_COLLISION` | 暂停，不复用远端分支 |
 | `BRANCH_MODIFIED` / `ROLLBACK_DETECTED` | 暂停，等待维护者处理 |
 | `WORKTREE_INCOMPLETE` | 丢弃专用检出目录后重建 |
+| `LOCAL_IO_ERROR` | 保留本地错误及中断证据，检查磁盘、权限或路径后重建专用检出 |
 | `REMOTE_TRANSIENT` | 先对账，再有界退避重试 |
 | `PR_REJECTED` | 停止自动重投，保留批次 |
 
-CLI 拟约定：成功含无变化为退出码 `0`；协议、语料或完整性错误为 `2`；身份或内容冲突为 `3`；过期计划、锁占用等可重试前置条件为 `4`；本地 I/O 或发布端暂时故障为 `5`。输出 JSON 中的 `code` 才是细分依据，退出码不直接授权无限重试。
+当前 `ingest` CLI 已使用以下退出码：成功含无变化为 `0`；协议、语料或完整性错误为 `2`；身份或内容冲突为 `3`；过期计划、未满足依赖、锁占用等前置条件为 `4`；本地 I/O 错误为 `5`。该约定只描述批次子命令，不统一改变其他 CLI 的错误码。失败 JSON 的 `code`、报告中的冲突明细和 `exit_code` 是细分依据，不凭退出码无限重试。发布端暂时故障的分类及重试仍属待实现设计。
 
 日志只记录批次、来源对象身份、字节数、耗时、错误码和重试决策；不记录 Cookie、SESSDATA、访问密钥、预签名 URL 或完整请求头。原始业务响应保存在生产端指定位置并保留关联，不把私有运行目录和供应商证据全部复制进公开 PR。
 
@@ -425,12 +426,12 @@ CLI 拟约定：成功含无变化为退出码 `0`；协议、语料或完整性
 | 等待的 Actions 被取消 | outbox 对账后重投，无丢件 |
 | 无实际业务差异 | `already_present`，无空业务 PR |
 
-设计交付物包括本文、批次与补充操作 Schema、媒体定位 Schema、策略草案和合成包。它们定义拟实现行为；当前运行能力仍以现有代码和探测记录为准。
+协议交付物包括本文、批次与补充操作 Schema、媒体定位 Schema、策略示例和合成包。本地内核的实际能力以代码、运行策略和测试为准；云端投递、采集适配、自动 PR、远端回执及其验收场景仍是待实现设计，生产端历史探测记录不替代上线验证。
 
 [s]: SCHEMA-V2.md
 [v]: ../src/weimingzi_corpus/records.py
 [cli]: ../src/weimingzi_corpus/cli.py
-[g]: GLOSSARY.md
+[g]: SCHEMA.md
 [m]: MAINTENANCE.md
 [github-dispatch]: https://docs.github.com/en/rest/repos/repos#create-a-repository-dispatch-event
 [github-trigger]: https://docs.github.com/en/actions/using-workflows/triggering-a-workflow
