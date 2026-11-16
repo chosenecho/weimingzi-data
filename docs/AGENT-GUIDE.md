@@ -15,6 +15,7 @@
 - [维护说明](MAINTENANCE.md)：检索、导出、入库和校验命令。
 - [名词与概念](GLOSSARY.md)：转录、整理稿、校对标注等项目术语。
 - [内容权利说明](../CONTENT-RIGHTS.md)：使用、再发布和训练的权利范围。
+- [发布视图](RELEASE.md)：多份整理稿如何选 head、确认如何应用、段落级发布导出。
 
 需要修改仓库前，先运行 `git status --short`，保留已有工作区改动。不要直接修改生成的 `docs/INDEX.md`、`docs/catalog/` 和 `docs/counts.json`；用 `python tools/corpus.py generate` 更新它们。
 
@@ -44,6 +45,15 @@ python tools/corpus.py export --format review_issues --output .cache/exports/rev
 ```
 
 需要限定整理稿 ID 或训练选稿时，参照[维护说明中的标注导出命令](MAINTENANCE.md#查看校对标注)。查询附注、输入参照或独立校验稿时，检查对应维护 JSON；不要把正文全文索引当成这些内容的索引。
+
+## 发布视图
+
+同一段内容可能有多份整理稿；发布视图按 `selections/release.json` 为每个条目锁定 head，并应用人工确认。规则和字段见[发布视图](RELEASE.md)。
+
+```sh
+python tools/release.py check
+python tools/release.py export --output .cache/exports/release_paragraphs.jsonl
+```
 
 ## 保存和修改
 

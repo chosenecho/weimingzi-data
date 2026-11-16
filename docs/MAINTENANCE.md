@@ -96,6 +96,15 @@ python tools/corpus.py export --selection training --format review_issues --outp
 
 更新 `selections/training.json` 时引用目标整理稿及适用确认。校验会拒绝跨条目的选稿、无法定位的确认和失效引用。
 
+新增多版本整理稿或人工确认后，同步发布视图指针 `selections/release.json`：
+
+```sh
+python tools/release.py check
+python tools/release.py export --output .cache/exports/release_paragraphs.jsonl
+```
+
+`init-selection` 只在首次生成指针时用，已存在会拒绝覆盖。head 规则、校验码和导出字段见[发布视图](RELEASE.md)。
+
 ## 片段归属
 
 审核者看过原视频或听过音频并给出结论后，才在 `data/attributions.jsonl` 新增片段归属。每条记录对应一个整理稿段落或段内一句：从当前段落取 `text` 计算 UTF-8 SHA-256，复制段落的 `start`、`end` 和整理稿的 `time_unit`，`review.basis` 保留审核者原话。字段和取值见[数据结构](SCHEMA.md#片段说话人与观点归属)。
