@@ -21,8 +21,9 @@ from ..records import (
     read_json,
     validate_corpus,
     write_json,
-    write_jsonl,
+    write_record_updates,
 )
+from ..schema_v3 import is_v3
 from .errors import IngestError, require
 from .manifest import (
     COMMIT,
@@ -153,6 +154,7 @@ def core_hash():
     paths = [
         *package.glob("*.py"),
         package.parent / "records.py",
+        package.parent / "schema_v3.py",
         package.parent / "exports.py",
         package.parent / "cli.py",
     ]
@@ -189,8 +191,9 @@ class RecordFiles(MutableMapping):
 
 def load_tables(root):
     tables = {}
+    native = is_v3(root)
     for table in TABLES:
-        if table in JSONL_TABLES:
+        if native or table in JSONL_TABLES:
             rows = {}
             for row, _ in iter_records(root, table):
                 require(row["id"] not in rows, "Baseline has duplicate JSONL IDs")
@@ -250,16 +253,22 @@ def clone_inputs(root, candidate, *, include_receipts=True):
             shutil.copytree(
                 root / folder, candidate / folder, copy_function=link_or_copy
             )
-    for table in JSON_RECORD_TABLES:
-        (candidate / "data" / table).mkdir(parents=True, exist_ok=True)
+    if not is_v3(candidate):
+        for table in JSON_RECORD_TABLES:
+            (candidate / "data" / table).mkdir(parents=True, exist_ok=True)
 
 
-def detach(path):
-    if path.exists():
-        path.unlink()
-
-
-def allowed_change(path, batch_id):
+def allowed_change(path, batch_id, *, native=False):
+    if native:
+        return (
+            path in CATALOG
+            or path == f"ingest/receipts/{batch_id}.json"
+            or path in ("data/items.jsonl", "data/assets.jsonl", "data/annotations.jsonl")
+            or re.fullmatch(r"data/documents/[a-z]-[0-9a-f]{24,64}\.json", path)
+            is not None
+            or re.fullmatch(r"data/artifacts/[0-9a-f]{64}\.(?:md|html)", path)
+            is not None
+        )
     return (
         path in CATALOG
         or path
@@ -346,22 +355,16 @@ def prepare(root, batch_path):
                 changed = [
                     r for r in report["operations"] if r["outcome"] != "unchanged"
                 ]
-                for table in {r["table"] for r in changed}:
-                    if table in JSONL_TABLES:
-                        path = candidate / "data" / (table + ".jsonl")
-                        detach(path)
-                        write_jsonl(path, tables[table].values())
-                    else:
-                        for outcome in changed:
-                            if outcome["table"] == table:
-                                path = (
-                                    candidate
-                                    / "data"
-                                    / table
-                                    / (outcome["record_id"] + ".json")
-                                )
-                                detach(path)
-                                write_json(path, tables[table][outcome["record_id"]])
+                write_record_updates(
+                    candidate,
+                    {
+                        table: [
+                            tables[table][outcome["record_id"]]
+                            for outcome in changed if outcome["table"] == table
+                        ]
+                        for table in {r["table"] for r in changed}
+                    },
+                )
                 validate_scope(batch, tables)
                 if changed:
                     write_json(
@@ -376,7 +379,7 @@ def prepare(root, batch_path):
                     for path, digest in after.items():
                         if before.get(path) != digest:
                             require(
-                                allowed_change(path, manifest["batch_id"]),
+                                allowed_change(path, manifest["batch_id"], native=is_v3(root)),
                                 "Candidate changes a protected path",
                             )
                             report["changes"].append(

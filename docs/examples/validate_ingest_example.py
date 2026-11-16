@@ -68,7 +68,6 @@ with tempfile.TemporaryDirectory(prefix='ingest-design-') as name:
         (candidate / 'data' / table).mkdir(parents=True)
         for row in rows[table]:
             write_json(candidate / 'data' / table / (row['id'] + '.json'), row)
-    write_json(candidate / 'selections/training.json', {'schema_version': 2, 'entries': []})
     counts = validate_corpus(candidate)
 policy = tomllib.loads((ROOT / 'docs/examples/ingest-policy.toml').read_text(encoding='utf-8'))
 assert policy['enabled'] is False

@@ -10,8 +10,19 @@ import test_coverage as fixtures
 from weimingzi_corpus.cli import main
 from weimingzi_corpus.coverage import CoverageIndex
 from weimingzi_corpus.exports import generate_catalog_docs
-from weimingzi_corpus.records import make_record_id, write_json, write_jsonl
-from weimingzi_corpus.topics import definitions, select_topic, topic_report
+from weimingzi_corpus.records import (
+    make_record_id,
+    read_json,
+    validate_corpus,
+    write_json,
+    write_jsonl,
+)
+from weimingzi_corpus.topics import (
+    definitions,
+    generate_topic_catalog,
+    select_topic,
+    topic_report,
+)
 
 
 class TopicTests(unittest.TestCase):
@@ -188,7 +199,13 @@ class TopicTests(unittest.TestCase):
 
     def test_generated_navigation_is_rebuildable(self):
         self.configure()
-        generate_catalog_docs(self.root)
+        counts = generate_catalog_docs(self.root)
+        self.assertNotIn("topics", counts)
+        self.assertNotIn("topic_entries", counts)
+        self.assertEqual(read_json(self.root / "docs/counts.json"), counts)
+        topic_counts = generate_topic_catalog(self.root)
+        self.assertEqual(topic_counts["topics"], 1)
+        self.assertGreater(topic_counts["topic_entries"], 0)
         text = (self.root / "docs/catalog/topics.md").read_text(encoding="utf-8")
         self.assertIn("【我是谁】基本情况", text)
         self.assertIn("精确标签：主义主义", text)
@@ -198,6 +215,51 @@ class TopicTests(unittest.TestCase):
             (self.root / "docs/INDEX.md").read_text(encoding="utf-8"),
         )
         generate_catalog_docs(self.root, check=True)
+        generate_topic_catalog(self.root, check=True)
+
+    def test_base_validation_and_catalog_ignore_broken_topics(self):
+        self.configure()
+        baseline = validate_corpus(self.root)
+        for name in ("topics", "topic_entries"):
+            self.assertNotIn(name, baseline)
+        path = self.root / "selections/topics.json"
+        path.write_text("{broken json", encoding="utf-8")
+        self.assertEqual(validate_corpus(self.root), baseline)
+        self.assertEqual(generate_catalog_docs(self.root), baseline)
+        generate_catalog_docs(self.root, check=True)
+        for check in (False, True):
+            with self.subTest(check=check), self.assertRaises(ValueError):
+                generate_topic_catalog(self.root, check=check)
+        with redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
+            self.assertEqual(main(["--root", str(self.root), "generate"]), 1)
+
+    def test_topic_generation_and_check_reject_unknown_references(self):
+        self.configure()
+        for field in ("collection", "item"):
+            with self.subTest(field=field):
+                original = copy.deepcopy(self.topic)
+                if field == "collection":
+                    self.topic["rules"]["collection_ids"] = ["missing"]
+                else:
+                    self.topic["manual_inclusions"][0]["item_id"] = "missing"
+                self.save_topic()
+                validate_corpus(self.root)
+                for check in (False, True):
+                    with self.assertRaises(ValueError):
+                        generate_topic_catalog(self.root, check=check)
+                self.topic = original
+
+    def test_cli_generate_counts_topics_without_training_or_release_config(self):
+        self.configure()
+        self.assertFalse((self.root / "selections/training.json").exists())
+        self.assertFalse((self.root / "selections/release.json").exists())
+        output = io.StringIO()
+        with redirect_stdout(output), redirect_stderr(io.StringIO()):
+            self.assertEqual(main(["--root", str(self.root), "generate"]), 0)
+        counts = json.loads(output.getvalue())
+        self.assertEqual(counts["topics"], 1)
+        self.assertGreater(counts["topic_entries"], 0)
+        self.assertNotIn("topics", read_json(self.root / "docs/counts.json"))
 
 
 class RepositoryTopicTests(unittest.TestCase):

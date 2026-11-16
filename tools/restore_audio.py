@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Restore hash-addressed audio using the single data/audio.jsonl index."""
+"""Restore hash-addressed audio from the v3 assets or legacy audio index."""
 
 from __future__ import annotations
 
@@ -46,12 +46,41 @@ def is_file_intact(path, row):
     )
 
 
-def load_audio_archive_groups(name="data/audio.jsonl"):
+def audio_index_context(name=None):
+    """Resolve the selected index and the files needed to interpret its rows.
+
+    An explicit legacy index is independent of the repository's schema. Native
+    assets use the core's lossless audio projection, including archive assets.
+    """
+    assets = resolve_audio_repository_path("data/assets.jsonl")
+    index = resolve_audio_repository_path(name) if name is not None else None
+    dependencies = []
+    v3 = False
+    if index is None or index == assets:
+        schema = resolve_audio_repository_path("data/schema.json")
+        dependencies.append(schema)
+        if schema.is_file():
+            from weimingzi_corpus.schema_v3 import is_v3
+
+            v3 = is_v3(ROOT)
+        if index is None:
+            index = assets if v3 else resolve_audio_repository_path("data/audio.jsonl")
+    return {"path": index, "v3": v3 and index == assets, "dependencies": dependencies}
+
+
+def load_audio_archive_groups(name=None):
+    context = audio_index_context(name)
+    if context["v3"]:
+        from weimingzi_corpus.schema_v3 import iter_legacy_records
+
+        records = (record for record, _ in iter_legacy_records(ROOT, "audio"))
+    else:
+        records = read_jsonl(context["path"])
     groups = {}
     paths = set()
     shas = set()
     members = set()
-    for record in read_jsonl(resolve_audio_repository_path(name)):
+    for record in records:
         if record.get("availability") != "available":
             continue
         resolve_audio_repository_path(record["local_path"])
@@ -169,7 +198,7 @@ def restore_audio_archive(archive, rows):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--index", default="data/audio.jsonl")
+    parser.add_argument("--index", help="repository-relative index; defaults to assets.jsonl for v3, audio.jsonl for v2")
     parser.add_argument(
         "--archive", action="append", help="release-tag/archive.zip; repeatable"
     )

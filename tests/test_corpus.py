@@ -8,7 +8,7 @@ import sqlite3
 import sys
 import tempfile
 import unittest
-from contextlib import redirect_stdout
+from contextlib import closing, redirect_stderr, redirect_stdout
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
@@ -57,9 +57,6 @@ class CorpusTests(unittest.TestCase):
             )
         for directory in JSON_RECORD_TABLES:
             (self.root / "data" / directory).mkdir()
-        write_json(
-            self.root / "selections/training.json", {"schema_version": 2, "entries": []}
-        )
         self.transcript = {
             "schema_version": 2,
             "id": make_record_id("t", "fixture"),
@@ -91,6 +88,56 @@ class CorpusTests(unittest.TestCase):
             self.root / "data/transcripts" / (self.transcript["id"] + ".json"),
             self.transcript,
         )
+
+    def test_v3_sqlite_has_four_native_tables_and_lossless_search_text(self):
+        from weimingzi_corpus.schema_v3 import write_legacy_dataset
+
+        tables = {
+            table: [row for row, _ in iter_records(self.root, table)]
+            for table in (*JSONL_TABLES, *JSON_RECORD_TABLES)
+        }
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            write_legacy_dataset(root, tables)
+            output = root / "search.sqlite3"
+            export_sqlite(root, output)
+            with closing(sqlite3.connect(output)) as connection:
+                names = {row[0] for row in connection.execute("SELECT name FROM sqlite_master WHERE type='table'")}
+                self.assertTrue({"items", "documents", "assets", "annotations"} <= names)
+                self.assertTrue(set(JSON_RECORD_TABLES).isdisjoint(names))
+                native = json.loads(connection.execute("SELECT record_json FROM documents").fetchone()[0])
+                self.assertEqual(native["text"], self.transcript["text"])
+                self.assertIn("range", native["blocks"][0])
+                self.assertNotIn("segments", native)
+                self.assertEqual(connection.execute("SELECT text FROM content_search").fetchone()[0], self.transcript["text"])
+
+    def test_v3_navigation_review_and_coverage_use_native_paths(self):
+        from weimingzi_corpus.coverage import CoverageIndex
+        from weimingzi_corpus.schema_v3 import write_legacy_dataset
+
+        edited = self.create_edited_transcript()
+        edited["paragraphs"][0]["issues"] = [{"note": "按原文回查", "candidate": ""}]
+        write_json(self.root / "data/edited_transcripts" / (edited["id"] + ".json"), edited)
+        tables = {
+            table: [row for row, _ in iter_records(self.root, table)]
+            for table in (*JSONL_TABLES, *JSON_RECORD_TABLES)
+        }
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            write_legacy_dataset(root, tables)
+            csv_text = render_catalog_csv(root)
+            self.assertIn(f"data/documents/{edited['id']}.json", csv_text)
+            self.assertNotIn("data/edited_transcripts/", csv_text)
+            issue = next(iter_review_issues(edited, root))
+            self.assertEqual(issue["record_path"], f"data/documents/{edited['id']}.json")
+            self.assertEqual(issue["issue"], edited["paragraphs"][0]["issues"][0])
+            generate_catalog_docs(root)
+            links = (root / "docs/catalog/reviews.md").read_text(encoding="utf-8")
+            self.assertIn(f"../../data/documents/{edited['id']}.json", links)
+            report = CoverageIndex(root).report(self.item["id"], include_records=True)
+            records = {row["id"]: row for row in report["layers"]["direct"]["records"]}
+            self.assertEqual(records[edited["id"]]["record"], edited)
+            self.assertEqual(records[edited["id"]]["record_path"], f"data/documents/{edited['id']}.json")
 
     def test_complete_minimal_corpus_and_unknown_review_status(self):
         self.assertEqual(validate_corpus(self.root)["transcripts"], 1)
@@ -183,45 +230,38 @@ class CorpusTests(unittest.TestCase):
         write_json(self.root / "data/edited_transcripts" / (r["id"] + ".json"), r)
         return r
 
-    def test_training_selection_does_not_grant_review_approval(self):
-        r = self.create_edited_transcript()
-        write_json(
-            self.root / "selections/training.json",
-            {
-                "schema_version": 2,
-                "entries": [
-                    {
-                        "item_id": self.item["id"],
-                        "edited_transcript_id": r["id"],
-                        "confirmation_ids": [],
-                    }
-                ],
-            },
-        )
-        self.assertEqual(validate_corpus(self.root)["training_entries"], 1)
-        self.assertIs(
-            read_json(self.root / "data/edited_transcripts" / (r["id"] + ".json"))[
-                "quality"
-            ]["is_fully_human_reviewed"],
-            False,
-        )
+    def create_confirmation(self, edited):
+        text = edited["paragraphs"][0]["text"]
+        digest = hashlib.sha256(text.encode("utf-8")).hexdigest()
+        confirmation = {
+            "schema_version": 2,
+            "id": make_record_id("a", "confirmation"),
+            "kind": "confirmation",
+            "item_id": self.item["id"],
+            "edited_transcript_ids": [edited["id"]],
+            "scope": "local_text_or_term",
+            "anchor": {"original_text": text, "original_text_sha256": digest},
+            "corrected_text": text,
+            "corrected_text_sha256": digest,
+        }
+        write_jsonl(self.root / "data/confirmations.jsonl", [confirmation])
+        return confirmation
 
-    def test_training_selection_cannot_reference_another_item(self):
-        r = self.create_edited_transcript()
-        write_json(
-            self.root / "selections/training.json",
-            {
-                "schema_version": 2,
-                "entries": [
-                    {
-                        "item_id": make_record_id("i", "missing"),
-                        "edited_transcript_id": r["id"],
-                    }
-                ],
-            },
+    def test_local_confirmation_preserves_unknown_or_partial_review_status(self):
+        edited = self.create_edited_transcript()
+        self.create_confirmation(edited)
+        self.assertEqual(validate_corpus(self.root)["confirmations"], 1)
+        self.assertEqual(
+            read_json(self.root / "data/edited_transcripts" / (edited["id"] + ".json"))[
+                "quality"
+            ],
+            {"is_fully_human_reviewed": False, "requires_review": True},
         )
-        with self.assertRaisesRegex(ValueError, "training entry"):
-            validate_corpus(self.root)
+        self.assertIsNone(
+            read_json(self.root / "data/transcripts" / (self.transcript["id"] + ".json"))[
+                "quality"
+            ]["is_fully_human_reviewed"]
+        )
 
     def test_confirmation_is_located_by_original_text_hash(self):
         r = self.create_edited_transcript()
@@ -244,6 +284,81 @@ class CorpusTests(unittest.TestCase):
         write_jsonl(self.root / "data/confirmations.jsonl", [a])
         with self.assertRaisesRegex(ValueError, "anchor hash"):
             validate_corpus(self.root)
+
+    def test_confirmation_references_and_text_anchor_remain_required(self):
+        edited = self.create_edited_transcript()
+        original = self.create_confirmation(edited)
+        for changes, message in (
+            ({"edited_transcript_ids": []}, "no edited transcript anchor"),
+            (
+                {"edited_transcript_ids": [make_record_id("r", "missing")]},
+                "unresolved edited_transcripts",
+            ),
+            ({"item_id": make_record_id("i", "missing")}, "unresolved items"),
+            ({"corrected_text_sha256": "0" * 64}, "corrected text hash"),
+            (
+                {
+                    "anchor": {
+                        "original_text": "未出现的原文",
+                        "original_text_sha256": hashlib.sha256(
+                            "未出现的原文".encode("utf-8")
+                        ).hexdigest(),
+                    },
+                    "corrected_text": "未出现的修订",
+                    "corrected_text_sha256": hashlib.sha256(
+                        "未出现的修订".encode("utf-8")
+                    ).hexdigest(),
+                },
+                "confirmation text cannot be located",
+            ),
+        ):
+            with self.subTest(changes=changes):
+                row = copy.deepcopy(original)
+                row.update(changes)
+                write_jsonl(self.root / "data/confirmations.jsonl", [row])
+                with self.assertRaisesRegex(ValueError, message):
+                    validate_corpus(self.root)
+
+    def test_validation_ignores_optional_projection_configuration(self):
+        expected = validate_corpus(self.root)
+        self.assertFalse((self.root / "selections").exists())
+        for name in (
+            "training_entries", "release_items", "release_transcripts",
+            "release_paragraphs", "topics", "topic_entries",
+        ):
+            self.assertNotIn(name, expected)
+        for raw in ("{broken json", '{"schema_version": -1, "entries": [null]}'):
+            with self.subTest(raw=raw):
+                for name in ("training", "release", "topics"):
+                    path = self.root / "selections" / (name + ".json")
+                    path.parent.mkdir(exist_ok=True)
+                    path.write_text(raw, encoding="utf-8")
+                self.assertEqual(validate_corpus(self.root), expected)
+
+    def test_import_ignores_broken_optional_projection_configuration(self):
+        for name in ("training", "release", "topics"):
+            path = self.root / "selections" / (name + ".json")
+            path.parent.mkdir(exist_ok=True)
+            path.write_text("{broken json", encoding="utf-8")
+        new = copy.deepcopy(self.item)
+        new["id"] = make_record_id("i", "new")
+        new["identifiers"] = {"fixture": ["two"]}
+        source = self.root / "incoming.json"
+        write_json(source, new)
+        self.assertEqual(import_records(self.root, "items", source), 1)
+        self.assertEqual(validate_corpus(self.root)["items"], 2)
+        invalid = copy.deepcopy(self.transcript)
+        invalid["id"] = make_record_id("t", "missing-item")
+        invalid["item_id"] = make_record_id("i", "missing")
+        invalid["content_sha256"] = json_sha256(transcript_hash_input(invalid))
+        write_json(source, invalid)
+        before = (self.root / "data/items.jsonl").read_bytes()
+        with self.assertRaisesRegex(ValueError, "unresolved items"):
+            import_records(self.root, "transcripts", source)
+        self.assertEqual((self.root / "data/items.jsonl").read_bytes(), before)
+        self.assertEqual(len(list(iter_records(self.root, "transcripts"))), 1)
+        for path in (self.root / "selections").iterdir():
+            self.assertEqual(path.read_text(encoding="utf-8"), "{broken json")
 
     def test_canonical_import_is_idempotent(self):
         source = self.root / "incoming.json"
@@ -293,33 +408,138 @@ class CorpusTests(unittest.TestCase):
             with self.subTest(target=target), self.assertRaises(ValueError):
                 validate_export_path(self.root, str(self.root / target))
 
-    def test_sqlite_projection_retains_records_and_searches_chinese(self):
-        self.create_edited_transcript()
-        output = self.root / ".cache/search.sqlite3"
-        export_sqlite(self.root, output)
-        c = sqlite3.connect(output)
-        try:
+    def create_sqlite_records(self):
+        edited = self.create_edited_transcript()
+        self.create_confirmation(edited)
+        write_jsonl(
+            self.root / "data/collections.jsonl",
+            [{
+                "schema_version": 2,
+                "id": make_record_id("c", "fixture"),
+                "kind": "video_series",
+                "title": "测试集合",
+                "members": [{"item_id": self.item["id"], "position": 1}],
+            }],
+        )
+        write_jsonl(
+            self.root / "data/audio.jsonl",
+            [{
+                "schema_version": 2,
+                "id": make_record_id("a", "audio"),
+                "kind": "audio",
+                "sha256": "a" * 64,
+                "availability": "unavailable",
+                "item_ids": [self.item["id"]],
+            }],
+        )
+        write_jsonl(
+            self.root / "data/attributions.jsonl",
+            [{
+                "schema_version": 2,
+                "id": make_record_id("s", "fixture"),
+                "kind": "segment_attribution",
+                "item_id": self.item["id"],
+                "edited_transcript_id": edited["id"],
+                "anchor": {
+                    "paragraph_index": 0,
+                    "paragraph_text_sha256": hashlib.sha256(
+                        edited["text"].encode("utf-8")
+                    ).hexdigest(),
+                    "excerpt": None,
+                    "start": None,
+                    "end": None,
+                    "time_unit": "ms",
+                },
+                "speaker_role": "primary_speaker",
+                "viewpoint": "own_view",
+                "review": {
+                    "basis": "测试人工归属记录",
+                    "reviewer_label": "fixture",
+                    "reviewed_on": "2026-11-06",
+                    "review_timezone": "Asia/Hong_Kong",
+                    "reviewer_reported_watched_original_video": True,
+                    "assistant_listened_to_audio": False,
+                },
+                "status": "human_confirmed",
+                "urls": [],
+            }],
+        )
+        for table, prefix, kind, content in (
+            ("posts", "p", "post", {"content": {"text": "动态正文"}}),
+            ("articles", "w", "article", {"text": "文章正文"}),
+        ):
+            row = {
+                "schema_version": 2,
+                "id": make_record_id(prefix, table),
+                "kind": kind,
+                "item_id": self.item["id"],
+                "quality": {"is_fully_human_reviewed": None, "requires_review": False},
+                **content,
+            }
+            write_json(self.root / "data" / table / (row["id"] + ".json"), row)
+        validate_corpus(self.root)
+
+    def assert_sqlite_records(self, output):
+        with closing(sqlite3.connect(output)) as connection:
+            tables = {
+                row[0]
+                for row in connection.execute("select name from sqlite_master where type='table'")
+            }
+            self.assertNotIn("selections", tables)
+            for table in JSONL_TABLES + JSON_RECORD_TABLES:
+                with self.subTest(table=table):
+                    expected = {row["id"]: row for row, _ in iter_records(self.root, table)}
+                    actual = {
+                        record_id: json.loads(raw)
+                        for record_id, raw in connection.execute(
+                            "select id, record_json from " + table
+                        )
+                    }
+                    self.assertEqual(actual, expected)
             self.assertEqual(
-                c.execute("select count(*) from transcripts").fetchone()[0], 1
-            )
-            self.assertEqual(
-                c.execute("select count(*) from edited_transcripts").fetchone()[0], 1
-            )
-            self.assertEqual(
-                c.execute(
+                connection.execute(
                     "select count(*) from content_search where content_search match ?",
                     ('"物质世界"',),
                 ).fetchone()[0],
                 2,
             )
-            self.assertEqual(
-                json.loads(
-                    c.execute("select record_json from transcripts").fetchone()[0]
-                ),
-                self.transcript,
-            )
-        finally:
-            c.close()
+
+    def test_sqlite_projection_retains_records_and_searches_chinese(self):
+        self.create_sqlite_records()
+        self.assertFalse((self.root / "selections").exists())
+        output = self.root / ".cache/search.sqlite3"
+        export_sqlite(self.root, output)
+        self.assert_sqlite_records(output)
+
+    def test_cli_sqlite_export_ignores_broken_projections_but_validates_records(self):
+        self.create_sqlite_records()
+        for name in ("training", "release", "topics"):
+            path = self.root / "selections" / (name + ".json")
+            path.parent.mkdir(exist_ok=True)
+            path.write_text("{broken json", encoding="utf-8")
+        output = self.root / ".cache/search.sqlite3"
+        args = ["--root", str(self.root), "export", "--format", "sqlite", "--output", str(output)]
+        with redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
+            self.assertEqual(main(args), 0)
+        self.assert_sqlite_records(output)
+        before = output.read_bytes()
+        self.transcript["item_id"] = make_record_id("i", "missing")
+        self.save_transcript()
+        errors = io.StringIO()
+        with redirect_stdout(io.StringIO()), redirect_stderr(errors):
+            self.assertEqual(main(args), 1)
+        self.assertIn("unresolved items", errors.getvalue())
+        self.assertEqual(output.read_bytes(), before)
+
+    def test_cli_generate_without_selections_and_removed_selection_argument(self):
+        self.assertFalse((self.root / "selections").exists())
+        with redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
+            self.assertEqual(main(["--root", str(self.root), "generate"]), 0)
+            self.assertEqual(main(["--root", str(self.root), "generate", "--check"]), 0)
+            with self.assertRaises(SystemExit) as error:
+                main(["--root", str(self.root), "export", "--format", "review_issues", "--selection", "training"])
+        self.assertEqual(error.exception.code, 2)
+        self.assertFalse((self.root / "selections").exists())
 
     def test_recognition_chunk_tampering_fails_validation(self):
         self.transcript["recognition_chunks"] = [
@@ -488,7 +708,7 @@ class CorpusTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "edited transcript"):
             list(iter_review_issues(self.transcript))
 
-    def test_review_issues_export_all_id_and_selection_with_exact_locators(self):
+    def test_review_issues_export_all_and_id_with_exact_locators(self):
         row = self.create_edited_transcript()
         row["paragraphs"][0]["issues"] = [
             {"note": '待回听\n保留原有换行与引号"。'},
@@ -500,23 +720,9 @@ class CorpusTests(unittest.TestCase):
         write_json(
             self.root / "data/edited_transcripts" / (another["id"] + ".json"), another
         )
-        write_json(
-            self.root / "selections/training.json",
-            {
-                "schema_version": 2,
-                "entries": [
-                    {
-                        "item_id": self.item["id"],
-                        "edited_transcript_id": row["id"],
-                        "confirmation_ids": [],
-                    }
-                ],
-            },
-        )
         for scope, count in (
             ([], 4),
             (["--id", row["id"]], 2),
-            (["--selection", "training"], 2),
         ):
             with self.subTest(scope=scope):
                 output = self.root / ".cache/issues.jsonl"

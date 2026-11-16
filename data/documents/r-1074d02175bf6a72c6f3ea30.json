@@ -1,0 +1,255 @@
+{
+  "model": {
+    "name": "deepseek-flash"
+  },
+  "time_unit": "ms",
+  "text": "梅艳芳的调太低了。\n\n同是过路，同做过梦，本应是一对。人在少年，梦中不觉，醒后要归去。三餐一宿，也共一双，到底会是谁？但凡没得到，但凡是过去，总是最登对。\n\n台下你望，台上我做，你想做的戏。前世故人，忘忧的你，可曾记得起？欢喜伤悲，老病生死，说不上传奇。恨台上卿卿，或台下我我，不是我跟你。\n\n俗尘渺渺，天意茫茫，将你共我分开。断肠字点点，风雨声连连，似是故人来。何日再在，何地再聚，说今夜真暖。无份有缘，回忆不断，生命却苦短。一种相思，两段苦恋，半生说没完。在年月深渊，望明月远远，想象你幽怨。\n\n想象你忧郁啊，这歌词弄错了，不是“想象你幽怨”，是“想象你忧郁”。\n\n俗尘渺渺，天意茫茫，将你共我分开。断肠字点点，风雨声连连，似是故人来。留下你或留下我，在世间上终老。离别以前，未知相对，当日那么好。\n\n执子之手，却又分手，爱得有还无。十年后双双，万年后对对，只恨看不到。啊，不好意思啊。\n",
+  "quality": {
+    "is_fully_human_reviewed": false,
+    "requires_review": true,
+    "status": "needs_review"
+  },
+  "id": "r-1074d02175bf6a72c6f3ea30",
+  "kind": "edited_transcript",
+  "metadata": {
+    "revision_id": [
+      "01d9444166d52497054aa680543e426b0814cba1e2884f676fcf50682650a0c9"
+    ],
+    "input_id": [
+      "095e40321918e5394e486a8b2e1eb6cfeaf06ae6fed7d0ae241daeffa7fc91f5"
+    ],
+    "generated_at_unix_seconds": [
+      1793644002
+    ]
+  },
+  "is_complete": true,
+  "notes_markdown": "# 【唱歌酬宾】7\\-22  似是故人来、祝福、一生所爱、灰色轨迹、夜机、沧海一声笑、相思湖畔、张三的歌：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`01d9444166d52497054aa680543e426b0814cba1e2884f676fcf50682650a0c9`\n\n输入快照：`095e40321918e5394e486a8b2e1eb6cfeaf06ae6fed7d0ae241daeffa7fc91f5`\n\n模型：`deepseek-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2296`；参考转录：`3312`",
+  "_legacy": {
+    "table": "edited_transcripts",
+    "keys": [
+      "id",
+      "is_complete",
+      "item_id",
+      "kind",
+      "metadata",
+      "model",
+      "notes_markdown",
+      "paragraphs",
+      "paragraphs_match_text",
+      "quality",
+      "schema_version",
+      "text",
+      "time_unit",
+      "transcript_ids"
+    ],
+    "derived": [
+      "paragraphs_match_text"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-8d2907dce8fce496a03b63ed"
+    },
+    {
+      "role": "transcript",
+      "target_id": "t-37583654c2fef0e0bf2ae66c"
+    }
+  ],
+  "blocks": [
+    {
+      "issues": [
+        {
+          "candidate": "调/版本",
+          "note": "原话“梅艳芳的太低了”省略了中心词，结合唱歌语境理解为音调太低，正文补为“调”。",
+          "evidence_labels": [
+            "t3312:s0"
+          ]
+        }
+      ],
+      "start": 1680,
+      "end": 3280,
+      "input_unit_labels": [
+        "t2296:s0"
+      ],
+      "range": [
+        0,
+        9
+      ],
+      "input_text_ref": {
+        "target_id": "t-37583654c2fef0e0bf2ae66c",
+        "content_sha256": "fcc04bc7423300a614768d077956ca0737bba795eaf2d7825fc366e9ac1202f1",
+        "source": "text",
+        "range": [
+          0,
+          8
+        ]
+      }
+    },
+    {
+      "issues": [],
+      "start": 20000,
+      "end": 49520,
+      "input_unit_labels": [
+        "t2296:s1",
+        "t2296:s2",
+        "t2296:s3",
+        "t2296:s4"
+      ],
+      "range": [
+        11,
+        77
+      ],
+      "input_text_ref": {
+        "target_id": "t-37583654c2fef0e0bf2ae66c",
+        "content_sha256": "fcc04bc7423300a614768d077956ca0737bba795eaf2d7825fc366e9ac1202f1",
+        "source": "segments",
+        "range": [
+          8,
+          74
+        ]
+      }
+    },
+    {
+      "issues": [],
+      "start": 51520,
+      "end": 81200,
+      "input_unit_labels": [
+        "t2296:s5",
+        "t2296:s6",
+        "t2296:s7",
+        "t2296:s8"
+      ],
+      "range": [
+        79,
+        145
+      ],
+      "input_text_ref": {
+        "target_id": "t-37583654c2fef0e0bf2ae66c",
+        "content_sha256": "fcc04bc7423300a614768d077956ca0737bba795eaf2d7825fc366e9ac1202f1",
+        "source": "segments",
+        "range": [
+          74,
+          140
+        ]
+      }
+    },
+    {
+      "issues": [],
+      "start": 82880,
+      "end": 140000,
+      "input_unit_labels": [
+        "t2296:s9",
+        "t2296:s10",
+        "t2296:s11",
+        "t2296:s12",
+        "t2296:s13"
+      ],
+      "range": [
+        147,
+        248
+      ],
+      "input_text_ref": {
+        "target_id": "t-37583654c2fef0e0bf2ae66c",
+        "content_sha256": "fcc04bc7423300a614768d077956ca0737bba795eaf2d7825fc366e9ac1202f1",
+        "source": "segments",
+        "range": [
+          140,
+          241
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "幽怨/忧郁",
+          "note": "参考字幕将此处识别为“优越”，正文按原话及歌词语境保留“幽怨/忧郁”。",
+          "evidence_labels": [
+            "t3312:s31",
+            "t3312:s32"
+          ]
+        }
+      ],
+      "start": 142560,
+      "end": 149920,
+      "input_unit_labels": [
+        "t2296:s14"
+      ],
+      "range": [
+        250,
+        283
+      ],
+      "input_text_ref": {
+        "target_id": "t-37583654c2fef0e0bf2ae66c",
+        "content_sha256": "fcc04bc7423300a614768d077956ca0737bba795eaf2d7825fc366e9ac1202f1",
+        "source": "text",
+        "range": [
+          255,
+          284
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "终老",
+          "note": "“钟楼”与前句末尾相连，应为“终老”，正文合并为“在世间上终老”。",
+          "evidence_labels": [
+            "t3312:s39"
+          ]
+        }
+      ],
+      "start": 161520,
+      "end": 190969,
+      "input_unit_labels": [
+        "t2296:s15",
+        "t2296:s16",
+        "t2296:s17"
+      ],
+      "range": [
+        285,
+        351
+      ],
+      "input_text_ref": {
+        "target_id": "t-37583654c2fef0e0bf2ae66c",
+        "content_sha256": "fcc04bc7423300a614768d077956ca0737bba795eaf2d7825fc366e9ac1202f1",
+        "source": "segments",
+        "range": [
+          270,
+          336
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "看不到",
+          "note": "参考字幕作“只恨看不到”，ASR作“只恨看不透”，正文取“看不到”。",
+          "evidence_labels": [
+            "t3312:s47"
+          ]
+        }
+      ],
+      "start": 192729,
+      "end": 239449,
+      "input_unit_labels": [
+        "t2296:s18",
+        "t2296:s19",
+        "t2296:s20"
+      ],
+      "range": [
+        353,
+        395
+      ],
+      "input_text_ref": {
+        "target_id": "t-37583654c2fef0e0bf2ae66c",
+        "content_sha256": "fcc04bc7423300a614768d077956ca0737bba795eaf2d7825fc366e9ac1202f1",
+        "source": "segments",
+        "range": [
+          336,
+          405
+        ]
+      }
+    }
+  ]
+}

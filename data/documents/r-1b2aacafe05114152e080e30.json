@@ -1,0 +1,130 @@
+{
+  "model": {
+    "name": "deepseek-v4.1-flash"
+  },
+  "time_unit": "ms",
+  "text": "某个境内自媒体从业人士，我现在警告你：你在境外组建群组引流，并主导其中的管理制度。那么在你所组建的这个群组当中，无论是你的核心粉丝，还是外面大群的外围粉丝，由于你是唯一的第一责任人，你必须——我现在警告你——即刻停止对我和我的团体的侮辱、诽谤、陷害，停止你那些针对我和我的团队的肮脏造谣、栽赃，即刻停止。\n\n至于你那些东西，以及涉及其他自然人、其他社会现象等的其他事情，其中也有不法、非法的东西。老实说，我现在只顾着找我自己。即刻停止。\n",
+  "quality": {
+    "is_fully_human_reviewed": false,
+    "requires_review": true,
+    "status": "needs_review"
+  },
+  "id": "r-1b2aacafe05114152e080e30",
+  "kind": "edited_transcript",
+  "metadata": {
+    "revision_id": [
+      "4b1dfc7ef3f4b3fdc0410b736fdbacc4cb56e7689a6bdbb8868f3949920756be"
+    ],
+    "input_id": [
+      "c51c35d67ee8011c5e23bb8f740a1b17e92d4d4dc5f764ef24b57a6ff1a4d39c"
+    ],
+    "generated_at_unix_seconds": [
+      1793617826
+    ]
+  },
+  "is_complete": true,
+  "notes_markdown": "# 【警告】某个自媒体人士，即刻停止对我的严重不法侵害：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`4b1dfc7ef3f4b3fdc0410b736fdbacc4cb56e7689a6bdbb8868f3949920756be`\n\n输入快照：`c51c35d67ee8011c5e23bb8f740a1b17e92d4d4dc5f764ef24b57a6ff1a4d39c`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`611`；参考转录：`961`",
+  "_legacy": {
+    "table": "edited_transcripts",
+    "keys": [
+      "id",
+      "is_complete",
+      "item_id",
+      "kind",
+      "metadata",
+      "model",
+      "notes_markdown",
+      "paragraphs",
+      "paragraphs_match_text",
+      "quality",
+      "schema_version",
+      "text",
+      "time_unit",
+      "transcript_ids"
+    ],
+    "derived": [
+      "paragraphs_match_text"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-46c4c38d98894e5a469c2d17"
+    },
+    {
+      "role": "transcript",
+      "target_id": "t-162703c6f11bded0b6ae3315"
+    }
+  ],
+  "blocks": [
+    {
+      "issues": [],
+      "start": 480,
+      "end": 62800,
+      "input_unit_labels": [
+        "t611:s0",
+        "t611:s1",
+        "t611:s2",
+        "t611:s3",
+        "t611:s4",
+        "t611:s5",
+        "t611:s6",
+        "t611:s7",
+        "t611:s8"
+      ],
+      "range": [
+        0,
+        152
+      ],
+      "input_text_ref": {
+        "target_id": "t-162703c6f11bded0b6ae3315",
+        "content_sha256": "4a63765fc4a0ab6600b14c96cb4a9c96be34d8ba29df9723ae3c311f00b5a16a",
+        "source": "segments",
+        "range": [
+          0,
+          163
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "",
+          "note": "原文“对于你你那些东西……也有一些不法的、非法的那种”指代和句法不完整，“你那些东西”及“不法、非法”的具体指向不明。",
+          "evidence_labels": [
+            "t961:s14",
+            "t961:s18",
+            "t961:s19"
+          ]
+        },
+        {
+          "candidate": "",
+          "note": "末尾“即刻停止”与前文“我现在只顾着找我自己”之间的关系不够明确，正文按原话保留为独立祈使句。",
+          "evidence_labels": [
+            "t961:s20",
+            "t961:s21"
+          ]
+        }
+      ],
+      "start": 63520,
+      "end": 78720,
+      "input_unit_labels": [
+        "t611:s9",
+        "t611:s10"
+      ],
+      "range": [
+        154,
+        218
+      ],
+      "input_text_ref": {
+        "target_id": "t-162703c6f11bded0b6ae3315",
+        "content_sha256": "4a63765fc4a0ab6600b14c96cb4a9c96be34d8ba29df9723ae3c311f00b5a16a",
+        "source": "segments",
+        "range": [
+          163,
+          237
+        ]
+      }
+    }
+  ]
+}

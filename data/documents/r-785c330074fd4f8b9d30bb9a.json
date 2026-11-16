@@ -1,0 +1,243 @@
+{
+  "model": {
+    "name": "deepseek-v4.1-flash"
+  },
+  "time_unit": "ms",
+  "text": "这也是之前写的一首。\n\n玉兰清雨时，风吹散两枝，落去谁人知？同是一般痴，在晚风轻拂的琉璃湖边，飘零有几片，更无需思量风的语言，不觉在耳边。\n\n玉兰清雨时，风吹散两枝，千问谁人知？秋去春来迟，在名利难免去痴人间；飘零有几片，倒也叫无情多情人间，不必费遮掩。\n\n玉兰清雨时，风吹散两枝，世情清冷，更胜过秋风；不留丝雪涟漪，乍惊欢恨，无语吹寒意，扎进荒痕。\n",
+  "quality": {
+    "is_fully_human_reviewed": false,
+    "requires_review": true,
+    "status": "needs_review"
+  },
+  "id": "r-785c330074fd4f8b9d30bb9a",
+  "kind": "edited_transcript",
+  "metadata": {
+    "revision_id": [
+      "e99fda449edc9e1bd07a394009dffc758cdbc912fc15d861031c0f61704bde1a"
+    ],
+    "input_id": [
+      "d5fd4fbeef57447d711b79965571d9dbea700b39483f7dfb5a70f96218dfc711"
+    ],
+    "generated_at_unix_seconds": [
+      1793630988
+    ]
+  },
+  "is_complete": true,
+  "notes_markdown": "# 【作词翻唱】秋叶：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`e99fda449edc9e1bd07a394009dffc758cdbc912fc15d861031c0f61704bde1a`\n\n输入快照：`d5fd4fbeef57447d711b79965571d9dbea700b39483f7dfb5a70f96218dfc711`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`1037`；参考转录：`1264`",
+  "_legacy": {
+    "table": "edited_transcripts",
+    "keys": [
+      "id",
+      "is_complete",
+      "item_id",
+      "kind",
+      "metadata",
+      "model",
+      "notes_markdown",
+      "paragraphs",
+      "paragraphs_match_text",
+      "quality",
+      "schema_version",
+      "text",
+      "time_unit",
+      "transcript_ids"
+    ],
+    "derived": [
+      "paragraphs_match_text"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-6d639439bc962866b4691440"
+    },
+    {
+      "role": "transcript",
+      "target_id": "t-f7307d3bd7489184cf2a8a7f"
+    }
+  ],
+  "blocks": [
+    {
+      "issues": [],
+      "start": 400,
+      "end": 1920,
+      "input_unit_labels": [
+        "t1037:s0"
+      ],
+      "range": [
+        0,
+        10
+      ],
+      "input_text_ref": {
+        "target_id": "t-f7307d3bd7489184cf2a8a7f",
+        "content_sha256": "db1b7159c1f7b6b6862e7b9d4fe4c8d1b165ba42f1bba4f5e5169d84d524c784",
+        "source": "text",
+        "range": [
+          0,
+          12
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "玉兰清玉石",
+          "note": "“玉兰清雨时”在参考字幕中作“玉兰清玉石”，具体用字不确定。",
+          "evidence_labels": [
+            "t1264:s2"
+          ]
+        },
+        {
+          "candidate": "抹去谁人知",
+          "note": "“落去谁人知”在参考字幕中作“抹去谁人知”，动词用字待核。",
+          "evidence_labels": [
+            "t1264:s4"
+          ]
+        },
+        {
+          "candidate": "同是一半痴",
+          "note": "“同是一般痴”在参考字幕中作“同是一半痴”，此处字词不确定。",
+          "evidence_labels": [
+            "t1264:s5"
+          ]
+        },
+        {
+          "candidate": "风流的湖边",
+          "note": "“琉璃湖边”在参考字幕中作“风流的湖边”，具体修饰语待核。",
+          "evidence_labels": [
+            "t1264:s6"
+          ]
+        },
+        {
+          "candidate": "更无须似凉风的语言",
+          "note": "“更无需思量风的语言”在参考字幕中作“更无须似凉风的语言”，断句和用字不确定。",
+          "evidence_labels": [
+            "t1264:s8"
+          ]
+        }
+      ],
+      "start": 26880,
+      "end": 80080,
+      "input_unit_labels": [
+        "t1037:s1",
+        "t1037:s2",
+        "t1037:s3",
+        "t1037:s4"
+      ],
+      "range": [
+        12,
+        69
+      ],
+      "input_text_ref": {
+        "target_id": "t-f7307d3bd7489184cf2a8a7f",
+        "content_sha256": "db1b7159c1f7b6b6862e7b9d4fe4c8d1b165ba42f1bba4f5e5169d84d524c784",
+        "source": "segments",
+        "range": [
+          12,
+          68
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "绿蓝青玉石",
+          "note": "“玉兰清雨时”在参考字幕中作“绿蓝青玉石”，首句用字待核。",
+          "evidence_labels": [
+            "t1264:s10"
+          ]
+        },
+        {
+          "candidate": "千万谁人知",
+          "note": "“千问谁人知”在参考字幕中作“千万谁人知”，疑问词不确定。",
+          "evidence_labels": [
+            "t1264:s12"
+          ]
+        },
+        {
+          "candidate": "在命理难远，去痴人间",
+          "note": "“在名利难免去痴人间”参考字幕作“在命理难远/去吃人间”，语义和断句不清。",
+          "evidence_labels": [
+            "t1264:s14",
+            "t1264:s15"
+          ]
+        },
+        {
+          "candidate": "到也叫无情多情人间",
+          "note": "“倒也叫无情多情人间”在参考字幕中作“到也叫无情多情人间”，虚词用字待核。",
+          "evidence_labels": [
+            "t1264:s16"
+          ]
+        }
+      ],
+      "start": 86880,
+      "end": 143600,
+      "input_unit_labels": [
+        "t1037:s5",
+        "t1037:s6",
+        "t1037:s7",
+        "t1037:s8"
+      ],
+      "range": [
+        71,
+        127
+      ],
+      "input_text_ref": {
+        "target_id": "t-f7307d3bd7489184cf2a8a7f",
+        "content_sha256": "db1b7159c1f7b6b6862e7b9d4fe4c8d1b165ba42f1bba4f5e5169d84d524c784",
+        "source": "segments",
+        "range": [
+          68,
+          124
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "是轻轻难以感胜过乔峰",
+          "note": "“世情清冷，更胜过秋风”与参考字幕“是轻轻难以感胜过乔峰”差异较大，具体词句待核。",
+          "evidence_labels": [
+            "t1264:s22"
+          ]
+        },
+        {
+          "candidate": "不留40年依",
+          "note": "“不留丝雪涟漪”参考字幕作“不留40年依”，用字不确定。",
+          "evidence_labels": [
+            "t1264:s23"
+          ]
+        },
+        {
+          "candidate": "扎破尽黄昏",
+          "note": "“扎进荒痕”参考字幕作“照进黄河”“扎破尽黄昏”，末句字词待核。",
+          "evidence_labels": [
+            "t1264:s24",
+            "t1264:s25"
+          ]
+        }
+      ],
+      "start": 143600,
+      "end": 189488,
+      "input_unit_labels": [
+        "t1037:s9",
+        "t1037:s10",
+        "t1037:s11",
+        "t1037:s12"
+      ],
+      "range": [
+        129,
+        175
+      ],
+      "input_text_ref": {
+        "target_id": "t-f7307d3bd7489184cf2a8a7f",
+        "content_sha256": "db1b7159c1f7b6b6862e7b9d4fe4c8d1b165ba42f1bba4f5e5169d84d524c784",
+        "source": "segments",
+        "range": [
+          124,
+          169
+        ]
+      }
+    }
+  ]
+}

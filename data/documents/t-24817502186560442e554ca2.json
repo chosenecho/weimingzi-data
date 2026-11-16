@@ -1,0 +1,155 @@
+{
+  "kind": "transcript",
+  "method": "asr_local",
+  "language": "Chinese",
+  "model": {
+    "revision": "bcd2b5b7f32b480ab5790554cfa8347f246a14f3",
+    "name": "source://production/models/Qwen3-ASR-1.7B-hf"
+  },
+  "time_unit": "ms",
+  "text": "沧海一声笑，滔滔两岸潮。\n浮沉聚散，知己今朝。\n苍天笑，纷纷世上潮。\n谁负谁胜出，天知晓。\n江山笑，烟雨遥。\n头棱头枕红尘俗世几多娇。\n清风笑，竟一夕了。\n后尘还剩了一今晚照。苍生笑，不再寂寥。\n豪情仍在，痴痴笑笑。\n啦啦啦啦啦，啦啦啦啦啦，啦啦啦啦啦啦啦啦，啦啦啦啦啦啦，啦啦啦啦啦啦啦啦，啦啦啦啦啦啦，啦啦",
+  "quality": {
+    "is_fully_human_reviewed": null,
+    "requires_review": null,
+    "is_subtitle_export_enabled": null
+  },
+  "id": "t-24817502186560442e554ca2",
+  "content_sha256": "4d192ad0398df67083d368e4ec4fc3da882a0b2fe7544d4143383a61e465b024",
+  "metadata": {
+    "content_sha256": [
+      "9b47020954dddedefb38e4f4dd213aa81d5b9a9b9c32074c3424fdd0c5b7690a",
+      "57a51018f98b212ab888eccd4e7b2d992152615c4685888e0e5130a25c3f9c90"
+    ],
+    "transcript_id": [
+      2209
+    ],
+    "video_part_id": [
+      1479
+    ],
+    "source_kind": [
+      "asr-local"
+    ],
+    "model_id": [
+      1
+    ],
+    "version": [
+      1
+    ],
+    "generated_at_unix_seconds": [
+      1793510533
+    ]
+  },
+  "_legacy": {
+    "table": "transcripts",
+    "keys": [
+      "audio_ids",
+      "content_sha256",
+      "id",
+      "item_id",
+      "kind",
+      "language",
+      "metadata",
+      "method",
+      "model",
+      "quality",
+      "schema_version",
+      "segments",
+      "text",
+      "time_unit"
+    ],
+    "derived": [
+      "quality.timing_issues"
+    ],
+    "metadata_aliases": {
+      "language": "$language"
+    }
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-f149b5fe3712750e4d99d0db"
+    }
+  ],
+  "blocks": [
+    {
+      "start": 90960,
+      "end": 98720,
+      "range": [
+        0,
+        12
+      ]
+    },
+    {
+      "start": 99200,
+      "end": 105360,
+      "range": [
+        13,
+        23
+      ]
+    },
+    {
+      "start": 105760,
+      "end": 111280,
+      "range": [
+        24,
+        34
+      ]
+    },
+    {
+      "start": 113840,
+      "end": 121840,
+      "range": [
+        35,
+        45
+      ]
+    },
+    {
+      "start": 121840,
+      "end": 127040,
+      "range": [
+        46,
+        54
+      ]
+    },
+    {
+      "start": 127040,
+      "end": 133680,
+      "range": [
+        55,
+        67
+      ]
+    },
+    {
+      "start": 133920,
+      "end": 142720,
+      "range": [
+        68,
+        77
+      ]
+    },
+    {
+      "start": 142800,
+      "end": 144640,
+      "range": [
+        78,
+        97
+      ]
+    },
+    {
+      "start": 179649,
+      "end": 185329,
+      "range": [
+        98,
+        108
+      ]
+    },
+    {
+      "start": 194449,
+      "end": 211009,
+      "range": [
+        109,
+        155
+      ]
+    }
+  ]
+}

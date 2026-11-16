@@ -2,10 +2,14 @@
 
 import hashlib
 import importlib.util
+import io
+import json
 import sys
 import tempfile
 import unittest
+from contextlib import redirect_stdout
 from pathlib import Path
+from unittest.mock import patch
 from zipfile import ZipFile
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
@@ -120,6 +124,58 @@ class AudioRestoreTests(unittest.TestCase):
         write_jsonl(audio.ROOT / "data/audio.jsonl", [self.index_record()])
         group = audio.load_audio_archive_groups()["fixture/audio.zip"]
         self.assertEqual(group["files"], [self.row])
+
+    def write_v3_index(self):
+        from weimingzi_corpus.schema_v3 import write_legacy_dataset
+
+        record = self.index_record()
+        archive = self.bundle([(self.row["member_path"], self.payload)])
+        record["downloads"][0]["archive"].update(
+            size_bytes=archive.stat().st_size, sha256=audio.file_sha256(archive)
+        )
+        write_legacy_dataset(audio.ROOT, {"audio": [record]})
+        return archive
+
+    def test_v3_assets_restore_original_zip_bytes_with_default_index(self):
+        archive = self.write_v3_index()
+        self.assertEqual(audio.audio_index_context()["path"], (audio.ROOT / "data/assets.jsonl").resolve())
+        group = audio.load_audio_archive_groups()["fixture/audio.zip"]
+        self.assertEqual(group["release_tag"], "fixture")
+        self.assertEqual(group["files"], [self.row])
+        self.assertEqual(group["archive"]["sha256"], audio.file_sha256(archive))
+        with patch.object(audio, "download_archive", return_value=archive) as download:
+            with redirect_stdout(io.StringIO()):
+                self.assertEqual(audio.main([]), 0)
+                self.assertEqual(audio.main(["--verify-only"]), 0)
+            download.assert_called_once_with(group["archive"], "fixture")
+        self.assertEqual((audio.ROOT / self.row["local_path"]).read_bytes(), self.payload)
+
+    def test_v3_explicit_assets_index_uses_archive_projection(self):
+        self.write_v3_index()
+        self.assertEqual(
+            audio.load_audio_archive_groups("data/assets.jsonl"),
+            audio.load_audio_archive_groups(),
+        )
+        with redirect_stdout(io.StringIO()) as output:
+            self.assertEqual(audio.main(["--list"]), 0)
+        self.assertEqual(json.loads(output.getvalue())["audio_files"], 1)
+
+    def test_v3_audio_projection_needs_only_schema_and_assets(self):
+        self.write_v3_index()
+        for name in ("items.jsonl", "annotations.jsonl"):
+            (audio.ROOT / "data" / name).write_text("unrelated invalid JSON", encoding="utf-8")
+        self.assertEqual(audio.load_audio_archive_groups()["fixture/audio.zip"]["files"], [self.row])
+
+    def test_explicit_legacy_index_overrides_v3_default(self):
+        self.write_v3_index()
+        record = self.index_record()
+        record["downloads"][0]["release_tag"] = "legacy"
+        write_jsonl(audio.ROOT / "data/legacy-audio.jsonl", [record])
+        self.assertEqual(
+            list(audio.load_audio_archive_groups("data/legacy-audio.jsonl")),
+            ["legacy/audio.zip"],
+        )
+        self.assertEqual(audio.audio_index_context("data/legacy-audio.jsonl")["dependencies"], [])
 
     def test_duplicate_restore_destinations_are_rejected(self):
         one = self.index_record()

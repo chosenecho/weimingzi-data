@@ -1,0 +1,271 @@
+{
+  "model": {
+    "name": "deepseek-v4.1-flash"
+  },
+  "time_unit": "ms",
+  "text": "我今天来唱一首歌，悼念一位朋友。这首歌用的是《三国志十》那个游戏里大地图上的主题曲——那个年代的小男生都玩，我也是从那个年代过来的。按理说，大地图主题曲应该很有雄心壮志，但那首曲子的名字偏偏叫《追悼之情》，所以正好用这个曲子来填词。\n\n晴空看几鹤舞，秋水一缕，飞去去不归。风还几分朦胧，轻轻风坠，去去无踪。风追人不追，浮世飞飞；风追何不归？是随。风追人不回，无追。\n\n一缕飞去，去不归；纷匆匆起离合，路漫漫修远无所。纷匆匆起离合，云泥斑斓如昨。魂魄归来兮无痕锁，魂魄归来兮如何锁？魂魄归来兮日夜锁，魂魄归来兮其无所，魂魄归来兮愁欲锁。\n\n因为这是《追悼之情》，所以唱得有点宗教仪式的感觉。当然，人死不能复生，我是个辩证唯物主义者。所以，我用了一些楚辞里的典故，包括“公无渡河”——就是非要渡河，然后嗝屁了。“无追”“追之不及”也都是化用典故。\n\n好了，那就讲到这边，唱到这边就到这里。哦对，还有一个悼词，是当时朋友刚去世没几天时写的，我会把它投到专栏里面去。\n",
+  "quality": {
+    "is_fully_human_reviewed": false,
+    "requires_review": true,
+    "status": "needs_review"
+  },
+  "id": "r-d767a62a6093da40397b71c4",
+  "kind": "edited_transcript",
+  "metadata": {
+    "revision_id": [
+      "681e81acbcc7b424726ffb0c5d2ba83c79fbaeb27baf01e294e090a14fa67179"
+    ],
+    "input_id": [
+      "c9fce1c52fb0e74bfad5dc59779b0f7255d482a79830489e314a56c46cc10928"
+    ],
+    "generated_at_unix_seconds": [
+      1793637605
+    ]
+  },
+  "is_complete": true,
+  "notes_markdown": "# 【旧曲新唱】追悼之情：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`681e81acbcc7b424726ffb0c5d2ba83c79fbaeb27baf01e294e090a14fa67179`\n\n输入快照：`c9fce1c52fb0e74bfad5dc59779b0f7255d482a79830489e314a56c46cc10928`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`1786`；参考转录：`2807`",
+  "_legacy": {
+    "table": "edited_transcripts",
+    "keys": [
+      "id",
+      "is_complete",
+      "item_id",
+      "kind",
+      "metadata",
+      "model",
+      "notes_markdown",
+      "paragraphs",
+      "paragraphs_match_text",
+      "quality",
+      "schema_version",
+      "text",
+      "time_unit",
+      "transcript_ids"
+    ],
+    "derived": [
+      "paragraphs_match_text"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-e333328efc57121594aa4df3"
+    },
+    {
+      "role": "transcript",
+      "target_id": "t-028df309b5da782852dcf9de"
+    }
+  ],
+  "blocks": [
+    {
+      "issues": [
+        {
+          "candidate": "我也是从那个年代过来的",
+          "note": "原话“我的那个年代”较含混，正文按“我也是从那个年代过来的”处理；是否指说话者也玩过该游戏不确定。",
+          "evidence_labels": [
+            "t1786:s1",
+            "t2807:s3",
+            "t2807:s4"
+          ]
+        }
+      ],
+      "start": 800,
+      "end": 42720,
+      "input_unit_labels": [
+        "t1786:s0",
+        "t1786:s1",
+        "t1786:s2",
+        "t1786:s3"
+      ],
+      "range": [
+        0,
+        116
+      ],
+      "input_text_ref": {
+        "target_id": "t-028df309b5da782852dcf9de",
+        "content_sha256": "724e95d47524ea14120f1b75d5f2450c1f7cab691225fa3374572ebca78059aa",
+        "source": "segments",
+        "range": [
+          0,
+          137
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "晴空看几鹤舞，秋水一缕",
+          "note": "“晴空看几鹤舞，秋水一缕”依据参考字幕整理，原ASR为“晴空看几河无秋水”，歌词字句不确定。",
+          "evidence_labels": [
+            "t1786:s4",
+            "t2807:s10",
+            "t2807:s11"
+          ]
+        },
+        {
+          "candidate": "风还几分朦胧，轻轻风坠",
+          "note": "“风还”“风坠”在ASR中作“风唤”“追去”，参考字幕作“风还”“风坠”，正文取后者，仍不能完全确认。",
+          "evidence_labels": [
+            "t1786:s5",
+            "t2807:s13",
+            "t2807:s14"
+          ]
+        },
+        {
+          "candidate": "风追/风坠；是随/是十岁；无追/怨不悔",
+          "note": "“风追人不追……是随……无追”与参考字幕“风坠人不醉……是十岁……风坠怨不悔”差异较大，歌词用字及“是随”含义不确定。",
+          "evidence_labels": [
+            "t1786:s6",
+            "t1786:s7",
+            "t2807:s15",
+            "t2807:s16",
+            "t2807:s17",
+            "t2807:s18",
+            "t2807:s19"
+          ]
+        }
+      ],
+      "start": 56400,
+      "end": 98800,
+      "input_unit_labels": [
+        "t1786:s4",
+        "t1786:s5",
+        "t1786:s6",
+        "t1786:s7"
+      ],
+      "range": [
+        118,
+        182
+      ],
+      "input_text_ref": {
+        "target_id": "t-028df309b5da782852dcf9de",
+        "content_sha256": "724e95d47524ea14120f1b75d5f2450c1f7cab691225fa3374572ebca78059aa",
+        "source": "segments",
+        "range": [
+          137,
+          198
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "分匆匆/分纵纵/纷匆匆",
+          "note": "“纷匆匆起离合”原作“分匆匆起离合”，参考字幕作“分纵纵起离合”，用字不确定，正文按语义整理为“纷匆匆”。",
+          "evidence_labels": [
+            "t1786:s8",
+            "t2807:s21"
+          ]
+        },
+        {
+          "candidate": "无踪",
+          "note": "“路漫漫修远无所”中“无所”为ASR原文，参考字幕作“无踪”。",
+          "evidence_labels": [
+            "t1786:s8",
+            "t2807:s22"
+          ]
+        },
+        {
+          "candidate": "其无踪",
+          "note": "“魂魄归来兮其无所”中“其无所”为ASR原文，参考字幕作“其无踪”。",
+          "evidence_labels": [
+            "t1786:s11",
+            "t2807:s28"
+          ]
+        },
+        {
+          "candidate": "愁与锁",
+          "note": "“愁欲锁”与参考字幕“愁与锁”不同，歌词用字不确定。",
+          "evidence_labels": [
+            "t1786:s11",
+            "t2807:s30"
+          ]
+        }
+      ],
+      "start": 98800,
+      "end": 126800,
+      "input_unit_labels": [
+        "t1786:s8",
+        "t1786:s9",
+        "t1786:s10",
+        "t1786:s11"
+      ],
+      "range": [
+        184,
+        267
+      ],
+      "input_text_ref": {
+        "target_id": "t-028df309b5da782852dcf9de",
+        "content_sha256": "724e95d47524ea14120f1b75d5f2450c1f7cab691225fa3374572ebca78059aa",
+        "source": "segments",
+        "range": [
+          198,
+          280
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "不渡河",
+          "note": "“公无渡河”原话较明确，参考字幕作“不渡河”，正文从原话作“公无渡河”。",
+          "evidence_labels": [
+            "t1786:s13",
+            "t2807:s36"
+          ]
+        }
+      ],
+      "start": 132720,
+      "end": 157360,
+      "input_unit_labels": [
+        "t1786:s12",
+        "t1786:s13",
+        "t1786:s14"
+      ],
+      "range": [
+        269,
+        371
+      ],
+      "input_text_ref": {
+        "target_id": "t-028df309b5da782852dcf9de",
+        "content_sha256": "724e95d47524ea14120f1b75d5f2450c1f7cab691225fa3374572ebca78059aa",
+        "source": "segments",
+        "range": [
+          280,
+          389
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "当时刚去世没几天",
+          "note": "原话“当时刚去世没几天”未说出主语，正文按上下文补为“朋友刚去世”。",
+          "evidence_labels": [
+            "t1786:s16",
+            "t2807:s46"
+          ]
+        }
+      ],
+      "start": 157520,
+      "end": 171040,
+      "input_unit_labels": [
+        "t1786:s15",
+        "t1786:s16"
+      ],
+      "range": [
+        373,
+        429
+      ],
+      "input_text_ref": {
+        "target_id": "t-028df309b5da782852dcf9de",
+        "content_sha256": "724e95d47524ea14120f1b75d5f2450c1f7cab691225fa3374572ebca78059aa",
+        "source": "segments",
+        "range": [
+          389,
+          452
+        ]
+      }
+    }
+  ]
+}

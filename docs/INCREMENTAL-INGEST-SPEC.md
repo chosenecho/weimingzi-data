@@ -1,6 +1,6 @@
 # 增量更新入口详细设计
 
-状态：消费侧本地内核的首阶段已实现，云端传输、生产端 outbox、GitHub Actions 接收和自动 PR 仍是后续阶段。本文定义完整目标；以[入口概览](INCREMENTAL-INGEST.md)与[维护说明](MAINTENANCE.md)中的当前实现状态为准。
+历史设计：本文件保留增量接收方案及当时的阶段判断。已实现的是维护侧本地接收内核；云端传输、生产端 outbox、GitHub Actions 接收和自动 PR 为设计目标。当前操作以[入口概览](INCREMENTAL-INGEST.md)与[维护说明](MAINTENANCE.md)为准；训练选稿与发布策略已按[消费配置交接](RELEASE.md)迁至制作工程。
 
 ## 设计决策与依据
 
@@ -9,7 +9,7 @@
 | 仅向 `chosenecho/weimingzi-data` 提交 | 本次服务范围 |
 | 目标 Bilibili UID 为 `23191782` | 本次服务范围 |
 | 采集继续使用 `bilibili-api-zoku` | 本次指定的采集库 |
-| 复用语料记录版本 `schema_version: 2` | [结构][s]、[校验][v] |
+| 接收载荷继续使用逻辑记录版本 `schema_version: 2`，由适配器写入 v3 维护实体 | [输入协议][s]、[校验][v] |
 | 本地命令处理数据，发布任务处理网络和 Git | [现有 CLI][cli] |
 | 同一批次在候选库中统一校验 | 跨表引用及人工维护保护 |
 | 原稿、AI 整理稿、人工确认分别保存 | [概念][g]、[维护][m] |
@@ -101,6 +101,8 @@ OSS 是拟采用的交接与原始媒体存储，尚未创建对应资源。仓�
 
 协议定义见 [batch JSON Schema](contracts/ingest-batch-v1.schema.json)。[合成示例](examples/INGEST-EXAMPLES.md) 给出可解析的交接包；不代表真实平台内容。
 
+该接收协议仍使用 [v2 逻辑记录][s]：清单的 `record_schema_version` 为 2，完整记录载荷的 `schema_version` 为 2。当前仓库采用 [schema v3](SCHEMA.md)，版本只由 `data/schema.json` 声明。接收器读取旧字段投影并经适配器写入四实体；载荷中的 `segments`、`paragraphs`、`audio_ids` 等字段和逻辑表名不表示仓库仍使用旧物理目录。
+
 交接目录只包含 `manifest.json` 和清单列出的 JSON 文件。传输时按固定对象键逐文件下载，首版不接收 ZIP 或 TAR，避免压缩包展开语义与路径映射混入入库逻辑。
 
 ```text
@@ -112,14 +114,14 @@ OSS 是拟采用的交接与原始媒体存储，尚未创建对应资源。仓�
   observations/items/<record_id>.json
 ```
 
-即使目标表是 JSONL，交接包也按每条记录一个 JSON 文件组织；写入目标时由表映射生成 JSONL，而不是让包内路径决定目标路径。
+交接包按每条记录一个 JSON 文件组织，`records/transcripts/` 等是包内逻辑路径。写入 v3 时，条目与集合映射到 `data/items.jsonl`，稿件映射到 `data/documents/<id>.json`，音频及归档映射到 `data/assets.jsonl`，确认与归属位于 `data/annotations.jsonl`。独立参照稿及 HTML 写入资产引用的 `data/artifacts/`；包内路径不决定目标路径。
 
 清单主要字段：
 
 | 字段 | 语义 |
 | --- | --- |
 | `contract_version` / `kind` | 交接协议身份 |
-| `record_schema_version` | 现有语料记录版本 |
+| `record_schema_version` | 接收载荷的逻辑记录版本，固定为 2；与维护格式 v3 分开 |
 | `target` | 固定仓库和目标分支 |
 | `batch_id` | 清单规范内容的 SHA-256 |
 | `producer` | 程序名、代码修订、运行编号 |
@@ -139,7 +141,7 @@ OSS 是拟采用的交接与原始媒体存储，尚未创建对应资源。仓�
 
 - `files[].sha256` 覆盖载荷文件原始字节，包括排版和末尾换行。
 - `payload_sha256` 覆盖载荷解析后的规范 JSON。
-- `expected_record_sha256` 覆盖操作前整条维护记录的规范 JSON。
+- `expected_record_sha256` 覆盖操作前整条 v2 逻辑记录的规范 JSON；v3 目标先还原旧字段视图，不对原生文件 JSON 求该哈希。
 - `batch_id` 覆盖移除 `batch_id` 字段后的整个规范清单。
 - `manifest_sha256` 是投递信封中的清单原始字节哈希，不写回清单。
 - 转录的 `content_sha256` 仍只覆盖现有语料契约规定的字段，不能用上述哈希替代。
@@ -197,9 +199,9 @@ OSS 是拟采用的交接与原始媒体存储，尚未创建对应资源。仓�
 
 视频下载任务保存视频和实际送入 ASR 的音频；不同分 P、音轨或重新编码结果按各自文件核验。ASR 的 `audio_ids` 指向真正使用的音频。平台字幕可以并行补充，但不能用它的成功代替用户要求的音频 ASR。
 
-音频继续使用 `data/audio.jsonl`，首版自动分发沿用 GitHub Release 定位。生产机存在文件、OSS 有原始备份、源站临时播放地址可用，都不能直接宣称满足当前音频的可还原契约；没有分发定位时明确记为不可分发，不推断静音。
+当前音频及其归档位于 `data/assets.jsonl`，接收载荷仍使用 `audio` 逻辑记录，首版自动分发沿用 GitHub Release 定位。生产机存在文件、OSS 有原始备份、源站临时播放地址可用，都不能直接宣称满足当前音频的可还原契约；没有分发定位时明确记为不可分发，不推断静音。
 
-视频和图片暂以条目 `metadata.media_assets` 观测保存类型化定位，每个观测对象遵循 [媒体定位 Schema](contracts/ingest-media-asset-v1.schema.json)。复用语料版本而不新增通用媒体表。后续若扩展为统一媒体表，须显式迁移及兼容读取，不靠旧校验器忽略未知目录。
+视频和图片的接收载荷仍以条目 `metadata.media_assets` 观测保存类型化定位，每个观测对象遵循 [媒体定位 Schema](contracts/ingest-media-asset-v1.schema.json)。这一输入协议不新增通用媒体操作；维护侧已有 v3 资产实体，由适配器完成映射，包内路径不直接创建或覆盖资产。
 
 媒体定位保存内容 SHA-256、字节数、MIME、存储别名、不可变对象键和对象版本。固定存储别名由部署策略解析，不接收批次指定的任意存储主机。预签名 URL、带 Cookie 的 URL 和会过期的播放地址不作为永久定位。
 
@@ -294,12 +296,11 @@ OSS 上传是外部操作，先登记上传中任务，校验完成再变为 `re
 
 ```text
 data/items.jsonl
-data/audio.jsonl
-data/collections.jsonl
-data/transcripts/*.json
-data/edited_transcripts/*.json
-data/posts/*.json
-data/articles/*.json
+data/assets.jsonl
+data/annotations.jsonl
+data/documents/*.json
+data/artifacts/*.md
+data/artifacts/*.html
 docs/INDEX.md
 docs/counts.json
 docs/catalog/*.md
@@ -426,7 +427,7 @@ CLI 拟约定：成功含无变化为退出码 `0`；协议、语料或完整性
 
 设计交付物包括本文、批次与补充操作 Schema、媒体定位 Schema、策略草案和合成包。它们定义拟实现行为；当前运行能力仍以现有代码和探测记录为准。
 
-[s]: SCHEMA.md
+[s]: SCHEMA-V2.md
 [v]: ../src/weimingzi_corpus/records.py
 [cli]: ../src/weimingzi_corpus/cli.py
 [g]: GLOSSARY.md

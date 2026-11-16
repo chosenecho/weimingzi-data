@@ -1,0 +1,342 @@
+{
+  "model": {
+    "name": "deepseek-flash"
+  },
+  "time_unit": "ms",
+  "text": "夜半时分，人仍然害怕会失落。求证使我善忘；半生情感，谁能像我这样用心？感觉冷或暖，但最终也要遗忘。\n\n繁华渐散，仍然踏进这街道。过往的光景满路旁。也许因无知而留恋在这老地方，前尘的深处不停望。相识至交，笑拥当天的我，每次随心。竟不发觉为何爱过恨过，亦笑过骂过，但一生相处的不太多。\n\n回头路远，途人夜半更疏落。远去的灯影已渐黄。戏短情深，留神望遍这地方。回头的一刹，皆寥落。繁华渐散，仍然踏进这街道。\n\n过往的光景满路旁，也许因无知而留恋在这老地方，前尘的深处不停望。相识至交，笑拥当天的我，每次随心。竟不发觉为何爱过恨过，亦笑过骂过，但一生相处的不太多。\n\n回头路远，途人夜半更疏落。远去的灯影已渐黄。戏短情深，留神望遍这地方。回头的一刹，皆寥落。\n\n戏短情深，留神望遍这地方。遥远的光景，怎么回望？\n",
+  "quality": {
+    "is_fully_human_reviewed": false,
+    "requires_review": true,
+    "status": "needs_review"
+  },
+  "id": "r-62b72037ac31c1b3fbcc77d0",
+  "kind": "edited_transcript",
+  "metadata": {
+    "revision_id": [
+      "a0686e9a2ed7b3b511e9381d013c9fc430637f638c8446dbaebc8625c675efbe"
+    ],
+    "input_id": [
+      "ca9d3a2557205c70179cbbbed342898c70d0638e8dfd67bb1dd05bd9d72955e3"
+    ],
+    "generated_at_unix_seconds": [
+      1793644104
+    ]
+  },
+  "is_complete": true,
+  "notes_markdown": "# 【翻唱】尘缘 普通话/粤语版：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`a0686e9a2ed7b3b511e9381d013c9fc430637f638c8446dbaebc8625c675efbe`\n\n输入快照：`ca9d3a2557205c70179cbbbed342898c70d0638e8dfd67bb1dd05bd9d72955e3`\n\n模型：`deepseek-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2233`；参考转录：`3361`",
+  "_legacy": {
+    "table": "edited_transcripts",
+    "keys": [
+      "id",
+      "is_complete",
+      "item_id",
+      "kind",
+      "metadata",
+      "model",
+      "notes_markdown",
+      "paragraphs",
+      "paragraphs_match_text",
+      "quality",
+      "schema_version",
+      "text",
+      "time_unit",
+      "transcript_ids"
+    ],
+    "derived": [
+      "paragraphs_match_text"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-6ba9be113d5007a26a3de8c0"
+    },
+    {
+      "role": "transcript",
+      "target_id": "t-8bad309bd7473c5ba6d54425"
+    }
+  ],
+  "blocks": [
+    {
+      "issues": [
+        {
+          "candidate": "人",
+          "note": "“某人”疑为“人”，参考字幕作“人夜半仍然害怕会失落”。",
+          "evidence_labels": [
+            "t3361:s1"
+          ]
+        },
+        {
+          "candidate": "要求助，竟是我深爱；心情感，谁能像我更用心？",
+          "note": "原句“要求证证使我善忘”与参考字幕差异较大，疑有识别错误；正文暂按原词整理。",
+          "evidence_labels": [
+            "t3361:s2",
+            "t3361:s3",
+            "t3361:s4",
+            "t3361:s5"
+          ]
+        },
+        {
+          "candidate": "感觉冷或暖，但最终也要为梦",
+          "note": "“拣个”疑为“感觉”；“遗忘”与参考字幕“为梦”不一致。",
+          "evidence_labels": [
+            "t3361:s6",
+            "t3361:s7"
+          ]
+        }
+      ],
+      "start": 21840,
+      "end": 44160,
+      "input_unit_labels": [
+        "t2233:s0",
+        "t2233:s1",
+        "t2233:s2",
+        "t2233:s3"
+      ],
+      "range": [
+        0,
+        49
+      ],
+      "input_text_ref": {
+        "target_id": "t-8bad309bd7473c5ba6d54425",
+        "content_sha256": "b8bcffa3853cd72f54cac2570159ea7a193c967d0121cfd114fd47559270e4fc",
+        "source": "segments",
+        "range": [
+          0,
+          49
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "也许无知留恋在这老地方，前尘的深处不停望。",
+          "note": "原句“某知”疑为“无知”，“不填忘”疑为“不停望”。",
+          "evidence_labels": [
+            "t3361:s12",
+            "t3361:s13"
+          ]
+        },
+        {
+          "candidate": "相识至交，笑拥当天的我，每次随心。",
+          "note": "“想说自咎”疑为“相识至交”，“每次再散”疑为“每次随心”。",
+          "evidence_labels": [
+            "t3361:s14",
+            "t3361:s15",
+            "t3361:s16"
+          ]
+        },
+        {
+          "candidate": "亦笑过骂过，但一生相处的不太多。",
+          "note": "“越少过骂过”疑为“亦笑过骂过”，“一心相处”疑为“一生相处”。",
+          "evidence_labels": [
+            "t3361:s18",
+            "t3361:s19"
+          ]
+        }
+      ],
+      "start": 46160,
+      "end": 97920,
+      "input_unit_labels": [
+        "t2233:s4",
+        "t2233:s5",
+        "t2233:s6",
+        "t2233:s7",
+        "t2233:s8",
+        "t2233:s9"
+      ],
+      "range": [
+        51,
+        140
+      ],
+      "input_text_ref": {
+        "target_id": "t-8bad309bd7473c5ba6d54425",
+        "content_sha256": "b8bcffa3853cd72f54cac2570159ea7a193c967d0121cfd114fd47559270e4fc",
+        "source": "segments",
+        "range": [
+          49,
+          137
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "途人",
+          "note": "“头顶”疑为“途人”。",
+          "evidence_labels": [
+            "t3361:s20"
+          ]
+        },
+        {
+          "candidate": "渐黄",
+          "note": "“静卧”疑为“渐黄”。",
+          "evidence_labels": [
+            "t3361:s21"
+          ]
+        }
+      ],
+      "start": 97920,
+      "end": 148320,
+      "input_unit_labels": [
+        "t2233:s10",
+        "t2233:s11",
+        "t2233:s12",
+        "t2233:s13",
+        "t2233:s14",
+        "t2233:s15"
+      ],
+      "range": [
+        142,
+        200
+      ],
+      "input_text_ref": {
+        "target_id": "t-8bad309bd7473c5ba6d54425",
+        "content_sha256": "b8bcffa3853cd72f54cac2570159ea7a193c967d0121cfd114fd47559270e4fc",
+        "source": "segments",
+        "range": [
+          137,
+          194
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "也许无知留恋在这老地方，前尘的深处不停望。",
+          "note": "原句“某知”疑为“无知”，“不填忘”疑为“不停望”。",
+          "evidence_labels": [
+            "t3361:s26",
+            "t3361:s27"
+          ]
+        },
+        {
+          "candidate": "相识至交，笑拥当天的我，每次随心。",
+          "note": "“想说自咎”疑为“相识至交”，“每次再散”疑为“每次随心”。",
+          "evidence_labels": [
+            "t3361:s28",
+            "t3361:s29",
+            "t3361:s30"
+          ]
+        },
+        {
+          "candidate": "亦笑过骂过，但一生相处的不太多。",
+          "note": "“熱笑過罵過”疑为“亦笑过骂过”，“一心相處”疑为“一生相处”。",
+          "evidence_labels": [
+            "t3361:s32",
+            "t3361:s33",
+            "t3361:s34"
+          ]
+        }
+      ],
+      "start": 150000,
+      "end": 195950,
+      "input_unit_labels": [
+        "t2233:s16",
+        "t2233:s17",
+        "t2233:s18",
+        "t2233:s19",
+        "t2233:s20"
+      ],
+      "range": [
+        202,
+        278
+      ],
+      "input_text_ref": {
+        "target_id": "t-8bad309bd7473c5ba6d54425",
+        "content_sha256": "b8bcffa3853cd72f54cac2570159ea7a193c967d0121cfd114fd47559270e4fc",
+        "source": "segments",
+        "range": [
+          194,
+          269
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "回头路远，途人夜半更疏落。",
+          "note": "“留怨，留怨”疑为“路远，途人”。",
+          "evidence_labels": [
+            "t3361:s35"
+          ]
+        },
+        {
+          "candidate": "远去的灯影已渐黄。",
+          "note": "“静卧”疑为“渐黄”。",
+          "evidence_labels": [
+            "t3361:s36"
+          ]
+        },
+        {
+          "candidate": "戏短情深，留神望遍这地方。",
+          "note": "“情长”疑为“情深”，“楼上”疑为“留神”。",
+          "evidence_labels": [
+            "t3361:s37",
+            "t3361:s38"
+          ]
+        }
+      ],
+      "start": 198190,
+      "end": 219630,
+      "input_unit_labels": [
+        "t2233:s21",
+        "t2233:s22",
+        "t2233:s23",
+        "t2233:s24"
+      ],
+      "range": [
+        280,
+        325
+      ],
+      "input_text_ref": {
+        "target_id": "t-8bad309bd7473c5ba6d54425",
+        "content_sha256": "b8bcffa3853cd72f54cac2570159ea7a193c967d0121cfd114fd47559270e4fc",
+        "source": "segments",
+        "range": [
+          269,
+          313
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "戏短情深，留神望遍这地方。",
+          "note": "“情长”疑为“情深”，“楼上”疑为“留神”。",
+          "evidence_labels": [
+            "t3361:s40",
+            "t3361:s41"
+          ]
+        },
+        {
+          "candidate": "尘缘的光景，曾为梦？",
+          "note": "参考字幕作“尘缘的光景/曾为梦”，与原文差异较大，疑有识别错误。",
+          "evidence_labels": [
+            "t3361:s42",
+            "t3361:s43"
+          ]
+        }
+      ],
+      "start": 222670,
+      "end": 234830,
+      "input_unit_labels": [
+        "t2233:s25",
+        "t2233:s26"
+      ],
+      "range": [
+        327,
+        351
+      ],
+      "input_text_ref": {
+        "target_id": "t-8bad309bd7473c5ba6d54425",
+        "content_sha256": "b8bcffa3853cd72f54cac2570159ea7a193c967d0121cfd114fd47559270e4fc",
+        "source": "segments",
+        "range": [
+          313,
+          335
+        ]
+      }
+    }
+  ]
+}

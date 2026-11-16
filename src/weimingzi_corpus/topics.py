@@ -9,6 +9,26 @@ from .coverage import CoverageIndex, LAYERS, counts
 from .records import read_json
 
 
+def generate_topic_catalog(root: Path, check: bool = False) -> dict:
+    """Check the optional lookup rules and rebuild their separate navigation."""
+    if not (root / "selections/topics.json").is_file():
+        return {}
+    topics = definitions(root)
+    index = CoverageIndex(root)
+    value = render_topic_catalog(index, topics)
+    path = root / "docs/catalog/topics.md"
+    if check:
+        if not path.is_file() or path.read_text(encoding="utf-8") != value:
+            raise ValueError("Generated file is stale: docs/catalog/topics.md; run generate")
+    else:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(value, encoding="utf-8", newline="\n")
+    return {
+        "topics": len(topics),
+        "topic_entries": sum(len(select_topic(index, topic)) for topic in topics),
+    }
+
+
 def normalized(value: str) -> str:
     return "".join(unicodedata.normalize("NFKC", value).split()).casefold()
 

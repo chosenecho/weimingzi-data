@@ -1,0 +1,199 @@
+{
+  "model": {
+    "name": "deepseek-v4.1-flash"
+  },
+  "time_unit": "ms",
+  "text": "不是说什么等待时机论。我靠，大哥，你没有力量，怎么创造时机啊？还要不断重复这个过程，为什么要重复这个过程呢？\n\n这个过程本来就是这样，它也是在发展、在进步。就像格林那，对吧？他天天忽悠一群他妈的外卖骑手上街。我操，这就叫重复过程，而且是在浪费力量。不断重复这个过程，浪费力量，浪费时机。让那些浪费时机的人说“我在等待时机”，我的妈，我真的服了。你朝饭碗里拉屎，却说“我在吃屎”。我靠，确实是这样的。\n\n你让我想到杨和平的那群马仔了。他们天天搁那儿开会，还有国内那些什么这个派那个派，天天开会。早上开会就是为了下午开会，昨天开会就是为了今天开会，什么屌东西。\n\n杨某人的马仔，怎么又让我想到这个了？你确定你不是杨某人的马仔？我来看一下他的关注列表里有没有杨某人。来，我们查查啊。啊？还真没有。我靠，根正苗红得不得了。他不是原教旨主义者。\n",
+  "quality": {
+    "is_fully_human_reviewed": false,
+    "requires_review": true,
+    "status": "needs_review"
+  },
+  "id": "r-9ed19b83bf5e7018629b062b",
+  "kind": "edited_transcript",
+  "metadata": {
+    "revision_id": [
+      "3826f21963d5702302ad6939deb415de070188e44d0d92f03d6b01b49c2adbe8"
+    ],
+    "input_id": [
+      "6f17e522b61e9f5f0ddf4ff8819fe9f8a71a4d2d36f47b86afaca9c2fddba748"
+    ],
+    "generated_at_unix_seconds": [
+      1793617683
+    ]
+  },
+  "is_complete": true,
+  "notes_markdown": "# 【鸡毛蒜皮】我没等待时机，他们在浪费时机：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`3826f21963d5702302ad6939deb415de070188e44d0d92f03d6b01b49c2adbe8`\n\n输入快照：`6f17e522b61e9f5f0ddf4ff8819fe9f8a71a4d2d36f47b86afaca9c2fddba748`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`557`；参考转录：`921`",
+  "_legacy": {
+    "table": "edited_transcripts",
+    "keys": [
+      "id",
+      "is_complete",
+      "item_id",
+      "kind",
+      "metadata",
+      "model",
+      "notes_markdown",
+      "paragraphs",
+      "paragraphs_match_text",
+      "quality",
+      "schema_version",
+      "text",
+      "time_unit",
+      "transcript_ids"
+    ],
+    "derived": [
+      "paragraphs_match_text"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-c81223871f587711be57a16f"
+    },
+    {
+      "role": "transcript",
+      "target_id": "t-f365eb1100590d34d3cf97a6"
+    }
+  ],
+  "blocks": [
+    {
+      "issues": [],
+      "start": 1040,
+      "end": 13200,
+      "input_unit_labels": [
+        "t557:s0",
+        "t557:s1"
+      ],
+      "range": [
+        0,
+        54
+      ],
+      "input_text_ref": {
+        "target_id": "t-f365eb1100590d34d3cf97a6",
+        "content_sha256": "d65c5e5a52fa4f57d9251c014467b7e5ba7158fba42a20e8f06bb12e789980c5",
+        "source": "segments",
+        "range": [
+          0,
+          54
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "格林那",
+          "note": "原段作“格里纳”，参考字幕作“格林那”，是否为人名及具体写法不确定。",
+          "evidence_labels": [
+            "t921:s8",
+            "t557:s2"
+          ]
+        },
+        {
+          "candidate": "浪费时机",
+          "note": "原话“浪费时机论”疑为口误，正文按“浪费时机”整理。",
+          "evidence_labels": [
+            "t557:s5",
+            "t921:s15"
+          ]
+        }
+      ],
+      "start": 13280,
+      "end": 50560,
+      "input_unit_labels": [
+        "t557:s2",
+        "t557:s3",
+        "t557:s4",
+        "t557:s5",
+        "t557:s6",
+        "t557:s7"
+      ],
+      "range": [
+        56,
+        199
+      ],
+      "input_text_ref": {
+        "target_id": "t-f365eb1100590d34d3cf97a6",
+        "content_sha256": "d65c5e5a52fa4f57d9251c014467b7e5ba7158fba42a20e8f06bb12e789980c5",
+        "source": "segments",
+        "range": [
+          54,
+          213
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "开会批斗",
+          "note": "原话“开会批”语义不完整，疑指开会批斗或批判，正文暂未保留该半句。",
+          "evidence_labels": [
+            "t557:s9",
+            "t921:s26"
+          ]
+        }
+      ],
+      "start": 51120,
+      "end": 72240,
+      "input_unit_labels": [
+        "t557:s8",
+        "t557:s9",
+        "t557:s10"
+      ],
+      "range": [
+        201,
+        278
+      ],
+      "input_text_ref": {
+        "target_id": "t-f365eb1100590d34d3cf97a6",
+        "content_sha256": "d65c5e5a52fa4f57d9251c014467b7e5ba7158fba42a20e8f06bb12e789980c5",
+        "source": "segments",
+        "range": [
+          213,
+          314
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "查查",
+          "note": "“CC”在参考字幕中作“MCC”，疑为“查查”或“看看”，正文按“查查”整理，待核。",
+          "evidence_labels": [
+            "t557:s13",
+            "t921:s35"
+          ]
+        },
+        {
+          "candidate": "",
+          "note": "“把倒掉”无法确认含义，疑为误识别，正文未保留该半句。",
+          "evidence_labels": [
+            "t557:s15"
+          ]
+        }
+      ],
+      "start": 76800,
+      "end": 104480,
+      "input_unit_labels": [
+        "t557:s11",
+        "t557:s12",
+        "t557:s13",
+        "t557:s14",
+        "t557:s15"
+      ],
+      "range": [
+        280,
+        367
+      ],
+      "input_text_ref": {
+        "target_id": "t-f365eb1100590d34d3cf97a6",
+        "content_sha256": "d65c5e5a52fa4f57d9251c014467b7e5ba7158fba42a20e8f06bb12e789980c5",
+        "source": "segments",
+        "range": [
+          314,
+          403
+        ]
+      }
+    }
+  ]
+}

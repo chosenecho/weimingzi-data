@@ -12,7 +12,7 @@
 
 条目：`i-c4c2fb49b36af3b5400911db`
 
-[整理稿（deepseek-v4.1-flash）:23789c8f](../../data/edited_transcripts/r-23789c8f30648147b1e8c439.json)（输入：`e9245456`） · [整理稿（deepseek-v4.1-flash）:fbf9d485](../../data/edited_transcripts/r-fbf9d485d3557baaccf79a64.json)（输入：`e9245456`） · [云端语音转录（qwen-audio-3.1-asr-flash）:e9245456](../../data/transcripts/t-e92454564641abd8064d9929.json)
+[整理稿（deepseek-v4.1-flash）:23789c8f](../../data/documents/r-23789c8f30648147b1e8c439.json)（输入：`e9245456`） · [整理稿（deepseek-v4.1-flash）:fbf9d485](../../data/documents/r-fbf9d485d3557baaccf79a64.json)（输入：`e9245456`） · [云端语音转录（qwen-audio-3.1-asr-flash）:e9245456](../../data/documents/t-e92454564641abd8064d9929.json)
 
 
 <a id="i-edec0437bb8b4a2b7af9359f"></a>
@@ -21,7 +21,7 @@
 
 条目：`i-edec0437bb8b4a2b7af9359f`
 
-[整理稿（deepseek-v4.1-flash）:b7aac277](../../data/edited_transcripts/r-b7aac277c3f081adf6772eec.json)（输入：`44f74fa9`） · [云端语音转录（qwen-audio-3.1-asr-flash）:44f74fa9](../../data/transcripts/t-44f74fa9a45880e139cd682b.json)
+[整理稿（deepseek-v4.1-flash）:b7aac277](../../data/documents/r-b7aac277c3f081adf6772eec.json)（输入：`44f74fa9`） · [云端语音转录（qwen-audio-3.1-asr-flash）:44f74fa9](../../data/documents/t-44f74fa9a45880e139cd682b.json)
 
 
 <a id="i-d0ea1e12a0df658bb0f8f286"></a>
@@ -30,4 +30,4 @@
 
 条目：`i-d0ea1e12a0df658bb0f8f286`
 
-[整理稿（deepseek-v4.1-flash）:0605b5c3](../../data/edited_transcripts/r-0605b5c37e63b53bc08111ee.json)（输入：`a203b976`） · [整理稿（deepseek-v4.1-flash）:c9d73494](../../data/edited_transcripts/r-c9d73494cde105d2e89af03a.json)（输入：`a203b976`） · [云端语音转录（qwen-audio-3.1-asr-flash）:a203b976](../../data/transcripts/t-a203b97657917cba50485a88.json)
+[整理稿（deepseek-v4.1-flash）:0605b5c3](../../data/documents/r-0605b5c37e63b53bc08111ee.json)（输入：`a203b976`） · [整理稿（deepseek-v4.1-flash）:c9d73494](../../data/documents/r-c9d73494cde105d2e89af03a.json)（输入：`a203b976`） · [云端语音转录（qwen-audio-3.1-asr-flash）:a203b976](../../data/documents/t-a203b97657917cba50485a88.json)

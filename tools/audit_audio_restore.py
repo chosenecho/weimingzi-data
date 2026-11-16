@@ -34,6 +34,18 @@ def digest_file(path):
         return stream_digest(stream)
 
 
+def input_snapshot(paths):
+    """Record bytes, and also absence, for schema/projection dependencies."""
+    result = []
+    for path in paths:
+        entry = {"path": path.relative_to(restore_audio.ROOT.resolve()).as_posix(),
+                 "exists": path.exists()}
+        if entry["exists"]:
+            entry.update(digest_file(path))
+        result.append(entry)
+    return result
+
+
 def audit_group(key, group):
     result = {
         "archive_key": key,
@@ -95,6 +107,7 @@ def audit_temporary_group(key, group):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--index", help="repository-relative index; defaults to assets.jsonl for v3, audio.jsonl for v2")
     parser.add_argument("--archive", action="append", help="release-tag/archive.zip; repeatable")
     parser.add_argument("--workers", type=int, choices=range(1, 5), default=2)
     parser.add_argument("--temporary-media", action="store_true",
@@ -110,9 +123,19 @@ def main(argv=None):
     checkpoints = output.with_suffix(".parts")
     if output.exists() or checkpoints.exists():
         parser.error("Output exists; choose a new versioned report")
-    index = restore_audio.resolve_audio_repository_path("data/audio.jsonl")
+    context = restore_audio.audio_index_context(args.index)
+    index = context["path"]
     index_before = digest_file(index)
-    groups = restore_audio.load_audio_archive_groups()
+    dependencies_before = input_snapshot(context["dependencies"])
+    groups = restore_audio.load_audio_archive_groups(args.index)
+    tools = {
+        "audit_audio_restore.py": digest_file(Path(__file__).resolve()),
+        "restore_audio.py": digest_file(Path(restore_audio.__file__).resolve()),
+    }
+    if context["v3"]:
+        from weimingzi_corpus import schema_v3
+
+        tools["schema_v3.py"] = digest_file(Path(schema_v3.__file__).resolve())
     all_archive_count = len(groups)
     all_audio_count = sum(len(group["files"]) for group in groups.values())
     if args.archive:
@@ -123,11 +146,9 @@ def main(argv=None):
     report = {
         "schema": "audio-restore-audit/v1",
         "started_at": now(),
-        "index": {"path": "data/audio.jsonl", **index_before},
-        "tools": {
-            "audit_audio_restore.py": digest_file(Path(__file__).resolve()),
-            "restore_audio.py": digest_file(Path(restore_audio.__file__).resolve()),
-        },
+        "index": {"path": index.relative_to(restore_audio.ROOT.resolve()).as_posix(), **index_before},
+        "index_dependencies": dependencies_before,
+        "tools": tools,
         "scope": {
             "indexed_restorable_archives": all_archive_count,
             "indexed_restorable_audio": all_audio_count,
@@ -148,6 +169,7 @@ def main(argv=None):
                 "schema": "audio-restore-audit-part/v1",
                 "complete": False,
                 "index": report["index"],
+                "index_dependencies": report["index_dependencies"],
                 "tools": report["tools"],
                 "archive": result,
             })
@@ -155,8 +177,10 @@ def main(argv=None):
                               "completed": len(report["archives"]), "total": len(groups),
                               "error": result.get("error")}), flush=True)
     report["archives"].sort(key=lambda result: result["archive_key"])
-    report["index_unchanged"] = digest_file(index) == index_before
-    report["ok"] = report["index_unchanged"] and all(result["ok"] for result in report["archives"])
+    report["index_unchanged"] = index.is_file() and digest_file(index) == index_before
+    report["index_dependencies_unchanged"] = input_snapshot(context["dependencies"]) == dependencies_before
+    report["ok"] = (report["index_unchanged"] and report["index_dependencies_unchanged"]
+                    and all(result["ok"] for result in report["archives"]))
     report["completed_at"] = now()
     write_report(output, report)
     print(json.dumps({"report": args.output, "ok": report["ok"]}), flush=True)

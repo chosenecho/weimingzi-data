@@ -50,7 +50,7 @@ class PreservationManifestTests(unittest.TestCase):
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text("support\n", encoding="utf-8")
         (self.root / "data/items.jsonl").write_bytes(b'{"id":"item"}\n')
-        (self.root / "selections/training.json").write_bytes(b'{"entries":[]}\n')
+        (self.root / "selections/topics.json").write_bytes(b'{"entries":[]}\n')
 
     def tearDown(self):
         self.temp.cleanup()
@@ -60,7 +60,7 @@ class PreservationManifestTests(unittest.TestCase):
         paths = [entry["path"] for entry in manifest["files"]]
         self.assertEqual(paths, sorted(paths, key=lambda value: value.encode("utf-8")))
         self.assertIn("data/items.jsonl", paths)
-        self.assertIn("selections/training.json", paths)
+        self.assertIn("selections/topics.json", paths)
         self.assertIn("docs/SCHEMA.md", paths)
         self.assertEqual(manifest["summary"]["canonical_file_count"], 2)
         self.assertEqual(
@@ -81,12 +81,12 @@ class PreservationManifestTests(unittest.TestCase):
         preservation.write_manifest(self.root, relative)
         (self.root / "data/items.jsonl").write_bytes(b"changed\n")
         (self.root / "data/new.json").write_text("new", encoding="utf-8")
-        (self.root / "selections/training.json").unlink()
+        (self.root / "selections/topics.json").unlink()
 
         result = preservation.verify_manifest(self.root, relative)
         self.assertFalse(result["ok"])
         self.assertEqual(result["added"], ["data/new.json"])
-        self.assertEqual(result["missing"], ["selections/training.json"])
+        self.assertEqual(result["missing"], ["selections/topics.json"])
         self.assertEqual(
             [item["path"] for item in result["changed"]], ["data/items.jsonl"]
         )

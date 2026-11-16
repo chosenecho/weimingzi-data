@@ -8,6 +8,7 @@ from urllib.parse import unquote
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 from weimingzi_corpus.exports import generate_catalog_docs
+from weimingzi_corpus.topics import generate_topic_catalog
 
 
 def check_links(root):
@@ -24,6 +25,9 @@ def check_links(root):
     }
     for path in root.rglob("*.md"):
         relative = path.relative_to(root)
+        # Preserved Markdown is corpus content; its links describe original sources.
+        if relative.parts[:2] == ("data", "artifacts"):
+            continue
         if any(part in ignored_directories for part in relative.parts):
             continue
         for target in re.findall(
@@ -41,7 +45,9 @@ def check_links(root):
 
 def main():
     root = Path(__file__).resolve().parents[1]
-    print(generate_catalog_docs(root, check=True))
+    counts = generate_catalog_docs(root, check=True)
+    counts.update(generate_topic_catalog(root, check=True))
+    print(counts)
     print({"local_links_checked": check_links(root)})
 
 

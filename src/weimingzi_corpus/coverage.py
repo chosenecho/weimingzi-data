@@ -7,7 +7,10 @@ import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
-from .records import SHA256_PATTERN, canonical_json, iter_records, read_json
+from .records import (
+    SHA256_PATTERN, canonical_json, content_record_path, iter_records,
+    load_content_record,
+)
 
 LAYERS = ("direct", "cross_source", "same_audio", "chapter_supplement")
 
@@ -24,13 +27,17 @@ def text_status(text: str) -> str:
     return "text_present_unverified"
 
 
-def record_summary(row: dict, table: str) -> dict:
+def record_summary(row: dict, table: str, root: Path | None = None) -> dict:
     quality = row.get("quality", {})
     return {
         "id": row["id"],
         "item_id": row["item_id"],
         "kind": row["kind"],
-        "record_path": f"data/{table}/{row['id']}.json",
+        "record_path": (
+            content_record_path(root, table, row["id"])
+            .relative_to(root.resolve()).as_posix()
+            if root is not None else f"data/{table}/{row['id']}.json"
+        ),
         "method": row.get("method"),
         "model": row.get("model"),
         "transcript_ids": row.get("transcript_ids", []),
@@ -104,7 +111,7 @@ class CoverageIndex:
             )
         for table in ("transcripts", "edited_transcripts") if load_content else ():
             for row, _ in iter_records(root, table):
-                self.by_item[row["item_id"]].append(record_summary(row, table))
+                self.by_item[row["item_id"]].append(record_summary(row, table, root))
 
     def resolve(self, identifier: str, part: int | None = None) -> str:
         if part is not None and part < 1:
@@ -221,7 +228,7 @@ class CoverageIndex:
                     row = copy.deepcopy(summary)
                     row["associations"] = evidence
                     if include_records:
-                        row["record"] = read_json(self.root / row["record_path"])
+                        row["record"] = load_content_record(self.root, row["id"])
                     records.append(row)
             records.sort(key=lambda r: (r["item_id"], r["id"]))
             layers[layer] = {

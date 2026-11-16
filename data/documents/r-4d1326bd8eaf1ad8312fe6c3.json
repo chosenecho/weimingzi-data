@@ -1,0 +1,432 @@
+{
+  "model": {
+    "name": "deepseek-v4.1-flash"
+  },
+  "time_unit": "ms",
+  "text": "一首老歌，唱一下，比较有价值。\n\n星儿的影，月儿的心，影在水中，垂垂如云。云行的冰，风儿的花，影在眼中，去向何方？\n\n你曾说，天上有一棵这样的大树。它落下冰雪般的落叶，随着秋风洒满天川。\n\n星灼影，月摇寒，浮树藏雨外；霜叶洒天川。\n\n跳舞，此风声鸣灭；萤火成蓝，青玉冠，萤火成蓝，青玉冠。\n\n星灼影，月摇寒，浮树藏雨外。\n\n你还说，树上有一只这样的蜂乱。他无奈离去，去往远方，他的身影泯灭。\n\n可歌可白啊，你随意啊。\n\n天边那一颗，离离星火中的萤火，在风波中不停留。\n\n晴追玉关，晴追玉关。星绰影，月遥寒，浮世苍云外。\n\n山河犹未醒，簌簌飘零。人间如镜，好梦佳期难寻。\n\n谁复知我此心？独身者，冥冥长夜。\n",
+  "quality": {
+    "is_fully_human_reviewed": false,
+    "requires_review": true,
+    "status": "needs_review"
+  },
+  "id": "r-4d1326bd8eaf1ad8312fe6c3",
+  "kind": "edited_transcript",
+  "metadata": {
+    "revision_id": [
+      "48d329a1c817048dac111a0325544a4ec4a444c071eeac0aa2b94e56d299a5f6"
+    ],
+    "input_id": [
+      "529217fef6bc89b25693adc83344f3cd5df38f62f0a0e3b08f5539ea1a5330e7"
+    ],
+    "generated_at_unix_seconds": [
+      1793630986
+    ]
+  },
+  "is_complete": true,
+  "notes_markdown": "# 【作词翻唱】在风波中不停留：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`48d329a1c817048dac111a0325544a4ec4a444c071eeac0aa2b94e56d299a5f6`\n\n输入快照：`529217fef6bc89b25693adc83344f3cd5df38f62f0a0e3b08f5539ea1a5330e7`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`1306`；参考转录：`1263`",
+  "_legacy": {
+    "table": "edited_transcripts",
+    "keys": [
+      "id",
+      "is_complete",
+      "item_id",
+      "kind",
+      "metadata",
+      "model",
+      "notes_markdown",
+      "paragraphs",
+      "paragraphs_match_text",
+      "quality",
+      "schema_version",
+      "text",
+      "time_unit",
+      "transcript_ids"
+    ],
+    "derived": [
+      "paragraphs_match_text"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-681ac746e1a33f5e6fc693e9"
+    },
+    {
+      "role": "transcript",
+      "target_id": "t-0e6e78027bb2df31ac1895a9"
+    }
+  ],
+  "blocks": [
+    {
+      "issues": [],
+      "start": 2960,
+      "end": 6320,
+      "input_unit_labels": [
+        "t1306:s0"
+      ],
+      "range": [
+        0,
+        15
+      ],
+      "input_text_ref": {
+        "target_id": "t-0e6e78027bb2df31ac1895a9",
+        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
+        "source": "text",
+        "range": [
+          0,
+          20
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "心儿的影，月亮的心",
+          "note": "“星儿的影，月儿的心”参考字幕作“心儿的影”“月亮的心”，未能确认。",
+          "evidence_labels": [
+            "t1263:s5",
+            "t1263:s6"
+          ]
+        },
+        {
+          "candidate": "嘴唇如玉",
+          "note": "“垂垂如云”参考字幕作“嘴唇如玉”，正文保留原识别。",
+          "evidence_labels": [
+            "t1263:s7"
+          ]
+        },
+        {
+          "candidate": "云海的冰",
+          "note": "“云行的冰”参考字幕作“云海的冰”，未能确认。",
+          "evidence_labels": [
+            "t1263:s8"
+          ]
+        }
+      ],
+      "start": 59360,
+      "end": 93200,
+      "input_unit_labels": [
+        "t1306:s1",
+        "t1306:s2",
+        "t1306:s3"
+      ],
+      "range": [
+        17,
+        57
+      ],
+      "input_text_ref": {
+        "target_id": "t-0e6e78027bb2df31ac1895a9",
+        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
+        "source": "segments",
+        "range": [
+          20,
+          60
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "天船",
+          "note": "“天川”参考字幕作“天船”，未能确认。",
+          "evidence_labels": [
+            "t1263:s17"
+          ]
+        }
+      ],
+      "start": 95120,
+      "end": 127200,
+      "input_unit_labels": [
+        "t1306:s4",
+        "t1306:s5",
+        "t1306:s6",
+        "t1306:s7"
+      ],
+      "range": [
+        59,
+        93
+      ],
+      "input_text_ref": {
+        "target_id": "t-0e6e78027bb2df31ac1895a9",
+        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
+        "source": "segments",
+        "range": [
+          60,
+          100
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "",
+          "note": "“浮树藏雨外”与参考字幕差异较大，无法确认。",
+          "evidence_labels": [
+            "t1263:s19"
+          ]
+        }
+      ],
+      "start": 131760,
+      "end": 143600,
+      "input_unit_labels": [
+        "t1306:s8",
+        "t1306:s9"
+      ],
+      "range": [
+        95,
+        115
+      ],
+      "input_text_ref": {
+        "target_id": "t-0e6e78027bb2df31ac1895a9",
+        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
+        "source": "segments",
+        "range": [
+          100,
+          120
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "自风声凛冽",
+          "note": "“此风声鸣灭”参考字幕作“自风声凛冽”，正文未确认。",
+          "evidence_labels": [
+            "t1263:s20"
+          ]
+        },
+        {
+          "candidate": "",
+          "note": "“萤火成蓝”参考字幕作“萤火灿烂”“灯火灿烂”，无法确认。",
+          "evidence_labels": [
+            "t1263:s21",
+            "t1263:s23"
+          ]
+        }
+      ],
+      "start": 144480,
+      "end": 157360,
+      "input_unit_labels": [
+        "t1306:s10",
+        "t1306:s11",
+        "t1306:s12"
+      ],
+      "range": [
+        117,
+        144
+      ],
+      "input_text_ref": {
+        "target_id": "t-0e6e78027bb2df31ac1895a9",
+        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
+        "source": "segments",
+        "range": [
+          120,
+          147
+        ]
+      }
+    },
+    {
+      "issues": [],
+      "start": 158240,
+      "end": 167440,
+      "input_unit_labels": [
+        "t1306:s13"
+      ],
+      "range": [
+        146,
+        160
+      ],
+      "input_text_ref": {
+        "target_id": "t-0e6e78027bb2df31ac1895a9",
+        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
+        "source": "text",
+        "range": [
+          160,
+          174
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "",
+          "note": "“蜂乱”含义不明，参考字幕同作“一只蜂乱”。",
+          "evidence_labels": [
+            "t1263:s29"
+          ]
+        },
+        {
+          "candidate": "身影明灭",
+          "note": "“身影泯灭”参考字幕作“身影明灭”。",
+          "evidence_labels": [
+            "t1263:s31"
+          ]
+        }
+      ],
+      "start": 167440,
+      "end": 198850,
+      "input_unit_labels": [
+        "t1306:s14",
+        "t1306:s15",
+        "t1306:s16",
+        "t1306:s17"
+      ],
+      "range": [
+        162,
+        195
+      ],
+      "input_text_ref": {
+        "target_id": "t-0e6e78027bb2df31ac1895a9",
+        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
+        "source": "segments",
+        "range": [
+          161,
+          200
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "",
+          "note": "“可歌可白”含义不明，参考字幕同，未确认是否应为其他词。",
+          "evidence_labels": [
+            "t1263:s32",
+            "t1263:s33"
+          ]
+        }
+      ],
+      "start": 200850,
+      "end": 202370,
+      "input_unit_labels": [
+        "t1306:s18"
+      ],
+      "range": [
+        197,
+        208
+      ],
+      "input_text_ref": {
+        "target_id": "t-0e6e78027bb2df31ac1895a9",
+        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
+        "source": "text",
+        "range": [
+          218,
+          229
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "那一刻",
+          "note": "“那一颗”参考字幕作“那一刻”。",
+          "evidence_labels": [
+            "t1263:s34"
+          ]
+        }
+      ],
+      "start": 203170,
+      "end": 215490,
+      "input_unit_labels": [
+        "t1306:s19",
+        "t1306:s20"
+      ],
+      "range": [
+        210,
+        233
+      ],
+      "input_text_ref": {
+        "target_id": "t-0e6e78027bb2df31ac1895a9",
+        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
+        "source": "segments",
+        "range": [
+          211,
+          236
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "",
+          "note": "“晴追玉关”参考字幕作“青骓与关”“青春与关心”等，无法确认。",
+          "evidence_labels": [
+            "t1263:s37",
+            "t1263:s38"
+          ]
+        }
+      ],
+      "start": 216130,
+      "end": 230210,
+      "input_unit_labels": [
+        "t1306:s21",
+        "t1306:s22"
+      ],
+      "range": [
+        235,
+        259
+      ],
+      "input_text_ref": {
+        "target_id": "t-0e6e78027bb2df31ac1895a9",
+        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
+        "source": "segments",
+        "range": [
+          236,
+          260
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "如今",
+          "note": "“人间如镜”参考字幕作“如今”，无法确认。",
+          "evidence_labels": [
+            "t1263:s44"
+          ]
+        }
+      ],
+      "start": 230210,
+      "end": 241810,
+      "input_unit_labels": [
+        "t1306:s23",
+        "t1306:s24"
+      ],
+      "range": [
+        261,
+        284
+      ],
+      "input_text_ref": {
+        "target_id": "t-0e6e78027bb2df31ac1895a9",
+        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
+        "source": "segments",
+        "range": [
+          260,
+          283
+        ]
+      }
+    },
+    {
+      "issues": [],
+      "start": 243010,
+      "end": 251570,
+      "input_unit_labels": [
+        "t1306:s25",
+        "t1306:s26"
+      ],
+      "range": [
+        286,
+        302
+      ],
+      "input_text_ref": {
+        "target_id": "t-0e6e78027bb2df31ac1895a9",
+        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
+        "source": "segments",
+        "range": [
+          283,
+          298
+        ]
+      }
+    }
+  ]
+}

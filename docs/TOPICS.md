@@ -2,7 +2,7 @@
 
 [专题目录](catalog/topics.md)由 selections/topics.json 生成，配置格式为 thematic-index/v1。
 
-专题与 data/collections.jsonl 中的平台集合分别维护。当前专题 ID 为 ismism，名称为“主义主义”。
+专题与 [data/items.jsonl](../data/items.jsonl) 中的平台集合分别维护；schema v3 将条目和集合归入同一实体，查询仍使用旧逻辑表的集合字段与 ID。当前专题 ID 为 ismism，名称为“主义主义”。
 
 纳入规则保留各自证据，不检索作者名、上传者名、简介或正文中的宽泛关键词：
 
@@ -22,6 +22,6 @@ BV1wk4y1L7Q2《【我是谁】无论是要批判我还是向我学习都要了�
     python tools/corpus.py generate
     python tools/corpus.py generate --check
 
-topic 查询及完整导出对每个入选条目复用[分层覆盖查询](COVERAGE.md)，分别列出直接关联、跨来源引用、同音频与章节补充，保留所有变体。报告的 entries 包含纳入原因和完整 coverage；加 --include-records 才嵌入各份原始规范记录。顶层 counts 在每层跨专题条目按记录 ID 去重；不同层可能包含同一记录，不能相加当作文稿总数。
+topic 查询及完整导出对每个入选条目复用[分层覆盖查询](COVERAGE.md)，分别列出直接关联、跨来源引用、同音频与章节补充，保留所有变体。报告的 entries 包含纳入原因和完整 coverage；加 `--include-records` 才嵌入各份旧逻辑表字段视图。v3 下的正文、输入参照、标注和质量信息由四实体无损投影，`record_path` 指向 `data/documents/<id>.json` 原生维护文件。顶层 counts 在每层跨专题条目按记录 ID 去重；不同层可能包含同一记录，不能相加当作文稿总数。
 
 修改专题时编辑 selections/topics.json，运行校验和生成命令。校验拒绝未知集合、失效条目和缺少依据的人工纳入；不要手改生成目录，也不要为专题筛选改写原始题名、标签或集合。

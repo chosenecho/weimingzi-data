@@ -1,91 +1,33 @@
-# 发布视图（release_transcripts）
+# 消费配置交接
 
-发布视图把 `data/` 投影成「每个条目一份整理稿、只收没有疑点的段落、并应用人工确认」的发布文本集合，也就是 release_transcripts：**没有疑点的段落 + 被确认定案的段落**。它是一层只读投影，不是第二份真源：`selections/release.json` 只存指针，段落正文每次从 `data/edited_transcripts/` 重建。
+训练选稿、发布 head、确认应用和段落收录策略由 `chosenecho/weimingzi-thought-model` 维护。本仓保存原始资料、多版本关系、局部确认和片段归属；基础校验、入库与 SQLite 导出只依赖归档数据。
 
-发布视图不等于人工复核。段落上的 `issue_state=clean` 只表示模型没有报疑点；`confirmed` 只表示该段有一处人工确认。仓库中没有任何记录声明 `is_fully_human_reviewed=true`。
+## 交接位置
 
-## 为什么需要这一层
+制作工程中的文件：
 
-同一段音视频可能有多份整理稿（重跑、参照稿、残稿）。实测 2021 份整理稿覆盖 1989 个条目，其中 30 个条目有 2–4 份稿（1 个条目 4 份，29 个条目 2 份）。直接按整理稿检索会把同一段内容重复返回，且人工确认可能只落在其中一份上。发布视图固定「哪一份是 head」并显式记录确认落点。
+- `configs/corpus/training.json`：训练选稿引用。
+- `configs/corpus/release.json`：发布 head、确认引用及段落排除指针。
+- `configs/corpus/consumption-handoff.json`：原始提交、配置哈希及兼容投影核对结果。
+- `docs/CORPUS_CONSUMPTION.md`：消费配置字段、校验和导出说明。
 
-## 指针文件
+原始配置来自本仓完整提交 `2cdba19147d7df4b05ebcc53b89f83afe4297be5`，按 Git 对象原字节交接。旧发布算法与字段说明保留在该提交的[历史发布文档](https://github.com/chosenecho/weimingzi-data/blob/2cdba19147d7df4b05ebcc53b89f83afe4297be5/docs/RELEASE.md)；它描述当时的消费策略，不作为当前维护规则。
 
-`selections/release.json`（schema_version=2，policy_version=release-1）：
+## 下游命令
 
-```json
-{
-  "schema_version": 2,
-  "policy_version": "release-1",
-  "policy": "clean",
-  "generated_from_commit": "<生成时读取数据的 commit>",
-  "items": [
-    {
-      "item_id": "i-…",
-      "head_edited_id": "r-…",
-      "applied_confirmation_ids": ["a-…"],
-      "excluded_paragraphs": []
-    }
-  ]
-}
-```
-
-每个有整理稿的条目都有一条记录（当前 1989 条），因此这份文件本身就是 release_transcripts 的清单：`head_edited_id` 是进入发布的整理稿，其余版本不进入。`excluded_paragraphs` 存段落 index，默认留空；排除只影响投影，不删记录。
-
-## 收录策略
-
-- `policy=clean`（默认）：只收**没有校对标注（issues 为空）的段落**，外加**被确认定案的段落**（即使该段带标注）。当前 76359 段 = 76354 段无标注 + 5 段由确认定案，丢弃 41081 段带疑点的段落。
-- `policy=full`：收全部 head 段落，用 `issue_state=flagged` 标出带疑点的段落，不丢弃。
-
-两种策略共用同一份指针与同一套 head 规则，只在投影时过滤。
-
-## head 规则
-
-head = 该条目下 `metadata.revision_id` 存在、且没有被组内任何 `derived_from_id` 指向的那一份。实测 30/30 组唯一。`derived_from_id` 已记录「新版由旧版派生」；取代关系本身只由 `selections/release.json` 的 `head_edited_id` 表达，原始稿不改一个字节（原始稿哈希由 `tests/test_local_revision.py` 钉住）。
-
-判定 head 时只信指针和这套规则，不做正文相似度猜测。如果组内出现 0 个或 2 个以上候选，`check` 报 `HEAD_NOT_UNIQUE`。
-
-## 确认的应用状态
-
-对每条确认，在 head 中定位 `anchor.original_text`：
-
-- `apply`：唯一命中，导出时替换成 `corrected_text`。
-- `already_applied`：原文找不到、`corrected_text` 唯一命中——head 已是修订后文本。
-- `no_change`：`original_text == corrected_text`，仅登记。
-- `orphan` / `ambiguous`：定位不到或不唯一，`check` 报 `CONFIRMATION_NOT_APPLIED`。
-
-当前 7 条确认在各自 head 上全部可定位：5 条 `already_applied`、2 条 `no_change`，因此正文零改动。
-
-## 校验码
-
-`python tools/release.py check` 与 `python tools/corpus.py validate` 都会跑同一套检查（后者在有 `selections/release.json` 时调用 `validate_release`）：
-
-| 码 | 含义 |
-| --- | --- |
-| `HEAD_NOT_UNIQUE` | 多份稿的条目没有唯一 head（缺指针或规则给不出唯一解） |
-| `HEAD_MISSING` | 指针里的 `head_edited_id` 不是该条目的整理稿，或指针指向无稿条目 |
-| `CONFIRMATION_ORPHAN` | 确认不存在、不属于该条目、head 未列在确认的 `edited_transcript_ids` 中，或有确认未登记进指针 |
-| `CONFIRMATION_NOT_APPLIED` | 确认锚点在 head 中定位不到或不唯一 |
-| `DUPLICATE_ITEM_EDITED` | 同一 item 在指针中出现两次，或同一份 head 被两个 item 认领 |
-| `SUPERSEDED_CONFLICT` | 记录若带 `superseded_by`，其指向必须存在、同条目，且与 head 一致（当前数据无记录使用该字段，检查保留） |
-
-## 命令
+在制作工程根目录执行，`CORPUS_ROOT` 指向已锁定完整 Git 提交的资料仓库：
 
 ```sh
-python tools/release.py check
-python tools/release.py init-selection --force   # 重建清单；写入每个有整理稿的条目
-python tools/release.py export --output .cache/exports/release_paragraphs.jsonl [--policy clean|full]
+uv run wm-train corpus check --corpus-root CORPUS_ROOT
+uv run wm-train corpus export --view training --corpus-root CORPUS_ROOT --out .cache/exports/training.jsonl
+uv run wm-train corpus export --view release --corpus-root CORPUS_ROOT --out .cache/exports/release.jsonl
+uv run wm-train corpus export --view release --corpus-root CORPUS_ROOT --policy clean --out .cache/exports/release-clean.jsonl
 ```
 
-`export` 输出段落级 JSONL 并写同名 `.manifest.json`（含 `selection_sha256`、`release_paragraphs_sha256`、计数和 `review_basis` 说明）。导出是派生物，不入库；需要分发时由 `chosenecho/weimingzi-datasets` 承载。
+发布导出默认使用 `full`。`clean` 显式保留旧算法用于重现：段内一处局部确认可以使整段进入投影，导出中的确认列表也沿用旧范围。它不证明整段标注均已解决。`full` 保留未被配置显式排除的 head 段落，同样不表示全文审核通过。
 
-## 导出字段
+## 资料更新后的流程
 
-`release_schema_version`、`policy_version`、`policy`、`item_id`、`item_title`、`source_url`、`edited_id`、`paragraph_id`（`<edited_id>:p<index>`）、`paragraph_index`、`time_unit`（恒 `ms`）、`start_ms`、`end_ms`、`text`、`issue_state`（`clean` / `confirmed` / 仅 `full` 下出现 `flagged`）、`issue_count`、`applied_confirmation_ids`、`review_basis`（`model_flagged_clean` / `human_confirmed_local` / `model_flagged_with_notes`）。
+本仓先修订资料、保留原记录和校订依据，并完成基础校验、目录生成及全仓检查。下游随后锁定新的完整 Git 提交，更新选稿或发布指针并执行消费校验。消费规则失效由下游处理，不阻断有效归档资料的入库。
 
-当前 `clean` 投影：1989 个条目、1951 份整理稿、76359 段（76354 无标注 + 5 由确认定案），另有 38 份稿的段落全部带疑点而不进入。
-
-## 边界
-
-- 时间只精确到 ASR 块边界（整理稿 `metadata.timing_scope` 原文为 "ASR chunk bounds only, not exact paragraph timestamps"），引用时给 `paragraph_id` 和毫秒区间，不宣称逐字对齐。
-- 发布视图不判断观点、真伪或可用性，也不表示内容权利状态；权利按[内容权利说明](../CONTENT-RIGHTS.md)。
-- 训练选稿与正式发布版本仍归 `chosenecho/weimingzi-datasets`，本视图只提供段落级输入。
+局部确认仍只适用于记录中的字句或术语；片段归属仍以原文哈希和时间锚点为准。两类证据分别引用，选稿不改变 `quality.is_fully_human_reviewed`，也不授予第三方内容使用权。来源修订后由下游重新制作和审核；冻结训练包、既有版本及历史审批保留原字节。

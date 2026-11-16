@@ -11,7 +11,7 @@
 
 [原文 1](https://www.bilibili.com/opus/552226755821537685)
 
-[articles:556f2c0b](../../data/articles/a-556f2c0bbf4cdf0dac782f13.json)
+[articles:556f2c0b](../../data/documents/a-556f2c0bbf4cdf0dac782f13.json)
 
 
 <a id="i-e8ef80885b5b6411b2c0587b"></a>
@@ -22,7 +22,7 @@
 
 [原文 1](https://www.bilibili.com/opus/489456152388796617)
 
-[articles:1ed34d88](../../data/articles/a-1ed34d8800495da1657fb270.json)
+[articles:1ed34d88](../../data/documents/a-1ed34d8800495da1657fb270.json)
 
 
 <a id="i-f9d59a62bfe4e4af5d0ddb07"></a>
@@ -33,7 +33,7 @@
 
 [原文 1](https://www.bilibili.com/opus/522402507213730774)
 
-[articles:5dbd0e20](../../data/articles/a-5dbd0e20ca149cf5b13b42f8.json)
+[articles:5dbd0e20](../../data/documents/a-5dbd0e20ca149cf5b13b42f8.json)
 
 
 <a id="i-c0cb07e7a239b9db009fe992"></a>
@@ -44,7 +44,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1214976012458131459)
 
-[articles:e073a509](../../data/articles/a-e073a50922459904fefad714.json)
+[articles:e073a509](../../data/documents/a-e073a50922459904fefad714.json)
 
 
 <a id="i-11b8b2e099bb51bc02480311"></a>
@@ -55,7 +55,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1214978323193528328)
 
-[articles:e7e36bd6](../../data/articles/a-e7e36bd676eeab95a6d8f935.json)
+[articles:e7e36bd6](../../data/documents/a-e7e36bd676eeab95a6d8f935.json)
 
 
 <a id="i-6d933e6e66e5af947aac62bc"></a>
@@ -66,7 +66,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1214983026184814595)
 
-[articles:65680104](../../data/articles/a-6568010445e792dcd5e98874.json)
+[articles:65680104](../../data/documents/a-6568010445e792dcd5e98874.json)
 
 
 <a id="i-e23bf80af77f9f42b51e397e"></a>
@@ -77,7 +77,7 @@
 
 [原文 1](https://www.bilibili.com/opus/670974192059940870)
 
-[articles:d4cf0e29](../../data/articles/a-d4cf0e295ff00ad889c9ec89.json)
+[articles:d4cf0e29](../../data/documents/a-d4cf0e295ff00ad889c9ec89.json)
 
 
 <a id="i-ccb5025465633e23e475e9f1"></a>
@@ -88,7 +88,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1214981995354914840)
 
-[articles:a37c187f](../../data/articles/a-a37c187f705fcfb65dbe04e1.json)
+[articles:a37c187f](../../data/documents/a-a37c187f705fcfb65dbe04e1.json)
 
 
 <a id="i-d943f11c26ffe3a0d750c447"></a>
@@ -99,7 +99,7 @@
 
 [原文 1](https://www.bilibili.com/opus/670968977971740674)
 
-[articles:e9f271ba](../../data/articles/a-e9f271bad7b88b45a5c9a00b.json)
+[articles:e9f271ba](../../data/documents/a-e9f271bad7b88b45a5c9a00b.json)
 
 
 <a id="i-1162a80321c1c8d4621033ed"></a>
@@ -110,7 +110,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1024980209914347520)
 
-[articles:b800394d](../../data/articles/a-b800394d526f5280995ec78a.json)
+[articles:b800394d](../../data/documents/a-b800394d526f5280995ec78a.json)
 
 
 <a id="i-2ce2ddc036d5401d972ab729"></a>
@@ -121,7 +121,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1149623425005780994)
 
-[articles:66db25e7](../../data/articles/a-66db25e7c74b2c7ed0a02b1e.json)
+[articles:66db25e7](../../data/documents/a-66db25e7c74b2c7ed0a02b1e.json)
 
 
 <a id="i-4c5cdeb7f5a35c2e95b5a21b"></a>
@@ -132,7 +132,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1214980410527711250)
 
-[articles:5a215b7a](../../data/articles/a-5a215b7a37d8632589768798.json)
+[articles:5a215b7a](../../data/documents/a-5a215b7a37d8632589768798.json)
 
 
 <a id="i-1cbdef6f611198f0c07a046f"></a>
@@ -143,7 +143,7 @@
 
 [原文 1](https://www.bilibili.com/opus/673148175773597745)
 
-[articles:396b55c5](../../data/articles/a-396b55c5f9095b64fc473589.json)
+[articles:396b55c5](../../data/documents/a-396b55c5f9095b64fc473589.json)
 
 
 <a id="i-c209c3e2c2b15018b9d0a0a4"></a>
@@ -154,7 +154,7 @@
 
 [原文 1](https://www.bilibili.com/opus/670974209231421461)
 
-[articles:5b3a7c94](../../data/articles/a-5b3a7c949dd8aac9eeb8a9df.json)
+[articles:5b3a7c94](../../data/documents/a-5b3a7c949dd8aac9eeb8a9df.json)
 
 
 <a id="i-4700ab9bef9453a54164269d"></a>
@@ -165,7 +165,7 @@
 
 [原文 1](https://www.bilibili.com/opus/784157622847668241)
 
-[articles:7779a026](../../data/articles/a-7779a0265416f80a5d1d0a85.json)
+[articles:7779a026](../../data/documents/a-7779a0265416f80a5d1d0a85.json)
 
 
 <a id="i-66af9d8e38ce65b51f4ec5ce"></a>
@@ -176,7 +176,7 @@
 
 [原文 1](https://www.bilibili.com/opus/805210629151391769)
 
-[articles:aade3017](../../data/articles/a-aade3017fd158a5c0ed7d3ee.json)
+[articles:aade3017](../../data/documents/a-aade3017fd158a5c0ed7d3ee.json)
 
 
 <a id="i-a5d6e9ec1dae54f43eb1ac7b"></a>
@@ -187,7 +187,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1094884839900839943)
 
-[articles:6d336d53](../../data/articles/a-6d336d5338dbd5d1a69929da.json)
+[articles:6d336d53](../../data/documents/a-6d336d5338dbd5d1a69929da.json)
 
 
 <a id="i-1586868de2d6d9e4d00dee37"></a>
@@ -198,7 +198,7 @@
 
 [原文 1](https://www.bilibili.com/opus/662361992358526984)
 
-[articles:b6deaf19](../../data/articles/a-b6deaf19887ef5afc231ed97.json)
+[articles:b6deaf19](../../data/documents/a-b6deaf19887ef5afc231ed97.json)
 
 
 <a id="i-2e9e52b39bf8877f98626fd9"></a>
@@ -209,7 +209,7 @@
 
 [原文 1](https://www.bilibili.com/opus/630525491475906565)
 
-[articles:bfb09f3f](../../data/articles/a-bfb09f3f9fab13fe29374ccf.json)
+[articles:bfb09f3f](../../data/documents/a-bfb09f3f9fab13fe29374ccf.json)
 
 
 <a id="i-94d87ab31936061b76629749"></a>
@@ -220,7 +220,7 @@
 
 [原文 1](https://www.bilibili.com/read/cv13213160)
 
-[articles:90cacaad](../../data/articles/a-90cacaada74343515bee6d17.json)
+[articles:90cacaad](../../data/documents/a-90cacaada74343515bee6d17.json)
 
 
 <a id="i-0348fc9ecbc676e0393afa66"></a>
@@ -231,7 +231,7 @@
 
 [原文 1](https://www.bilibili.com/read/cv13212954)
 
-[articles:2207fd6b](../../data/articles/a-2207fd6b5d3d82f273b365a8.json)
+[articles:2207fd6b](../../data/documents/a-2207fd6b5d3d82f273b365a8.json)
 
 
 <a id="i-300cdf3ebb9ce256fd910dda"></a>
@@ -242,7 +242,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1062097600773095428)
 
-[articles:02c26b62](../../data/articles/a-02c26b62a16b7ced1f67f1fc.json)
+[articles:02c26b62](../../data/documents/a-02c26b62a16b7ced1f67f1fc.json)
 
 
 <a id="i-e96dc06e1d7179397efbe4e6"></a>
@@ -253,7 +253,7 @@
 
 [原文 1](https://www.bilibili.com/opus/975774749612310529)
 
-[articles:fe4efbc2](../../data/articles/a-fe4efbc2fa72cf6471a02220.json)
+[articles:fe4efbc2](../../data/documents/a-fe4efbc2fa72cf6471a02220.json)
 
 
 <a id="i-bcfe4ce4e1a0d0ea6c5748eb"></a>
@@ -264,7 +264,7 @@
 
 [原文 1](https://www.bilibili.com/opus/713598306629976179)
 
-[articles:d0ef4264](../../data/articles/a-d0ef42642f005cdace4618f0.json)
+[articles:d0ef4264](../../data/documents/a-d0ef42642f005cdace4618f0.json)
 
 
 <a id="i-895cb153435db3d000f0b5e2"></a>
@@ -275,7 +275,7 @@
 
 [原文 1](https://www.bilibili.com/opus/730947152698671137)
 
-[articles:db3d4978](../../data/articles/a-db3d49780efafddd802a0f22.json)
+[articles:db3d4978](../../data/documents/a-db3d49780efafddd802a0f22.json)
 
 
 <a id="i-ad69aa862a6a48b12ec9b8f3"></a>
@@ -286,7 +286,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1091772899884269589)
 
-[articles:fac2b0c2](../../data/articles/a-fac2b0c2ee4b22d16ebeecfe.json)
+[articles:fac2b0c2](../../data/documents/a-fac2b0c2ee4b22d16ebeecfe.json)
 
 
 <a id="i-95511de55ddc845f576d296f"></a>
@@ -297,7 +297,7 @@
 
 [原文 1](https://www.bilibili.com/opus/713586379504746503)
 
-[articles:12f40f8e](../../data/articles/a-12f40f8eb0e56a04f73f02af.json)
+[articles:12f40f8e](../../data/documents/a-12f40f8eb0e56a04f73f02af.json)
 
 
 <a id="i-1e7b39a4810431c34d860cf9"></a>
@@ -308,7 +308,7 @@
 
 [原文 1](https://www.bilibili.com/read/cv24543898)
 
-[articles:caa65149](../../data/articles/a-caa651495b84eec28aec632a.json)
+[articles:caa65149](../../data/documents/a-caa651495b84eec28aec632a.json)
 
 
 <a id="i-d2193e115d46e0f8adfaec17"></a>
@@ -319,7 +319,7 @@
 
 [原文 1](https://www.bilibili.com/read/cv15650955)
 
-[articles:c542a25c](../../data/articles/a-c542a25c005852415cf41bf3.json)
+[articles:c542a25c](../../data/documents/a-c542a25c005852415cf41bf3.json)
 
 
 <a id="i-f6fde1efceb2fde503ab768c"></a>
@@ -330,7 +330,7 @@
 
 [原文 1](https://www.bilibili.com/opus/667285777227448327)
 
-[articles:aa62ec4a](../../data/articles/a-aa62ec4a7363f7150ed89164.json)
+[articles:aa62ec4a](../../data/documents/a-aa62ec4a7363f7150ed89164.json)
 
 
 <a id="i-48da3b02b63c6a29e44d2bbd"></a>
@@ -341,7 +341,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1025034970720108546)
 
-[articles:da4c019a](../../data/articles/a-da4c019a3d07f8bac97a10b1.json)
+[articles:da4c019a](../../data/documents/a-da4c019a3d07f8bac97a10b1.json)
 
 
 <a id="i-09ac86dd5a005cc257b937b1"></a>
@@ -352,7 +352,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1032233941529001989)
 
-[articles:d244481c](../../data/articles/a-d244481c68074f3e6ef6ba00.json)
+[articles:d244481c](../../data/documents/a-d244481c68074f3e6ef6ba00.json)
 
 
 <a id="i-73a59788236d322920625ff6"></a>
@@ -363,7 +363,7 @@
 
 [原文 1](https://www.bilibili.com/read/cv10095513)
 
-[articles:296134f2](../../data/articles/a-296134f25c6b7bcc5025f6dc.json)
+[articles:296134f2](../../data/documents/a-296134f25c6b7bcc5025f6dc.json)
 
 
 <a id="i-59a9d92904dcdce08e409656"></a>
@@ -374,7 +374,7 @@
 
 [原文 1](https://www.bilibili.com/opus/517716259804932825)
 
-[articles:b3d3b7d0](../../data/articles/a-b3d3b7d0c7f514331aa161c3.json)
+[articles:b3d3b7d0](../../data/documents/a-b3d3b7d0c7f514331aa161c3.json)
 
 
 <a id="i-1b9048c3b607213aa42980d7"></a>
@@ -385,7 +385,7 @@
 
 [原文 1](https://www.bilibili.com/read/cv11014581)
 
-[articles:d2f2496d](../../data/articles/a-d2f2496dff487de821152e8a.json)
+[articles:d2f2496d](../../data/documents/a-d2f2496dff487de821152e8a.json)
 
 
 <a id="i-5e5fd449b468fecfa130b4cc"></a>
@@ -396,7 +396,7 @@
 
 [原文 1](https://www.bilibili.com/read/cv11015078)
 
-[articles:775a3f26](../../data/articles/a-775a3f261e28878d55dbb750.json)
+[articles:775a3f26](../../data/documents/a-775a3f261e28878d55dbb750.json)
 
 
 <a id="i-1a296834c765b4cb952078c2"></a>
@@ -407,7 +407,7 @@
 
 [原文 1](https://www.bilibili.com/read/cv11014760)
 
-[articles:664e0a65](../../data/articles/a-664e0a652e53bbf2d0b4b199.json)
+[articles:664e0a65](../../data/documents/a-664e0a652e53bbf2d0b4b199.json)
 
 
 <a id="i-275f072c296efc0bfb3d4190"></a>
@@ -418,7 +418,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1028727285401780228)
 
-[articles:bdfe9a69](../../data/articles/a-bdfe9a697c4ff9abaad5ad01.json)
+[articles:bdfe9a69](../../data/documents/a-bdfe9a697c4ff9abaad5ad01.json)
 
 
 <a id="i-98088886b0095753589e47b1"></a>
@@ -429,7 +429,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1032079911143079940)
 
-[articles:4be3ba19](../../data/articles/a-4be3ba1954a236f38af71bb6.json)
+[articles:4be3ba19](../../data/documents/a-4be3ba1954a236f38af71bb6.json)
 
 
 <a id="i-5606f9a32d161543eee64850"></a>
@@ -440,7 +440,7 @@
 
 [原文 1](https://www.bilibili.com/opus/517712179584949351)
 
-[articles:773a9924](../../data/articles/a-773a99244e6b4573563cd516.json)
+[articles:773a9924](../../data/documents/a-773a99244e6b4573563cd516.json)
 
 
 <a id="i-f73dbdf8db9196fc7d8b6dbf"></a>
@@ -451,7 +451,7 @@
 
 [原文 1](https://www.bilibili.com/opus/517229094548136803)
 
-[articles:1651ed65](../../data/articles/a-1651ed6547382160d6b475a8.json)
+[articles:1651ed65](../../data/documents/a-1651ed6547382160d6b475a8.json)
 
 
 <a id="i-6698be210c51485c3ea39522"></a>
@@ -462,7 +462,7 @@
 
 [原文 1](https://www.bilibili.com/opus/517231658648874954)
 
-[articles:5521e178](../../data/articles/a-5521e1788e0587825b76c43d.json)
+[articles:5521e178](../../data/documents/a-5521e1788e0587825b76c43d.json)
 
 
 <a id="i-d9c169786dc74e0e630e0052"></a>
@@ -473,7 +473,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1032081487360425986)
 
-[articles:3b7afb7e](../../data/articles/a-3b7afb7e8a90107f6d34cbeb.json)
+[articles:3b7afb7e](../../data/documents/a-3b7afb7e8a90107f6d34cbeb.json)
 
 
 <a id="i-607c316d9c9d6c0b00e178fd"></a>
@@ -484,7 +484,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1028722831514402825)
 
-[articles:34450d5b](../../data/articles/a-34450d5b3338fbbcc7cda098.json)
+[articles:34450d5b](../../data/documents/a-34450d5b3338fbbcc7cda098.json)
 
 
 <a id="i-cb9ae93673ce6cde87d9db0b"></a>
@@ -495,7 +495,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1028729012003799047)
 
-[articles:315e725e](../../data/articles/a-315e725e2d0100e2ea1aa4ca.json)
+[articles:315e725e](../../data/documents/a-315e725e2d0100e2ea1aa4ca.json)
 
 
 <a id="i-271a25228199839d97532af1"></a>
@@ -506,7 +506,7 @@
 
 [原文 1](https://www.bilibili.com/read/cv10091593)
 
-[articles:d970f1b7](../../data/articles/a-d970f1b76c87f5d14e6d21db.json)
+[articles:d970f1b7](../../data/documents/a-d970f1b76c87f5d14e6d21db.json)
 
 
 <a id="i-28fbf344f16318a79b088e0a"></a>
@@ -517,7 +517,7 @@
 
 [原文 1](https://www.bilibili.com/read/cv11031882)
 
-[articles:a9ff6f32](../../data/articles/a-a9ff6f32dd1ce3f22fa6b8f4.json)
+[articles:a9ff6f32](../../data/documents/a-a9ff6f32dd1ce3f22fa6b8f4.json)
 
 
 <a id="i-a0b6e2d422d8b73be96229b4"></a>
@@ -528,7 +528,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1028730755737452552)
 
-[articles:fa308911](../../data/articles/a-fa3089111c81bc9cf087f33c.json)
+[articles:fa308911](../../data/documents/a-fa3089111c81bc9cf087f33c.json)
 
 
 <a id="i-c324eebdbaf99bdba3b4d7f4"></a>
@@ -539,7 +539,7 @@
 
 [原文 1](https://www.bilibili.com/opus/517699294692481998)
 
-[articles:6f656973](../../data/articles/a-6f656973a681897f381a5026.json)
+[articles:6f656973](../../data/documents/a-6f656973a681897f381a5026.json)
 
 
 <a id="i-3ae3ee7ae9fcbdf16e1d4369"></a>
@@ -550,7 +550,7 @@
 
 [原文 1](https://www.bilibili.com/opus/517706458688504759)
 
-[articles:5b6ee98d](../../data/articles/a-5b6ee98de66f003f17a83325.json)
+[articles:5b6ee98d](../../data/documents/a-5b6ee98de66f003f17a83325.json)
 
 
 <a id="i-bc9836b7fdc3fc105169efe3"></a>
@@ -561,7 +561,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1032091125259698184)
 
-[articles:d801a452](../../data/articles/a-d801a45263a509f7cbef1045.json)
+[articles:d801a452](../../data/documents/a-d801a45263a509f7cbef1045.json)
 
 
 <a id="i-cf94990d81b0f9454346c88a"></a>
@@ -572,7 +572,7 @@
 
 [原文 1](https://www.bilibili.com/opus/517332706341946646)
 
-[articles:44b1a38e](../../data/articles/a-44b1a38e40592ae73b43ac3b.json)
+[articles:44b1a38e](../../data/documents/a-44b1a38e40592ae73b43ac3b.json)
 
 
 <a id="i-c8274cc9dbb777c8553e7489"></a>
@@ -583,7 +583,7 @@
 
 [原文 1](https://www.bilibili.com/opus/500470664743708456)
 
-[articles:2766a2ab](../../data/articles/a-2766a2abd428340361a6f863.json)
+[articles:2766a2ab](../../data/documents/a-2766a2abd428340361a6f863.json)
 
 
 <a id="i-f24dca82e1a0a2f2df270ad8"></a>
@@ -594,7 +594,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1032083480245174277)
 
-[articles:51f9816b](../../data/articles/a-51f9816b5813357eaa4f7f4c.json)
+[articles:51f9816b](../../data/documents/a-51f9816b5813357eaa4f7f4c.json)
 
 
 <a id="i-df78a6e8a0a8bc63ae71da02"></a>
@@ -605,7 +605,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1032082818801336324)
 
-[articles:a4c95e35](../../data/articles/a-a4c95e35192dd0fcb818e5f2.json)
+[articles:a4c95e35](../../data/documents/a-a4c95e35192dd0fcb818e5f2.json)
 
 
 <a id="i-ba17186c091942a364aefd2f"></a>
@@ -616,7 +616,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1032077505951956993)
 
-[articles:0b538df3](../../data/articles/a-0b538df302f1383d0b352147.json)
+[articles:0b538df3](../../data/documents/a-0b538df302f1383d0b352147.json)
 
 
 <a id="i-d53a80effe1fe00973cfb010"></a>
@@ -627,7 +627,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1032088419429253127)
 
-[articles:3b095201](../../data/articles/a-3b09520167586976e34c681c.json)
+[articles:3b095201](../../data/documents/a-3b09520167586976e34c681c.json)
 
 
 <a id="i-5905efe13b0735e32e08ab6d"></a>
@@ -638,7 +638,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1032087474536448004)
 
-[articles:b8d5e78b](../../data/articles/a-b8d5e78b6896d7d93e7d6745.json)
+[articles:b8d5e78b](../../data/documents/a-b8d5e78b6896d7d93e7d6745.json)
 
 
 <a id="i-0f7d677be9218a87f5cd2804"></a>
@@ -649,7 +649,7 @@
 
 [原文 1](https://www.bilibili.com/opus/873348837636308992)
 
-[articles:bf7b459c](../../data/articles/a-bf7b459c40695020c2fd29b7.json)
+[articles:bf7b459c](../../data/documents/a-bf7b459c40695020c2fd29b7.json)
 
 
 <a id="i-87d3f25fe672befae747fd2a"></a>
@@ -660,7 +660,7 @@
 
 [原文 1](https://www.bilibili.com/read/cv12509878)
 
-[articles:1b5e3e98](../../data/articles/a-1b5e3e9893711fa4988e4c37.json)
+[articles:1b5e3e98](../../data/documents/a-1b5e3e9893711fa4988e4c37.json)
 
 
 <a id="i-b21998aba0cdd7a64a092d8d"></a>
@@ -671,7 +671,7 @@
 
 [原文 1](https://www.bilibili.com/read/cv15170836)
 
-[articles:abe33667](../../data/articles/a-abe3366737adf3acddbdc0d7.json)
+[articles:abe33667](../../data/documents/a-abe3366737adf3acddbdc0d7.json)
 
 
 <a id="i-47e91d9821f89c931a9f18bf"></a>
@@ -682,7 +682,7 @@
 
 [原文 1](https://www.bilibili.com/read/cv27836741)
 
-[articles:a408dcbf](../../data/articles/a-a408dcbff2c63eb4a69bd1c0.json)
+[articles:a408dcbf](../../data/documents/a-a408dcbff2c63eb4a69bd1c0.json)
 
 
 <a id="i-081eb008e5266b791f40ff7f"></a>
@@ -693,7 +693,7 @@
 
 [原文 1](https://www.bilibili.com/read/cv15559681)
 
-[articles:577b374a](../../data/articles/a-577b374a6608c7eba854c1c3.json)
+[articles:577b374a](../../data/documents/a-577b374a6608c7eba854c1c3.json)
 
 
 <a id="i-2c751853f4c133c5a9461cb3"></a>
@@ -704,7 +704,7 @@
 
 [原文 1](https://www.bilibili.com/read/cv11217878)
 
-[articles:c0e834bb](../../data/articles/a-c0e834bb9805f2ba61edd5fa.json)
+[articles:c0e834bb](../../data/documents/a-c0e834bb9805f2ba61edd5fa.json)
 
 
 <a id="i-ce86c243d26f48be39245aae"></a>
@@ -715,7 +715,7 @@
 
 [原文 1](https://www.bilibili.com/opus/495572709800222611)
 
-[articles:02207e3a](../../data/articles/a-02207e3ab51990fbad38673c.json)
+[articles:02207e3a](../../data/documents/a-02207e3ab51990fbad38673c.json)
 
 
 <a id="i-c3e10b2cd4f5ab8d22106323"></a>
@@ -726,7 +726,7 @@
 
 [原文 1](https://www.bilibili.com/read/cv16759954)
 
-[articles:b078a849](../../data/articles/a-b078a849719c7b1f24a0b273.json)
+[articles:b078a849](../../data/documents/a-b078a849719c7b1f24a0b273.json)
 
 
 <a id="i-a8fd7284064129c1cb7af31d"></a>
@@ -737,7 +737,7 @@
 
 [原文 1](https://www.bilibili.com/opus/628288814162172933)
 
-[articles:b955a198](../../data/articles/a-b955a1985b77d37d7e49ea40.json)
+[articles:b955a198](../../data/documents/a-b955a1985b77d37d7e49ea40.json)
 
 
 <a id="i-01dc9949a0a6a60404131374"></a>
@@ -748,7 +748,7 @@
 
 [原文 1](https://www.bilibili.com/opus/713245238842359833)
 
-[articles:8e020491](../../data/articles/a-8e02049149ec887561ae1ec5.json)
+[articles:8e020491](../../data/documents/a-8e02049149ec887561ae1ec5.json)
 
 
 <a id="i-6bf3c0258d6e015229d198f8"></a>
@@ -759,7 +759,7 @@
 
 [原文 1](https://www.bilibili.com/opus/1063198843234942983)
 
-[articles:bfb03110](../../data/articles/a-bfb0311063dc09ca050aec72.json)
+[articles:bfb03110](../../data/documents/a-bfb0311063dc09ca050aec72.json)
 
 
 <a id="i-b3c146e19940b0326e9d7b5a"></a>
@@ -770,7 +770,7 @@
 
 [原文 1](https://www.bilibili.com/opus/810106548007206917)
 
-[articles:c8db5706](../../data/articles/a-c8db57065a148f2b628688f5.json)
+[articles:c8db5706](../../data/documents/a-c8db57065a148f2b628688f5.json)
 
 
 <a id="i-7acb0b9311d997e9e6366294"></a>
@@ -781,4 +781,4 @@
 
 [原文 1](https://www.bilibili.com/opus/1060627390488641552)
 
-[articles:cde28390](../../data/articles/a-cde2839018df7f75e80d4d3e.json)
+[articles:cde28390](../../data/documents/a-cde2839018df7f75e80d4d3e.json)

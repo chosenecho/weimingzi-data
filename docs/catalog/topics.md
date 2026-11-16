@@ -18,7 +18,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 2；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-0605b5c37e63b53bc08111ee](../../data/edited_transcripts/r-0605b5c37e63b53bc08111ee.json) · [r-c9d73494cde105d2e89af03a](../../data/edited_transcripts/r-c9d73494cde105d2e89af03a.json) · [t-a203b97657917cba50485a88](../../data/transcripts/t-a203b97657917cba50485a88.json)
+[r-0605b5c37e63b53bc08111ee](../../data/documents/r-0605b5c37e63b53bc08111ee.json) · [r-c9d73494cde105d2e89af03a](../../data/documents/r-c9d73494cde105d2e89af03a.json) · [t-a203b97657917cba50485a88](../../data/documents/t-a203b97657917cba50485a88.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -30,7 +30,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **章节补充**：基础转录 1；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
-[t-30b1a4737c9197f5e360f3b7](../../data/transcripts/t-30b1a4737c9197f5e360f3b7.json)
+[t-30b1a4737c9197f5e360f3b7](../../data/documents/t-30b1a4737c9197f5e360f3b7.json)
 
 ### 【主义主义·纯娱乐番外】爱情大全（祝大家牛年大吉！）
 
@@ -41,7 +41,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-9db9ef9f94aebeee7d30f7c8](../../data/edited_transcripts/r-9db9ef9f94aebeee7d30f7c8.json) · [t-58f9d8d9a1353ff7669f2ffd](../../data/transcripts/t-58f9d8d9a1353ff7669f2ffd.json) · [t-c3c3da3eb9e165d24d2f3046](../../data/transcripts/t-c3c3da3eb9e165d24d2f3046.json)
+[r-9db9ef9f94aebeee7d30f7c8](../../data/documents/r-9db9ef9f94aebeee7d30f7c8.json) · [t-58f9d8d9a1353ff7669f2ffd](../../data/documents/t-58f9d8d9a1353ff7669f2ffd.json) · [t-c3c3da3eb9e165d24d2f3046](../../data/documents/t-c3c3da3eb9e165d24d2f3046.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -63,7 +63,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-c2f38a81e2ac0f4879ba062c](../../data/edited_transcripts/r-c2f38a81e2ac0f4879ba062c.json) · [t-3bf24bfbc29f92ce5dff3a93](../../data/transcripts/t-3bf24bfbc29f92ce5dff3a93.json) · [t-7bd9f7371c8bca67875fee41](../../data/transcripts/t-7bd9f7371c8bca67875fee41.json)
+[r-c2f38a81e2ac0f4879ba062c](../../data/documents/r-c2f38a81e2ac0f4879ba062c.json) · [t-3bf24bfbc29f92ce5dff3a93](../../data/documents/t-3bf24bfbc29f92ce5dff3a93.json) · [t-7bd9f7371c8bca67875fee41](../../data/documents/t-7bd9f7371c8bca67875fee41.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -85,7 +85,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-805912ee8e9219bc3185a1f9](../../data/edited_transcripts/r-805912ee8e9219bc3185a1f9.json) · [t-816c9150670d4cf3bbbe9164](../../data/transcripts/t-816c9150670d4cf3bbbe9164.json) · [t-ead885cf27229573fe6d042d](../../data/transcripts/t-ead885cf27229573fe6d042d.json)
+[r-805912ee8e9219bc3185a1f9](../../data/documents/r-805912ee8e9219bc3185a1f9.json) · [t-816c9150670d4cf3bbbe9164](../../data/documents/t-816c9150670d4cf3bbbe9164.json) · [t-ead885cf27229573fe6d042d](../../data/documents/t-ead885cf27229573fe6d042d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -107,7 +107,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-eb8922aa305b36f0168e5373](../../data/edited_transcripts/r-eb8922aa305b36f0168e5373.json) · [t-e6fd405c73a138150161087c](../../data/transcripts/t-e6fd405c73a138150161087c.json)
+[r-eb8922aa305b36f0168e5373](../../data/documents/r-eb8922aa305b36f0168e5373.json) · [t-e6fd405c73a138150161087c](../../data/documents/t-e6fd405c73a138150161087c.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -129,7 +129,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-283cbb35a487ca90afbef73b](../../data/edited_transcripts/r-283cbb35a487ca90afbef73b.json) · [t-5716c9c0b647e1bb8e52daba](../../data/transcripts/t-5716c9c0b647e1bb8e52daba.json) · [t-e9c54d8bed2f5f76fc32933c](../../data/transcripts/t-e9c54d8bed2f5f76fc32933c.json)
+[r-283cbb35a487ca90afbef73b](../../data/documents/r-283cbb35a487ca90afbef73b.json) · [t-5716c9c0b647e1bb8e52daba](../../data/documents/t-5716c9c0b647e1bb8e52daba.json) · [t-e9c54d8bed2f5f76fc32933c](../../data/documents/t-e9c54d8bed2f5f76fc32933c.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -151,7 +151,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-bdc5231667b0fb53a00ab507](../../data/edited_transcripts/r-bdc5231667b0fb53a00ab507.json) · [t-a0a9710c22f95b5fe460a0fb](../../data/transcripts/t-a0a9710c22f95b5fe460a0fb.json) · [t-da5e005963a20d53c4605e0b](../../data/transcripts/t-da5e005963a20d53c4605e0b.json)
+[r-bdc5231667b0fb53a00ab507](../../data/documents/r-bdc5231667b0fb53a00ab507.json) · [t-a0a9710c22f95b5fe460a0fb](../../data/documents/t-a0a9710c22f95b5fe460a0fb.json) · [t-da5e005963a20d53c4605e0b](../../data/documents/t-da5e005963a20d53c4605e0b.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -174,7 +174,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-6e6b491a20f7d261385ee235](../../data/edited_transcripts/r-6e6b491a20f7d261385ee235.json) · [t-43006c0b05ed75bd5ba9375a](../../data/transcripts/t-43006c0b05ed75bd5ba9375a.json) · [t-71ec1dca0567027a0585f9c6](../../data/transcripts/t-71ec1dca0567027a0585f9c6.json)
+[r-6e6b491a20f7d261385ee235](../../data/documents/r-6e6b491a20f7d261385ee235.json) · [t-43006c0b05ed75bd5ba9375a](../../data/documents/t-43006c0b05ed75bd5ba9375a.json) · [t-71ec1dca0567027a0585f9c6](../../data/documents/t-71ec1dca0567027a0585f9c6.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -197,7 +197,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-6bb04aaf1a6ca9ea445a887c](../../data/edited_transcripts/r-6bb04aaf1a6ca9ea445a887c.json) · [t-63ba9fccb8961dc72695a4cf](../../data/transcripts/t-63ba9fccb8961dc72695a4cf.json) · [t-ac872ecea788757d628cf6a2](../../data/transcripts/t-ac872ecea788757d628cf6a2.json)
+[r-6bb04aaf1a6ca9ea445a887c](../../data/documents/r-6bb04aaf1a6ca9ea445a887c.json) · [t-63ba9fccb8961dc72695a4cf](../../data/documents/t-63ba9fccb8961dc72695a4cf.json) · [t-ac872ecea788757d628cf6a2](../../data/documents/t-ac872ecea788757d628cf6a2.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -220,7 +220,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-1f48584d5064bbf4d9b33955](../../data/edited_transcripts/r-1f48584d5064bbf4d9b33955.json) · [t-6fb524c67f023afdc6e75e7f](../../data/transcripts/t-6fb524c67f023afdc6e75e7f.json) · [t-920466e1752651afd5f581e4](../../data/transcripts/t-920466e1752651afd5f581e4.json)
+[r-1f48584d5064bbf4d9b33955](../../data/documents/r-1f48584d5064bbf4d9b33955.json) · [t-6fb524c67f023afdc6e75e7f](../../data/documents/t-6fb524c67f023afdc6e75e7f.json) · [t-920466e1752651afd5f581e4](../../data/documents/t-920466e1752651afd5f581e4.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -243,7 +243,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-abb25ebe22a7b390b4ed1623](../../data/edited_transcripts/r-abb25ebe22a7b390b4ed1623.json) · [t-5db870bf892ce0df048482f4](../../data/transcripts/t-5db870bf892ce0df048482f4.json) · [t-b65571d57e2ddc3d74638eea](../../data/transcripts/t-b65571d57e2ddc3d74638eea.json)
+[r-abb25ebe22a7b390b4ed1623](../../data/documents/r-abb25ebe22a7b390b4ed1623.json) · [t-5db870bf892ce0df048482f4](../../data/documents/t-5db870bf892ce0df048482f4.json) · [t-b65571d57e2ddc3d74638eea](../../data/documents/t-b65571d57e2ddc3d74638eea.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -265,7 +265,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-d6f67de87c01bad64bbd99a8](../../data/edited_transcripts/r-d6f67de87c01bad64bbd99a8.json) · [t-beb4abf154f1d77c44b7bdbf](../../data/transcripts/t-beb4abf154f1d77c44b7bdbf.json) · [t-ea9be333cecaa04b6ea3b909](../../data/transcripts/t-ea9be333cecaa04b6ea3b909.json)
+[r-d6f67de87c01bad64bbd99a8](../../data/documents/r-d6f67de87c01bad64bbd99a8.json) · [t-beb4abf154f1d77c44b7bdbf](../../data/documents/t-beb4abf154f1d77c44b7bdbf.json) · [t-ea9be333cecaa04b6ea3b909](../../data/documents/t-ea9be333cecaa04b6ea3b909.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -287,7 +287,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-c5e9c02fb8756b179f2af40c](../../data/edited_transcripts/r-c5e9c02fb8756b179f2af40c.json) · [t-759f997cbc58b658c58e0c1c](../../data/transcripts/t-759f997cbc58b658c58e0c1c.json) · [t-d2e03759b9821e8848153873](../../data/transcripts/t-d2e03759b9821e8848153873.json)
+[r-c5e9c02fb8756b179f2af40c](../../data/documents/r-c5e9c02fb8756b179f2af40c.json) · [t-759f997cbc58b658c58e0c1c](../../data/documents/t-759f997cbc58b658c58e0c1c.json) · [t-d2e03759b9821e8848153873](../../data/documents/t-d2e03759b9821e8848153873.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -309,7 +309,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-fe464ca32198fe9e8211e14a](../../data/edited_transcripts/r-fe464ca32198fe9e8211e14a.json) · [t-6f236e5389c081fcefe91de3](../../data/transcripts/t-6f236e5389c081fcefe91de3.json) · [t-fd1d8d77b39e8ad946403662](../../data/transcripts/t-fd1d8d77b39e8ad946403662.json)
+[r-fe464ca32198fe9e8211e14a](../../data/documents/r-fe464ca32198fe9e8211e14a.json) · [t-6f236e5389c081fcefe91de3](../../data/documents/t-6f236e5389c081fcefe91de3.json) · [t-fd1d8d77b39e8ad946403662](../../data/documents/t-fd1d8d77b39e8ad946403662.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -331,7 +331,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-5700e841d38365d5b49278c4](../../data/edited_transcripts/r-5700e841d38365d5b49278c4.json) · [t-09c24db4cad8869f6b94744f](../../data/transcripts/t-09c24db4cad8869f6b94744f.json) · [t-e6f44a07137369dcd97dd54e](../../data/transcripts/t-e6f44a07137369dcd97dd54e.json)
+[r-5700e841d38365d5b49278c4](../../data/documents/r-5700e841d38365d5b49278c4.json) · [t-09c24db4cad8869f6b94744f](../../data/documents/t-09c24db4cad8869f6b94744f.json) · [t-e6f44a07137369dcd97dd54e](../../data/documents/t-e6f44a07137369dcd97dd54e.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -353,7 +353,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-14e15d64c8f7adb611d72eb6](../../data/edited_transcripts/r-14e15d64c8f7adb611d72eb6.json) · [t-2313d7cb9b54c0e1481446e8](../../data/transcripts/t-2313d7cb9b54c0e1481446e8.json) · [t-ec0cb925f715c570b662b9f6](../../data/transcripts/t-ec0cb925f715c570b662b9f6.json)
+[r-14e15d64c8f7adb611d72eb6](../../data/documents/r-14e15d64c8f7adb611d72eb6.json) · [t-2313d7cb9b54c0e1481446e8](../../data/documents/t-2313d7cb9b54c0e1481446e8.json) · [t-ec0cb925f715c570b662b9f6](../../data/documents/t-ec0cb925f715c570b662b9f6.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -375,7 +375,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-621013fdbc930d6b76e5c17b](../../data/edited_transcripts/r-621013fdbc930d6b76e5c17b.json) · [t-332f8fb054fcf5e36f68c61c](../../data/transcripts/t-332f8fb054fcf5e36f68c61c.json) · [t-4b33043e30f49a641ef80b2a](../../data/transcripts/t-4b33043e30f49a641ef80b2a.json)
+[r-621013fdbc930d6b76e5c17b](../../data/documents/r-621013fdbc930d6b76e5c17b.json) · [t-332f8fb054fcf5e36f68c61c](../../data/documents/t-332f8fb054fcf5e36f68c61c.json) · [t-4b33043e30f49a641ef80b2a](../../data/documents/t-4b33043e30f49a641ef80b2a.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -398,7 +398,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-d30eba6574cce7046d81235d](../../data/edited_transcripts/r-d30eba6574cce7046d81235d.json) · [t-1b0d4c9dfb942de16fd1dd1e](../../data/transcripts/t-1b0d4c9dfb942de16fd1dd1e.json) · [t-85805d83ac28f851642aced7](../../data/transcripts/t-85805d83ac28f851642aced7.json)
+[r-d30eba6574cce7046d81235d](../../data/documents/r-d30eba6574cce7046d81235d.json) · [t-1b0d4c9dfb942de16fd1dd1e](../../data/documents/t-1b0d4c9dfb942de16fd1dd1e.json) · [t-85805d83ac28f851642aced7](../../data/documents/t-85805d83ac28f851642aced7.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -420,7 +420,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-397eada0eb08213ceca4d106](../../data/edited_transcripts/r-397eada0eb08213ceca4d106.json) · [t-47347964f8c5e018c2ee32da](../../data/transcripts/t-47347964f8c5e018c2ee32da.json) · [t-509fb6851d4013c75b333671](../../data/transcripts/t-509fb6851d4013c75b333671.json)
+[r-397eada0eb08213ceca4d106](../../data/documents/r-397eada0eb08213ceca4d106.json) · [t-47347964f8c5e018c2ee32da](../../data/documents/t-47347964f8c5e018c2ee32da.json) · [t-509fb6851d4013c75b333671](../../data/documents/t-509fb6851d4013c75b333671.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -442,7 +442,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-4ebbd682937aee2157c9e43a](../../data/edited_transcripts/r-4ebbd682937aee2157c9e43a.json) · [t-608990d8a770ce3084df409f](../../data/transcripts/t-608990d8a770ce3084df409f.json) · [t-87eef1cea50a1e1d97f02486](../../data/transcripts/t-87eef1cea50a1e1d97f02486.json)
+[r-4ebbd682937aee2157c9e43a](../../data/documents/r-4ebbd682937aee2157c9e43a.json) · [t-608990d8a770ce3084df409f](../../data/documents/t-608990d8a770ce3084df409f.json) · [t-87eef1cea50a1e1d97f02486](../../data/documents/t-87eef1cea50a1e1d97f02486.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -464,7 +464,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-7e49f1e54d8875c3135c8c48](../../data/edited_transcripts/r-7e49f1e54d8875c3135c8c48.json) · [t-23cfbdb636b538e2a5b28b03](../../data/transcripts/t-23cfbdb636b538e2a5b28b03.json) · [t-555631968bb79bf8118879e3](../../data/transcripts/t-555631968bb79bf8118879e3.json)
+[r-7e49f1e54d8875c3135c8c48](../../data/documents/r-7e49f1e54d8875c3135c8c48.json) · [t-23cfbdb636b538e2a5b28b03](../../data/documents/t-23cfbdb636b538e2a5b28b03.json) · [t-555631968bb79bf8118879e3](../../data/documents/t-555631968bb79bf8118879e3.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -486,7 +486,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-939711f8224d5d2598da538c](../../data/edited_transcripts/r-939711f8224d5d2598da538c.json) · [t-55f615a42fc5f319f2ee98bb](../../data/transcripts/t-55f615a42fc5f319f2ee98bb.json) · [t-7dfcf4b8f10031d41f3032de](../../data/transcripts/t-7dfcf4b8f10031d41f3032de.json)
+[r-939711f8224d5d2598da538c](../../data/documents/r-939711f8224d5d2598da538c.json) · [t-55f615a42fc5f319f2ee98bb](../../data/documents/t-55f615a42fc5f319f2ee98bb.json) · [t-7dfcf4b8f10031d41f3032de](../../data/documents/t-7dfcf4b8f10031d41f3032de.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -509,7 +509,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-fa10e20044cc9ea07e4593a6](../../data/edited_transcripts/r-fa10e20044cc9ea07e4593a6.json) · [t-8ef190100efd60e8922e9067](../../data/transcripts/t-8ef190100efd60e8922e9067.json) · [t-afccd5eafc5a1f53944b02f8](../../data/transcripts/t-afccd5eafc5a1f53944b02f8.json)
+[r-fa10e20044cc9ea07e4593a6](../../data/documents/r-fa10e20044cc9ea07e4593a6.json) · [t-8ef190100efd60e8922e9067](../../data/documents/t-8ef190100efd60e8922e9067.json) · [t-afccd5eafc5a1f53944b02f8](../../data/documents/t-afccd5eafc5a1f53944b02f8.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -532,7 +532,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-af2ba1186d0cabd42fc6b58d](../../data/edited_transcripts/r-af2ba1186d0cabd42fc6b58d.json) · [t-8141ab21b66f2a7db3f51386](../../data/transcripts/t-8141ab21b66f2a7db3f51386.json) · [t-b6cfe4d5945d65db21624629](../../data/transcripts/t-b6cfe4d5945d65db21624629.json)
+[r-af2ba1186d0cabd42fc6b58d](../../data/documents/r-af2ba1186d0cabd42fc6b58d.json) · [t-8141ab21b66f2a7db3f51386](../../data/documents/t-8141ab21b66f2a7db3f51386.json) · [t-b6cfe4d5945d65db21624629](../../data/documents/t-b6cfe4d5945d65db21624629.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -555,7 +555,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-1ea51530c6ebdca6d4662140](../../data/edited_transcripts/r-1ea51530c6ebdca6d4662140.json) · [t-78ab3f23d1e4a192c826c0af](../../data/transcripts/t-78ab3f23d1e4a192c826c0af.json) · [t-adb95717ec77bffe9bfdb58a](../../data/transcripts/t-adb95717ec77bffe9bfdb58a.json) · [r-83f57b2bdc97c6523b31da68](../../data/edited_transcripts/r-83f57b2bdc97c6523b31da68.json) · [t-04915be6bd7c79d38d5cdeea](../../data/transcripts/t-04915be6bd7c79d38d5cdeea.json) · [t-49aadb5610ab2b9eef2dd8a7](../../data/transcripts/t-49aadb5610ab2b9eef2dd8a7.json)
+[r-1ea51530c6ebdca6d4662140](../../data/documents/r-1ea51530c6ebdca6d4662140.json) · [t-78ab3f23d1e4a192c826c0af](../../data/documents/t-78ab3f23d1e4a192c826c0af.json) · [t-adb95717ec77bffe9bfdb58a](../../data/documents/t-adb95717ec77bffe9bfdb58a.json) · [r-83f57b2bdc97c6523b31da68](../../data/documents/r-83f57b2bdc97c6523b31da68.json) · [t-04915be6bd7c79d38d5cdeea](../../data/documents/t-04915be6bd7c79d38d5cdeea.json) · [t-49aadb5610ab2b9eef2dd8a7](../../data/documents/t-49aadb5610ab2b9eef2dd8a7.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -577,7 +577,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-aeeedf849befe1fc88208d0a](../../data/edited_transcripts/r-aeeedf849befe1fc88208d0a.json) · [t-778ee17dfd6002c4ec711b4a](../../data/transcripts/t-778ee17dfd6002c4ec711b4a.json) · [t-b9e8a1f66da558a593186ef9](../../data/transcripts/t-b9e8a1f66da558a593186ef9.json)
+[r-aeeedf849befe1fc88208d0a](../../data/documents/r-aeeedf849befe1fc88208d0a.json) · [t-778ee17dfd6002c4ec711b4a](../../data/documents/t-778ee17dfd6002c4ec711b4a.json) · [t-b9e8a1f66da558a593186ef9](../../data/documents/t-b9e8a1f66da558a593186ef9.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -600,7 +600,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-064c441c51694dd862895e68](../../data/edited_transcripts/r-064c441c51694dd862895e68.json) · [t-06eae73351a3bff1accf42bd](../../data/transcripts/t-06eae73351a3bff1accf42bd.json)
+[r-064c441c51694dd862895e68](../../data/documents/r-064c441c51694dd862895e68.json) · [t-06eae73351a3bff1accf42bd](../../data/documents/t-06eae73351a3bff1accf42bd.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -623,7 +623,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-e7c7673952928a2a46f3ac91](../../data/edited_transcripts/r-e7c7673952928a2a46f3ac91.json) · [t-40674120ceb6f93923caeda3](../../data/transcripts/t-40674120ceb6f93923caeda3.json) · [t-c63baa03099b54c80ac3cb09](../../data/transcripts/t-c63baa03099b54c80ac3cb09.json)
+[r-e7c7673952928a2a46f3ac91](../../data/documents/r-e7c7673952928a2a46f3ac91.json) · [t-40674120ceb6f93923caeda3](../../data/documents/t-40674120ceb6f93923caeda3.json) · [t-c63baa03099b54c80ac3cb09](../../data/documents/t-c63baa03099b54c80ac3cb09.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -645,7 +645,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-5f3c8024a5e7037faa8efa4a](../../data/edited_transcripts/r-5f3c8024a5e7037faa8efa4a.json) · [t-94fb3e490024a6522eecd227](../../data/transcripts/t-94fb3e490024a6522eecd227.json) · [t-ff8c17eaa1f1be9c77a91152](../../data/transcripts/t-ff8c17eaa1f1be9c77a91152.json)
+[r-5f3c8024a5e7037faa8efa4a](../../data/documents/r-5f3c8024a5e7037faa8efa4a.json) · [t-94fb3e490024a6522eecd227](../../data/documents/t-94fb3e490024a6522eecd227.json) · [t-ff8c17eaa1f1be9c77a91152](../../data/documents/t-ff8c17eaa1f1be9c77a91152.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -668,7 +668,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-90d8f0ee46e2330116bbc647](../../data/edited_transcripts/r-90d8f0ee46e2330116bbc647.json) · [t-01bea6405fb640139994541f](../../data/transcripts/t-01bea6405fb640139994541f.json) · [t-62c2181f2038cc52cde1ef42](../../data/transcripts/t-62c2181f2038cc52cde1ef42.json)
+[r-90d8f0ee46e2330116bbc647](../../data/documents/r-90d8f0ee46e2330116bbc647.json) · [t-01bea6405fb640139994541f](../../data/documents/t-01bea6405fb640139994541f.json) · [t-62c2181f2038cc52cde1ef42](../../data/documents/t-62c2181f2038cc52cde1ef42.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -690,7 +690,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-ff6428223fee417a148c7426](../../data/edited_transcripts/r-ff6428223fee417a148c7426.json) · [t-4dc0bf9bb1d60d9df134b368](../../data/transcripts/t-4dc0bf9bb1d60d9df134b368.json) · [t-ac4450cbe6aa2c26f428ead7](../../data/transcripts/t-ac4450cbe6aa2c26f428ead7.json)
+[r-ff6428223fee417a148c7426](../../data/documents/r-ff6428223fee417a148c7426.json) · [t-4dc0bf9bb1d60d9df134b368](../../data/documents/t-4dc0bf9bb1d60d9df134b368.json) · [t-ac4450cbe6aa2c26f428ead7](../../data/documents/t-ac4450cbe6aa2c26f428ead7.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -712,7 +712,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-dbd2b5daba9c94dcee018483](../../data/edited_transcripts/r-dbd2b5daba9c94dcee018483.json) · [t-bc727cd58c8409efc0115d8a](../../data/transcripts/t-bc727cd58c8409efc0115d8a.json) · [t-c77753703c2d632fda444a4a](../../data/transcripts/t-c77753703c2d632fda444a4a.json)
+[r-dbd2b5daba9c94dcee018483](../../data/documents/r-dbd2b5daba9c94dcee018483.json) · [t-bc727cd58c8409efc0115d8a](../../data/documents/t-bc727cd58c8409efc0115d8a.json) · [t-c77753703c2d632fda444a4a](../../data/documents/t-c77753703c2d632fda444a4a.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -735,7 +735,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-dbca9d49855bc12a686b4cae](../../data/edited_transcripts/r-dbca9d49855bc12a686b4cae.json) · [t-0a47fa49eccaccf475ba41d3](../../data/transcripts/t-0a47fa49eccaccf475ba41d3.json) · [t-178c3f24730b566124d1d5b6](../../data/transcripts/t-178c3f24730b566124d1d5b6.json)
+[r-dbca9d49855bc12a686b4cae](../../data/documents/r-dbca9d49855bc12a686b4cae.json) · [t-0a47fa49eccaccf475ba41d3](../../data/documents/t-0a47fa49eccaccf475ba41d3.json) · [t-178c3f24730b566124d1d5b6](../../data/documents/t-178c3f24730b566124d1d5b6.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -758,7 +758,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-bbee6689a740dad369b1aadd](../../data/edited_transcripts/r-bbee6689a740dad369b1aadd.json) · [t-c1531434f8aabe1d381c0cf1](../../data/transcripts/t-c1531434f8aabe1d381c0cf1.json) · [t-cac87d5d9cf58e617628ac77](../../data/transcripts/t-cac87d5d9cf58e617628ac77.json)
+[r-bbee6689a740dad369b1aadd](../../data/documents/r-bbee6689a740dad369b1aadd.json) · [t-c1531434f8aabe1d381c0cf1](../../data/documents/t-c1531434f8aabe1d381c0cf1.json) · [t-cac87d5d9cf58e617628ac77](../../data/documents/t-cac87d5d9cf58e617628ac77.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -781,7 +781,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-a031ddededb3f7f9559988bc](../../data/edited_transcripts/r-a031ddededb3f7f9559988bc.json) · [t-36516e08125a062deb1d706a](../../data/transcripts/t-36516e08125a062deb1d706a.json) · [t-8e1daf6dddaa498966e612a2](../../data/transcripts/t-8e1daf6dddaa498966e612a2.json)
+[r-a031ddededb3f7f9559988bc](../../data/documents/r-a031ddededb3f7f9559988bc.json) · [t-36516e08125a062deb1d706a](../../data/documents/t-36516e08125a062deb1d706a.json) · [t-8e1daf6dddaa498966e612a2](../../data/documents/t-8e1daf6dddaa498966e612a2.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -804,7 +804,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-e8d403e0d1a74456a0925efd](../../data/edited_transcripts/r-e8d403e0d1a74456a0925efd.json) · [t-5b095390518c6ceea5746664](../../data/transcripts/t-5b095390518c6ceea5746664.json) · [t-6d7c52b83269d491770bb84b](../../data/transcripts/t-6d7c52b83269d491770bb84b.json)
+[r-e8d403e0d1a74456a0925efd](../../data/documents/r-e8d403e0d1a74456a0925efd.json) · [t-5b095390518c6ceea5746664](../../data/documents/t-5b095390518c6ceea5746664.json) · [t-6d7c52b83269d491770bb84b](../../data/documents/t-6d7c52b83269d491770bb84b.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -826,7 +826,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-066911174ad1f1aa6ba9bbe6](../../data/edited_transcripts/r-066911174ad1f1aa6ba9bbe6.json) · [t-54c0221ed621eea66d5fc5cb](../../data/transcripts/t-54c0221ed621eea66d5fc5cb.json) · [t-98eab4703a4173e0f1663a3e](../../data/transcripts/t-98eab4703a4173e0f1663a3e.json)
+[r-066911174ad1f1aa6ba9bbe6](../../data/documents/r-066911174ad1f1aa6ba9bbe6.json) · [t-54c0221ed621eea66d5fc5cb](../../data/documents/t-54c0221ed621eea66d5fc5cb.json) · [t-98eab4703a4173e0f1663a3e](../../data/documents/t-98eab4703a4173e0f1663a3e.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -849,7 +849,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-ef4d39ddff0e74745a751199](../../data/edited_transcripts/r-ef4d39ddff0e74745a751199.json) · [t-fae7d5cbbb0d4fe7d708cff8](../../data/transcripts/t-fae7d5cbbb0d4fe7d708cff8.json) · [r-882d301d0da267f577474544](../../data/edited_transcripts/r-882d301d0da267f577474544.json) · [t-35603833b37a2aaab5b70e1e](../../data/transcripts/t-35603833b37a2aaab5b70e1e.json)
+[r-ef4d39ddff0e74745a751199](../../data/documents/r-ef4d39ddff0e74745a751199.json) · [t-fae7d5cbbb0d4fe7d708cff8](../../data/documents/t-fae7d5cbbb0d4fe7d708cff8.json) · [r-882d301d0da267f577474544](../../data/documents/r-882d301d0da267f577474544.json) · [t-35603833b37a2aaab5b70e1e](../../data/documents/t-35603833b37a2aaab5b70e1e.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -872,7 +872,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-91a0f91f97db6409927a77e8](../../data/edited_transcripts/r-91a0f91f97db6409927a77e8.json) · [t-5468117cae83ea1a5ee256ff](../../data/transcripts/t-5468117cae83ea1a5ee256ff.json) · [t-de656c71ac8cf957d61c48d4](../../data/transcripts/t-de656c71ac8cf957d61c48d4.json)
+[r-91a0f91f97db6409927a77e8](../../data/documents/r-91a0f91f97db6409927a77e8.json) · [t-5468117cae83ea1a5ee256ff](../../data/documents/t-5468117cae83ea1a5ee256ff.json) · [t-de656c71ac8cf957d61c48d4](../../data/documents/t-de656c71ac8cf957d61c48d4.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -894,7 +894,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-1f28549802ddcb96419e2193](../../data/edited_transcripts/r-1f28549802ddcb96419e2193.json) · [t-0e7b459450a9e84b8a02e362](../../data/transcripts/t-0e7b459450a9e84b8a02e362.json) · [t-a43a972edd9de221cd19f8cb](../../data/transcripts/t-a43a972edd9de221cd19f8cb.json)
+[r-1f28549802ddcb96419e2193](../../data/documents/r-1f28549802ddcb96419e2193.json) · [t-0e7b459450a9e84b8a02e362](../../data/documents/t-0e7b459450a9e84b8a02e362.json) · [t-a43a972edd9de221cd19f8cb](../../data/documents/t-a43a972edd9de221cd19f8cb.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -917,7 +917,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-026dcb93c2376da84e87465b](../../data/edited_transcripts/r-026dcb93c2376da84e87465b.json) · [t-95d50004bbe35bd2fbb852fd](../../data/transcripts/t-95d50004bbe35bd2fbb852fd.json) · [t-e6bff04cfccb06140cc43b0a](../../data/transcripts/t-e6bff04cfccb06140cc43b0a.json)
+[r-026dcb93c2376da84e87465b](../../data/documents/r-026dcb93c2376da84e87465b.json) · [t-95d50004bbe35bd2fbb852fd](../../data/documents/t-95d50004bbe35bd2fbb852fd.json) · [t-e6bff04cfccb06140cc43b0a](../../data/documents/t-e6bff04cfccb06140cc43b0a.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -940,7 +940,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-dcbb904d97b47cdf90213a04](../../data/edited_transcripts/r-dcbb904d97b47cdf90213a04.json) · [t-0eb188d665de31a51301a4f2](../../data/transcripts/t-0eb188d665de31a51301a4f2.json) · [t-b35f2b624b7726b9cd55f53d](../../data/transcripts/t-b35f2b624b7726b9cd55f53d.json)
+[r-dcbb904d97b47cdf90213a04](../../data/documents/r-dcbb904d97b47cdf90213a04.json) · [t-0eb188d665de31a51301a4f2](../../data/documents/t-0eb188d665de31a51301a4f2.json) · [t-b35f2b624b7726b9cd55f53d](../../data/documents/t-b35f2b624b7726b9cd55f53d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -962,7 +962,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-68bd745d0d93cdb91367a774](../../data/edited_transcripts/r-68bd745d0d93cdb91367a774.json) · [t-2a4448a1d8ca92c2bd58a82a](../../data/transcripts/t-2a4448a1d8ca92c2bd58a82a.json)
+[r-68bd745d0d93cdb91367a774](../../data/documents/r-68bd745d0d93cdb91367a774.json) · [t-2a4448a1d8ca92c2bd58a82a](../../data/documents/t-2a4448a1d8ca92c2bd58a82a.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -985,7 +985,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-a495a1f56880f328e300d4d3](../../data/edited_transcripts/r-a495a1f56880f328e300d4d3.json) · [t-2ebee754cd633ed6c515c950](../../data/transcripts/t-2ebee754cd633ed6c515c950.json) · [t-8dbf62a094762ce2ca585053](../../data/transcripts/t-8dbf62a094762ce2ca585053.json)
+[r-a495a1f56880f328e300d4d3](../../data/documents/r-a495a1f56880f328e300d4d3.json) · [t-2ebee754cd633ed6c515c950](../../data/documents/t-2ebee754cd633ed6c515c950.json) · [t-8dbf62a094762ce2ca585053](../../data/documents/t-8dbf62a094762ce2ca585053.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1008,7 +1008,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-01bdf09543101a9aaaeef812](../../data/edited_transcripts/r-01bdf09543101a9aaaeef812.json) · [t-40b96dbbb564419b448a4bea](../../data/transcripts/t-40b96dbbb564419b448a4bea.json) · [t-ce7e98b8c3520898d3a111e6](../../data/transcripts/t-ce7e98b8c3520898d3a111e6.json)
+[r-01bdf09543101a9aaaeef812](../../data/documents/r-01bdf09543101a9aaaeef812.json) · [t-40b96dbbb564419b448a4bea](../../data/documents/t-40b96dbbb564419b448a4bea.json) · [t-ce7e98b8c3520898d3a111e6](../../data/documents/t-ce7e98b8c3520898d3a111e6.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1031,7 +1031,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-bc67dd046cf96c8892b0f66a](../../data/edited_transcripts/r-bc67dd046cf96c8892b0f66a.json) · [t-dde62a22de4c0ab8603b6ffc](../../data/transcripts/t-dde62a22de4c0ab8603b6ffc.json) · [t-f7e799e303549e78f2d4eab3](../../data/transcripts/t-f7e799e303549e78f2d4eab3.json)
+[r-bc67dd046cf96c8892b0f66a](../../data/documents/r-bc67dd046cf96c8892b0f66a.json) · [t-dde62a22de4c0ab8603b6ffc](../../data/documents/t-dde62a22de4c0ab8603b6ffc.json) · [t-f7e799e303549e78f2d4eab3](../../data/documents/t-f7e799e303549e78f2d4eab3.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1054,7 +1054,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-58af7cf5a4894a8cd2ed720c](../../data/edited_transcripts/r-58af7cf5a4894a8cd2ed720c.json) · [t-8c9f00d3dc378c14ef34aa73](../../data/transcripts/t-8c9f00d3dc378c14ef34aa73.json) · [t-8e3eca900327dadf85b5b53e](../../data/transcripts/t-8e3eca900327dadf85b5b53e.json)
+[r-58af7cf5a4894a8cd2ed720c](../../data/documents/r-58af7cf5a4894a8cd2ed720c.json) · [t-8c9f00d3dc378c14ef34aa73](../../data/documents/t-8c9f00d3dc378c14ef34aa73.json) · [t-8e3eca900327dadf85b5b53e](../../data/documents/t-8e3eca900327dadf85b5b53e.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1077,7 +1077,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-14f54ed98b32ec2c36938c2a](../../data/edited_transcripts/r-14f54ed98b32ec2c36938c2a.json) · [t-906dda5576872c84d9a29119](../../data/transcripts/t-906dda5576872c84d9a29119.json) · [t-c389751fdb775ccca83021b2](../../data/transcripts/t-c389751fdb775ccca83021b2.json)
+[r-14f54ed98b32ec2c36938c2a](../../data/documents/r-14f54ed98b32ec2c36938c2a.json) · [t-906dda5576872c84d9a29119](../../data/documents/t-906dda5576872c84d9a29119.json) · [t-c389751fdb775ccca83021b2](../../data/documents/t-c389751fdb775ccca83021b2.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1100,7 +1100,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-70fea25d8bf6fa95ffd1eafd](../../data/edited_transcripts/r-70fea25d8bf6fa95ffd1eafd.json) · [t-2d3635e83bc44003c1f6cf1c](../../data/transcripts/t-2d3635e83bc44003c1f6cf1c.json) · [t-62f4a50739c6a13250be1775](../../data/transcripts/t-62f4a50739c6a13250be1775.json)
+[r-70fea25d8bf6fa95ffd1eafd](../../data/documents/r-70fea25d8bf6fa95ffd1eafd.json) · [t-2d3635e83bc44003c1f6cf1c](../../data/documents/t-2d3635e83bc44003c1f6cf1c.json) · [t-62f4a50739c6a13250be1775](../../data/documents/t-62f4a50739c6a13250be1775.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1123,7 +1123,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-3386ce11314583678041498f](../../data/edited_transcripts/r-3386ce11314583678041498f.json) · [t-391a43b5f63ef1664a67dc09](../../data/transcripts/t-391a43b5f63ef1664a67dc09.json) · [t-7ebe9865bb336b44a99d29d4](../../data/transcripts/t-7ebe9865bb336b44a99d29d4.json)
+[r-3386ce11314583678041498f](../../data/documents/r-3386ce11314583678041498f.json) · [t-391a43b5f63ef1664a67dc09](../../data/documents/t-391a43b5f63ef1664a67dc09.json) · [t-7ebe9865bb336b44a99d29d4](../../data/documents/t-7ebe9865bb336b44a99d29d4.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1146,7 +1146,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-8df921f34e77219a2d6f19ed](../../data/edited_transcripts/r-8df921f34e77219a2d6f19ed.json) · [t-355c408b2cad455e46ecfbe8](../../data/transcripts/t-355c408b2cad455e46ecfbe8.json) · [t-f6a02c9d9b61f5357c0b15e9](../../data/transcripts/t-f6a02c9d9b61f5357c0b15e9.json)
+[r-8df921f34e77219a2d6f19ed](../../data/documents/r-8df921f34e77219a2d6f19ed.json) · [t-355c408b2cad455e46ecfbe8](../../data/documents/t-355c408b2cad455e46ecfbe8.json) · [t-f6a02c9d9b61f5357c0b15e9](../../data/documents/t-f6a02c9d9b61f5357c0b15e9.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1168,7 +1168,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-8e99ae95e5e700ec244dbb25](../../data/edited_transcripts/r-8e99ae95e5e700ec244dbb25.json) · [t-a1011b902f3c3557a7a51849](../../data/transcripts/t-a1011b902f3c3557a7a51849.json) · [t-f4f9dd7e7ce50f00758edaf3](../../data/transcripts/t-f4f9dd7e7ce50f00758edaf3.json)
+[r-8e99ae95e5e700ec244dbb25](../../data/documents/r-8e99ae95e5e700ec244dbb25.json) · [t-a1011b902f3c3557a7a51849](../../data/documents/t-a1011b902f3c3557a7a51849.json) · [t-f4f9dd7e7ce50f00758edaf3](../../data/documents/t-f4f9dd7e7ce50f00758edaf3.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1190,7 +1190,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-9357f570ab3d52d9f2427096](../../data/edited_transcripts/r-9357f570ab3d52d9f2427096.json) · [t-e79e9c4da1fb3a60d4c9355f](../../data/transcripts/t-e79e9c4da1fb3a60d4c9355f.json) · [t-ee5bf5e4acae11c822ad928b](../../data/transcripts/t-ee5bf5e4acae11c822ad928b.json)
+[r-9357f570ab3d52d9f2427096](../../data/documents/r-9357f570ab3d52d9f2427096.json) · [t-e79e9c4da1fb3a60d4c9355f](../../data/documents/t-e79e9c4da1fb3a60d4c9355f.json) · [t-ee5bf5e4acae11c822ad928b](../../data/documents/t-ee5bf5e4acae11c822ad928b.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1212,7 +1212,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-f2bcede60695f7fbec4012e7](../../data/edited_transcripts/r-f2bcede60695f7fbec4012e7.json) · [t-4bd15b1047a26d7f21cd52ae](../../data/transcripts/t-4bd15b1047a26d7f21cd52ae.json) · [t-88b400b702acb4be06e36a31](../../data/transcripts/t-88b400b702acb4be06e36a31.json)
+[r-f2bcede60695f7fbec4012e7](../../data/documents/r-f2bcede60695f7fbec4012e7.json) · [t-4bd15b1047a26d7f21cd52ae](../../data/documents/t-4bd15b1047a26d7f21cd52ae.json) · [t-88b400b702acb4be06e36a31](../../data/documents/t-88b400b702acb4be06e36a31.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1234,7 +1234,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-f2844096621a296264db4b96](../../data/edited_transcripts/r-f2844096621a296264db4b96.json) · [t-85c0ed2c753d490414ebdb8d](../../data/transcripts/t-85c0ed2c753d490414ebdb8d.json) · [t-b9f934bf1a50ea28dbc5294d](../../data/transcripts/t-b9f934bf1a50ea28dbc5294d.json)
+[r-f2844096621a296264db4b96](../../data/documents/r-f2844096621a296264db4b96.json) · [t-85c0ed2c753d490414ebdb8d](../../data/documents/t-85c0ed2c753d490414ebdb8d.json) · [t-b9f934bf1a50ea28dbc5294d](../../data/documents/t-b9f934bf1a50ea28dbc5294d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1256,7 +1256,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-f93a80c5d8007f37b66f9abc](../../data/edited_transcripts/r-f93a80c5d8007f37b66f9abc.json) · [t-1d1fb8c015909e99c14dfa0e](../../data/transcripts/t-1d1fb8c015909e99c14dfa0e.json) · [t-6327b82c2bcd4c631f63f48f](../../data/transcripts/t-6327b82c2bcd4c631f63f48f.json)
+[r-f93a80c5d8007f37b66f9abc](../../data/documents/r-f93a80c5d8007f37b66f9abc.json) · [t-1d1fb8c015909e99c14dfa0e](../../data/documents/t-1d1fb8c015909e99c14dfa0e.json) · [t-6327b82c2bcd4c631f63f48f](../../data/documents/t-6327b82c2bcd4c631f63f48f.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1278,7 +1278,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-1c9162e2a8e83b140f1c7cd3](../../data/edited_transcripts/r-1c9162e2a8e83b140f1c7cd3.json) · [t-5ecd3e12f76bb4480498297c](../../data/transcripts/t-5ecd3e12f76bb4480498297c.json) · [t-9c9b1934bbe4a2bbbb2b4bca](../../data/transcripts/t-9c9b1934bbe4a2bbbb2b4bca.json)
+[r-1c9162e2a8e83b140f1c7cd3](../../data/documents/r-1c9162e2a8e83b140f1c7cd3.json) · [t-5ecd3e12f76bb4480498297c](../../data/documents/t-5ecd3e12f76bb4480498297c.json) · [t-9c9b1934bbe4a2bbbb2b4bca](../../data/documents/t-9c9b1934bbe4a2bbbb2b4bca.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1300,11 +1300,11 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-3e4fbb431036ed2edf57ae76](../../data/edited_transcripts/r-3e4fbb431036ed2edf57ae76.json) · [t-46816ae4d4b9e5409b37daf3](../../data/transcripts/t-46816ae4d4b9e5409b37daf3.json)
+[r-3e4fbb431036ed2edf57ae76](../../data/documents/r-3e4fbb431036ed2edf57ae76.json) · [t-46816ae4d4b9e5409b37daf3](../../data/documents/t-46816ae4d4b9e5409b37daf3.json)
 
 **跨来源引用**：基础转录 3；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-c4f6ca743a51bec6628c460f](../../data/edited_transcripts/r-c4f6ca743a51bec6628c460f.json) · [t-42da540e9a38fd97f0a2b01a](../../data/transcripts/t-42da540e9a38fd97f0a2b01a.json) · [t-a36636b51b60d3ed5e53e045](../../data/transcripts/t-a36636b51b60d3ed5e53e045.json) · [t-d8eae8858fb23342d26132bf](../../data/transcripts/t-d8eae8858fb23342d26132bf.json)
+[r-c4f6ca743a51bec6628c460f](../../data/documents/r-c4f6ca743a51bec6628c460f.json) · [t-42da540e9a38fd97f0a2b01a](../../data/documents/t-42da540e9a38fd97f0a2b01a.json) · [t-a36636b51b60d3ed5e53e045](../../data/documents/t-a36636b51b60d3ed5e53e045.json) · [t-d8eae8858fb23342d26132bf](../../data/documents/t-d8eae8858fb23342d26132bf.json)
 
 **同音频**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1322,11 +1322,11 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 3；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-c4f6ca743a51bec6628c460f](../../data/edited_transcripts/r-c4f6ca743a51bec6628c460f.json) · [t-42da540e9a38fd97f0a2b01a](../../data/transcripts/t-42da540e9a38fd97f0a2b01a.json) · [t-a36636b51b60d3ed5e53e045](../../data/transcripts/t-a36636b51b60d3ed5e53e045.json) · [t-d8eae8858fb23342d26132bf](../../data/transcripts/t-d8eae8858fb23342d26132bf.json)
+[r-c4f6ca743a51bec6628c460f](../../data/documents/r-c4f6ca743a51bec6628c460f.json) · [t-42da540e9a38fd97f0a2b01a](../../data/documents/t-42da540e9a38fd97f0a2b01a.json) · [t-a36636b51b60d3ed5e53e045](../../data/documents/t-a36636b51b60d3ed5e53e045.json) · [t-d8eae8858fb23342d26132bf](../../data/documents/t-d8eae8858fb23342d26132bf.json)
 
 **跨来源引用**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-3e4fbb431036ed2edf57ae76](../../data/edited_transcripts/r-3e4fbb431036ed2edf57ae76.json) · [t-46816ae4d4b9e5409b37daf3](../../data/transcripts/t-46816ae4d4b9e5409b37daf3.json)
+[r-3e4fbb431036ed2edf57ae76](../../data/documents/r-3e4fbb431036ed2edf57ae76.json) · [t-46816ae4d4b9e5409b37daf3](../../data/documents/t-46816ae4d4b9e5409b37daf3.json)
 
 **同音频**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1345,7 +1345,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-ac289c74bab65d3968854d1e](../../data/edited_transcripts/r-ac289c74bab65d3968854d1e.json) · [t-a53145146f7cdc42b0759f72](../../data/transcripts/t-a53145146f7cdc42b0759f72.json) · [t-a71de1c4b5f4e570810646c3](../../data/transcripts/t-a71de1c4b5f4e570810646c3.json)
+[r-ac289c74bab65d3968854d1e](../../data/documents/r-ac289c74bab65d3968854d1e.json) · [t-a53145146f7cdc42b0759f72](../../data/documents/t-a53145146f7cdc42b0759f72.json) · [t-a71de1c4b5f4e570810646c3](../../data/documents/t-a71de1c4b5f4e570810646c3.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1368,7 +1368,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-2929aa39b75e547cdac08946](../../data/edited_transcripts/r-2929aa39b75e547cdac08946.json) · [t-4dedd1cbb916b0d37270f96e](../../data/transcripts/t-4dedd1cbb916b0d37270f96e.json) · [t-dd71fb1c6cb6f3d92f9ec94c](../../data/transcripts/t-dd71fb1c6cb6f3d92f9ec94c.json)
+[r-2929aa39b75e547cdac08946](../../data/documents/r-2929aa39b75e547cdac08946.json) · [t-4dedd1cbb916b0d37270f96e](../../data/documents/t-4dedd1cbb916b0d37270f96e.json) · [t-dd71fb1c6cb6f3d92f9ec94c](../../data/documents/t-dd71fb1c6cb6f3d92f9ec94c.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1391,7 +1391,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 8；整理稿 4；完成且非空非填充词候选 4；其中全文人工审核 0
 
-[r-86d8055e808174a6e0765f40](../../data/edited_transcripts/r-86d8055e808174a6e0765f40.json) · [t-8ade26ee6c7a92d6e4d7f1bf](../../data/transcripts/t-8ade26ee6c7a92d6e4d7f1bf.json) · [t-fc21d2c08bd19c4ecf0b3829](../../data/transcripts/t-fc21d2c08bd19c4ecf0b3829.json) · [r-ac6c2b087cdf219294678e0b](../../data/edited_transcripts/r-ac6c2b087cdf219294678e0b.json) · [t-281dbd6239f3c7b8bfff4a67](../../data/transcripts/t-281dbd6239f3c7b8bfff4a67.json) · [t-294d00e6c92fc81716c19471](../../data/transcripts/t-294d00e6c92fc81716c19471.json) · [r-d71fb49816beecac2fb64880](../../data/edited_transcripts/r-d71fb49816beecac2fb64880.json) · [t-bbe2af0edf6d6dc5f46b184a](../../data/transcripts/t-bbe2af0edf6d6dc5f46b184a.json) · [t-e392e80195e5e3af5f90c2ba](../../data/transcripts/t-e392e80195e5e3af5f90c2ba.json) · [r-8e4f8e05bf1fd855386519ab](../../data/edited_transcripts/r-8e4f8e05bf1fd855386519ab.json) · [t-8c89236bdb473ec9a731ff53](../../data/transcripts/t-8c89236bdb473ec9a731ff53.json) · [t-f5bfb68a7c83290d44ecac49](../../data/transcripts/t-f5bfb68a7c83290d44ecac49.json)
+[r-86d8055e808174a6e0765f40](../../data/documents/r-86d8055e808174a6e0765f40.json) · [t-8ade26ee6c7a92d6e4d7f1bf](../../data/documents/t-8ade26ee6c7a92d6e4d7f1bf.json) · [t-fc21d2c08bd19c4ecf0b3829](../../data/documents/t-fc21d2c08bd19c4ecf0b3829.json) · [r-ac6c2b087cdf219294678e0b](../../data/documents/r-ac6c2b087cdf219294678e0b.json) · [t-281dbd6239f3c7b8bfff4a67](../../data/documents/t-281dbd6239f3c7b8bfff4a67.json) · [t-294d00e6c92fc81716c19471](../../data/documents/t-294d00e6c92fc81716c19471.json) · [r-d71fb49816beecac2fb64880](../../data/documents/r-d71fb49816beecac2fb64880.json) · [t-bbe2af0edf6d6dc5f46b184a](../../data/documents/t-bbe2af0edf6d6dc5f46b184a.json) · [t-e392e80195e5e3af5f90c2ba](../../data/documents/t-e392e80195e5e3af5f90c2ba.json) · [r-8e4f8e05bf1fd855386519ab](../../data/documents/r-8e4f8e05bf1fd855386519ab.json) · [t-8c89236bdb473ec9a731ff53](../../data/documents/t-8c89236bdb473ec9a731ff53.json) · [t-f5bfb68a7c83290d44ecac49](../../data/documents/t-f5bfb68a7c83290d44ecac49.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1413,7 +1413,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-dd9a1b9ed7cbda148e034bf8](../../data/edited_transcripts/r-dd9a1b9ed7cbda148e034bf8.json) · [t-460b1a79c563caa039cd8dac](../../data/transcripts/t-460b1a79c563caa039cd8dac.json) · [t-f0823e28234d8f14dffd4e0c](../../data/transcripts/t-f0823e28234d8f14dffd4e0c.json)
+[r-dd9a1b9ed7cbda148e034bf8](../../data/documents/r-dd9a1b9ed7cbda148e034bf8.json) · [t-460b1a79c563caa039cd8dac](../../data/documents/t-460b1a79c563caa039cd8dac.json) · [t-f0823e28234d8f14dffd4e0c](../../data/documents/t-f0823e28234d8f14dffd4e0c.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1435,7 +1435,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-f1b5442ba08b1ce094442cb7](../../data/edited_transcripts/r-f1b5442ba08b1ce094442cb7.json) · [t-7778c885f689b829ab3ab0c4](../../data/transcripts/t-7778c885f689b829ab3ab0c4.json)
+[r-f1b5442ba08b1ce094442cb7](../../data/documents/r-f1b5442ba08b1ce094442cb7.json) · [t-7778c885f689b829ab3ab0c4](../../data/documents/t-7778c885f689b829ab3ab0c4.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1458,7 +1458,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-24ced3c9562ca1a9ba13d300](../../data/edited_transcripts/r-24ced3c9562ca1a9ba13d300.json) · [t-c92f93bcefe2270292514459](../../data/transcripts/t-c92f93bcefe2270292514459.json) · [t-d3f8f3aa4a5399ab9c031b2b](../../data/transcripts/t-d3f8f3aa4a5399ab9c031b2b.json) · [r-981df179d9887db038484017](../../data/edited_transcripts/r-981df179d9887db038484017.json) · [t-5b7d4e15154184c6fc6d0984](../../data/transcripts/t-5b7d4e15154184c6fc6d0984.json) · [t-5db2860341e64502ee3b67b7](../../data/transcripts/t-5db2860341e64502ee3b67b7.json)
+[r-24ced3c9562ca1a9ba13d300](../../data/documents/r-24ced3c9562ca1a9ba13d300.json) · [t-c92f93bcefe2270292514459](../../data/documents/t-c92f93bcefe2270292514459.json) · [t-d3f8f3aa4a5399ab9c031b2b](../../data/documents/t-d3f8f3aa4a5399ab9c031b2b.json) · [r-981df179d9887db038484017](../../data/documents/r-981df179d9887db038484017.json) · [t-5b7d4e15154184c6fc6d0984](../../data/documents/t-5b7d4e15154184c6fc6d0984.json) · [t-5db2860341e64502ee3b67b7](../../data/documents/t-5db2860341e64502ee3b67b7.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1481,7 +1481,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-95b6d441989e0763199d4002](../../data/edited_transcripts/r-95b6d441989e0763199d4002.json) · [t-8f9c859a317dfa888c486ca3](../../data/transcripts/t-8f9c859a317dfa888c486ca3.json) · [t-d0041739a983ac88408d0ef1](../../data/transcripts/t-d0041739a983ac88408d0ef1.json)
+[r-95b6d441989e0763199d4002](../../data/documents/r-95b6d441989e0763199d4002.json) · [t-8f9c859a317dfa888c486ca3](../../data/documents/t-8f9c859a317dfa888c486ca3.json) · [t-d0041739a983ac88408d0ef1](../../data/documents/t-d0041739a983ac88408d0ef1.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1503,7 +1503,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-40783dd040d662c377e3a4d1](../../data/edited_transcripts/r-40783dd040d662c377e3a4d1.json) · [t-030966b48ec6020ed548a789](../../data/transcripts/t-030966b48ec6020ed548a789.json) · [t-d6ded5288652a7804ab8ba01](../../data/transcripts/t-d6ded5288652a7804ab8ba01.json)
+[r-40783dd040d662c377e3a4d1](../../data/documents/r-40783dd040d662c377e3a4d1.json) · [t-030966b48ec6020ed548a789](../../data/documents/t-030966b48ec6020ed548a789.json) · [t-d6ded5288652a7804ab8ba01](../../data/documents/t-d6ded5288652a7804ab8ba01.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1525,7 +1525,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-a38fa08f655822dd8c1dd10c](../../data/edited_transcripts/r-a38fa08f655822dd8c1dd10c.json) · [t-87cf464133108e14121f68e6](../../data/transcripts/t-87cf464133108e14121f68e6.json) · [t-f45fbfcd6c3086a48d121af4](../../data/transcripts/t-f45fbfcd6c3086a48d121af4.json)
+[r-a38fa08f655822dd8c1dd10c](../../data/documents/r-a38fa08f655822dd8c1dd10c.json) · [t-87cf464133108e14121f68e6](../../data/documents/t-87cf464133108e14121f68e6.json) · [t-f45fbfcd6c3086a48d121af4](../../data/documents/t-f45fbfcd6c3086a48d121af4.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1547,7 +1547,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-a056011b7c093c241888b578](../../data/edited_transcripts/r-a056011b7c093c241888b578.json) · [t-10a92c4a60cf0e7dd5a17625](../../data/transcripts/t-10a92c4a60cf0e7dd5a17625.json) · [t-366d390f34515de62416c8fc](../../data/transcripts/t-366d390f34515de62416c8fc.json)
+[r-a056011b7c093c241888b578](../../data/documents/r-a056011b7c093c241888b578.json) · [t-10a92c4a60cf0e7dd5a17625](../../data/documents/t-10a92c4a60cf0e7dd5a17625.json) · [t-366d390f34515de62416c8fc](../../data/documents/t-366d390f34515de62416c8fc.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1570,7 +1570,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 3；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[t-79e1eb0ea7c54df6013b144c](../../data/transcripts/t-79e1eb0ea7c54df6013b144c.json) · [r-3dd2af3cb9bf5fcc38f95caf](../../data/edited_transcripts/r-3dd2af3cb9bf5fcc38f95caf.json) · [t-0e80e9989a8827ed4f481269](../../data/transcripts/t-0e80e9989a8827ed4f481269.json) · [t-f87ba197d7b776c27aa62a58](../../data/transcripts/t-f87ba197d7b776c27aa62a58.json)
+[t-79e1eb0ea7c54df6013b144c](../../data/documents/t-79e1eb0ea7c54df6013b144c.json) · [r-3dd2af3cb9bf5fcc38f95caf](../../data/documents/r-3dd2af3cb9bf5fcc38f95caf.json) · [t-0e80e9989a8827ed4f481269](../../data/documents/t-0e80e9989a8827ed4f481269.json) · [t-f87ba197d7b776c27aa62a58](../../data/documents/t-f87ba197d7b776c27aa62a58.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1593,7 +1593,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-c1c7e4ca450b8a9f76b09218](../../data/edited_transcripts/r-c1c7e4ca450b8a9f76b09218.json) · [t-964bc13feb37cb884564e275](../../data/transcripts/t-964bc13feb37cb884564e275.json) · [t-a5caa55fc2d9892d13aebdc5](../../data/transcripts/t-a5caa55fc2d9892d13aebdc5.json)
+[r-c1c7e4ca450b8a9f76b09218](../../data/documents/r-c1c7e4ca450b8a9f76b09218.json) · [t-964bc13feb37cb884564e275](../../data/documents/t-964bc13feb37cb884564e275.json) · [t-a5caa55fc2d9892d13aebdc5](../../data/documents/t-a5caa55fc2d9892d13aebdc5.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1615,7 +1615,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-1d9a0c8a1d7a01d723c08cd8](../../data/edited_transcripts/r-1d9a0c8a1d7a01d723c08cd8.json) · [t-75bc316f3eabd7cd907812d0](../../data/transcripts/t-75bc316f3eabd7cd907812d0.json) · [t-fba5ec3edcc8492f1f1ee70c](../../data/transcripts/t-fba5ec3edcc8492f1f1ee70c.json)
+[r-1d9a0c8a1d7a01d723c08cd8](../../data/documents/r-1d9a0c8a1d7a01d723c08cd8.json) · [t-75bc316f3eabd7cd907812d0](../../data/documents/t-75bc316f3eabd7cd907812d0.json) · [t-fba5ec3edcc8492f1f1ee70c](../../data/documents/t-fba5ec3edcc8492f1f1ee70c.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1637,7 +1637,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-e29eb326aabe2be800efe39f](../../data/edited_transcripts/r-e29eb326aabe2be800efe39f.json) · [t-21e5d170f52955d701e56278](../../data/transcripts/t-21e5d170f52955d701e56278.json) · [t-ecd17cfc846ab82c4f32e42c](../../data/transcripts/t-ecd17cfc846ab82c4f32e42c.json)
+[r-e29eb326aabe2be800efe39f](../../data/documents/r-e29eb326aabe2be800efe39f.json) · [t-21e5d170f52955d701e56278](../../data/documents/t-21e5d170f52955d701e56278.json) · [t-ecd17cfc846ab82c4f32e42c](../../data/documents/t-ecd17cfc846ab82c4f32e42c.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1660,7 +1660,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-4956515ef769411b3fcf8ed4](../../data/edited_transcripts/r-4956515ef769411b3fcf8ed4.json) · [t-16f18d6310d61a8da1293778](../../data/transcripts/t-16f18d6310d61a8da1293778.json) · [t-aaee1bde46eee71b7611ed10](../../data/transcripts/t-aaee1bde46eee71b7611ed10.json) · [r-3a51270367bdaaae59f5b1bc](../../data/edited_transcripts/r-3a51270367bdaaae59f5b1bc.json) · [t-d2b57b157d2eb8b132972fdd](../../data/transcripts/t-d2b57b157d2eb8b132972fdd.json) · [t-e62d2d51e375d8b1ca126e77](../../data/transcripts/t-e62d2d51e375d8b1ca126e77.json)
+[r-4956515ef769411b3fcf8ed4](../../data/documents/r-4956515ef769411b3fcf8ed4.json) · [t-16f18d6310d61a8da1293778](../../data/documents/t-16f18d6310d61a8da1293778.json) · [t-aaee1bde46eee71b7611ed10](../../data/documents/t-aaee1bde46eee71b7611ed10.json) · [r-3a51270367bdaaae59f5b1bc](../../data/documents/r-3a51270367bdaaae59f5b1bc.json) · [t-d2b57b157d2eb8b132972fdd](../../data/documents/t-d2b57b157d2eb8b132972fdd.json) · [t-e62d2d51e375d8b1ca126e77](../../data/documents/t-e62d2d51e375d8b1ca126e77.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1683,7 +1683,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-95382e55512fe1cafa3178b2](../../data/edited_transcripts/r-95382e55512fe1cafa3178b2.json) · [t-48db098133fb6f98caaf6ddb](../../data/transcripts/t-48db098133fb6f98caaf6ddb.json) · [t-ce150859fe37646a2dca6aaf](../../data/transcripts/t-ce150859fe37646a2dca6aaf.json)
+[r-95382e55512fe1cafa3178b2](../../data/documents/r-95382e55512fe1cafa3178b2.json) · [t-48db098133fb6f98caaf6ddb](../../data/documents/t-48db098133fb6f98caaf6ddb.json) · [t-ce150859fe37646a2dca6aaf](../../data/documents/t-ce150859fe37646a2dca6aaf.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1706,7 +1706,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-9fa1eacea9b133087014b63b](../../data/edited_transcripts/r-9fa1eacea9b133087014b63b.json) · [t-3d1105df10783d0da1c46d59](../../data/transcripts/t-3d1105df10783d0da1c46d59.json) · [t-9bc44bfc219fbe5a6d5dad3c](../../data/transcripts/t-9bc44bfc219fbe5a6d5dad3c.json)
+[r-9fa1eacea9b133087014b63b](../../data/documents/r-9fa1eacea9b133087014b63b.json) · [t-3d1105df10783d0da1c46d59](../../data/documents/t-3d1105df10783d0da1c46d59.json) · [t-9bc44bfc219fbe5a6d5dad3c](../../data/documents/t-9bc44bfc219fbe5a6d5dad3c.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1728,7 +1728,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-9cbf8a8d4638c863716d729b](../../data/edited_transcripts/r-9cbf8a8d4638c863716d729b.json) · [t-ec96928b9fed355ddb418da5](../../data/transcripts/t-ec96928b9fed355ddb418da5.json)
+[r-9cbf8a8d4638c863716d729b](../../data/documents/r-9cbf8a8d4638c863716d729b.json) · [t-ec96928b9fed355ddb418da5](../../data/documents/t-ec96928b9fed355ddb418da5.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1750,7 +1750,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-c2c14bee462382d43ea45510](../../data/edited_transcripts/r-c2c14bee462382d43ea45510.json) · [t-1b32af6ea62935dd2437c1df](../../data/transcripts/t-1b32af6ea62935dd2437c1df.json) · [t-40c7e4f2089d62795793c3f6](../../data/transcripts/t-40c7e4f2089d62795793c3f6.json)
+[r-c2c14bee462382d43ea45510](../../data/documents/r-c2c14bee462382d43ea45510.json) · [t-1b32af6ea62935dd2437c1df](../../data/documents/t-1b32af6ea62935dd2437c1df.json) · [t-40c7e4f2089d62795793c3f6](../../data/documents/t-40c7e4f2089d62795793c3f6.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1773,7 +1773,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-e04aa0c59f105336d89cd8ba](../../data/edited_transcripts/r-e04aa0c59f105336d89cd8ba.json) · [t-adb04b2f972cdd438cf137f1](../../data/transcripts/t-adb04b2f972cdd438cf137f1.json) · [t-af4f7fc580f1f560c3cfc869](../../data/transcripts/t-af4f7fc580f1f560c3cfc869.json)
+[r-e04aa0c59f105336d89cd8ba](../../data/documents/r-e04aa0c59f105336d89cd8ba.json) · [t-adb04b2f972cdd438cf137f1](../../data/documents/t-adb04b2f972cdd438cf137f1.json) · [t-af4f7fc580f1f560c3cfc869](../../data/documents/t-af4f7fc580f1f560c3cfc869.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1796,7 +1796,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-c6c2d71299e98c30a659045e](../../data/edited_transcripts/r-c6c2d71299e98c30a659045e.json) · [t-b4f7f78d5f882ca8b5b41998](../../data/transcripts/t-b4f7f78d5f882ca8b5b41998.json) · [t-c9d3cbcbc6cfcb2bbf5985da](../../data/transcripts/t-c9d3cbcbc6cfcb2bbf5985da.json)
+[r-c6c2d71299e98c30a659045e](../../data/documents/r-c6c2d71299e98c30a659045e.json) · [t-b4f7f78d5f882ca8b5b41998](../../data/documents/t-b4f7f78d5f882ca8b5b41998.json) · [t-c9d3cbcbc6cfcb2bbf5985da](../../data/documents/t-c9d3cbcbc6cfcb2bbf5985da.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1819,7 +1819,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-0b407d086f5cf400610b0604](../../data/edited_transcripts/r-0b407d086f5cf400610b0604.json) · [t-2210d4b345ffda448a25ddce](../../data/transcripts/t-2210d4b345ffda448a25ddce.json) · [t-2a621b560e9cb6387a033193](../../data/transcripts/t-2a621b560e9cb6387a033193.json) · [r-29a7a24889c892d6c8ca15ba](../../data/edited_transcripts/r-29a7a24889c892d6c8ca15ba.json) · [t-7d29b07ea6b919ba31571523](../../data/transcripts/t-7d29b07ea6b919ba31571523.json) · [t-ebcfa7aaee51fe3f6ef260a9](../../data/transcripts/t-ebcfa7aaee51fe3f6ef260a9.json)
+[r-0b407d086f5cf400610b0604](../../data/documents/r-0b407d086f5cf400610b0604.json) · [t-2210d4b345ffda448a25ddce](../../data/documents/t-2210d4b345ffda448a25ddce.json) · [t-2a621b560e9cb6387a033193](../../data/documents/t-2a621b560e9cb6387a033193.json) · [r-29a7a24889c892d6c8ca15ba](../../data/documents/r-29a7a24889c892d6c8ca15ba.json) · [t-7d29b07ea6b919ba31571523](../../data/documents/t-7d29b07ea6b919ba31571523.json) · [t-ebcfa7aaee51fe3f6ef260a9](../../data/documents/t-ebcfa7aaee51fe3f6ef260a9.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1842,7 +1842,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-e6dd3635ad2706e0124f319b](../../data/edited_transcripts/r-e6dd3635ad2706e0124f319b.json) · [t-8ca47ee953cd65b49667f1de](../../data/transcripts/t-8ca47ee953cd65b49667f1de.json) · [t-ace14a6915faab5d61b042ee](../../data/transcripts/t-ace14a6915faab5d61b042ee.json)
+[r-e6dd3635ad2706e0124f319b](../../data/documents/r-e6dd3635ad2706e0124f319b.json) · [t-8ca47ee953cd65b49667f1de](../../data/documents/t-8ca47ee953cd65b49667f1de.json) · [t-ace14a6915faab5d61b042ee](../../data/documents/t-ace14a6915faab5d61b042ee.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1864,7 +1864,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-4689c12dc6dfaf462185dffc](../../data/edited_transcripts/r-4689c12dc6dfaf462185dffc.json) · [t-4c2e3397fb4f4030058d75c2](../../data/transcripts/t-4c2e3397fb4f4030058d75c2.json) · [t-862df3aab5c76117231d2681](../../data/transcripts/t-862df3aab5c76117231d2681.json)
+[r-4689c12dc6dfaf462185dffc](../../data/documents/r-4689c12dc6dfaf462185dffc.json) · [t-4c2e3397fb4f4030058d75c2](../../data/documents/t-4c2e3397fb4f4030058d75c2.json) · [t-862df3aab5c76117231d2681](../../data/documents/t-862df3aab5c76117231d2681.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1886,7 +1886,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-47102999dc82119c176dd672](../../data/edited_transcripts/r-47102999dc82119c176dd672.json) · [t-0f4de184fb0083b5c401c1a1](../../data/transcripts/t-0f4de184fb0083b5c401c1a1.json) · [t-e02eff03299eea504d5f057a](../../data/transcripts/t-e02eff03299eea504d5f057a.json)
+[r-47102999dc82119c176dd672](../../data/documents/r-47102999dc82119c176dd672.json) · [t-0f4de184fb0083b5c401c1a1](../../data/documents/t-0f4de184fb0083b5c401c1a1.json) · [t-e02eff03299eea504d5f057a](../../data/documents/t-e02eff03299eea504d5f057a.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1909,7 +1909,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-e376dbc5b1464426c523001a](../../data/edited_transcripts/r-e376dbc5b1464426c523001a.json) · [t-9fe3c8f797984157de862743](../../data/transcripts/t-9fe3c8f797984157de862743.json) · [r-3e27b7620904e11fa27d135d](../../data/edited_transcripts/r-3e27b7620904e11fa27d135d.json) · [t-719660fc9b120bd715cd8a86](../../data/transcripts/t-719660fc9b120bd715cd8a86.json)
+[r-e376dbc5b1464426c523001a](../../data/documents/r-e376dbc5b1464426c523001a.json) · [t-9fe3c8f797984157de862743](../../data/documents/t-9fe3c8f797984157de862743.json) · [r-3e27b7620904e11fa27d135d](../../data/documents/r-3e27b7620904e11fa27d135d.json) · [t-719660fc9b120bd715cd8a86](../../data/documents/t-719660fc9b120bd715cd8a86.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1931,7 +1931,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-42f480c89a31433114152463](../../data/edited_transcripts/r-42f480c89a31433114152463.json) · [t-32fa883365b15865f49b7f8c](../../data/transcripts/t-32fa883365b15865f49b7f8c.json) · [t-7bd0652a2e2ea1730f5027f5](../../data/transcripts/t-7bd0652a2e2ea1730f5027f5.json)
+[r-42f480c89a31433114152463](../../data/documents/r-42f480c89a31433114152463.json) · [t-32fa883365b15865f49b7f8c](../../data/documents/t-32fa883365b15865f49b7f8c.json) · [t-7bd0652a2e2ea1730f5027f5](../../data/documents/t-7bd0652a2e2ea1730f5027f5.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1953,7 +1953,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-37e6e9d104820cbcf11b2458](../../data/edited_transcripts/r-37e6e9d104820cbcf11b2458.json) · [t-1428923555750a0fa31ca262](../../data/transcripts/t-1428923555750a0fa31ca262.json) · [t-2b2792eda4c84380f9fb5bad](../../data/transcripts/t-2b2792eda4c84380f9fb5bad.json)
+[r-37e6e9d104820cbcf11b2458](../../data/documents/r-37e6e9d104820cbcf11b2458.json) · [t-1428923555750a0fa31ca262](../../data/documents/t-1428923555750a0fa31ca262.json) · [t-2b2792eda4c84380f9fb5bad](../../data/documents/t-2b2792eda4c84380f9fb5bad.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1975,7 +1975,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-812dc5263f3df335b63796c7](../../data/edited_transcripts/r-812dc5263f3df335b63796c7.json) · [t-6f700963d715f157cbc89930](../../data/transcripts/t-6f700963d715f157cbc89930.json) · [t-b2a871469a1fb6338ee45396](../../data/transcripts/t-b2a871469a1fb6338ee45396.json)
+[r-812dc5263f3df335b63796c7](../../data/documents/r-812dc5263f3df335b63796c7.json) · [t-6f700963d715f157cbc89930](../../data/documents/t-6f700963d715f157cbc89930.json) · [t-b2a871469a1fb6338ee45396](../../data/documents/t-b2a871469a1fb6338ee45396.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -1998,7 +1998,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 6；整理稿 3；完成且非空非填充词候选 3；其中全文人工审核 0
 
-[r-0a30586769f8689b7205147a](../../data/edited_transcripts/r-0a30586769f8689b7205147a.json) · [t-423c3447e2362fe85e74b4e8](../../data/transcripts/t-423c3447e2362fe85e74b4e8.json) · [t-42d416b16172458325ce8119](../../data/transcripts/t-42d416b16172458325ce8119.json) · [r-cacf069b4b22215a7e0e0f80](../../data/edited_transcripts/r-cacf069b4b22215a7e0e0f80.json) · [t-17c16e17dca47eea6101665e](../../data/transcripts/t-17c16e17dca47eea6101665e.json) · [t-b215349d6a887a066b056ce5](../../data/transcripts/t-b215349d6a887a066b056ce5.json) · [r-d96ad0c46ffce0baf465adb6](../../data/edited_transcripts/r-d96ad0c46ffce0baf465adb6.json) · [t-6bec95d36d98c54510b264fd](../../data/transcripts/t-6bec95d36d98c54510b264fd.json) · [t-8f45b1923e1a488976f18d64](../../data/transcripts/t-8f45b1923e1a488976f18d64.json)
+[r-0a30586769f8689b7205147a](../../data/documents/r-0a30586769f8689b7205147a.json) · [t-423c3447e2362fe85e74b4e8](../../data/documents/t-423c3447e2362fe85e74b4e8.json) · [t-42d416b16172458325ce8119](../../data/documents/t-42d416b16172458325ce8119.json) · [r-cacf069b4b22215a7e0e0f80](../../data/documents/r-cacf069b4b22215a7e0e0f80.json) · [t-17c16e17dca47eea6101665e](../../data/documents/t-17c16e17dca47eea6101665e.json) · [t-b215349d6a887a066b056ce5](../../data/documents/t-b215349d6a887a066b056ce5.json) · [r-d96ad0c46ffce0baf465adb6](../../data/documents/r-d96ad0c46ffce0baf465adb6.json) · [t-6bec95d36d98c54510b264fd](../../data/documents/t-6bec95d36d98c54510b264fd.json) · [t-8f45b1923e1a488976f18d64](../../data/documents/t-8f45b1923e1a488976f18d64.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2020,7 +2020,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-e85f95bae4a6d0b529e99231](../../data/edited_transcripts/r-e85f95bae4a6d0b529e99231.json) · [t-4e4d025fb90cce2d4e3b3f9b](../../data/transcripts/t-4e4d025fb90cce2d4e3b3f9b.json) · [t-7f796c3f838f14ff92b15942](../../data/transcripts/t-7f796c3f838f14ff92b15942.json)
+[r-e85f95bae4a6d0b529e99231](../../data/documents/r-e85f95bae4a6d0b529e99231.json) · [t-4e4d025fb90cce2d4e3b3f9b](../../data/documents/t-4e4d025fb90cce2d4e3b3f9b.json) · [t-7f796c3f838f14ff92b15942](../../data/documents/t-7f796c3f838f14ff92b15942.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2043,7 +2043,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-7be1628d7736f08706a539a9](../../data/edited_transcripts/r-7be1628d7736f08706a539a9.json) · [t-24cfef22f68a313102ac77f9](../../data/transcripts/t-24cfef22f68a313102ac77f9.json) · [t-cb31244928d622c07a8ea0bd](../../data/transcripts/t-cb31244928d622c07a8ea0bd.json)
+[r-7be1628d7736f08706a539a9](../../data/documents/r-7be1628d7736f08706a539a9.json) · [t-24cfef22f68a313102ac77f9](../../data/documents/t-24cfef22f68a313102ac77f9.json) · [t-cb31244928d622c07a8ea0bd](../../data/documents/t-cb31244928d622c07a8ea0bd.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2066,7 +2066,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 3；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-0a6637d03b6774b7d406945a](../../data/edited_transcripts/r-0a6637d03b6774b7d406945a.json) · [t-45f64b38c880a35136369fec](../../data/transcripts/t-45f64b38c880a35136369fec.json) · [t-c60d8084fbbd20d35cc5df04](../../data/transcripts/t-c60d8084fbbd20d35cc5df04.json) · [r-79da9b86ed3ad8f25f23f025](../../data/edited_transcripts/r-79da9b86ed3ad8f25f23f025.json) · [t-61c59c5119f14aa66fa2fed2](../../data/transcripts/t-61c59c5119f14aa66fa2fed2.json)
+[r-0a6637d03b6774b7d406945a](../../data/documents/r-0a6637d03b6774b7d406945a.json) · [t-45f64b38c880a35136369fec](../../data/documents/t-45f64b38c880a35136369fec.json) · [t-c60d8084fbbd20d35cc5df04](../../data/documents/t-c60d8084fbbd20d35cc5df04.json) · [r-79da9b86ed3ad8f25f23f025](../../data/documents/r-79da9b86ed3ad8f25f23f025.json) · [t-61c59c5119f14aa66fa2fed2](../../data/documents/t-61c59c5119f14aa66fa2fed2.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2088,7 +2088,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-b79915e0d8c42bde0587c6e5](../../data/edited_transcripts/r-b79915e0d8c42bde0587c6e5.json) · [t-571fb43dc68cd3a1cf75c2b5](../../data/transcripts/t-571fb43dc68cd3a1cf75c2b5.json) · [t-e78fc8e668b85e5d24953ee5](../../data/transcripts/t-e78fc8e668b85e5d24953ee5.json)
+[r-b79915e0d8c42bde0587c6e5](../../data/documents/r-b79915e0d8c42bde0587c6e5.json) · [t-571fb43dc68cd3a1cf75c2b5](../../data/documents/t-571fb43dc68cd3a1cf75c2b5.json) · [t-e78fc8e668b85e5d24953ee5](../../data/documents/t-e78fc8e668b85e5d24953ee5.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2111,7 +2111,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-d01d4235732733fda2c728b1](../../data/edited_transcripts/r-d01d4235732733fda2c728b1.json) · [t-2f717f4c42d354fc6c2122c0](../../data/transcripts/t-2f717f4c42d354fc6c2122c0.json) · [t-ca85922afee572198a5fbd67](../../data/transcripts/t-ca85922afee572198a5fbd67.json)
+[r-d01d4235732733fda2c728b1](../../data/documents/r-d01d4235732733fda2c728b1.json) · [t-2f717f4c42d354fc6c2122c0](../../data/documents/t-2f717f4c42d354fc6c2122c0.json) · [t-ca85922afee572198a5fbd67](../../data/documents/t-ca85922afee572198a5fbd67.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2134,7 +2134,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-38c8bfa0e7b01158feedaeb4](../../data/edited_transcripts/r-38c8bfa0e7b01158feedaeb4.json) · [t-681a85e4b8cae3e908448056](../../data/transcripts/t-681a85e4b8cae3e908448056.json) · [t-8b1484317bb7441f9ed07ad7](../../data/transcripts/t-8b1484317bb7441f9ed07ad7.json)
+[r-38c8bfa0e7b01158feedaeb4](../../data/documents/r-38c8bfa0e7b01158feedaeb4.json) · [t-681a85e4b8cae3e908448056](../../data/documents/t-681a85e4b8cae3e908448056.json) · [t-8b1484317bb7441f9ed07ad7](../../data/documents/t-8b1484317bb7441f9ed07ad7.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2156,7 +2156,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-d5e619a15b3c6bfdf4ffec20](../../data/edited_transcripts/r-d5e619a15b3c6bfdf4ffec20.json) · [t-0804cbcc8805f60bf784146d](../../data/transcripts/t-0804cbcc8805f60bf784146d.json) · [t-640217ea4e32042cef1f4062](../../data/transcripts/t-640217ea4e32042cef1f4062.json)
+[r-d5e619a15b3c6bfdf4ffec20](../../data/documents/r-d5e619a15b3c6bfdf4ffec20.json) · [t-0804cbcc8805f60bf784146d](../../data/documents/t-0804cbcc8805f60bf784146d.json) · [t-640217ea4e32042cef1f4062](../../data/documents/t-640217ea4e32042cef1f4062.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2178,7 +2178,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-4267028ff5ddcec5826b9110](../../data/edited_transcripts/r-4267028ff5ddcec5826b9110.json) · [t-7f0d958187ee441ccaa5cab2](../../data/transcripts/t-7f0d958187ee441ccaa5cab2.json) · [t-e56ce7915163509e71f897b8](../../data/transcripts/t-e56ce7915163509e71f897b8.json)
+[r-4267028ff5ddcec5826b9110](../../data/documents/r-4267028ff5ddcec5826b9110.json) · [t-7f0d958187ee441ccaa5cab2](../../data/documents/t-7f0d958187ee441ccaa5cab2.json) · [t-e56ce7915163509e71f897b8](../../data/documents/t-e56ce7915163509e71f897b8.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2200,7 +2200,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-35de001df3f94fe010c2fc51](../../data/edited_transcripts/r-35de001df3f94fe010c2fc51.json) · [t-71ccd4dfde807471c7ee066e](../../data/transcripts/t-71ccd4dfde807471c7ee066e.json) · [t-de21fdb71ed7eb23466fe285](../../data/transcripts/t-de21fdb71ed7eb23466fe285.json)
+[r-35de001df3f94fe010c2fc51](../../data/documents/r-35de001df3f94fe010c2fc51.json) · [t-71ccd4dfde807471c7ee066e](../../data/documents/t-71ccd4dfde807471c7ee066e.json) · [t-de21fdb71ed7eb23466fe285](../../data/documents/t-de21fdb71ed7eb23466fe285.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2222,7 +2222,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-6087e30299d26b88de29664e](../../data/edited_transcripts/r-6087e30299d26b88de29664e.json) · [t-714f9090593502f80f782c87](../../data/transcripts/t-714f9090593502f80f782c87.json) · [t-a4d45b8a1aadfdb51ad8985f](../../data/transcripts/t-a4d45b8a1aadfdb51ad8985f.json)
+[r-6087e30299d26b88de29664e](../../data/documents/r-6087e30299d26b88de29664e.json) · [t-714f9090593502f80f782c87](../../data/documents/t-714f9090593502f80f782c87.json) · [t-a4d45b8a1aadfdb51ad8985f](../../data/documents/t-a4d45b8a1aadfdb51ad8985f.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2245,7 +2245,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-033e52540bd14fa08d4d551c](../../data/edited_transcripts/r-033e52540bd14fa08d4d551c.json) · [t-53b96a04054a74a9595b0df7](../../data/transcripts/t-53b96a04054a74a9595b0df7.json) · [t-dc8674de3d503d655d910d4a](../../data/transcripts/t-dc8674de3d503d655d910d4a.json)
+[r-033e52540bd14fa08d4d551c](../../data/documents/r-033e52540bd14fa08d4d551c.json) · [t-53b96a04054a74a9595b0df7](../../data/documents/t-53b96a04054a74a9595b0df7.json) · [t-dc8674de3d503d655d910d4a](../../data/documents/t-dc8674de3d503d655d910d4a.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2268,7 +2268,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-40c659b729a89bc760a187ad](../../data/edited_transcripts/r-40c659b729a89bc760a187ad.json) · [t-0047d17f84a567dba9540e05](../../data/transcripts/t-0047d17f84a567dba9540e05.json) · [t-9792b0893f474990ca613dfe](../../data/transcripts/t-9792b0893f474990ca613dfe.json)
+[r-40c659b729a89bc760a187ad](../../data/documents/r-40c659b729a89bc760a187ad.json) · [t-0047d17f84a567dba9540e05](../../data/documents/t-0047d17f84a567dba9540e05.json) · [t-9792b0893f474990ca613dfe](../../data/documents/t-9792b0893f474990ca613dfe.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2291,7 +2291,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-140aea8edab23810405cf4c2](../../data/edited_transcripts/r-140aea8edab23810405cf4c2.json) · [t-12ad2c99d2d2c444fffcecb9](../../data/transcripts/t-12ad2c99d2d2c444fffcecb9.json) · [t-4424a02bcda65243b4175d59](../../data/transcripts/t-4424a02bcda65243b4175d59.json)
+[r-140aea8edab23810405cf4c2](../../data/documents/r-140aea8edab23810405cf4c2.json) · [t-12ad2c99d2d2c444fffcecb9](../../data/documents/t-12ad2c99d2d2c444fffcecb9.json) · [t-4424a02bcda65243b4175d59](../../data/documents/t-4424a02bcda65243b4175d59.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2314,7 +2314,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-8c6d486ea71c44f5295237bb](../../data/edited_transcripts/r-8c6d486ea71c44f5295237bb.json) · [t-28976efc4cdd615b36d1a157](../../data/transcripts/t-28976efc4cdd615b36d1a157.json) · [t-ab4f074af1cbb5609357a8cf](../../data/transcripts/t-ab4f074af1cbb5609357a8cf.json)
+[r-8c6d486ea71c44f5295237bb](../../data/documents/r-8c6d486ea71c44f5295237bb.json) · [t-28976efc4cdd615b36d1a157](../../data/documents/t-28976efc4cdd615b36d1a157.json) · [t-ab4f074af1cbb5609357a8cf](../../data/documents/t-ab4f074af1cbb5609357a8cf.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2337,7 +2337,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 26；整理稿 13；完成且非空非填充词候选 13；其中全文人工审核 0
 
-[r-c32f7fdd3902e37090edb230](../../data/edited_transcripts/r-c32f7fdd3902e37090edb230.json) · [t-65ea75b2f335a04a48022462](../../data/transcripts/t-65ea75b2f335a04a48022462.json) · [t-cfcd27984a45f3c602c24824](../../data/transcripts/t-cfcd27984a45f3c602c24824.json) · [r-f320205a1a8969d592390bd7](../../data/edited_transcripts/r-f320205a1a8969d592390bd7.json) · [t-c9a9d27ee737d9c848cda5c8](../../data/transcripts/t-c9a9d27ee737d9c848cda5c8.json) · [t-ec65f6bdfb4403c944eb706d](../../data/transcripts/t-ec65f6bdfb4403c944eb706d.json) · [r-c257a84019120037693a2898](../../data/edited_transcripts/r-c257a84019120037693a2898.json) · [t-728cc45adc160cbdedd35550](../../data/transcripts/t-728cc45adc160cbdedd35550.json) · [t-863d27c384453ccf68f9f70a](../../data/transcripts/t-863d27c384453ccf68f9f70a.json) · [r-1a7322a7065493f03f82ec02](../../data/edited_transcripts/r-1a7322a7065493f03f82ec02.json) · [t-32884f0979184103ba85a5a4](../../data/transcripts/t-32884f0979184103ba85a5a4.json) · [t-ec466470ddc71e4b916edddb](../../data/transcripts/t-ec466470ddc71e4b916edddb.json) · [r-ef223e66fda8bf944fd2d2ff](../../data/edited_transcripts/r-ef223e66fda8bf944fd2d2ff.json) · [t-4d3c87b6f77f6782c8b2fd24](../../data/transcripts/t-4d3c87b6f77f6782c8b2fd24.json) · [t-f79fe4664decbd97ab0ca3c1](../../data/transcripts/t-f79fe4664decbd97ab0ca3c1.json) · [r-66346452b3cbc50dfc745055](../../data/edited_transcripts/r-66346452b3cbc50dfc745055.json) · [t-54219d65ee6ea2dae0264b1e](../../data/transcripts/t-54219d65ee6ea2dae0264b1e.json) · [t-5f9fa77679a31fb7d9c4f40b](../../data/transcripts/t-5f9fa77679a31fb7d9c4f40b.json) · [r-4abb7fcbd1db727825bb3ce0](../../data/edited_transcripts/r-4abb7fcbd1db727825bb3ce0.json) · [t-377d3e6b30b07ca7760a05e7](../../data/transcripts/t-377d3e6b30b07ca7760a05e7.json) · [t-52c5e85105daf2c093ba0d10](../../data/transcripts/t-52c5e85105daf2c093ba0d10.json) · [r-771fdeb05dad15a0ea3d58dd](../../data/edited_transcripts/r-771fdeb05dad15a0ea3d58dd.json) · [t-0fa7a60adbca2bca3b62a56d](../../data/transcripts/t-0fa7a60adbca2bca3b62a56d.json) · [t-a2e5ead018b4a0b767a93f1c](../../data/transcripts/t-a2e5ead018b4a0b767a93f1c.json) · [r-405c734f2a97138426fa724a](../../data/edited_transcripts/r-405c734f2a97138426fa724a.json) · [t-9c45753b813a4d50d8b465dc](../../data/transcripts/t-9c45753b813a4d50d8b465dc.json) · [t-a91f1a07255fa49bd69542b0](../../data/transcripts/t-a91f1a07255fa49bd69542b0.json) · [r-dcbcaef27121e67379e82ab5](../../data/edited_transcripts/r-dcbcaef27121e67379e82ab5.json) · [t-bfdec77bd8a3f0f1226298ec](../../data/transcripts/t-bfdec77bd8a3f0f1226298ec.json) · [t-feba651b7c5be0eceac3cbda](../../data/transcripts/t-feba651b7c5be0eceac3cbda.json) · [r-d38da0f877caecdb87a55def](../../data/edited_transcripts/r-d38da0f877caecdb87a55def.json) · [t-6a616f9eee4df71c82d3f451](../../data/transcripts/t-6a616f9eee4df71c82d3f451.json) · [t-95879e0e88e51fe8b32ff3d6](../../data/transcripts/t-95879e0e88e51fe8b32ff3d6.json) · [r-eba4429d822af4884b4f984a](../../data/edited_transcripts/r-eba4429d822af4884b4f984a.json) · [t-7b14997aa7e556e16fb37d83](../../data/transcripts/t-7b14997aa7e556e16fb37d83.json) · [t-a43e4ebdc804cde3444a7666](../../data/transcripts/t-a43e4ebdc804cde3444a7666.json) · [r-e59f377bf6601ca8ad8a6eda](../../data/edited_transcripts/r-e59f377bf6601ca8ad8a6eda.json) · [t-0b737b1fa42150f4e652f2b8](../../data/transcripts/t-0b737b1fa42150f4e652f2b8.json) · [t-b8900e6864dd2f2d1d0d23f2](../../data/transcripts/t-b8900e6864dd2f2d1d0d23f2.json)
+[r-c32f7fdd3902e37090edb230](../../data/documents/r-c32f7fdd3902e37090edb230.json) · [t-65ea75b2f335a04a48022462](../../data/documents/t-65ea75b2f335a04a48022462.json) · [t-cfcd27984a45f3c602c24824](../../data/documents/t-cfcd27984a45f3c602c24824.json) · [r-f320205a1a8969d592390bd7](../../data/documents/r-f320205a1a8969d592390bd7.json) · [t-c9a9d27ee737d9c848cda5c8](../../data/documents/t-c9a9d27ee737d9c848cda5c8.json) · [t-ec65f6bdfb4403c944eb706d](../../data/documents/t-ec65f6bdfb4403c944eb706d.json) · [r-c257a84019120037693a2898](../../data/documents/r-c257a84019120037693a2898.json) · [t-728cc45adc160cbdedd35550](../../data/documents/t-728cc45adc160cbdedd35550.json) · [t-863d27c384453ccf68f9f70a](../../data/documents/t-863d27c384453ccf68f9f70a.json) · [r-1a7322a7065493f03f82ec02](../../data/documents/r-1a7322a7065493f03f82ec02.json) · [t-32884f0979184103ba85a5a4](../../data/documents/t-32884f0979184103ba85a5a4.json) · [t-ec466470ddc71e4b916edddb](../../data/documents/t-ec466470ddc71e4b916edddb.json) · [r-ef223e66fda8bf944fd2d2ff](../../data/documents/r-ef223e66fda8bf944fd2d2ff.json) · [t-4d3c87b6f77f6782c8b2fd24](../../data/documents/t-4d3c87b6f77f6782c8b2fd24.json) · [t-f79fe4664decbd97ab0ca3c1](../../data/documents/t-f79fe4664decbd97ab0ca3c1.json) · [r-66346452b3cbc50dfc745055](../../data/documents/r-66346452b3cbc50dfc745055.json) · [t-54219d65ee6ea2dae0264b1e](../../data/documents/t-54219d65ee6ea2dae0264b1e.json) · [t-5f9fa77679a31fb7d9c4f40b](../../data/documents/t-5f9fa77679a31fb7d9c4f40b.json) · [r-4abb7fcbd1db727825bb3ce0](../../data/documents/r-4abb7fcbd1db727825bb3ce0.json) · [t-377d3e6b30b07ca7760a05e7](../../data/documents/t-377d3e6b30b07ca7760a05e7.json) · [t-52c5e85105daf2c093ba0d10](../../data/documents/t-52c5e85105daf2c093ba0d10.json) · [r-771fdeb05dad15a0ea3d58dd](../../data/documents/r-771fdeb05dad15a0ea3d58dd.json) · [t-0fa7a60adbca2bca3b62a56d](../../data/documents/t-0fa7a60adbca2bca3b62a56d.json) · [t-a2e5ead018b4a0b767a93f1c](../../data/documents/t-a2e5ead018b4a0b767a93f1c.json) · [r-405c734f2a97138426fa724a](../../data/documents/r-405c734f2a97138426fa724a.json) · [t-9c45753b813a4d50d8b465dc](../../data/documents/t-9c45753b813a4d50d8b465dc.json) · [t-a91f1a07255fa49bd69542b0](../../data/documents/t-a91f1a07255fa49bd69542b0.json) · [r-dcbcaef27121e67379e82ab5](../../data/documents/r-dcbcaef27121e67379e82ab5.json) · [t-bfdec77bd8a3f0f1226298ec](../../data/documents/t-bfdec77bd8a3f0f1226298ec.json) · [t-feba651b7c5be0eceac3cbda](../../data/documents/t-feba651b7c5be0eceac3cbda.json) · [r-d38da0f877caecdb87a55def](../../data/documents/r-d38da0f877caecdb87a55def.json) · [t-6a616f9eee4df71c82d3f451](../../data/documents/t-6a616f9eee4df71c82d3f451.json) · [t-95879e0e88e51fe8b32ff3d6](../../data/documents/t-95879e0e88e51fe8b32ff3d6.json) · [r-eba4429d822af4884b4f984a](../../data/documents/r-eba4429d822af4884b4f984a.json) · [t-7b14997aa7e556e16fb37d83](../../data/documents/t-7b14997aa7e556e16fb37d83.json) · [t-a43e4ebdc804cde3444a7666](../../data/documents/t-a43e4ebdc804cde3444a7666.json) · [r-e59f377bf6601ca8ad8a6eda](../../data/documents/r-e59f377bf6601ca8ad8a6eda.json) · [t-0b737b1fa42150f4e652f2b8](../../data/documents/t-0b737b1fa42150f4e652f2b8.json) · [t-b8900e6864dd2f2d1d0d23f2](../../data/documents/t-b8900e6864dd2f2d1d0d23f2.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2345,7 +2345,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **同音频**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-9527217067414b4e8db2fcd9](../../data/edited_transcripts/r-9527217067414b4e8db2fcd9.json) · [t-51760cec102790974d59f681](../../data/transcripts/t-51760cec102790974d59f681.json) · [t-eccd8626a6c7132476a467f7](../../data/transcripts/t-eccd8626a6c7132476a467f7.json) · [r-9a2a0391943144c593d884f3](../../data/edited_transcripts/r-9a2a0391943144c593d884f3.json) · [t-0b6f677f4a5b524c07f5d6c0](../../data/transcripts/t-0b6f677f4a5b524c07f5d6c0.json) · [t-608ec3277bcb4dec3a331317](../../data/transcripts/t-608ec3277bcb4dec3a331317.json)
+[r-9527217067414b4e8db2fcd9](../../data/documents/r-9527217067414b4e8db2fcd9.json) · [t-51760cec102790974d59f681](../../data/documents/t-51760cec102790974d59f681.json) · [t-eccd8626a6c7132476a467f7](../../data/documents/t-eccd8626a6c7132476a467f7.json) · [r-9a2a0391943144c593d884f3](../../data/documents/r-9a2a0391943144c593d884f3.json) · [t-0b6f677f4a5b524c07f5d6c0](../../data/documents/t-0b6f677f4a5b524c07f5d6c0.json) · [t-608ec3277bcb4dec3a331317](../../data/documents/t-608ec3277bcb4dec3a331317.json)
 
 **章节补充**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2360,7 +2360,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-b8a4cf597acedf58ea9fa0b2](../../data/edited_transcripts/r-b8a4cf597acedf58ea9fa0b2.json) · [t-f1b50d1f2686f95f6c0cdf4e](../../data/transcripts/t-f1b50d1f2686f95f6c0cdf4e.json) · [t-fb9e2a87c428eb8cfdb93da6](../../data/transcripts/t-fb9e2a87c428eb8cfdb93da6.json) · [r-617f9189d761d5520d5b78cc](../../data/edited_transcripts/r-617f9189d761d5520d5b78cc.json) · [t-d9d37b7d51931cc7a09f3629](../../data/transcripts/t-d9d37b7d51931cc7a09f3629.json) · [t-e19f9008a32bb122abfab4ec](../../data/transcripts/t-e19f9008a32bb122abfab4ec.json)
+[r-b8a4cf597acedf58ea9fa0b2](../../data/documents/r-b8a4cf597acedf58ea9fa0b2.json) · [t-f1b50d1f2686f95f6c0cdf4e](../../data/documents/t-f1b50d1f2686f95f6c0cdf4e.json) · [t-fb9e2a87c428eb8cfdb93da6](../../data/documents/t-fb9e2a87c428eb8cfdb93da6.json) · [r-617f9189d761d5520d5b78cc](../../data/documents/r-617f9189d761d5520d5b78cc.json) · [t-d9d37b7d51931cc7a09f3629](../../data/documents/t-d9d37b7d51931cc7a09f3629.json) · [t-e19f9008a32bb122abfab4ec](../../data/documents/t-e19f9008a32bb122abfab4ec.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2383,7 +2383,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-f580b5cf06e20aa61296972c](../../data/edited_transcripts/r-f580b5cf06e20aa61296972c.json) · [t-1efef6c9e05a522e3d5d94a5](../../data/transcripts/t-1efef6c9e05a522e3d5d94a5.json) · [t-e8e434cec991b913c9961f2b](../../data/transcripts/t-e8e434cec991b913c9961f2b.json)
+[r-f580b5cf06e20aa61296972c](../../data/documents/r-f580b5cf06e20aa61296972c.json) · [t-1efef6c9e05a522e3d5d94a5](../../data/documents/t-1efef6c9e05a522e3d5d94a5.json) · [t-e8e434cec991b913c9961f2b](../../data/documents/t-e8e434cec991b913c9961f2b.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2405,7 +2405,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-9744d8a1047cf003e7ff2e3f](../../data/edited_transcripts/r-9744d8a1047cf003e7ff2e3f.json) · [t-196867a9128f5d668e1b20b5](../../data/transcripts/t-196867a9128f5d668e1b20b5.json)
+[r-9744d8a1047cf003e7ff2e3f](../../data/documents/r-9744d8a1047cf003e7ff2e3f.json) · [t-196867a9128f5d668e1b20b5](../../data/documents/t-196867a9128f5d668e1b20b5.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2427,7 +2427,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-492dd773489d769d2024e28e](../../data/edited_transcripts/r-492dd773489d769d2024e28e.json) · [t-2bb646e2445116091e898095](../../data/transcripts/t-2bb646e2445116091e898095.json) · [t-fd496c084dc7cc8053d5b5db](../../data/transcripts/t-fd496c084dc7cc8053d5b5db.json)
+[r-492dd773489d769d2024e28e](../../data/documents/r-492dd773489d769d2024e28e.json) · [t-2bb646e2445116091e898095](../../data/documents/t-2bb646e2445116091e898095.json) · [t-fd496c084dc7cc8053d5b5db](../../data/documents/t-fd496c084dc7cc8053d5b5db.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2449,7 +2449,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-7851e6b260399ebfa64f9bd0](../../data/edited_transcripts/r-7851e6b260399ebfa64f9bd0.json) · [t-75ae3398805ed890f471cd37](../../data/transcripts/t-75ae3398805ed890f471cd37.json) · [t-92096eb6bc42310fc23a38d4](../../data/transcripts/t-92096eb6bc42310fc23a38d4.json) · [r-a1527825d94bdc6570832b33](../../data/edited_transcripts/r-a1527825d94bdc6570832b33.json) · [t-42f66bb3dfafeca26fd329a2](../../data/transcripts/t-42f66bb3dfafeca26fd329a2.json) · [t-dd16e68bd55ab44b6aa13287](../../data/transcripts/t-dd16e68bd55ab44b6aa13287.json)
+[r-7851e6b260399ebfa64f9bd0](../../data/documents/r-7851e6b260399ebfa64f9bd0.json) · [t-75ae3398805ed890f471cd37](../../data/documents/t-75ae3398805ed890f471cd37.json) · [t-92096eb6bc42310fc23a38d4](../../data/documents/t-92096eb6bc42310fc23a38d4.json) · [r-a1527825d94bdc6570832b33](../../data/documents/r-a1527825d94bdc6570832b33.json) · [t-42f66bb3dfafeca26fd329a2](../../data/documents/t-42f66bb3dfafeca26fd329a2.json) · [t-dd16e68bd55ab44b6aa13287](../../data/documents/t-dd16e68bd55ab44b6aa13287.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2472,7 +2472,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-68adab3c48d3108548f4954c](../../data/edited_transcripts/r-68adab3c48d3108548f4954c.json) · [t-03ab14959dd243cda31cfac3](../../data/transcripts/t-03ab14959dd243cda31cfac3.json) · [t-62879aec35c85c4215612f10](../../data/transcripts/t-62879aec35c85c4215612f10.json)
+[r-68adab3c48d3108548f4954c](../../data/documents/r-68adab3c48d3108548f4954c.json) · [t-03ab14959dd243cda31cfac3](../../data/documents/t-03ab14959dd243cda31cfac3.json) · [t-62879aec35c85c4215612f10](../../data/documents/t-62879aec35c85c4215612f10.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2494,7 +2494,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-2d47baeb1d99a6f1c2b16e68](../../data/edited_transcripts/r-2d47baeb1d99a6f1c2b16e68.json) · [t-10103f9cd82700827166803d](../../data/transcripts/t-10103f9cd82700827166803d.json) · [t-30dbb3bdb469d61b73b21e52](../../data/transcripts/t-30dbb3bdb469d61b73b21e52.json)
+[r-2d47baeb1d99a6f1c2b16e68](../../data/documents/r-2d47baeb1d99a6f1c2b16e68.json) · [t-10103f9cd82700827166803d](../../data/documents/t-10103f9cd82700827166803d.json) · [t-30dbb3bdb469d61b73b21e52](../../data/documents/t-30dbb3bdb469d61b73b21e52.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2517,7 +2517,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-7f30f423ffe9c97917e2a972](../../data/edited_transcripts/r-7f30f423ffe9c97917e2a972.json) · [t-7ca7aad10ca126084d511e3f](../../data/transcripts/t-7ca7aad10ca126084d511e3f.json) · [t-f2f83cca059a6f0108349fa1](../../data/transcripts/t-f2f83cca059a6f0108349fa1.json)
+[r-7f30f423ffe9c97917e2a972](../../data/documents/r-7f30f423ffe9c97917e2a972.json) · [t-7ca7aad10ca126084d511e3f](../../data/documents/t-7ca7aad10ca126084d511e3f.json) · [t-f2f83cca059a6f0108349fa1](../../data/documents/t-f2f83cca059a6f0108349fa1.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2539,7 +2539,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-c38b02a3c41620b0bd146cf4](../../data/edited_transcripts/r-c38b02a3c41620b0bd146cf4.json) · [t-35394d779ada07d611a4be26](../../data/transcripts/t-35394d779ada07d611a4be26.json) · [t-892590b7c462579f412fc539](../../data/transcripts/t-892590b7c462579f412fc539.json)
+[r-c38b02a3c41620b0bd146cf4](../../data/documents/r-c38b02a3c41620b0bd146cf4.json) · [t-35394d779ada07d611a4be26](../../data/documents/t-35394d779ada07d611a4be26.json) · [t-892590b7c462579f412fc539](../../data/documents/t-892590b7c462579f412fc539.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2562,7 +2562,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-8847ccce62919d3cdc96518b](../../data/edited_transcripts/r-8847ccce62919d3cdc96518b.json) · [t-3e6fec04fd055369d88e3fd7](../../data/transcripts/t-3e6fec04fd055369d88e3fd7.json) · [t-4c22579dc0377af4bbe4d806](../../data/transcripts/t-4c22579dc0377af4bbe4d806.json)
+[r-8847ccce62919d3cdc96518b](../../data/documents/r-8847ccce62919d3cdc96518b.json) · [t-3e6fec04fd055369d88e3fd7](../../data/documents/t-3e6fec04fd055369d88e3fd7.json) · [t-4c22579dc0377af4bbe4d806](../../data/documents/t-4c22579dc0377af4bbe4d806.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2584,7 +2584,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-9447738c6f3f6b69b75e7220](../../data/edited_transcripts/r-9447738c6f3f6b69b75e7220.json) · [t-35d7e299fea769b73c579b21](../../data/transcripts/t-35d7e299fea769b73c579b21.json) · [t-9d28112cbc95d7cf3762af2d](../../data/transcripts/t-9d28112cbc95d7cf3762af2d.json)
+[r-9447738c6f3f6b69b75e7220](../../data/documents/r-9447738c6f3f6b69b75e7220.json) · [t-35d7e299fea769b73c579b21](../../data/documents/t-35d7e299fea769b73c579b21.json) · [t-9d28112cbc95d7cf3762af2d](../../data/documents/t-9d28112cbc95d7cf3762af2d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2607,7 +2607,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-f290bd14dca169ebd678ce98](../../data/edited_transcripts/r-f290bd14dca169ebd678ce98.json) · [t-968fae8ed9d28e3f95771b72](../../data/transcripts/t-968fae8ed9d28e3f95771b72.json) · [t-f8cda020e73debd1f8902520](../../data/transcripts/t-f8cda020e73debd1f8902520.json) · [r-18f21f7da2880fffeb61fe31](../../data/edited_transcripts/r-18f21f7da2880fffeb61fe31.json) · [t-20e915e9d88a3c707e7aa55c](../../data/transcripts/t-20e915e9d88a3c707e7aa55c.json) · [t-63734a7b202115e77c3adb94](../../data/transcripts/t-63734a7b202115e77c3adb94.json)
+[r-f290bd14dca169ebd678ce98](../../data/documents/r-f290bd14dca169ebd678ce98.json) · [t-968fae8ed9d28e3f95771b72](../../data/documents/t-968fae8ed9d28e3f95771b72.json) · [t-f8cda020e73debd1f8902520](../../data/documents/t-f8cda020e73debd1f8902520.json) · [r-18f21f7da2880fffeb61fe31](../../data/documents/r-18f21f7da2880fffeb61fe31.json) · [t-20e915e9d88a3c707e7aa55c](../../data/documents/t-20e915e9d88a3c707e7aa55c.json) · [t-63734a7b202115e77c3adb94](../../data/documents/t-63734a7b202115e77c3adb94.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2630,7 +2630,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 3；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-093b743e3702e8cafe24a9da](../../data/edited_transcripts/r-093b743e3702e8cafe24a9da.json) · [t-236bf05669dc13f8f5b40725](../../data/transcripts/t-236bf05669dc13f8f5b40725.json) · [r-a71d340767677d4740601d92](../../data/edited_transcripts/r-a71d340767677d4740601d92.json) · [t-b240acdd2350916ad3a36aee](../../data/transcripts/t-b240acdd2350916ad3a36aee.json) · [t-c9b742bf25fc2729e92f64df](../../data/transcripts/t-c9b742bf25fc2729e92f64df.json)
+[r-093b743e3702e8cafe24a9da](../../data/documents/r-093b743e3702e8cafe24a9da.json) · [t-236bf05669dc13f8f5b40725](../../data/documents/t-236bf05669dc13f8f5b40725.json) · [r-a71d340767677d4740601d92](../../data/documents/r-a71d340767677d4740601d92.json) · [t-b240acdd2350916ad3a36aee](../../data/documents/t-b240acdd2350916ad3a36aee.json) · [t-c9b742bf25fc2729e92f64df](../../data/documents/t-c9b742bf25fc2729e92f64df.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2653,7 +2653,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-e7376389399ed55756b1970f](../../data/edited_transcripts/r-e7376389399ed55756b1970f.json) · [t-b8e9ab5ac0d54cffd9e4f479](../../data/transcripts/t-b8e9ab5ac0d54cffd9e4f479.json) · [t-d4101c26a001d9958aa06446](../../data/transcripts/t-d4101c26a001d9958aa06446.json)
+[r-e7376389399ed55756b1970f](../../data/documents/r-e7376389399ed55756b1970f.json) · [t-b8e9ab5ac0d54cffd9e4f479](../../data/documents/t-b8e9ab5ac0d54cffd9e4f479.json) · [t-d4101c26a001d9958aa06446](../../data/documents/t-d4101c26a001d9958aa06446.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2676,7 +2676,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-105dff2a375bac9f53c8869c](../../data/edited_transcripts/r-105dff2a375bac9f53c8869c.json) · [t-167784750ea6a9f1c143a892](../../data/transcripts/t-167784750ea6a9f1c143a892.json) · [t-a43083ee17d95fdeea6af411](../../data/transcripts/t-a43083ee17d95fdeea6af411.json)
+[r-105dff2a375bac9f53c8869c](../../data/documents/r-105dff2a375bac9f53c8869c.json) · [t-167784750ea6a9f1c143a892](../../data/documents/t-167784750ea6a9f1c143a892.json) · [t-a43083ee17d95fdeea6af411](../../data/documents/t-a43083ee17d95fdeea6af411.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2699,7 +2699,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-0d8ee91f1ea536a9677d6f6c](../../data/edited_transcripts/r-0d8ee91f1ea536a9677d6f6c.json) · [t-3f1a3deaf366c3fa65f7bdca](../../data/transcripts/t-3f1a3deaf366c3fa65f7bdca.json) · [t-8ac2d932c45187f06e493fa8](../../data/transcripts/t-8ac2d932c45187f06e493fa8.json) · [r-4430880537df82210530882b](../../data/edited_transcripts/r-4430880537df82210530882b.json) · [t-71b32f5779fb65f27c1e4f90](../../data/transcripts/t-71b32f5779fb65f27c1e4f90.json) · [t-eeb07f4a7b869c3396325f81](../../data/transcripts/t-eeb07f4a7b869c3396325f81.json)
+[r-0d8ee91f1ea536a9677d6f6c](../../data/documents/r-0d8ee91f1ea536a9677d6f6c.json) · [t-3f1a3deaf366c3fa65f7bdca](../../data/documents/t-3f1a3deaf366c3fa65f7bdca.json) · [t-8ac2d932c45187f06e493fa8](../../data/documents/t-8ac2d932c45187f06e493fa8.json) · [r-4430880537df82210530882b](../../data/documents/r-4430880537df82210530882b.json) · [t-71b32f5779fb65f27c1e4f90](../../data/documents/t-71b32f5779fb65f27c1e4f90.json) · [t-eeb07f4a7b869c3396325f81](../../data/documents/t-eeb07f4a7b869c3396325f81.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2722,7 +2722,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-290886902251a14a21f78745](../../data/edited_transcripts/r-290886902251a14a21f78745.json) · [t-0ff0e6bb7f2cf92f8e3b2316](../../data/transcripts/t-0ff0e6bb7f2cf92f8e3b2316.json) · [t-bfe7e4f0541517ac0a00a089](../../data/transcripts/t-bfe7e4f0541517ac0a00a089.json)
+[r-290886902251a14a21f78745](../../data/documents/r-290886902251a14a21f78745.json) · [t-0ff0e6bb7f2cf92f8e3b2316](../../data/documents/t-0ff0e6bb7f2cf92f8e3b2316.json) · [t-bfe7e4f0541517ac0a00a089](../../data/documents/t-bfe7e4f0541517ac0a00a089.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2745,7 +2745,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-a157c464dc97c3ff9ba4fec0](../../data/edited_transcripts/r-a157c464dc97c3ff9ba4fec0.json) · [t-8f3e1f22dc170fe4c0208e8b](../../data/transcripts/t-8f3e1f22dc170fe4c0208e8b.json) · [t-b183de488f5dd1d4ed018e49](../../data/transcripts/t-b183de488f5dd1d4ed018e49.json)
+[r-a157c464dc97c3ff9ba4fec0](../../data/documents/r-a157c464dc97c3ff9ba4fec0.json) · [t-8f3e1f22dc170fe4c0208e8b](../../data/documents/t-8f3e1f22dc170fe4c0208e8b.json) · [t-b183de488f5dd1d4ed018e49](../../data/documents/t-b183de488f5dd1d4ed018e49.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2767,7 +2767,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-f1478af8ef54a248addae3b7](../../data/edited_transcripts/r-f1478af8ef54a248addae3b7.json) · [t-b2ff9cc622b130686a54e3f0](../../data/transcripts/t-b2ff9cc622b130686a54e3f0.json) · [t-f198a9460cf320b1ae8f29ec](../../data/transcripts/t-f198a9460cf320b1ae8f29ec.json)
+[r-f1478af8ef54a248addae3b7](../../data/documents/r-f1478af8ef54a248addae3b7.json) · [t-b2ff9cc622b130686a54e3f0](../../data/documents/t-b2ff9cc622b130686a54e3f0.json) · [t-f198a9460cf320b1ae8f29ec](../../data/documents/t-f198a9460cf320b1ae8f29ec.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2790,7 +2790,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-81dde3ceb22c3295c7bc4483](../../data/edited_transcripts/r-81dde3ceb22c3295c7bc4483.json) · [t-2a8873e4666026af0c4e8ab4](../../data/transcripts/t-2a8873e4666026af0c4e8ab4.json) · [t-aa5e694e80fbc42f7df2531e](../../data/transcripts/t-aa5e694e80fbc42f7df2531e.json)
+[r-81dde3ceb22c3295c7bc4483](../../data/documents/r-81dde3ceb22c3295c7bc4483.json) · [t-2a8873e4666026af0c4e8ab4](../../data/documents/t-2a8873e4666026af0c4e8ab4.json) · [t-aa5e694e80fbc42f7df2531e](../../data/documents/t-aa5e694e80fbc42f7df2531e.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2813,7 +2813,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-0d126aaaf0d2f1b639b9a631](../../data/edited_transcripts/r-0d126aaaf0d2f1b639b9a631.json) · [t-da29c0398dc9062a9908d6f9](../../data/transcripts/t-da29c0398dc9062a9908d6f9.json)
+[r-0d126aaaf0d2f1b639b9a631](../../data/documents/r-0d126aaaf0d2f1b639b9a631.json) · [t-da29c0398dc9062a9908d6f9](../../data/documents/t-da29c0398dc9062a9908d6f9.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2835,7 +2835,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-ad2deae4ffd438e8fc091f15](../../data/edited_transcripts/r-ad2deae4ffd438e8fc091f15.json) · [t-36c94011a75bd6eb9513224d](../../data/transcripts/t-36c94011a75bd6eb9513224d.json) · [t-8009639ebba8017df0e404be](../../data/transcripts/t-8009639ebba8017df0e404be.json)
+[r-ad2deae4ffd438e8fc091f15](../../data/documents/r-ad2deae4ffd438e8fc091f15.json) · [t-36c94011a75bd6eb9513224d](../../data/documents/t-36c94011a75bd6eb9513224d.json) · [t-8009639ebba8017df0e404be](../../data/documents/t-8009639ebba8017df0e404be.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2857,7 +2857,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-8d5772232badbc8b6b570e11](../../data/edited_transcripts/r-8d5772232badbc8b6b570e11.json) · [t-e22bc0c5b01fd807d592fcc8](../../data/transcripts/t-e22bc0c5b01fd807d592fcc8.json)
+[r-8d5772232badbc8b6b570e11](../../data/documents/r-8d5772232badbc8b6b570e11.json) · [t-e22bc0c5b01fd807d592fcc8](../../data/documents/t-e22bc0c5b01fd807d592fcc8.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2880,7 +2880,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-88b3851b3de8c6ee300871ca](../../data/edited_transcripts/r-88b3851b3de8c6ee300871ca.json) · [t-04cf241a7de610b63d2f119b](../../data/transcripts/t-04cf241a7de610b63d2f119b.json) · [t-969dfc5af3b17ce460ac5030](../../data/transcripts/t-969dfc5af3b17ce460ac5030.json)
+[r-88b3851b3de8c6ee300871ca](../../data/documents/r-88b3851b3de8c6ee300871ca.json) · [t-04cf241a7de610b63d2f119b](../../data/documents/t-04cf241a7de610b63d2f119b.json) · [t-969dfc5af3b17ce460ac5030](../../data/documents/t-969dfc5af3b17ce460ac5030.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2903,7 +2903,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-af24dd92da254970b28f41d0](../../data/edited_transcripts/r-af24dd92da254970b28f41d0.json) · [t-45321e05c7df46bde63bd312](../../data/transcripts/t-45321e05c7df46bde63bd312.json) · [t-a1b7aab662073f98c82ff0f6](../../data/transcripts/t-a1b7aab662073f98c82ff0f6.json)
+[r-af24dd92da254970b28f41d0](../../data/documents/r-af24dd92da254970b28f41d0.json) · [t-45321e05c7df46bde63bd312](../../data/documents/t-45321e05c7df46bde63bd312.json) · [t-a1b7aab662073f98c82ff0f6](../../data/documents/t-a1b7aab662073f98c82ff0f6.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2926,7 +2926,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-9ccd39ab178fbe93ea06b551](../../data/edited_transcripts/r-9ccd39ab178fbe93ea06b551.json) · [t-5d86facd7b5a63a78a2ea98f](../../data/transcripts/t-5d86facd7b5a63a78a2ea98f.json) · [t-fb837d9093fa6094f7a83bcf](../../data/transcripts/t-fb837d9093fa6094f7a83bcf.json) · [r-8e71f3904707048b4c4d740f](../../data/edited_transcripts/r-8e71f3904707048b4c4d740f.json) · [t-c3e94ff77c2c9c8481238ce6](../../data/transcripts/t-c3e94ff77c2c9c8481238ce6.json) · [t-f3caf54065e0ee99d4adfcb5](../../data/transcripts/t-f3caf54065e0ee99d4adfcb5.json)
+[r-9ccd39ab178fbe93ea06b551](../../data/documents/r-9ccd39ab178fbe93ea06b551.json) · [t-5d86facd7b5a63a78a2ea98f](../../data/documents/t-5d86facd7b5a63a78a2ea98f.json) · [t-fb837d9093fa6094f7a83bcf](../../data/documents/t-fb837d9093fa6094f7a83bcf.json) · [r-8e71f3904707048b4c4d740f](../../data/documents/r-8e71f3904707048b4c4d740f.json) · [t-c3e94ff77c2c9c8481238ce6](../../data/documents/t-c3e94ff77c2c9c8481238ce6.json) · [t-f3caf54065e0ee99d4adfcb5](../../data/documents/t-f3caf54065e0ee99d4adfcb5.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2949,7 +2949,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-835ffa71ede00ae369a2af80](../../data/edited_transcripts/r-835ffa71ede00ae369a2af80.json) · [t-73c6b1a53c1f5df131c4b3ed](../../data/transcripts/t-73c6b1a53c1f5df131c4b3ed.json) · [t-f081eda028fa5ca193e1a489](../../data/transcripts/t-f081eda028fa5ca193e1a489.json)
+[r-835ffa71ede00ae369a2af80](../../data/documents/r-835ffa71ede00ae369a2af80.json) · [t-73c6b1a53c1f5df131c4b3ed](../../data/documents/t-73c6b1a53c1f5df131c4b3ed.json) · [t-f081eda028fa5ca193e1a489](../../data/documents/t-f081eda028fa5ca193e1a489.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2972,7 +2972,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-41a8f3781245a135a3bafb7a](../../data/edited_transcripts/r-41a8f3781245a135a3bafb7a.json) · [t-184247c8dbd0e60b49cb3992](../../data/transcripts/t-184247c8dbd0e60b49cb3992.json) · [t-cdfa97ebb7ee1e56f4fbd2df](../../data/transcripts/t-cdfa97ebb7ee1e56f4fbd2df.json)
+[r-41a8f3781245a135a3bafb7a](../../data/documents/r-41a8f3781245a135a3bafb7a.json) · [t-184247c8dbd0e60b49cb3992](../../data/documents/t-184247c8dbd0e60b49cb3992.json) · [t-cdfa97ebb7ee1e56f4fbd2df](../../data/documents/t-cdfa97ebb7ee1e56f4fbd2df.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -2994,7 +2994,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-3aab356b1197a0536fac1713](../../data/edited_transcripts/r-3aab356b1197a0536fac1713.json) · [t-518c1e6d3855edd25fbd125c](../../data/transcripts/t-518c1e6d3855edd25fbd125c.json) · [t-d07c63460cc8ff88847f2deb](../../data/transcripts/t-d07c63460cc8ff88847f2deb.json)
+[r-3aab356b1197a0536fac1713](../../data/documents/r-3aab356b1197a0536fac1713.json) · [t-518c1e6d3855edd25fbd125c](../../data/documents/t-518c1e6d3855edd25fbd125c.json) · [t-d07c63460cc8ff88847f2deb](../../data/documents/t-d07c63460cc8ff88847f2deb.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3017,7 +3017,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-04db16020379a1771b9e1c46](../../data/edited_transcripts/r-04db16020379a1771b9e1c46.json) · [t-734e720c880c57c9e068e875](../../data/transcripts/t-734e720c880c57c9e068e875.json) · [t-ba2ce1f821399a7a9726d812](../../data/transcripts/t-ba2ce1f821399a7a9726d812.json)
+[r-04db16020379a1771b9e1c46](../../data/documents/r-04db16020379a1771b9e1c46.json) · [t-734e720c880c57c9e068e875](../../data/documents/t-734e720c880c57c9e068e875.json) · [t-ba2ce1f821399a7a9726d812](../../data/documents/t-ba2ce1f821399a7a9726d812.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3039,7 +3039,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-e0dd0040f99b87735596bfff](../../data/edited_transcripts/r-e0dd0040f99b87735596bfff.json) · [t-0553c843a46c3aab0abf29e5](../../data/transcripts/t-0553c843a46c3aab0abf29e5.json)
+[r-e0dd0040f99b87735596bfff](../../data/documents/r-e0dd0040f99b87735596bfff.json) · [t-0553c843a46c3aab0abf29e5](../../data/documents/t-0553c843a46c3aab0abf29e5.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3062,7 +3062,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-3729a9ebfcaa22ef7eb41989](../../data/edited_transcripts/r-3729a9ebfcaa22ef7eb41989.json) · [t-2a7f2ceb3c648ef70db3b9f3](../../data/transcripts/t-2a7f2ceb3c648ef70db3b9f3.json) · [t-531293cd3ec84ff6c3d8add8](../../data/transcripts/t-531293cd3ec84ff6c3d8add8.json)
+[r-3729a9ebfcaa22ef7eb41989](../../data/documents/r-3729a9ebfcaa22ef7eb41989.json) · [t-2a7f2ceb3c648ef70db3b9f3](../../data/documents/t-2a7f2ceb3c648ef70db3b9f3.json) · [t-531293cd3ec84ff6c3d8add8](../../data/documents/t-531293cd3ec84ff6c3d8add8.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3084,7 +3084,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-fd560b640f4ae26ce80877bc](../../data/edited_transcripts/r-fd560b640f4ae26ce80877bc.json) · [t-9730f7e7305a0c3d21586b36](../../data/transcripts/t-9730f7e7305a0c3d21586b36.json) · [t-fd10a9f20a4a8eacae16dc54](../../data/transcripts/t-fd10a9f20a4a8eacae16dc54.json)
+[r-fd560b640f4ae26ce80877bc](../../data/documents/r-fd560b640f4ae26ce80877bc.json) · [t-9730f7e7305a0c3d21586b36](../../data/documents/t-9730f7e7305a0c3d21586b36.json) · [t-fd10a9f20a4a8eacae16dc54](../../data/documents/t-fd10a9f20a4a8eacae16dc54.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3106,7 +3106,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-4db8b6763364d74f1d4ae074](../../data/edited_transcripts/r-4db8b6763364d74f1d4ae074.json) · [t-5b1edffd62a0d419d7e3bd05](../../data/transcripts/t-5b1edffd62a0d419d7e3bd05.json) · [t-c17cf554069aba404e68f42b](../../data/transcripts/t-c17cf554069aba404e68f42b.json)
+[r-4db8b6763364d74f1d4ae074](../../data/documents/r-4db8b6763364d74f1d4ae074.json) · [t-5b1edffd62a0d419d7e3bd05](../../data/documents/t-5b1edffd62a0d419d7e3bd05.json) · [t-c17cf554069aba404e68f42b](../../data/documents/t-c17cf554069aba404e68f42b.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3128,7 +3128,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-edef7c33079b0e45cd06fbb6](../../data/edited_transcripts/r-edef7c33079b0e45cd06fbb6.json) · [t-950ea08f9d90b5dd13855e50](../../data/transcripts/t-950ea08f9d90b5dd13855e50.json) · [t-a74e3c289e9232f5c91f83c1](../../data/transcripts/t-a74e3c289e9232f5c91f83c1.json)
+[r-edef7c33079b0e45cd06fbb6](../../data/documents/r-edef7c33079b0e45cd06fbb6.json) · [t-950ea08f9d90b5dd13855e50](../../data/documents/t-950ea08f9d90b5dd13855e50.json) · [t-a74e3c289e9232f5c91f83c1](../../data/documents/t-a74e3c289e9232f5c91f83c1.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3150,7 +3150,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-6fde28b96bbc1e9b42b5bb70](../../data/edited_transcripts/r-6fde28b96bbc1e9b42b5bb70.json) · [t-5ab324c8dda79cc442644988](../../data/transcripts/t-5ab324c8dda79cc442644988.json) · [t-726ba42a3754712708dc788a](../../data/transcripts/t-726ba42a3754712708dc788a.json)
+[r-6fde28b96bbc1e9b42b5bb70](../../data/documents/r-6fde28b96bbc1e9b42b5bb70.json) · [t-5ab324c8dda79cc442644988](../../data/documents/t-5ab324c8dda79cc442644988.json) · [t-726ba42a3754712708dc788a](../../data/documents/t-726ba42a3754712708dc788a.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3172,7 +3172,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-ec4291a119212e3769690acc](../../data/edited_transcripts/r-ec4291a119212e3769690acc.json) · [t-dff8b874075bb49b57cbec00](../../data/transcripts/t-dff8b874075bb49b57cbec00.json) · [t-fbb374d318fd4b2752b4c8b6](../../data/transcripts/t-fbb374d318fd4b2752b4c8b6.json)
+[r-ec4291a119212e3769690acc](../../data/documents/r-ec4291a119212e3769690acc.json) · [t-dff8b874075bb49b57cbec00](../../data/documents/t-dff8b874075bb49b57cbec00.json) · [t-fbb374d318fd4b2752b4c8b6](../../data/documents/t-fbb374d318fd4b2752b4c8b6.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3194,7 +3194,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-c3e6f42d1d251e3921c79187](../../data/edited_transcripts/r-c3e6f42d1d251e3921c79187.json) · [t-9deee4937ea88df30bbdeb87](../../data/transcripts/t-9deee4937ea88df30bbdeb87.json) · [t-ae2bd78c6382da6667daa1d9](../../data/transcripts/t-ae2bd78c6382da6667daa1d9.json)
+[r-c3e6f42d1d251e3921c79187](../../data/documents/r-c3e6f42d1d251e3921c79187.json) · [t-9deee4937ea88df30bbdeb87](../../data/documents/t-9deee4937ea88df30bbdeb87.json) · [t-ae2bd78c6382da6667daa1d9](../../data/documents/t-ae2bd78c6382da6667daa1d9.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3216,7 +3216,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-33668c6630bc34d26d10245e](../../data/edited_transcripts/r-33668c6630bc34d26d10245e.json) · [t-0ef8c05b44920fb51ac0cb47](../../data/transcripts/t-0ef8c05b44920fb51ac0cb47.json) · [t-cbb7029f424c01555fbcfb1b](../../data/transcripts/t-cbb7029f424c01555fbcfb1b.json)
+[r-33668c6630bc34d26d10245e](../../data/documents/r-33668c6630bc34d26d10245e.json) · [t-0ef8c05b44920fb51ac0cb47](../../data/documents/t-0ef8c05b44920fb51ac0cb47.json) · [t-cbb7029f424c01555fbcfb1b](../../data/documents/t-cbb7029f424c01555fbcfb1b.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3239,7 +3239,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-dc3cdec0e8f5f4a0cb259b6b](../../data/edited_transcripts/r-dc3cdec0e8f5f4a0cb259b6b.json) · [t-a487da33bcb9e86323ddd62f](../../data/transcripts/t-a487da33bcb9e86323ddd62f.json) · [t-e6f262fcc4801a6364654a8a](../../data/transcripts/t-e6f262fcc4801a6364654a8a.json)
+[r-dc3cdec0e8f5f4a0cb259b6b](../../data/documents/r-dc3cdec0e8f5f4a0cb259b6b.json) · [t-a487da33bcb9e86323ddd62f](../../data/documents/t-a487da33bcb9e86323ddd62f.json) · [t-e6f262fcc4801a6364654a8a](../../data/documents/t-e6f262fcc4801a6364654a8a.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3261,7 +3261,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-407a9a58d90f9263afafcb9e](../../data/edited_transcripts/r-407a9a58d90f9263afafcb9e.json) · [t-7b85b7704f720e069a333f70](../../data/transcripts/t-7b85b7704f720e069a333f70.json) · [t-d159e7283a594ac96ab0c2c3](../../data/transcripts/t-d159e7283a594ac96ab0c2c3.json)
+[r-407a9a58d90f9263afafcb9e](../../data/documents/r-407a9a58d90f9263afafcb9e.json) · [t-7b85b7704f720e069a333f70](../../data/documents/t-7b85b7704f720e069a333f70.json) · [t-d159e7283a594ac96ab0c2c3](../../data/documents/t-d159e7283a594ac96ab0c2c3.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3283,7 +3283,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-a69d20c19ae6f4b277fa41aa](../../data/edited_transcripts/r-a69d20c19ae6f4b277fa41aa.json) · [t-90ab8e3c2bc5e1392beaa7b4](../../data/transcripts/t-90ab8e3c2bc5e1392beaa7b4.json) · [t-929f7bc312271fa13c376e1b](../../data/transcripts/t-929f7bc312271fa13c376e1b.json)
+[r-a69d20c19ae6f4b277fa41aa](../../data/documents/r-a69d20c19ae6f4b277fa41aa.json) · [t-90ab8e3c2bc5e1392beaa7b4](../../data/documents/t-90ab8e3c2bc5e1392beaa7b4.json) · [t-929f7bc312271fa13c376e1b](../../data/documents/t-929f7bc312271fa13c376e1b.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3306,7 +3306,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-24559aa4babe23d412caca90](../../data/edited_transcripts/r-24559aa4babe23d412caca90.json) · [t-517704aac2019202a0830249](../../data/transcripts/t-517704aac2019202a0830249.json) · [t-7aed76957d638505df116ef2](../../data/transcripts/t-7aed76957d638505df116ef2.json)
+[r-24559aa4babe23d412caca90](../../data/documents/r-24559aa4babe23d412caca90.json) · [t-517704aac2019202a0830249](../../data/documents/t-517704aac2019202a0830249.json) · [t-7aed76957d638505df116ef2](../../data/documents/t-7aed76957d638505df116ef2.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3329,7 +3329,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-1bbfd96ceb06d63cc1b0af03](../../data/edited_transcripts/r-1bbfd96ceb06d63cc1b0af03.json) · [t-dc1dca25277f152e22fee0ad](../../data/transcripts/t-dc1dca25277f152e22fee0ad.json) · [t-f905f2d181b0948aaabc7fe8](../../data/transcripts/t-f905f2d181b0948aaabc7fe8.json)
+[r-1bbfd96ceb06d63cc1b0af03](../../data/documents/r-1bbfd96ceb06d63cc1b0af03.json) · [t-dc1dca25277f152e22fee0ad](../../data/documents/t-dc1dca25277f152e22fee0ad.json) · [t-f905f2d181b0948aaabc7fe8](../../data/documents/t-f905f2d181b0948aaabc7fe8.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3352,7 +3352,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-fb192b5faa59db526e4e140e](../../data/edited_transcripts/r-fb192b5faa59db526e4e140e.json) · [t-3a676ae0b6d18cb79f164211](../../data/transcripts/t-3a676ae0b6d18cb79f164211.json) · [t-cc5018c20ec1617d7aa6c84a](../../data/transcripts/t-cc5018c20ec1617d7aa6c84a.json)
+[r-fb192b5faa59db526e4e140e](../../data/documents/r-fb192b5faa59db526e4e140e.json) · [t-3a676ae0b6d18cb79f164211](../../data/documents/t-3a676ae0b6d18cb79f164211.json) · [t-cc5018c20ec1617d7aa6c84a](../../data/documents/t-cc5018c20ec1617d7aa6c84a.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3374,7 +3374,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-83c2ede275b455c3df8eae9e](../../data/edited_transcripts/r-83c2ede275b455c3df8eae9e.json) · [t-2a0897967d4b857d18a7db68](../../data/transcripts/t-2a0897967d4b857d18a7db68.json) · [t-5f13e1b9890655d760c9d092](../../data/transcripts/t-5f13e1b9890655d760c9d092.json)
+[r-83c2ede275b455c3df8eae9e](../../data/documents/r-83c2ede275b455c3df8eae9e.json) · [t-2a0897967d4b857d18a7db68](../../data/documents/t-2a0897967d4b857d18a7db68.json) · [t-5f13e1b9890655d760c9d092](../../data/documents/t-5f13e1b9890655d760c9d092.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3396,7 +3396,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-229b9344cd226dcc9ef2c0c7](../../data/edited_transcripts/r-229b9344cd226dcc9ef2c0c7.json) · [t-a717d1a1bf7f6b219ddcc830](../../data/transcripts/t-a717d1a1bf7f6b219ddcc830.json) · [t-c57efb887a3924cdb9e1db62](../../data/transcripts/t-c57efb887a3924cdb9e1db62.json)
+[r-229b9344cd226dcc9ef2c0c7](../../data/documents/r-229b9344cd226dcc9ef2c0c7.json) · [t-a717d1a1bf7f6b219ddcc830](../../data/documents/t-a717d1a1bf7f6b219ddcc830.json) · [t-c57efb887a3924cdb9e1db62](../../data/documents/t-c57efb887a3924cdb9e1db62.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3418,7 +3418,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-0628aacd43408c6864cefab8](../../data/edited_transcripts/r-0628aacd43408c6864cefab8.json) · [t-41541a6b7978bbcf1069cfc4](../../data/transcripts/t-41541a6b7978bbcf1069cfc4.json) · [t-577c050bd3d344e289111cce](../../data/transcripts/t-577c050bd3d344e289111cce.json)
+[r-0628aacd43408c6864cefab8](../../data/documents/r-0628aacd43408c6864cefab8.json) · [t-41541a6b7978bbcf1069cfc4](../../data/documents/t-41541a6b7978bbcf1069cfc4.json) · [t-577c050bd3d344e289111cce](../../data/documents/t-577c050bd3d344e289111cce.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3441,7 +3441,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-2e6d290be82d65d4648f1a84](../../data/edited_transcripts/r-2e6d290be82d65d4648f1a84.json) · [t-311bad762e71558aefdc58fe](../../data/transcripts/t-311bad762e71558aefdc58fe.json) · [t-b94c89b65e51542d4a2162ad](../../data/transcripts/t-b94c89b65e51542d4a2162ad.json) · [r-c7ccd3eb5ec67c4647db9234](../../data/edited_transcripts/r-c7ccd3eb5ec67c4647db9234.json) · [t-0e2e19077a6ee3adc1462f24](../../data/transcripts/t-0e2e19077a6ee3adc1462f24.json) · [t-b8b22b8e54f7933b08ff3422](../../data/transcripts/t-b8b22b8e54f7933b08ff3422.json)
+[r-2e6d290be82d65d4648f1a84](../../data/documents/r-2e6d290be82d65d4648f1a84.json) · [t-311bad762e71558aefdc58fe](../../data/documents/t-311bad762e71558aefdc58fe.json) · [t-b94c89b65e51542d4a2162ad](../../data/documents/t-b94c89b65e51542d4a2162ad.json) · [r-c7ccd3eb5ec67c4647db9234](../../data/documents/r-c7ccd3eb5ec67c4647db9234.json) · [t-0e2e19077a6ee3adc1462f24](../../data/documents/t-0e2e19077a6ee3adc1462f24.json) · [t-b8b22b8e54f7933b08ff3422](../../data/documents/t-b8b22b8e54f7933b08ff3422.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3463,7 +3463,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-ab7f42c8ab91ab291f2b9c28](../../data/edited_transcripts/r-ab7f42c8ab91ab291f2b9c28.json) · [t-47fbebbbac9da1a906b4a255](../../data/transcripts/t-47fbebbbac9da1a906b4a255.json) · [t-867baf652bafa27099f2278d](../../data/transcripts/t-867baf652bafa27099f2278d.json)
+[r-ab7f42c8ab91ab291f2b9c28](../../data/documents/r-ab7f42c8ab91ab291f2b9c28.json) · [t-47fbebbbac9da1a906b4a255](../../data/documents/t-47fbebbbac9da1a906b4a255.json) · [t-867baf652bafa27099f2278d](../../data/documents/t-867baf652bafa27099f2278d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3485,7 +3485,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-309962872c82a9186bbb1a3d](../../data/edited_transcripts/r-309962872c82a9186bbb1a3d.json) · [t-fb810a1533215ca5d60574b8](../../data/transcripts/t-fb810a1533215ca5d60574b8.json)
+[r-309962872c82a9186bbb1a3d](../../data/documents/r-309962872c82a9186bbb1a3d.json) · [t-fb810a1533215ca5d60574b8](../../data/documents/t-fb810a1533215ca5d60574b8.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3508,7 +3508,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-4ca6ad01331555f9c012db63](../../data/edited_transcripts/r-4ca6ad01331555f9c012db63.json) · [t-18e29ee287da002f903725f7](../../data/transcripts/t-18e29ee287da002f903725f7.json) · [t-e97ba3b876492e12047c77a2](../../data/transcripts/t-e97ba3b876492e12047c77a2.json)
+[r-4ca6ad01331555f9c012db63](../../data/documents/r-4ca6ad01331555f9c012db63.json) · [t-18e29ee287da002f903725f7](../../data/documents/t-18e29ee287da002f903725f7.json) · [t-e97ba3b876492e12047c77a2](../../data/documents/t-e97ba3b876492e12047c77a2.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3531,7 +3531,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-f2276c5f2669d63521895255](../../data/edited_transcripts/r-f2276c5f2669d63521895255.json) · [t-80e5804ac3a2ebfb60def104](../../data/transcripts/t-80e5804ac3a2ebfb60def104.json) · [t-9ce5416481939de37fe022ce](../../data/transcripts/t-9ce5416481939de37fe022ce.json)
+[r-f2276c5f2669d63521895255](../../data/documents/r-f2276c5f2669d63521895255.json) · [t-80e5804ac3a2ebfb60def104](../../data/documents/t-80e5804ac3a2ebfb60def104.json) · [t-9ce5416481939de37fe022ce](../../data/documents/t-9ce5416481939de37fe022ce.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3554,7 +3554,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-1dfef5a6af6c880fb955adc8](../../data/edited_transcripts/r-1dfef5a6af6c880fb955adc8.json) · [t-2685d3373b79205dfa078268](../../data/transcripts/t-2685d3373b79205dfa078268.json) · [t-99f25c2c3a22ab5c8dd4c332](../../data/transcripts/t-99f25c2c3a22ab5c8dd4c332.json)
+[r-1dfef5a6af6c880fb955adc8](../../data/documents/r-1dfef5a6af6c880fb955adc8.json) · [t-2685d3373b79205dfa078268](../../data/documents/t-2685d3373b79205dfa078268.json) · [t-99f25c2c3a22ab5c8dd4c332](../../data/documents/t-99f25c2c3a22ab5c8dd4c332.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3577,7 +3577,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-44462ae353eaf17c4fdbbe65](../../data/edited_transcripts/r-44462ae353eaf17c4fdbbe65.json) · [t-a1b4e6c3e3053b80b99338f3](../../data/transcripts/t-a1b4e6c3e3053b80b99338f3.json) · [t-dc0965aa1a712c83e05a7b10](../../data/transcripts/t-dc0965aa1a712c83e05a7b10.json)
+[r-44462ae353eaf17c4fdbbe65](../../data/documents/r-44462ae353eaf17c4fdbbe65.json) · [t-a1b4e6c3e3053b80b99338f3](../../data/documents/t-a1b4e6c3e3053b80b99338f3.json) · [t-dc0965aa1a712c83e05a7b10](../../data/documents/t-dc0965aa1a712c83e05a7b10.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3600,7 +3600,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-cdd04a2e6c5eb315c7f0613a](../../data/edited_transcripts/r-cdd04a2e6c5eb315c7f0613a.json) · [t-12767dee53d2ba5f6cab27f4](../../data/transcripts/t-12767dee53d2ba5f6cab27f4.json) · [t-1d6e1efb0b7e82362329daa9](../../data/transcripts/t-1d6e1efb0b7e82362329daa9.json) · [r-7a80ec22b1d2fafbc6f8b5b0](../../data/edited_transcripts/r-7a80ec22b1d2fafbc6f8b5b0.json) · [t-638ad83d978129a6075eba2b](../../data/transcripts/t-638ad83d978129a6075eba2b.json) · [t-885c53da8c2add4215710416](../../data/transcripts/t-885c53da8c2add4215710416.json)
+[r-cdd04a2e6c5eb315c7f0613a](../../data/documents/r-cdd04a2e6c5eb315c7f0613a.json) · [t-12767dee53d2ba5f6cab27f4](../../data/documents/t-12767dee53d2ba5f6cab27f4.json) · [t-1d6e1efb0b7e82362329daa9](../../data/documents/t-1d6e1efb0b7e82362329daa9.json) · [r-7a80ec22b1d2fafbc6f8b5b0](../../data/documents/r-7a80ec22b1d2fafbc6f8b5b0.json) · [t-638ad83d978129a6075eba2b](../../data/documents/t-638ad83d978129a6075eba2b.json) · [t-885c53da8c2add4215710416](../../data/documents/t-885c53da8c2add4215710416.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3623,7 +3623,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-e8e225133107ee6ab87ae6b5](../../data/edited_transcripts/r-e8e225133107ee6ab87ae6b5.json) · [t-01f58f0ea30f0178d3d15dba](../../data/transcripts/t-01f58f0ea30f0178d3d15dba.json) · [t-54b6e53789d20ec63367d253](../../data/transcripts/t-54b6e53789d20ec63367d253.json) · [r-393d473702c838649b40f23b](../../data/edited_transcripts/r-393d473702c838649b40f23b.json) · [t-212a050e0be6dc869f4e978c](../../data/transcripts/t-212a050e0be6dc869f4e978c.json) · [t-7fe14b12a602ea4eb975e1e5](../../data/transcripts/t-7fe14b12a602ea4eb975e1e5.json)
+[r-e8e225133107ee6ab87ae6b5](../../data/documents/r-e8e225133107ee6ab87ae6b5.json) · [t-01f58f0ea30f0178d3d15dba](../../data/documents/t-01f58f0ea30f0178d3d15dba.json) · [t-54b6e53789d20ec63367d253](../../data/documents/t-54b6e53789d20ec63367d253.json) · [r-393d473702c838649b40f23b](../../data/documents/r-393d473702c838649b40f23b.json) · [t-212a050e0be6dc869f4e978c](../../data/documents/t-212a050e0be6dc869f4e978c.json) · [t-7fe14b12a602ea4eb975e1e5](../../data/documents/t-7fe14b12a602ea4eb975e1e5.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3645,7 +3645,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-799220e504d79125aad5eb86](../../data/edited_transcripts/r-799220e504d79125aad5eb86.json) · [t-ade43523db2cf3bd74080604](../../data/transcripts/t-ade43523db2cf3bd74080604.json) · [t-d5db167595c39a1a561fd51d](../../data/transcripts/t-d5db167595c39a1a561fd51d.json)
+[r-799220e504d79125aad5eb86](../../data/documents/r-799220e504d79125aad5eb86.json) · [t-ade43523db2cf3bd74080604](../../data/documents/t-ade43523db2cf3bd74080604.json) · [t-d5db167595c39a1a561fd51d](../../data/documents/t-d5db167595c39a1a561fd51d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3668,7 +3668,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-d8ad187b54aabf300de3a38e](../../data/edited_transcripts/r-d8ad187b54aabf300de3a38e.json) · [t-728b425176f0dde188648c9a](../../data/transcripts/t-728b425176f0dde188648c9a.json)
+[r-d8ad187b54aabf300de3a38e](../../data/documents/r-d8ad187b54aabf300de3a38e.json) · [t-728b425176f0dde188648c9a](../../data/documents/t-728b425176f0dde188648c9a.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3691,7 +3691,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-70f6a3256ca131253855f937](../../data/edited_transcripts/r-70f6a3256ca131253855f937.json) · [t-71672121be98494ae924c065](../../data/transcripts/t-71672121be98494ae924c065.json) · [t-af14b685854a17f24f81a70f](../../data/transcripts/t-af14b685854a17f24f81a70f.json)
+[r-70f6a3256ca131253855f937](../../data/documents/r-70f6a3256ca131253855f937.json) · [t-71672121be98494ae924c065](../../data/documents/t-71672121be98494ae924c065.json) · [t-af14b685854a17f24f81a70f](../../data/documents/t-af14b685854a17f24f81a70f.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3714,7 +3714,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-0e054a4baff6a3f0bdc027e5](../../data/edited_transcripts/r-0e054a4baff6a3f0bdc027e5.json) · [t-0d49643de357372b62c923ef](../../data/transcripts/t-0d49643de357372b62c923ef.json) · [t-c8e36adc75759e8ab18b3b92](../../data/transcripts/t-c8e36adc75759e8ab18b3b92.json)
+[r-0e054a4baff6a3f0bdc027e5](../../data/documents/r-0e054a4baff6a3f0bdc027e5.json) · [t-0d49643de357372b62c923ef](../../data/documents/t-0d49643de357372b62c923ef.json) · [t-c8e36adc75759e8ab18b3b92](../../data/documents/t-c8e36adc75759e8ab18b3b92.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3737,7 +3737,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-577946924364f40dcda21b07](../../data/edited_transcripts/r-577946924364f40dcda21b07.json) · [t-24c414b71571159ab5ae1909](../../data/transcripts/t-24c414b71571159ab5ae1909.json) · [t-db3775a56292c55e91d36b01](../../data/transcripts/t-db3775a56292c55e91d36b01.json)
+[r-577946924364f40dcda21b07](../../data/documents/r-577946924364f40dcda21b07.json) · [t-24c414b71571159ab5ae1909](../../data/documents/t-24c414b71571159ab5ae1909.json) · [t-db3775a56292c55e91d36b01](../../data/documents/t-db3775a56292c55e91d36b01.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3760,7 +3760,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-1a74c7e235926ca93468e8a2](../../data/edited_transcripts/r-1a74c7e235926ca93468e8a2.json) · [t-1951ec9e5ab78f0115c8ff9b](../../data/transcripts/t-1951ec9e5ab78f0115c8ff9b.json) · [t-3e82f0e27e1c7eb33fb673d1](../../data/transcripts/t-3e82f0e27e1c7eb33fb673d1.json) · [r-a8953bb7572f176396ea5198](../../data/edited_transcripts/r-a8953bb7572f176396ea5198.json) · [t-8be048af11e6be5f1120b4fa](../../data/transcripts/t-8be048af11e6be5f1120b4fa.json) · [t-a95ad14df680795e3b5ccda2](../../data/transcripts/t-a95ad14df680795e3b5ccda2.json)
+[r-1a74c7e235926ca93468e8a2](../../data/documents/r-1a74c7e235926ca93468e8a2.json) · [t-1951ec9e5ab78f0115c8ff9b](../../data/documents/t-1951ec9e5ab78f0115c8ff9b.json) · [t-3e82f0e27e1c7eb33fb673d1](../../data/documents/t-3e82f0e27e1c7eb33fb673d1.json) · [r-a8953bb7572f176396ea5198](../../data/documents/r-a8953bb7572f176396ea5198.json) · [t-8be048af11e6be5f1120b4fa](../../data/documents/t-8be048af11e6be5f1120b4fa.json) · [t-a95ad14df680795e3b5ccda2](../../data/documents/t-a95ad14df680795e3b5ccda2.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3783,7 +3783,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-ed07804a7543af0539e6858b](../../data/edited_transcripts/r-ed07804a7543af0539e6858b.json) · [t-de3390b09f4e5bde17690e1c](../../data/transcripts/t-de3390b09f4e5bde17690e1c.json) · [t-fbf395b2b652d28307befc6d](../../data/transcripts/t-fbf395b2b652d28307befc6d.json) · [r-6cf2c274475fd344b49f1b82](../../data/edited_transcripts/r-6cf2c274475fd344b49f1b82.json) · [t-2250f607ce5a1a0b1e62333f](../../data/transcripts/t-2250f607ce5a1a0b1e62333f.json) · [t-2bc753c0baca14ee77b2cebe](../../data/transcripts/t-2bc753c0baca14ee77b2cebe.json)
+[r-ed07804a7543af0539e6858b](../../data/documents/r-ed07804a7543af0539e6858b.json) · [t-de3390b09f4e5bde17690e1c](../../data/documents/t-de3390b09f4e5bde17690e1c.json) · [t-fbf395b2b652d28307befc6d](../../data/documents/t-fbf395b2b652d28307befc6d.json) · [r-6cf2c274475fd344b49f1b82](../../data/documents/r-6cf2c274475fd344b49f1b82.json) · [t-2250f607ce5a1a0b1e62333f](../../data/documents/t-2250f607ce5a1a0b1e62333f.json) · [t-2bc753c0baca14ee77b2cebe](../../data/documents/t-2bc753c0baca14ee77b2cebe.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3806,7 +3806,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-0c8b577200f92d29afcf6d77](../../data/edited_transcripts/r-0c8b577200f92d29afcf6d77.json) · [t-295812ebe592da42102f9520](../../data/transcripts/t-295812ebe592da42102f9520.json) · [t-9eebf9442f18c53ac54b35ed](../../data/transcripts/t-9eebf9442f18c53ac54b35ed.json)
+[r-0c8b577200f92d29afcf6d77](../../data/documents/r-0c8b577200f92d29afcf6d77.json) · [t-295812ebe592da42102f9520](../../data/documents/t-295812ebe592da42102f9520.json) · [t-9eebf9442f18c53ac54b35ed](../../data/documents/t-9eebf9442f18c53ac54b35ed.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3829,7 +3829,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 8；整理稿 4；完成且非空非填充词候选 4；其中全文人工审核 0
 
-[r-f0b3dc25c630dad5dfa39227](../../data/edited_transcripts/r-f0b3dc25c630dad5dfa39227.json) · [t-7063676aa2602b5c4e932c94](../../data/transcripts/t-7063676aa2602b5c4e932c94.json) · [t-caed7787a3f0c270febf0413](../../data/transcripts/t-caed7787a3f0c270febf0413.json) · [r-4899da0ee9966688e8aa4492](../../data/edited_transcripts/r-4899da0ee9966688e8aa4492.json) · [t-155e2c1416f830e435ed40ac](../../data/transcripts/t-155e2c1416f830e435ed40ac.json) · [t-acc5fab7a8963e04d41096b6](../../data/transcripts/t-acc5fab7a8963e04d41096b6.json) · [r-6595a17a7da26c0f6b9a490b](../../data/edited_transcripts/r-6595a17a7da26c0f6b9a490b.json) · [t-3edbe54178755cf258633555](../../data/transcripts/t-3edbe54178755cf258633555.json) · [t-7a9f0a6c04c7a2e16d6ab8c2](../../data/transcripts/t-7a9f0a6c04c7a2e16d6ab8c2.json) · [r-86ec9f0d7d39f278039705ea](../../data/edited_transcripts/r-86ec9f0d7d39f278039705ea.json) · [t-11c01391029704cec0e2df05](../../data/transcripts/t-11c01391029704cec0e2df05.json) · [t-346aaf7c513e16ff37cfc10c](../../data/transcripts/t-346aaf7c513e16ff37cfc10c.json)
+[r-f0b3dc25c630dad5dfa39227](../../data/documents/r-f0b3dc25c630dad5dfa39227.json) · [t-7063676aa2602b5c4e932c94](../../data/documents/t-7063676aa2602b5c4e932c94.json) · [t-caed7787a3f0c270febf0413](../../data/documents/t-caed7787a3f0c270febf0413.json) · [r-4899da0ee9966688e8aa4492](../../data/documents/r-4899da0ee9966688e8aa4492.json) · [t-155e2c1416f830e435ed40ac](../../data/documents/t-155e2c1416f830e435ed40ac.json) · [t-acc5fab7a8963e04d41096b6](../../data/documents/t-acc5fab7a8963e04d41096b6.json) · [r-6595a17a7da26c0f6b9a490b](../../data/documents/r-6595a17a7da26c0f6b9a490b.json) · [t-3edbe54178755cf258633555](../../data/documents/t-3edbe54178755cf258633555.json) · [t-7a9f0a6c04c7a2e16d6ab8c2](../../data/documents/t-7a9f0a6c04c7a2e16d6ab8c2.json) · [r-86ec9f0d7d39f278039705ea](../../data/documents/r-86ec9f0d7d39f278039705ea.json) · [t-11c01391029704cec0e2df05](../../data/documents/t-11c01391029704cec0e2df05.json) · [t-346aaf7c513e16ff37cfc10c](../../data/documents/t-346aaf7c513e16ff37cfc10c.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3852,7 +3852,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-675ab650689cd6f6c2653437](../../data/edited_transcripts/r-675ab650689cd6f6c2653437.json) · [t-55a64dc8a45184fdb61e23fb](../../data/transcripts/t-55a64dc8a45184fdb61e23fb.json) · [t-a3b294ab06fd266f8f44df24](../../data/transcripts/t-a3b294ab06fd266f8f44df24.json)
+[r-675ab650689cd6f6c2653437](../../data/documents/r-675ab650689cd6f6c2653437.json) · [t-55a64dc8a45184fdb61e23fb](../../data/documents/t-55a64dc8a45184fdb61e23fb.json) · [t-a3b294ab06fd266f8f44df24](../../data/documents/t-a3b294ab06fd266f8f44df24.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3874,7 +3874,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-0693f0c67f869ae513413f7f](../../data/edited_transcripts/r-0693f0c67f869ae513413f7f.json) · [t-8860a9c59f6df621407300d0](../../data/transcripts/t-8860a9c59f6df621407300d0.json)
+[r-0693f0c67f869ae513413f7f](../../data/documents/r-0693f0c67f869ae513413f7f.json) · [t-8860a9c59f6df621407300d0](../../data/documents/t-8860a9c59f6df621407300d0.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3896,7 +3896,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-73a35af1d0eca387b6a9fb34](../../data/edited_transcripts/r-73a35af1d0eca387b6a9fb34.json) · [t-625cf11528cde0116e6038e7](../../data/transcripts/t-625cf11528cde0116e6038e7.json) · [t-dce230877c859800108c6627](../../data/transcripts/t-dce230877c859800108c6627.json)
+[r-73a35af1d0eca387b6a9fb34](../../data/documents/r-73a35af1d0eca387b6a9fb34.json) · [t-625cf11528cde0116e6038e7](../../data/documents/t-625cf11528cde0116e6038e7.json) · [t-dce230877c859800108c6627](../../data/documents/t-dce230877c859800108c6627.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3919,7 +3919,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-1645d467957aaf94e8cc7549](../../data/edited_transcripts/r-1645d467957aaf94e8cc7549.json) · [t-094aa84fd16df59e4d87f126](../../data/transcripts/t-094aa84fd16df59e4d87f126.json) · [t-16a2e8c3f696ef0bd62b3879](../../data/transcripts/t-16a2e8c3f696ef0bd62b3879.json)
+[r-1645d467957aaf94e8cc7549](../../data/documents/r-1645d467957aaf94e8cc7549.json) · [t-094aa84fd16df59e4d87f126](../../data/documents/t-094aa84fd16df59e4d87f126.json) · [t-16a2e8c3f696ef0bd62b3879](../../data/documents/t-16a2e8c3f696ef0bd62b3879.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3942,7 +3942,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-1a44400a4dfd552df892b977](../../data/edited_transcripts/r-1a44400a4dfd552df892b977.json) · [t-95451ac5c03fa383c98bfa00](../../data/transcripts/t-95451ac5c03fa383c98bfa00.json) · [t-972d9f9e428732c86ea05e21](../../data/transcripts/t-972d9f9e428732c86ea05e21.json)
+[r-1a44400a4dfd552df892b977](../../data/documents/r-1a44400a4dfd552df892b977.json) · [t-95451ac5c03fa383c98bfa00](../../data/documents/t-95451ac5c03fa383c98bfa00.json) · [t-972d9f9e428732c86ea05e21](../../data/documents/t-972d9f9e428732c86ea05e21.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3964,7 +3964,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-fa9c35d1828099d8b1a88a05](../../data/edited_transcripts/r-fa9c35d1828099d8b1a88a05.json) · [t-044ba9361994531e9f1d99b4](../../data/transcripts/t-044ba9361994531e9f1d99b4.json) · [t-d58fd53908bb53eb5783aba8](../../data/transcripts/t-d58fd53908bb53eb5783aba8.json)
+[r-fa9c35d1828099d8b1a88a05](../../data/documents/r-fa9c35d1828099d8b1a88a05.json) · [t-044ba9361994531e9f1d99b4](../../data/documents/t-044ba9361994531e9f1d99b4.json) · [t-d58fd53908bb53eb5783aba8](../../data/documents/t-d58fd53908bb53eb5783aba8.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -3987,7 +3987,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 6；整理稿 3；完成且非空非填充词候选 3；其中全文人工审核 0
 
-[r-2210f969c886d148fd1b4b59](../../data/edited_transcripts/r-2210f969c886d148fd1b4b59.json) · [t-786d0d65cf207350b74e4fe9](../../data/transcripts/t-786d0d65cf207350b74e4fe9.json) · [t-d5b6dbfce255e8ed5e15def0](../../data/transcripts/t-d5b6dbfce255e8ed5e15def0.json) · [r-211d14339bdfb20cbce76d79](../../data/edited_transcripts/r-211d14339bdfb20cbce76d79.json) · [t-19890fe2ea6cc33f1c95c403](../../data/transcripts/t-19890fe2ea6cc33f1c95c403.json) · [t-2f2efcb1e01eb3d1dbf0ac19](../../data/transcripts/t-2f2efcb1e01eb3d1dbf0ac19.json) · [r-1ce5bc432238fee8ce4b91f3](../../data/edited_transcripts/r-1ce5bc432238fee8ce4b91f3.json) · [t-9771e793180d2d444885df51](../../data/transcripts/t-9771e793180d2d444885df51.json) · [t-fb96219f59e934118d0c2542](../../data/transcripts/t-fb96219f59e934118d0c2542.json)
+[r-2210f969c886d148fd1b4b59](../../data/documents/r-2210f969c886d148fd1b4b59.json) · [t-786d0d65cf207350b74e4fe9](../../data/documents/t-786d0d65cf207350b74e4fe9.json) · [t-d5b6dbfce255e8ed5e15def0](../../data/documents/t-d5b6dbfce255e8ed5e15def0.json) · [r-211d14339bdfb20cbce76d79](../../data/documents/r-211d14339bdfb20cbce76d79.json) · [t-19890fe2ea6cc33f1c95c403](../../data/documents/t-19890fe2ea6cc33f1c95c403.json) · [t-2f2efcb1e01eb3d1dbf0ac19](../../data/documents/t-2f2efcb1e01eb3d1dbf0ac19.json) · [r-1ce5bc432238fee8ce4b91f3](../../data/documents/r-1ce5bc432238fee8ce4b91f3.json) · [t-9771e793180d2d444885df51](../../data/documents/t-9771e793180d2d444885df51.json) · [t-fb96219f59e934118d0c2542](../../data/documents/t-fb96219f59e934118d0c2542.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4010,7 +4010,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-342a30369bbb4c3e7c9b317f](../../data/edited_transcripts/r-342a30369bbb4c3e7c9b317f.json) · [t-50a2522c4ce4a4b538202366](../../data/transcripts/t-50a2522c4ce4a4b538202366.json) · [t-7aa15eea602e22b60fcda8a6](../../data/transcripts/t-7aa15eea602e22b60fcda8a6.json) · [r-ab64892509a91a5c1cf6d892](../../data/edited_transcripts/r-ab64892509a91a5c1cf6d892.json) · [t-2e4b355defff1f9be25bdfe9](../../data/transcripts/t-2e4b355defff1f9be25bdfe9.json) · [t-f8904bdd1d18094c7297ff5f](../../data/transcripts/t-f8904bdd1d18094c7297ff5f.json)
+[r-342a30369bbb4c3e7c9b317f](../../data/documents/r-342a30369bbb4c3e7c9b317f.json) · [t-50a2522c4ce4a4b538202366](../../data/documents/t-50a2522c4ce4a4b538202366.json) · [t-7aa15eea602e22b60fcda8a6](../../data/documents/t-7aa15eea602e22b60fcda8a6.json) · [r-ab64892509a91a5c1cf6d892](../../data/documents/r-ab64892509a91a5c1cf6d892.json) · [t-2e4b355defff1f9be25bdfe9](../../data/documents/t-2e4b355defff1f9be25bdfe9.json) · [t-f8904bdd1d18094c7297ff5f](../../data/documents/t-f8904bdd1d18094c7297ff5f.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4032,7 +4032,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-b3b4d449ed9057f1ce5681e1](../../data/edited_transcripts/r-b3b4d449ed9057f1ce5681e1.json) · [t-4c4a79f82a4dc6b68b7d2c65](../../data/transcripts/t-4c4a79f82a4dc6b68b7d2c65.json) · [t-a341f7bed9eab977a9911bc0](../../data/transcripts/t-a341f7bed9eab977a9911bc0.json)
+[r-b3b4d449ed9057f1ce5681e1](../../data/documents/r-b3b4d449ed9057f1ce5681e1.json) · [t-4c4a79f82a4dc6b68b7d2c65](../../data/documents/t-4c4a79f82a4dc6b68b7d2c65.json) · [t-a341f7bed9eab977a9911bc0](../../data/documents/t-a341f7bed9eab977a9911bc0.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4055,7 +4055,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-22c6b4096b2d3da08aa8fba4](../../data/edited_transcripts/r-22c6b4096b2d3da08aa8fba4.json) · [t-ec0c1c4825eefcf54a9219b0](../../data/transcripts/t-ec0c1c4825eefcf54a9219b0.json) · [t-f760f043f63fedcf2ddf4e8c](../../data/transcripts/t-f760f043f63fedcf2ddf4e8c.json)
+[r-22c6b4096b2d3da08aa8fba4](../../data/documents/r-22c6b4096b2d3da08aa8fba4.json) · [t-ec0c1c4825eefcf54a9219b0](../../data/documents/t-ec0c1c4825eefcf54a9219b0.json) · [t-f760f043f63fedcf2ddf4e8c](../../data/documents/t-f760f043f63fedcf2ddf4e8c.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4077,7 +4077,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-ed7421d0fcb5db1fb9547a46](../../data/edited_transcripts/r-ed7421d0fcb5db1fb9547a46.json) · [t-9b945c5c97395036938e2865](../../data/transcripts/t-9b945c5c97395036938e2865.json) · [t-ce44c72ea83c5a40d7af0478](../../data/transcripts/t-ce44c72ea83c5a40d7af0478.json)
+[r-ed7421d0fcb5db1fb9547a46](../../data/documents/r-ed7421d0fcb5db1fb9547a46.json) · [t-9b945c5c97395036938e2865](../../data/documents/t-9b945c5c97395036938e2865.json) · [t-ce44c72ea83c5a40d7af0478](../../data/documents/t-ce44c72ea83c5a40d7af0478.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4100,7 +4100,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-5b02ee533160513a00bd62cc](../../data/edited_transcripts/r-5b02ee533160513a00bd62cc.json) · [t-e61dcc79660ba43ff7a22f0c](../../data/transcripts/t-e61dcc79660ba43ff7a22f0c.json) · [t-fb74a35ce9e2c771b873dd3d](../../data/transcripts/t-fb74a35ce9e2c771b873dd3d.json)
+[r-5b02ee533160513a00bd62cc](../../data/documents/r-5b02ee533160513a00bd62cc.json) · [t-e61dcc79660ba43ff7a22f0c](../../data/documents/t-e61dcc79660ba43ff7a22f0c.json) · [t-fb74a35ce9e2c771b873dd3d](../../data/documents/t-fb74a35ce9e2c771b873dd3d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4123,7 +4123,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-0647c4b80bc27e478e98edcb](../../data/edited_transcripts/r-0647c4b80bc27e478e98edcb.json) · [t-126ea96f7547135204f36284](../../data/transcripts/t-126ea96f7547135204f36284.json) · [t-a398519e28c5378d8f0249b6](../../data/transcripts/t-a398519e28c5378d8f0249b6.json) · [r-caa8a66f090d87935c80c0fe](../../data/edited_transcripts/r-caa8a66f090d87935c80c0fe.json) · [t-1051412cd24ec8f67877f8d6](../../data/transcripts/t-1051412cd24ec8f67877f8d6.json) · [t-fbf4ebb258d8730af5003e6c](../../data/transcripts/t-fbf4ebb258d8730af5003e6c.json)
+[r-0647c4b80bc27e478e98edcb](../../data/documents/r-0647c4b80bc27e478e98edcb.json) · [t-126ea96f7547135204f36284](../../data/documents/t-126ea96f7547135204f36284.json) · [t-a398519e28c5378d8f0249b6](../../data/documents/t-a398519e28c5378d8f0249b6.json) · [r-caa8a66f090d87935c80c0fe](../../data/documents/r-caa8a66f090d87935c80c0fe.json) · [t-1051412cd24ec8f67877f8d6](../../data/documents/t-1051412cd24ec8f67877f8d6.json) · [t-fbf4ebb258d8730af5003e6c](../../data/documents/t-fbf4ebb258d8730af5003e6c.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4145,7 +4145,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-2ea617537a3d8367783bfe33](../../data/edited_transcripts/r-2ea617537a3d8367783bfe33.json) · [t-0d104c57e2d0a15594686281](../../data/transcripts/t-0d104c57e2d0a15594686281.json) · [t-56e6263936bd42ea6a8ac923](../../data/transcripts/t-56e6263936bd42ea6a8ac923.json)
+[r-2ea617537a3d8367783bfe33](../../data/documents/r-2ea617537a3d8367783bfe33.json) · [t-0d104c57e2d0a15594686281](../../data/documents/t-0d104c57e2d0a15594686281.json) · [t-56e6263936bd42ea6a8ac923](../../data/documents/t-56e6263936bd42ea6a8ac923.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4167,7 +4167,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-6824bbb316f3da33bb998a65](../../data/edited_transcripts/r-6824bbb316f3da33bb998a65.json) · [t-b3bf3484b13edab54242c44e](../../data/transcripts/t-b3bf3484b13edab54242c44e.json) · [t-e8689ed171c15b7f361f994d](../../data/transcripts/t-e8689ed171c15b7f361f994d.json)
+[r-6824bbb316f3da33bb998a65](../../data/documents/r-6824bbb316f3da33bb998a65.json) · [t-b3bf3484b13edab54242c44e](../../data/documents/t-b3bf3484b13edab54242c44e.json) · [t-e8689ed171c15b7f361f994d](../../data/documents/t-e8689ed171c15b7f361f994d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4189,7 +4189,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-2d4db74f884a020b60fca5cb](../../data/edited_transcripts/r-2d4db74f884a020b60fca5cb.json) · [t-ad0d472fb2504b01516863ba](../../data/transcripts/t-ad0d472fb2504b01516863ba.json) · [t-b189dcdf55a9f02b4395665c](../../data/transcripts/t-b189dcdf55a9f02b4395665c.json)
+[r-2d4db74f884a020b60fca5cb](../../data/documents/r-2d4db74f884a020b60fca5cb.json) · [t-ad0d472fb2504b01516863ba](../../data/documents/t-ad0d472fb2504b01516863ba.json) · [t-b189dcdf55a9f02b4395665c](../../data/documents/t-b189dcdf55a9f02b4395665c.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4211,7 +4211,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-962198fa070f4dfcf157d6b5](../../data/edited_transcripts/r-962198fa070f4dfcf157d6b5.json) · [t-a0c8345c5c526f243d031ae2](../../data/transcripts/t-a0c8345c5c526f243d031ae2.json) · [t-e955f5d3d2e8c30582f4b935](../../data/transcripts/t-e955f5d3d2e8c30582f4b935.json)
+[r-962198fa070f4dfcf157d6b5](../../data/documents/r-962198fa070f4dfcf157d6b5.json) · [t-a0c8345c5c526f243d031ae2](../../data/documents/t-a0c8345c5c526f243d031ae2.json) · [t-e955f5d3d2e8c30582f4b935](../../data/documents/t-e955f5d3d2e8c30582f4b935.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4234,7 +4234,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-63fc8b9d5716ee05b77d0984](../../data/edited_transcripts/r-63fc8b9d5716ee05b77d0984.json) · [t-0165d782a0def0ce7870de67](../../data/transcripts/t-0165d782a0def0ce7870de67.json) · [t-32212baef377766242de1c77](../../data/transcripts/t-32212baef377766242de1c77.json)
+[r-63fc8b9d5716ee05b77d0984](../../data/documents/r-63fc8b9d5716ee05b77d0984.json) · [t-0165d782a0def0ce7870de67](../../data/documents/t-0165d782a0def0ce7870de67.json) · [t-32212baef377766242de1c77](../../data/documents/t-32212baef377766242de1c77.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4256,7 +4256,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-fc72a9f3b9e1dc5bfbc21954](../../data/edited_transcripts/r-fc72a9f3b9e1dc5bfbc21954.json) · [t-767155de3391af1a40287ff1](../../data/transcripts/t-767155de3391af1a40287ff1.json)
+[r-fc72a9f3b9e1dc5bfbc21954](../../data/documents/r-fc72a9f3b9e1dc5bfbc21954.json) · [t-767155de3391af1a40287ff1](../../data/documents/t-767155de3391af1a40287ff1.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4278,7 +4278,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-539c873f2b96d12ef0dfab59](../../data/edited_transcripts/r-539c873f2b96d12ef0dfab59.json) · [t-ad5b879364b8ba21d54343a1](../../data/transcripts/t-ad5b879364b8ba21d54343a1.json)
+[r-539c873f2b96d12ef0dfab59](../../data/documents/r-539c873f2b96d12ef0dfab59.json) · [t-ad5b879364b8ba21d54343a1](../../data/documents/t-ad5b879364b8ba21d54343a1.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4300,7 +4300,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-5ee59effdc919691ace1d95d](../../data/edited_transcripts/r-5ee59effdc919691ace1d95d.json) · [t-4f4021f6311d4ac6459af437](../../data/transcripts/t-4f4021f6311d4ac6459af437.json) · [t-d21a99b922e190e40a93e290](../../data/transcripts/t-d21a99b922e190e40a93e290.json)
+[r-5ee59effdc919691ace1d95d](../../data/documents/r-5ee59effdc919691ace1d95d.json) · [t-4f4021f6311d4ac6459af437](../../data/documents/t-4f4021f6311d4ac6459af437.json) · [t-d21a99b922e190e40a93e290](../../data/documents/t-d21a99b922e190e40a93e290.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4323,7 +4323,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-53fcd140dd02a20e8e7c37f0](../../data/edited_transcripts/r-53fcd140dd02a20e8e7c37f0.json) · [t-2b333d053428015bb078ed0b](../../data/transcripts/t-2b333d053428015bb078ed0b.json) · [t-cfa28c0512a3fc08cc660388](../../data/transcripts/t-cfa28c0512a3fc08cc660388.json)
+[r-53fcd140dd02a20e8e7c37f0](../../data/documents/r-53fcd140dd02a20e8e7c37f0.json) · [t-2b333d053428015bb078ed0b](../../data/documents/t-2b333d053428015bb078ed0b.json) · [t-cfa28c0512a3fc08cc660388](../../data/documents/t-cfa28c0512a3fc08cc660388.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4345,7 +4345,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-5ef5e788ddd3556252b459b5](../../data/edited_transcripts/r-5ef5e788ddd3556252b459b5.json) · [t-703f6185fc6a970b26ccaa2d](../../data/transcripts/t-703f6185fc6a970b26ccaa2d.json) · [t-ea422aa3f1fd7be8e9d050d8](../../data/transcripts/t-ea422aa3f1fd7be8e9d050d8.json)
+[r-5ef5e788ddd3556252b459b5](../../data/documents/r-5ef5e788ddd3556252b459b5.json) · [t-703f6185fc6a970b26ccaa2d](../../data/documents/t-703f6185fc6a970b26ccaa2d.json) · [t-ea422aa3f1fd7be8e9d050d8](../../data/documents/t-ea422aa3f1fd7be8e9d050d8.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4368,7 +4368,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-303f172f01cf839cb4233874](../../data/edited_transcripts/r-303f172f01cf839cb4233874.json) · [t-b027ff1668fc49dda0d133dc](../../data/transcripts/t-b027ff1668fc49dda0d133dc.json) · [t-dd07547ab1197db202b0d1ed](../../data/transcripts/t-dd07547ab1197db202b0d1ed.json)
+[r-303f172f01cf839cb4233874](../../data/documents/r-303f172f01cf839cb4233874.json) · [t-b027ff1668fc49dda0d133dc](../../data/documents/t-b027ff1668fc49dda0d133dc.json) · [t-dd07547ab1197db202b0d1ed](../../data/documents/t-dd07547ab1197db202b0d1ed.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4390,7 +4390,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-4263c896915541a969f8128b](../../data/edited_transcripts/r-4263c896915541a969f8128b.json) · [t-53433a3c522d592f5fb6c313](../../data/transcripts/t-53433a3c522d592f5fb6c313.json)
+[r-4263c896915541a969f8128b](../../data/documents/r-4263c896915541a969f8128b.json) · [t-53433a3c522d592f5fb6c313](../../data/documents/t-53433a3c522d592f5fb6c313.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4413,7 +4413,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-b376bc46406206e1d241f6f3](../../data/edited_transcripts/r-b376bc46406206e1d241f6f3.json) · [t-0506fe4ab123cfde89667657](../../data/transcripts/t-0506fe4ab123cfde89667657.json) · [t-5724532685ffcdb42f407ede](../../data/transcripts/t-5724532685ffcdb42f407ede.json)
+[r-b376bc46406206e1d241f6f3](../../data/documents/r-b376bc46406206e1d241f6f3.json) · [t-0506fe4ab123cfde89667657](../../data/documents/t-0506fe4ab123cfde89667657.json) · [t-5724532685ffcdb42f407ede](../../data/documents/t-5724532685ffcdb42f407ede.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4436,11 +4436,11 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
-[t-30b1a4737c9197f5e360f3b7](../../data/transcripts/t-30b1a4737c9197f5e360f3b7.json)
+[t-30b1a4737c9197f5e360f3b7](../../data/documents/t-30b1a4737c9197f5e360f3b7.json)
 
 **跨来源引用**：基础转录 1；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
-[t-64a9b1682e4f8154f8b0abd7](../../data/transcripts/t-64a9b1682e4f8154f8b0abd7.json)
+[t-64a9b1682e4f8154f8b0abd7](../../data/documents/t-64a9b1682e4f8154f8b0abd7.json)
 
 **同音频**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4448,7 +4448,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **章节补充**：基础转录 1；整理稿 2；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-0605b5c37e63b53bc08111ee](../../data/edited_transcripts/r-0605b5c37e63b53bc08111ee.json) · [r-c9d73494cde105d2e89af03a](../../data/edited_transcripts/r-c9d73494cde105d2e89af03a.json) · [t-a203b97657917cba50485a88](../../data/transcripts/t-a203b97657917cba50485a88.json)
+[r-0605b5c37e63b53bc08111ee](../../data/documents/r-0605b5c37e63b53bc08111ee.json) · [r-c9d73494cde105d2e89af03a](../../data/documents/r-c9d73494cde105d2e89af03a.json) · [t-a203b97657917cba50485a88](../../data/documents/t-a203b97657917cba50485a88.json)
 
 ### 【主义主义】无声版：神创论（1-2-1）
 
@@ -4458,11 +4458,11 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
-[t-64a9b1682e4f8154f8b0abd7](../../data/transcripts/t-64a9b1682e4f8154f8b0abd7.json)
+[t-64a9b1682e4f8154f8b0abd7](../../data/documents/t-64a9b1682e4f8154f8b0abd7.json)
 
 **跨来源引用**：基础转录 1；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
-[t-30b1a4737c9197f5e360f3b7](../../data/transcripts/t-30b1a4737c9197f5e360f3b7.json)
+[t-30b1a4737c9197f5e360f3b7](../../data/documents/t-30b1a4737c9197f5e360f3b7.json)
 
 **同音频**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4480,7 +4480,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-2840ce6e7b81c075aae319ca](../../data/edited_transcripts/r-2840ce6e7b81c075aae319ca.json) · [t-3d436fe54b124a2f8b7a9f36](../../data/transcripts/t-3d436fe54b124a2f8b7a9f36.json) · [t-e64ae954d219773538cbcb6c](../../data/transcripts/t-e64ae954d219773538cbcb6c.json)
+[r-2840ce6e7b81c075aae319ca](../../data/documents/r-2840ce6e7b81c075aae319ca.json) · [t-3d436fe54b124a2f8b7a9f36](../../data/documents/t-3d436fe54b124a2f8b7a9f36.json) · [t-e64ae954d219773538cbcb6c](../../data/documents/t-e64ae954d219773538cbcb6c.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4503,7 +4503,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-f0e32bfe2f4523dd22787fa3](../../data/edited_transcripts/r-f0e32bfe2f4523dd22787fa3.json) · [t-6642eb5b8e18916d0bb13ef3](../../data/transcripts/t-6642eb5b8e18916d0bb13ef3.json) · [t-c3d37e2be0d4e066d7065fed](../../data/transcripts/t-c3d37e2be0d4e066d7065fed.json)
+[r-f0e32bfe2f4523dd22787fa3](../../data/documents/r-f0e32bfe2f4523dd22787fa3.json) · [t-6642eb5b8e18916d0bb13ef3](../../data/documents/t-6642eb5b8e18916d0bb13ef3.json) · [t-c3d37e2be0d4e066d7065fed](../../data/documents/t-c3d37e2be0d4e066d7065fed.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4526,7 +4526,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-d5d09029456391c376226759](../../data/edited_transcripts/r-d5d09029456391c376226759.json) · [t-2e0b9c245ec667f7bc0344fd](../../data/transcripts/t-2e0b9c245ec667f7bc0344fd.json) · [t-639e98eb6127c528e291b532](../../data/transcripts/t-639e98eb6127c528e291b532.json)
+[r-d5d09029456391c376226759](../../data/documents/r-d5d09029456391c376226759.json) · [t-2e0b9c245ec667f7bc0344fd](../../data/documents/t-2e0b9c245ec667f7bc0344fd.json) · [t-639e98eb6127c528e291b532](../../data/documents/t-639e98eb6127c528e291b532.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4549,7 +4549,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-8683c626624060b6877d684a](../../data/edited_transcripts/r-8683c626624060b6877d684a.json) · [t-b9abc2707176dd0b51bf2a73](../../data/transcripts/t-b9abc2707176dd0b51bf2a73.json) · [t-fa0a41dd5cadcb066a78636f](../../data/transcripts/t-fa0a41dd5cadcb066a78636f.json)
+[r-8683c626624060b6877d684a](../../data/documents/r-8683c626624060b6877d684a.json) · [t-b9abc2707176dd0b51bf2a73](../../data/documents/t-b9abc2707176dd0b51bf2a73.json) · [t-fa0a41dd5cadcb066a78636f](../../data/documents/t-fa0a41dd5cadcb066a78636f.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4572,7 +4572,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-dc9b03aa1868613a032df772](../../data/edited_transcripts/r-dc9b03aa1868613a032df772.json) · [t-1f0a459c140f3463b40b7b1b](../../data/transcripts/t-1f0a459c140f3463b40b7b1b.json) · [t-239355e85244d460f987f9d3](../../data/transcripts/t-239355e85244d460f987f9d3.json)
+[r-dc9b03aa1868613a032df772](../../data/documents/r-dc9b03aa1868613a032df772.json) · [t-1f0a459c140f3463b40b7b1b](../../data/documents/t-1f0a459c140f3463b40b7b1b.json) · [t-239355e85244d460f987f9d3](../../data/documents/t-239355e85244d460f987f9d3.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4594,7 +4594,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 3；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-ee7e28f6a2291c403ce83a6e](../../data/edited_transcripts/r-ee7e28f6a2291c403ce83a6e.json) · [t-e6e5c9997a6ba2aa817f9c61](../../data/transcripts/t-e6e5c9997a6ba2aa817f9c61.json) · [r-73c4131741c65cc36979a037](../../data/edited_transcripts/r-73c4131741c65cc36979a037.json) · [t-25aac4f32acc94f7875ce29a](../../data/transcripts/t-25aac4f32acc94f7875ce29a.json) · [t-99a9f085d118a771e89efb04](../../data/transcripts/t-99a9f085d118a771e89efb04.json)
+[r-ee7e28f6a2291c403ce83a6e](../../data/documents/r-ee7e28f6a2291c403ce83a6e.json) · [t-e6e5c9997a6ba2aa817f9c61](../../data/documents/t-e6e5c9997a6ba2aa817f9c61.json) · [r-73c4131741c65cc36979a037](../../data/documents/r-73c4131741c65cc36979a037.json) · [t-25aac4f32acc94f7875ce29a](../../data/documents/t-25aac4f32acc94f7875ce29a.json) · [t-99a9f085d118a771e89efb04](../../data/documents/t-99a9f085d118a771e89efb04.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4617,7 +4617,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-a9797dd0802b0c7587d9b5b2](../../data/edited_transcripts/r-a9797dd0802b0c7587d9b5b2.json) · [t-09ba9d6a4df423063b67972f](../../data/transcripts/t-09ba9d6a4df423063b67972f.json) · [t-e5fab173291bb3283e397eda](../../data/transcripts/t-e5fab173291bb3283e397eda.json) · [r-0e63cba7e59eb11a21aa45da](../../data/edited_transcripts/r-0e63cba7e59eb11a21aa45da.json) · [t-ad5d0a95974fa62da2bf3d4a](../../data/transcripts/t-ad5d0a95974fa62da2bf3d4a.json) · [t-caa0441f22c1856df0e91a3b](../../data/transcripts/t-caa0441f22c1856df0e91a3b.json)
+[r-a9797dd0802b0c7587d9b5b2](../../data/documents/r-a9797dd0802b0c7587d9b5b2.json) · [t-09ba9d6a4df423063b67972f](../../data/documents/t-09ba9d6a4df423063b67972f.json) · [t-e5fab173291bb3283e397eda](../../data/documents/t-e5fab173291bb3283e397eda.json) · [r-0e63cba7e59eb11a21aa45da](../../data/documents/r-0e63cba7e59eb11a21aa45da.json) · [t-ad5d0a95974fa62da2bf3d4a](../../data/documents/t-ad5d0a95974fa62da2bf3d4a.json) · [t-caa0441f22c1856df0e91a3b](../../data/documents/t-caa0441f22c1856df0e91a3b.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4640,7 +4640,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-6f015a39e2d7d10f4e7829fe](../../data/edited_transcripts/r-6f015a39e2d7d10f4e7829fe.json) · [t-775c09a55b8f954f52cb3178](../../data/transcripts/t-775c09a55b8f954f52cb3178.json) · [t-7e3cd9213015c649e999c976](../../data/transcripts/t-7e3cd9213015c649e999c976.json)
+[r-6f015a39e2d7d10f4e7829fe](../../data/documents/r-6f015a39e2d7d10f4e7829fe.json) · [t-775c09a55b8f954f52cb3178](../../data/documents/t-775c09a55b8f954f52cb3178.json) · [t-7e3cd9213015c649e999c976](../../data/documents/t-7e3cd9213015c649e999c976.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4662,7 +4662,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-0464e4566fcba3896abfcd30](../../data/edited_transcripts/r-0464e4566fcba3896abfcd30.json) · [t-519dca2752aae38f776410eb](../../data/transcripts/t-519dca2752aae38f776410eb.json) · [t-f1e58c03b8aa90402aaa0afe](../../data/transcripts/t-f1e58c03b8aa90402aaa0afe.json)
+[r-0464e4566fcba3896abfcd30](../../data/documents/r-0464e4566fcba3896abfcd30.json) · [t-519dca2752aae38f776410eb](../../data/documents/t-519dca2752aae38f776410eb.json) · [t-f1e58c03b8aa90402aaa0afe](../../data/documents/t-f1e58c03b8aa90402aaa0afe.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4684,7 +4684,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-78434a22a0d382be019fcd7c](../../data/edited_transcripts/r-78434a22a0d382be019fcd7c.json) · [t-13c980deac2224081d981a88](../../data/transcripts/t-13c980deac2224081d981a88.json) · [t-8666c4eaac06b424c5bafba2](../../data/transcripts/t-8666c4eaac06b424c5bafba2.json)
+[r-78434a22a0d382be019fcd7c](../../data/documents/r-78434a22a0d382be019fcd7c.json) · [t-13c980deac2224081d981a88](../../data/documents/t-13c980deac2224081d981a88.json) · [t-8666c4eaac06b424c5bafba2](../../data/documents/t-8666c4eaac06b424c5bafba2.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4706,7 +4706,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-2eea49578dd7868a42dde26f](../../data/edited_transcripts/r-2eea49578dd7868a42dde26f.json) · [t-66f116b1ecead92e5cfacaaa](../../data/transcripts/t-66f116b1ecead92e5cfacaaa.json) · [t-cbc0fa51e3a028921598d4ff](../../data/transcripts/t-cbc0fa51e3a028921598d4ff.json)
+[r-2eea49578dd7868a42dde26f](../../data/documents/r-2eea49578dd7868a42dde26f.json) · [t-66f116b1ecead92e5cfacaaa](../../data/documents/t-66f116b1ecead92e5cfacaaa.json) · [t-cbc0fa51e3a028921598d4ff](../../data/documents/t-cbc0fa51e3a028921598d4ff.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4729,7 +4729,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-efb6b8a89f312178f6d6e185](../../data/edited_transcripts/r-efb6b8a89f312178f6d6e185.json) · [t-786a08cd9939888972f94638](../../data/transcripts/t-786a08cd9939888972f94638.json) · [t-cc5aa77216cf80fdbd6f1a98](../../data/transcripts/t-cc5aa77216cf80fdbd6f1a98.json)
+[r-efb6b8a89f312178f6d6e185](../../data/documents/r-efb6b8a89f312178f6d6e185.json) · [t-786a08cd9939888972f94638](../../data/documents/t-786a08cd9939888972f94638.json) · [t-cc5aa77216cf80fdbd6f1a98](../../data/documents/t-cc5aa77216cf80fdbd6f1a98.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4752,7 +4752,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-355d8dc940b27b6538b77ad0](../../data/edited_transcripts/r-355d8dc940b27b6538b77ad0.json) · [t-caf318a6926f82e057d4130a](../../data/transcripts/t-caf318a6926f82e057d4130a.json) · [t-ffdd72b6318fbd54ea9cb63b](../../data/transcripts/t-ffdd72b6318fbd54ea9cb63b.json)
+[r-355d8dc940b27b6538b77ad0](../../data/documents/r-355d8dc940b27b6538b77ad0.json) · [t-caf318a6926f82e057d4130a](../../data/documents/t-caf318a6926f82e057d4130a.json) · [t-ffdd72b6318fbd54ea9cb63b](../../data/documents/t-ffdd72b6318fbd54ea9cb63b.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4775,7 +4775,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-43dbcd196f283993ac49bc9e](../../data/edited_transcripts/r-43dbcd196f283993ac49bc9e.json) · [t-7fff314ff1f5841f7032b995](../../data/transcripts/t-7fff314ff1f5841f7032b995.json) · [t-8ffc80f6e41cc968dfeb133e](../../data/transcripts/t-8ffc80f6e41cc968dfeb133e.json)
+[r-43dbcd196f283993ac49bc9e](../../data/documents/r-43dbcd196f283993ac49bc9e.json) · [t-7fff314ff1f5841f7032b995](../../data/documents/t-7fff314ff1f5841f7032b995.json) · [t-8ffc80f6e41cc968dfeb133e](../../data/documents/t-8ffc80f6e41cc968dfeb133e.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4798,7 +4798,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-eaaf9be18fdd024fa7b9a813](../../data/edited_transcripts/r-eaaf9be18fdd024fa7b9a813.json) · [t-4a4fa7320b94883af8fe1fcd](../../data/transcripts/t-4a4fa7320b94883af8fe1fcd.json)
+[r-eaaf9be18fdd024fa7b9a813](../../data/documents/r-eaaf9be18fdd024fa7b9a813.json) · [t-4a4fa7320b94883af8fe1fcd](../../data/documents/t-4a4fa7320b94883af8fe1fcd.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4820,7 +4820,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-1e3ec10a03a463d49c036f76](../../data/edited_transcripts/r-1e3ec10a03a463d49c036f76.json) · [t-bc8b89e21ff92823c7f424e2](../../data/transcripts/t-bc8b89e21ff92823c7f424e2.json) · [t-c8bd0bc3648b3cf0269d1019](../../data/transcripts/t-c8bd0bc3648b3cf0269d1019.json)
+[r-1e3ec10a03a463d49c036f76](../../data/documents/r-1e3ec10a03a463d49c036f76.json) · [t-bc8b89e21ff92823c7f424e2](../../data/documents/t-bc8b89e21ff92823c7f424e2.json) · [t-c8bd0bc3648b3cf0269d1019](../../data/documents/t-c8bd0bc3648b3cf0269d1019.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4842,7 +4842,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-0fe59d43815ad34785cf8f73](../../data/edited_transcripts/r-0fe59d43815ad34785cf8f73.json) · [t-10c1ca46bcac1de741b2a2dd](../../data/transcripts/t-10c1ca46bcac1de741b2a2dd.json) · [t-90caa0558aee955a40e0d3e1](../../data/transcripts/t-90caa0558aee955a40e0d3e1.json)
+[r-0fe59d43815ad34785cf8f73](../../data/documents/r-0fe59d43815ad34785cf8f73.json) · [t-10c1ca46bcac1de741b2a2dd](../../data/documents/t-10c1ca46bcac1de741b2a2dd.json) · [t-90caa0558aee955a40e0d3e1](../../data/documents/t-90caa0558aee955a40e0d3e1.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4864,7 +4864,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-5c9a6dd6f356dc86987a403c](../../data/edited_transcripts/r-5c9a6dd6f356dc86987a403c.json) · [t-01d40cb51b9435143813ceae](../../data/transcripts/t-01d40cb51b9435143813ceae.json) · [t-521bc7c7b8330b7b9e3bd527](../../data/transcripts/t-521bc7c7b8330b7b9e3bd527.json)
+[r-5c9a6dd6f356dc86987a403c](../../data/documents/r-5c9a6dd6f356dc86987a403c.json) · [t-01d40cb51b9435143813ceae](../../data/documents/t-01d40cb51b9435143813ceae.json) · [t-521bc7c7b8330b7b9e3bd527](../../data/documents/t-521bc7c7b8330b7b9e3bd527.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4886,7 +4886,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-62ccb05ab568b1cf59c539db](../../data/edited_transcripts/r-62ccb05ab568b1cf59c539db.json) · [t-0b36524aae8c1fa7b8299d7b](../../data/transcripts/t-0b36524aae8c1fa7b8299d7b.json) · [t-25ff56f25552eda722c91791](../../data/transcripts/t-25ff56f25552eda722c91791.json)
+[r-62ccb05ab568b1cf59c539db](../../data/documents/r-62ccb05ab568b1cf59c539db.json) · [t-0b36524aae8c1fa7b8299d7b](../../data/documents/t-0b36524aae8c1fa7b8299d7b.json) · [t-25ff56f25552eda722c91791](../../data/documents/t-25ff56f25552eda722c91791.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4909,7 +4909,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-c9365631e843e1a0c13d7b85](../../data/edited_transcripts/r-c9365631e843e1a0c13d7b85.json) · [t-1a408bc81f13c34963fda60a](../../data/transcripts/t-1a408bc81f13c34963fda60a.json) · [t-218a33d0788e1e75f5b4f64f](../../data/transcripts/t-218a33d0788e1e75f5b4f64f.json)
+[r-c9365631e843e1a0c13d7b85](../../data/documents/r-c9365631e843e1a0c13d7b85.json) · [t-1a408bc81f13c34963fda60a](../../data/documents/t-1a408bc81f13c34963fda60a.json) · [t-218a33d0788e1e75f5b4f64f](../../data/documents/t-218a33d0788e1e75f5b4f64f.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4931,7 +4931,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-abab999b082ddfa5acceee56](../../data/edited_transcripts/r-abab999b082ddfa5acceee56.json) · [t-bfbd1886ac544f8d2b8a6f6f](../../data/transcripts/t-bfbd1886ac544f8d2b8a6f6f.json)
+[r-abab999b082ddfa5acceee56](../../data/documents/r-abab999b082ddfa5acceee56.json) · [t-bfbd1886ac544f8d2b8a6f6f](../../data/documents/t-bfbd1886ac544f8d2b8a6f6f.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4953,7 +4953,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-1043d70d3521de92a3dfdecb](../../data/edited_transcripts/r-1043d70d3521de92a3dfdecb.json) · [t-ad93649e894413e2c6701c18](../../data/transcripts/t-ad93649e894413e2c6701c18.json) · [t-ec044c838be6e2d37e1a53a2](../../data/transcripts/t-ec044c838be6e2d37e1a53a2.json)
+[r-1043d70d3521de92a3dfdecb](../../data/documents/r-1043d70d3521de92a3dfdecb.json) · [t-ad93649e894413e2c6701c18](../../data/documents/t-ad93649e894413e2c6701c18.json) · [t-ec044c838be6e2d37e1a53a2](../../data/documents/t-ec044c838be6e2d37e1a53a2.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4975,7 +4975,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-1c5e88b35a264e18dc0b5197](../../data/edited_transcripts/r-1c5e88b35a264e18dc0b5197.json) · [t-20176af250f7d30373206c19](../../data/transcripts/t-20176af250f7d30373206c19.json) · [t-83403d0c0903315239e7f641](../../data/transcripts/t-83403d0c0903315239e7f641.json)
+[r-1c5e88b35a264e18dc0b5197](../../data/documents/r-1c5e88b35a264e18dc0b5197.json) · [t-20176af250f7d30373206c19](../../data/documents/t-20176af250f7d30373206c19.json) · [t-83403d0c0903315239e7f641](../../data/documents/t-83403d0c0903315239e7f641.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -4998,7 +4998,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-e6fda98e9d4a73ef2218d0c1](../../data/edited_transcripts/r-e6fda98e9d4a73ef2218d0c1.json) · [t-0c112cf4b8e540e9a365b8db](../../data/transcripts/t-0c112cf4b8e540e9a365b8db.json) · [t-5c5dd7a7311ce482634ce8dc](../../data/transcripts/t-5c5dd7a7311ce482634ce8dc.json)
+[r-e6fda98e9d4a73ef2218d0c1](../../data/documents/r-e6fda98e9d4a73ef2218d0c1.json) · [t-0c112cf4b8e540e9a365b8db](../../data/documents/t-0c112cf4b8e540e9a365b8db.json) · [t-5c5dd7a7311ce482634ce8dc](../../data/documents/t-5c5dd7a7311ce482634ce8dc.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5021,7 +5021,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-36d2a45175f1d5e0f2313be4](../../data/edited_transcripts/r-36d2a45175f1d5e0f2313be4.json) · [t-40630a487d27ec8f44a04993](../../data/transcripts/t-40630a487d27ec8f44a04993.json) · [t-cabd86f2f7ce628cc548ce1c](../../data/transcripts/t-cabd86f2f7ce628cc548ce1c.json) · [r-f60b5f4ad0c7a25a959894e4](../../data/edited_transcripts/r-f60b5f4ad0c7a25a959894e4.json) · [t-8695a280c11201626dd6d859](../../data/transcripts/t-8695a280c11201626dd6d859.json) · [t-c1c0a728497af675376e0c0c](../../data/transcripts/t-c1c0a728497af675376e0c0c.json)
+[r-36d2a45175f1d5e0f2313be4](../../data/documents/r-36d2a45175f1d5e0f2313be4.json) · [t-40630a487d27ec8f44a04993](../../data/documents/t-40630a487d27ec8f44a04993.json) · [t-cabd86f2f7ce628cc548ce1c](../../data/documents/t-cabd86f2f7ce628cc548ce1c.json) · [r-f60b5f4ad0c7a25a959894e4](../../data/documents/r-f60b5f4ad0c7a25a959894e4.json) · [t-8695a280c11201626dd6d859](../../data/documents/t-8695a280c11201626dd6d859.json) · [t-c1c0a728497af675376e0c0c](../../data/documents/t-c1c0a728497af675376e0c0c.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5029,7 +5029,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **同音频**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-fc165f7ad021412d4f29ad98](../../data/edited_transcripts/r-fc165f7ad021412d4f29ad98.json) · [t-29688f4d7243e3485f793903](../../data/transcripts/t-29688f4d7243e3485f793903.json) · [t-612432631f02185e1265d612](../../data/transcripts/t-612432631f02185e1265d612.json)
+[r-fc165f7ad021412d4f29ad98](../../data/documents/r-fc165f7ad021412d4f29ad98.json) · [t-29688f4d7243e3485f793903](../../data/documents/t-29688f4d7243e3485f793903.json) · [t-612432631f02185e1265d612](../../data/documents/t-612432631f02185e1265d612.json)
 
 **章节补充**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5043,7 +5043,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-053c834f32a893ab2bc03c8a](../../data/edited_transcripts/r-053c834f32a893ab2bc03c8a.json) · [t-e8f3b4b2d3b3bffba750c285](../../data/transcripts/t-e8f3b4b2d3b3bffba750c285.json)
+[r-053c834f32a893ab2bc03c8a](../../data/documents/r-053c834f32a893ab2bc03c8a.json) · [t-e8f3b4b2d3b3bffba750c285](../../data/documents/t-e8f3b4b2d3b3bffba750c285.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5066,7 +5066,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-65d942da11dbccb4d4243814](../../data/edited_transcripts/r-65d942da11dbccb4d4243814.json) · [t-aa77530ec492f0732668eba9](../../data/transcripts/t-aa77530ec492f0732668eba9.json) · [t-fe3b2423ecd1775260475d8d](../../data/transcripts/t-fe3b2423ecd1775260475d8d.json)
+[r-65d942da11dbccb4d4243814](../../data/documents/r-65d942da11dbccb4d4243814.json) · [t-aa77530ec492f0732668eba9](../../data/documents/t-aa77530ec492f0732668eba9.json) · [t-fe3b2423ecd1775260475d8d](../../data/documents/t-fe3b2423ecd1775260475d8d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5089,7 +5089,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-ad51f5968f26a5c4f6d88d12](../../data/edited_transcripts/r-ad51f5968f26a5c4f6d88d12.json) · [t-6e16da4e8e467ca4144c5d79](../../data/transcripts/t-6e16da4e8e467ca4144c5d79.json) · [t-c407be074a6fab92d964a375](../../data/transcripts/t-c407be074a6fab92d964a375.json)
+[r-ad51f5968f26a5c4f6d88d12](../../data/documents/r-ad51f5968f26a5c4f6d88d12.json) · [t-6e16da4e8e467ca4144c5d79](../../data/documents/t-6e16da4e8e467ca4144c5d79.json) · [t-c407be074a6fab92d964a375](../../data/documents/t-c407be074a6fab92d964a375.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5111,7 +5111,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-b382091c81cad2432321c6f7](../../data/edited_transcripts/r-b382091c81cad2432321c6f7.json) · [t-48f37ed95dd9bc2bfdd61649](../../data/transcripts/t-48f37ed95dd9bc2bfdd61649.json) · [t-655145a713a8642d1d22e6c8](../../data/transcripts/t-655145a713a8642d1d22e6c8.json)
+[r-b382091c81cad2432321c6f7](../../data/documents/r-b382091c81cad2432321c6f7.json) · [t-48f37ed95dd9bc2bfdd61649](../../data/documents/t-48f37ed95dd9bc2bfdd61649.json) · [t-655145a713a8642d1d22e6c8](../../data/documents/t-655145a713a8642d1d22e6c8.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5134,7 +5134,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-73d6435b089fbd3926a7129c](../../data/edited_transcripts/r-73d6435b089fbd3926a7129c.json) · [t-bc9e0d6d42ec7ad0f713dfd8](../../data/transcripts/t-bc9e0d6d42ec7ad0f713dfd8.json) · [t-bda2d04334b57746c285a321](../../data/transcripts/t-bda2d04334b57746c285a321.json) · [r-fd90ce2796b3509a333e6adb](../../data/edited_transcripts/r-fd90ce2796b3509a333e6adb.json) · [t-64dc07fdc4183d46cb87cda5](../../data/transcripts/t-64dc07fdc4183d46cb87cda5.json) · [t-e89f97abb9a3d408a2d0f6c1](../../data/transcripts/t-e89f97abb9a3d408a2d0f6c1.json)
+[r-73d6435b089fbd3926a7129c](../../data/documents/r-73d6435b089fbd3926a7129c.json) · [t-bc9e0d6d42ec7ad0f713dfd8](../../data/documents/t-bc9e0d6d42ec7ad0f713dfd8.json) · [t-bda2d04334b57746c285a321](../../data/documents/t-bda2d04334b57746c285a321.json) · [r-fd90ce2796b3509a333e6adb](../../data/documents/r-fd90ce2796b3509a333e6adb.json) · [t-64dc07fdc4183d46cb87cda5](../../data/documents/t-64dc07fdc4183d46cb87cda5.json) · [t-e89f97abb9a3d408a2d0f6c1](../../data/documents/t-e89f97abb9a3d408a2d0f6c1.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5156,7 +5156,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-a48c0a75b0400a2d698024b0](../../data/edited_transcripts/r-a48c0a75b0400a2d698024b0.json) · [t-050906bebf7430b5d642e5c4](../../data/transcripts/t-050906bebf7430b5d642e5c4.json) · [t-cbaff693769f322376e53e02](../../data/transcripts/t-cbaff693769f322376e53e02.json)
+[r-a48c0a75b0400a2d698024b0](../../data/documents/r-a48c0a75b0400a2d698024b0.json) · [t-050906bebf7430b5d642e5c4](../../data/documents/t-050906bebf7430b5d642e5c4.json) · [t-cbaff693769f322376e53e02](../../data/documents/t-cbaff693769f322376e53e02.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5179,7 +5179,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-69fe1c87d9a64896b8f4920f](../../data/edited_transcripts/r-69fe1c87d9a64896b8f4920f.json) · [t-8ea81b61381ce887e60914bb](../../data/transcripts/t-8ea81b61381ce887e60914bb.json) · [t-e5735ed5e00eb9b42e5d8e47](../../data/transcripts/t-e5735ed5e00eb9b42e5d8e47.json)
+[r-69fe1c87d9a64896b8f4920f](../../data/documents/r-69fe1c87d9a64896b8f4920f.json) · [t-8ea81b61381ce887e60914bb](../../data/documents/t-8ea81b61381ce887e60914bb.json) · [t-e5735ed5e00eb9b42e5d8e47](../../data/documents/t-e5735ed5e00eb9b42e5d8e47.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5201,7 +5201,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-3b823212be0b446b6dfe96d2](../../data/edited_transcripts/r-3b823212be0b446b6dfe96d2.json) · [t-2dfba387c190780875d4b701](../../data/transcripts/t-2dfba387c190780875d4b701.json) · [t-db4cc7760cc6d091fbc3eb4d](../../data/transcripts/t-db4cc7760cc6d091fbc3eb4d.json)
+[r-3b823212be0b446b6dfe96d2](../../data/documents/r-3b823212be0b446b6dfe96d2.json) · [t-2dfba387c190780875d4b701](../../data/documents/t-2dfba387c190780875d4b701.json) · [t-db4cc7760cc6d091fbc3eb4d](../../data/documents/t-db4cc7760cc6d091fbc3eb4d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5223,7 +5223,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-2b51eeeee4b9bf4ba9e65098](../../data/edited_transcripts/r-2b51eeeee4b9bf4ba9e65098.json) · [t-303b903cbc3465a9aa54d78e](../../data/transcripts/t-303b903cbc3465a9aa54d78e.json) · [t-d2fe1a25f4f50f75dc91f998](../../data/transcripts/t-d2fe1a25f4f50f75dc91f998.json)
+[r-2b51eeeee4b9bf4ba9e65098](../../data/documents/r-2b51eeeee4b9bf4ba9e65098.json) · [t-303b903cbc3465a9aa54d78e](../../data/documents/t-303b903cbc3465a9aa54d78e.json) · [t-d2fe1a25f4f50f75dc91f998](../../data/documents/t-d2fe1a25f4f50f75dc91f998.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5245,7 +5245,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-1f571bc5cad7b6cf4254f2bd](../../data/edited_transcripts/r-1f571bc5cad7b6cf4254f2bd.json) · [t-2c38933fcc8f77501d77c045](../../data/transcripts/t-2c38933fcc8f77501d77c045.json) · [t-ef61e748af4545fbb6e6cfe2](../../data/transcripts/t-ef61e748af4545fbb6e6cfe2.json)
+[r-1f571bc5cad7b6cf4254f2bd](../../data/documents/r-1f571bc5cad7b6cf4254f2bd.json) · [t-2c38933fcc8f77501d77c045](../../data/documents/t-2c38933fcc8f77501d77c045.json) · [t-ef61e748af4545fbb6e6cfe2](../../data/documents/t-ef61e748af4545fbb6e6cfe2.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5268,7 +5268,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-182ba9870c7d803c493a0958](../../data/edited_transcripts/r-182ba9870c7d803c493a0958.json) · [t-426ef5ab593290d2fc805623](../../data/transcripts/t-426ef5ab593290d2fc805623.json) · [t-85c7f6897535ea97818f4ffd](../../data/transcripts/t-85c7f6897535ea97818f4ffd.json)
+[r-182ba9870c7d803c493a0958](../../data/documents/r-182ba9870c7d803c493a0958.json) · [t-426ef5ab593290d2fc805623](../../data/documents/t-426ef5ab593290d2fc805623.json) · [t-85c7f6897535ea97818f4ffd](../../data/documents/t-85c7f6897535ea97818f4ffd.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5290,7 +5290,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-fd3bd8386bc58bc0686f8ec9](../../data/edited_transcripts/r-fd3bd8386bc58bc0686f8ec9.json) · [t-0ba3568a1f1b47845e672e2d](../../data/transcripts/t-0ba3568a1f1b47845e672e2d.json) · [t-f6c7a5f9968f477e48f718cf](../../data/transcripts/t-f6c7a5f9968f477e48f718cf.json)
+[r-fd3bd8386bc58bc0686f8ec9](../../data/documents/r-fd3bd8386bc58bc0686f8ec9.json) · [t-0ba3568a1f1b47845e672e2d](../../data/documents/t-0ba3568a1f1b47845e672e2d.json) · [t-f6c7a5f9968f477e48f718cf](../../data/documents/t-f6c7a5f9968f477e48f718cf.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5313,7 +5313,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-fd2647b88b284c32940024f0](../../data/edited_transcripts/r-fd2647b88b284c32940024f0.json) · [t-09e406f7d77d8842fe620bb0](../../data/transcripts/t-09e406f7d77d8842fe620bb0.json) · [t-a6c0df0eefd8175dd80fb741](../../data/transcripts/t-a6c0df0eefd8175dd80fb741.json)
+[r-fd2647b88b284c32940024f0](../../data/documents/r-fd2647b88b284c32940024f0.json) · [t-09e406f7d77d8842fe620bb0](../../data/documents/t-09e406f7d77d8842fe620bb0.json) · [t-a6c0df0eefd8175dd80fb741](../../data/documents/t-a6c0df0eefd8175dd80fb741.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5335,7 +5335,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-5b7ffa850be60ee0acd864d2](../../data/edited_transcripts/r-5b7ffa850be60ee0acd864d2.json) · [t-62042fc62d1e6e0da6b316f5](../../data/transcripts/t-62042fc62d1e6e0da6b316f5.json) · [t-d63a6f569d6d4c13233dc89c](../../data/transcripts/t-d63a6f569d6d4c13233dc89c.json)
+[r-5b7ffa850be60ee0acd864d2](../../data/documents/r-5b7ffa850be60ee0acd864d2.json) · [t-62042fc62d1e6e0da6b316f5](../../data/documents/t-62042fc62d1e6e0da6b316f5.json) · [t-d63a6f569d6d4c13233dc89c](../../data/documents/t-d63a6f569d6d4c13233dc89c.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5358,7 +5358,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-4a60225471d570fd24d8e324](../../data/edited_transcripts/r-4a60225471d570fd24d8e324.json) · [t-5bdb402c6398a343e53e565f](../../data/transcripts/t-5bdb402c6398a343e53e565f.json) · [t-612c990e80015b22efa46cb2](../../data/transcripts/t-612c990e80015b22efa46cb2.json)
+[r-4a60225471d570fd24d8e324](../../data/documents/r-4a60225471d570fd24d8e324.json) · [t-5bdb402c6398a343e53e565f](../../data/documents/t-5bdb402c6398a343e53e565f.json) · [t-612c990e80015b22efa46cb2](../../data/documents/t-612c990e80015b22efa46cb2.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5381,7 +5381,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-d059ef0225530e11e4de9a38](../../data/edited_transcripts/r-d059ef0225530e11e4de9a38.json) · [t-cce6e612dfbf8cc084ab43c9](../../data/transcripts/t-cce6e612dfbf8cc084ab43c9.json) · [t-f110f70d70c14a8ae57447d0](../../data/transcripts/t-f110f70d70c14a8ae57447d0.json)
+[r-d059ef0225530e11e4de9a38](../../data/documents/r-d059ef0225530e11e4de9a38.json) · [t-cce6e612dfbf8cc084ab43c9](../../data/documents/t-cce6e612dfbf8cc084ab43c9.json) · [t-f110f70d70c14a8ae57447d0](../../data/documents/t-f110f70d70c14a8ae57447d0.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5404,7 +5404,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-25cee8730d0a256e48ffafa4](../../data/edited_transcripts/r-25cee8730d0a256e48ffafa4.json) · [t-7757349683de9fe110fd63f0](../../data/transcripts/t-7757349683de9fe110fd63f0.json) · [t-ee16fd5d7ca6c50127015be6](../../data/transcripts/t-ee16fd5d7ca6c50127015be6.json)
+[r-25cee8730d0a256e48ffafa4](../../data/documents/r-25cee8730d0a256e48ffafa4.json) · [t-7757349683de9fe110fd63f0](../../data/documents/t-7757349683de9fe110fd63f0.json) · [t-ee16fd5d7ca6c50127015be6](../../data/documents/t-ee16fd5d7ca6c50127015be6.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5427,7 +5427,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-2a811573d405a5e782143d56](../../data/edited_transcripts/r-2a811573d405a5e782143d56.json) · [t-062a2ef739fe9095352bf177](../../data/transcripts/t-062a2ef739fe9095352bf177.json) · [t-b418e6dc74e78f936044cdcf](../../data/transcripts/t-b418e6dc74e78f936044cdcf.json)
+[r-2a811573d405a5e782143d56](../../data/documents/r-2a811573d405a5e782143d56.json) · [t-062a2ef739fe9095352bf177](../../data/documents/t-062a2ef739fe9095352bf177.json) · [t-b418e6dc74e78f936044cdcf](../../data/documents/t-b418e6dc74e78f936044cdcf.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5449,7 +5449,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-f55cb08dc2664468983e458a](../../data/edited_transcripts/r-f55cb08dc2664468983e458a.json) · [t-7c4d2b287a43cafd06b5c31d](../../data/transcripts/t-7c4d2b287a43cafd06b5c31d.json) · [t-d197afe3583309c66d934686](../../data/transcripts/t-d197afe3583309c66d934686.json)
+[r-f55cb08dc2664468983e458a](../../data/documents/r-f55cb08dc2664468983e458a.json) · [t-7c4d2b287a43cafd06b5c31d](../../data/documents/t-7c4d2b287a43cafd06b5c31d.json) · [t-d197afe3583309c66d934686](../../data/documents/t-d197afe3583309c66d934686.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5472,7 +5472,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-a0ce6f2c1b714005f77a5faf](../../data/edited_transcripts/r-a0ce6f2c1b714005f77a5faf.json) · [t-124998329da64ea7a1c543f9](../../data/transcripts/t-124998329da64ea7a1c543f9.json) · [t-d226103963251f166377068e](../../data/transcripts/t-d226103963251f166377068e.json)
+[r-a0ce6f2c1b714005f77a5faf](../../data/documents/r-a0ce6f2c1b714005f77a5faf.json) · [t-124998329da64ea7a1c543f9](../../data/documents/t-124998329da64ea7a1c543f9.json) · [t-d226103963251f166377068e](../../data/documents/t-d226103963251f166377068e.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5495,7 +5495,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-68c9dce2b43e6c65048d9a40](../../data/edited_transcripts/r-68c9dce2b43e6c65048d9a40.json) · [t-081564e3e985adf308541862](../../data/transcripts/t-081564e3e985adf308541862.json) · [t-9d73d04a1eabc3249ea06f6b](../../data/transcripts/t-9d73d04a1eabc3249ea06f6b.json)
+[r-68c9dce2b43e6c65048d9a40](../../data/documents/r-68c9dce2b43e6c65048d9a40.json) · [t-081564e3e985adf308541862](../../data/documents/t-081564e3e985adf308541862.json) · [t-9d73d04a1eabc3249ea06f6b](../../data/documents/t-9d73d04a1eabc3249ea06f6b.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5518,7 +5518,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-a833ad5a9df1534d98038c3c](../../data/edited_transcripts/r-a833ad5a9df1534d98038c3c.json) · [t-1cfa47bd8cd5911a281861e9](../../data/transcripts/t-1cfa47bd8cd5911a281861e9.json) · [t-eb496f29b9e8829e9fe528a2](../../data/transcripts/t-eb496f29b9e8829e9fe528a2.json)
+[r-a833ad5a9df1534d98038c3c](../../data/documents/r-a833ad5a9df1534d98038c3c.json) · [t-1cfa47bd8cd5911a281861e9](../../data/documents/t-1cfa47bd8cd5911a281861e9.json) · [t-eb496f29b9e8829e9fe528a2](../../data/documents/t-eb496f29b9e8829e9fe528a2.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5541,7 +5541,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-4b023e467a96e75cfe76bea5](../../data/edited_transcripts/r-4b023e467a96e75cfe76bea5.json) · [t-53ba43dcd3185a0c5f0183ad](../../data/transcripts/t-53ba43dcd3185a0c5f0183ad.json) · [t-7ceb862199075fe09e853628](../../data/transcripts/t-7ceb862199075fe09e853628.json)
+[r-4b023e467a96e75cfe76bea5](../../data/documents/r-4b023e467a96e75cfe76bea5.json) · [t-53ba43dcd3185a0c5f0183ad](../../data/documents/t-53ba43dcd3185a0c5f0183ad.json) · [t-7ceb862199075fe09e853628](../../data/documents/t-7ceb862199075fe09e853628.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5564,7 +5564,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-457a78b19bb8db5bf4912363](../../data/edited_transcripts/r-457a78b19bb8db5bf4912363.json) · [t-3863c209b5e5b15bf888fcd2](../../data/transcripts/t-3863c209b5e5b15bf888fcd2.json) · [t-d25c5a1fdb8e1cf610adc6f0](../../data/transcripts/t-d25c5a1fdb8e1cf610adc6f0.json)
+[r-457a78b19bb8db5bf4912363](../../data/documents/r-457a78b19bb8db5bf4912363.json) · [t-3863c209b5e5b15bf888fcd2](../../data/documents/t-3863c209b5e5b15bf888fcd2.json) · [t-d25c5a1fdb8e1cf610adc6f0](../../data/documents/t-d25c5a1fdb8e1cf610adc6f0.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5586,7 +5586,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-f2ead95ac95bed21c7b76040](../../data/edited_transcripts/r-f2ead95ac95bed21c7b76040.json) · [t-525b4fd90e8d6aca6b1e8855](../../data/transcripts/t-525b4fd90e8d6aca6b1e8855.json) · [t-d23e66378501d50e714fcd15](../../data/transcripts/t-d23e66378501d50e714fcd15.json)
+[r-f2ead95ac95bed21c7b76040](../../data/documents/r-f2ead95ac95bed21c7b76040.json) · [t-525b4fd90e8d6aca6b1e8855](../../data/documents/t-525b4fd90e8d6aca6b1e8855.json) · [t-d23e66378501d50e714fcd15](../../data/documents/t-d23e66378501d50e714fcd15.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5608,7 +5608,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-53d86fc5936dd8b937f5ca5e](../../data/edited_transcripts/r-53d86fc5936dd8b937f5ca5e.json) · [t-8401280e48812dc4c46f66b6](../../data/transcripts/t-8401280e48812dc4c46f66b6.json) · [t-936608bd4ee8afca4d1dfa44](../../data/transcripts/t-936608bd4ee8afca4d1dfa44.json)
+[r-53d86fc5936dd8b937f5ca5e](../../data/documents/r-53d86fc5936dd8b937f5ca5e.json) · [t-8401280e48812dc4c46f66b6](../../data/documents/t-8401280e48812dc4c46f66b6.json) · [t-936608bd4ee8afca4d1dfa44](../../data/documents/t-936608bd4ee8afca4d1dfa44.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5630,7 +5630,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-07e698208d0b5ee97bf505f8](../../data/edited_transcripts/r-07e698208d0b5ee97bf505f8.json) · [t-b88852390c185e90a605bf0a](../../data/transcripts/t-b88852390c185e90a605bf0a.json) · [t-d678a5a498901901c5ab2076](../../data/transcripts/t-d678a5a498901901c5ab2076.json)
+[r-07e698208d0b5ee97bf505f8](../../data/documents/r-07e698208d0b5ee97bf505f8.json) · [t-b88852390c185e90a605bf0a](../../data/documents/t-b88852390c185e90a605bf0a.json) · [t-d678a5a498901901c5ab2076](../../data/documents/t-d678a5a498901901c5ab2076.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5652,7 +5652,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-dba3fc6c3cd9307214f9a1e2](../../data/edited_transcripts/r-dba3fc6c3cd9307214f9a1e2.json) · [t-67950eb47f57f1fe53807065](../../data/transcripts/t-67950eb47f57f1fe53807065.json) · [t-8ce1b88e7e1ec434d8b6d816](../../data/transcripts/t-8ce1b88e7e1ec434d8b6d816.json)
+[r-dba3fc6c3cd9307214f9a1e2](../../data/documents/r-dba3fc6c3cd9307214f9a1e2.json) · [t-67950eb47f57f1fe53807065](../../data/documents/t-67950eb47f57f1fe53807065.json) · [t-8ce1b88e7e1ec434d8b6d816](../../data/documents/t-8ce1b88e7e1ec434d8b6d816.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5675,7 +5675,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-218dce7c8f5a14a818b9c4c8](../../data/edited_transcripts/r-218dce7c8f5a14a818b9c4c8.json) · [t-1f660610568b1daccf13126b](../../data/transcripts/t-1f660610568b1daccf13126b.json) · [t-97a9209d4e182c8249dfb35a](../../data/transcripts/t-97a9209d4e182c8249dfb35a.json)
+[r-218dce7c8f5a14a818b9c4c8](../../data/documents/r-218dce7c8f5a14a818b9c4c8.json) · [t-1f660610568b1daccf13126b](../../data/documents/t-1f660610568b1daccf13126b.json) · [t-97a9209d4e182c8249dfb35a](../../data/documents/t-97a9209d4e182c8249dfb35a.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5698,7 +5698,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-d27677ce1fccbb803a9d8c11](../../data/edited_transcripts/r-d27677ce1fccbb803a9d8c11.json) · [t-9a5c27c80e7ff4df0745fd83](../../data/transcripts/t-9a5c27c80e7ff4df0745fd83.json) · [t-c29bfac3df27abca83ba50bb](../../data/transcripts/t-c29bfac3df27abca83ba50bb.json)
+[r-d27677ce1fccbb803a9d8c11](../../data/documents/r-d27677ce1fccbb803a9d8c11.json) · [t-9a5c27c80e7ff4df0745fd83](../../data/documents/t-9a5c27c80e7ff4df0745fd83.json) · [t-c29bfac3df27abca83ba50bb](../../data/documents/t-c29bfac3df27abca83ba50bb.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5720,7 +5720,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-5cece29103ca9e3acafea9bc](../../data/edited_transcripts/r-5cece29103ca9e3acafea9bc.json) · [t-0c89761eb8b855219d66cc02](../../data/transcripts/t-0c89761eb8b855219d66cc02.json) · [t-9823beab6ba988f5b6936bc9](../../data/transcripts/t-9823beab6ba988f5b6936bc9.json)
+[r-5cece29103ca9e3acafea9bc](../../data/documents/r-5cece29103ca9e3acafea9bc.json) · [t-0c89761eb8b855219d66cc02](../../data/documents/t-0c89761eb8b855219d66cc02.json) · [t-9823beab6ba988f5b6936bc9](../../data/documents/t-9823beab6ba988f5b6936bc9.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5743,7 +5743,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-a48f8c01879c32a73b675e3e](../../data/edited_transcripts/r-a48f8c01879c32a73b675e3e.json) · [t-089cc1db40dba4848ed21c03](../../data/transcripts/t-089cc1db40dba4848ed21c03.json) · [t-4581566a956719fa7f6534eb](../../data/transcripts/t-4581566a956719fa7f6534eb.json) · [r-b5650006b1b8a593dcccd847](../../data/edited_transcripts/r-b5650006b1b8a593dcccd847.json) · [t-4b141897248c2a814554d891](../../data/transcripts/t-4b141897248c2a814554d891.json) · [t-67dac80b1882df3e6ec522d6](../../data/transcripts/t-67dac80b1882df3e6ec522d6.json)
+[r-a48f8c01879c32a73b675e3e](../../data/documents/r-a48f8c01879c32a73b675e3e.json) · [t-089cc1db40dba4848ed21c03](../../data/documents/t-089cc1db40dba4848ed21c03.json) · [t-4581566a956719fa7f6534eb](../../data/documents/t-4581566a956719fa7f6534eb.json) · [r-b5650006b1b8a593dcccd847](../../data/documents/r-b5650006b1b8a593dcccd847.json) · [t-4b141897248c2a814554d891](../../data/documents/t-4b141897248c2a814554d891.json) · [t-67dac80b1882df3e6ec522d6](../../data/documents/t-67dac80b1882df3e6ec522d6.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5766,7 +5766,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-32887fec860cf6fc58eae24b](../../data/edited_transcripts/r-32887fec860cf6fc58eae24b.json) · [t-1683f5d9073705a396527280](../../data/transcripts/t-1683f5d9073705a396527280.json) · [t-9d16745b95df85ee0626568d](../../data/transcripts/t-9d16745b95df85ee0626568d.json)
+[r-32887fec860cf6fc58eae24b](../../data/documents/r-32887fec860cf6fc58eae24b.json) · [t-1683f5d9073705a396527280](../../data/documents/t-1683f5d9073705a396527280.json) · [t-9d16745b95df85ee0626568d](../../data/documents/t-9d16745b95df85ee0626568d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5788,7 +5788,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-9323a6dfd06f4a19a65ce59d](../../data/edited_transcripts/r-9323a6dfd06f4a19a65ce59d.json) · [t-0daa4756a6f2f5d4fdfaf0a5](../../data/transcripts/t-0daa4756a6f2f5d4fdfaf0a5.json) · [t-d6eff222775216ffc826309c](../../data/transcripts/t-d6eff222775216ffc826309c.json)
+[r-9323a6dfd06f4a19a65ce59d](../../data/documents/r-9323a6dfd06f4a19a65ce59d.json) · [t-0daa4756a6f2f5d4fdfaf0a5](../../data/documents/t-0daa4756a6f2f5d4fdfaf0a5.json) · [t-d6eff222775216ffc826309c](../../data/documents/t-d6eff222775216ffc826309c.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5811,7 +5811,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-c81c9c6a829bb1e13627f286](../../data/edited_transcripts/r-c81c9c6a829bb1e13627f286.json) · [t-58c856b9f83f12fc72373e93](../../data/transcripts/t-58c856b9f83f12fc72373e93.json) · [r-a10ed4b87a34a30333c54d3e](../../data/edited_transcripts/r-a10ed4b87a34a30333c54d3e.json) · [t-8d7038b22b6b7e766ea4c488](../../data/transcripts/t-8d7038b22b6b7e766ea4c488.json)
+[r-c81c9c6a829bb1e13627f286](../../data/documents/r-c81c9c6a829bb1e13627f286.json) · [t-58c856b9f83f12fc72373e93](../../data/documents/t-58c856b9f83f12fc72373e93.json) · [r-a10ed4b87a34a30333c54d3e](../../data/documents/r-a10ed4b87a34a30333c54d3e.json) · [t-8d7038b22b6b7e766ea4c488](../../data/documents/t-8d7038b22b6b7e766ea4c488.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5834,7 +5834,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-628e076958a3db9c9226a520](../../data/edited_transcripts/r-628e076958a3db9c9226a520.json) · [t-71412b0368ac8622d1b41a39](../../data/transcripts/t-71412b0368ac8622d1b41a39.json) · [t-ec472a1637b185bf4aa6604d](../../data/transcripts/t-ec472a1637b185bf4aa6604d.json)
+[r-628e076958a3db9c9226a520](../../data/documents/r-628e076958a3db9c9226a520.json) · [t-71412b0368ac8622d1b41a39](../../data/documents/t-71412b0368ac8622d1b41a39.json) · [t-ec472a1637b185bf4aa6604d](../../data/documents/t-ec472a1637b185bf4aa6604d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5857,7 +5857,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 5；整理稿 3；完成且非空非填充词候选 3；其中全文人工审核 0
 
-[r-f88de2ad2ffbe360e19a3fda](../../data/edited_transcripts/r-f88de2ad2ffbe360e19a3fda.json) · [t-2b1dad20f7e16618a8031e7b](../../data/transcripts/t-2b1dad20f7e16618a8031e7b.json) · [t-45912df56681c9dc47eed77d](../../data/transcripts/t-45912df56681c9dc47eed77d.json) · [r-c8cafae98f50217e395f37f8](../../data/edited_transcripts/r-c8cafae98f50217e395f37f8.json) · [t-3a36bb9b74f328c1f1a4217f](../../data/transcripts/t-3a36bb9b74f328c1f1a4217f.json) · [r-eccefc1b91ff2709bc0f03a3](../../data/edited_transcripts/r-eccefc1b91ff2709bc0f03a3.json) · [t-1813391107c8988e6e63cb04](../../data/transcripts/t-1813391107c8988e6e63cb04.json) · [t-acc4bd1b61f4616ab2e647db](../../data/transcripts/t-acc4bd1b61f4616ab2e647db.json)
+[r-f88de2ad2ffbe360e19a3fda](../../data/documents/r-f88de2ad2ffbe360e19a3fda.json) · [t-2b1dad20f7e16618a8031e7b](../../data/documents/t-2b1dad20f7e16618a8031e7b.json) · [t-45912df56681c9dc47eed77d](../../data/documents/t-45912df56681c9dc47eed77d.json) · [r-c8cafae98f50217e395f37f8](../../data/documents/r-c8cafae98f50217e395f37f8.json) · [t-3a36bb9b74f328c1f1a4217f](../../data/documents/t-3a36bb9b74f328c1f1a4217f.json) · [r-eccefc1b91ff2709bc0f03a3](../../data/documents/r-eccefc1b91ff2709bc0f03a3.json) · [t-1813391107c8988e6e63cb04](../../data/documents/t-1813391107c8988e6e63cb04.json) · [t-acc4bd1b61f4616ab2e647db](../../data/documents/t-acc4bd1b61f4616ab2e647db.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5879,7 +5879,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-975b1eb3816fccd3e96a7206](../../data/edited_transcripts/r-975b1eb3816fccd3e96a7206.json) · [t-252ce90777197feb835bef39](../../data/transcripts/t-252ce90777197feb835bef39.json) · [t-2cb5bea65b1dcdb9f733dc85](../../data/transcripts/t-2cb5bea65b1dcdb9f733dc85.json)
+[r-975b1eb3816fccd3e96a7206](../../data/documents/r-975b1eb3816fccd3e96a7206.json) · [t-252ce90777197feb835bef39](../../data/documents/t-252ce90777197feb835bef39.json) · [t-2cb5bea65b1dcdb9f733dc85](../../data/documents/t-2cb5bea65b1dcdb9f733dc85.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5902,7 +5902,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-fa77694af558b4fe3908ef7f](../../data/edited_transcripts/r-fa77694af558b4fe3908ef7f.json) · [t-1c5df80750fcfcca0bf6acf8](../../data/transcripts/t-1c5df80750fcfcca0bf6acf8.json)
+[r-fa77694af558b4fe3908ef7f](../../data/documents/r-fa77694af558b4fe3908ef7f.json) · [t-1c5df80750fcfcca0bf6acf8](../../data/documents/t-1c5df80750fcfcca0bf6acf8.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5924,7 +5924,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-dd815ed68931caf95ef54d74](../../data/edited_transcripts/r-dd815ed68931caf95ef54d74.json) · [t-b9771dd0bf2af62898ebff52](../../data/transcripts/t-b9771dd0bf2af62898ebff52.json) · [t-e215cd47728e87a151b10beb](../../data/transcripts/t-e215cd47728e87a151b10beb.json)
+[r-dd815ed68931caf95ef54d74](../../data/documents/r-dd815ed68931caf95ef54d74.json) · [t-b9771dd0bf2af62898ebff52](../../data/documents/t-b9771dd0bf2af62898ebff52.json) · [t-e215cd47728e87a151b10beb](../../data/documents/t-e215cd47728e87a151b10beb.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5947,7 +5947,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-f620a673f2f4a506ab2d52e9](../../data/edited_transcripts/r-f620a673f2f4a506ab2d52e9.json) · [t-2fbc19e6038875e3dd9ded73](../../data/transcripts/t-2fbc19e6038875e3dd9ded73.json) · [t-976c523b02e31982a16bfa83](../../data/transcripts/t-976c523b02e31982a16bfa83.json)
+[r-f620a673f2f4a506ab2d52e9](../../data/documents/r-f620a673f2f4a506ab2d52e9.json) · [t-2fbc19e6038875e3dd9ded73](../../data/documents/t-2fbc19e6038875e3dd9ded73.json) · [t-976c523b02e31982a16bfa83](../../data/documents/t-976c523b02e31982a16bfa83.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5970,7 +5970,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-58e908755402bfd4d58515d8](../../data/edited_transcripts/r-58e908755402bfd4d58515d8.json) · [t-454e98afff87427ed862ee4a](../../data/transcripts/t-454e98afff87427ed862ee4a.json) · [t-db3970733d412dabaa99f90f](../../data/transcripts/t-db3970733d412dabaa99f90f.json)
+[r-58e908755402bfd4d58515d8](../../data/documents/r-58e908755402bfd4d58515d8.json) · [t-454e98afff87427ed862ee4a](../../data/documents/t-454e98afff87427ed862ee4a.json) · [t-db3970733d412dabaa99f90f](../../data/documents/t-db3970733d412dabaa99f90f.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -5993,7 +5993,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-ea094902b6c355c8426346ca](../../data/edited_transcripts/r-ea094902b6c355c8426346ca.json) · [t-20163ee336137c55171f4763](../../data/transcripts/t-20163ee336137c55171f4763.json) · [t-5c1fa96e3670d59d537760bb](../../data/transcripts/t-5c1fa96e3670d59d537760bb.json)
+[r-ea094902b6c355c8426346ca](../../data/documents/r-ea094902b6c355c8426346ca.json) · [t-20163ee336137c55171f4763](../../data/documents/t-20163ee336137c55171f4763.json) · [t-5c1fa96e3670d59d537760bb](../../data/documents/t-5c1fa96e3670d59d537760bb.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6015,7 +6015,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-8a5b641b4bdfa24bfa40c50b](../../data/edited_transcripts/r-8a5b641b4bdfa24bfa40c50b.json) · [t-3675e392a0a92797c44a4040](../../data/transcripts/t-3675e392a0a92797c44a4040.json) · [t-ba7b16f7daf0be181918e312](../../data/transcripts/t-ba7b16f7daf0be181918e312.json)
+[r-8a5b641b4bdfa24bfa40c50b](../../data/documents/r-8a5b641b4bdfa24bfa40c50b.json) · [t-3675e392a0a92797c44a4040](../../data/documents/t-3675e392a0a92797c44a4040.json) · [t-ba7b16f7daf0be181918e312](../../data/documents/t-ba7b16f7daf0be181918e312.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6037,7 +6037,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-af216492d9a06d3a313f9067](../../data/edited_transcripts/r-af216492d9a06d3a313f9067.json) · [t-3ee9154a34729e5af3744377](../../data/transcripts/t-3ee9154a34729e5af3744377.json) · [t-fcad1c92a0c879c30b545de9](../../data/transcripts/t-fcad1c92a0c879c30b545de9.json)
+[r-af216492d9a06d3a313f9067](../../data/documents/r-af216492d9a06d3a313f9067.json) · [t-3ee9154a34729e5af3744377](../../data/documents/t-3ee9154a34729e5af3744377.json) · [t-fcad1c92a0c879c30b545de9](../../data/documents/t-fcad1c92a0c879c30b545de9.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6060,7 +6060,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-c31f4125670b6ec9c4ab21dd](../../data/edited_transcripts/r-c31f4125670b6ec9c4ab21dd.json) · [t-c2c3bafb2bc9cc46f51b3231](../../data/transcripts/t-c2c3bafb2bc9cc46f51b3231.json) · [t-f6357adb359efff1f2a0ed97](../../data/transcripts/t-f6357adb359efff1f2a0ed97.json)
+[r-c31f4125670b6ec9c4ab21dd](../../data/documents/r-c31f4125670b6ec9c4ab21dd.json) · [t-c2c3bafb2bc9cc46f51b3231](../../data/documents/t-c2c3bafb2bc9cc46f51b3231.json) · [t-f6357adb359efff1f2a0ed97](../../data/documents/t-f6357adb359efff1f2a0ed97.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6082,7 +6082,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-da68e93c8dfe850c17e0fff1](../../data/edited_transcripts/r-da68e93c8dfe850c17e0fff1.json) · [t-aef3a374bb37b7765da0c0dc](../../data/transcripts/t-aef3a374bb37b7765da0c0dc.json)
+[r-da68e93c8dfe850c17e0fff1](../../data/documents/r-da68e93c8dfe850c17e0fff1.json) · [t-aef3a374bb37b7765da0c0dc](../../data/documents/t-aef3a374bb37b7765da0c0dc.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6105,7 +6105,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-06fd69a0ad9871f810bb59a9](../../data/edited_transcripts/r-06fd69a0ad9871f810bb59a9.json) · [t-3328da16a82a05f085d3f7be](../../data/transcripts/t-3328da16a82a05f085d3f7be.json) · [t-b9ecc9d3dd94c3bf31a3d18d](../../data/transcripts/t-b9ecc9d3dd94c3bf31a3d18d.json) · [r-9a8c5b4b4b86fb4c4b29efb6](../../data/edited_transcripts/r-9a8c5b4b4b86fb4c4b29efb6.json) · [t-17c47fad92c4daba0de5c421](../../data/transcripts/t-17c47fad92c4daba0de5c421.json) · [t-a258aec437f5a662842d1e8b](../../data/transcripts/t-a258aec437f5a662842d1e8b.json)
+[r-06fd69a0ad9871f810bb59a9](../../data/documents/r-06fd69a0ad9871f810bb59a9.json) · [t-3328da16a82a05f085d3f7be](../../data/documents/t-3328da16a82a05f085d3f7be.json) · [t-b9ecc9d3dd94c3bf31a3d18d](../../data/documents/t-b9ecc9d3dd94c3bf31a3d18d.json) · [r-9a8c5b4b4b86fb4c4b29efb6](../../data/documents/r-9a8c5b4b4b86fb4c4b29efb6.json) · [t-17c47fad92c4daba0de5c421](../../data/documents/t-17c47fad92c4daba0de5c421.json) · [t-a258aec437f5a662842d1e8b](../../data/documents/t-a258aec437f5a662842d1e8b.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6128,7 +6128,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-a3e45984da11b5ffda0fdd69](../../data/edited_transcripts/r-a3e45984da11b5ffda0fdd69.json) · [t-be5c6a8225590427e0fce5d3](../../data/transcripts/t-be5c6a8225590427e0fce5d3.json)
+[r-a3e45984da11b5ffda0fdd69](../../data/documents/r-a3e45984da11b5ffda0fdd69.json) · [t-be5c6a8225590427e0fce5d3](../../data/documents/t-be5c6a8225590427e0fce5d3.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6150,7 +6150,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-88baa11ffa741112d77811e5](../../data/edited_transcripts/r-88baa11ffa741112d77811e5.json) · [t-13166326cfbe537265136fb2](../../data/transcripts/t-13166326cfbe537265136fb2.json) · [t-3f74a321eb921cfbc4a1c52c](../../data/transcripts/t-3f74a321eb921cfbc4a1c52c.json)
+[r-88baa11ffa741112d77811e5](../../data/documents/r-88baa11ffa741112d77811e5.json) · [t-13166326cfbe537265136fb2](../../data/documents/t-13166326cfbe537265136fb2.json) · [t-3f74a321eb921cfbc4a1c52c](../../data/documents/t-3f74a321eb921cfbc4a1c52c.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6172,7 +6172,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-8f4de78f5ac92f966ca9c184](../../data/edited_transcripts/r-8f4de78f5ac92f966ca9c184.json) · [t-328a3b3f0d09fd9a076f82df](../../data/transcripts/t-328a3b3f0d09fd9a076f82df.json) · [t-c17160c02473d535894a727b](../../data/transcripts/t-c17160c02473d535894a727b.json)
+[r-8f4de78f5ac92f966ca9c184](../../data/documents/r-8f4de78f5ac92f966ca9c184.json) · [t-328a3b3f0d09fd9a076f82df](../../data/documents/t-328a3b3f0d09fd9a076f82df.json) · [t-c17160c02473d535894a727b](../../data/documents/t-c17160c02473d535894a727b.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6195,7 +6195,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-eec6879cda5771856fd43ed2](../../data/edited_transcripts/r-eec6879cda5771856fd43ed2.json) · [t-965a0494180097938228e585](../../data/transcripts/t-965a0494180097938228e585.json) · [t-ffb4bf7f31a6283284eeb121](../../data/transcripts/t-ffb4bf7f31a6283284eeb121.json)
+[r-eec6879cda5771856fd43ed2](../../data/documents/r-eec6879cda5771856fd43ed2.json) · [t-965a0494180097938228e585](../../data/documents/t-965a0494180097938228e585.json) · [t-ffb4bf7f31a6283284eeb121](../../data/documents/t-ffb4bf7f31a6283284eeb121.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6218,7 +6218,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-803b2a8e19acfa33717ba951](../../data/edited_transcripts/r-803b2a8e19acfa33717ba951.json) · [t-15fd7b8db6938490ef6c9ba5](../../data/transcripts/t-15fd7b8db6938490ef6c9ba5.json) · [t-42f97649faa589d5186e7612](../../data/transcripts/t-42f97649faa589d5186e7612.json) · [r-c644f45d1c6894bf13bee83b](../../data/edited_transcripts/r-c644f45d1c6894bf13bee83b.json) · [t-2dbab616a94277f1a1eb58aa](../../data/transcripts/t-2dbab616a94277f1a1eb58aa.json) · [t-fb87a4ae5a6700e39a75ea81](../../data/transcripts/t-fb87a4ae5a6700e39a75ea81.json)
+[r-803b2a8e19acfa33717ba951](../../data/documents/r-803b2a8e19acfa33717ba951.json) · [t-15fd7b8db6938490ef6c9ba5](../../data/documents/t-15fd7b8db6938490ef6c9ba5.json) · [t-42f97649faa589d5186e7612](../../data/documents/t-42f97649faa589d5186e7612.json) · [r-c644f45d1c6894bf13bee83b](../../data/documents/r-c644f45d1c6894bf13bee83b.json) · [t-2dbab616a94277f1a1eb58aa](../../data/documents/t-2dbab616a94277f1a1eb58aa.json) · [t-fb87a4ae5a6700e39a75ea81](../../data/documents/t-fb87a4ae5a6700e39a75ea81.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6240,7 +6240,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-7031cae2d216b1ab13c1bd34](../../data/edited_transcripts/r-7031cae2d216b1ab13c1bd34.json) · [t-1d3a4a67c87bd0947f283acb](../../data/transcripts/t-1d3a4a67c87bd0947f283acb.json) · [t-710ae8eba6b608caeb23c5dc](../../data/transcripts/t-710ae8eba6b608caeb23c5dc.json)
+[r-7031cae2d216b1ab13c1bd34](../../data/documents/r-7031cae2d216b1ab13c1bd34.json) · [t-1d3a4a67c87bd0947f283acb](../../data/documents/t-1d3a4a67c87bd0947f283acb.json) · [t-710ae8eba6b608caeb23c5dc](../../data/documents/t-710ae8eba6b608caeb23c5dc.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6262,7 +6262,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-e3f4823dbb0455431f84d875](../../data/edited_transcripts/r-e3f4823dbb0455431f84d875.json) · [t-7fd3bfe6ee0c4ff6db06a5b2](../../data/transcripts/t-7fd3bfe6ee0c4ff6db06a5b2.json) · [t-8acfd1f0d835160bd3f2d647](../../data/transcripts/t-8acfd1f0d835160bd3f2d647.json)
+[r-e3f4823dbb0455431f84d875](../../data/documents/r-e3f4823dbb0455431f84d875.json) · [t-7fd3bfe6ee0c4ff6db06a5b2](../../data/documents/t-7fd3bfe6ee0c4ff6db06a5b2.json) · [t-8acfd1f0d835160bd3f2d647](../../data/documents/t-8acfd1f0d835160bd3f2d647.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6285,7 +6285,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-d768c8fa7458ab6afc27857b](../../data/edited_transcripts/r-d768c8fa7458ab6afc27857b.json) · [t-8b3a5eaa3fa3a6263e17afa8](../../data/transcripts/t-8b3a5eaa3fa3a6263e17afa8.json) · [t-92d177e53f12a4e46be264fd](../../data/transcripts/t-92d177e53f12a4e46be264fd.json) · [r-2bcad430ab0d7db85e43e62e](../../data/edited_transcripts/r-2bcad430ab0d7db85e43e62e.json) · [t-33a4bdbfbf926cade0245344](../../data/transcripts/t-33a4bdbfbf926cade0245344.json) · [t-898781f2952fb5a7b9b233ad](../../data/transcripts/t-898781f2952fb5a7b9b233ad.json)
+[r-d768c8fa7458ab6afc27857b](../../data/documents/r-d768c8fa7458ab6afc27857b.json) · [t-8b3a5eaa3fa3a6263e17afa8](../../data/documents/t-8b3a5eaa3fa3a6263e17afa8.json) · [t-92d177e53f12a4e46be264fd](../../data/documents/t-92d177e53f12a4e46be264fd.json) · [r-2bcad430ab0d7db85e43e62e](../../data/documents/r-2bcad430ab0d7db85e43e62e.json) · [t-33a4bdbfbf926cade0245344](../../data/documents/t-33a4bdbfbf926cade0245344.json) · [t-898781f2952fb5a7b9b233ad](../../data/documents/t-898781f2952fb5a7b9b233ad.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6308,7 +6308,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-64cb94815cf4f73bb2fba97e](../../data/edited_transcripts/r-64cb94815cf4f73bb2fba97e.json) · [t-05df76ade2ab21fd87d34748](../../data/transcripts/t-05df76ade2ab21fd87d34748.json) · [t-1320a7c1577835a7479b1bcf](../../data/transcripts/t-1320a7c1577835a7479b1bcf.json) · [r-cd1c788293864ba8fd64d032](../../data/edited_transcripts/r-cd1c788293864ba8fd64d032.json) · [t-544c6ffa9df5332b1adaa6df](../../data/transcripts/t-544c6ffa9df5332b1adaa6df.json) · [t-c34a9d08cbe89436e3e44cad](../../data/transcripts/t-c34a9d08cbe89436e3e44cad.json)
+[r-64cb94815cf4f73bb2fba97e](../../data/documents/r-64cb94815cf4f73bb2fba97e.json) · [t-05df76ade2ab21fd87d34748](../../data/documents/t-05df76ade2ab21fd87d34748.json) · [t-1320a7c1577835a7479b1bcf](../../data/documents/t-1320a7c1577835a7479b1bcf.json) · [r-cd1c788293864ba8fd64d032](../../data/documents/r-cd1c788293864ba8fd64d032.json) · [t-544c6ffa9df5332b1adaa6df](../../data/documents/t-544c6ffa9df5332b1adaa6df.json) · [t-c34a9d08cbe89436e3e44cad](../../data/documents/t-c34a9d08cbe89436e3e44cad.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6330,7 +6330,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-14b43c071aafe525b1c6fc3e](../../data/edited_transcripts/r-14b43c071aafe525b1c6fc3e.json) · [t-1a022180a971fa73f0fad2d5](../../data/transcripts/t-1a022180a971fa73f0fad2d5.json) · [t-ac40bd2a487ec932951b1d44](../../data/transcripts/t-ac40bd2a487ec932951b1d44.json)
+[r-14b43c071aafe525b1c6fc3e](../../data/documents/r-14b43c071aafe525b1c6fc3e.json) · [t-1a022180a971fa73f0fad2d5](../../data/documents/t-1a022180a971fa73f0fad2d5.json) · [t-ac40bd2a487ec932951b1d44](../../data/documents/t-ac40bd2a487ec932951b1d44.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6352,7 +6352,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-505e9dcf8dcaf26d86157b52](../../data/edited_transcripts/r-505e9dcf8dcaf26d86157b52.json) · [t-0ebfa1a78560fa840ab9d646](../../data/transcripts/t-0ebfa1a78560fa840ab9d646.json) · [t-c57b806d94c0c39baad8ea0b](../../data/transcripts/t-c57b806d94c0c39baad8ea0b.json)
+[r-505e9dcf8dcaf26d86157b52](../../data/documents/r-505e9dcf8dcaf26d86157b52.json) · [t-0ebfa1a78560fa840ab9d646](../../data/documents/t-0ebfa1a78560fa840ab9d646.json) · [t-c57b806d94c0c39baad8ea0b](../../data/documents/t-c57b806d94c0c39baad8ea0b.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6374,7 +6374,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-9932dc9996e863a9d4dea684](../../data/edited_transcripts/r-9932dc9996e863a9d4dea684.json) · [t-b8bd95e1acb3063508b4c970](../../data/transcripts/t-b8bd95e1acb3063508b4c970.json) · [t-ec1b58b7e8ec3eafcfd1a70b](../../data/transcripts/t-ec1b58b7e8ec3eafcfd1a70b.json)
+[r-9932dc9996e863a9d4dea684](../../data/documents/r-9932dc9996e863a9d4dea684.json) · [t-b8bd95e1acb3063508b4c970](../../data/documents/t-b8bd95e1acb3063508b4c970.json) · [t-ec1b58b7e8ec3eafcfd1a70b](../../data/documents/t-ec1b58b7e8ec3eafcfd1a70b.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6397,7 +6397,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-e4ed92ac67768904efab96a9](../../data/edited_transcripts/r-e4ed92ac67768904efab96a9.json) · [t-13f181b4c269bc9fa80c189f](../../data/transcripts/t-13f181b4c269bc9fa80c189f.json) · [t-57c165dcdfaf696d68c053aa](../../data/transcripts/t-57c165dcdfaf696d68c053aa.json)
+[r-e4ed92ac67768904efab96a9](../../data/documents/r-e4ed92ac67768904efab96a9.json) · [t-13f181b4c269bc9fa80c189f](../../data/documents/t-13f181b4c269bc9fa80c189f.json) · [t-57c165dcdfaf696d68c053aa](../../data/documents/t-57c165dcdfaf696d68c053aa.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6419,7 +6419,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-2c7d1696aecc4b3e5a7feb09](../../data/edited_transcripts/r-2c7d1696aecc4b3e5a7feb09.json) · [t-6c6271e2eda44354f8475983](../../data/transcripts/t-6c6271e2eda44354f8475983.json) · [t-857f6b5189d83808187f9e54](../../data/transcripts/t-857f6b5189d83808187f9e54.json)
+[r-2c7d1696aecc4b3e5a7feb09](../../data/documents/r-2c7d1696aecc4b3e5a7feb09.json) · [t-6c6271e2eda44354f8475983](../../data/documents/t-6c6271e2eda44354f8475983.json) · [t-857f6b5189d83808187f9e54](../../data/documents/t-857f6b5189d83808187f9e54.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6441,7 +6441,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-fa532b703873da5e21e089fd](../../data/edited_transcripts/r-fa532b703873da5e21e089fd.json) · [t-297e21c82955c3319891de61](../../data/transcripts/t-297e21c82955c3319891de61.json)
+[r-fa532b703873da5e21e089fd](../../data/documents/r-fa532b703873da5e21e089fd.json) · [t-297e21c82955c3319891de61](../../data/documents/t-297e21c82955c3319891de61.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6463,7 +6463,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-e9f42e06dbd6f88532620ec6](../../data/edited_transcripts/r-e9f42e06dbd6f88532620ec6.json) · [t-b85a8cbaab8f6412deb29c91](../../data/transcripts/t-b85a8cbaab8f6412deb29c91.json)
+[r-e9f42e06dbd6f88532620ec6](../../data/documents/r-e9f42e06dbd6f88532620ec6.json) · [t-b85a8cbaab8f6412deb29c91](../../data/documents/t-b85a8cbaab8f6412deb29c91.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6486,7 +6486,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-59af866ccba0b72e99a7d09a](../../data/edited_transcripts/r-59af866ccba0b72e99a7d09a.json) · [t-83cb5803a104939fcd2f64c8](../../data/transcripts/t-83cb5803a104939fcd2f64c8.json) · [t-8f065d6d41b23a3fa4ee4b43](../../data/transcripts/t-8f065d6d41b23a3fa4ee4b43.json)
+[r-59af866ccba0b72e99a7d09a](../../data/documents/r-59af866ccba0b72e99a7d09a.json) · [t-83cb5803a104939fcd2f64c8](../../data/documents/t-83cb5803a104939fcd2f64c8.json) · [t-8f065d6d41b23a3fa4ee4b43](../../data/documents/t-8f065d6d41b23a3fa4ee4b43.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6509,7 +6509,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-dc9c2dab981592f696e50126](../../data/edited_transcripts/r-dc9c2dab981592f696e50126.json) · [t-26c71f33d62b11458d759116](../../data/transcripts/t-26c71f33d62b11458d759116.json) · [t-a330d3cab5b9622fda996eee](../../data/transcripts/t-a330d3cab5b9622fda996eee.json) · [r-df723f9ede95cc8a285062e1](../../data/edited_transcripts/r-df723f9ede95cc8a285062e1.json) · [t-878a373458fa6e8d95916a6b](../../data/transcripts/t-878a373458fa6e8d95916a6b.json) · [t-e34d277afaa9cd2965b6c86c](../../data/transcripts/t-e34d277afaa9cd2965b6c86c.json)
+[r-dc9c2dab981592f696e50126](../../data/documents/r-dc9c2dab981592f696e50126.json) · [t-26c71f33d62b11458d759116](../../data/documents/t-26c71f33d62b11458d759116.json) · [t-a330d3cab5b9622fda996eee](../../data/documents/t-a330d3cab5b9622fda996eee.json) · [r-df723f9ede95cc8a285062e1](../../data/documents/r-df723f9ede95cc8a285062e1.json) · [t-878a373458fa6e8d95916a6b](../../data/documents/t-878a373458fa6e8d95916a6b.json) · [t-e34d277afaa9cd2965b6c86c](../../data/documents/t-e34d277afaa9cd2965b6c86c.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6531,7 +6531,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-2e3e7f027615d654af20fe6c](../../data/edited_transcripts/r-2e3e7f027615d654af20fe6c.json) · [t-5fb1ab924f67fc1f9ac9f4bd](../../data/transcripts/t-5fb1ab924f67fc1f9ac9f4bd.json) · [t-efe0bb5eab09d75afc2345e6](../../data/transcripts/t-efe0bb5eab09d75afc2345e6.json)
+[r-2e3e7f027615d654af20fe6c](../../data/documents/r-2e3e7f027615d654af20fe6c.json) · [t-5fb1ab924f67fc1f9ac9f4bd](../../data/documents/t-5fb1ab924f67fc1f9ac9f4bd.json) · [t-efe0bb5eab09d75afc2345e6](../../data/documents/t-efe0bb5eab09d75afc2345e6.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6554,7 +6554,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-3fbaec3eb54dc17c5039efba](../../data/edited_transcripts/r-3fbaec3eb54dc17c5039efba.json) · [t-a5427ebf96a848e9ac54ad7b](../../data/transcripts/t-a5427ebf96a848e9ac54ad7b.json) · [t-e42c1b234f2a35828f905008](../../data/transcripts/t-e42c1b234f2a35828f905008.json)
+[r-3fbaec3eb54dc17c5039efba](../../data/documents/r-3fbaec3eb54dc17c5039efba.json) · [t-a5427ebf96a848e9ac54ad7b](../../data/documents/t-a5427ebf96a848e9ac54ad7b.json) · [t-e42c1b234f2a35828f905008](../../data/documents/t-e42c1b234f2a35828f905008.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6576,7 +6576,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-40a21b398bd7eb9f7536b1cf](../../data/edited_transcripts/r-40a21b398bd7eb9f7536b1cf.json) · [t-8c26c95426566ccded27ed2d](../../data/transcripts/t-8c26c95426566ccded27ed2d.json)
+[r-40a21b398bd7eb9f7536b1cf](../../data/documents/r-40a21b398bd7eb9f7536b1cf.json) · [t-8c26c95426566ccded27ed2d](../../data/documents/t-8c26c95426566ccded27ed2d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6599,7 +6599,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 6；整理稿 3；完成且非空非填充词候选 3；其中全文人工审核 0
 
-[r-7f20c3126e26af827ebd4dd8](../../data/edited_transcripts/r-7f20c3126e26af827ebd4dd8.json) · [t-194862dad39f62cdf32330c3](../../data/transcripts/t-194862dad39f62cdf32330c3.json) · [t-7e754d77a21d49708e093d5b](../../data/transcripts/t-7e754d77a21d49708e093d5b.json) · [r-cdb9c1bf2c9b393fc0a337de](../../data/edited_transcripts/r-cdb9c1bf2c9b393fc0a337de.json) · [t-28210ed360eadb759bf28b04](../../data/transcripts/t-28210ed360eadb759bf28b04.json) · [t-790478c5782c9c67aeb3c07a](../../data/transcripts/t-790478c5782c9c67aeb3c07a.json) · [r-23e380c943396f8466df373e](../../data/edited_transcripts/r-23e380c943396f8466df373e.json) · [t-39fb75940f2a9924c412069e](../../data/transcripts/t-39fb75940f2a9924c412069e.json) · [t-c8c1b71fec62789b25415a69](../../data/transcripts/t-c8c1b71fec62789b25415a69.json)
+[r-7f20c3126e26af827ebd4dd8](../../data/documents/r-7f20c3126e26af827ebd4dd8.json) · [t-194862dad39f62cdf32330c3](../../data/documents/t-194862dad39f62cdf32330c3.json) · [t-7e754d77a21d49708e093d5b](../../data/documents/t-7e754d77a21d49708e093d5b.json) · [r-cdb9c1bf2c9b393fc0a337de](../../data/documents/r-cdb9c1bf2c9b393fc0a337de.json) · [t-28210ed360eadb759bf28b04](../../data/documents/t-28210ed360eadb759bf28b04.json) · [t-790478c5782c9c67aeb3c07a](../../data/documents/t-790478c5782c9c67aeb3c07a.json) · [r-23e380c943396f8466df373e](../../data/documents/r-23e380c943396f8466df373e.json) · [t-39fb75940f2a9924c412069e](../../data/documents/t-39fb75940f2a9924c412069e.json) · [t-c8c1b71fec62789b25415a69](../../data/documents/t-c8c1b71fec62789b25415a69.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6621,7 +6621,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-361f957f45832931b0803687](../../data/edited_transcripts/r-361f957f45832931b0803687.json) · [t-648d5dfa7a0170aa6bcc5e66](../../data/transcripts/t-648d5dfa7a0170aa6bcc5e66.json)
+[r-361f957f45832931b0803687](../../data/documents/r-361f957f45832931b0803687.json) · [t-648d5dfa7a0170aa6bcc5e66](../../data/documents/t-648d5dfa7a0170aa6bcc5e66.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6643,7 +6643,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-db6926b016b063895ce61741](../../data/edited_transcripts/r-db6926b016b063895ce61741.json) · [t-cef9344a2eb1601ae5f0b802](../../data/transcripts/t-cef9344a2eb1601ae5f0b802.json) · [t-fac017247c0bc6b66e71805d](../../data/transcripts/t-fac017247c0bc6b66e71805d.json)
+[r-db6926b016b063895ce61741](../../data/documents/r-db6926b016b063895ce61741.json) · [t-cef9344a2eb1601ae5f0b802](../../data/documents/t-cef9344a2eb1601ae5f0b802.json) · [t-fac017247c0bc6b66e71805d](../../data/documents/t-fac017247c0bc6b66e71805d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6665,7 +6665,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-24f9cea2b6c9e04e99018114](../../data/edited_transcripts/r-24f9cea2b6c9e04e99018114.json) · [t-f97474e6a5eb83afe0c91957](../../data/transcripts/t-f97474e6a5eb83afe0c91957.json) · [t-faa11e65b4241cd248cc1f6d](../../data/transcripts/t-faa11e65b4241cd248cc1f6d.json)
+[r-24f9cea2b6c9e04e99018114](../../data/documents/r-24f9cea2b6c9e04e99018114.json) · [t-f97474e6a5eb83afe0c91957](../../data/documents/t-f97474e6a5eb83afe0c91957.json) · [t-faa11e65b4241cd248cc1f6d](../../data/documents/t-faa11e65b4241cd248cc1f6d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6688,7 +6688,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-693ac5579099cbf16f7a9d64](../../data/edited_transcripts/r-693ac5579099cbf16f7a9d64.json) · [t-920d08b5aa6ea7ce9fbd7184](../../data/transcripts/t-920d08b5aa6ea7ce9fbd7184.json) · [t-d838408f290193410b729b3d](../../data/transcripts/t-d838408f290193410b729b3d.json)
+[r-693ac5579099cbf16f7a9d64](../../data/documents/r-693ac5579099cbf16f7a9d64.json) · [t-920d08b5aa6ea7ce9fbd7184](../../data/documents/t-920d08b5aa6ea7ce9fbd7184.json) · [t-d838408f290193410b729b3d](../../data/documents/t-d838408f290193410b729b3d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6710,7 +6710,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-dd222feb6893b14e0190980d](../../data/edited_transcripts/r-dd222feb6893b14e0190980d.json) · [t-34a4eae7531e0815c7d61ae9](../../data/transcripts/t-34a4eae7531e0815c7d61ae9.json) · [t-b6b6ea8d0a3eb56b04a8f7bf](../../data/transcripts/t-b6b6ea8d0a3eb56b04a8f7bf.json)
+[r-dd222feb6893b14e0190980d](../../data/documents/r-dd222feb6893b14e0190980d.json) · [t-34a4eae7531e0815c7d61ae9](../../data/documents/t-34a4eae7531e0815c7d61ae9.json) · [t-b6b6ea8d0a3eb56b04a8f7bf](../../data/documents/t-b6b6ea8d0a3eb56b04a8f7bf.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6732,7 +6732,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-eb952cf8b3fae384f66f9b5f](../../data/edited_transcripts/r-eb952cf8b3fae384f66f9b5f.json) · [t-70e6244d83cbe57e669848bf](../../data/transcripts/t-70e6244d83cbe57e669848bf.json) · [t-78bb0751447fd87a07821ddc](../../data/transcripts/t-78bb0751447fd87a07821ddc.json)
+[r-eb952cf8b3fae384f66f9b5f](../../data/documents/r-eb952cf8b3fae384f66f9b5f.json) · [t-70e6244d83cbe57e669848bf](../../data/documents/t-70e6244d83cbe57e669848bf.json) · [t-78bb0751447fd87a07821ddc](../../data/documents/t-78bb0751447fd87a07821ddc.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6754,7 +6754,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-a22c03a7c5bd77b0770c1a94](../../data/edited_transcripts/r-a22c03a7c5bd77b0770c1a94.json) · [t-5efc81eae6cf31dde1118803](../../data/transcripts/t-5efc81eae6cf31dde1118803.json) · [t-79b954262c48d84e20943614](../../data/transcripts/t-79b954262c48d84e20943614.json)
+[r-a22c03a7c5bd77b0770c1a94](../../data/documents/r-a22c03a7c5bd77b0770c1a94.json) · [t-5efc81eae6cf31dde1118803](../../data/documents/t-5efc81eae6cf31dde1118803.json) · [t-79b954262c48d84e20943614](../../data/documents/t-79b954262c48d84e20943614.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6776,7 +6776,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-0a1ef44a90b863ddd0e98741](../../data/edited_transcripts/r-0a1ef44a90b863ddd0e98741.json) · [t-8e981742f6b42159e942516c](../../data/transcripts/t-8e981742f6b42159e942516c.json) · [t-dc248756bc48d1d168c50054](../../data/transcripts/t-dc248756bc48d1d168c50054.json)
+[r-0a1ef44a90b863ddd0e98741](../../data/documents/r-0a1ef44a90b863ddd0e98741.json) · [t-8e981742f6b42159e942516c](../../data/documents/t-8e981742f6b42159e942516c.json) · [t-dc248756bc48d1d168c50054](../../data/documents/t-dc248756bc48d1d168c50054.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6799,7 +6799,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 12；整理稿 10；完成且非空非填充词候选 10；其中全文人工审核 0
 
-[r-1078263a9ceeab654eabbe95](../../data/edited_transcripts/r-1078263a9ceeab654eabbe95.json) · [t-a50325b7e199878a55b00a08](../../data/transcripts/t-a50325b7e199878a55b00a08.json) · [r-2f0b39259df64ddbed0f4b9e](../../data/edited_transcripts/r-2f0b39259df64ddbed0f4b9e.json) · [t-1fbb161a76eb7613ae8f90f6](../../data/transcripts/t-1fbb161a76eb7613ae8f90f6.json) · [r-1e66d808aadbfc8011346560](../../data/edited_transcripts/r-1e66d808aadbfc8011346560.json) · [t-2d92592cf34ccc38be3d4b21](../../data/transcripts/t-2d92592cf34ccc38be3d4b21.json) · [r-dc0f6faede3471595ba05c54](../../data/edited_transcripts/r-dc0f6faede3471595ba05c54.json) · [t-994eb19f5d69a4a7fc935b01](../../data/transcripts/t-994eb19f5d69a4a7fc935b01.json) · [t-d6ce869b102d06740856d193](../../data/transcripts/t-d6ce869b102d06740856d193.json) · [r-16756adc18589d99b7f76c26](../../data/edited_transcripts/r-16756adc18589d99b7f76c26.json) · [t-d1e620fa4a21e565594e1430](../../data/transcripts/t-d1e620fa4a21e565594e1430.json) · [r-fc165f7ad021412d4f29ad98](../../data/edited_transcripts/r-fc165f7ad021412d4f29ad98.json) · [t-29688f4d7243e3485f793903](../../data/transcripts/t-29688f4d7243e3485f793903.json) · [t-612432631f02185e1265d612](../../data/transcripts/t-612432631f02185e1265d612.json) · [r-2484b3cb2d5a6908f9e47502](../../data/edited_transcripts/r-2484b3cb2d5a6908f9e47502.json) · [t-2cce655c8023b52ad9a59f55](../../data/transcripts/t-2cce655c8023b52ad9a59f55.json) · [r-86c9013fabe8dc903eb79521](../../data/edited_transcripts/r-86c9013fabe8dc903eb79521.json) · [t-92fdd0c97a32966149409d95](../../data/transcripts/t-92fdd0c97a32966149409d95.json) · [r-e5973c8eb095fe6c7dfc8467](../../data/edited_transcripts/r-e5973c8eb095fe6c7dfc8467.json) · [t-b5cfc2acf261f41772e38193](../../data/transcripts/t-b5cfc2acf261f41772e38193.json) · [r-9957cf54e0c344220933d25d](../../data/edited_transcripts/r-9957cf54e0c344220933d25d.json) · [t-766ca435657490e6b22ff587](../../data/transcripts/t-766ca435657490e6b22ff587.json)
+[r-1078263a9ceeab654eabbe95](../../data/documents/r-1078263a9ceeab654eabbe95.json) · [t-a50325b7e199878a55b00a08](../../data/documents/t-a50325b7e199878a55b00a08.json) · [r-2f0b39259df64ddbed0f4b9e](../../data/documents/r-2f0b39259df64ddbed0f4b9e.json) · [t-1fbb161a76eb7613ae8f90f6](../../data/documents/t-1fbb161a76eb7613ae8f90f6.json) · [r-1e66d808aadbfc8011346560](../../data/documents/r-1e66d808aadbfc8011346560.json) · [t-2d92592cf34ccc38be3d4b21](../../data/documents/t-2d92592cf34ccc38be3d4b21.json) · [r-dc0f6faede3471595ba05c54](../../data/documents/r-dc0f6faede3471595ba05c54.json) · [t-994eb19f5d69a4a7fc935b01](../../data/documents/t-994eb19f5d69a4a7fc935b01.json) · [t-d6ce869b102d06740856d193](../../data/documents/t-d6ce869b102d06740856d193.json) · [r-16756adc18589d99b7f76c26](../../data/documents/r-16756adc18589d99b7f76c26.json) · [t-d1e620fa4a21e565594e1430](../../data/documents/t-d1e620fa4a21e565594e1430.json) · [r-fc165f7ad021412d4f29ad98](../../data/documents/r-fc165f7ad021412d4f29ad98.json) · [t-29688f4d7243e3485f793903](../../data/documents/t-29688f4d7243e3485f793903.json) · [t-612432631f02185e1265d612](../../data/documents/t-612432631f02185e1265d612.json) · [r-2484b3cb2d5a6908f9e47502](../../data/documents/r-2484b3cb2d5a6908f9e47502.json) · [t-2cce655c8023b52ad9a59f55](../../data/documents/t-2cce655c8023b52ad9a59f55.json) · [r-86c9013fabe8dc903eb79521](../../data/documents/r-86c9013fabe8dc903eb79521.json) · [t-92fdd0c97a32966149409d95](../../data/documents/t-92fdd0c97a32966149409d95.json) · [r-e5973c8eb095fe6c7dfc8467](../../data/documents/r-e5973c8eb095fe6c7dfc8467.json) · [t-b5cfc2acf261f41772e38193](../../data/documents/t-b5cfc2acf261f41772e38193.json) · [r-9957cf54e0c344220933d25d](../../data/documents/r-9957cf54e0c344220933d25d.json) · [t-766ca435657490e6b22ff587](../../data/documents/t-766ca435657490e6b22ff587.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6807,7 +6807,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **同音频**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-36d2a45175f1d5e0f2313be4](../../data/edited_transcripts/r-36d2a45175f1d5e0f2313be4.json) · [t-40630a487d27ec8f44a04993](../../data/transcripts/t-40630a487d27ec8f44a04993.json) · [t-cabd86f2f7ce628cc548ce1c](../../data/transcripts/t-cabd86f2f7ce628cc548ce1c.json)
+[r-36d2a45175f1d5e0f2313be4](../../data/documents/r-36d2a45175f1d5e0f2313be4.json) · [t-40630a487d27ec8f44a04993](../../data/documents/t-40630a487d27ec8f44a04993.json) · [t-cabd86f2f7ce628cc548ce1c](../../data/documents/t-cabd86f2f7ce628cc548ce1c.json)
 
 **章节补充**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6822,7 +6822,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-8be2bfa04116b309eeb1baea](../../data/edited_transcripts/r-8be2bfa04116b309eeb1baea.json) · [t-398f4f9d7c750f4d354258d4](../../data/transcripts/t-398f4f9d7c750f4d354258d4.json) · [t-c64a9ee31af9ebb02c527b3a](../../data/transcripts/t-c64a9ee31af9ebb02c527b3a.json)
+[r-8be2bfa04116b309eeb1baea](../../data/documents/r-8be2bfa04116b309eeb1baea.json) · [t-398f4f9d7c750f4d354258d4](../../data/documents/t-398f4f9d7c750f4d354258d4.json) · [t-c64a9ee31af9ebb02c527b3a](../../data/documents/t-c64a9ee31af9ebb02c527b3a.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6844,7 +6844,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-f93ef5085655dc83b046d33d](../../data/edited_transcripts/r-f93ef5085655dc83b046d33d.json) · [t-4ea5dcc2c28e0ea0bff60d81](../../data/transcripts/t-4ea5dcc2c28e0ea0bff60d81.json) · [t-8f54fe87038a2e36a361074d](../../data/transcripts/t-8f54fe87038a2e36a361074d.json)
+[r-f93ef5085655dc83b046d33d](../../data/documents/r-f93ef5085655dc83b046d33d.json) · [t-4ea5dcc2c28e0ea0bff60d81](../../data/documents/t-4ea5dcc2c28e0ea0bff60d81.json) · [t-8f54fe87038a2e36a361074d](../../data/documents/t-8f54fe87038a2e36a361074d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6866,7 +6866,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-5ba2465b632c26daaadb0f2e](../../data/edited_transcripts/r-5ba2465b632c26daaadb0f2e.json) · [t-403ad39caaba5c3b8ad4d95c](../../data/transcripts/t-403ad39caaba5c3b8ad4d95c.json) · [t-4b019b4c42d63ef4d87c9b73](../../data/transcripts/t-4b019b4c42d63ef4d87c9b73.json)
+[r-5ba2465b632c26daaadb0f2e](../../data/documents/r-5ba2465b632c26daaadb0f2e.json) · [t-403ad39caaba5c3b8ad4d95c](../../data/documents/t-403ad39caaba5c3b8ad4d95c.json) · [t-4b019b4c42d63ef4d87c9b73](../../data/documents/t-4b019b4c42d63ef4d87c9b73.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6889,7 +6889,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-bb11875608e22bdaf9f5cacd](../../data/edited_transcripts/r-bb11875608e22bdaf9f5cacd.json) · [t-141a1c1630f95ced1ece3257](../../data/transcripts/t-141a1c1630f95ced1ece3257.json) · [t-9742f0f5745797d62ff1c56b](../../data/transcripts/t-9742f0f5745797d62ff1c56b.json)
+[r-bb11875608e22bdaf9f5cacd](../../data/documents/r-bb11875608e22bdaf9f5cacd.json) · [t-141a1c1630f95ced1ece3257](../../data/documents/t-141a1c1630f95ced1ece3257.json) · [t-9742f0f5745797d62ff1c56b](../../data/documents/t-9742f0f5745797d62ff1c56b.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6911,7 +6911,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-6ac9de6b8c1e66ad50fa29bd](../../data/edited_transcripts/r-6ac9de6b8c1e66ad50fa29bd.json) · [t-2d7771ad1609453b9f1915e1](../../data/transcripts/t-2d7771ad1609453b9f1915e1.json) · [t-d63756371383de1815c99ca1](../../data/transcripts/t-d63756371383de1815c99ca1.json)
+[r-6ac9de6b8c1e66ad50fa29bd](../../data/documents/r-6ac9de6b8c1e66ad50fa29bd.json) · [t-2d7771ad1609453b9f1915e1](../../data/documents/t-2d7771ad1609453b9f1915e1.json) · [t-d63756371383de1815c99ca1](../../data/documents/t-d63756371383de1815c99ca1.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6933,7 +6933,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-a012bdf7b0f6ea5928861b18](../../data/edited_transcripts/r-a012bdf7b0f6ea5928861b18.json) · [t-0df6eca845fbe2312b9c5e24](../../data/transcripts/t-0df6eca845fbe2312b9c5e24.json) · [t-c1070e3e5aa23657ae27a89e](../../data/transcripts/t-c1070e3e5aa23657ae27a89e.json)
+[r-a012bdf7b0f6ea5928861b18](../../data/documents/r-a012bdf7b0f6ea5928861b18.json) · [t-0df6eca845fbe2312b9c5e24](../../data/documents/t-0df6eca845fbe2312b9c5e24.json) · [t-c1070e3e5aa23657ae27a89e](../../data/documents/t-c1070e3e5aa23657ae27a89e.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6955,7 +6955,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-6fb016489886b6e3001541f3](../../data/edited_transcripts/r-6fb016489886b6e3001541f3.json) · [t-d8b47129a1797034e028ab91](../../data/transcripts/t-d8b47129a1797034e028ab91.json)
+[r-6fb016489886b6e3001541f3](../../data/documents/r-6fb016489886b6e3001541f3.json) · [t-d8b47129a1797034e028ab91](../../data/documents/t-d8b47129a1797034e028ab91.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -6978,7 +6978,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-e749ce0c429ba792c801da1e](../../data/edited_transcripts/r-e749ce0c429ba792c801da1e.json) · [t-54e3338e390e3830575c0de0](../../data/transcripts/t-54e3338e390e3830575c0de0.json) · [t-c8e46872884003ce459e41e2](../../data/transcripts/t-c8e46872884003ce459e41e2.json) · [r-523b7aa9ddc403bbed44b1b8](../../data/edited_transcripts/r-523b7aa9ddc403bbed44b1b8.json) · [t-1b38f313432aa7f41045bc68](../../data/transcripts/t-1b38f313432aa7f41045bc68.json) · [t-48750f03eadaf3ffae58da00](../../data/transcripts/t-48750f03eadaf3ffae58da00.json)
+[r-e749ce0c429ba792c801da1e](../../data/documents/r-e749ce0c429ba792c801da1e.json) · [t-54e3338e390e3830575c0de0](../../data/documents/t-54e3338e390e3830575c0de0.json) · [t-c8e46872884003ce459e41e2](../../data/documents/t-c8e46872884003ce459e41e2.json) · [r-523b7aa9ddc403bbed44b1b8](../../data/documents/r-523b7aa9ddc403bbed44b1b8.json) · [t-1b38f313432aa7f41045bc68](../../data/documents/t-1b38f313432aa7f41045bc68.json) · [t-48750f03eadaf3ffae58da00](../../data/documents/t-48750f03eadaf3ffae58da00.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7001,7 +7001,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-416508ca915bbf80e8a331fa](../../data/edited_transcripts/r-416508ca915bbf80e8a331fa.json) · [t-490a5ae3a7c05aba3d8f9273](../../data/transcripts/t-490a5ae3a7c05aba3d8f9273.json) · [t-7789fbadcc182ba9b91997a9](../../data/transcripts/t-7789fbadcc182ba9b91997a9.json)
+[r-416508ca915bbf80e8a331fa](../../data/documents/r-416508ca915bbf80e8a331fa.json) · [t-490a5ae3a7c05aba3d8f9273](../../data/documents/t-490a5ae3a7c05aba3d8f9273.json) · [t-7789fbadcc182ba9b91997a9](../../data/documents/t-7789fbadcc182ba9b91997a9.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7024,7 +7024,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-45a208b82537181e8ff3e6ce](../../data/edited_transcripts/r-45a208b82537181e8ff3e6ce.json) · [t-3ef7da7fa852b736efc231c1](../../data/transcripts/t-3ef7da7fa852b736efc231c1.json) · [t-d3cd7c194f34f19639d5f15e](../../data/transcripts/t-d3cd7c194f34f19639d5f15e.json)
+[r-45a208b82537181e8ff3e6ce](../../data/documents/r-45a208b82537181e8ff3e6ce.json) · [t-3ef7da7fa852b736efc231c1](../../data/documents/t-3ef7da7fa852b736efc231c1.json) · [t-d3cd7c194f34f19639d5f15e](../../data/documents/t-d3cd7c194f34f19639d5f15e.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7047,7 +7047,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-d82cbac6b479e7a34a385eed](../../data/edited_transcripts/r-d82cbac6b479e7a34a385eed.json) · [t-7fb2ca697755ded6bbc3b5c0](../../data/transcripts/t-7fb2ca697755ded6bbc3b5c0.json) · [t-b97e8544329444319fc3f773](../../data/transcripts/t-b97e8544329444319fc3f773.json)
+[r-d82cbac6b479e7a34a385eed](../../data/documents/r-d82cbac6b479e7a34a385eed.json) · [t-7fb2ca697755ded6bbc3b5c0](../../data/documents/t-7fb2ca697755ded6bbc3b5c0.json) · [t-b97e8544329444319fc3f773](../../data/documents/t-b97e8544329444319fc3f773.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7069,7 +7069,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-e5723f32785f38bcc5db1a82](../../data/edited_transcripts/r-e5723f32785f38bcc5db1a82.json) · [t-468a28a0b03d76ac1e0bc8af](../../data/transcripts/t-468a28a0b03d76ac1e0bc8af.json) · [t-e004290459cf234a2c3408ba](../../data/transcripts/t-e004290459cf234a2c3408ba.json)
+[r-e5723f32785f38bcc5db1a82](../../data/documents/r-e5723f32785f38bcc5db1a82.json) · [t-468a28a0b03d76ac1e0bc8af](../../data/documents/t-468a28a0b03d76ac1e0bc8af.json) · [t-e004290459cf234a2c3408ba](../../data/documents/t-e004290459cf234a2c3408ba.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7092,7 +7092,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-2a47dfc010d582752ec53496](../../data/edited_transcripts/r-2a47dfc010d582752ec53496.json) · [t-1a23680526af47500ffb8b57](../../data/transcripts/t-1a23680526af47500ffb8b57.json) · [t-8d74d785bce487b1e6db2e45](../../data/transcripts/t-8d74d785bce487b1e6db2e45.json)
+[r-2a47dfc010d582752ec53496](../../data/documents/r-2a47dfc010d582752ec53496.json) · [t-1a23680526af47500ffb8b57](../../data/documents/t-1a23680526af47500ffb8b57.json) · [t-8d74d785bce487b1e6db2e45](../../data/documents/t-8d74d785bce487b1e6db2e45.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7115,7 +7115,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 3；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-15422dcfbc8033a15c0964b5](../../data/edited_transcripts/r-15422dcfbc8033a15c0964b5.json) · [t-735df5ff02f4d6740fe4ad87](../../data/transcripts/t-735df5ff02f4d6740fe4ad87.json) · [t-869edbc578a70753cb9323fd](../../data/transcripts/t-869edbc578a70753cb9323fd.json) · [r-12c5b51c41572f9bf52b1a26](../../data/edited_transcripts/r-12c5b51c41572f9bf52b1a26.json) · [t-39b08836d73cc22e996e9f5e](../../data/transcripts/t-39b08836d73cc22e996e9f5e.json)
+[r-15422dcfbc8033a15c0964b5](../../data/documents/r-15422dcfbc8033a15c0964b5.json) · [t-735df5ff02f4d6740fe4ad87](../../data/documents/t-735df5ff02f4d6740fe4ad87.json) · [t-869edbc578a70753cb9323fd](../../data/documents/t-869edbc578a70753cb9323fd.json) · [r-12c5b51c41572f9bf52b1a26](../../data/documents/r-12c5b51c41572f9bf52b1a26.json) · [t-39b08836d73cc22e996e9f5e](../../data/documents/t-39b08836d73cc22e996e9f5e.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7138,7 +7138,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-8cfdfff55105c25696e8b0a7](../../data/edited_transcripts/r-8cfdfff55105c25696e8b0a7.json) · [t-31b256e57bcb25e5f9ffbaff](../../data/transcripts/t-31b256e57bcb25e5f9ffbaff.json) · [t-819c4010bb1b1342d9056a45](../../data/transcripts/t-819c4010bb1b1342d9056a45.json)
+[r-8cfdfff55105c25696e8b0a7](../../data/documents/r-8cfdfff55105c25696e8b0a7.json) · [t-31b256e57bcb25e5f9ffbaff](../../data/documents/t-31b256e57bcb25e5f9ffbaff.json) · [t-819c4010bb1b1342d9056a45](../../data/documents/t-819c4010bb1b1342d9056a45.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7160,7 +7160,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-7e3a31bbe14e9b5b21a3845b](../../data/edited_transcripts/r-7e3a31bbe14e9b5b21a3845b.json) · [t-9be3c94368a1725dcf8daa5b](../../data/transcripts/t-9be3c94368a1725dcf8daa5b.json) · [t-f22573b302e2577b06fe5c3f](../../data/transcripts/t-f22573b302e2577b06fe5c3f.json)
+[r-7e3a31bbe14e9b5b21a3845b](../../data/documents/r-7e3a31bbe14e9b5b21a3845b.json) · [t-9be3c94368a1725dcf8daa5b](../../data/documents/t-9be3c94368a1725dcf8daa5b.json) · [t-f22573b302e2577b06fe5c3f](../../data/documents/t-f22573b302e2577b06fe5c3f.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7183,7 +7183,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-07114fead03563357e2611b7](../../data/edited_transcripts/r-07114fead03563357e2611b7.json) · [t-be4bb862ceeee362fe581320](../../data/transcripts/t-be4bb862ceeee362fe581320.json)
+[r-07114fead03563357e2611b7](../../data/documents/r-07114fead03563357e2611b7.json) · [t-be4bb862ceeee362fe581320](../../data/documents/t-be4bb862ceeee362fe581320.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7205,7 +7205,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-ec2b316df418d7f409ee5b00](../../data/edited_transcripts/r-ec2b316df418d7f409ee5b00.json) · [t-7e0431cfcb6b0bcc2c18060a](../../data/transcripts/t-7e0431cfcb6b0bcc2c18060a.json)
+[r-ec2b316df418d7f409ee5b00](../../data/documents/r-ec2b316df418d7f409ee5b00.json) · [t-7e0431cfcb6b0bcc2c18060a](../../data/documents/t-7e0431cfcb6b0bcc2c18060a.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7227,7 +7227,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-033123e81af3318269c174a8](../../data/edited_transcripts/r-033123e81af3318269c174a8.json) · [t-7d3f124502b987bce168fca2](../../data/transcripts/t-7d3f124502b987bce168fca2.json) · [t-b64b7650c1732213f3a1d13d](../../data/transcripts/t-b64b7650c1732213f3a1d13d.json)
+[r-033123e81af3318269c174a8](../../data/documents/r-033123e81af3318269c174a8.json) · [t-7d3f124502b987bce168fca2](../../data/documents/t-7d3f124502b987bce168fca2.json) · [t-b64b7650c1732213f3a1d13d](../../data/documents/t-b64b7650c1732213f3a1d13d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7249,7 +7249,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-4d0f34f8c4ec9a9f8d9bbc43](../../data/edited_transcripts/r-4d0f34f8c4ec9a9f8d9bbc43.json) · [t-5d7e3c4a9ae273d4895fffdc](../../data/transcripts/t-5d7e3c4a9ae273d4895fffdc.json) · [t-96ff3f46f16d07aae63b911a](../../data/transcripts/t-96ff3f46f16d07aae63b911a.json)
+[r-4d0f34f8c4ec9a9f8d9bbc43](../../data/documents/r-4d0f34f8c4ec9a9f8d9bbc43.json) · [t-5d7e3c4a9ae273d4895fffdc](../../data/documents/t-5d7e3c4a9ae273d4895fffdc.json) · [t-96ff3f46f16d07aae63b911a](../../data/documents/t-96ff3f46f16d07aae63b911a.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7271,7 +7271,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-324cb9c804371a88132c849b](../../data/edited_transcripts/r-324cb9c804371a88132c849b.json) · [t-5150a54723b9bff380ddba5f](../../data/transcripts/t-5150a54723b9bff380ddba5f.json) · [t-c434739c0059e287a0e055e3](../../data/transcripts/t-c434739c0059e287a0e055e3.json)
+[r-324cb9c804371a88132c849b](../../data/documents/r-324cb9c804371a88132c849b.json) · [t-5150a54723b9bff380ddba5f](../../data/documents/t-5150a54723b9bff380ddba5f.json) · [t-c434739c0059e287a0e055e3](../../data/documents/t-c434739c0059e287a0e055e3.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7293,7 +7293,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-d0febfc7e2d6e798cce73cd7](../../data/edited_transcripts/r-d0febfc7e2d6e798cce73cd7.json) · [t-5e57023dbc047536e02a6337](../../data/transcripts/t-5e57023dbc047536e02a6337.json) · [t-74f6fece1f77779e7b96e442](../../data/transcripts/t-74f6fece1f77779e7b96e442.json)
+[r-d0febfc7e2d6e798cce73cd7](../../data/documents/r-d0febfc7e2d6e798cce73cd7.json) · [t-5e57023dbc047536e02a6337](../../data/documents/t-5e57023dbc047536e02a6337.json) · [t-74f6fece1f77779e7b96e442](../../data/documents/t-74f6fece1f77779e7b96e442.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7315,7 +7315,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-9c7e69b0b789c6e549933055](../../data/edited_transcripts/r-9c7e69b0b789c6e549933055.json) · [t-3458b4c30ce043471f4a07c6](../../data/transcripts/t-3458b4c30ce043471f4a07c6.json) · [t-dde7bc5fe70093c5d4c351f8](../../data/transcripts/t-dde7bc5fe70093c5d4c351f8.json)
+[r-9c7e69b0b789c6e549933055](../../data/documents/r-9c7e69b0b789c6e549933055.json) · [t-3458b4c30ce043471f4a07c6](../../data/documents/t-3458b4c30ce043471f4a07c6.json) · [t-dde7bc5fe70093c5d4c351f8](../../data/documents/t-dde7bc5fe70093c5d4c351f8.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7337,7 +7337,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-41a30f01c4f0020dec83ef69](../../data/edited_transcripts/r-41a30f01c4f0020dec83ef69.json) · [t-4fd12f270b42c14871e883f4](../../data/transcripts/t-4fd12f270b42c14871e883f4.json) · [t-66a76f569c2fda3d3b811ba3](../../data/transcripts/t-66a76f569c2fda3d3b811ba3.json)
+[r-41a30f01c4f0020dec83ef69](../../data/documents/r-41a30f01c4f0020dec83ef69.json) · [t-4fd12f270b42c14871e883f4](../../data/documents/t-4fd12f270b42c14871e883f4.json) · [t-66a76f569c2fda3d3b811ba3](../../data/documents/t-66a76f569c2fda3d3b811ba3.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7360,7 +7360,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-8f389081abeedf44b693d23a](../../data/edited_transcripts/r-8f389081abeedf44b693d23a.json) · [t-211ace9c18c8dcff8a73256d](../../data/transcripts/t-211ace9c18c8dcff8a73256d.json) · [t-eea91f46c020511940ee90eb](../../data/transcripts/t-eea91f46c020511940ee90eb.json)
+[r-8f389081abeedf44b693d23a](../../data/documents/r-8f389081abeedf44b693d23a.json) · [t-211ace9c18c8dcff8a73256d](../../data/documents/t-211ace9c18c8dcff8a73256d.json) · [t-eea91f46c020511940ee90eb](../../data/documents/t-eea91f46c020511940ee90eb.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7382,7 +7382,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-11ab1f63b531d0f73f8a7049](../../data/edited_transcripts/r-11ab1f63b531d0f73f8a7049.json) · [t-5b1a6b4050d581359108aa4d](../../data/transcripts/t-5b1a6b4050d581359108aa4d.json) · [t-f8988543bb06c83d295dc90d](../../data/transcripts/t-f8988543bb06c83d295dc90d.json) · [r-e5902a7c9f86bd6d881660d9](../../data/edited_transcripts/r-e5902a7c9f86bd6d881660d9.json) · [t-412f26a659167cdae09e77ed](../../data/transcripts/t-412f26a659167cdae09e77ed.json) · [t-7d1473228d312cb4d893e2d1](../../data/transcripts/t-7d1473228d312cb4d893e2d1.json)
+[r-11ab1f63b531d0f73f8a7049](../../data/documents/r-11ab1f63b531d0f73f8a7049.json) · [t-5b1a6b4050d581359108aa4d](../../data/documents/t-5b1a6b4050d581359108aa4d.json) · [t-f8988543bb06c83d295dc90d](../../data/documents/t-f8988543bb06c83d295dc90d.json) · [r-e5902a7c9f86bd6d881660d9](../../data/documents/r-e5902a7c9f86bd6d881660d9.json) · [t-412f26a659167cdae09e77ed](../../data/documents/t-412f26a659167cdae09e77ed.json) · [t-7d1473228d312cb4d893e2d1](../../data/documents/t-7d1473228d312cb4d893e2d1.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7404,7 +7404,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-35cf58e2fb898cc2893d2017](../../data/edited_transcripts/r-35cf58e2fb898cc2893d2017.json) · [t-3d6c1d990c2199b8e24bfa44](../../data/transcripts/t-3d6c1d990c2199b8e24bfa44.json) · [t-f54c8b30413beb8c358ef83a](../../data/transcripts/t-f54c8b30413beb8c358ef83a.json) · [r-2e1d2fd6a5cb429e0874b6ba](../../data/edited_transcripts/r-2e1d2fd6a5cb429e0874b6ba.json) · [t-473b547655b617c1b27d353c](../../data/transcripts/t-473b547655b617c1b27d353c.json) · [t-f33f3beaebdea784561a925e](../../data/transcripts/t-f33f3beaebdea784561a925e.json)
+[r-35cf58e2fb898cc2893d2017](../../data/documents/r-35cf58e2fb898cc2893d2017.json) · [t-3d6c1d990c2199b8e24bfa44](../../data/documents/t-3d6c1d990c2199b8e24bfa44.json) · [t-f54c8b30413beb8c358ef83a](../../data/documents/t-f54c8b30413beb8c358ef83a.json) · [r-2e1d2fd6a5cb429e0874b6ba](../../data/documents/r-2e1d2fd6a5cb429e0874b6ba.json) · [t-473b547655b617c1b27d353c](../../data/documents/t-473b547655b617c1b27d353c.json) · [t-f33f3beaebdea784561a925e](../../data/documents/t-f33f3beaebdea784561a925e.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7426,7 +7426,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-7e868642c23f3e411e9c38c0](../../data/edited_transcripts/r-7e868642c23f3e411e9c38c0.json) · [t-7f06dd30547ae722ad1175c6](../../data/transcripts/t-7f06dd30547ae722ad1175c6.json) · [t-f7eb1ea4c1291e2b10a715b1](../../data/transcripts/t-f7eb1ea4c1291e2b10a715b1.json)
+[r-7e868642c23f3e411e9c38c0](../../data/documents/r-7e868642c23f3e411e9c38c0.json) · [t-7f06dd30547ae722ad1175c6](../../data/documents/t-7f06dd30547ae722ad1175c6.json) · [t-f7eb1ea4c1291e2b10a715b1](../../data/documents/t-f7eb1ea4c1291e2b10a715b1.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7448,7 +7448,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-fc2cb8bae75c85b6e16d1295](../../data/edited_transcripts/r-fc2cb8bae75c85b6e16d1295.json) · [t-1b8b2024b4268b6702ad8fe2](../../data/transcripts/t-1b8b2024b4268b6702ad8fe2.json) · [t-6cc4e0131d98bc039b5b1b82](../../data/transcripts/t-6cc4e0131d98bc039b5b1b82.json) · [r-03eb1ad84fcb8bf6b218dec9](../../data/edited_transcripts/r-03eb1ad84fcb8bf6b218dec9.json) · [t-471b4264c37fbd5ee506b679](../../data/transcripts/t-471b4264c37fbd5ee506b679.json) · [t-8351bfa3add1fd91f1eae189](../../data/transcripts/t-8351bfa3add1fd91f1eae189.json)
+[r-fc2cb8bae75c85b6e16d1295](../../data/documents/r-fc2cb8bae75c85b6e16d1295.json) · [t-1b8b2024b4268b6702ad8fe2](../../data/documents/t-1b8b2024b4268b6702ad8fe2.json) · [t-6cc4e0131d98bc039b5b1b82](../../data/documents/t-6cc4e0131d98bc039b5b1b82.json) · [r-03eb1ad84fcb8bf6b218dec9](../../data/documents/r-03eb1ad84fcb8bf6b218dec9.json) · [t-471b4264c37fbd5ee506b679](../../data/documents/t-471b4264c37fbd5ee506b679.json) · [t-8351bfa3add1fd91f1eae189](../../data/documents/t-8351bfa3add1fd91f1eae189.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7470,7 +7470,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-43ee4518786ab40953f8efce](../../data/edited_transcripts/r-43ee4518786ab40953f8efce.json) · [t-b31736eecefe9ae9f4af149a](../../data/transcripts/t-b31736eecefe9ae9f4af149a.json) · [t-fd8c11edeb9ee0feb08624b3](../../data/transcripts/t-fd8c11edeb9ee0feb08624b3.json)
+[r-43ee4518786ab40953f8efce](../../data/documents/r-43ee4518786ab40953f8efce.json) · [t-b31736eecefe9ae9f4af149a](../../data/documents/t-b31736eecefe9ae9f4af149a.json) · [t-fd8c11edeb9ee0feb08624b3](../../data/documents/t-fd8c11edeb9ee0feb08624b3.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7492,7 +7492,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-78cd99b4f1d0dfba79e9d993](../../data/edited_transcripts/r-78cd99b4f1d0dfba79e9d993.json) · [t-43490fbfcee54b8b9e774a41](../../data/transcripts/t-43490fbfcee54b8b9e774a41.json)
+[r-78cd99b4f1d0dfba79e9d993](../../data/documents/r-78cd99b4f1d0dfba79e9d993.json) · [t-43490fbfcee54b8b9e774a41](../../data/documents/t-43490fbfcee54b8b9e774a41.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7515,7 +7515,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 6；整理稿 3；完成且非空非填充词候选 3；其中全文人工审核 0
 
-[r-f6db8e60ec5934ec7feaa894](../../data/edited_transcripts/r-f6db8e60ec5934ec7feaa894.json) · [t-aef29593acea38623f4f1271](../../data/transcripts/t-aef29593acea38623f4f1271.json) · [t-f08737762e19870ec1863004](../../data/transcripts/t-f08737762e19870ec1863004.json) · [r-3775621380235396a27973e5](../../data/edited_transcripts/r-3775621380235396a27973e5.json) · [t-dd516a4046ece31ccc0f5b70](../../data/transcripts/t-dd516a4046ece31ccc0f5b70.json) · [t-e30ed69fe879b25dbe214af6](../../data/transcripts/t-e30ed69fe879b25dbe214af6.json) · [r-f17261ba54c5aecdbd528237](../../data/edited_transcripts/r-f17261ba54c5aecdbd528237.json) · [t-6633da03fc395f8d14e7fe6f](../../data/transcripts/t-6633da03fc395f8d14e7fe6f.json) · [t-aba747d14d0fe80850d48f35](../../data/transcripts/t-aba747d14d0fe80850d48f35.json)
+[r-f6db8e60ec5934ec7feaa894](../../data/documents/r-f6db8e60ec5934ec7feaa894.json) · [t-aef29593acea38623f4f1271](../../data/documents/t-aef29593acea38623f4f1271.json) · [t-f08737762e19870ec1863004](../../data/documents/t-f08737762e19870ec1863004.json) · [r-3775621380235396a27973e5](../../data/documents/r-3775621380235396a27973e5.json) · [t-dd516a4046ece31ccc0f5b70](../../data/documents/t-dd516a4046ece31ccc0f5b70.json) · [t-e30ed69fe879b25dbe214af6](../../data/documents/t-e30ed69fe879b25dbe214af6.json) · [r-f17261ba54c5aecdbd528237](../../data/documents/r-f17261ba54c5aecdbd528237.json) · [t-6633da03fc395f8d14e7fe6f](../../data/documents/t-6633da03fc395f8d14e7fe6f.json) · [t-aba747d14d0fe80850d48f35](../../data/documents/t-aba747d14d0fe80850d48f35.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7538,7 +7538,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-581b1caab7cdc4aca5a71203](../../data/edited_transcripts/r-581b1caab7cdc4aca5a71203.json) · [t-84d237bd45df51dbcee9d4d1](../../data/transcripts/t-84d237bd45df51dbcee9d4d1.json) · [t-eb395e14367b866c09b9e38c](../../data/transcripts/t-eb395e14367b866c09b9e38c.json)
+[r-581b1caab7cdc4aca5a71203](../../data/documents/r-581b1caab7cdc4aca5a71203.json) · [t-84d237bd45df51dbcee9d4d1](../../data/documents/t-84d237bd45df51dbcee9d4d1.json) · [t-eb395e14367b866c09b9e38c](../../data/documents/t-eb395e14367b866c09b9e38c.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7560,7 +7560,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-fda7d6e5e21f28b36c227347](../../data/edited_transcripts/r-fda7d6e5e21f28b36c227347.json) · [t-27321eef4e987a149161c42d](../../data/transcripts/t-27321eef4e987a149161c42d.json) · [t-88a13af327cb3951137b7c5a](../../data/transcripts/t-88a13af327cb3951137b7c5a.json)
+[r-fda7d6e5e21f28b36c227347](../../data/documents/r-fda7d6e5e21f28b36c227347.json) · [t-27321eef4e987a149161c42d](../../data/documents/t-27321eef4e987a149161c42d.json) · [t-88a13af327cb3951137b7c5a](../../data/documents/t-88a13af327cb3951137b7c5a.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7582,7 +7582,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-a14d3eaa2dcc3c0cec6684a2](../../data/edited_transcripts/r-a14d3eaa2dcc3c0cec6684a2.json) · [t-9b40b3621c2e299ee97b238d](../../data/transcripts/t-9b40b3621c2e299ee97b238d.json) · [t-9b8de2135350b15ba9092bc4](../../data/transcripts/t-9b8de2135350b15ba9092bc4.json)
+[r-a14d3eaa2dcc3c0cec6684a2](../../data/documents/r-a14d3eaa2dcc3c0cec6684a2.json) · [t-9b40b3621c2e299ee97b238d](../../data/documents/t-9b40b3621c2e299ee97b238d.json) · [t-9b8de2135350b15ba9092bc4](../../data/documents/t-9b8de2135350b15ba9092bc4.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7605,7 +7605,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-39971f2e392dda60f7141c45](../../data/edited_transcripts/r-39971f2e392dda60f7141c45.json) · [t-159704be5d2ca01aca8fbeb1](../../data/transcripts/t-159704be5d2ca01aca8fbeb1.json) · [t-4940d9ff80a08a23987538ce](../../data/transcripts/t-4940d9ff80a08a23987538ce.json)
+[r-39971f2e392dda60f7141c45](../../data/documents/r-39971f2e392dda60f7141c45.json) · [t-159704be5d2ca01aca8fbeb1](../../data/documents/t-159704be5d2ca01aca8fbeb1.json) · [t-4940d9ff80a08a23987538ce](../../data/documents/t-4940d9ff80a08a23987538ce.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7628,7 +7628,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-77cb91d6fc67b04463a601e7](../../data/edited_transcripts/r-77cb91d6fc67b04463a601e7.json) · [t-6b268f5e7f85e77551b66651](../../data/transcripts/t-6b268f5e7f85e77551b66651.json) · [t-b4ec23ced18aa55a8995e725](../../data/transcripts/t-b4ec23ced18aa55a8995e725.json)
+[r-77cb91d6fc67b04463a601e7](../../data/documents/r-77cb91d6fc67b04463a601e7.json) · [t-6b268f5e7f85e77551b66651](../../data/documents/t-6b268f5e7f85e77551b66651.json) · [t-b4ec23ced18aa55a8995e725](../../data/documents/t-b4ec23ced18aa55a8995e725.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7650,7 +7650,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-a48307fe9b31826e454e2616](../../data/edited_transcripts/r-a48307fe9b31826e454e2616.json) · [t-de6845f8ce5473c553ccde24](../../data/transcripts/t-de6845f8ce5473c553ccde24.json)
+[r-a48307fe9b31826e454e2616](../../data/documents/r-a48307fe9b31826e454e2616.json) · [t-de6845f8ce5473c553ccde24](../../data/documents/t-de6845f8ce5473c553ccde24.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7673,7 +7673,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-bf54eb666916d07b469a263c](../../data/edited_transcripts/r-bf54eb666916d07b469a263c.json) · [t-7d8ca1520736ab7971ee0c77](../../data/transcripts/t-7d8ca1520736ab7971ee0c77.json)
+[r-bf54eb666916d07b469a263c](../../data/documents/r-bf54eb666916d07b469a263c.json) · [t-7d8ca1520736ab7971ee0c77](../../data/documents/t-7d8ca1520736ab7971ee0c77.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7695,7 +7695,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-0ac65cc7c2383d56c0571d69](../../data/edited_transcripts/r-0ac65cc7c2383d56c0571d69.json) · [t-2fd44b53d54c3632dcc89bdc](../../data/transcripts/t-2fd44b53d54c3632dcc89bdc.json)
+[r-0ac65cc7c2383d56c0571d69](../../data/documents/r-0ac65cc7c2383d56c0571d69.json) · [t-2fd44b53d54c3632dcc89bdc](../../data/documents/t-2fd44b53d54c3632dcc89bdc.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7718,7 +7718,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-37e5867d5f2ee57aa90f5004](../../data/edited_transcripts/r-37e5867d5f2ee57aa90f5004.json) · [t-41f5b50c6869c6acc5aef5e3](../../data/transcripts/t-41f5b50c6869c6acc5aef5e3.json)
+[r-37e5867d5f2ee57aa90f5004](../../data/documents/r-37e5867d5f2ee57aa90f5004.json) · [t-41f5b50c6869c6acc5aef5e3](../../data/documents/t-41f5b50c6869c6acc5aef5e3.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7740,7 +7740,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-5853b2884ce9dc6b32d7bea3](../../data/edited_transcripts/r-5853b2884ce9dc6b32d7bea3.json) · [t-026cfd5ead70152e069b4de9](../../data/transcripts/t-026cfd5ead70152e069b4de9.json) · [t-40392d6a5d86cd6b6d2a4b02](../../data/transcripts/t-40392d6a5d86cd6b6d2a4b02.json)
+[r-5853b2884ce9dc6b32d7bea3](../../data/documents/r-5853b2884ce9dc6b32d7bea3.json) · [t-026cfd5ead70152e069b4de9](../../data/documents/t-026cfd5ead70152e069b4de9.json) · [t-40392d6a5d86cd6b6d2a4b02](../../data/documents/t-40392d6a5d86cd6b6d2a4b02.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7763,7 +7763,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-00717590955666688f2c9347](../../data/edited_transcripts/r-00717590955666688f2c9347.json) · [t-7623744956c7b3c1a0059158](../../data/transcripts/t-7623744956c7b3c1a0059158.json) · [t-9e60ff4a0e84875dcbd028b3](../../data/transcripts/t-9e60ff4a0e84875dcbd028b3.json)
+[r-00717590955666688f2c9347](../../data/documents/r-00717590955666688f2c9347.json) · [t-7623744956c7b3c1a0059158](../../data/documents/t-7623744956c7b3c1a0059158.json) · [t-9e60ff4a0e84875dcbd028b3](../../data/documents/t-9e60ff4a0e84875dcbd028b3.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7785,7 +7785,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-40241bd83473275d1c3374de](../../data/edited_transcripts/r-40241bd83473275d1c3374de.json) · [t-030c62db5799b3b2eab4253d](../../data/transcripts/t-030c62db5799b3b2eab4253d.json) · [t-606a1c32cf15df25f25be461](../../data/transcripts/t-606a1c32cf15df25f25be461.json)
+[r-40241bd83473275d1c3374de](../../data/documents/r-40241bd83473275d1c3374de.json) · [t-030c62db5799b3b2eab4253d](../../data/documents/t-030c62db5799b3b2eab4253d.json) · [t-606a1c32cf15df25f25be461](../../data/documents/t-606a1c32cf15df25f25be461.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7808,7 +7808,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-5055ab554b9f2888fadb07c4](../../data/edited_transcripts/r-5055ab554b9f2888fadb07c4.json) · [t-66f7c200489a60c99275fca3](../../data/transcripts/t-66f7c200489a60c99275fca3.json) · [t-ea4e366c2a91b76ff8928e91](../../data/transcripts/t-ea4e366c2a91b76ff8928e91.json)
+[r-5055ab554b9f2888fadb07c4](../../data/documents/r-5055ab554b9f2888fadb07c4.json) · [t-66f7c200489a60c99275fca3](../../data/documents/t-66f7c200489a60c99275fca3.json) · [t-ea4e366c2a91b76ff8928e91](../../data/documents/t-ea4e366c2a91b76ff8928e91.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7831,7 +7831,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-7847462adf69969281ebdc50](../../data/edited_transcripts/r-7847462adf69969281ebdc50.json) · [t-530ccd99acf83d981a239574](../../data/transcripts/t-530ccd99acf83d981a239574.json) · [t-c05061a3668fb40cb6fd6c8f](../../data/transcripts/t-c05061a3668fb40cb6fd6c8f.json)
+[r-7847462adf69969281ebdc50](../../data/documents/r-7847462adf69969281ebdc50.json) · [t-530ccd99acf83d981a239574](../../data/documents/t-530ccd99acf83d981a239574.json) · [t-c05061a3668fb40cb6fd6c8f](../../data/documents/t-c05061a3668fb40cb6fd6c8f.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7854,7 +7854,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-f72cda5c375fa6591b3b9196](../../data/edited_transcripts/r-f72cda5c375fa6591b3b9196.json) · [t-0d335b69a243950e1d3b7742](../../data/transcripts/t-0d335b69a243950e1d3b7742.json) · [t-77a335f36b8e91c2c0cb23d9](../../data/transcripts/t-77a335f36b8e91c2c0cb23d9.json)
+[r-f72cda5c375fa6591b3b9196](../../data/documents/r-f72cda5c375fa6591b3b9196.json) · [t-0d335b69a243950e1d3b7742](../../data/documents/t-0d335b69a243950e1d3b7742.json) · [t-77a335f36b8e91c2c0cb23d9](../../data/documents/t-77a335f36b8e91c2c0cb23d9.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7876,7 +7876,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-784e76bd05aff3fca80e247c](../../data/edited_transcripts/r-784e76bd05aff3fca80e247c.json) · [t-283213159052ddae9e7e7adc](../../data/transcripts/t-283213159052ddae9e7e7adc.json) · [t-f505e26a96799699e72c7a83](../../data/transcripts/t-f505e26a96799699e72c7a83.json)
+[r-784e76bd05aff3fca80e247c](../../data/documents/r-784e76bd05aff3fca80e247c.json) · [t-283213159052ddae9e7e7adc](../../data/documents/t-283213159052ddae9e7e7adc.json) · [t-f505e26a96799699e72c7a83](../../data/documents/t-f505e26a96799699e72c7a83.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7899,7 +7899,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-8a7c65701b481867a4918db6](../../data/edited_transcripts/r-8a7c65701b481867a4918db6.json) · [t-28e402ecae9fac3749c1bc6c](../../data/transcripts/t-28e402ecae9fac3749c1bc6c.json) · [t-dd11976b7d53f77781e680a7](../../data/transcripts/t-dd11976b7d53f77781e680a7.json)
+[r-8a7c65701b481867a4918db6](../../data/documents/r-8a7c65701b481867a4918db6.json) · [t-28e402ecae9fac3749c1bc6c](../../data/documents/t-28e402ecae9fac3749c1bc6c.json) · [t-dd11976b7d53f77781e680a7](../../data/documents/t-dd11976b7d53f77781e680a7.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7922,7 +7922,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-2ec0a41d74eb539274d5b59c](../../data/edited_transcripts/r-2ec0a41d74eb539274d5b59c.json) · [t-5760e9be9c7f8672cdb089f5](../../data/transcripts/t-5760e9be9c7f8672cdb089f5.json) · [t-f2652ed35d74ed5998caa7f1](../../data/transcripts/t-f2652ed35d74ed5998caa7f1.json)
+[r-2ec0a41d74eb539274d5b59c](../../data/documents/r-2ec0a41d74eb539274d5b59c.json) · [t-5760e9be9c7f8672cdb089f5](../../data/documents/t-5760e9be9c7f8672cdb089f5.json) · [t-f2652ed35d74ed5998caa7f1](../../data/documents/t-f2652ed35d74ed5998caa7f1.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7945,7 +7945,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-5318f8e3e4157100293600f2](../../data/edited_transcripts/r-5318f8e3e4157100293600f2.json) · [t-96b030de1ade10334d9e4b85](../../data/transcripts/t-96b030de1ade10334d9e4b85.json)
+[r-5318f8e3e4157100293600f2](../../data/documents/r-5318f8e3e4157100293600f2.json) · [t-96b030de1ade10334d9e4b85](../../data/documents/t-96b030de1ade10334d9e4b85.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7968,7 +7968,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-e718cb7af43e5386951607d7](../../data/edited_transcripts/r-e718cb7af43e5386951607d7.json) · [t-11188f2e3f8f7a3cd9567035](../../data/transcripts/t-11188f2e3f8f7a3cd9567035.json) · [t-6fbaf207f8ac4224cbf6e170](../../data/transcripts/t-6fbaf207f8ac4224cbf6e170.json)
+[r-e718cb7af43e5386951607d7](../../data/documents/r-e718cb7af43e5386951607d7.json) · [t-11188f2e3f8f7a3cd9567035](../../data/documents/t-11188f2e3f8f7a3cd9567035.json) · [t-6fbaf207f8ac4224cbf6e170](../../data/documents/t-6fbaf207f8ac4224cbf6e170.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -7991,7 +7991,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-f846c59aaa948a59fa4eb4fe](../../data/edited_transcripts/r-f846c59aaa948a59fa4eb4fe.json) · [t-a4152f94571c82741039b18b](../../data/transcripts/t-a4152f94571c82741039b18b.json) · [t-b411b814056f3912fdcc7283](../../data/transcripts/t-b411b814056f3912fdcc7283.json)
+[r-f846c59aaa948a59fa4eb4fe](../../data/documents/r-f846c59aaa948a59fa4eb4fe.json) · [t-a4152f94571c82741039b18b](../../data/documents/t-a4152f94571c82741039b18b.json) · [t-b411b814056f3912fdcc7283](../../data/documents/t-b411b814056f3912fdcc7283.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8014,7 +8014,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-71e85ee5431d742fad348a84](../../data/edited_transcripts/r-71e85ee5431d742fad348a84.json) · [t-51eae1c1fcce75c4acf9449f](../../data/transcripts/t-51eae1c1fcce75c4acf9449f.json) · [t-ebca99ffafcdf24f4e1358c4](../../data/transcripts/t-ebca99ffafcdf24f4e1358c4.json)
+[r-71e85ee5431d742fad348a84](../../data/documents/r-71e85ee5431d742fad348a84.json) · [t-51eae1c1fcce75c4acf9449f](../../data/documents/t-51eae1c1fcce75c4acf9449f.json) · [t-ebca99ffafcdf24f4e1358c4](../../data/documents/t-ebca99ffafcdf24f4e1358c4.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8037,7 +8037,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-2363108cb3b956272839e874](../../data/edited_transcripts/r-2363108cb3b956272839e874.json) · [t-c7b0756539aa75c9c6820952](../../data/transcripts/t-c7b0756539aa75c9c6820952.json)
+[r-2363108cb3b956272839e874](../../data/documents/r-2363108cb3b956272839e874.json) · [t-c7b0756539aa75c9c6820952](../../data/documents/t-c7b0756539aa75c9c6820952.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8060,7 +8060,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-2f12ba6649be841978909005](../../data/edited_transcripts/r-2f12ba6649be841978909005.json) · [t-59b8b13e7d844314ae13723d](../../data/transcripts/t-59b8b13e7d844314ae13723d.json)
+[r-2f12ba6649be841978909005](../../data/documents/r-2f12ba6649be841978909005.json) · [t-59b8b13e7d844314ae13723d](../../data/documents/t-59b8b13e7d844314ae13723d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8082,7 +8082,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-9704f1678e535d95010ab08e](../../data/edited_transcripts/r-9704f1678e535d95010ab08e.json) · [t-15ba9485cc43ab6cbba88cf6](../../data/transcripts/t-15ba9485cc43ab6cbba88cf6.json) · [t-3f9e0aed6d1b24643ddca559](../../data/transcripts/t-3f9e0aed6d1b24643ddca559.json)
+[r-9704f1678e535d95010ab08e](../../data/documents/r-9704f1678e535d95010ab08e.json) · [t-15ba9485cc43ab6cbba88cf6](../../data/documents/t-15ba9485cc43ab6cbba88cf6.json) · [t-3f9e0aed6d1b24643ddca559](../../data/documents/t-3f9e0aed6d1b24643ddca559.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8104,7 +8104,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-edd58bbdf64c926a7e1836b8](../../data/edited_transcripts/r-edd58bbdf64c926a7e1836b8.json) · [t-637c34d975759477c927fff9](../../data/transcripts/t-637c34d975759477c927fff9.json) · [t-f65c8eac5d1837a2accbf3b2](../../data/transcripts/t-f65c8eac5d1837a2accbf3b2.json)
+[r-edd58bbdf64c926a7e1836b8](../../data/documents/r-edd58bbdf64c926a7e1836b8.json) · [t-637c34d975759477c927fff9](../../data/documents/t-637c34d975759477c927fff9.json) · [t-f65c8eac5d1837a2accbf3b2](../../data/documents/t-f65c8eac5d1837a2accbf3b2.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8126,7 +8126,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-fd2a4ab19a0f39ae432a30a4](../../data/edited_transcripts/r-fd2a4ab19a0f39ae432a30a4.json) · [t-5810b6268b1c5b8e75439b67](../../data/transcripts/t-5810b6268b1c5b8e75439b67.json) · [t-fa561d4d690ba0ffa84e871f](../../data/transcripts/t-fa561d4d690ba0ffa84e871f.json)
+[r-fd2a4ab19a0f39ae432a30a4](../../data/documents/r-fd2a4ab19a0f39ae432a30a4.json) · [t-5810b6268b1c5b8e75439b67](../../data/documents/t-5810b6268b1c5b8e75439b67.json) · [t-fa561d4d690ba0ffa84e871f](../../data/documents/t-fa561d4d690ba0ffa84e871f.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8148,7 +8148,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-a271136ef1162c4c6ac49042](../../data/edited_transcripts/r-a271136ef1162c4c6ac49042.json) · [t-6a6e4ad6363554f8d54f3216](../../data/transcripts/t-6a6e4ad6363554f8d54f3216.json) · [t-da2fb4b71dcb408902930c83](../../data/transcripts/t-da2fb4b71dcb408902930c83.json)
+[r-a271136ef1162c4c6ac49042](../../data/documents/r-a271136ef1162c4c6ac49042.json) · [t-6a6e4ad6363554f8d54f3216](../../data/documents/t-6a6e4ad6363554f8d54f3216.json) · [t-da2fb4b71dcb408902930c83](../../data/documents/t-da2fb4b71dcb408902930c83.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8171,7 +8171,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-5caed5b5bf77b1092baef140](../../data/edited_transcripts/r-5caed5b5bf77b1092baef140.json) · [t-472c0afac97c1fcefa20e196](../../data/transcripts/t-472c0afac97c1fcefa20e196.json) · [t-fdfab1688389a15061e26c92](../../data/transcripts/t-fdfab1688389a15061e26c92.json)
+[r-5caed5b5bf77b1092baef140](../../data/documents/r-5caed5b5bf77b1092baef140.json) · [t-472c0afac97c1fcefa20e196](../../data/documents/t-472c0afac97c1fcefa20e196.json) · [t-fdfab1688389a15061e26c92](../../data/documents/t-fdfab1688389a15061e26c92.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8193,7 +8193,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-284222cbc698c0a109b699ae](../../data/edited_transcripts/r-284222cbc698c0a109b699ae.json) · [t-98b2732c9007a9deca328e8d](../../data/transcripts/t-98b2732c9007a9deca328e8d.json) · [t-be770eaf9fd529d5c6f1edb5](../../data/transcripts/t-be770eaf9fd529d5c6f1edb5.json)
+[r-284222cbc698c0a109b699ae](../../data/documents/r-284222cbc698c0a109b699ae.json) · [t-98b2732c9007a9deca328e8d](../../data/documents/t-98b2732c9007a9deca328e8d.json) · [t-be770eaf9fd529d5c6f1edb5](../../data/documents/t-be770eaf9fd529d5c6f1edb5.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8215,7 +8215,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-d68d122d1a9f0cf1ee6e07ab](../../data/edited_transcripts/r-d68d122d1a9f0cf1ee6e07ab.json) · [t-233276e6924c340095c03863](../../data/transcripts/t-233276e6924c340095c03863.json) · [t-f1cd0ab1b393f7ae10469087](../../data/transcripts/t-f1cd0ab1b393f7ae10469087.json)
+[r-d68d122d1a9f0cf1ee6e07ab](../../data/documents/r-d68d122d1a9f0cf1ee6e07ab.json) · [t-233276e6924c340095c03863](../../data/documents/t-233276e6924c340095c03863.json) · [t-f1cd0ab1b393f7ae10469087](../../data/documents/t-f1cd0ab1b393f7ae10469087.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8238,7 +8238,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-51d8f1b98e18858ea7c0ac4e](../../data/edited_transcripts/r-51d8f1b98e18858ea7c0ac4e.json) · [t-362dfd7e4de415872b58c549](../../data/transcripts/t-362dfd7e4de415872b58c549.json) · [t-39bf155a42b38a6af83003ee](../../data/transcripts/t-39bf155a42b38a6af83003ee.json)
+[r-51d8f1b98e18858ea7c0ac4e](../../data/documents/r-51d8f1b98e18858ea7c0ac4e.json) · [t-362dfd7e4de415872b58c549](../../data/documents/t-362dfd7e4de415872b58c549.json) · [t-39bf155a42b38a6af83003ee](../../data/documents/t-39bf155a42b38a6af83003ee.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8260,7 +8260,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-38c0dbe240b3144cded42edb](../../data/edited_transcripts/r-38c0dbe240b3144cded42edb.json) · [t-7a8a01a008d94673f9b9f0dd](../../data/transcripts/t-7a8a01a008d94673f9b9f0dd.json) · [t-c3d15e6715d28279d1fc2197](../../data/transcripts/t-c3d15e6715d28279d1fc2197.json)
+[r-38c0dbe240b3144cded42edb](../../data/documents/r-38c0dbe240b3144cded42edb.json) · [t-7a8a01a008d94673f9b9f0dd](../../data/documents/t-7a8a01a008d94673f9b9f0dd.json) · [t-c3d15e6715d28279d1fc2197](../../data/documents/t-c3d15e6715d28279d1fc2197.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8282,7 +8282,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-166f30bcb795cd1c4b059b9b](../../data/edited_transcripts/r-166f30bcb795cd1c4b059b9b.json) · [t-1e6faf737b3aec2b2f2ec42b](../../data/transcripts/t-1e6faf737b3aec2b2f2ec42b.json) · [t-5af4a192a721d677fddc7121](../../data/transcripts/t-5af4a192a721d677fddc7121.json) · [r-0c8c6bd26091665261dd9d68](../../data/edited_transcripts/r-0c8c6bd26091665261dd9d68.json) · [t-01ab035e299476308d420673](../../data/transcripts/t-01ab035e299476308d420673.json) · [t-eea06c4b0616695aeba383b0](../../data/transcripts/t-eea06c4b0616695aeba383b0.json)
+[r-166f30bcb795cd1c4b059b9b](../../data/documents/r-166f30bcb795cd1c4b059b9b.json) · [t-1e6faf737b3aec2b2f2ec42b](../../data/documents/t-1e6faf737b3aec2b2f2ec42b.json) · [t-5af4a192a721d677fddc7121](../../data/documents/t-5af4a192a721d677fddc7121.json) · [r-0c8c6bd26091665261dd9d68](../../data/documents/r-0c8c6bd26091665261dd9d68.json) · [t-01ab035e299476308d420673](../../data/documents/t-01ab035e299476308d420673.json) · [t-eea06c4b0616695aeba383b0](../../data/documents/t-eea06c4b0616695aeba383b0.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8304,7 +8304,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-5259bf26e33f79ce3be5a8c0](../../data/edited_transcripts/r-5259bf26e33f79ce3be5a8c0.json) · [t-becd180a26d64e796ef2ba71](../../data/transcripts/t-becd180a26d64e796ef2ba71.json)
+[r-5259bf26e33f79ce3be5a8c0](../../data/documents/r-5259bf26e33f79ce3be5a8c0.json) · [t-becd180a26d64e796ef2ba71](../../data/documents/t-becd180a26d64e796ef2ba71.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8327,7 +8327,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-b120c22e47ace87625ef1243](../../data/edited_transcripts/r-b120c22e47ace87625ef1243.json) · [t-31def12e5f7efe5f1a0cc52e](../../data/transcripts/t-31def12e5f7efe5f1a0cc52e.json) · [t-eed39b40443d1664759682fa](../../data/transcripts/t-eed39b40443d1664759682fa.json)
+[r-b120c22e47ace87625ef1243](../../data/documents/r-b120c22e47ace87625ef1243.json) · [t-31def12e5f7efe5f1a0cc52e](../../data/documents/t-31def12e5f7efe5f1a0cc52e.json) · [t-eed39b40443d1664759682fa](../../data/documents/t-eed39b40443d1664759682fa.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8350,7 +8350,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 4；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-ae6f4a9390b7110b04c588a7](../../data/edited_transcripts/r-ae6f4a9390b7110b04c588a7.json) · [t-3ae7d47834fd10e91b5fd7f5](../../data/transcripts/t-3ae7d47834fd10e91b5fd7f5.json) · [t-4b08989a635c4a3887cdd7be](../../data/transcripts/t-4b08989a635c4a3887cdd7be.json) · [r-e4e34ac7be687d63d81b67b8](../../data/edited_transcripts/r-e4e34ac7be687d63d81b67b8.json) · [t-39aa92b489fef7478d70ef73](../../data/transcripts/t-39aa92b489fef7478d70ef73.json) · [t-3e143988bc1a2e448d6a6ac5](../../data/transcripts/t-3e143988bc1a2e448d6a6ac5.json)
+[r-ae6f4a9390b7110b04c588a7](../../data/documents/r-ae6f4a9390b7110b04c588a7.json) · [t-3ae7d47834fd10e91b5fd7f5](../../data/documents/t-3ae7d47834fd10e91b5fd7f5.json) · [t-4b08989a635c4a3887cdd7be](../../data/documents/t-4b08989a635c4a3887cdd7be.json) · [r-e4e34ac7be687d63d81b67b8](../../data/documents/r-e4e34ac7be687d63d81b67b8.json) · [t-39aa92b489fef7478d70ef73](../../data/documents/t-39aa92b489fef7478d70ef73.json) · [t-3e143988bc1a2e448d6a6ac5](../../data/documents/t-3e143988bc1a2e448d6a6ac5.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8372,7 +8372,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-7469a3e0ff1ae94d15a3563b](../../data/edited_transcripts/r-7469a3e0ff1ae94d15a3563b.json) · [t-1d8036f6fe69c6046af6f9f2](../../data/transcripts/t-1d8036f6fe69c6046af6f9f2.json) · [t-f3f053248a26641055c13ae9](../../data/transcripts/t-f3f053248a26641055c13ae9.json)
+[r-7469a3e0ff1ae94d15a3563b](../../data/documents/r-7469a3e0ff1ae94d15a3563b.json) · [t-1d8036f6fe69c6046af6f9f2](../../data/documents/t-1d8036f6fe69c6046af6f9f2.json) · [t-f3f053248a26641055c13ae9](../../data/documents/t-f3f053248a26641055c13ae9.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8395,7 +8395,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-6ca0340d5d7b9553069a50f2](../../data/edited_transcripts/r-6ca0340d5d7b9553069a50f2.json) · [t-d8828f28f82e0e5d01dec328](../../data/transcripts/t-d8828f28f82e0e5d01dec328.json) · [t-ee44a8917ed89c7cc52d0e1f](../../data/transcripts/t-ee44a8917ed89c7cc52d0e1f.json)
+[r-6ca0340d5d7b9553069a50f2](../../data/documents/r-6ca0340d5d7b9553069a50f2.json) · [t-d8828f28f82e0e5d01dec328](../../data/documents/t-d8828f28f82e0e5d01dec328.json) · [t-ee44a8917ed89c7cc52d0e1f](../../data/documents/t-ee44a8917ed89c7cc52d0e1f.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8418,7 +8418,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 3；整理稿 2；完成且非空非填充词候选 2；其中全文人工审核 0
 
-[r-1693da851d4fdcaab9f9b388](../../data/edited_transcripts/r-1693da851d4fdcaab9f9b388.json) · [t-1b3ebf69192d23884f5e69b5](../../data/transcripts/t-1b3ebf69192d23884f5e69b5.json) · [t-32bb8284a252314fb66d08f0](../../data/transcripts/t-32bb8284a252314fb66d08f0.json) · [r-ddcd262521b3c2c9aafe52dd](../../data/edited_transcripts/r-ddcd262521b3c2c9aafe52dd.json) · [t-2657a1d949183db6c9d13940](../../data/transcripts/t-2657a1d949183db6c9d13940.json)
+[r-1693da851d4fdcaab9f9b388](../../data/documents/r-1693da851d4fdcaab9f9b388.json) · [t-1b3ebf69192d23884f5e69b5](../../data/documents/t-1b3ebf69192d23884f5e69b5.json) · [t-32bb8284a252314fb66d08f0](../../data/documents/t-32bb8284a252314fb66d08f0.json) · [r-ddcd262521b3c2c9aafe52dd](../../data/documents/r-ddcd262521b3c2c9aafe52dd.json) · [t-2657a1d949183db6c9d13940](../../data/documents/t-2657a1d949183db6c9d13940.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8441,7 +8441,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-34ddd80d74b9fb24a8ab338d](../../data/edited_transcripts/r-34ddd80d74b9fb24a8ab338d.json) · [t-4685bcc4c7d7048efbdff12e](../../data/transcripts/t-4685bcc4c7d7048efbdff12e.json) · [t-c372e548aa5eeb996610e085](../../data/transcripts/t-c372e548aa5eeb996610e085.json)
+[r-34ddd80d74b9fb24a8ab338d](../../data/documents/r-34ddd80d74b9fb24a8ab338d.json) · [t-4685bcc4c7d7048efbdff12e](../../data/documents/t-4685bcc4c7d7048efbdff12e.json) · [t-c372e548aa5eeb996610e085](../../data/documents/t-c372e548aa5eeb996610e085.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8463,7 +8463,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-a623d4df7218944fceac2f3b](../../data/edited_transcripts/r-a623d4df7218944fceac2f3b.json) · [t-4b6d451a8be5321574e2d7e0](../../data/transcripts/t-4b6d451a8be5321574e2d7e0.json) · [t-dbbf30e6f83c1a63fe554746](../../data/transcripts/t-dbbf30e6f83c1a63fe554746.json)
+[r-a623d4df7218944fceac2f3b](../../data/documents/r-a623d4df7218944fceac2f3b.json) · [t-4b6d451a8be5321574e2d7e0](../../data/documents/t-4b6d451a8be5321574e2d7e0.json) · [t-dbbf30e6f83c1a63fe554746](../../data/documents/t-dbbf30e6f83c1a63fe554746.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8485,7 +8485,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-8a58dfcc0cb1e080ec89cb92](../../data/edited_transcripts/r-8a58dfcc0cb1e080ec89cb92.json) · [t-18fdc69e6bfccc12ca466c2e](../../data/transcripts/t-18fdc69e6bfccc12ca466c2e.json) · [t-8f2ec84c7f6c7b7076dbb55b](../../data/transcripts/t-8f2ec84c7f6c7b7076dbb55b.json)
+[r-8a58dfcc0cb1e080ec89cb92](../../data/documents/r-8a58dfcc0cb1e080ec89cb92.json) · [t-18fdc69e6bfccc12ca466c2e](../../data/documents/t-18fdc69e6bfccc12ca466c2e.json) · [t-8f2ec84c7f6c7b7076dbb55b](../../data/documents/t-8f2ec84c7f6c7b7076dbb55b.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8507,7 +8507,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-be1a38eae2c9b0efd5974001](../../data/edited_transcripts/r-be1a38eae2c9b0efd5974001.json) · [t-828b9fa1d89c55f4d745f030](../../data/transcripts/t-828b9fa1d89c55f4d745f030.json) · [t-9205afaacdfc73cbed54d5df](../../data/transcripts/t-9205afaacdfc73cbed54d5df.json)
+[r-be1a38eae2c9b0efd5974001](../../data/documents/r-be1a38eae2c9b0efd5974001.json) · [t-828b9fa1d89c55f4d745f030](../../data/documents/t-828b9fa1d89c55f4d745f030.json) · [t-9205afaacdfc73cbed54d5df](../../data/documents/t-9205afaacdfc73cbed54d5df.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8530,7 +8530,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-1d8d628deb8ff60f960933a6](../../data/edited_transcripts/r-1d8d628deb8ff60f960933a6.json) · [t-1006d90366983bde646be90a](../../data/transcripts/t-1006d90366983bde646be90a.json) · [t-2844180cb219c816149f3b59](../../data/transcripts/t-2844180cb219c816149f3b59.json)
+[r-1d8d628deb8ff60f960933a6](../../data/documents/r-1d8d628deb8ff60f960933a6.json) · [t-1006d90366983bde646be90a](../../data/documents/t-1006d90366983bde646be90a.json) · [t-2844180cb219c816149f3b59](../../data/documents/t-2844180cb219c816149f3b59.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8553,7 +8553,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-67e5b18eba99ed4777a9feb3](../../data/edited_transcripts/r-67e5b18eba99ed4777a9feb3.json) · [t-7024737fe4dfc5731835d0e6](../../data/transcripts/t-7024737fe4dfc5731835d0e6.json) · [t-f574a79cf9f35be289d371b1](../../data/transcripts/t-f574a79cf9f35be289d371b1.json)
+[r-67e5b18eba99ed4777a9feb3](../../data/documents/r-67e5b18eba99ed4777a9feb3.json) · [t-7024737fe4dfc5731835d0e6](../../data/documents/t-7024737fe4dfc5731835d0e6.json) · [t-f574a79cf9f35be289d371b1](../../data/documents/t-f574a79cf9f35be289d371b1.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8575,7 +8575,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-34e63293c0488db5ce07b321](../../data/edited_transcripts/r-34e63293c0488db5ce07b321.json) · [t-c9817de51f40f5e63fb9c9e1](../../data/transcripts/t-c9817de51f40f5e63fb9c9e1.json) · [t-e7a299e08aa9fb54b9b187ec](../../data/transcripts/t-e7a299e08aa9fb54b9b187ec.json)
+[r-34e63293c0488db5ce07b321](../../data/documents/r-34e63293c0488db5ce07b321.json) · [t-c9817de51f40f5e63fb9c9e1](../../data/documents/t-c9817de51f40f5e63fb9c9e1.json) · [t-e7a299e08aa9fb54b9b187ec](../../data/documents/t-e7a299e08aa9fb54b9b187ec.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8597,7 +8597,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-4bf010c796420a0da58e380d](../../data/edited_transcripts/r-4bf010c796420a0da58e380d.json) · [t-39d82259add717975ecd7b9d](../../data/transcripts/t-39d82259add717975ecd7b9d.json) · [t-643ed85be16660795f7f2946](../../data/transcripts/t-643ed85be16660795f7f2946.json)
+[r-4bf010c796420a0da58e380d](../../data/documents/r-4bf010c796420a0da58e380d.json) · [t-39d82259add717975ecd7b9d](../../data/documents/t-39d82259add717975ecd7b9d.json) · [t-643ed85be16660795f7f2946](../../data/documents/t-643ed85be16660795f7f2946.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8619,7 +8619,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-9f03de026cde2ebf4b63c018](../../data/edited_transcripts/r-9f03de026cde2ebf4b63c018.json) · [t-4aff96134bdcb30a42d58aa0](../../data/transcripts/t-4aff96134bdcb30a42d58aa0.json) · [t-ac66c6c6ad6c9dc35e7607a2](../../data/transcripts/t-ac66c6c6ad6c9dc35e7607a2.json)
+[r-9f03de026cde2ebf4b63c018](../../data/documents/r-9f03de026cde2ebf4b63c018.json) · [t-4aff96134bdcb30a42d58aa0](../../data/documents/t-4aff96134bdcb30a42d58aa0.json) · [t-ac66c6c6ad6c9dc35e7607a2](../../data/documents/t-ac66c6c6ad6c9dc35e7607a2.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8642,7 +8642,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-c07f751b22bce8933fe6228d](../../data/edited_transcripts/r-c07f751b22bce8933fe6228d.json) · [t-42132fd2eb3f5a164f479194](../../data/transcripts/t-42132fd2eb3f5a164f479194.json) · [t-c136b1e51fb1f047cf3c5b50](../../data/transcripts/t-c136b1e51fb1f047cf3c5b50.json)
+[r-c07f751b22bce8933fe6228d](../../data/documents/r-c07f751b22bce8933fe6228d.json) · [t-42132fd2eb3f5a164f479194](../../data/documents/t-42132fd2eb3f5a164f479194.json) · [t-c136b1e51fb1f047cf3c5b50](../../data/documents/t-c136b1e51fb1f047cf3c5b50.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8664,7 +8664,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-53f2287baefd7854d858a11b](../../data/edited_transcripts/r-53f2287baefd7854d858a11b.json) · [t-1144768eece70334706aaf0a](../../data/transcripts/t-1144768eece70334706aaf0a.json)
+[r-53f2287baefd7854d858a11b](../../data/documents/r-53f2287baefd7854d858a11b.json) · [t-1144768eece70334706aaf0a](../../data/documents/t-1144768eece70334706aaf0a.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8686,7 +8686,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-dd8df1d49ec0c7105b2387a6](../../data/edited_transcripts/r-dd8df1d49ec0c7105b2387a6.json) · [t-6e6b6170b93eb414a9e6b82f](../../data/transcripts/t-6e6b6170b93eb414a9e6b82f.json) · [t-f8bab5c309cf8983a0a2c420](../../data/transcripts/t-f8bab5c309cf8983a0a2c420.json)
+[r-dd8df1d49ec0c7105b2387a6](../../data/documents/r-dd8df1d49ec0c7105b2387a6.json) · [t-6e6b6170b93eb414a9e6b82f](../../data/documents/t-6e6b6170b93eb414a9e6b82f.json) · [t-f8bab5c309cf8983a0a2c420](../../data/documents/t-f8bab5c309cf8983a0a2c420.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8708,7 +8708,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-a020c13ea5c7eef800cef39d](../../data/edited_transcripts/r-a020c13ea5c7eef800cef39d.json) · [t-d8963063a696ba1f54b0143c](../../data/transcripts/t-d8963063a696ba1f54b0143c.json)
+[r-a020c13ea5c7eef800cef39d](../../data/documents/r-a020c13ea5c7eef800cef39d.json) · [t-d8963063a696ba1f54b0143c](../../data/documents/t-d8963063a696ba1f54b0143c.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8730,7 +8730,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-484b9238b8aed843c8b33eed](../../data/edited_transcripts/r-484b9238b8aed843c8b33eed.json) · [t-9c19c4f2761f7ef7bc7863d2](../../data/transcripts/t-9c19c4f2761f7ef7bc7863d2.json) · [t-dcb3e079403aa85b4e9af340](../../data/transcripts/t-dcb3e079403aa85b4e9af340.json)
+[r-484b9238b8aed843c8b33eed](../../data/documents/r-484b9238b8aed843c8b33eed.json) · [t-9c19c4f2761f7ef7bc7863d2](../../data/documents/t-9c19c4f2761f7ef7bc7863d2.json) · [t-dcb3e079403aa85b4e9af340](../../data/documents/t-dcb3e079403aa85b4e9af340.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8753,7 +8753,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-b69604d3091c9f2122f647a7](../../data/edited_transcripts/r-b69604d3091c9f2122f647a7.json) · [t-b93a8f46cdf07fc766b7a559](../../data/transcripts/t-b93a8f46cdf07fc766b7a559.json) · [t-bd616acdc780fce88026c052](../../data/transcripts/t-bd616acdc780fce88026c052.json)
+[r-b69604d3091c9f2122f647a7](../../data/documents/r-b69604d3091c9f2122f647a7.json) · [t-b93a8f46cdf07fc766b7a559](../../data/documents/t-b93a8f46cdf07fc766b7a559.json) · [t-bd616acdc780fce88026c052](../../data/documents/t-bd616acdc780fce88026c052.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8776,7 +8776,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-45cb9aa35ea77a6f4ae5a25b](../../data/edited_transcripts/r-45cb9aa35ea77a6f4ae5a25b.json) · [t-16164bc09aeba8ceece51032](../../data/transcripts/t-16164bc09aeba8ceece51032.json) · [t-834092ff4c747076859c7486](../../data/transcripts/t-834092ff4c747076859c7486.json)
+[r-45cb9aa35ea77a6f4ae5a25b](../../data/documents/r-45cb9aa35ea77a6f4ae5a25b.json) · [t-16164bc09aeba8ceece51032](../../data/documents/t-16164bc09aeba8ceece51032.json) · [t-834092ff4c747076859c7486](../../data/documents/t-834092ff4c747076859c7486.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8798,7 +8798,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-1be5c4421696dce16bf9d98f](../../data/edited_transcripts/r-1be5c4421696dce16bf9d98f.json) · [t-e9b4bef83d749bb7ca706762](../../data/transcripts/t-e9b4bef83d749bb7ca706762.json)
+[r-1be5c4421696dce16bf9d98f](../../data/documents/r-1be5c4421696dce16bf9d98f.json) · [t-e9b4bef83d749bb7ca706762](../../data/documents/t-e9b4bef83d749bb7ca706762.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8820,7 +8820,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-647e904eef14c483260a4920](../../data/edited_transcripts/r-647e904eef14c483260a4920.json) · [t-1453364728681f192d382f98](../../data/transcripts/t-1453364728681f192d382f98.json)
+[r-647e904eef14c483260a4920](../../data/documents/r-647e904eef14c483260a4920.json) · [t-1453364728681f192d382f98](../../data/documents/t-1453364728681f192d382f98.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8842,7 +8842,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-b3b5d5ac831d08d5b973df99](../../data/edited_transcripts/r-b3b5d5ac831d08d5b973df99.json) · [t-25cfacc5f2ab7199fc1caa39](../../data/transcripts/t-25cfacc5f2ab7199fc1caa39.json)
+[r-b3b5d5ac831d08d5b973df99](../../data/documents/r-b3b5d5ac831d08d5b973df99.json) · [t-25cfacc5f2ab7199fc1caa39](../../data/documents/t-25cfacc5f2ab7199fc1caa39.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8864,7 +8864,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-a664d2793d99f2479edd18c5](../../data/edited_transcripts/r-a664d2793d99f2479edd18c5.json) · [t-f7a09f5f1232afcea7c3db2d](../../data/transcripts/t-f7a09f5f1232afcea7c3db2d.json)
+[r-a664d2793d99f2479edd18c5](../../data/documents/r-a664d2793d99f2479edd18c5.json) · [t-f7a09f5f1232afcea7c3db2d](../../data/documents/t-f7a09f5f1232afcea7c3db2d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8886,7 +8886,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-9a1fb82ca3e4e20969e28bd2](../../data/edited_transcripts/r-9a1fb82ca3e4e20969e28bd2.json) · [t-22dd82f96f0d379472d8af6b](../../data/transcripts/t-22dd82f96f0d379472d8af6b.json) · [t-482c8bf9193d274cf53c1a6d](../../data/transcripts/t-482c8bf9193d274cf53c1a6d.json)
+[r-9a1fb82ca3e4e20969e28bd2](../../data/documents/r-9a1fb82ca3e4e20969e28bd2.json) · [t-22dd82f96f0d379472d8af6b](../../data/documents/t-22dd82f96f0d379472d8af6b.json) · [t-482c8bf9193d274cf53c1a6d](../../data/documents/t-482c8bf9193d274cf53c1a6d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8908,7 +8908,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-c543d919f8ddcdc1255d195a](../../data/edited_transcripts/r-c543d919f8ddcdc1255d195a.json) · [t-e12eac6d342cffeec9f7a826](../../data/transcripts/t-e12eac6d342cffeec9f7a826.json)
+[r-c543d919f8ddcdc1255d195a](../../data/documents/r-c543d919f8ddcdc1255d195a.json) · [t-e12eac6d342cffeec9f7a826](../../data/documents/t-e12eac6d342cffeec9f7a826.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8930,7 +8930,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 3；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-e218b0a4f4d57ebb0ca1ee8c](../../data/edited_transcripts/r-e218b0a4f4d57ebb0ca1ee8c.json) · [t-3aa202d0cf2e4de90e39de81](../../data/transcripts/t-3aa202d0cf2e4de90e39de81.json) · [t-6f8eef1af52d9516c3fe863c](../../data/transcripts/t-6f8eef1af52d9516c3fe863c.json) · [t-bf786aa39b8c16cf879cb006](../../data/transcripts/t-bf786aa39b8c16cf879cb006.json)
+[r-e218b0a4f4d57ebb0ca1ee8c](../../data/documents/r-e218b0a4f4d57ebb0ca1ee8c.json) · [t-3aa202d0cf2e4de90e39de81](../../data/documents/t-3aa202d0cf2e4de90e39de81.json) · [t-6f8eef1af52d9516c3fe863c](../../data/documents/t-6f8eef1af52d9516c3fe863c.json) · [t-bf786aa39b8c16cf879cb006](../../data/documents/t-bf786aa39b8c16cf879cb006.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8952,7 +8952,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 1；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-58bf7cd08722de314df443f1](../../data/edited_transcripts/r-58bf7cd08722de314df443f1.json) · [t-7b280d279fc1971f0607e2ee](../../data/transcripts/t-7b280d279fc1971f0607e2ee.json)
+[r-58bf7cd08722de314df443f1](../../data/documents/r-58bf7cd08722de314df443f1.json) · [t-7b280d279fc1971f0607e2ee](../../data/documents/t-7b280d279fc1971f0607e2ee.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8974,7 +8974,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 16；整理稿 8；完成且非空非填充词候选 8；其中全文人工审核 0
 
-[r-91f437d290a54922085ef384](../../data/edited_transcripts/r-91f437d290a54922085ef384.json) · [t-66e728118cf3c3731b64ab35](../../data/transcripts/t-66e728118cf3c3731b64ab35.json) · [t-eb5279185a6b3fedf562c1d8](../../data/transcripts/t-eb5279185a6b3fedf562c1d8.json) · [r-1065fbcb9383ae39b4faa018](../../data/edited_transcripts/r-1065fbcb9383ae39b4faa018.json) · [t-b7fb50f120eb0ce3e677d75a](../../data/transcripts/t-b7fb50f120eb0ce3e677d75a.json) · [t-df3c93e5a945976718100b9f](../../data/transcripts/t-df3c93e5a945976718100b9f.json) · [r-254302021458568f20a41a26](../../data/edited_transcripts/r-254302021458568f20a41a26.json) · [t-1e8e1092e4a9dba118a42e21](../../data/transcripts/t-1e8e1092e4a9dba118a42e21.json) · [t-6b24a79c994c414e9a92285b](../../data/transcripts/t-6b24a79c994c414e9a92285b.json) · [r-e60b14f09d24f4440c991377](../../data/edited_transcripts/r-e60b14f09d24f4440c991377.json) · [t-9b170e124412f170cc76e5f0](../../data/transcripts/t-9b170e124412f170cc76e5f0.json) · [t-d939bb6f04f7e5ba7c0d5a7e](../../data/transcripts/t-d939bb6f04f7e5ba7c0d5a7e.json) · [r-a7133bcb0a5f0e10d1a4cc0a](../../data/edited_transcripts/r-a7133bcb0a5f0e10d1a4cc0a.json) · [t-6c0aecc388dbea21c2599a50](../../data/transcripts/t-6c0aecc388dbea21c2599a50.json) · [t-cfea8235f04af02fad81bb4c](../../data/transcripts/t-cfea8235f04af02fad81bb4c.json) · [r-94ae285fdd6c369b41500d2d](../../data/edited_transcripts/r-94ae285fdd6c369b41500d2d.json) · [t-2c55ee5f0334a9342627c8e8](../../data/transcripts/t-2c55ee5f0334a9342627c8e8.json) · [t-523c1b5235cd75dd785e6354](../../data/transcripts/t-523c1b5235cd75dd785e6354.json) · [r-316fd4630832ad162d678fc9](../../data/edited_transcripts/r-316fd4630832ad162d678fc9.json) · [t-8395add632366539be798b82](../../data/transcripts/t-8395add632366539be798b82.json) · [t-b1f2860e80aa51bc2d2c85b5](../../data/transcripts/t-b1f2860e80aa51bc2d2c85b5.json) · [r-5902057ce3598ac2060b4733](../../data/edited_transcripts/r-5902057ce3598ac2060b4733.json) · [t-168b4c523be8e72fadc1b2f8](../../data/transcripts/t-168b4c523be8e72fadc1b2f8.json) · [t-565fd25a7ab388eb12021494](../../data/transcripts/t-565fd25a7ab388eb12021494.json)
+[r-91f437d290a54922085ef384](../../data/documents/r-91f437d290a54922085ef384.json) · [t-66e728118cf3c3731b64ab35](../../data/documents/t-66e728118cf3c3731b64ab35.json) · [t-eb5279185a6b3fedf562c1d8](../../data/documents/t-eb5279185a6b3fedf562c1d8.json) · [r-1065fbcb9383ae39b4faa018](../../data/documents/r-1065fbcb9383ae39b4faa018.json) · [t-b7fb50f120eb0ce3e677d75a](../../data/documents/t-b7fb50f120eb0ce3e677d75a.json) · [t-df3c93e5a945976718100b9f](../../data/documents/t-df3c93e5a945976718100b9f.json) · [r-254302021458568f20a41a26](../../data/documents/r-254302021458568f20a41a26.json) · [t-1e8e1092e4a9dba118a42e21](../../data/documents/t-1e8e1092e4a9dba118a42e21.json) · [t-6b24a79c994c414e9a92285b](../../data/documents/t-6b24a79c994c414e9a92285b.json) · [r-e60b14f09d24f4440c991377](../../data/documents/r-e60b14f09d24f4440c991377.json) · [t-9b170e124412f170cc76e5f0](../../data/documents/t-9b170e124412f170cc76e5f0.json) · [t-d939bb6f04f7e5ba7c0d5a7e](../../data/documents/t-d939bb6f04f7e5ba7c0d5a7e.json) · [r-a7133bcb0a5f0e10d1a4cc0a](../../data/documents/r-a7133bcb0a5f0e10d1a4cc0a.json) · [t-6c0aecc388dbea21c2599a50](../../data/documents/t-6c0aecc388dbea21c2599a50.json) · [t-cfea8235f04af02fad81bb4c](../../data/documents/t-cfea8235f04af02fad81bb4c.json) · [r-94ae285fdd6c369b41500d2d](../../data/documents/r-94ae285fdd6c369b41500d2d.json) · [t-2c55ee5f0334a9342627c8e8](../../data/documents/t-2c55ee5f0334a9342627c8e8.json) · [t-523c1b5235cd75dd785e6354](../../data/documents/t-523c1b5235cd75dd785e6354.json) · [r-316fd4630832ad162d678fc9](../../data/documents/r-316fd4630832ad162d678fc9.json) · [t-8395add632366539be798b82](../../data/documents/t-8395add632366539be798b82.json) · [t-b1f2860e80aa51bc2d2c85b5](../../data/documents/t-b1f2860e80aa51bc2d2c85b5.json) · [r-5902057ce3598ac2060b4733](../../data/documents/r-5902057ce3598ac2060b4733.json) · [t-168b4c523be8e72fadc1b2f8](../../data/documents/t-168b4c523be8e72fadc1b2f8.json) · [t-565fd25a7ab388eb12021494](../../data/documents/t-565fd25a7ab388eb12021494.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -8996,7 +8996,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 74；整理稿 37；完成且非空非填充词候选 37；其中全文人工审核 0
 
-[r-ddb0f13eeae8359b4731744c](../../data/edited_transcripts/r-ddb0f13eeae8359b4731744c.json) · [t-0b8a583d16b74de54f931720](../../data/transcripts/t-0b8a583d16b74de54f931720.json) · [t-f19237ed9ef03c2b9537cd83](../../data/transcripts/t-f19237ed9ef03c2b9537cd83.json) · [r-d3f33d2bd895b072ac1d13e6](../../data/edited_transcripts/r-d3f33d2bd895b072ac1d13e6.json) · [t-18b8b717b3af71370e0ae65b](../../data/transcripts/t-18b8b717b3af71370e0ae65b.json) · [t-b0d7e6f1ee4867b0506346cf](../../data/transcripts/t-b0d7e6f1ee4867b0506346cf.json) · [r-bea75f089cb667697fc132af](../../data/edited_transcripts/r-bea75f089cb667697fc132af.json) · [t-6b0f55b64c027ff43c4a1e7d](../../data/transcripts/t-6b0f55b64c027ff43c4a1e7d.json) · [t-a279a3e0882aaa066f6a01cd](../../data/transcripts/t-a279a3e0882aaa066f6a01cd.json) · [r-d1bce570e5d5ad0e56b69673](../../data/edited_transcripts/r-d1bce570e5d5ad0e56b69673.json) · [t-993efca71a578f4e66d7d06a](../../data/transcripts/t-993efca71a578f4e66d7d06a.json) · [t-bcac18aa74e84015f0d7e75b](../../data/transcripts/t-bcac18aa74e84015f0d7e75b.json) · [r-6201b31fd4d84dc21763f0b3](../../data/edited_transcripts/r-6201b31fd4d84dc21763f0b3.json) · [t-9963634babafd2b55a6cde38](../../data/transcripts/t-9963634babafd2b55a6cde38.json) · [t-aa9e6c74d03b6936fa603f8d](../../data/transcripts/t-aa9e6c74d03b6936fa603f8d.json) · [r-217cc45722858bfd55ccb132](../../data/edited_transcripts/r-217cc45722858bfd55ccb132.json) · [t-2943ccce322e1ecb76ecf12e](../../data/transcripts/t-2943ccce322e1ecb76ecf12e.json) · [t-d6ec2d196e65e6278a44c8b3](../../data/transcripts/t-d6ec2d196e65e6278a44c8b3.json) · [r-1522d563adb21bee3e8c2de6](../../data/edited_transcripts/r-1522d563adb21bee3e8c2de6.json) · [t-1df7b33cda87c234fc72c60b](../../data/transcripts/t-1df7b33cda87c234fc72c60b.json) · [t-9ecba504e8726bce861dfc47](../../data/transcripts/t-9ecba504e8726bce861dfc47.json) · [r-1632d88595aadbfc8253399f](../../data/edited_transcripts/r-1632d88595aadbfc8253399f.json) · [t-54e523c8bbdc0e2892f66974](../../data/transcripts/t-54e523c8bbdc0e2892f66974.json) · [t-64c906b872944fd1424d8615](../../data/transcripts/t-64c906b872944fd1424d8615.json) · [r-ae1ecaf85e6a889c2028b5a5](../../data/edited_transcripts/r-ae1ecaf85e6a889c2028b5a5.json) · [t-3ba9f5e3d0b834ff91ce662d](../../data/transcripts/t-3ba9f5e3d0b834ff91ce662d.json) · [t-b7e502f463c1726ae30bd132](../../data/transcripts/t-b7e502f463c1726ae30bd132.json) · [r-bdf0f7eeeed42fdb3d79c278](../../data/edited_transcripts/r-bdf0f7eeeed42fdb3d79c278.json) · [t-afe1d79cc5eb0d422e689893](../../data/transcripts/t-afe1d79cc5eb0d422e689893.json) · [t-daa20e7cec7a0b6b8f5317c6](../../data/transcripts/t-daa20e7cec7a0b6b8f5317c6.json) · [r-0463efc1d8bec665b9a45aaa](../../data/edited_transcripts/r-0463efc1d8bec665b9a45aaa.json) · [t-3451feb1c3f56a5f28de5886](../../data/transcripts/t-3451feb1c3f56a5f28de5886.json) · [t-5e0c0e8c38c4704fce31b79a](../../data/transcripts/t-5e0c0e8c38c4704fce31b79a.json) · [r-26a90db6c0ba8209aaf9358a](../../data/edited_transcripts/r-26a90db6c0ba8209aaf9358a.json) · [t-6e8138296d3f99b29b7bbacc](../../data/transcripts/t-6e8138296d3f99b29b7bbacc.json) · [t-9798f7c5fe253c0078e34a26](../../data/transcripts/t-9798f7c5fe253c0078e34a26.json) · [r-41ddf66a3fdc0d463f552a60](../../data/edited_transcripts/r-41ddf66a3fdc0d463f552a60.json) · [t-14e4d1085820db815f4e1ac5](../../data/transcripts/t-14e4d1085820db815f4e1ac5.json) · [t-fa8503d61349b23b5845c065](../../data/transcripts/t-fa8503d61349b23b5845c065.json) · [r-223feb5ce67f218316e6f8cb](../../data/edited_transcripts/r-223feb5ce67f218316e6f8cb.json) · [t-316a65e0d7c06da30b1d4c86](../../data/transcripts/t-316a65e0d7c06da30b1d4c86.json) · [t-6ea7480663f4d45f43f16a84](../../data/transcripts/t-6ea7480663f4d45f43f16a84.json) · [r-a7c95b783608855309695624](../../data/edited_transcripts/r-a7c95b783608855309695624.json) · [t-51d7f53f240eb93ce43c7530](../../data/transcripts/t-51d7f53f240eb93ce43c7530.json) · [t-7a9d754fbc91ca1b4085fb4b](../../data/transcripts/t-7a9d754fbc91ca1b4085fb4b.json) · [r-a28d4ffc4487a452d2446606](../../data/edited_transcripts/r-a28d4ffc4487a452d2446606.json) · [t-6d0c4a87d5902651bb15d314](../../data/transcripts/t-6d0c4a87d5902651bb15d314.json) · [t-e68b0db4d2b49a18bdac245a](../../data/transcripts/t-e68b0db4d2b49a18bdac245a.json) · [r-eb3de5785bcca16863b67128](../../data/edited_transcripts/r-eb3de5785bcca16863b67128.json) · [t-97abc8a5ad35fb4c35a31bc7](../../data/transcripts/t-97abc8a5ad35fb4c35a31bc7.json) · [t-fc5369c9e83d41b6e77e3cb1](../../data/transcripts/t-fc5369c9e83d41b6e77e3cb1.json) · [r-48d27b8159a3625ca53630ed](../../data/edited_transcripts/r-48d27b8159a3625ca53630ed.json) · [t-51fb1a185a82c7e89307a635](../../data/transcripts/t-51fb1a185a82c7e89307a635.json) · [t-65820d5be2be84521286f9db](../../data/transcripts/t-65820d5be2be84521286f9db.json) · [r-09830187a87467afa8bcb03f](../../data/edited_transcripts/r-09830187a87467afa8bcb03f.json) · [t-087e431083ed246d23fbec2e](../../data/transcripts/t-087e431083ed246d23fbec2e.json) · [t-345f87926ecb25d7711abc3b](../../data/transcripts/t-345f87926ecb25d7711abc3b.json) · [r-ddea5d8b59f5d1c6415dc095](../../data/edited_transcripts/r-ddea5d8b59f5d1c6415dc095.json) · [t-708737cc22dd6aa472548882](../../data/transcripts/t-708737cc22dd6aa472548882.json) · [t-df0a6fc3b4fd9835b69374d2](../../data/transcripts/t-df0a6fc3b4fd9835b69374d2.json) · [r-82b217015ede8d7e0c5cae3a](../../data/edited_transcripts/r-82b217015ede8d7e0c5cae3a.json) · [t-7054ee08b4b6a0f1f64c722e](../../data/transcripts/t-7054ee08b4b6a0f1f64c722e.json) · [t-ad2d7baa2030e3c062d70c5f](../../data/transcripts/t-ad2d7baa2030e3c062d70c5f.json) · [r-c496bf1e7c968108449dd6a5](../../data/edited_transcripts/r-c496bf1e7c968108449dd6a5.json) · [t-11b2e6ba363b8b6ea8aef051](../../data/transcripts/t-11b2e6ba363b8b6ea8aef051.json) · [t-228882e7e854b5742adc2ef8](../../data/transcripts/t-228882e7e854b5742adc2ef8.json) · [r-a7a20175d97a69cca78782bf](../../data/edited_transcripts/r-a7a20175d97a69cca78782bf.json) · [t-3b41d7a70d72f09d40da6a3d](../../data/transcripts/t-3b41d7a70d72f09d40da6a3d.json) · [t-e6dc0a3818ad91022f9e8196](../../data/transcripts/t-e6dc0a3818ad91022f9e8196.json) · [r-ec633cd37353e36ce620e343](../../data/edited_transcripts/r-ec633cd37353e36ce620e343.json) · [t-67db3b4d3a01a2a0a2f3a978](../../data/transcripts/t-67db3b4d3a01a2a0a2f3a978.json) · [t-f63cc5345c7c765c52a1504e](../../data/transcripts/t-f63cc5345c7c765c52a1504e.json) · [r-51a65599f3ef71534fa44d0e](../../data/edited_transcripts/r-51a65599f3ef71534fa44d0e.json) · [t-596aa18c0b0ab10d41a9fcff](../../data/transcripts/t-596aa18c0b0ab10d41a9fcff.json) · [t-f98b727ad7e788e284f4c9f5](../../data/transcripts/t-f98b727ad7e788e284f4c9f5.json) · [r-58eada20ba12afdef8c54b32](../../data/edited_transcripts/r-58eada20ba12afdef8c54b32.json) · [t-1d115b9a80fb636babec4311](../../data/transcripts/t-1d115b9a80fb636babec4311.json) · [t-643e17532c63d70f25aefc43](../../data/transcripts/t-643e17532c63d70f25aefc43.json) · [r-ff3e92f54cb187c7050152fb](../../data/edited_transcripts/r-ff3e92f54cb187c7050152fb.json) · [t-45c1f790ff3bd8a8db6c08fa](../../data/transcripts/t-45c1f790ff3bd8a8db6c08fa.json) · [t-51e10b029b6fc59d2aa3039f](../../data/transcripts/t-51e10b029b6fc59d2aa3039f.json) · [r-b5fbe6d8d8d74a6a0975830b](../../data/edited_transcripts/r-b5fbe6d8d8d74a6a0975830b.json) · [t-032787f867c8597cc64f7509](../../data/transcripts/t-032787f867c8597cc64f7509.json) · [t-43da75c3dc03a5e7d7282b9a](../../data/transcripts/t-43da75c3dc03a5e7d7282b9a.json) · [r-4870508147e9841b3b9fbab1](../../data/edited_transcripts/r-4870508147e9841b3b9fbab1.json) · [t-34990e87c7a1631d6d2a5ca2](../../data/transcripts/t-34990e87c7a1631d6d2a5ca2.json) · [t-a5b035f79a49cab813a562f6](../../data/transcripts/t-a5b035f79a49cab813a562f6.json) · [r-46bc9a17dfa4b0fd5725831c](../../data/edited_transcripts/r-46bc9a17dfa4b0fd5725831c.json) · [t-4188d85be3ee9b3e19b4fb55](../../data/transcripts/t-4188d85be3ee9b3e19b4fb55.json) · [t-4a64b2d17d560bd7c1359efb](../../data/transcripts/t-4a64b2d17d560bd7c1359efb.json) · [r-ece64b7ed4080060ebc30ab2](../../data/edited_transcripts/r-ece64b7ed4080060ebc30ab2.json) · [t-463f2a8582a872e5ba498770](../../data/transcripts/t-463f2a8582a872e5ba498770.json) · [t-ac6b3851e532f300d1230a00](../../data/transcripts/t-ac6b3851e532f300d1230a00.json) · [r-6219e64e8830246b303bada5](../../data/edited_transcripts/r-6219e64e8830246b303bada5.json) · [t-0ced282a222566c2ecac4e73](../../data/transcripts/t-0ced282a222566c2ecac4e73.json) · [t-c5b4eb0f86510c21627906ae](../../data/transcripts/t-c5b4eb0f86510c21627906ae.json) · [r-f7cea936ad2e3d1f62436823](../../data/edited_transcripts/r-f7cea936ad2e3d1f62436823.json) · [t-ee0916d30d98059912820e0a](../../data/transcripts/t-ee0916d30d98059912820e0a.json) · [t-ee82ec2c99902114f1936f93](../../data/transcripts/t-ee82ec2c99902114f1936f93.json) · [r-1d68feebc2a0769b3d7921fc](../../data/edited_transcripts/r-1d68feebc2a0769b3d7921fc.json) · [t-0aae7a33923ec176c2d93a2c](../../data/transcripts/t-0aae7a33923ec176c2d93a2c.json) · [t-7e058cab61a6fe85c6e6d658](../../data/transcripts/t-7e058cab61a6fe85c6e6d658.json) · [r-e9e9d902f7e7d20fd1019b91](../../data/edited_transcripts/r-e9e9d902f7e7d20fd1019b91.json) · [t-1fddca2c58065a867538ed02](../../data/transcripts/t-1fddca2c58065a867538ed02.json) · [t-72d25d104d438edb3afe6731](../../data/transcripts/t-72d25d104d438edb3afe6731.json) · [r-c39d395cf61cafbaf4577d70](../../data/edited_transcripts/r-c39d395cf61cafbaf4577d70.json) · [t-04c9672eb6f4440c8a7d7f83](../../data/transcripts/t-04c9672eb6f4440c8a7d7f83.json) · [t-c3749d801088e2fafa2185ed](../../data/transcripts/t-c3749d801088e2fafa2185ed.json) · [r-5924711198207d9af4406373](../../data/edited_transcripts/r-5924711198207d9af4406373.json) · [t-de1630997b36400c4c53fbb9](../../data/transcripts/t-de1630997b36400c4c53fbb9.json) · [t-fb48a6106a953cd9e38c3935](../../data/transcripts/t-fb48a6106a953cd9e38c3935.json)
+[r-ddb0f13eeae8359b4731744c](../../data/documents/r-ddb0f13eeae8359b4731744c.json) · [t-0b8a583d16b74de54f931720](../../data/documents/t-0b8a583d16b74de54f931720.json) · [t-f19237ed9ef03c2b9537cd83](../../data/documents/t-f19237ed9ef03c2b9537cd83.json) · [r-d3f33d2bd895b072ac1d13e6](../../data/documents/r-d3f33d2bd895b072ac1d13e6.json) · [t-18b8b717b3af71370e0ae65b](../../data/documents/t-18b8b717b3af71370e0ae65b.json) · [t-b0d7e6f1ee4867b0506346cf](../../data/documents/t-b0d7e6f1ee4867b0506346cf.json) · [r-bea75f089cb667697fc132af](../../data/documents/r-bea75f089cb667697fc132af.json) · [t-6b0f55b64c027ff43c4a1e7d](../../data/documents/t-6b0f55b64c027ff43c4a1e7d.json) · [t-a279a3e0882aaa066f6a01cd](../../data/documents/t-a279a3e0882aaa066f6a01cd.json) · [r-d1bce570e5d5ad0e56b69673](../../data/documents/r-d1bce570e5d5ad0e56b69673.json) · [t-993efca71a578f4e66d7d06a](../../data/documents/t-993efca71a578f4e66d7d06a.json) · [t-bcac18aa74e84015f0d7e75b](../../data/documents/t-bcac18aa74e84015f0d7e75b.json) · [r-6201b31fd4d84dc21763f0b3](../../data/documents/r-6201b31fd4d84dc21763f0b3.json) · [t-9963634babafd2b55a6cde38](../../data/documents/t-9963634babafd2b55a6cde38.json) · [t-aa9e6c74d03b6936fa603f8d](../../data/documents/t-aa9e6c74d03b6936fa603f8d.json) · [r-217cc45722858bfd55ccb132](../../data/documents/r-217cc45722858bfd55ccb132.json) · [t-2943ccce322e1ecb76ecf12e](../../data/documents/t-2943ccce322e1ecb76ecf12e.json) · [t-d6ec2d196e65e6278a44c8b3](../../data/documents/t-d6ec2d196e65e6278a44c8b3.json) · [r-1522d563adb21bee3e8c2de6](../../data/documents/r-1522d563adb21bee3e8c2de6.json) · [t-1df7b33cda87c234fc72c60b](../../data/documents/t-1df7b33cda87c234fc72c60b.json) · [t-9ecba504e8726bce861dfc47](../../data/documents/t-9ecba504e8726bce861dfc47.json) · [r-1632d88595aadbfc8253399f](../../data/documents/r-1632d88595aadbfc8253399f.json) · [t-54e523c8bbdc0e2892f66974](../../data/documents/t-54e523c8bbdc0e2892f66974.json) · [t-64c906b872944fd1424d8615](../../data/documents/t-64c906b872944fd1424d8615.json) · [r-ae1ecaf85e6a889c2028b5a5](../../data/documents/r-ae1ecaf85e6a889c2028b5a5.json) · [t-3ba9f5e3d0b834ff91ce662d](../../data/documents/t-3ba9f5e3d0b834ff91ce662d.json) · [t-b7e502f463c1726ae30bd132](../../data/documents/t-b7e502f463c1726ae30bd132.json) · [r-bdf0f7eeeed42fdb3d79c278](../../data/documents/r-bdf0f7eeeed42fdb3d79c278.json) · [t-afe1d79cc5eb0d422e689893](../../data/documents/t-afe1d79cc5eb0d422e689893.json) · [t-daa20e7cec7a0b6b8f5317c6](../../data/documents/t-daa20e7cec7a0b6b8f5317c6.json) · [r-0463efc1d8bec665b9a45aaa](../../data/documents/r-0463efc1d8bec665b9a45aaa.json) · [t-3451feb1c3f56a5f28de5886](../../data/documents/t-3451feb1c3f56a5f28de5886.json) · [t-5e0c0e8c38c4704fce31b79a](../../data/documents/t-5e0c0e8c38c4704fce31b79a.json) · [r-26a90db6c0ba8209aaf9358a](../../data/documents/r-26a90db6c0ba8209aaf9358a.json) · [t-6e8138296d3f99b29b7bbacc](../../data/documents/t-6e8138296d3f99b29b7bbacc.json) · [t-9798f7c5fe253c0078e34a26](../../data/documents/t-9798f7c5fe253c0078e34a26.json) · [r-41ddf66a3fdc0d463f552a60](../../data/documents/r-41ddf66a3fdc0d463f552a60.json) · [t-14e4d1085820db815f4e1ac5](../../data/documents/t-14e4d1085820db815f4e1ac5.json) · [t-fa8503d61349b23b5845c065](../../data/documents/t-fa8503d61349b23b5845c065.json) · [r-223feb5ce67f218316e6f8cb](../../data/documents/r-223feb5ce67f218316e6f8cb.json) · [t-316a65e0d7c06da30b1d4c86](../../data/documents/t-316a65e0d7c06da30b1d4c86.json) · [t-6ea7480663f4d45f43f16a84](../../data/documents/t-6ea7480663f4d45f43f16a84.json) · [r-a7c95b783608855309695624](../../data/documents/r-a7c95b783608855309695624.json) · [t-51d7f53f240eb93ce43c7530](../../data/documents/t-51d7f53f240eb93ce43c7530.json) · [t-7a9d754fbc91ca1b4085fb4b](../../data/documents/t-7a9d754fbc91ca1b4085fb4b.json) · [r-a28d4ffc4487a452d2446606](../../data/documents/r-a28d4ffc4487a452d2446606.json) · [t-6d0c4a87d5902651bb15d314](../../data/documents/t-6d0c4a87d5902651bb15d314.json) · [t-e68b0db4d2b49a18bdac245a](../../data/documents/t-e68b0db4d2b49a18bdac245a.json) · [r-eb3de5785bcca16863b67128](../../data/documents/r-eb3de5785bcca16863b67128.json) · [t-97abc8a5ad35fb4c35a31bc7](../../data/documents/t-97abc8a5ad35fb4c35a31bc7.json) · [t-fc5369c9e83d41b6e77e3cb1](../../data/documents/t-fc5369c9e83d41b6e77e3cb1.json) · [r-48d27b8159a3625ca53630ed](../../data/documents/r-48d27b8159a3625ca53630ed.json) · [t-51fb1a185a82c7e89307a635](../../data/documents/t-51fb1a185a82c7e89307a635.json) · [t-65820d5be2be84521286f9db](../../data/documents/t-65820d5be2be84521286f9db.json) · [r-09830187a87467afa8bcb03f](../../data/documents/r-09830187a87467afa8bcb03f.json) · [t-087e431083ed246d23fbec2e](../../data/documents/t-087e431083ed246d23fbec2e.json) · [t-345f87926ecb25d7711abc3b](../../data/documents/t-345f87926ecb25d7711abc3b.json) · [r-ddea5d8b59f5d1c6415dc095](../../data/documents/r-ddea5d8b59f5d1c6415dc095.json) · [t-708737cc22dd6aa472548882](../../data/documents/t-708737cc22dd6aa472548882.json) · [t-df0a6fc3b4fd9835b69374d2](../../data/documents/t-df0a6fc3b4fd9835b69374d2.json) · [r-82b217015ede8d7e0c5cae3a](../../data/documents/r-82b217015ede8d7e0c5cae3a.json) · [t-7054ee08b4b6a0f1f64c722e](../../data/documents/t-7054ee08b4b6a0f1f64c722e.json) · [t-ad2d7baa2030e3c062d70c5f](../../data/documents/t-ad2d7baa2030e3c062d70c5f.json) · [r-c496bf1e7c968108449dd6a5](../../data/documents/r-c496bf1e7c968108449dd6a5.json) · [t-11b2e6ba363b8b6ea8aef051](../../data/documents/t-11b2e6ba363b8b6ea8aef051.json) · [t-228882e7e854b5742adc2ef8](../../data/documents/t-228882e7e854b5742adc2ef8.json) · [r-a7a20175d97a69cca78782bf](../../data/documents/r-a7a20175d97a69cca78782bf.json) · [t-3b41d7a70d72f09d40da6a3d](../../data/documents/t-3b41d7a70d72f09d40da6a3d.json) · [t-e6dc0a3818ad91022f9e8196](../../data/documents/t-e6dc0a3818ad91022f9e8196.json) · [r-ec633cd37353e36ce620e343](../../data/documents/r-ec633cd37353e36ce620e343.json) · [t-67db3b4d3a01a2a0a2f3a978](../../data/documents/t-67db3b4d3a01a2a0a2f3a978.json) · [t-f63cc5345c7c765c52a1504e](../../data/documents/t-f63cc5345c7c765c52a1504e.json) · [r-51a65599f3ef71534fa44d0e](../../data/documents/r-51a65599f3ef71534fa44d0e.json) · [t-596aa18c0b0ab10d41a9fcff](../../data/documents/t-596aa18c0b0ab10d41a9fcff.json) · [t-f98b727ad7e788e284f4c9f5](../../data/documents/t-f98b727ad7e788e284f4c9f5.json) · [r-58eada20ba12afdef8c54b32](../../data/documents/r-58eada20ba12afdef8c54b32.json) · [t-1d115b9a80fb636babec4311](../../data/documents/t-1d115b9a80fb636babec4311.json) · [t-643e17532c63d70f25aefc43](../../data/documents/t-643e17532c63d70f25aefc43.json) · [r-ff3e92f54cb187c7050152fb](../../data/documents/r-ff3e92f54cb187c7050152fb.json) · [t-45c1f790ff3bd8a8db6c08fa](../../data/documents/t-45c1f790ff3bd8a8db6c08fa.json) · [t-51e10b029b6fc59d2aa3039f](../../data/documents/t-51e10b029b6fc59d2aa3039f.json) · [r-b5fbe6d8d8d74a6a0975830b](../../data/documents/r-b5fbe6d8d8d74a6a0975830b.json) · [t-032787f867c8597cc64f7509](../../data/documents/t-032787f867c8597cc64f7509.json) · [t-43da75c3dc03a5e7d7282b9a](../../data/documents/t-43da75c3dc03a5e7d7282b9a.json) · [r-4870508147e9841b3b9fbab1](../../data/documents/r-4870508147e9841b3b9fbab1.json) · [t-34990e87c7a1631d6d2a5ca2](../../data/documents/t-34990e87c7a1631d6d2a5ca2.json) · [t-a5b035f79a49cab813a562f6](../../data/documents/t-a5b035f79a49cab813a562f6.json) · [r-46bc9a17dfa4b0fd5725831c](../../data/documents/r-46bc9a17dfa4b0fd5725831c.json) · [t-4188d85be3ee9b3e19b4fb55](../../data/documents/t-4188d85be3ee9b3e19b4fb55.json) · [t-4a64b2d17d560bd7c1359efb](../../data/documents/t-4a64b2d17d560bd7c1359efb.json) · [r-ece64b7ed4080060ebc30ab2](../../data/documents/r-ece64b7ed4080060ebc30ab2.json) · [t-463f2a8582a872e5ba498770](../../data/documents/t-463f2a8582a872e5ba498770.json) · [t-ac6b3851e532f300d1230a00](../../data/documents/t-ac6b3851e532f300d1230a00.json) · [r-6219e64e8830246b303bada5](../../data/documents/r-6219e64e8830246b303bada5.json) · [t-0ced282a222566c2ecac4e73](../../data/documents/t-0ced282a222566c2ecac4e73.json) · [t-c5b4eb0f86510c21627906ae](../../data/documents/t-c5b4eb0f86510c21627906ae.json) · [r-f7cea936ad2e3d1f62436823](../../data/documents/r-f7cea936ad2e3d1f62436823.json) · [t-ee0916d30d98059912820e0a](../../data/documents/t-ee0916d30d98059912820e0a.json) · [t-ee82ec2c99902114f1936f93](../../data/documents/t-ee82ec2c99902114f1936f93.json) · [r-1d68feebc2a0769b3d7921fc](../../data/documents/r-1d68feebc2a0769b3d7921fc.json) · [t-0aae7a33923ec176c2d93a2c](../../data/documents/t-0aae7a33923ec176c2d93a2c.json) · [t-7e058cab61a6fe85c6e6d658](../../data/documents/t-7e058cab61a6fe85c6e6d658.json) · [r-e9e9d902f7e7d20fd1019b91](../../data/documents/r-e9e9d902f7e7d20fd1019b91.json) · [t-1fddca2c58065a867538ed02](../../data/documents/t-1fddca2c58065a867538ed02.json) · [t-72d25d104d438edb3afe6731](../../data/documents/t-72d25d104d438edb3afe6731.json) · [r-c39d395cf61cafbaf4577d70](../../data/documents/r-c39d395cf61cafbaf4577d70.json) · [t-04c9672eb6f4440c8a7d7f83](../../data/documents/t-04c9672eb6f4440c8a7d7f83.json) · [t-c3749d801088e2fafa2185ed](../../data/documents/t-c3749d801088e2fafa2185ed.json) · [r-5924711198207d9af4406373](../../data/documents/r-5924711198207d9af4406373.json) · [t-de1630997b36400c4c53fbb9](../../data/documents/t-de1630997b36400c4c53fbb9.json) · [t-fb48a6106a953cd9e38c3935](../../data/documents/t-fb48a6106a953cd9e38c3935.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -9019,7 +9019,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-3b42fcf5ff4728f644c2b7c5](../../data/edited_transcripts/r-3b42fcf5ff4728f644c2b7c5.json) · [t-b93b2c36875870e73f680bcb](../../data/transcripts/t-b93b2c36875870e73f680bcb.json) · [t-c351e10769d6fdcfa77213d5](../../data/transcripts/t-c351e10769d6fdcfa77213d5.json)
+[r-3b42fcf5ff4728f644c2b7c5](../../data/documents/r-3b42fcf5ff4728f644c2b7c5.json) · [t-b93b2c36875870e73f680bcb](../../data/documents/t-b93b2c36875870e73f680bcb.json) · [t-c351e10769d6fdcfa77213d5](../../data/documents/t-c351e10769d6fdcfa77213d5.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -9041,7 +9041,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-a7d452bd0febfd5a3e33b1c0](../../data/edited_transcripts/r-a7d452bd0febfd5a3e33b1c0.json) · [t-67f21fa4e223d2d608c4e123](../../data/transcripts/t-67f21fa4e223d2d608c4e123.json) · [t-7b1f5198a096eed8695d116e](../../data/transcripts/t-7b1f5198a096eed8695d116e.json)
+[r-a7d452bd0febfd5a3e33b1c0](../../data/documents/r-a7d452bd0febfd5a3e33b1c0.json) · [t-67f21fa4e223d2d608c4e123](../../data/documents/t-67f21fa4e223d2d608c4e123.json) · [t-7b1f5198a096eed8695d116e](../../data/documents/t-7b1f5198a096eed8695d116e.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -9063,7 +9063,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-756ca82dd4d511301c535eb8](../../data/edited_transcripts/r-756ca82dd4d511301c535eb8.json) · [t-85cb3cc6f80234eebbb6caac](../../data/transcripts/t-85cb3cc6f80234eebbb6caac.json) · [t-b17093f90e398a89ae12017d](../../data/transcripts/t-b17093f90e398a89ae12017d.json)
+[r-756ca82dd4d511301c535eb8](../../data/documents/r-756ca82dd4d511301c535eb8.json) · [t-85cb3cc6f80234eebbb6caac](../../data/documents/t-85cb3cc6f80234eebbb6caac.json) · [t-b17093f90e398a89ae12017d](../../data/documents/t-b17093f90e398a89ae12017d.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 
@@ -9085,7 +9085,7 @@ core 表示来源系列或题名前缀命中，related 表示仅标签命中，i
 
 **直接关联**：基础转录 2；整理稿 1；完成且非空非填充词候选 1；其中全文人工审核 0
 
-[r-130e1642bbc4f88c229d7ccd](../../data/edited_transcripts/r-130e1642bbc4f88c229d7ccd.json) · [t-18daa712fe680b051d70758c](../../data/transcripts/t-18daa712fe680b051d70758c.json) · [t-98a0de7e9b686be991976776](../../data/transcripts/t-98a0de7e9b686be991976776.json)
+[r-130e1642bbc4f88c229d7ccd](../../data/documents/r-130e1642bbc4f88c229d7ccd.json) · [t-18daa712fe680b051d70758c](../../data/documents/t-18daa712fe680b051d70758c.json) · [t-98a0de7e9b686be991976776](../../data/documents/t-98a0de7e9b686be991976776.json)
 
 **跨来源引用**：基础转录 0；整理稿 0；完成且非空非填充词候选 0；其中全文人工审核 0
 

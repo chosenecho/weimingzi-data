@@ -37,6 +37,16 @@ class RepositoryLinkTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "workers.*broken local link"):
                 repository_checks.check_links(root)
 
+    def test_preserved_markdown_is_not_interpreted_as_repository_navigation(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            artifacts = root / "data/artifacts"
+            artifacts.mkdir(parents=True)
+            content = "[Original source relative link](../../unavailable-original.md)\n"
+            (artifacts / "original.md").write_text(content, encoding="utf-8")
+            self.assertEqual(repository_checks.check_links(root), 0)
+            self.assertEqual((artifacts / "original.md").read_text(encoding="utf-8"), content)
+
     def test_runtime_markdown_directories_are_skipped(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)

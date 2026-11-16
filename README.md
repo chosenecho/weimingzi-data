@@ -1,6 +1,6 @@
 # 未明子资料库
 
-维护未明子的视频、录音转录、整理稿、动态和专栏。数据按内容类型统一存放，平台标识、原文链接和模型信息放在记录字段中。
+维护未明子的视频、录音转录、整理稿、动态和专栏。归档数据采用 schema v3，统一为条目、文档、资产和标注四类实体；平台标识、原文链接和模型信息保留在记录中。
 
 - [浏览全部内容](docs/INDEX.md)
 - [校对标注与复核状态](docs/catalog/reviews.md)
@@ -28,7 +28,7 @@
 | 筛选、问答审核、模型导出、训练与评测 | 制作和训练工程 |
 | 已审核训练数据的新版本 | 私有正式数据仓库，由制作工程生成 |
 
-下游按完整 Git 提交读取本仓库，不跟随本地未提交改动。`selections/training.json` 记录选稿引用；选中正文不表示全文人工批准，也不代替下游 SFT 内容与证据审核。来源修订完成后，下游重新制作、审核并发布新版本，已有冻结数据保持原字节。
+下游按完整 Git 提交读取本仓库，不跟随本地未提交改动。训练选稿、发布 head 和段落收录策略由制作工程的 `configs/corpus/` 维护，命令见[消费配置交接](docs/RELEASE.md)。选中正文不表示全文人工批准，也不代替下游 SFT 内容与证据审核。来源修订完成后，下游重新制作、审核并发布新版本，已有冻结数据保持原字节。
 
 跨仓库命令与审计流程见[多仓库工作流][training-workflow]。该流程沿用本仓库的[数据卡](docs/DATA-CARD.md)和[内容权利说明](CONTENT-RIGHTS.md)，不扩大内容许可范围。Agent 开始工作前读取 [AGENTS.md](AGENTS.md)。
 
@@ -36,23 +36,23 @@
 
 ```text
 data/
-  items.jsonl           内容条目、外部标识、标题和关联
-  transcripts/          带时间的基础转录
-  edited_transcripts/    整理稿、段落参照和疑点
-  posts/                动态富文本及关联专栏
-  articles/             专栏正文与富文本
-  collections.jsonl     文集、合集、系列及成员顺序
-  audio.jsonl           音频哈希、可用状态和下载位置
-  confirmations.jsonl   有范围限定的人工确认
+  schema.json           schema_version=3 与四实体声明
+  items.jsonl           内容条目、集合、外部标识和关联
+  documents/            基础转录、整理稿、动态和专栏
+  assets.jsonl          音频、ZIP 归档及独立文本资产的索引
+  annotations.jsonl     有范围限定的人工确认与片段归属
+  artifacts/            资产索引引用的独立参照稿和 HTML 文件
 selections/
-  training.json         训练选稿的条目引用
+  topics.json           可选的资料专题查询规则
 src/weimingzi_corpus/   本地维护工具
-tools/                 命令入口
+tools/                 命令入口与保存恢复工具
 tests/                 数据契约与工具测试
 docs/                  规则、自动生成的目录与计数
 ```
 
-JSON、JSONL 是维护版本。Markdown 目录由它们生成；TXT、Markdown 正文、字幕、CSV 和 SQLite 按需导出。音频文件通过 Releases 恢复到本地 `media/audio/`，不提交到 Git。
+四实体 JSON、JSONL 及资产索引引用的文件是维护版本。文档正文只存一份 `text`，`blocks` 使用 Unicode 码点半开区间 `range` 引用正文；无法由正文精确切片还原的原块使用 `literal` 保存。来源和输入通过 `inputs` 关联，确认与归属通过标注的 `targets` 指向适用对象。
+
+当前命令和 Python 兼容接口仍提供旧逻辑表视图，例如 `transcripts`、`edited_transcripts`、`collections`、`audio`；这些名称不表示 v3 中还存在同名物理文件。Markdown 目录由维护数据生成；TXT、Markdown 正文、字幕、CSV 和 SQLite 按需导出。音频文件通过 Releases 恢复到本地 `media/audio/`，不提交到 Git。
 
 数据规模见自动生成的 [counts.json](docs/counts.json)。同一条目可以关联多份转录和整理稿；目录排序与训练选稿均不表示全文通过人工审核。
 
@@ -60,25 +60,26 @@ JSON、JSONL 是维护版本。Markdown 目录由它们生成；TXT、Markdown �
 
 ## 使用
 
-使用 Python 3.12 或更高版本，工具仅依赖标准库。
+使用 uv 管理 Python 环境和项目依赖，`.python-version` 固定 Python 3.12，`uv.lock` 固定依赖解析结果；运行工具仅依赖标准库。
 
 ```sh
-python tools/corpus.py validate
-python tools/corpus.py generate
-python tools/check_repository.py
-python -m unittest discover -s tests -v
+uv sync --locked
+uv run python tools/corpus.py validate
+uv run python tools/corpus.py generate
+uv run python tools/check_repository.py
+uv run python -m unittest discover -s tests -v
 ```
 
 导出本地检索库后，可检索中文正文：
 
 ```sh
-python tools/corpus.py export --format sqlite --output .cache/exports/corpus.sqlite3
-python tools/corpus.py search 唯物主义
+uv run python tools/corpus.py export --format sqlite --output .cache/exports/corpus.sqlite3
+uv run python tools/corpus.py search 唯物主义
 ```
 
 SQLite 是从归档记录生成的本地检索副本，不替代 JSON/JSONL 维护数据。检索结果用于定位正文；校对标注、附注等内容请按[维护说明](docs/MAINTENANCE.md)查询。代理操作本仓库前请先阅读[代理使用指南](docs/AGENT-GUIDE.md)。
 
-入库格式、记录 ID 和其他导出方式见 [维护说明](docs/MAINTENANCE.md)。
+入库格式、记录 ID 和其他导出方式见 [维护说明](docs/MAINTENANCE.md)。文档入口、合并去向和验收安排见[文档重构计划](docs/DOCUMENTATION-REFACTOR-PLAN.md)。
 
 ## 许可
 

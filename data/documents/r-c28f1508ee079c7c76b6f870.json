@@ -1,0 +1,169 @@
+{
+  "model": {
+    "name": "deepseek-flash"
+  },
+  "time_unit": "ms",
+  "text": "沧海一声笑，滔滔两岸潮。浮沉随浪，只记今朝。苍天笑，纷纷世上潮。谁负谁胜出，天知晓。\n\n江山笑，烟雨遥。涛浪淘尽，红尘俗世几多娇。清风笑，竟惹寂寥。豪情还剩了一襟晚照。苍生笑，不再寂寥。\n\n豪情仍在，痴痴笑笑。啦啦啦啦啦，啦啦啦啦啦，啦啦啦啦啦啦啦啦，啦啦啦啦啦啦，啦啦啦啦啦啦啦啦，啦啦啦啦啦啦，啦啦……\n",
+  "quality": {
+    "is_fully_human_reviewed": false,
+    "requires_review": true,
+    "status": "needs_review"
+  },
+  "id": "r-c28f1508ee079c7c76b6f870",
+  "kind": "edited_transcript",
+  "metadata": {
+    "revision_id": [
+      "9ed68db58ef8bb104888915e10435061f1e6824ae3e49a991886c9cb77f7e71f"
+    ],
+    "input_id": [
+      "2a2e678078e55d130a2c51c314e7e7e79a316f2e483e74e4672438576914403d"
+    ],
+    "generated_at_unix_seconds": [
+      1793643974
+    ]
+  },
+  "is_complete": true,
+  "notes_markdown": "# 【唱歌酬宾】7\\-22  似是故人来、祝福、一生所爱、灰色轨迹、夜机、沧海一声笑、相思湖畔、张三的歌：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`9ed68db58ef8bb104888915e10435061f1e6824ae3e49a991886c9cb77f7e71f`\n\n输入快照：`2a2e678078e55d130a2c51c314e7e7e79a316f2e483e74e4672438576914403d`\n\n模型：`deepseek-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2209`；参考转录：`无`",
+  "_legacy": {
+    "table": "edited_transcripts",
+    "keys": [
+      "id",
+      "is_complete",
+      "item_id",
+      "kind",
+      "metadata",
+      "model",
+      "notes_markdown",
+      "paragraphs",
+      "paragraphs_match_text",
+      "quality",
+      "schema_version",
+      "text",
+      "time_unit",
+      "transcript_ids"
+    ],
+    "derived": [
+      "paragraphs_match_text"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-f149b5fe3712750e4d99d0db"
+    },
+    {
+      "role": "transcript",
+      "target_id": "t-24817502186560442e554ca2"
+    }
+  ],
+  "blocks": [
+    {
+      "issues": [
+        {
+          "candidate": "浮沉随浪，只记今朝",
+          "note": "“浮沉聚散，知己今朝”按歌词上下文应为“浮沉随浪，只记今朝”，此处按常见歌词整理，建议核对。",
+          "evidence_labels": [
+            "t2209:s1"
+          ]
+        }
+      ],
+      "start": 90960,
+      "end": 121840,
+      "input_unit_labels": [
+        "t2209:s0",
+        "t2209:s1",
+        "t2209:s2",
+        "t2209:s3"
+      ],
+      "range": [
+        0,
+        42
+      ],
+      "input_text_ref": {
+        "target_id": "t-24817502186560442e554ca2",
+        "content_sha256": "4d192ad0398df67083d368e4ec4fc3da882a0b2fe7544d4143383a61e465b024",
+        "source": "segments",
+        "range": [
+          0,
+          42
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "涛浪淘尽，红尘俗世几多娇",
+          "note": "“头棱头枕红尘俗世几多娇”识别明显有误，按上下文整理为“涛浪淘尽，红尘俗世几多娇”。",
+          "evidence_labels": [
+            "t2209:s5"
+          ]
+        },
+        {
+          "candidate": "竟惹寂寥",
+          "note": "“竟一夕了”疑为“竟惹寂寥”。",
+          "evidence_labels": [
+            "t2209:s6"
+          ]
+        },
+        {
+          "candidate": "豪情还剩了一襟晚照",
+          "note": "“后尘还剩了一今晚照”疑为“豪情还剩了一襟晚照”。",
+          "evidence_labels": [
+            "t2209:s7"
+          ]
+        }
+      ],
+      "start": 121840,
+      "end": 144640,
+      "input_unit_labels": [
+        "t2209:s4",
+        "t2209:s5",
+        "t2209:s6",
+        "t2209:s7"
+      ],
+      "range": [
+        44,
+        93
+      ],
+      "input_text_ref": {
+        "target_id": "t-24817502186560442e554ca2",
+        "content_sha256": "4d192ad0398df67083d368e4ec4fc3da882a0b2fe7544d4143383a61e465b024",
+        "source": "segments",
+        "range": [
+          42,
+          90
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "",
+          "note": "结尾“啦啦”后疑有未转写内容，正文以省略号收束。",
+          "evidence_labels": [
+            "t2209:s9"
+          ]
+        }
+      ],
+      "start": 179649,
+      "end": 211009,
+      "input_unit_labels": [
+        "t2209:s8",
+        "t2209:s9"
+      ],
+      "range": [
+        95,
+        153
+      ],
+      "input_text_ref": {
+        "target_id": "t-24817502186560442e554ca2",
+        "content_sha256": "4d192ad0398df67083d368e4ec4fc3da882a0b2fe7544d4143383a61e465b024",
+        "source": "segments",
+        "range": [
+          90,
+          146
+        ]
+      }
+    }
+  ]
+}

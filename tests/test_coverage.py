@@ -11,6 +11,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 import test_corpus as fixtures
 from weimingzi_corpus.coverage import CoverageIndex, coverage_jsonl, text_status
 from weimingzi_corpus.records import (
+    load_content_record,
     make_record_id,
     write_json,
     write_jsonl,
@@ -342,8 +343,8 @@ class RepositoryCoverageTests(unittest.TestCase):
         self.assertGreaterEqual(counts["filler_only_transcripts"], 1)
 
     def test_filler_quality_annotation_is_bound_to_unchanged_original_content(self):
-        row = read_json(
-            self.index.root / "data/transcripts/t-79e1eb0ea7c54df6013b144c.json"
+        row = load_content_record(
+            self.index.root, "t-79e1eb0ea7c54df6013b144c"
         )
         digest = "65c4b62ded7f6b0fa878f8e2a5fd72207fca2c3742a28474ade904968544a4da"
         self.assertEqual(json_sha256(transcript_hash_input(row)), digest)
@@ -412,7 +413,7 @@ class RepositoryCoverageTests(unittest.TestCase):
         self.assertFalse(draft["is_fully_human_reviewed"])
         self.assertEqual(draft["transcript_ids"], ["t-f87ba197d7b776c27aa62a58"])
         self.assertEqual(
-            draft["record"], read_json(self.index.root / draft["record_path"])
+            draft["record"], load_content_record(self.index.root, draft["id"])
         )
         self.assertEqual(report["layers"]["same_audio"]["records"], [])
 

@@ -1,0 +1,179 @@
+{
+  "kind": "transcript",
+  "method": "asr_local",
+  "language": "Chinese",
+  "model": {
+    "revision": "bcd2b5b7f32b480ab5790554cfa8347f246a14f3",
+    "name": "source://production/models/Qwen3-ASR-1.7B-hf"
+  },
+  "time_unit": "ms",
+  "text": "嗯，就是有人说他五一的时候在你这里买了五千块钱蔬菜是真的假？嗯，没有没有。\n不信，你看一下，呃，就是，就是就是这个，对，你看，徐阿姨，嗯，就是，嗯，他有个这个是假的，就是这个是转账的，是吧？\n是你店买的，是你店买的，这个是他到你这换了五千的现金呢，对吧？现在是。\n又不就是换现金，没有人买了这么多菜。\n啊，就是没有，没买过蔬菜。\n没有没有，因为你们这是大规模是吧？\n哦，我这里就差不多。\n就是五千块钱要很多菜对吧？啊，是。\n四月份到现在都没有人买过。\n没有没有，就没有买过五千块钱。\n哦，那那这个这个确实是你店啊，这完全是你店吧？江山是四十。嗯，是的。\n啊，应该是到你这换现金。\n那要不就是换现金，没人买这么多。啊，好的好的，徐阿姨。",
+  "quality": {
+    "is_fully_human_reviewed": null,
+    "requires_review": null,
+    "is_subtitle_export_enabled": null
+  },
+  "id": "t-8ea2bfc171d4683dc4196b35",
+  "content_sha256": "aa95fe56a5985aac58ba2fab90cd82bb9075c4a8f9c44ef377bbb57a8a85ab0a",
+  "metadata": {
+    "content_sha256": [
+      "fe3ad38b13c10ba11e7dfc52e4da7204157e35d797445908e06b9a74c952f319",
+      "7682c4392ab9365c0ea2fe20042e0474d71257118d70de617c9c23580ecf0e1e"
+    ],
+    "transcript_id": [
+      406
+    ],
+    "video_part_id": [
+      159
+    ],
+    "source_kind": [
+      "asr-local"
+    ],
+    "model_id": [
+      1
+    ],
+    "version": [
+      1
+    ],
+    "generated_at_unix_seconds": [
+      1791979427
+    ]
+  },
+  "_legacy": {
+    "table": "transcripts",
+    "keys": [
+      "audio_ids",
+      "content_sha256",
+      "id",
+      "item_id",
+      "kind",
+      "language",
+      "metadata",
+      "method",
+      "model",
+      "quality",
+      "schema_version",
+      "segments",
+      "text",
+      "time_unit"
+    ],
+    "derived": [
+      "quality.timing_issues"
+    ],
+    "metadata_aliases": {
+      "language": "$language"
+    }
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-6cd5eb7ee96875dedf0b05dd"
+    }
+  ],
+  "blocks": [
+    {
+      "start": 0,
+      "end": 5680,
+      "range": [
+        0,
+        37
+      ]
+    },
+    {
+      "start": 5760,
+      "end": 25520,
+      "range": [
+        38,
+        95
+      ]
+    },
+    {
+      "start": 26080,
+      "end": 32240,
+      "range": [
+        96,
+        131
+      ]
+    },
+    {
+      "start": 32400,
+      "end": 35200,
+      "range": [
+        132,
+        150
+      ]
+    },
+    {
+      "start": 35520,
+      "end": 36880,
+      "range": [
+        151,
+        164
+      ]
+    },
+    {
+      "start": 36880,
+      "end": 38960,
+      "range": [
+        165,
+        182
+      ]
+    },
+    {
+      "start": 38960,
+      "end": 40880,
+      "range": [
+        183,
+        193
+      ]
+    },
+    {
+      "start": 41120,
+      "end": 44400,
+      "range": [
+        194,
+        211
+      ]
+    },
+    {
+      "start": 44400,
+      "end": 46080,
+      "range": [
+        212,
+        225
+      ]
+    },
+    {
+      "start": 46240,
+      "end": 48160,
+      "range": [
+        226,
+        241
+      ]
+    },
+    {
+      "start": 48160,
+      "end": 53920,
+      "range": [
+        242,
+        276
+      ]
+    },
+    {
+      "start": 53920,
+      "end": 55040,
+      "range": [
+        277,
+        289
+      ]
+    },
+    {
+      "start": 55280,
+      "end": 58960,
+      "range": [
+        290,
+        317
+      ]
+    }
+  ]
+}

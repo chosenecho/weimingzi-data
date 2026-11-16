@@ -21,7 +21,9 @@
 
 ## 交接包
 
-交接包由清单和规范记录组成，正文格式沿用 [SCHEMA](SCHEMA.md)，不另建一套语料结构。清单至少包含：
+交接包由清单和规范记录组成，接收载荷继续沿用 [v2 逻辑记录协议](SCHEMA-V2.md)：`record_schema_version=2`，完整记录载荷保留 `schema_version=2`。`transcripts`、`edited_transcripts`、`audio` 等名称是输入协议的逻辑表名，包内路径不决定仓库物理目录。
+
+当前维护格式见 [schema v3](SCHEMA.md)。入库适配器将载荷映射到 `data/items.jsonl`、`data/documents/`、`data/assets.jsonl` 和 `data/annotations.jsonl`；独立参照稿及 HTML 存放在资产引用的 `data/artifacts/`。`data/schema.json` 声明维护格式版本，不给原生记录重复添加版本字段。清单至少包含：
 
 | 字段 | 用途 |
 | --- | --- |

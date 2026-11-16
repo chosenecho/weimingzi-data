@@ -1,0 +1,263 @@
+{
+  "model": {
+    "name": "deepseek-v4.1-flash"
+  },
+  "time_unit": "ms",
+  "text": "尘缘如梦，几番起伏总不平。到如今都成烟云，情也成空，宛如挥手袖底风。悠悠一缕香，飘在深深旧梦中。\n\n繁华落尽，一身憔悴在风里。回头时无情也无语。明月小楼，孤独无人诉情衷。人间有我残梦未醒。\n\n漫漫长路，起伏不能由我。人海漂泊，尝尽人情淡薄。热情热心换冷淡冷漠，任多少深情独向寂寞。人随风过，自在花开花又落。\n\n不管世间沧桑如何，一城风絮，满腹相思都沉默。只有桂花香暗飘过。不管世间沧桑如何，只有桂花香暗飘过。\n\n漫漫长路，起伏不能由我。人海漂泊，尝尽人情淡薄。热情热心换冷淡冷漠，任多少深情独向寂寞。人随风过，自在花开花又落。\n\n不管世间沧桑如何，一城风絮，满腹相思都沉默。只有桂花香暗飘过，只有桂花香暗飘过。\n",
+  "quality": {
+    "is_fully_human_reviewed": false,
+    "requires_review": true,
+    "status": "needs_review"
+  },
+  "id": "r-e3dd26ac328fe4cdc10c0e72",
+  "kind": "edited_transcript",
+  "metadata": {
+    "revision_id": [
+      "f4cc2de8216b0f7c5298a5a09f98564310210363e86b1828845e1c4ad66c6f36"
+    ],
+    "input_id": [
+      "324be8a346c4d04465565397506e44041c12803433b8af9f52887fd81fb991e5"
+    ],
+    "generated_at_unix_seconds": [
+      1793641375
+    ]
+  },
+  "is_complete": true,
+  "notes_markdown": "# 【翻唱】尘缘 普通话/粤语版：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`f4cc2de8216b0f7c5298a5a09f98564310210363e86b1828845e1c4ad66c6f36`\n\n输入快照：`324be8a346c4d04465565397506e44041c12803433b8af9f52887fd81fb991e5`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2392`；参考转录：`3355`",
+  "_legacy": {
+    "table": "edited_transcripts",
+    "keys": [
+      "id",
+      "is_complete",
+      "item_id",
+      "kind",
+      "metadata",
+      "model",
+      "notes_markdown",
+      "paragraphs",
+      "paragraphs_match_text",
+      "quality",
+      "schema_version",
+      "text",
+      "time_unit",
+      "transcript_ids"
+    ],
+    "derived": [
+      "paragraphs_match_text"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-176dbcd33f81bf4e06423be8"
+    },
+    {
+      "role": "transcript",
+      "target_id": "t-025c8c6a50b2c8cea34ae052"
+    }
+  ],
+  "blocks": [
+    {
+      "issues": [],
+      "start": 32000,
+      "end": 54240,
+      "input_unit_labels": [
+        "t2392:s0",
+        "t2392:s1",
+        "t2392:s2",
+        "t2392:s3"
+      ],
+      "range": [
+        0,
+        48
+      ],
+      "input_text_ref": {
+        "target_id": "t-025c8c6a50b2c8cea34ae052",
+        "content_sha256": "7a409739ac03f31a81afb2e380d1814983d1e724c2e944baf2270ce29e04dead",
+        "source": "segments",
+        "range": [
+          0,
+          48
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "孤独无人诉情衷",
+          "note": "原字幕作“孤独故人诉情衷”，按语境和参考字幕整理为“孤独无人诉情衷”；参考字幕此处也较模糊。",
+          "evidence_labels": [
+            "t3355:s10",
+            "t3355:s11"
+          ]
+        }
+      ],
+      "start": 55760,
+      "end": 79040,
+      "input_unit_labels": [
+        "t2392:s4",
+        "t2392:s5",
+        "t2392:s6",
+        "t2392:s7"
+      ],
+      "range": [
+        50,
+        94
+      ],
+      "input_text_ref": {
+        "target_id": "t-025c8c6a50b2c8cea34ae052",
+        "content_sha256": "7a409739ac03f31a81afb2e380d1814983d1e724c2e944baf2270ce29e04dead",
+        "source": "segments",
+        "range": [
+          48,
+          92
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "人随风过",
+          "note": "原字幕作“怕人春风过”，按同曲重复句整理为“人随风过”；参考字幕未能清晰印证。",
+          "evidence_labels": [
+            "t3355:s20",
+            "t3355:s21"
+          ]
+        }
+      ],
+      "start": 85600,
+      "end": 118000,
+      "input_unit_labels": [
+        "t2392:s8",
+        "t2392:s9",
+        "t2392:s10",
+        "t2392:s11"
+      ],
+      "range": [
+        96,
+        153
+      ],
+      "input_text_ref": {
+        "target_id": "t-025c8c6a50b2c8cea34ae052",
+        "content_sha256": "7a409739ac03f31a81afb2e380d1814983d1e724c2e944baf2270ce29e04dead",
+        "source": "segments",
+        "range": [
+          92,
+          149
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "香暗",
+          "note": "s14、s15 原字幕均作“香寒”，参考字幕一处作“香暗”，按歌词语境统一为“香暗”；s15 对应参考字幕模糊。",
+          "evidence_labels": [
+            "t3355:s24",
+            "t3355:s26"
+          ]
+        }
+      ],
+      "start": 119200,
+      "end": 174240,
+      "input_unit_labels": [
+        "t2392:s12",
+        "t2392:s13",
+        "t2392:s14",
+        "t2392:s15"
+      ],
+      "range": [
+        155,
+        204
+      ],
+      "input_text_ref": {
+        "target_id": "t-025c8c6a50b2c8cea34ae052",
+        "content_sha256": "7a409739ac03f31a81afb2e380d1814983d1e724c2e944baf2270ce29e04dead",
+        "source": "segments",
+        "range": [
+          149,
+          198
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "任多少",
+          "note": "原字幕作“人多少深情”，按前文同句整理为“任多少深情”；参考字幕同样作“人多少”。",
+          "evidence_labels": [
+            "t3355:s32"
+          ]
+        },
+        {
+          "candidate": "人随风过",
+          "note": "原字幕作“啊，人生漂泊”，按同曲重复句整理为“人随风过”，并删去语气词；参考字幕不清。",
+          "evidence_labels": [
+            "t3355:s34",
+            "t3355:s35"
+          ]
+        }
+      ],
+      "start": 189382,
+      "end": 220902,
+      "input_unit_labels": [
+        "t2392:s16",
+        "t2392:s17",
+        "t2392:s18",
+        "t2392:s19"
+      ],
+      "range": [
+        206,
+        263
+      ],
+      "input_text_ref": {
+        "target_id": "t-025c8c6a50b2c8cea34ae052",
+        "content_sha256": "7a409739ac03f31a81afb2e380d1814983d1e724c2e944baf2270ce29e04dead",
+        "source": "segments",
+        "range": [
+          198,
+          257
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "一城风絮",
+          "note": "原字幕作“一阵风去”，按同曲重复句整理为“一城风絮”；参考字幕此处识别较差。",
+          "evidence_labels": [
+            "t3355:s38"
+          ]
+        },
+        {
+          "candidate": "暗飘过",
+          "note": "原字幕两处均作“桂花香飘过”，按前文整理为“桂花香暗飘过”；参考字幕同样模糊。",
+          "evidence_labels": [
+            "t3355:s39",
+            "t3355:s41"
+          ]
+        }
+      ],
+      "start": 222182,
+      "end": 250902,
+      "input_unit_labels": [
+        "t2392:s20",
+        "t2392:s21",
+        "t2392:s22"
+      ],
+      "range": [
+        265,
+        305
+      ],
+      "input_text_ref": {
+        "target_id": "t-025c8c6a50b2c8cea34ae052",
+        "content_sha256": "7a409739ac03f31a81afb2e380d1814983d1e724c2e944baf2270ce29e04dead",
+        "source": "segments",
+        "range": [
+          257,
+          295
+        ]
+      }
+    }
+  ]
+}

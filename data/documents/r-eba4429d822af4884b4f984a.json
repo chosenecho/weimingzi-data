@@ -1,0 +1,136 @@
+{
+  "model": {
+    "name": "deepseek-flash"
+  },
+  "time_unit": "ms",
+  "text": "我们还要补充讲一下裂口女。裂口女的这种恐怖幻想也来自一张小脸。你会发现，这张小脸的下唇轮廓和下巴轮廓是很类似的，是一个平行关系。\n\n所以裂口女实际上就是这根唇线。如果我们把这张小脸这样画，它的轮廓就是这样的，理解了吗？这个是眼睛，这是它的鼻子，然后这个就是它裂开的口，也就是裂口。裂口女这种恐怖的形象也是在一张小脸上体现出来的。\n\n这大概就理解了。那就讲到这里，裂口女是很简单的。\n",
+  "quality": {
+    "is_fully_human_reviewed": false,
+    "requires_review": true,
+    "status": "needs_review"
+  },
+  "id": "r-eba4429d822af4884b4f984a",
+  "kind": "edited_transcript",
+  "metadata": {
+    "revision_id": [
+      "8af05420264b5518046b87d0b783b9143ac775809adf49524b35e181596357fa"
+    ],
+    "input_id": [
+      "7193568b528da730ee85d4dab7d22e2e4a377c14abe3459e9eff8ee5186e88f2"
+    ],
+    "generated_at_unix_seconds": [
+      1793644274
+    ]
+  },
+  "is_complete": true,
+  "notes_markdown": "# 【主义主义】唯美主义（1\\-3\\-4\\-3）【爱欲经济学第四讲】美色的终极奥秘：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`8af05420264b5518046b87d0b783b9143ac775809adf49524b35e181596357fa`\n\n输入快照：`7193568b528da730ee85d4dab7d22e2e4a377c14abe3459e9eff8ee5186e88f2`\n\n模型：`deepseek-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2474`；参考转录：`3550`",
+  "_legacy": {
+    "table": "edited_transcripts",
+    "keys": [
+      "id",
+      "is_complete",
+      "item_id",
+      "kind",
+      "metadata",
+      "model",
+      "notes_markdown",
+      "paragraphs",
+      "paragraphs_match_text",
+      "quality",
+      "schema_version",
+      "text",
+      "time_unit",
+      "transcript_ids"
+    ],
+    "derived": [
+      "paragraphs_match_text"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-de2d4c46718dd88b164b0397"
+    },
+    {
+      "role": "transcript",
+      "target_id": "t-a43e4ebdc804cde3444a7666"
+    }
+  ],
+  "blocks": [
+    {
+      "issues": [],
+      "start": 80,
+      "end": 20800,
+      "input_unit_labels": [
+        "t2474:s0",
+        "t2474:s1",
+        "t2474:s2"
+      ],
+      "range": [
+        0,
+        64
+      ],
+      "input_text_ref": {
+        "target_id": "t-a43e4ebdc804cde3444a7666",
+        "content_sha256": "2cde9d61ad7fc5cf0985e61c8335557c9a06bcd65a27664a904a4a9610c2352d",
+        "source": "segments",
+        "range": [
+          0,
+          97
+        ]
+      }
+    },
+    {
+      "issues": [],
+      "start": 20800,
+      "end": 44000,
+      "input_unit_labels": [
+        "t2474:s3",
+        "t2474:s4",
+        "t2474:s5"
+      ],
+      "range": [
+        66,
+        164
+      ],
+      "input_text_ref": {
+        "target_id": "t-a43e4ebdc804cde3444a7666",
+        "content_sha256": "2cde9d61ad7fc5cf0985e61c8335557c9a06bcd65a27664a904a4a9610c2352d",
+        "source": "segments",
+        "range": [
+          97,
+          221
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "例子",
+          "note": "原句结尾“裂口女是很简单的一个啊”未说出中心词，正文按“很简单”整理，未补具体对象。",
+          "evidence_labels": [
+            "t3550:s19"
+          ]
+        }
+      ],
+      "start": 44960,
+      "end": 50240,
+      "input_unit_labels": [
+        "t2474:s6"
+      ],
+      "range": [
+        166,
+        190
+      ],
+      "input_text_ref": {
+        "target_id": "t-a43e4ebdc804cde3444a7666",
+        "content_sha256": "2cde9d61ad7fc5cf0985e61c8335557c9a06bcd65a27664a904a4a9610c2352d",
+        "source": "text",
+        "range": [
+          227,
+          256
+        ]
+      }
+    }
+  ]
+}

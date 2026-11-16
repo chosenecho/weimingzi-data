@@ -234,9 +234,6 @@ class IngestTests(unittest.TestCase):
             write_jsonl(self.root / "data" / (table + ".jsonl"), [])
         for table in JSON_RECORD_TABLES:
             (self.root / "data" / table).mkdir()
-        write_json(
-            self.root / "selections/training.json", {"schema_version": 2, "entries": []}
-        )
         (self.root / ".gitignore").write_text("/.cache/\n", encoding="utf-8")
         generate_catalog_docs(self.root)
         self.git("init", "-b", "main")
@@ -420,16 +417,33 @@ class IngestTests(unittest.TestCase):
         self.assertEqual(
             validate_repository(self.root), {"receipts": 1, "media_assets": 0}
         )
-        self.assertEqual(
-            read_json(self.root / "selections/training.json"),
-            {"schema_version": 2, "entries": []},
-        )
+        self.assertFalse((self.root / "selections").exists())
         self.commit()
         repeated = plan_batch(self.root, self.batch, self.plan)
         self.assertEqual(repeated["status"], "already_accepted")
         self.assertEqual(
             apply_batch(self.root, self.batch, self.plan)["changed_files"], 0
         )
+
+    def test_broken_optional_projections_do_not_block_base_ingest(self):
+        for name in ("training", "release", "topics"):
+            path = self.root / "selections" / (name + ".json")
+            path.parent.mkdir(exist_ok=True)
+            path.write_text("{broken json", encoding="utf-8")
+        self.commit()
+        self.accept()
+        for table, expected in self.records:
+            actual = {row["id"]: row for row, _ in iter_records(self.root, table)}
+            self.assertEqual(actual[expected["id"]], expected)
+        for path in (self.root / "selections").iterdir():
+            self.assertEqual(path.read_text(encoding="utf-8"), "{broken json")
+        self.records[4][1]["transcript_ids"] = [record_id("t", "missing")]
+        self.records[4][1]["id"] = record_id("r", "bad-reference")
+        self.records = [self.records[4]]
+        self.seal()
+        report = plan_batch(self.root, self.batch)
+        self.assertEqual(report["status"], "conflict")
+        self.assertEqual(validate_corpus(self.root)["edited_transcripts"], 1)
 
     def test_prior_receipt_survives_later_human_edits(self):
         self.accept()
@@ -890,6 +904,49 @@ class IngestTests(unittest.TestCase):
             )
         self.assertEqual(result, 2)
         self.assertEqual(json.loads(err.getvalue())["code"], "PACKAGE_INTEGRITY_FAILED")
+
+
+class V3IngestTests(unittest.TestCase):
+    """The v1 producer protocol installs into native v3 without recreating old tables."""
+    tearDown = IngestTests.tearDown
+    git = IngestTests.git
+    commit = IngestTests.commit
+    seal = IngestTests.seal
+    accept = IngestTests.accept
+    enrichment = IngestTests.enrichment
+    assert_error = IngestTests.assert_error
+
+    def setUp(self):
+        from weimingzi_corpus.schema_v3 import migrate_v2
+        IngestTests.setUp(self)
+        candidate = self.base / "native"
+        migrate_v2(self.root, candidate)
+        (self.root / "data").rename(self.base / "legacy-data")
+        (candidate / "data").rename(self.root / "data")
+        generate_catalog_docs(self.root)
+        self.commit()
+
+    def test_native_plan_apply_replay_leaves_only_four_entities(self):
+        IngestTests.test_cross_table_install_receipt_readback_and_replay(self)
+        self.assertEqual(
+            {p.name for p in (self.root / "data").iterdir()},
+            {"schema.json", "items.jsonl", "documents", "assets.jsonl", "annotations.jsonl"},
+        )
+        for table, expected in self.records:
+            rows = {row["id"]: (row, path) for row, path in iter_records(self.root, table)}
+            self.assertEqual(rows[expected["id"]][0], expected)
+            if table in JSON_RECORD_TABLES:
+                self.assertEqual(rows[expected["id"]][1].parent.name, "documents")
+
+    test_native_enrichment_preserves_observation_order = IngestTests.test_enrich_retains_old_order_title_and_nested_observations
+    test_native_conflicting_precondition_leaves_source_unchanged = IngestTests.test_stale_record_precondition_reports_conflict_and_writes_nothing
+    test_native_invalid_reference_leaves_source_unchanged = IngestTests.test_dangling_cross_table_reference_is_rejected
+    test_native_media_provenance_is_checked = IngestTests.test_media_provenance_cannot_claim_another_run
+    test_native_human_review_is_not_granted_by_payload = IngestTests.test_automatic_payload_cannot_grant_human_review_or_derivative
+    test_native_broken_optional_projections_do_not_block_ingest = IngestTests.test_broken_optional_projections_do_not_block_base_ingest
+    test_native_interrupted_install_marks_checkout_incomplete = IngestTests.test_interrupted_apply_leaves_marker_and_refuses_reuse
+    test_native_corrupt_install_is_detected_on_readback = IngestTests.test_corrupt_install_is_detected_on_readback
+    test_native_valid_media_is_round_tripped = IngestTests.test_typed_media_acceptance_and_rejected_locator
 
 
 if __name__ == "__main__":

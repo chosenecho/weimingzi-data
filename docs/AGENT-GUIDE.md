@@ -15,7 +15,7 @@
 - [维护说明](MAINTENANCE.md)：检索、导出、入库和校验命令。
 - [名词与概念](GLOSSARY.md)：转录、整理稿、校对标注等项目术语。
 - [内容权利说明](../CONTENT-RIGHTS.md)：使用、再发布和训练的权利范围。
-- [发布视图](RELEASE.md)：多份整理稿如何选 head、确认如何应用、段落级发布导出。
+- [消费配置交接](RELEASE.md)：涉及训练选稿、发布 head 或段落收录时，定位制作工程中的配置和命令。
 
 需要修改仓库前，先运行 `git status --short`，保留已有工作区改动。不要直接修改生成的 `docs/INDEX.md`、`docs/catalog/` 和 `docs/counts.json`；用 `python tools/corpus.py generate` 更新它们。
 
@@ -36,7 +36,9 @@ python tools/corpus.py search 唯物主义 --database .cache/exports/corpus.sqli
 
 SQLite 是可删除重建的派生数据，不是归档来源。`search` 只索引基础转录、整理稿、动态和专栏正文，不检索全部元数据、校对标注、附注或独立校验稿。少于三个字符的查询使用字面子串匹配；检索不提供语义理解、拼写纠正或事实判断。
 
-搜索命中只是定位线索。引用前打开对应的维护记录，核对完整段落或分段、相关字段、来源链接、模型和质量信息；需要时间定位时同时查看原记录的 `time_unit`。回答中给出记录 ID 和仓库相对路径，并说明引用的是哪个字段、段落或分段。没有搜到结果只能说明当前查询未命中，不能据此断定仓库没有相关记录。
+搜索命中只是定位线索。引用前打开 `data/documents/<id>.json` 中的维护记录，核对完整段落或分段、相关字段、来源链接、模型和质量信息；需要时间定位时同时查看原记录的 `time_unit`。原生文档正文为 `text`，块以 `range` 指向 Unicode 码点 `[start, end)`，或以 `literal` 保留无法精确切片的原块文字；引用前按该规则还原，保留原时间值。回答中给出记录 ID 和仓库相对路径，并说明引用的是哪个字段或块。没有搜到结果只能说明当前查询未命中，不能据此断定仓库没有相关记录。
+
+当前 CLI 的单稿 JSON/JSONL 导出、coverage/topic 的 `--include-records` 及 `records.iter_records` 仍提供旧逻辑表字段视图，例如 `segments`、`paragraphs`、`transcript_ids`。它们在 v3 下由无损适配器还原，返回的路径仍指向原生文件；不要把投影视图当作原生 JSON，也不要按逻辑表名拼接旧数据目录。需要原生四实体时使用 `schema_v3.iter_native_records(root, entity)`。
 
 需要检索段落校对标注时，使用专用导出：
 
@@ -44,22 +46,21 @@ SQLite 是可删除重建的派生数据，不是归档来源。`search` 只索�
 python tools/corpus.py export --format review_issues --output .cache/exports/review_issues.jsonl
 ```
 
-需要限定整理稿 ID 或训练选稿时，参照[维护说明中的标注导出命令](MAINTENANCE.md#查看校对标注)。查询附注、输入参照或独立校验稿时，检查对应维护 JSON；不要把正文全文索引当成这些内容的索引。
+需要限定整理稿 ID 时，参照[维护说明中的标注导出命令](MAINTENANCE.md#查看校对标注)。查询附注、输入参照或独立校验稿时，检查对应维护 JSON；不要把正文全文索引当成这些内容的索引。
 
-## 发布视图
+## 下游消费
 
-同一段内容可能有多份整理稿；发布视图按 `selections/release.json` 为每个条目锁定 head，并应用人工确认。规则和字段见[发布视图](RELEASE.md)。
+本仓保留所有整理稿、局部确认和片段归属。训练选稿、发布 head 与段落收录由制作工程处理；涉及这些任务时按[消费配置交接](RELEASE.md)进入下游，并锁定本仓完整 Git 提交。
 
-```sh
-python tools/release.py check
-python tools/release.py export --output .cache/exports/release_paragraphs.jsonl
-```
+资料专题按[专题查询](TOPICS.md)执行。基础校验与入库只检查归档数据；专题规则由显式查询、目录生成及全仓检查验证。
 
 ## 保存和修改
 
-维护数据在 `data/` 下的 JSON、JSONL 文件以及 `selections/` 中。SQLite、CSV、字幕、TXT、Markdown 导出和生成目录都可重新生成；除非任务明确要求更新维护数据，不要只为检索或查看结果提交这些派生文件。
+归档维护数据采用 schema v3，由 [schema.json](../data/schema.json) 声明版本。条目及集合位于 [items.jsonl](../data/items.jsonl)，文稿位于 [documents](../data/documents)。资产与标注分别位于 [assets.jsonl](../data/assets.jsonl) 和 [annotations.jsonl](../data/annotations.jsonl)，共四类实体。
 
-新增批次按[增量更新入口](INCREMENTAL-INGEST.md)和[维护说明](MAINTENANCE.md)执行校验、规划和应用。新增或修订记录时保留来源、原文、模型信息、时间顺序、质量状态和不确定性；同一内容的不同转录或整理稿并列保存。不得为了让导出通过而排序、截断、取整或修补原始时间值，也不得从无文字、不可用字幕或缺失音频推断确认静音。
+独立参照稿及 HTML 等资产的正文文件存放在 `data/artifacts/`；它们由资产记录引用，不构成第五类实体。`selections/topics.json` 保存可选的资料专题查询规则。SQLite、CSV、字幕、TXT、Markdown 导出和生成目录都可重新生成；除非任务明确要求更新维护数据，不要只为检索或查看结果提交这些派生文件。
+
+新增批次按[增量更新入口](INCREMENTAL-INGEST.md)和[维护说明](MAINTENANCE.md)执行校验、规划和应用。新增或修订记录时保留来源、原文、模型信息、时间顺序、质量状态和不确定性；同一内容的不同转录或整理稿并列保存。`inputs` 关联输入实体，`input_units` 保留原输入快照；文档中的原始输入不随上游修改而重写。人工确认及归属通过标注的 `targets` 单向关联。`applies_to` 表示适用范围，带 `confirmation_index` 的边保留旧文档的确认采用记录，有 `derived_from` 输入的修订文档采用 `revision` 角色；确认适用与已采用分开核对。不得为了让导出通过而排序、截断、取整或修补原始时间值，也不得从无文字、不可用字幕或缺失音频推断确认静音。
 
 校验并更新生成目录：
 

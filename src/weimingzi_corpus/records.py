@@ -4,7 +4,10 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
+import shutil
+import tempfile
 from collections import Counter
 from datetime import date
 from decimal import Decimal, InvalidOperation
@@ -122,6 +125,11 @@ def resolve_repository_path(root: Path, value: str) -> Path:
 
 
 def iter_records(root: Path, table: str):
+    from .schema_v3 import is_v3, iter_legacy_records
+
+    if is_v3(root):
+        yield from iter_legacy_records(root, table)
+        return
     if table in JSONL_TABLES:
         for record in read_jsonl(root / "data" / (table + ".jsonl")):
             yield record, root / "data" / (table + ".jsonl")
@@ -130,6 +138,118 @@ def iter_records(root: Path, table: str):
             yield read_json(path), path
     else:
         raise ValueError(f"Unknown table: {table}")
+
+
+def content_record_path(root: Path, table: str, record_id: str) -> Path:
+    """Locate maintained content without exposing a storage version to callers."""
+    from .schema_v3 import is_v3
+
+    if table not in JSON_RECORD_TABLES:
+        raise ValueError(f"Unknown content table: {table}")
+    directory = "documents" if is_v3(root) else table
+    return resolve_repository_path(root, f"data/{directory}/{record_id}.json")
+
+
+def load_content_record(root: Path, record_id: str) -> dict:
+    """Read one content record as a lossless legacy semantic view."""
+    from .schema_v3 import is_v3, load_legacy_record
+
+    if is_v3(root):
+        path = content_record_path(root, JSON_RECORD_TABLES[0], record_id)
+        if path.is_file():
+            return load_legacy_record(root, record_id)
+        raise ValueError("Unknown content record: " + record_id)
+    for table in JSON_RECORD_TABLES:
+        path = content_record_path(root, table, record_id)
+        if path.is_file():
+            return read_json(path)
+    raise ValueError("Unknown content record: " + record_id)
+
+
+def write_record_updates(root: Path, updates: dict) -> list[Path]:
+    """Upsert legacy-shaped records through the versioned storage seam.
+
+    Callers build an isolated candidate first. Every replacement detaches hard links;
+    returned paths are relative to root and are the complete installation file set.
+    """
+    from .schema_v3 import is_v3, write_legacy_updates
+
+    unknown = set(updates) - set((*JSONL_TABLES, *JSON_RECORD_TABLES))
+    if unknown:
+        raise ValueError(f"Unknown tables: {sorted(unknown)}")
+    if is_v3(root):
+        return write_legacy_updates(root, updates)
+    changed = []
+    for table, incoming in updates.items():
+        rows = list(incoming)
+        if not rows:
+            continue
+        if table in JSONL_TABLES:
+            existing = {row["id"]: row for row, _ in iter_records(root, table)}
+            existing.update({row["id"]: row for row in rows})
+            targets = [(Path("data") / (table + ".jsonl"), existing.values())]
+        else:
+            targets = [
+                (Path("data") / table / (row["id"] + ".json"), row)
+                for row in rows
+            ]
+        for relative, value in targets:
+            destination = resolve_repository_path(root, relative.as_posix())
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            with tempfile.NamedTemporaryFile(dir=destination.parent, delete=False) as stream:
+                temporary = Path(stream.name)
+            try:
+                if table in JSONL_TABLES:
+                    write_jsonl(temporary, value)
+                else:
+                    write_json(temporary, value)
+                if not destination.exists() or temporary.read_bytes() != destination.read_bytes():
+                    os.replace(temporary, destination)
+                    changed.append(relative)
+            finally:
+                temporary.unlink(missing_ok=True)
+    return sorted(changed)
+
+
+def install_candidate_updates(root: Path, candidate: Path, paths) -> None:
+    """Install an allowed candidate delta, including deletions, with file rollback.
+
+    Only the supplied changed paths participate. A missing candidate file means
+    deletion; validate both endpoints and back up every original before mutation.
+    """
+    relative_paths = sorted({Path(path) for path in paths})
+    updates = [
+        (
+            relative,
+            resolve_repository_path(root, relative.as_posix()),
+            resolve_repository_path(candidate, relative.as_posix()),
+        )
+        for relative in relative_paths
+    ]
+    with tempfile.TemporaryDirectory(prefix="rollback-", dir=candidate) as name:
+        backup = Path(name)
+        installed = []
+        for relative, target, _ in updates:
+            if target.exists():
+                saved = backup / relative
+                saved.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(target, saved)
+        try:
+            for relative, target, source in updates:
+                if source.exists():
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    os.replace(source, target)
+                else:
+                    target.unlink(missing_ok=True)
+                installed.append((relative, target))
+        except OSError:
+            for relative, target in reversed(installed):
+                saved = backup / relative
+                if saved.exists():
+                    os.replace(saved, target)
+                else:
+                    target.unlink(missing_ok=True)
+            raise
 
 
 def find_timestamp_issues(record: dict) -> list[str]:
@@ -327,7 +447,14 @@ def validate_attribution_anchor(row: dict, edited_transcript: dict) -> None:
 
 
 def validate_corpus(root: Path) -> dict:
-    """Check identity, types, coverage of exceptional timestamps, and every internal link."""
+    """Check native structure first, then all historical semantic invariants."""
+    from .schema_v3 import is_v3, validate_native
+
+    native = is_v3(root)
+    if native:
+        errors = validate_native(root)
+        if errors:
+            raise ValueError("Invalid schema v3 corpus: " + "; ".join(errors))
     counts, all_ids, items, contents, audio = (
         Counter({table: 0 for table in (*JSONL_TABLES, *JSON_RECORD_TABLES)}),
         {},
@@ -595,6 +722,16 @@ def validate_corpus(root: Path) -> dict:
                     )
                     for ref in row.get("transcript_ids", []):
                         references.append((record_id, "transcripts", ref))
+                    for ref in row.get("confirmation_ids", []):
+                        references.append((record_id, "confirmations", ref))
+                        confirmation = confirmations.get(ref)
+                        if confirmation is not None and (
+                            confirmation["item_id"] != row["item_id"]
+                            or record_id not in confirmation["edited_transcript_ids"]
+                        ):
+                            raise ValueError(
+                                f"{record_id}: confirmation {ref} does not apply to this edited transcript"
+                            )
                     if row.get("derived_from_id"):
                         references.append(
                             (record_id, "edited_transcripts", row["derived_from_id"])
@@ -619,11 +756,11 @@ def validate_corpus(root: Path) -> dict:
                             anchor = confirmation["anchor"]["original_text"]
                             corrected = confirmation["corrected_text"]
                             if (
-                                anchor in row["text"]
-                                or corrected in row["text"]
+                                (anchor and anchor in row["text"])
+                                or (corrected and corrected in row["text"])
                                 or any(
-                                    anchor in p.get("text", "")
-                                    or corrected in p.get("text", "")
+                                    (anchor and anchor in p.get("text", ""))
+                                    or (corrected and corrected in p.get("text", ""))
                                     for p in row["paragraphs"]
                                 )
                             ):
@@ -711,13 +848,15 @@ def validate_corpus(root: Path) -> dict:
             seen.add(current)
             current = edited_transcript_parents[current]
     for record_id, confirmation in confirmations.items():
-        if not any(
-            record_id in edited_transcript_anchors.get(edited_transcript, set())
-            for edited_transcript in confirmation["edited_transcript_ids"]
-        ):
-            raise ValueError(
-                f"{record_id}: confirmation text cannot be located in its edited transcripts"
-            )
+        for edited_transcript in confirmation["edited_transcript_ids"]:
+            if contents[edited_transcript]["item_id"] != confirmation["item_id"]:
+                raise ValueError(
+                    f"{record_id}: confirmation target belongs to a different item"
+                )
+            if record_id not in edited_transcript_anchors.get(edited_transcript, set()):
+                raise ValueError(
+                    f"{record_id}: confirmation text cannot be located in edited transcript {edited_transcript}"
+                )
     for record_id, row in items.items():
         counts["items_" + row["kind"]] += 1
         if row.get("parent_id"):
@@ -728,41 +867,6 @@ def validate_corpus(root: Path) -> dict:
                     raise ValueError(f"{record_id}: parent cycle")
                 seen.add(current)
                 current = items[current].get("parent_id")
-    selection = read_json(root / "selections" / "training.json")
-    if selection.get("schema_version") != 2:
-        raise ValueError("Training selection requires schema_version=2")
-    selected_items = set()
-    for entry in selection["entries"]:
-        item, edited_transcript = entry["item_id"], entry["edited_transcript_id"]
-        if item in selected_items or contents.get(edited_transcript) != {
-            "item_id": item,
-            "table": "edited_transcripts",
-        }:
-            raise ValueError(f"Invalid or duplicate training entry: {entry}")
-        selected_items.add(item)
-        for confirmation in entry.get("confirmation_ids", []):
-            if all_ids.get(confirmation) != "confirmations":
-                raise ValueError(f"Unresolved training confirmation {confirmation}")
-            if (
-                confirmations[confirmation]["item_id"] != item
-                or edited_transcript
-                not in confirmations[confirmation]["edited_transcript_ids"]
-            ):
-                raise ValueError(
-                    f"Training confirmation does not apply to selected edited transcript: {confirmation}"
-                )
-        for attribution in entry.get("attribution_ids", []):
-            if all_ids.get(attribution) != "attributions":
-                raise ValueError(f"Unresolved training attribution {attribution}")
-            if (
-                attributions[attribution]["item_id"] != item
-                or attributions[attribution]["edited_transcript_id"]
-                != edited_transcript
-            ):
-                raise ValueError(
-                    f"Training attribution does not apply to selected edited transcript: {attribution}"
-                )
-    counts["training_entries"] = len(selection["entries"])
     counts["timing_issue_transcripts"] = invalid_timing
     for name in (
         "attributions_primary_speaker_own_view",
@@ -773,27 +877,4 @@ def validate_corpus(root: Path) -> dict:
         "edited_transcripts_with_review_documents",
     ):
         counts.setdefault(name, 0)
-    if (root / "selections/topics.json").is_file():
-        from .coverage import CoverageIndex
-        from .topics import definitions, select_topic
-
-        topics = definitions(root)
-        index = CoverageIndex(root, load_content=False)
-        counts["topics"] = len(topics)
-        counts["topic_entries"] = sum(
-            len(select_topic(index, topic)) for topic in topics
-        )
-    if (root / "selections/release.json").is_file():
-        from .release import validate_release
-
-        report = validate_release(root)
-        if report["errors"]:
-            detail = "; ".join(
-                f"{item['code']}@{item.get('item_id') or item.get('edited_id') or '?'}"
-                for item in report["errors"][:10]
-            )
-            raise ValueError(f"Release projection is inconsistent: {detail}")
-        counts["release_items"] = report["counts"]["items"]
-        counts["release_transcripts"] = report["counts"]["transcripts_included"]
-        counts["release_paragraphs"] = report["counts"]["paragraphs"]
     return dict(sorted(counts.items()))

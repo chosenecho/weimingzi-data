@@ -1,0 +1,181 @@
+{
+  "model": {
+    "name": "deepseek-v4.1-flash"
+  },
+  "time_unit": "ms",
+  "text": "最后环节是目的。前面这三个东西组合在一起时，其中这两个叫本体论；如果把这个东西也放进去，我们可以把它叫做什么呢？可以把它叫做一种生存论。\n\n生存论不仅仅是那一个层面。当然，单看这一项，叫认识论；单看现象这个维度，也叫认识论；单看这两项，叫本体论。如果三个结合在一起看，就叫生存论，也就是人在其中应该如何生存。\n\n这势必会导致一个结果：这三样东西都会发生。比如一座房子，房子里面有东西，这些东西被人感受到；人在里面也有生存活动——感到冷、感到暖、感到开心快乐，这些都是现象。最后，人住在里面，或者房子设立在那边，它的目的是什么？它为什么要设立到那里去？\n\n目的方面，我们同样也分出四种目的。现象这里其实也分出四种现象的来源，以及四种方式的来源。所有这些被分出的四种东西，归根结底都是同样的四种东西。然后我们乘起来：这四个环节乘起来，一共会有二百五十六种哲学立场。二百五十六种哲学立场——这就是我们的基本框架：四个环节，四个环节的基本框架。\n",
+  "quality": {
+    "is_fully_human_reviewed": false,
+    "requires_review": true,
+    "status": "needs_review"
+  },
+  "id": "r-a7a20175d97a69cca78782bf",
+  "kind": "edited_transcript",
+  "metadata": {
+    "revision_id": [
+      "be84ef43af54b7a81739d8e1055577e30833efee3be464622ffe711338aaa638"
+    ],
+    "input_id": [
+      "6b7a1c0709317b276f046318ae8530028ffabf9ae6137e07a6dc312d5bbc27d5"
+    ],
+    "generated_at_unix_seconds": [
+      1793641543
+    ]
+  },
+  "is_complete": true,
+  "notes_markdown": "# 一分钟哲学课：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`be84ef43af54b7a81739d8e1055577e30833efee3be464622ffe711338aaa638`\n\n输入快照：`6b7a1c0709317b276f046318ae8530028ffabf9ae6137e07a6dc312d5bbc27d5`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2742`；参考转录：`3681`",
+  "_legacy": {
+    "table": "edited_transcripts",
+    "keys": [
+      "id",
+      "is_complete",
+      "item_id",
+      "kind",
+      "metadata",
+      "model",
+      "notes_markdown",
+      "paragraphs",
+      "paragraphs_match_text",
+      "quality",
+      "schema_version",
+      "text",
+      "time_unit",
+      "transcript_ids"
+    ],
+    "derived": [
+      "paragraphs_match_text"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-ae963acac39332a16ee1d0bb"
+    },
+    {
+      "role": "transcript",
+      "target_id": "t-3b41d7a70d72f09d40da6a3d"
+    }
+  ],
+  "blocks": [
+    {
+      "issues": [
+        {
+          "candidate": "",
+          "note": "“前面这三个东西”“这两个”“这个东西”具体指哪几项，原话没有明确说明。",
+          "evidence_labels": [
+            "t3681:s1"
+          ]
+        }
+      ],
+      "start": 80,
+      "end": 25760,
+      "input_unit_labels": [
+        "t2742:s0",
+        "t2742:s1",
+        "t2742:s2",
+        "t2742:s3",
+        "t2742:s4"
+      ],
+      "range": [
+        0,
+        68
+      ],
+      "input_text_ref": {
+        "target_id": "t-3b41d7a70d72f09d40da6a3d",
+        "content_sha256": "e513d66d06e46c3eccfe62b7104e225ebe782514af2bbdba8835f043912db84b",
+        "source": "segments",
+        "range": [
+          0,
+          93
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "",
+          "note": "“生存论就不仅仅是那个”中的“那个”指代不明确，正文按泛指“那一个层面”处理。",
+          "evidence_labels": [
+            "t3681:s4"
+          ]
+        }
+      ],
+      "start": 28960,
+      "end": 45680,
+      "input_unit_labels": [
+        "t2742:s5",
+        "t2742:s6",
+        "t2742:s7"
+      ],
+      "range": [
+        70,
+        154
+      ],
+      "input_text_ref": {
+        "target_id": "t-3b41d7a70d72f09d40da6a3d",
+        "content_sha256": "e513d66d06e46c3eccfe62b7104e225ebe782514af2bbdba8835f043912db84b",
+        "source": "segments",
+        "range": [
+          93,
+          180
+        ]
+      }
+    },
+    {
+      "issues": [],
+      "start": 46000,
+      "end": 70160,
+      "input_unit_labels": [
+        "t2742:s8",
+        "t2742:s9",
+        "t2742:s10",
+        "t2742:s11"
+      ],
+      "range": [
+        156,
+        275
+      ],
+      "input_text_ref": {
+        "target_id": "t-3b41d7a70d72f09d40da6a3d",
+        "content_sha256": "e513d66d06e46c3eccfe62b7104e225ebe782514af2bbdba8835f043912db84b",
+        "source": "segments",
+        "range": [
+          180,
+          319
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "四种方式的来源",
+          "note": "“四种方式来源”表述不确定，疑为“四种方式的来源”，需核对原话。",
+          "evidence_labels": [
+            "t3681:s13"
+          ]
+        }
+      ],
+      "start": 70320,
+      "end": 104160,
+      "input_unit_labels": [
+        "t2742:s12",
+        "t2742:s13",
+        "t2742:s14",
+        "t2742:s15"
+      ],
+      "range": [
+        277,
+        418
+      ],
+      "input_text_ref": {
+        "target_id": "t-3b41d7a70d72f09d40da6a3d",
+        "content_sha256": "e513d66d06e46c3eccfe62b7104e225ebe782514af2bbdba8835f043912db84b",
+        "source": "segments",
+        "range": [
+          319,
+          476
+        ]
+      }
+    }
+  ]
+}

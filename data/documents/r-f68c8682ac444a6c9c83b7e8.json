@@ -1,0 +1,350 @@
+{
+  "model": {
+    "name": "deepseek-v4.1-flash"
+  },
+  "time_unit": "ms",
+  "text": "这是一六年写的一首老词。用的曲子是什么呢？是火云邪神里面的。\n\n几番风染层林如霜，化作离人泪。\n\n谁诉漂泊烟雨残声？天寒秋冷。悠悠云回月落何方？不曾入梦中。\n\n已是锦里鬓角摘星，浊酒初停。笑只笑当年又惨淡多情。\n\n春雨不雨如断如续。怨只怨他乡多忘却忧伤。\n\n归时佳人望故疏狂。谁说赠与他人的心，换得来真意？\n\n谁说种在心中的梦，不容质疑？谁说梦里清晰的你，看透了往昔？\n\n谁说告别了你，如今是我自己？\n\n不必问少年有几多痴情，春雨似雨如影随形。\n\n不必问他乡是谁在忧伤？谁说佳人望故疏狂？\n\n抢拍了，你们自己调整着唱。最后那个“不必问”抢拍了，你们自己调整一下。\n",
+  "quality": {
+    "is_fully_human_reviewed": false,
+    "requires_review": true,
+    "status": "needs_review"
+  },
+  "id": "r-f68c8682ac444a6c9c83b7e8",
+  "kind": "edited_transcript",
+  "metadata": {
+    "revision_id": [
+      "47ef32090fc2f9d96f933ddc605745e77097c9d6430346cb4d4374d972492f7c"
+    ],
+    "input_id": [
+      "a6d658428faafdf0799dc4c138756f55011e0397c7a440a7e13888d1f4ce0fe3"
+    ],
+    "generated_at_unix_seconds": [
+      1793631022
+    ]
+  },
+  "is_complete": true,
+  "notes_markdown": "# 【作词翻唱】疏狂：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`47ef32090fc2f9d96f933ddc605745e77097c9d6430346cb4d4374d972492f7c`\n\n输入快照：`a6d658428faafdf0799dc4c138756f55011e0397c7a440a7e13888d1f4ce0fe3`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`1151`；参考转录：`1265`",
+  "_legacy": {
+    "table": "edited_transcripts",
+    "keys": [
+      "id",
+      "is_complete",
+      "item_id",
+      "kind",
+      "metadata",
+      "model",
+      "notes_markdown",
+      "paragraphs",
+      "paragraphs_match_text",
+      "quality",
+      "schema_version",
+      "text",
+      "time_unit",
+      "transcript_ids"
+    ],
+    "derived": [
+      "paragraphs_match_text"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-a710342fe61b28c28623788b"
+    },
+    {
+      "role": "transcript",
+      "target_id": "t-21ae05539359bfe991bfa299"
+    }
+  ],
+  "blocks": [
+    {
+      "issues": [],
+      "start": 400,
+      "end": 9280,
+      "input_unit_labels": [
+        "t1151:s0",
+        "t1151:s1",
+        "t1151:s2"
+      ],
+      "range": [
+        0,
+        30
+      ],
+      "input_text_ref": {
+        "target_id": "t-21ae05539359bfe991bfa299",
+        "content_sha256": "f657c8b3b854fa26cc88ce86332ce19ebad543e8103a2704649a787594a7f174",
+        "source": "segments",
+        "range": [
+          0,
+          37
+        ]
+      }
+    },
+    {
+      "issues": [],
+      "start": 20320,
+      "end": 28560,
+      "input_unit_labels": [
+        "t1151:s3",
+        "t1151:s4"
+      ],
+      "range": [
+        32,
+        47
+      ],
+      "input_text_ref": {
+        "target_id": "t-21ae05539359bfe991bfa299",
+        "content_sha256": "f657c8b3b854fa26cc88ce86332ce19ebad543e8103a2704649a787594a7f174",
+        "source": "segments",
+        "range": [
+          37,
+          52
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "残身",
+          "note": "“残声”与参考字幕的“残身”不一致，歌词字词不确定。",
+          "evidence_labels": [
+            "t1265:s5"
+          ]
+        },
+        {
+          "candidate": "云飞",
+          "note": "“云回”与参考字幕的“云飞”不一致，暂保留原文。",
+          "evidence_labels": [
+            "t1265:s7"
+          ]
+        }
+      ],
+      "start": 31120,
+      "end": 50240,
+      "input_unit_labels": [
+        "t1151:s5",
+        "t1151:s6"
+      ],
+      "range": [
+        49,
+        78
+      ],
+      "input_text_ref": {
+        "target_id": "t-21ae05539359bfe991bfa299",
+        "content_sha256": "f657c8b3b854fa26cc88ce86332ce19ebad543e8103a2704649a787594a7f174",
+        "source": "segments",
+        "range": [
+          52,
+          81
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "",
+          "note": "“锦里鬓角”疑为音近误识，具体字词无法确认。",
+          "evidence_labels": [
+            "t1265:s8"
+          ]
+        }
+      ],
+      "start": 53040,
+      "end": 69200,
+      "input_unit_labels": [
+        "t1151:s7",
+        "t1151:s8"
+      ],
+      "range": [
+        80,
+        105
+      ],
+      "input_text_ref": {
+        "target_id": "t-21ae05539359bfe991bfa299",
+        "content_sha256": "f657c8b3b854fa26cc88ce86332ce19ebad543e8103a2704649a787594a7f174",
+        "source": "segments",
+        "range": [
+          81,
+          106
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "",
+          "note": "“春雨不雨”语义不通，疑有误；参考字幕亦不清晰，暂保留原文。",
+          "evidence_labels": [
+            "t1265:s11",
+            "t1265:s12"
+          ]
+        }
+      ],
+      "start": 70480,
+      "end": 79040,
+      "input_unit_labels": [
+        "t1151:s9",
+        "t1151:s10"
+      ],
+      "range": [
+        107,
+        127
+      ],
+      "input_text_ref": {
+        "target_id": "t-21ae05539359bfe991bfa299",
+        "content_sha256": "f657c8b3b854fa26cc88ce86332ce19ebad543e8103a2704649a787594a7f174",
+        "source": "segments",
+        "range": [
+          106,
+          126
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "亡故",
+          "note": "“望故”与参考字幕的“亡故”不一致，歌词原字不确定。",
+          "evidence_labels": [
+            "t1265:s15"
+          ]
+        }
+      ],
+      "start": 80880,
+      "end": 93360,
+      "input_unit_labels": [
+        "t1151:s11",
+        "t1151:s12"
+      ],
+      "range": [
+        129,
+        153
+      ],
+      "input_text_ref": {
+        "target_id": "t-21ae05539359bfe991bfa299",
+        "content_sha256": "f657c8b3b854fa26cc88ce86332ce19ebad543e8103a2704649a787594a7f174",
+        "source": "segments",
+        "range": [
+          126,
+          150
+        ]
+      }
+    },
+    {
+      "issues": [],
+      "start": 97040,
+      "end": 115440,
+      "input_unit_labels": [
+        "t1151:s13",
+        "t1151:s14"
+      ],
+      "range": [
+        155,
+        184
+      ],
+      "input_text_ref": {
+        "target_id": "t-21ae05539359bfe991bfa299",
+        "content_sha256": "f657c8b3b854fa26cc88ce86332ce19ebad543e8103a2704649a787594a7f174",
+        "source": "segments",
+        "range": [
+          150,
+          179
+        ]
+      }
+    },
+    {
+      "issues": [],
+      "start": 118880,
+      "end": 126240,
+      "input_unit_labels": [
+        "t1151:s15"
+      ],
+      "range": [
+        186,
+        200
+      ],
+      "input_text_ref": {
+        "target_id": "t-21ae05539359bfe991bfa299",
+        "content_sha256": "f657c8b3b854fa26cc88ce86332ce19ebad543e8103a2704649a787594a7f174",
+        "source": "text",
+        "range": [
+          194,
+          208
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "丝雨",
+          "note": "“春雨似雨”与参考字幕的“丝雨”不一致，歌词字词不确定。",
+          "evidence_labels": [
+            "t1265:s24"
+          ]
+        }
+      ],
+      "start": 130240,
+      "end": 138880,
+      "input_unit_labels": [
+        "t1151:s16",
+        "t1151:s17"
+      ],
+      "range": [
+        202,
+        222
+      ],
+      "input_text_ref": {
+        "target_id": "t-21ae05539359bfe991bfa299",
+        "content_sha256": "f657c8b3b854fa26cc88ce86332ce19ebad543e8103a2704649a787594a7f174",
+        "source": "segments",
+        "range": [
+          193,
+          213
+        ]
+      }
+    },
+    {
+      "issues": [],
+      "start": 140480,
+      "end": 150720,
+      "input_unit_labels": [
+        "t1151:s18",
+        "t1151:s19"
+      ],
+      "range": [
+        224,
+        244
+      ],
+      "input_text_ref": {
+        "target_id": "t-21ae05539359bfe991bfa299",
+        "content_sha256": "f657c8b3b854fa26cc88ce86332ce19ebad543e8103a2704649a787594a7f174",
+        "source": "segments",
+        "range": [
+          213,
+          233
+        ]
+      }
+    },
+    {
+      "issues": [],
+      "start": 151520,
+      "end": 156000,
+      "input_unit_labels": [
+        "t1151:s20"
+      ],
+      "range": [
+        246,
+        281
+      ],
+      "input_text_ref": {
+        "target_id": "t-21ae05539359bfe991bfa299",
+        "content_sha256": "f657c8b3b854fa26cc88ce86332ce19ebad543e8103a2704649a787594a7f174",
+        "source": "text",
+        "range": [
+          253,
+          288
+        ]
+      }
+    }
+  ]
+}

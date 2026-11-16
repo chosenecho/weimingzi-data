@@ -18,10 +18,10 @@ from .records import (
     read_json,
     read_jsonl,
     iter_records,
-    resolve_repository_path,
+    load_content_record,
+    install_candidate_updates,
+    write_record_updates,
     validate_corpus,
-    write_json,
-    write_jsonl,
 )
 from .exports import (
     render_catalog_csv,
@@ -33,14 +33,6 @@ from .exports import (
     extract_text,
     iter_review_issues,
 )
-
-
-def load_content_record(root: Path, record_id: str):
-    for table in JSON_RECORD_TABLES:
-        path = resolve_repository_path(root, f"data/{table}/{record_id}.json")
-        if path.is_file():
-            return read_json(path)
-    raise ValueError("Unknown content record: " + record_id)
 
 
 def validate_export_path(root: Path, output: str) -> Path:
@@ -93,33 +85,11 @@ def import_records(root: Path, table: str, source: Path) -> int:
     cache.mkdir(exist_ok=True)
     with tempfile.TemporaryDirectory(prefix="import-", dir=cache) as name:
         candidate = Path(name)
-        for folder in ("data", "selections"):
-            shutil.copytree(root / folder, candidate / folder, copy_function=os.link)
-        if table in JSONL_TABLES:
-            destination = candidate / "data" / (table + ".jsonl")
-            destination.unlink()  # Detach before writing; never mutate a source hard link.
-            write_jsonl(destination, [*existing.values(), *new])
-        else:
-            for row in new:
-                destination = resolve_repository_path(
-                    candidate, f"data/{table}/{row['id']}.json"
-                )
-                write_json(destination, row)
+        shutil.copytree(root / "data", candidate / "data", copy_function=os.link)
+        changed_paths = write_record_updates(candidate, {table: new})
         validate_corpus(candidate)
         # No changes to the maintained tree occur before the full reference/type check.
-        if table in JSONL_TABLES:
-            os.replace(
-                candidate / "data" / (table + ".jsonl"),
-                root / "data" / (table + ".jsonl"),
-            )
-        else:
-            for row in new:
-                destination = resolve_repository_path(
-                    root, f"data/{table}/{row['id']}.json"
-                )
-                os.replace(
-                    candidate / "data" / table / (row["id"] + ".json"), destination
-                )
+        install_candidate_updates(root, candidate, changed_paths)
     return len(new)
 
 
@@ -177,9 +147,7 @@ def main(argv=None) -> int:
         ],
         required=True,
     )
-    scope = exported.add_mutually_exclusive_group()
-    scope.add_argument("--id")
-    scope.add_argument("--selection", choices=["training"])
+    exported.add_argument("--id")
     exported.add_argument("--output", required=True)
     searched = commands.add_parser("search")
     searched.add_argument("query")
@@ -253,7 +221,10 @@ def main(argv=None) -> int:
         if args.command == "validate":
             result = validate_corpus(root)
         elif args.command == "generate":
+            from .topics import generate_topic_catalog
+
             result = generate_catalog_docs(root, args.check)
+            result.update(generate_topic_catalog(root, args.check))
         elif args.command == "import":
             result = {"inserted": import_records(root, args.table, args.source)}
         elif args.command == "import-package":
@@ -331,7 +302,7 @@ def main(argv=None) -> int:
         else:
             output = validate_export_path(root, args.output)
             if args.format in {"catalog", "sqlite"}:
-                if args.id or args.selection:
+                if args.id:
                     raise ValueError("Catalog/SQLite export covers all records")
                 validate_corpus(root)
                 if args.format == "sqlite":
@@ -342,20 +313,15 @@ def main(argv=None) -> int:
             else:
                 if args.id:
                     rows = [load_content_record(root, args.id)]
-                elif args.selection:
-                    rows = [
-                        load_content_record(root, e["edited_transcript_id"])
-                        for e in read_json(root / "selections/training.json")["entries"]
-                    ]
                 elif args.format == "review_issues":
                     rows = (r for r, _ in iter_records(root, "edited_transcripts"))
                 else:
-                    raise ValueError("Choose --id or --selection")
+                    raise ValueError("Choose --id")
                 if args.format == "review_issues":
                     value = "".join(
                         canonical_json(issue) + "\n"
                         for row in rows
-                        for issue in iter_review_issues(row)
+                        for issue in iter_review_issues(row, root=root)
                     )
                 elif args.format == "jsonl":
                     value = "".join(canonical_json(r) + "\n" for r in rows)

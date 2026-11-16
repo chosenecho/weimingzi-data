@@ -1,0 +1,313 @@
+{
+  "model": {
+    "name": "deepseek-v4.1-flash"
+  },
+  "time_unit": "ms",
+  "text": "夜风凛凛，独回望旧事前尘。是以往的我充满怒愤，诬告与指责积压着满肚气不忿，对谣言反应甚为着紧。\n\n受了教训，得了书经的指引，现已看得透，不再自困。但觉有分数，不再像以往那般笨。抹泪痕，轻快笑着行。\n\n冥冥中都早注定你富或贫，是错永不对，真永是真。任你怎说，坚守我本份，始终相信沉默是金。是非有公理，慎言莫冒犯别人。遇上冷风雨，休太认真。自信满心里，休理会讽刺与质问。笑骂由人，洒脱地做人。\n\n受了教训，得了书经的指引，现已看得透，不再自困。但觉有分数，不再像以往那般笨。抹泪痕，轻快笑着行。\n\n冥冥中都早注定你富或贫，是错永不对，真永是真。任你怎说，安守我本份，始终相信沉默是金。是非有公理，慎言莫冒犯别人。遇上冷风雨，休太认真。自信满心里，休理会讽刺与质问，笑骂由人，洒脱地做人。\n\n少年人，洒脱地做人；继续行，洒脱地做人。\n",
+  "quality": {
+    "is_fully_human_reviewed": false,
+    "requires_review": true,
+    "status": "needs_review"
+  },
+  "id": "r-5e68ab2e5903831075e388f5",
+  "kind": "edited_transcript",
+  "metadata": {
+    "revision_id": [
+      "cb9f88504db361051ab3f2a252a19cce283dee3ce7639b4e2de0ac24e5a3547a"
+    ],
+    "input_id": [
+      "1b57e42ce5a9b0e614c0e913973557df3ac066016219df4419b8c156c6487066"
+    ],
+    "generated_at_unix_seconds": [
+      1793642846
+    ]
+  },
+  "is_complete": true,
+  "notes_markdown": "# 【有谁共鸣】翻唱，追忆张国荣：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`cb9f88504db361051ab3f2a252a19cce283dee3ce7639b4e2de0ac24e5a3547a`\n\n输入快照：`1b57e42ce5a9b0e614c0e913973557df3ac066016219df4419b8c156c6487066`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`1869`；参考转录：`2968`",
+  "_legacy": {
+    "table": "edited_transcripts",
+    "keys": [
+      "id",
+      "is_complete",
+      "item_id",
+      "kind",
+      "metadata",
+      "model",
+      "notes_markdown",
+      "paragraphs",
+      "paragraphs_match_text",
+      "quality",
+      "schema_version",
+      "text",
+      "time_unit",
+      "transcript_ids"
+    ],
+    "derived": [
+      "paragraphs_match_text"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-981e9eda3c8976c888b3d394"
+    },
+    {
+      "role": "transcript",
+      "target_id": "t-1e0c216a134e3b4519c4563a"
+    }
+  ],
+  "blocks": [
+    {
+      "issues": [
+        {
+          "candidate": "诬告与指责积压着满肚气不忿",
+          "note": "ASR作“无告与唧唧，精雅尽满斗去不忿”，参考字幕也不清晰，结合上下文整理为“诬告与指责积压着满肚气不忿”。",
+          "evidence_labels": [
+            "t1869:s2",
+            "t2968:s2",
+            "t2968:s3",
+            "t2968:s4"
+          ]
+        },
+        {
+          "candidate": "对谣言反应甚为着紧",
+          "note": "ASR作“对谣言反应，心怀作梗”，参考字幕不清晰，按上下文整理为“对谣言反应甚为着紧”。",
+          "evidence_labels": [
+            "t1869:s3",
+            "t2968:s5",
+            "t2968:s6"
+          ]
+        }
+      ],
+      "start": 28480,
+      "end": 48640,
+      "input_unit_labels": [
+        "t1869:s0",
+        "t1869:s1",
+        "t1869:s2",
+        "t1869:s3"
+      ],
+      "range": [
+        0,
+        47
+      ],
+      "input_text_ref": {
+        "target_id": "t-1e0c216a134e3b4519c4563a",
+        "content_sha256": "de56b03e4c05c096afb635f3ad88f125de5122e7406cfda6ee03577eba2485d5",
+        "source": "segments",
+        "range": [
+          0,
+          49
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "现已看得透",
+          "note": "ASR作“仍易看得透”，参考字幕为“人已看得透”，结合文意整理为“现已看得透”。",
+          "evidence_labels": [
+            "t1869:s5",
+            "t2968:s9",
+            "t2968:s10"
+          ]
+        },
+        {
+          "candidate": "抹泪痕，轻快笑着行",
+          "note": "ASR作“没泪痕，轻化开笑着恨”，参考字幕亦不清晰，按上下文整理为“抹泪痕，轻快笑着行”。",
+          "evidence_labels": [
+            "t1869:s7",
+            "t2968:s12"
+          ]
+        }
+      ],
+      "start": 51200,
+      "end": 71520,
+      "input_text": "受了教训，得了书经的指引，仍易看得透，不再自困。但各有分数，不再像以往那般笨。没泪痕，轻化开笑着恨。",
+      "input_unit_labels": [
+        "t1869:s4",
+        "t1869:s5",
+        "t1869:s6",
+        "t1869:s7"
+      ],
+      "range": [
+        49,
+        98
+      ]
+    },
+    {
+      "issues": [
+        {
+          "candidate": "冥冥中都早注定你富或贫，是错永不对，真永是真",
+          "note": "ASR作“冥冥中兜走住点起富和贫……正满自责”，参考字幕也不清晰，结合上下文整理为“冥冥中都早注定你富或贫，是错永不对，真永是真”。",
+          "evidence_labels": [
+            "t1869:s8",
+            "t2968:s13",
+            "t2968:s14",
+            "t2968:s15"
+          ]
+        },
+        {
+          "candidate": "慎言莫冒犯别人",
+          "note": "ASR作“心然莫冒犯别人”，参考字幕有“慎言莫冒犯”，整理为“慎言莫冒犯别人”。",
+          "evidence_labels": [
+            "t1869:s10",
+            "t2968:s20",
+            "t2968:s21"
+          ]
+        },
+        {
+          "candidate": "休理会讽刺与质问",
+          "note": "ASR作“优礼为奉自质问”，参考字幕不清晰，按上下文整理为“休理会讽刺与质问”。",
+          "evidence_labels": [
+            "t1869:s12",
+            "t2968:s23",
+            "t2968:s24"
+          ]
+        },
+        {
+          "candidate": "笑骂由人",
+          "note": "ASR作“萧马游人”，结合上下文整理为“笑骂由人”。",
+          "evidence_labels": [
+            "t1869:s13",
+            "t2968:s25"
+          ]
+        }
+      ],
+      "start": 74240,
+      "end": 120800,
+      "input_unit_labels": [
+        "t1869:s8",
+        "t1869:s9",
+        "t1869:s10",
+        "t1869:s11",
+        "t1869:s12",
+        "t1869:s13"
+      ],
+      "range": [
+        100,
+        194
+      ],
+      "input_text_ref": {
+        "target_id": "t-1e0c216a134e3b4519c4563a",
+        "content_sha256": "de56b03e4c05c096afb635f3ad88f125de5122e7406cfda6ee03577eba2485d5",
+        "source": "segments",
+        "range": [
+          99,
+          192
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "现已看得透",
+          "note": "ASR作“仍易看得透”，参考字幕为“人已看得透”，结合文意整理为“现已看得透”。",
+          "evidence_labels": [
+            "t1869:s15",
+            "t2968:s28",
+            "t2968:s29"
+          ]
+        },
+        {
+          "candidate": "抹泪痕，轻快笑着行",
+          "note": "ASR作“没泪痕，轻化开笑着恨”，参考字幕作“轻快笑着行”，整理为“抹泪痕，轻快笑着行”。",
+          "evidence_labels": [
+            "t1869:s17",
+            "t2968:s31"
+          ]
+        }
+      ],
+      "start": 120800,
+      "end": 174400,
+      "input_text": "受了教训，得了书经的指引，仍易看得透，不再自困。但各有分数，不再像以往那般笨。没泪痕，轻化开笑着恨。",
+      "input_unit_labels": [
+        "t1869:s14",
+        "t1869:s15",
+        "t1869:s16",
+        "t1869:s17"
+      ],
+      "range": [
+        196,
+        245
+      ]
+    },
+    {
+      "issues": [
+        {
+          "candidate": "冥冥中都早注定你富或贫",
+          "note": "ASR作“冥冥中都就註定你富或貧”，参考字幕作“都早注定”，整理为“冥冥中都早注定你富或贫”。",
+          "evidence_labels": [
+            "t1869:s18",
+            "t1869:s19",
+            "t2968:s32"
+          ]
+        },
+        {
+          "candidate": "遇上冷风雨，休太认真",
+          "note": "ASR作“餘生忍風雨，又太人真”，参考字幕亦不清晰，按上下文整理为“遇上冷风雨，休太认真”。",
+          "evidence_labels": [
+            "t1869:s22",
+            "t2968:s39",
+            "t2968:s40",
+            "t2968:s41"
+          ]
+        },
+        {
+          "candidate": "休理会讽刺与质问",
+          "note": "ASR作“有禮為諷刺與質問”，参考字幕作“为讽刺与之吻笑马”，按上下文整理为“休理会讽刺与质问”。",
+          "evidence_labels": [
+            "t1869:s23",
+            "t2968:s43",
+            "t2968:s44"
+          ]
+        }
+      ],
+      "start": 177141,
+      "end": 220181,
+      "input_unit_labels": [
+        "t1869:s18",
+        "t1869:s19",
+        "t1869:s20",
+        "t1869:s21",
+        "t1869:s22",
+        "t1869:s23"
+      ],
+      "range": [
+        247,
+        341
+      ],
+      "input_text_ref": {
+        "target_id": "t-1e0c216a134e3b4519c4563a",
+        "content_sha256": "de56b03e4c05c096afb635f3ad88f125de5122e7406cfda6ee03577eba2485d5",
+        "source": "segments",
+        "range": [
+          242,
+          336
+        ]
+      }
+    },
+    {
+      "issues": [],
+      "start": 222101,
+      "end": 233141,
+      "input_unit_labels": [
+        "t1869:s24",
+        "t1869:s25"
+      ],
+      "range": [
+        343,
+        363
+      ],
+      "input_text_ref": {
+        "target_id": "t-1e0c216a134e3b4519c4563a",
+        "content_sha256": "de56b03e4c05c096afb635f3ad88f125de5122e7406cfda6ee03577eba2485d5",
+        "source": "segments",
+        "range": [
+          336,
+          356
+        ]
+      }
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-"""Segment speaker and viewpoint attributions: anchors, strict fields and training links."""
+"""Segment speaker and viewpoint attribution facts: anchors and strict fields."""
 
 import copy
 import hashlib
@@ -65,7 +65,6 @@ class AttributionTests(unittest.TestCase):
             "foreign", self.other_item["id"]
         )
         self.attribution = self.make_attribution(self.edited)
-        self.write_selection([])
 
     def tearDown(self):
         self.temp.cleanup()
@@ -138,38 +137,8 @@ class AttributionTests(unittest.TestCase):
             "urls": ["https://www.bilibili.com/video/BV0000000000/?p=1&t=0"],
         }
 
-    def make_confirmation(self):
-        text_sha256 = hashlib.sha256(PARAGRAPH_TEXT.encode("utf-8")).hexdigest()
-        return {
-            "schema_version": 2,
-            "id": make_record_id("a", "confirmation"),
-            "kind": "confirmation",
-            "item_id": self.item["id"],
-            "edited_transcript_ids": [self.edited["id"]],
-            "scope": "local_text_or_term",
-            "anchor": {
-                "original_text": PARAGRAPH_TEXT,
-                "original_text_sha256": text_sha256,
-            },
-            "corrected_text": PARAGRAPH_TEXT,
-            "corrected_text_sha256": text_sha256,
-        }
-
     def write_attributions(self, *rows):
         write_jsonl(self.root / "data/attributions.jsonl", list(rows))
-
-    def write_selection(self, attribution_ids, confirmation_ids=()):
-        entry = {
-            "item_id": self.item["id"],
-            "edited_transcript_id": self.edited["id"],
-            "confirmation_ids": list(confirmation_ids),
-        }
-        if attribution_ids is not None:
-            entry["attribution_ids"] = list(attribution_ids)
-        write_json(
-            self.root / "selections/training.json",
-            {"schema_version": 2, "entries": [entry]},
-        )
 
     def assert_invalid(self, row, message):
         self.write_attributions(row)
@@ -263,31 +232,6 @@ class AttributionTests(unittest.TestCase):
         duplicate["id"] = make_record_id("s", "duplicate")
         self.write_attributions(self.attribution, duplicate)
         with self.assertRaisesRegex(ValueError, "duplicate attribution"):
-            validate_corpus(self.root)
-
-    def test_training_attribution_ids_resolve(self):
-        self.write_attributions(self.attribution)
-        self.write_selection([self.attribution["id"]])
-        self.assertEqual(validate_corpus(self.root)["training_entries"], 1)
-
-    def test_training_attribution_must_match_selected_transcript(self):
-        other = self.make_attribution(self.other_edited)
-        self.write_attributions(other)
-        self.write_selection([other["id"]])
-        with self.assertRaisesRegex(ValueError, "Training attribution does not apply"):
-            validate_corpus(self.root)
-
-    def test_confirmation_cannot_stand_in_for_attribution(self):
-        confirmation = self.make_confirmation()
-        write_jsonl(self.root / "data/confirmations.jsonl", [confirmation])
-        self.write_selection([confirmation["id"]])
-        with self.assertRaisesRegex(ValueError, "Unresolved training attribution"):
-            validate_corpus(self.root)
-
-    def test_attribution_cannot_stand_in_for_confirmation(self):
-        self.write_attributions(self.attribution)
-        self.write_selection(None, confirmation_ids=[self.attribution["id"]])
-        with self.assertRaisesRegex(ValueError, "Unresolved training confirmation"):
             validate_corpus(self.root)
 
 

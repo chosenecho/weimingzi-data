@@ -1,175 +1,99 @@
 # 数据结构
 
-所有维护记录使用 UTF-8 JSON 或 JSONL，schema_version 为 2。数量见 [counts.json](counts.json)，校验入口为 [records.py](../src/weimingzi_corpus/records.py)。对象定义见 [名词与概念](GLOSSARY.md)。
+维护数据采用 UTF-8 JSON/JSONL，`data/schema.json` 声明 schema v3。记录、元数据与归档内容不等于真实性、完整性、人工审核或使用权判断。对象定义见 [名词与概念](GLOSSARY.md)，取舍见 [四实体决定](decisions/0001-four-entity-storage.md)。
 
-## 命名约定
+[机器可读契约](schema-v3-contract.json) 固定字段、引用、读取接口及投影规则；实现为 [schema_v3.py](../src/weimingzi_corpus/schema_v3.py)，事实校验入口为 [records.py](../src/weimingzi_corpus/records.py)。[v2 语义参考](SCHEMA-V2.md) 保留旧字段含义和历史路径，供已有接收协议与历史投影查阅；其中旧目录不是当前维护源。
 
-目录、字段和项目自定枚举使用 snake_case。布尔字段使用能直接表达判断的名称；未知状态保留 null，不转为 false。
+## 四类维护实体
 
-仓库记录引用使用 *_id、*_ids；输入侧标签使用 *_label、*_labels；外部标识保留命名空间。原始富文本、供应商响应、术语键、提示词和正文内部的名称按原对象保留。
+| 实体 | 维护位置 | 内容 |
+| --- | --- | --- |
+| items | data/items.jsonl | 条目与有序集合，沿用原 ID 和 kind |
+| documents | data/documents/\<id\>.json | transcript、edited_transcript、post、article |
+| assets | data/assets.jsonl | audio、archive、review_document、html |
+| annotations | data/annotations.jsonl | confirmation、segment_attribution |
 
-日期使用 *_on，日期时间使用 *_at；Unix 数值标明 *_unix_seconds。文件大小使用 size_bytes，采样率使用 sample_rate_hz。元数据中的 duration_ms、duration_seconds 保留各自单位，不统一换算原值。
+独立 Markdown、HTML 工件字节位于 `data/artifacts/`，由资产记录定位和校验。音频的 `local_path` 和远端恢复位置保持原值，不因结构迁移搬动或重新下载音频。恢复位置存在不表示已实时验证远端可用。
 
-## 条目与关系
+`data/schema.json` 的契约为：
 
-data/items.jsonl 每行一个条目。kind 使用 video、video_part、audio_recording、post、article、person。视频与分 P 通过 parent_id、part_number 关联；part_number 从一开始。
+```json
+{"schema_version":3,"entities":["items","documents","assets","annotations"],"range_unit":"unicode_codepoint","range_end":"exclusive"}
+```
 
-| 字段 | 含义 |
+记录不再重复保存 `schema_version`。字段、项目自定枚举使用 snake_case；供应商对象、富文本、提示词、术语键和正文内部字段保留原貌。未知状态保留 null，不改成 false。
+
+## 唯一正文与分块
+
+基础转录、整理稿和文章的全文在 `text` 中。转录原分段和整理原段落统一为 `blocks`，数组顺序保留原粒度；序号按数组位置派生。每块包含下列二选一的正文选择器：
+
+- `range: [start, end]`：取本记录 `text[start:end]`。
+- `literal: "原段文字"`：保留与全文有 Markdown 转义等字面差异的原段值。
+
+坐标为解析 JSON 后字符串的 Unicode 码点，左闭右开；它不是 UTF-8 字节偏移，也不是 UTF-16 代码单元。换行按原字符串计数。范围按块的原顺序单调排列，允许全文中存在未被任何块覆盖的内容。不得拼接块来覆盖全文或推断没有缺句。
+
+块内保留原 `start`、`end`、说话人标签、块偏移、输入标签及 `issues` 等独立信息。记录 `time_unit` 只作用于原已声明的正文时间轴；供应商块内时间、秒偏移和输入快照毫秒时间各保留自己的单位。校验和导出不排序、截断、取整或修补原始时间。
+
+动态以 `content` 保存原富文本和转发结构，纯文本沿用作者摘要提取规则，不把转发全文冒充作者原文；已有独立文字字段按原值保留。
+
+## 输入与关系
+
+`inputs` 是带角色的引用数组，每项为 `{role, target_id}`。有限角色如下：
+
+| role | 含义 |
 | --- | --- |
-| id | 仓库内稳定标识 |
-| title | 展示标题 |
-| identifiers | 外部标识及命名空间 |
-| urls | 内容链接 |
-| metadata | 并列元数据观测值 |
-| relations | 关联条目、关系及依据 |
+| item | 文稿归属条目，或音频关联的内容条目 |
+| audio | 本次转录实际使用的音频 |
+| transcript | 整理稿已确认的输入转录 |
+| derived_from | 文字或注释修订关系 |
+| input_units_from | 同条目另一整理稿的输入参照 |
+| article_item | 动态关联的独立文章条目 |
+| review_document_markdown / html | 原有独立工件 |
 
-metadata 的每个键保存不同观测值的列表。对象或数组本身也可作为一次观测值，因此部分字段存在嵌套数组。补充元数据时保留已有不同值，不以采集批次覆盖其他值。
+条目关系和集合 `members` 继续表达各自事实；成员数组顺序为权威顺序，等值的 `position` 按位置加一派生。视频与分 P 的原关系、集合种类、来源编号不按标题推断或合并。
 
-时长和发布时间的同义字段统一到 duration_ms、published_at_unix_seconds、published_at。链接和图片使用 source_url、youtube_url、bilibili_url、resolved_url、image_urls；上传者使用 uploader_id、uploader_name。
+`blocks[].input_text_ref` 保存 `target_id`、`content_sha256`、`source` 和字符 `range`。来源类型为转录全文、原分段文字的指定连接方式，或已有输入快照。只有源记录和片段均唯一且能精确复原时才替代重复 `input_text`；歧义、无映射和空值按原情况保留。引用校验重新计算源哈希，不仅比较一个可能过期的哈希字段。
 
-observed_at 保存日期时间字符串，observed_at_unix_seconds 保存秒数观测；原值不丢弃。
+`input_units` 保留整理时输入快照，含原文字、块边界、旧内容哈希、时间和质量。`upstream_transcript_id` 是快照中的外部标识，不能擅自变成内部转录引用。当前转录不能覆盖历史快照。未分配或未解析的标签保持原记录含义。
 
-duration、cover、created、ctime 等原始字段的含义或类型可能不同，不能按名称近似直接合并。上传者与内容归属作者分别保留。平台信息作为字段存在，不形成目录层级。
+## 人工证据与模型标注
 
-relations 每项使用 target_item_id、kind 和可选 evidence。has_full_text 表示关联全文，references_video 和 references 表示参照。参照关系不证明音频相同，音频同一性按文件 SHA-256 判断。
+人工证据在 `annotations`，其 `targets` 数组使用 `item`、`applies_to`、`revision` 角色。适用整理稿关系和修订采用依据分别保留；`confirmation_index` 只在旧整理稿实际列过该确认时记录原列表位置。文稿不再维护第二份确认列表。
 
-audible_rerecording_of 从有声重录版指向原条目，保存确认依据和日期。它表示重录关系，不证明音轨相同或时间轴逐段对应；文稿仍归属于实际有声版本。覆盖查询将该关系列入 cross_source。
+文字确认保留原文锚点、原文字节哈希、修订文字与哈希、术语释义、审核范围及既有核对信息。片段归属保留段落锚点、说话者角色、观点归属及审核状态。每个目标均须存在、属于同条目并通过相应文字与时间定位；局部确认不升级为整段、整稿审核。
 
-## 基础转录
+`blocks[].issues` 是附属标注，原顺序和每项 `note`、可空或缺省的 `candidate`、`evidence_labels` 均保留，不生成独立实体或推断解决状态。`review_issues` 导出的 `paragraph_index` 定位当前 JSON 的 `blocks[paragraph_index]`；历史投影中仍对应 `paragraphs[paragraph_index]`。`record_path` 指向真实维护文件。
 
-data/transcripts/<id>.json 保存一份转录结果。item_id 指向条目；method、model、language 描述结果。method 使用 asr_local、asr_cloud、subtitle_ai、subtitle_cc 等项目自定值。
+## 工件、恢复位置与哈希
 
-audio_ids 引用 data/audio.jsonl 中的文件记录。音频记录的 item_ids 则关联内容条目；两类引用不互相代替。
+音频保持文件 SHA-256、大小、关联条目和恢复位置。重复归档描述只保存在 `kind=archive` 的资产中；音频下载位置用 `archive_id`、原 `member_path`、`release_tag` 定位。恢复链限于文件到归档文件，不增加通用递归恢复图或成员反向清单。
 
-model 为对象或 null；对象包含 name 和可选 revision。模型名、路径或修订值原样保存。language 保留已知原值，不能仅凭字幕类型推断语言编码。
+原有独立校验稿和 HTML 按 UTF-8 原字符串提取到资产，保留换行和完整文字；文稿通过输入角色引用。已有识别块、词信息和快照如只服务该文稿，继续保留为内嵌结构。未保存过的原始响应字节不补造；已整理的识别块不重新命名为供应商原始响应。
 
-text 是全文，segments 保存原始顺序的分段。每段含 index、start、end、text；index 从零起。time_unit 为 ms 或 s，作用于正文分段。说话人标签及块偏移按记录保存，不自动建立跨块人物身份。
+各种哈希按对象区分：
 
-content_sha256 校验 item_id、method、language、model、time_unit、text、segments 组成的规范 JSON。编码使用 sort_keys=True、ensure_ascii=False、紧凑分隔符，并拒绝 NaN。字段结构调整后重新计算哈希，已有记录 ID 保持不变。
+- 音频、ZIP 和提取工件的 `sha256` 校验文件字节。
+- 旧转录 `content_sha256` 仍校验 `item_id/method/language/model/time_unit/text/segments` 的规范 JSON；分段由选择器无损还原后再计算。
+- `recognition_chunks_sha256` 校验补充识别块的规范 JSON，不是某个新 JSON 文件的字节哈希。
+- 文字锚点哈希继续校验原文字串的 UTF-8 字节。
 
-quality.timing_issues 必须准确描述存储时间值的问题。校验不排序、截断、取整或修补原值。quality.is_subtitle_export_enabled 为 false 时禁用字幕导出；为 true 或 null 时仍须通过时间精度及序列化检查。
+规范 JSON 使用排序键、紧凑分隔符、未转义 Unicode，并拒绝 NaN。结构改名不重新分配旧 ID，也不把一种对象的哈希冒充另一种。
 
-recognition_chunks 保存补充识别块。每项含 id、offset_seconds、duration_seconds、time_unit、text、sentences，以及已有质量信息。sentences 和 words 保留供应商字段及块内时间。recognition_chunks_sha256 单独保护这些信息，不替代正文分段。
+## 元数据、派生值与旧格式投影
 
-## 整理稿与输入单位
+元数据仍保存并列观测，不覆盖不同值。已证实同义的键，仅在 JSON 类型和全部值精确相同时合并；还原规则以字段名映射记录，不保存第二份值。`created`、`ctime`、作者和上传者等不得仅因数值或名称相近而合并。标题、模型、语言和正文哈希与对应元数据完全相同时也只存一个值；独立观测和字面差异保留。
 
-data/edited_transcripts/<id>.json 每份结果包含 text、paragraphs、model、notes_markdown、is_complete、quality。transcript_ids 关联可确认的基础转录，无法确认的关系留空。
+计数、反向列表和序号由读取层派生。`paragraphs_match_text`、`quality.timing_issues` 只有在与旧公式的实际结果完全相等时移除并按公式还原；旧断言不相等则保留。其他人工或模型质量判断不因此推导。完成、待复核、全文人工复核、字幕导出和确认静音分别解释，false 与 null 继续区分。
 
-| 段落字段 | 含义 |
-| --- | --- |
-| index | 从零起的段落索引 |
-| input_text | 整理时的输入文字 |
-| text | 整理后正文 |
-| input_unit_labels | 输入单位标签 |
-| issues | 校对疑点、候选文字及修改说明 |
-| start / end | 回查用时间范围 |
+`_legacy` 是有限版本配方，保存旧逻辑表、原字段存在性以及 `metadata_aliases`、`derived`、`null_fields` 等可逆规则；不存旧整行或通用 raw/payload 副本。`records.iter_records` 等接口向已有工具提供九个旧逻辑视图，返回真实 v3 路径；`iter_native_records` 提供四实体记录。SQLite 采用四个实体表和可重建的正文全文索引，目录与 CSV 指向当前文稿文件。
 
-issues 是标注数组，每项保存 note，可带 candidate、evidence_labels。note 为说明文字；candidate 为字符串，允许空字符串或不提供。evidence_labels 为字符串数组，允许空数组或不提供，表示输入侧证据标签，不是仓库记录 ID。
+## 迁移与验收
 
-标注可能记录未确定的内容，也可能说明已经用于正文的修改。当前没有统一的逐条解决状态和问题类别；不能仅凭标注存在、候选为空或全文待复核标记推断其解决状态。issues 的次序和各项原文全部保留。
+运行 [迁移工具](../tools/migrate_schema_v3.py) 时，源与目标均为包含 `data/` 的仓库根，且互不包含；目标须为空。源文件不写入，未知字段、失效引用、哈希不符、无法逐记录复原等情况均停止发布目标。目标报告保存完整源文件清单、逐记录映射、字段去向和验收结果。
 
-time_unit 描述段落时间单位。时间范围可能来自较长的输入音频块，不表示逐字、逐句对齐。paragraphs_match_text 表示段落正文与全文的一致性。不同措辞作为独立结果保留。
+```sh
+python tools/migrate_schema_v3.py --source /path/to/v2-checkout --output /path/to/separate-v3-root
+python tools/migrate_schema_v3.py --source /path/to/v2-checkout --output /path/to/separate-v3-root --verify-only
+```
 
-notes_markdown 保存整份结果的附注，review_document_markdown 保存独立的校验参照稿。后者存在时，review_markdown 导出保留其完整内容；附注未完整包含在稿中时追加附注。结构化段落、附注和独立稿分别存储，不互相覆盖。
-
-input_units 保存整理时的输入参照。base 包含 upstream_transcript_id、content_sha256、method、language、segments；其中每段使用 label、start_ms、end_ms、text 及已有字符范围和块标记。upstream_transcript_id 属于输入快照，不作为内部转录外键。
-
-input_units.unassigned_reference_labels 保存未分配参照标签。局部稿可用 input_units_from_id 引用同条目另一份整理稿的输入单位。quality.unresolved_unit_labels 列出尚不能解析的输入标签。
-
-is_complete=false 表示结果未完成或只覆盖部分输入。partial_model_output 标记保留在质量状态中。完成状态不等于音频全量覆盖、全文复核或无遗漏。
-
-derived_from_id 表示实际文字或注释修订关系，目标必须为同条目整理稿，且不得成环。confirmation_ids 关联适用的人工确认。多份整理稿中哪一份进入发布视图，由 `selections/release.json` 的 `head_edited_id` 决定，见[发布视图](RELEASE.md)；原始稿本身不改字节。
-
-## 动态、文章和集合
-
-data/posts/<id>.json 的 content 保留完整富文本对象，包括转发内容、图片和卡片。article_item_ids 关联展开全文对应的专栏文章；纯文本导出不替代富文本。
-
-data/articles/<id>.json 保存 text 和已有 html。确有差异的文本可使用 text_variant 保留。quality.has_expand_prompt 标记采集页面是否仍有展开提示，不能按文件存在推断全文完整。
-
-data/collections.jsonl 的 kind 使用 article_collection、video_collection、video_series。members 按 position 保存有序 item_id 引用，position 从一开始。成员不复制正文。
-
-集合外部编号分别使用 identifiers.bilibili_article_list、bilibili_season、bilibili_series；命名空间说明编号含义。
-
-## 音频恢复索引
-
-data/audio.jsonl 按音频文件 SHA-256 合并记录。kind 为 audio，item_ids 关联条目。
-
-| 字段 | 含义 |
-| --- | --- |
-| availability | available 或 unavailable |
-| sha256 | 音频文件 SHA-256 |
-| size_bytes | 音频文件字节数 |
-| local_path | 本地恢复相对路径 |
-| downloads | 归档下载位置 |
-
-available 表示索引具有恢复位置，需保存 size_bytes、local_path、downloads。unavailable 保存已知文件标识及缺失说明，不表示文件确认静音。
-
-每个 downloads 成员包含 release_tag、archive、member_path。archive 保存 ZIP 的 name、size_bytes、sha256、url。member_path 必须使用远端 ZIP 内原成员名。完整规则见 [DOWNLOAD.md](DOWNLOAD.md)。
-
-## 人工确认与选稿
-
-data/confirmations.jsonl 用 item_id、edited_transcript_ids 关联条目和整理稿。局部确认保存 anchor、corrected_text、对应哈希及 term_glosses；scope、status 和 confirmation 说明范围、状态与核对事实。
-
-anchor 使用 original_text、original_text_sha256、input_unit_label。term_glosses 保存术语释义，键保留原文。scope=local_text_or_term 限定局部字句或术语，不表示全文通过审核。
-
-confirmation 包含 excerpt、resolution、reviewer_label、reviewed_on、review_timezone 和已有听音事实。reviewer_label 是原记录中的角色说明，不推断真实身份。reviewed_on 保留日期，review_timezone 明确为 Asia/Hong_Kong。
-
-selections/training.json 保存 schema_version、name、confirmation_scope、entries。每个 entry 含 item_id、edited_transcript_id、confirmation_ids，可选 attribution_ids。confirmation_scope=partial_text_only 说明现有确认仅限局部。
-
-选入 training 不改变 quality.is_fully_human_reviewed，也不授予第三方内容使用权。确认必须属于对应条目、适用于所选整理稿，并能定位到原文或修订文字。attribution_ids 只能引用同一条目、同一整理稿的片段归属记录；confirmation_ids 与 attribution_ids 不能互相代替。
-
-selections/release.json 保存发布视图指针，只含 schema_version、policy_version、generated_from_commit 和 items；每个 item 记录 item_id、head_edited_id、applied_confirmation_ids、excluded_paragraphs。段落正文不复制，由 tools/release.py 从 data/ 重建，规则见[发布视图](RELEASE.md)。
-
-## 片段说话人与观点归属
-
-data/attributions.jsonl 保存人工确认的片段归属，kind=segment_attribution，ID 前缀 s-。每条记录用 item_id、edited_transcript_id 指向一个条目和一份整理稿。
-
-anchor 保存 paragraph_index（零起）、paragraph_text_sha256、excerpt、start、end、time_unit。paragraph_text_sha256 是该段 text 的 UTF-8 SHA-256；excerpt 为 null 表示整段，否则须是段内原文子串。start、end、time_unit 与该段及整理稿一致，供回查时间位置。段落文字改动后哈希不再匹配，校验失败，须重新审核后另建记录。
-
-speaker_role 取 primary_speaker、other_speaker、unknown。primary_speaker 指审核者认定的本条主讲人，不由上传者、标题或识别说话人标签推断。
-
-viewpoint 取 own_view（说话人陈述本人观点）、quoted_or_read_aloud（朗读来信、引述他人原话）、explained_or_paraphrased（讲解或转述他人观点）、unknown（已审核但无法判断）。
-
-review 保存 basis、reviewer_label、reviewed_on、review_timezone、reviewer_reported_watched_original_video、assistant_listened_to_audio，可选 source_url。basis 保留审核者原话。status 只接受 human_confirmed；模型候选不写入本表。
-
-没有归属记录表示未审核，与 unknown 不同。归属记录不确认文字正确，不改变 quality，也不授予内容使用权；文字确认不能升级为归属确认。下游作为作者本人参照时，只采用 speaker_role=primary_speaker 且 viewpoint=own_view 的范围。
-
-## 质量与异常区间
-
-quality.is_fully_human_reviewed、requires_review、is_subtitle_export_enabled 使用布尔值或 null。仅实际核查全文后才能标记全文人工复核；局部确认不能扩张范围。
-
-recognition_issue_intervals 保存识别或时间异常区间，使用 start_seconds、end_seconds、reason 及已有证据。这个秒单位独立于正文和段落的 time_unit。
-
-证据引用中的 transcript_id 指向基础转录，recognition_chunk_ids 指向其识别块。transcript_text_available 标明对应区间是否存在正文。
-
-quality.audio_assessment、reported_timing_issues 等已有判断分别保留。无识别词、时间异常、确认静音、不可用字幕和音频缺失不相互推断。输入质量快照保存在 quality.input_quality，仍使用相同字段约定。
-
-用户明确确认原分 P 无声时，可将 audio_assessment 记录为 silent_audio_confirmed。
-
-audio_assessment_evidence 保存 basis=user_confirmation、原话、confirmed_on、时区及证据位置。条目级判断保存为 metadata 中的观测值；转录级质量判断与其依据分别保留。
-
-确认无声不改变音频索引的文件可恢复状态，也不代表整理稿已人工复核。
-
-metadata.review_status 是已有的结果状态观测。平台对象中的 review、video_review、disable_preview 等原始名称不自动解释成校对或人工审核状态。
-
-## ID、导出与更新
-
-id 是稳定、不透明的内部标识。现有 i-、t-、r-、d-、a-、c-、m-、s- 前缀继续用于定位记录，引用同时校验目标表；纯命名调整不生成新记录。
-
-新增不同结果时生成新 ID。元数据补充、JSON 排版、文件位置或导出格式不同，不构成新的正文结果。校验拒绝重复 ID、失效引用及跨条目派生。
-
-SQLite 为可重建的检索结果，各维护表保存 id、item_id、record_json。selections 保存 name、selection_json。content_search 索引正文；CSV 的 record_path 指向维护 JSON，不是音频 local_path。
-
-review_issues 导出为 JSONL，每行保存一个完整的 issue 对象。定位字段为 edited_transcript_id、item_id、paragraph_index、issue_index、record_path。
-
-两个 index 均从零开始，定位到原记录 paragraphs[paragraph_index].issues[issue_index]。不生成独立维护 ID，不推断问题类别或解决状态。
-
-docs/catalog/reviews.md 列出全部整理稿的标注数量、待复核状态、完成状态、附注及独立稿存在情况。counts.json 中的标注计数如下；这些数量均不代表未解决问题数量。
-
-| 计数字段 | 统计对象 |
-| --- | --- |
-| review_issues | 段落校对标注 |
-| paragraphs_with_review_issues | 含标注段落 |
-| edited_transcripts_with_review_issues | 含标注整理稿 |
-| edited_transcripts_with_notes | 有附注的整理稿 |
-| edited_transcripts_with_review_documents | 有独立校验稿的整理稿 |
+切换当前数据前逐记录核对全部旧 JSON 值，验证来源、全文、分段、输入、时间、模型、质量和人工证据。维护源只写 v3，不长期双写旧目录；历史提交、入库收据、保存清单及冻结产物仍按原版本复验，原字节不改。训练选稿和发布策略继续在[制作工程](RELEASE.md)维护。

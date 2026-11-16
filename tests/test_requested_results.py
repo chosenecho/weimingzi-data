@@ -3,7 +3,10 @@
 import copy
 import hashlib
 import json
+import os
+import shutil
 import sys
+import tempfile
 import unittest
 import zipfile
 from pathlib import Path
@@ -12,7 +15,12 @@ from unittest.mock import patch
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 import test_corpus as fixtures
 from weimingzi_corpus.exports import render_subtitles
-from weimingzi_corpus.records import iter_records, read_json, write_jsonl
+from weimingzi_corpus.cli import import_records, load_content_record
+from weimingzi_corpus.records import (
+    install_candidate_updates, iter_records, read_json, validate_corpus, write_json,
+    write_jsonl, write_record_updates,
+)
+from weimingzi_corpus.schema_v3 import migrate_v2
 from weimingzi_corpus.requested_results import import_requested_results, package_records
 
 
@@ -167,6 +175,19 @@ class PackageTests(unittest.TestCase):
             read_json(self.root / "data/transcripts" / (before["id"] + ".json")), before
         )
 
+    def test_import_ignores_broken_optional_projection_configuration(self):
+        source = self.fixture()
+        for name in ("training", "release", "topics"):
+            path = self.root / "selections" / (name + ".json")
+            path.parent.mkdir(exist_ok=True)
+            path.write_text("{broken json", encoding="utf-8")
+        self.assertEqual(
+            import_requested_results(self.root, source)["inserted"],
+            {"transcripts": 1, "edited_transcripts": 1},
+        )
+        for path in (self.root / "selections").iterdir():
+            self.assertEqual(path.read_text(encoding="utf-8"), "{broken json")
+
     def test_bad_digest_rejects_before_writes(self):
         source = self.fixture()
         with zipfile.ZipFile(source) as archive:
@@ -207,6 +228,164 @@ class PackageTests(unittest.TestCase):
                 import_requested_results(self.root, source)
         self.assertEqual(len(list(iter_records(self.root, "transcripts"))), 1)
         self.assertEqual(list(iter_records(self.root, "edited_transcripts")), [])
+
+
+class NativePackageTests(unittest.TestCase):
+    tearDown = fixtures.CorpusTests.tearDown
+    save_transcript = fixtures.CorpusTests.save_transcript
+
+    def setUp(self):
+        fixtures.CorpusTests.setUp(self)
+        self.source = PackageTests.fixture(self)
+        native = self.root / "native"
+        migrate_v2(self.root, native)
+        self.root = native
+
+    def snapshot(self):
+        return {
+            p.relative_to(self.root).as_posix(): p.read_bytes()
+            for p in (self.root / "data").rglob("*") if p.is_file()
+        }
+
+    def test_native_import_lossless_artifacts_inputs_quality_and_replay(self):
+        before = self.snapshot()
+        expected = package_records(self.root, self.source)
+        self.assertEqual(import_requested_results(self.root, self.source)["inserted"],
+                         {"transcripts": 1, "edited_transcripts": 1})
+        for table, rows in expected.items():
+            projected = {r["id"]: (r, p) for r, p in iter_records(self.root, table)}
+            for row in rows:
+                actual, path = projected[row["id"]]
+                self.assertEqual(actual, row)
+                self.assertEqual(load_content_record(self.root, row["id"]), row)
+                self.assertEqual(path.parent.name, "documents")
+        after = self.snapshot()
+        for path, value in before.items():
+            if path.startswith("data/documents/"):
+                self.assertEqual(after[path], value)
+        self.assertTrue(any(path.startswith("data/artifacts/") for path in after))
+        self.assertFalse((self.root / "data/transcripts").exists())
+        self.assertFalse((self.root / "data/edited_transcripts").exists())
+        validate_corpus(self.root)
+        self.assertEqual(import_requested_results(self.root, self.source)["inserted"],
+                         {"transcripts": 0, "edited_transcripts": 0})
+        self.assertEqual(self.snapshot(), after)
+
+    def test_native_rejected_candidate_preserves_every_original_byte(self):
+        before = self.snapshot()
+        with patch("weimingzi_corpus.requested_results.validate_corpus",
+                   side_effect=ValueError("candidate rejected")):
+            with self.assertRaisesRegex(ValueError, "candidate rejected"):
+                import_requested_results(self.root, self.source)
+        self.assertEqual(self.snapshot(), before)
+
+    def test_native_install_failure_restores_existing_and_new_files(self):
+        import os
+        replace = os.replace
+        before = self.snapshot()
+        installed = 0
+        failed = False
+
+        def fail_during_install(source, destination):
+            nonlocal installed, failed
+            destination = Path(destination)
+            if destination.resolve().is_relative_to((self.root / "data").resolve()) and not failed:
+                installed += 1
+                if installed == 3:
+                    failed = True
+                    raise OSError("synthetic install failure")
+            return replace(source, destination)
+
+        with patch("weimingzi_corpus.records.os.replace", side_effect=fail_during_install):
+            with self.assertRaisesRegex(OSError, "synthetic install failure"):
+                import_requested_results(self.root, self.source)
+        self.assertTrue(failed)
+        self.assertEqual(self.snapshot(), before)
+        validate_corpus(self.root)
+
+    def review_update_candidate(self, markdown):
+        import_requested_results(self.root, self.source)
+        edited = next(iter_records(self.root, "edited_transcripts"))[0]
+        if markdown is None:
+            edited.pop("review_document_markdown")
+        else:
+            edited["review_document_markdown"] = markdown
+        temporary = tempfile.TemporaryDirectory(dir=self.root.parent)
+        self.addCleanup(temporary.cleanup)
+        candidate = Path(temporary.name)
+        shutil.copytree(self.root / "data", candidate / "data", copy_function=os.link)
+        before = self.snapshot()
+        paths = write_record_updates(candidate, {"edited_transcripts": [edited]})
+        validate_corpus(candidate)
+        self.assertEqual(self.snapshot(), before)
+        deleted = [path for path in paths if not (candidate / path).exists()]
+        self.assertTrue(deleted)
+        for path in deleted:
+            self.assertEqual(path.parent.as_posix(), "data/artifacts")
+            self.assertTrue((self.root / path).is_file())
+        return candidate, paths, edited, deleted
+
+    def test_native_review_artifact_rewrite_installs_and_deletes_old_artifact(self):
+        candidate, paths, edited, deleted = self.review_update_candidate("更新后的核对稿。\r\n")
+        install_candidate_updates(self.root, candidate, paths)
+        self.assertEqual(load_content_record(self.root, edited["id"]), edited)
+        for path in deleted:
+            self.assertFalse((self.root / path).exists())
+        self.assertEqual(
+            [path.read_bytes() for path in (self.root / "data/artifacts").iterdir()],
+            [edited["review_document_markdown"].encode("utf-8")],
+        )
+        validate_corpus(self.root)
+
+    def test_native_review_artifact_removal_installs(self):
+        candidate, paths, edited, deleted = self.review_update_candidate(None)
+        install_candidate_updates(self.root, candidate, paths)
+        actual = load_content_record(self.root, edited["id"])
+        self.assertEqual(actual, edited)
+        self.assertNotIn("review_document_markdown", actual)
+        for path in deleted:
+            self.assertFalse((self.root / path).exists())
+        validate_corpus(self.root)
+
+    def test_native_failure_after_artifact_deletion_restores_complete_dataset(self):
+        candidate, paths, edited, deleted = self.review_update_candidate("替换工件后模拟安装失败。")
+        before = self.snapshot()
+        replace = os.replace
+        failed = False
+        document = (self.root / "data/documents" / (edited["id"] + ".json")).resolve()
+
+        def fail_after_delete(source, destination):
+            nonlocal failed
+            if Path(destination).resolve() == document and not failed:
+                self.assertTrue(all(not (self.root / path).exists() for path in deleted))
+                failed = True
+                raise OSError("synthetic failure after artifact deletion")
+            return replace(source, destination)
+
+        with patch("weimingzi_corpus.records.os.replace", side_effect=fail_after_delete):
+            with self.assertRaisesRegex(OSError, "failure after artifact deletion"):
+                install_candidate_updates(self.root, candidate, paths)
+        self.assertTrue(failed)
+        self.assertEqual(self.snapshot(), before)
+        validate_corpus(self.root)
+
+    def test_cli_native_import_uses_core_writer_and_validates_candidate(self):
+        item = copy.deepcopy(self.item)
+        item["id"] = "i-" + "e" * 24
+        source = self.root / "new-item.json"
+        write_json(source, item)
+        self.assertEqual(import_records(self.root, "items", source), 1)
+        self.assertEqual(import_records(self.root, "items", source), 0)
+        self.assertEqual(len(list(iter_records(self.root, "items"))), 2)
+        self.assertFalse((self.root / "data/collections.jsonl").exists())
+        before = self.snapshot()
+        broken = copy.deepcopy(self.transcript)
+        broken["id"] = "t-" + "d" * 24
+        broken["item_id"] = "i-" + "f" * 24
+        write_json(source, broken)
+        with self.assertRaises(ValueError):
+            import_records(self.root, "transcripts", source)
+        self.assertEqual(self.snapshot(), before)
 
 
 if __name__ == "__main__":

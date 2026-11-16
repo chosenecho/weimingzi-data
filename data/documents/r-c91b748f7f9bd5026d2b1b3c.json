@@ -1,0 +1,321 @@
+{
+  "model": {
+    "name": "deepseek-v4.1-flash"
+  },
+  "time_unit": "ms",
+  "text": "我们今天要唱这首《凤歌》。这里的“衰”字念“摧”，意思是按照一定的等级递减、掉下来；其实就是“何如德之衰”的“衰”，指世间道德、德行的降低。面对德行的降低，你能拿它怎么办？所以这个字念“摧”，就是逐级降低。\n\n凤兮，何如德之衰？凤兮，何如德之衰？凤兮，何如德之衰？凤兮，何如德之衰？\n\n来者不待追，往者良德孰可见？舍生而取义者也，亡者不可见。\n\n天下有道，圣人成焉；涉世无道，苟且慎焉。或知所负轻乎羽，载而不可取；夫知所以重乎地，莫知所避。天下无道，圣人慎焉；方今之时，仅免刑焉。\n\n已而临人以德，已而临人以德；殆乎画地而去，殆乎画地而去。\n\n迷阳，无伤吾行；迷阳，吾行郤曲；迷阳，无伤吾行；迷阳，无伤吾足。\n",
+  "quality": {
+    "is_fully_human_reviewed": false,
+    "requires_review": true,
+    "status": "needs_review"
+  },
+  "id": "r-c91b748f7f9bd5026d2b1b3c",
+  "kind": "edited_transcript",
+  "metadata": {
+    "revision_id": [
+      "d69dd4205b69847716ee92e27d8a04174c6437925eae0b9192cf5c68f4538f1b"
+    ],
+    "input_id": [
+      "ba4b02c740192a24b560f4dc3a999570fd4d840e0fcdb28458aa4dc5d63bf19c"
+    ],
+    "generated_at_unix_seconds": [
+      1793611537
+    ]
+  },
+  "is_complete": true,
+  "notes_markdown": "# 【填词翻唱】凤歌：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`d69dd4205b69847716ee92e27d8a04174c6437925eae0b9192cf5c68f4538f1b`\n\n输入快照：`ba4b02c740192a24b560f4dc3a999570fd4d840e0fcdb28458aa4dc5d63bf19c`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`455`；参考转录：`175`",
+  "_legacy": {
+    "table": "edited_transcripts",
+    "keys": [
+      "id",
+      "is_complete",
+      "item_id",
+      "kind",
+      "metadata",
+      "model",
+      "notes_markdown",
+      "paragraphs",
+      "paragraphs_match_text",
+      "quality",
+      "schema_version",
+      "text",
+      "time_unit",
+      "transcript_ids"
+    ],
+    "derived": [
+      "paragraphs_match_text"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-86b8bf78e835d2b8182c5d56"
+    },
+    {
+      "role": "transcript",
+      "target_id": "t-796cd67cc7b83394c3213ac7"
+    }
+  ],
+  "blocks": [
+    {
+      "issues": [
+        {
+          "candidate": "何如德之衰",
+          "note": "ASR作“何如得之摧”，参考字幕亦不稳定；结合开头说明和《凤歌》语境，按“何如德之衰”整理，“衰”读cuī。",
+          "evidence_labels": [
+            "t455:s0",
+            "t455:s2",
+            "t175:s1",
+            "t175:s4"
+          ]
+        },
+        {
+          "candidate": "逐级降低",
+          "note": "“等等地”疑为“等第地/逐级地”的口语表达，正文按上下文整理为“逐级降低”。",
+          "evidence_labels": [
+            "t455:s5",
+            "t175:s9"
+          ]
+        }
+      ],
+      "start": 480,
+      "end": 38080,
+      "input_unit_labels": [
+        "t455:s0",
+        "t455:s1",
+        "t455:s2",
+        "t455:s3",
+        "t455:s4",
+        "t455:s5"
+      ],
+      "range": [
+        0,
+        103
+      ],
+      "input_text_ref": {
+        "target_id": "t-796cd67cc7b83394c3213ac7",
+        "content_sha256": "0a5850d000bc2b73ebf66171fabe8b903a05031d07dffbdd46e41d5316f44a0a",
+        "source": "segments",
+        "range": [
+          0,
+          112
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "凤兮，何如德之衰？",
+          "note": "ASR作“凤兮何德之摧”，参考字幕作“喝得直摧”等；正文按开头说明整理为“何如德之衰”。",
+          "evidence_labels": [
+            "t455:s6",
+            "t175:s11"
+          ]
+        }
+      ],
+      "start": 38320,
+      "end": 92800,
+      "input_unit_labels": [
+        "t455:s6",
+        "t455:s7",
+        "t455:s8",
+        "t455:s9"
+      ],
+      "range": [
+        105,
+        141
+      ],
+      "input_text_ref": {
+        "target_id": "t-796cd67cc7b83394c3213ac7",
+        "content_sha256": "0a5850d000bc2b73ebf66171fabe8b903a05031d07dffbdd46e41d5316f44a0a",
+        "source": "segments",
+        "range": [
+          112,
+          140
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "往者良德孰可见",
+          "note": "第二句ASR作“来者良德孰可见”，其中第二个“来者”疑为“往者”，参考字幕亦作“来者”，暂按对文整理为“往者”。",
+          "evidence_labels": [
+            "t455:s10",
+            "t175:s19"
+          ]
+        }
+      ],
+      "start": 92800,
+      "end": 131920,
+      "input_unit_labels": [
+        "t455:s10",
+        "t455:s11"
+      ],
+      "range": [
+        143,
+        171
+      ],
+      "input_text_ref": {
+        "target_id": "t-796cd67cc7b83394c3213ac7",
+        "content_sha256": "0a5850d000bc2b73ebf66171fabe8b903a05031d07dffbdd46e41d5316f44a0a",
+        "source": "segments",
+        "range": [
+          140,
+          168
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "涉世无道",
+          "note": "ASR作“舍是无道”，参考字幕作“涉世无道”，正文取“涉世无道”。",
+          "evidence_labels": [
+            "t455:s13",
+            "t175:s25"
+          ]
+        },
+        {
+          "candidate": "载而不可取",
+          "note": "ASR作“在而不可取”，参考字幕有“载而不可取”，正文取“载而不可取”。",
+          "evidence_labels": [
+            "t455:s14",
+            "t175:s27"
+          ]
+        },
+        {
+          "candidate": "莫知所避",
+          "note": "ASR作“莫知之所必”，疑为“莫知所避”，正文按文意整理。",
+          "evidence_labels": [
+            "t455:s15",
+            "t175:s29"
+          ]
+        },
+        {
+          "candidate": "圣人慎焉",
+          "note": "ASR作“圣人神焉”，疑为“圣人慎焉”，正文取“慎焉”。",
+          "evidence_labels": [
+            "t455:s16",
+            "t175:s31"
+          ]
+        },
+        {
+          "candidate": "仅免刑焉",
+          "note": "ASR作“尽灭性焉”，参考字幕作“今年新颜”，疑为“仅免刑焉”，正文按《庄子》语境整理。",
+          "evidence_labels": [
+            "t455:s17",
+            "t175:s32"
+          ]
+        }
+      ],
+      "start": 134800,
+      "end": 191231,
+      "input_unit_labels": [
+        "t455:s12",
+        "t455:s13",
+        "t455:s14",
+        "t455:s15",
+        "t455:s16",
+        "t455:s17"
+      ],
+      "range": [
+        173,
+        240
+      ],
+      "input_text_ref": {
+        "target_id": "t-796cd67cc7b83394c3213ac7",
+        "content_sha256": "0a5850d000bc2b73ebf66171fabe8b903a05031d07dffbdd46e41d5316f44a0a",
+        "source": "segments",
+        "range": [
+          168,
+          237
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "已而临人以德",
+          "note": "ASR作“一而令人易得”，参考字幕作“一而/令人易得”，按《庄子》语境整理为“已而临人以德”。",
+          "evidence_labels": [
+            "t455:s18",
+            "t175:s34"
+          ]
+        },
+        {
+          "candidate": "殆乎画地而去",
+          "note": "ASR作“待乎画地而去”，正文取“殆乎画地而去”。",
+          "evidence_labels": [
+            "t455:s20",
+            "t175:s38"
+          ]
+        }
+      ],
+      "start": 193631,
+      "end": 218671,
+      "input_unit_labels": [
+        "t455:s18",
+        "t455:s19",
+        "t455:s20",
+        "t455:s21"
+      ],
+      "range": [
+        242,
+        270
+      ],
+      "input_text_ref": {
+        "target_id": "t-796cd67cc7b83394c3213ac7",
+        "content_sha256": "0a5850d000bc2b73ebf66171fabe8b903a05031d07dffbdd46e41d5316f44a0a",
+        "source": "segments",
+        "range": [
+          237,
+          265
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "迷阳，无伤吾行；迷阳，吾行郤曲",
+          "note": "ASR作“弥羊无伤无心/弥羊无心西去”，参考字幕作“绵阳/无声无形/五行西去”，正文按《庄子》“迷阳”数句整理。",
+          "evidence_labels": [
+            "t455:s22",
+            "t175:s42",
+            "t455:s23",
+            "t175:s44"
+          ]
+        },
+        {
+          "candidate": "迷阳，无伤吾足",
+          "note": "ASR作“弥羊无伤无足”，正文整理为“迷阳，无伤吾足”。",
+          "evidence_labels": [
+            "t455:s25",
+            "t175:s48"
+          ]
+        }
+      ],
+      "start": 266511,
+      "end": 298111,
+      "input_unit_labels": [
+        "t455:s22",
+        "t455:s23",
+        "t455:s24",
+        "t455:s25"
+      ],
+      "range": [
+        272,
+        304
+      ],
+      "input_text_ref": {
+        "target_id": "t-796cd67cc7b83394c3213ac7",
+        "content_sha256": "0a5850d000bc2b73ebf66171fabe8b903a05031d07dffbdd46e41d5316f44a0a",
+        "source": "segments",
+        "range": [
+          265,
+          293
+        ]
+      }
+    }
+  ]
+}

@@ -6,22 +6,24 @@
 
 | 中文名称 | 英文名称 | 位置 |
 | --- | --- | --- |
-| 条目 | item | data/items.jsonl |
-| 基础转录 | transcript | data/transcripts/ |
-| 整理稿 | edited transcript | data/edited_transcripts/ |
-| 动态贴文 | post | data/posts/ |
-| 专栏文章 | article | data/articles/ |
-| 集合 | collection | data/collections.jsonl |
-| 音频文件记录 | audio record | data/audio.jsonl |
-| 人工确认 | confirmation | data/confirmations.jsonl |
-| 片段归属 | segment attribution | data/attributions.jsonl |
-| 选稿 | selection | selections/ |
+| 条目与有序集合 | item / collection | data/items.jsonl |
+| 文稿：基础转录、整理稿、动态、文章 | document | data/documents/ |
+| 资产：音频、归档与独立工件 | asset | data/assets.jsonl |
+| 人工证据：文字确认、片段归属 | annotation | data/annotations.jsonl |
+| 专题规则 | topic rules | selections/topics.json |
+| 选稿 | selection | [制作工程](RELEASE.md) |
 
-**条目**是内容或人物的索引对象，保存标题、外部标识、链接、元数据和关联。同一条目可以关联多份转录、整理稿或音频文件。
+**条目**是内容、人物或有序集合的索引对象，保存标题、外部标识、链接、元数据和关联。同一内容条目可以关联多份转录、整理稿或音频文件。
+
+**文稿**是保存一份独立文字结果的维护实体，以 kind 区分基础转录、整理稿、动态和文章。文稿不是发布 head 或训练选稿。
+
+**资产**是保存独立文件及其校验、恢复位置的维护实体。**人工证据**是可引用的文字确认或片段归属，各自保留审核范围与规则。
+
+下文旧专有字段名表示兼容投影中的同一语义；v3 维护键及对应关系见 [数据结构](SCHEMA.md)。
 
 **基础转录**是字幕或语音识别结果，保留正文、原始分段顺序及时间值。基础转录不意味着逐字正确或经过人工复核。
 
-**整理稿**是对输入文字进行语句整理、校对或有限人工修订后的独立结果。它通过 transcript_ids 关联可确认的基础转录，通过 input_units 保留整理参照。
+**整理稿**是对输入文字进行语句整理、校对或有限人工修订后的独立结果。它通过 inputs 的 transcript 角色关联可确认的基础转录，通过 input_units 保留整理参照。
 
 **动态贴文**保存动态的富文本及转发内容。**专栏文章**保存独立文章正文和已有 HTML；动态可以关联展开全文对应的文章。
 
@@ -31,9 +33,11 @@
 
 **人工确认**保存审核过的局部字句或术语、原文锚点、修订文字及适用整理稿。确认只作用于声明范围。
 
-**片段归属**保存人工确认的某段或段内某句由谁说出、表达谁的观点。它锚定整理稿段落及段落文字哈希，与文字确认分开保存；没有记录表示未审核，unknown 表示审核后仍无法判断。
+**片段归属**保存人工确认的某段或段内某句由谁说出、表达谁的观点。它锚定整理稿段落及段落文字哈希，与文字确认按不同 kind 和规则保存；没有记录表示未审核，unknown 表示审核后仍无法判断。
 
-**选稿**保存用途所需的记录引用。training 是训练用途选稿，不复制正文，不授予内容使用权，也不代表全文已审核。权利边界见 [内容权利说明](../CONTENT-RIGHTS.md)。
+**专题规则**按来源集合、题名、标签或人工证据组织资料查询，不决定训练或发布的收录范围。
+
+**选稿**是下游为特定用途选定的记录引用；训练选稿不授予内容使用权，也不代表全文已审核。权利边界见 [内容权利说明](../CONTENT-RIGHTS.md)。
 
 ## 基础转录与整理稿
 
@@ -48,13 +52,13 @@
 
 CC 字幕的类型本身不能证明经过人工复核。未知的生成方式按原始 method 显示，不推断其含义。
 
-**整理稿**包括语句整理、AI 校对或局部人工修订的结果。它通过 transcript_ids 关联已知的输入转录；目录中的“输入”列出这些转录的短 ID。“输入未关联”表示尚无可确认的仓库内转录引用，不表示没有输入文字。整理稿的完成状态和人工复核状态分别记录。
+**整理稿**包括语句整理、AI 校对或局部人工修订的结果。它通过 inputs 的 transcript 角色关联已知的输入转录；目录中的“输入”列出这些转录的短 ID。“输入未关联”表示尚无可确认的仓库内转录引用，不表示没有输入文字。整理稿的完成状态和人工复核状态分别记录。
 
 例如《【一个呼吁】减租减息，共克时艰》的同一分段关联以下结果：
 
-- [平台 AI 字幕 1572d3c1](../data/transcripts/t-1572d3c1ffbe96350f781bf4.json)。
-- [Qwen 本地转录 1bf39d96](../data/transcripts/t-1bf39d9689d95ed8781ec6bd.json)，正文和分段与平台 AI 字幕不同。
-- [整理稿 2960e717](../data/edited_transcripts/r-2960e717d48e73ec73f34199.json)，输入关联本地 Qwen 转录。生成模型为 deepseek-v4.1-flash，当前仍标记为待复核。
+- [平台 AI 字幕 1572d3c1](../data/documents/t-1572d3c1ffbe96350f781bf4.json)。
+- [Qwen 本地转录 1bf39d96](../data/documents/t-1bf39d9689d95ed8781ec6bd.json)，正文和分段与平台 AI 字幕不同。
+- [整理稿 2960e717](../data/documents/r-2960e717d48e73ec73f34199.json)，输入关联本地 Qwen 转录。生成模型为 deepseek-v4.1-flash，当前仍标记为待复核。
 
 目录链接以“名称（已知模型）:短 ID”显示；模型为路径时仅显示末段，完整名称和修订值保存在 JSON 中。短 ID 取记录 ID 去掉前缀后的前八个字符，点击链接可查看完整记录。并列或排序不表示哪份结果质量更高。
 
@@ -62,20 +66,22 @@ CC 字幕的类型本身不能证明经过人工复核。未知的生成方式�
 
 | 中文名称 | 英文名称 | 对应字段 |
 | --- | --- | --- |
-| 转录分段 | transcript segment | segments |
-| 整理段落 | edited paragraph | paragraphs |
+| 转录分段 | transcript segment | blocks（基础转录；旧投影为 segments） |
+| 整理段落 | edited paragraph | blocks（整理稿；旧投影为 paragraphs） |
 | 识别块 | recognition chunk | recognition_chunks |
 | 输入单位 | input unit | input_units |
 | 输入单位标签 | input unit label | input_unit_labels |
 | 证据标签 | evidence label | evidence_labels |
 
-**转录分段**是基础转录的正文单位，包含 index、start、end、text。index 从零起；start、end 的单位由该记录的 time_unit 指定。
+**转录分段**是基础转录的正文单位。v3 在 blocks 保存原 start、end 和正文选择器；序号由数组位置从零计数，文字从 range 或 literal 解析。start、end 的单位由该记录的 time_unit 指定。
 
-**整理段落**是整理稿的正文单位，保存 input_text、整理后 text、输入标签及疑点。其时间范围可能只是输入音频块边界，不保证逐句或逐字对齐。
+**整理段落**是整理稿的正文单位，保存正文选择器、输入参照或原 input_text、输入标签及疑点。其时间范围可能只是输入音频块边界，不保证逐句或逐字对齐。
+
+**正文选择器**在 range 与 literal 中二选一。range 是全文中的 Unicode 码点半开区间；literal 保留与全文字面不同的原段。选择器不证明分块已覆盖全文。
 
 **识别块**保存识别响应的块偏移、时长、句子和词信息。offset_seconds 是秒偏移，块内时间由 time_unit 指定。它不表示仓库进行过强制对齐。
 
-**输入单位**是整理时使用的文字与参照片段，粒度可能不同于转录分段。局部稿可通过 input_units_from_id 引用同条目整理稿的输入单位。
+**输入单位**是整理时使用的文字与参照片段，粒度可能不同于转录分段。局部稿通过 inputs 的 input_units_from 角色引用同条目整理稿的输入单位，旧投影字段为 input_units_from_id。
 
 **输入单位标签**只在对应输入中定位片段。**证据标签**定位输入侧参照。它们可能含旧编号或片段编号，不能作为仓库记录 ID 解析。
 
@@ -85,11 +91,11 @@ CC 字幕的类型本身不能证明经过人工复核。未知的生成方式�
 
 | 中文名称 | 英文名称 | 对应字段 |
 | --- | --- | --- |
-| 校对标注／疑点 | review issue | paragraphs[].issues |
+| 校对标注／疑点 | review issue | blocks[].issues |
 | 标注说明 | review note | issues[].note |
 | 候选文字 | candidate text | issues[].candidate |
 | 整理附注 | editorial notes | notes_markdown |
-| 独立校验稿 | review document | review_document_markdown |
+| 独立校验稿 | review document | inputs 的 review_document_markdown 角色引用资产；旧投影为同名文字字段 |
 | 人工术语释义 | confirmed term gloss | term_glosses |
 
 **校对标注**保存 AI 整理或后续修订时留下的疑点、候选改法及修改说明。它附属于具体段落，通过该段落的输入文字、正文、时间和标签回查材料。完整目录见 [校对标注与复核状态](catalog/reviews.md)。
@@ -120,13 +126,13 @@ review_markdown 导出完整保留独立校验稿；附注未完整包含在稿�
 
 **记录 ID**是仓库内稳定标识，用于内部引用。纯字段或目录改名不改变已有 ID。新增不同结果应生成新 ID。
 
-**外部标识**是平台或其他系统的编号，保存在 identifiers 的命名空间内。upstream_transcript_id 是整理输入快照的外部标识；transcript_ids 才是仓库内转录引用。
+**外部标识**是平台或其他系统的编号，保存在 identifiers 的命名空间内。upstream_transcript_id 是整理输入快照的外部标识；inputs 的 transcript 角色才是仓库内转录引用，旧投影字段为 transcript_ids。
 
 **元数据**保存在 metadata 中，每个键保存不同观测值的列表。多个值并列存在，不以某一值覆盖其他值。原始富文本及供应商对象内部的字段沿用原对象定义。
 
 **内容哈希**用于校验指定字段组成的规范 JSON。content_sha256 保护基础转录的正文、分段及描述字段；recognition_chunks_sha256 保护补充识别信息。文件 SHA-256 则校验实际文件字节。
 
-**派生关系**由 derived_from_id 表示，目标为同条目的另一份整理稿。它记录实际文字或注释的修订关系。
+**派生关系**由 inputs 的 derived_from 角色表示，目标为同条目的另一份整理稿，旧投影字段为 derived_from_id。它记录实际文字或注释的修订关系。
 
 **导出结果**是由维护记录生成的 TXT、Markdown、字幕、CSV 或 SQLite。生成目录和检索库可重建；导出格式不同不构成新的正文结果。
 
@@ -159,6 +165,6 @@ timing_issues 是工具根据当前时间值检查得到的问题列表；report
 
 ## 下载定位
 
-**本地路径** local_path 指音频恢复后的仓库相对路径。**归档文件** archive 指远端 ZIP，包含 name、size_bytes、sha256、url。
+**本地路径** local_path 指音频恢复后的仓库相对路径或已保存独立工件的仓库相对路径。**归档文件**使用 kind=archive 的资产保存 name、size_bytes、sha256、url；音频的 downloads 通过 archive_id 引用，旧投影中还原为 archive 对象。
 
 **成员路径** member_path 是 ZIP 内原有成员名，必须与远端内容一致。release_tag 是外部托管位置的定位字段。目录命名不改变这些外部定位值。

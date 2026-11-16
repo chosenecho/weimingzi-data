@@ -1,0 +1,7827 @@
+{
+  "kind": "transcript",
+  "method": "asr_local",
+  "language": "Chinese",
+  "model": {
+    "revision": "bcd2b5b7f32b480ab5790554cfa8347f246a14f3",
+    "name": "source://production/models/Qwen3-ASR-1.7B-hf"
+  },
+  "time_unit": "ms",
+  "text": "好了，我们开始讲集合论啊。\n集合论这个东西，\n呃，我觉得它是一个数理逻辑和数学思维的一个，\n呃，一个基础性的一个东西啊，一个比较基础的一个。\n那我们直接来看好了，然后我们直接来看\n这个，现在是对于我们用的是这个，\n这个Thomas这个这个娃读叶合还是这一合我不知道，不管了，反正是这个人的比较流行的一个教材啊。\n然后直接看第一章啊，第一章名字就叫Sets啊，集合啊，Introduction to\nSets集合的一个介绍啊，一个导入导论啊。The central concepts of this\nbook这本书的核心的一个概念啊，就是\n集合，一个集合，一个集子。Is at least on the surface extremely\nsimple，它在表面上看，至少在表面上看是是是极为简单的，非常简单的一个东西。A set is any collection group or conglomerate\nconglomerate。\n一个集合呢，它是一个，反正是一个collection，\n一反正我中文也翻译成集合了，就是一个一个集中起来的一一堆东西，对不对？Col\nconglomerate是一堆东西，或者说一个群呐。\n当然它都专门有群论呐，什么的group theory of\ngroup什么whatever，群论是用翻是group吗？我记不得了。\n啊啊，反正是反一一系列的东西，一个一个集集团的东西，一团东西啊，都可以说是一个集合。So we have the set of all students registered at the City University of the New York in February 1998。\n所以我们当然可以说有呃在，\n那February几月份我都不知道，二月。\n我没文化，我已经没文化到这种程度了。\n是二月啊，我操。\n呃，1998年二月的什么纽约大学的这个所有注册学生的这么一个集合，我们可以有啊，以及我们也可以有所有自然数的所有的even\n啊自然偶数的一个集合，even应该是偶数啊，我们没文化啊，啊，你可以原谅我是没文化的人啊。\n偶数的啊，偶数的。\n然后我们也可以有这个在这个in the plane\npi啊，这个plane in the plane pi\nexactly在two inches distinct from a given point p。\n我们也可以有这个在这个平面pi上面的呃离一个给定的一个这个plane pi，这个plane\n是平面的意思吗？\n应该是这个意思啊，就是我我们不是专门他妈的用数学系，就是平面啊，在一个平面pi\n上面的，离一个给定的点p\n正好两英寸的，\n你妈的这个虽然它念\ninch，但是它是英寸啊，非常有意思，你就相当于一块学学英语的吧，虽然它念\ninch，但是它是翻译成英寸，正好两英寸的呃所有的所有的点它们一个集合，以及我们也可以有所有的这个粉色大象的一个集合，\nelephants，我操粉色大象，all pink\nelephants，房间里的粉色大象不是只有一头吗？\n当然它是什么我们所有人都不能说，不是只有一头大象吗？sets are not objects of the real\nworld，那么这个集合不是现实世界的这个对象啊，不是真不是真的东西，不是现实世界里面的那个呃对象了，啊它不是像这个桌子\n或者星星一样的东西，they are created by our\nmind，它是被我们的心智创造出来的，脑子想出来的啊，头脑想出来的，而不是用手创造出来的，然后一堆土豆呢，它不是一个土豆\n的集合，啊，所有在一滴水里面的那所有的水分子的这个集合呢，也不是啊这个水滴作为一个对象的这个水滴，所以集合是个头脑想设想\n的一个东西啊，那个人类的心智呢，它获得了一种能力去抽象出啊或者说去设想啊有许多许多有不同的东西的这个a var不variety of different objects as being\nbound，把把很多不同的东西啊，把各式各样的不同的东西啊，却把它那个什么\n束缚在一起，捆绑在一块啊，通过某一个共同的一个特点啊，某一个共同一个特点，可以把许多不同东西给它给它放到一块来去设想它，\n就是这种能力啊，抽象出它们的共同点，然后说这些东西就是同同一个东西，或者说至少就就是来来\n来把它当做一个集合来把握，and thus to form a set of objects\nin，呃从而也就是说从而来形成一个\n拥有这个共同点的共同特点的各式各样的东西啊，就是拥有这些共同点的拥有这些属性的一个对象的一个集合啊，人类具有这这是一种观\n念的能力，就是说\n就是说把握集合的能力啊是一种或者说通过事物的共同点把它从啊就把它抽象出来，然后统一来把握，统摄的来把握，这是观念能力，\n那么这里所谓的这么一个共同的一个属性呢？May be nothing more than the ability to think of these objects together。\n这个所谓的共同的属性，可能它没有共同属性，只不过是因为我把它当成啊，我把它一起来考虑啊，一起来考虑，当成这些东西，比如说\n你可以说随便弄几个东西，这些东西其实没有共同点，但是我就是把它一起来考虑，就这些东西一起被我思考着来讲，这就是他们的，这\n就是他们的共同点。\n那么这些东西就构成一个集合啊。The property in question may be nothing more than the the ability to think of these objects together。\n我们所说的这个这些事物的共同点可能什么都不是，而只是说我我现在能够把它们放到一起来考虑啊。因此呢，there is a\nset呃consisting of exactly the\nnumber呃，所以呢可以存在一个集合，它由恰恰由下面这几个数二七十二十三二十九三十四以及一万一千来组成。尽管呢it it is hard to see what binds exactly these numbers together。\n尽管很难看出来他们这些数到底有什么共同点，对不对啊？\n很难看出来到底是什么把这些数捆缚到一块儿，对不对？\n就其实就是我把它捆缚到一起，我把它作为一个整体来把握。\n除除此之外，这些要素之间没有啥共同点。Besides the fact that\nwe除了我我仅仅是把这些数啊在我的头脑里面把它弄到一起collect把它集中在一起之外，这些数其实没有什么共同点啊，没有\n什么东没有什么一个共同的一个属性。\n那么Gerg格尔格这个这个他妈的念什么不管了，反正就是康托了，康托康托集啊，你们你们就听懂康托集就这么定义那个实数的。\n那康托呢是一个德国德意志或者日耳曼这个数数学家，他建立起了这个用几张纸啊，in a series of\npaper又又一系列的论文啊，不是几张纸了，用一系列论文啊，在\n十九世纪的最后三十年发表的一系列论文建建立起了集合论呢。\n他这样去表达啊，expressed这样把这件事情这样去表达，就是什么啊这个德文我就不念了啊，德文我就不念了，就是说它下面\n有翻译了，就是说a set is a collection into a whole of definite distinct objects of our intuition\nor呃our thought。\n一个集合呢，它就是一系列，就是一组一一一个这个也翻译成集合，你知道吗？\nCollection啊，就是a set，我就说a\nset就是一个集合。\n这个集合呢呃它就是一整就是由\n我们的直观或我们的思想所把握到的啊啊，我们的直观对象或思想对象，而且它是definite\n是清楚的啊，清楚的distinct\n的也是的清晰的，就是它它这几个几个可以分开的啊，the definite\n就是它是清楚的，清楚明白的，distinct\n就是它是这个意思，还还包括它他妈的不会瞎变的啊，distinct\n就是说它彼此之间不会不会搞混的啊的一些对象啊，我们的直观对象和我们的这个思维的对象，它形成了一个整体，形成了一个整体，这\n个整体的这么一个集合，它就是一个set\n就这个集合，the objects are called elements of the set。\n那么这些对象呢，就是被称作是这个集合的要素啊，或者说它的它的里面的成员了。Now objects from which a given set is composed are called elements。\n啊，就是说一个给定的集合啊，它所有组成的那些对象啊，这对象组成了一个给定集合，这些这些对象呢啊就被叫做要素，或者说这个这\n个集合的里面的要素，或者这个集合里面的这个成员。We also say that they belong to that set。\n我们也说这个这些对象或者这些要素呢属于这个集合啊，belong t o。I n t h i s b o o k w e w a n t t o d e v e l o p t h e t h e o r y o f s e t s a s a f o u n d a t i o n f o r o t h e r m a t h e m a t i c a l。C o m e o n。啊，在这本书我们想要去发展这个集合的呃集合的这个理论，发展这个集合论啊，把它作为一个其他数学呃数学其他数学理论啊，d i s p l a y就是教条了，那些是数学学说的一个基础。因此我们在这里啊并不关心这个s e t o f p e o p l e啊人或者说什么分子组成的集合，就它这我就说我在这里教的不是不是这个人类学社会学，也不是这个物理学化学，b u t o n l y w i t h s e t s o f m a t h e m a t i c a l o b j e c t s。而只是讨论啊这个数学对象的集合啊，比如说数啦点啊空间里面点啦，函数啦，或者说集合本身的集合。A c t u a l l y t h e f i r s t t h r e e c o n c e p t s c a n b e d e f i n e d i n s e t t h e o r y a s s e t s w i t h p a r t i c u l a r p r o p e r t i e s。那么事实上呢，就是说前面三类三个概念啊，就是说这个数啦，空间点啦，函数呢，都可以在集合论里面被定义成是什么啊有特殊属性的啊特殊属性的一些集合，就所有东西都可以被定义成集合了。你简单来讲了，集合论就是说的数学数学对象数学概念都可以被定义成集合了。A n d w e d o t h a t i n t h e f o l l o w i n g c h a p t e r s。然后我们会在后面几章做这件工作。S o t h e o n l y o b j e c t s w i t h w h i c h w e a r e c o n c e r n e d f r o m n o w o n a r e s e t s。\n所以我们现在toIn this book we want to develop the theory of sets as\na foundation for other mathematicalCome on啊在这本书我们想要去发展这个集合的呃\n集合的这个理论发展这个集合论啊把它作为一个其他数学呃数学其他数学理论啊display就是教条了那些是数学学说的一个基础因\n此我们在这里啊并不关心这个set of people啊人或者说什么分子组成的集合就它这我就说我在这里教的不是不是这个人类\n学社会学也不是这个物理学化学but only with sets of mathematical objects而只是讨\n论啊这个数学对象的集合啊比如说数啦点啊空间里面点啦函数啦或者说集合本身的集合Actually the first three\nconcepts can be defined in set theory as sets with particular\nproperties那么事实上呢就是说前面三类三个概念啊就是说这个数啦空间点啦函数呢都可以在集合论里面被定义成是什么啊有\n特殊属性的啊特殊属性的一些集合就所有东西都可以被定义成集合了你简单来讲了集合论就是说的数学数学对象数学概念都可以被定义成\n集合了And we do that in the following chapters然后我们会在后面几章做这件工作So\nthe only objects with which we are concerned from now on are\nsets所以我们现在我们继续下去，从现在开始，我们关心的唯一的对象就是集合。For purposes of illustration,we talk about sets of numbers or points even before those notions are exactly\ndefined.但是为了就是说一个展示的一个方面了，\n为了说明方便，我们会讨论这个呃数集或者点集啊，我们会在数和，比如说我们会在数和这个点被清楚的定义\n好之前，出于这个说明的一个方便啊，我们我们会我们会我们还是会讨论到这个数集或点集啊。啊，we do that,however,only in exact examples,exercises and problems,not in the memorry of。\n我们这样做就是说，我们还没有定义清楚什么是数，什么是点，但是呢就已经开始用数集和点集了啊。\n但是呢，他说我我我只会在例子里面，在习题和这个要解决的问题里面，而不会在这个理论的主主体部分来这样做，因为这样做是赖皮的嘛，对不对？\n这样做是违规的，因为你还没定义好什么点，什么是数，是不是？\n你就已经说是数集和点集了，你不是说数和点本身可以定义成集合吗？对不对？\n那你那你为什么先不先把这个数和点定义成集合，再讨论数集点集？\n他是说我这个有个先后次序问题，对不对？啊，sets of\nmathematical，那么就是说由数学对象所组成的这个集合啊，如下啊，举例如下啊，他就举几个例子，一个是叫做有所有的\n这个三百二十四的这个prime，它的素数素数因子啊所组成的集合，三百二十四，那就比如说二啦，三二十四是几的倍数啊，三啊什\n么这屌东西了，prime，\n这个这个这个这个翻译成什么？\n素数因子，质因数了，质因数。\n然后那个the set of all\nnumbers divisible by\nzero啊，也就所有\n所有不能被零分的，不对不对不对不对不对，这个divisible by\nzero可以被零整除的所有数\n啊啊，那有有数被，但是第二个集子是空集了，我操，divisible by\nzero他妈的就是没有了，\n没有数可以被零整除啊，明白吗？\n可被可以被零的嘛？The set of all continuous real valued functions on the\ninterval这个什么呃zero to\none啊，就从零到一这个区间的这个，而且它是什么？\n这个区间里面的所有这个real\nvalued啊实函数，然后它是是那个被\n负值的，有值有值域的，我操，在里面的实函数了，我不知道是个real\nvalued，反正就是这。\n在这个区间里面有定义的这个所有的函数啊，等等的，the set of all ellipses with major axis five\nand这个是什么？major\naxis曲线椭这个这是椭圆曲线，我反正我不是学数学的，就当时学学他妈的学数学，所有的椭圆，major axis five\nand搜一下就知道，这个东西几秒钟的事情。\n呃，major\naxis就它的那个那个那个它的\n主主轴是五嘛，它那个有两两条轴嘛，\n主轴是五，主轴长就是椭圆椭圆曲线，主轴长，主轴长是五，这个是的，\neccentricity\n它两两点距离是transit，这个是它的偏心率三，\n离心率三啊，离心率三，离心率三，离心率是离心率是椭圆形的什么比什么我记不得了，\n椭圆离心率，椭圆的偏心率是\n动点到焦点的距离啊，动点到焦点的距离到动点到准线的距离之比啊，啊你们我操，这椭圆曲线多少年没学了，我记不得了，不好意思。\n然后第第五个例子，set of all sets whose elements are natural numbers less than\ntwenty啊，它的这个一个集合，它是它由所有的集合组成，所有哪些集合呢？\n它就是说啊，它的自然数少于小于二十的自然数，就是一个集合，它里面的要素是小于二十自然数啊，只要它里面的要素是小于二十的自\n然，那么类似这样的集合，它所有加起来的一个大的集合啊，那么examination of this and many other similar examples reveals that sets with which mathematicians work are relatively simple。\n那么这样的这些例子呢和其他类似的例子呢，它揭露了这个\n呃数学家他所处理的这些集合呢，它是相对简单的，they include the sets of natural numbers and its various subsets such as the set of all prime numbers。\n那么他们包含了他他就数学家引入了什么自然数集和它的各式各样的子集，比如说这个呃\n就包含不是他们引入，就它包含就这些集子数学家\n研究的这些集合呢，它包含了就比如说自然数集啊以及各这样。\n子集，比如说这个所有的这个素数的这个集子啊，as well as sets of\npairs，呃，triples，呃，以及这个二元数组的集合呢，三元数组集合呢，以及一般以上的n元数组的集合啊，n\ntuples他妈应该是n元数组的意思意思啊，n元有序组啊，它是有序组啊，有序数组，一般以上，但是这里应该没有算有序数组的有序，a i n t e g e r s，i n t e g e r s a n d r a t i o n a l n u m b e r s c a n b e d e f i n e d u s i n g o n l y s u c h s e t s，然后那个整数和有理数只能用这些集合来定义啊，只能用这些集合来定义啊，r e a l n u m b e r s c a n t h e n b e d e f i n e d a s s e t s o r s e q u e n c e s o f r a t i o n a l n u m b e r s，那么实数呢可以啊，接下来就可以用，你反正就是说这个你整数和有理数定义好了，那么实数呢又可以用这个啊有理数来定义啊，有理数来定义啊，有理数的一个s e q u e n c e s啊，它的这个就可以用有理数的集合或者有理数的一个s e q u e n c e s数列啊，这个得翻译成什么数的序列s e q u e n c e s就是序列啊，翻译成序列，呃，m a t h e m a t i c a l a n a l y s i s d e a l s w i t h数学分析呢，它会处理那个实数集啊啊以及实函数集啊，就是关于这个实数的函数的集合，s e t s o f o r d e r e d p a i r s o f r e a l n u m b e r s，那么它都是一些有序的实数对啊的所组成的集合，a n d i n s o m e i n v e s t i g a t i o n s s e t s o f f u n c t i o n s以及在其他一些研究里面呢，它会是一些函数的集合，或者说是呃e v e n o r e v e n s e t s o f s e t s o f f u n c t i o n s a r e c o n s i d e r e d，或者甚至会会他们会研究这个函数的集合的集合，b u t w o r k i n g m a t h e m a t i c i a n r e a l l y e n c o u n t e r s o b j e c t s m o r e t h a n c o m p l i c a t e d t h a n t h a t，但是一个一个真的干活的就是一个工作的一个数学家呢，很少会遭遇到比这个函数的集合的集合更更复杂的这种情况，更复杂这些对象，更高阶对象，p e r h a p s i t i s n o t s u r p r i s i n g t h a t u n c r i t i c a l u s a g e o f s e t s r e m o t e f r o m e v e r y d a y e x p e r i e n c e m a y l e a d t o c o n t r a d i c t i o n，呃，所以啊很有可能就是说并不惊讶的是，如果对于这个集合啊你对它用是一个不加批判的用，就是不反思的去用集合的这个概念啊啊r e m o t e f r o m啊它远离了这个现实经验的去不加反思的去用这个集合的概念的话，呃，m a y l e a d\nt o啊integersintegers\nand rational numbers can be defined using only such sets然后那个\n整数和有理数只能用这些集合来定义啊只能用这些集合来定义啊real numbers can then be defined\nas sets or sequences of rational numbers那么实数呢可以啊接下来就可以用你反正就是\n说这个你整数和有理数定义好了那么实数呢又可以用这个啊有理数来定义啊有理数来定义啊有理数的一个sequences啊它的这个\n就可以用有理数的集合或者有理数的一个sequences数列啊这个得翻译成什么数的序列sequences\n就是序列啊翻译成序列呃mathematical analysis deals with数学分析呢它会处理那个实数集啊\n啊以及实函数集啊就是关于这个实数的函数的集合sets of ordered pairs of real numbers那\n么它都是一些有序的实数对啊的所组成的集合and in some investigations sets of functions\n以及在其他一些研究里面呢它会是一些函数的集合或者说是呃even or even sets of sets of functions\nare considered或者甚至会会他们会研究这个函数的集合的集合but working mathematician\nreally encounters objects more than complicated than that但是一\n个一个真的干活的就是一个工作的一个数学家呢很少会遭遇到比这个函数的集合的集合更更复杂的这种情况更复杂这些对象更高阶对象perhaps\nit is not surprising that uncritical usage of sets remote from\neveryday experience may lead to contradiction呃\n所以啊很有可能就是说并不惊讶的是如果对于这个集合啊你对它用是一个不加批判的用就是不反思的去用集合的这个概念啊\n啊remote from啊它远离了这个现实经验的去不加反思的去用这个集合的概念的话呃may lead to啊呃，contradictions，\n就数学家一天到晚其实研究的东西都是可以用集合来研究了，但是如果你对集合这概念不好好把它弄清楚的话，啊，用法如果不加一个批\n判的话，那可能就会导致矛盾啊。Consider for example the set R of all those sets which are not elements of themselves。\n那么我们考虑一个例子，就是说，假如有一个集合R啊，\n这个集合R呢是由呃许许多的集合组成的啊，是一个大集合，里面有很多小集合呢。All those sets which are not elements of themselves。\n然后这些集合呢，\n不是他们自己的要素啊。Those\nsets，就是说，\n什么样的集合会是R的这个R的这个子集呢？\n就是说，只要它不是它自己的一个要素啊，它只只要这个这个集合不属于它自己，那它就是R的这个啊，它就那么R就由一切不不是它自\n己的要素的集合啊组成啊。\n换句话说，R is a set of all sets X such that X doesn't belong to\nX啊，就是说R就是这么一个集合，它有所有的X不属于X的集合组成。\n这个这个玩意儿就读作belongs\nto啊，doesn't belongs\nto，这个does not belong to啊。Let us now\nask这个这个就是属于标记啊，这就不属于标记啊。\n那让我们现在就是问啊，那么R是否就是它有个自指涉就会出现矛盾啊？Let us now ask whether R belongs to\nR啊，那就很矛盾了呀啊。\n如果R属于R的话，那么R is not an element of\nitself，那么R就不是它自己的，那就不符合它定义了，对不对？\n如果R属于R，那么R就不不包括它自己啊，它就不是一个它自己的一个要素。Because no element of R belongs to\nitself啊。\n如果R属于R的话，\n它里面没有一个X会属于它自己啊，所以R不属于R，u n c o n t r a d i c t i o n。T h e r e f o r e n e c e s s a r i l y啊，R d o e s d o e s n o t b e l o n g t o R。B u t t h e n R i s a s e t w h i c h i s n o t a n。如果这样搞的话，它R又变成R不属于R了，那就反过来这个R又R又符合这个定义了，对不对？T h e n R i s a s e t w h i c h i s n o t a n e l e m e n t o f i t s e l f a n d a l l s u c h s e t s b e l o n g t o R。那这R又变得又属于R了。W e c o n c l u d e t h a t这个我们又回到这个R属于R了，a g a i n a c o n t r a d i c t i o n啊。这个东西这个矛盾就就是自指涉的矛盾啊，其实说辩证法里面一直会遭遇到，黑格尔辩证法里面一直会这样遭遇的。T h e a r g u m e n t c a n b e b r i e f l y。所以说集合论在一开始就和这个辩证法的呃逻辑是不一样的啊。\nRuncontradictionTherefore necessarily啊R does does not belong\nto RBut then R is a set which is not an如果这样搞的话它R又变成R不属于R了那就反\n过来这个R又R又符合这个定义了对不对\nThen R is a set which is not an element of itself and all such\nsets belong to R那这R又变得又属于R了We conclude that这个我们又回到这个R属于R了again\na contradiction啊这个东西这个矛盾就就是自指涉的矛盾啊其实说辩证法里面一直会遭遇到黑格尔辩证法里面一直会这\n样遭遇的The argument can be briefly所以说集合论在一开始就和这个辩证法的呃逻辑是不一样的啊这个\n辩证法逻辑学就已经不一样了，you understand？\n因为集合论背后预设了一个数学体系，或者预预设了一个直观框架啊。呃，the argument can be briefly summarized as follows。\n那么这个论题呢，可以简要的被概括如下。\n那么定义R，通过x属于R如果，\n并且，当前紧张了，if and only\nif就当前紧张，x不属于x，那么x属于R。\n那么现在考虑x等于R，b y d e f i n i t i o n o f，你就要假假设R等于x等于，就是你不要把它变成两两层了，就变成变成一层的这种情况。那么按照定义的话，按照R的定义，R属于R，i f a n d o n l y i f R不属于R，它就是一个矛盾。就上述这个，上述这个就是你只要把它拍平就行了，直接就是R等于x的情况。那么就是R属于R，当前紧张，R不属于R，那么就是矛盾了。A f e w c o m m e n t s c o m m e n t s，这个东西重音在前还是在后啊？你妈逼呀！我操，外国人为什么说话还有他妈狗屎重音？重你妈我操！来念一下，c o m m e n t s不要念了，我知道了。C o m m e n t o n s o m e b o d y c o m m e n t s啊c o m m e n t s。啊许多关于这个论题的讨论呢，啊就关比如说这个傻逼罗素啊，m i g h t b e h e l p f u l可能有点狗屁用，其实屁用都没有。首先t h e r e i s n o t h i n g w r o n g w i t h R b e l o n g b e i n g a s e t o f s e t s。呃首先说一个R是一一组集合的集合，呃由由由集合组成的集合，这个没这个没什么问题。M a n y s e t s w h o s e e l e m e n t s a r e a g a i n s e t s a r e l e g i t i m a t e l y e m p l o y e d i n m a t h e m a t i c s。在数学当中许多集合都是由呃在数学当中这是许多集合是本身再一次是由它的要素又是集合，这个是在数学当中是正当的被被援引的，就是可以这么搞。那么c e x a m p l e一点一就比如说一点一里面的例子，一点一里面的这个例子啊这个，其实一点一里面每个例子都是啊每个例子都是的，因为数学概念本身在在定义里面就集合，a n d d o n o t l e a d t o a c o n t r a d i c t i o n，并且说一个集合会是集合的集合，这并不会导致矛盾啊。S e c o n d，i t i s e a s y t o g i v e e x a m p l e s o f e l e m e n t s o f R。那么第二其次呢，很容易是给出一个R的这个要素的这个例子。呃举个例子，如果x是呃t h e s e t o f a l l n a t u r a l n u m b e r s，如果x是所有自然数的一个集合，呃自然数集，t h e n x d o e s n't b e l o n g t o x啊。很很很正常吧。T h e s e t o f a l l n a t u r a l n u m b e r s i s n o t a n a t u r a l n u m b e r啊，自然数集本身不是个自然数，它是个集合，对不？它不是它是个自然数组成的个集合，它并不是自然数。A n d\ns o Rby definition of你就要假假设R等于x等于就是你不要把它变成两两层了就变成变成一层的这种情况那么\n按照定义的话按照R的定义R属于Rif and only if R不属于R它就是一个矛盾就上述这个上述这个就是你只要把它拍\n平就行了直接就是R等于x的情况那么就是R属于R当前紧张R不属于R那么就是矛盾了A few comments comments\n这个东西重音在前还是在后啊你妈逼呀我操外国人为什么说话还有他妈狗屎重音重你妈我操来念一下\ncomments不要念了我知道了\nComment on somebody comments啊comments啊许多关于这个论题的讨论呢啊就关比如说这个傻逼\n罗素啊might be helpful可能有点狗屁用其实屁用都没有首先there is nothing wrong with\nR belong being a set of sets\n呃首先说一个R是一一组集合的集合呃由由由集合组成的集合这个没这个没什么问题Many sets whose elements\nare again sets are legitimately employed in mathematics在数学当中\n许多集合都是由呃在数学当中这是许多集合是本身再一次是由它的要素又是集合这个是在数学当中是正当的被被援引的就是可以这么搞那\n么c example一点一就比如说一点一里面的例子一点一里面的这个例子啊这个其实一点一里面每个例子都是啊每个例子都是的因\n为数学概念本身在在定义里面就集合and do not lead to a contradiction并且说一个集合会是集\n合的集合这并不会导致矛盾啊Second it is easy to give examples of elements of\nR那么第二其次呢很容易是给出一个R的这个要素的这个例子呃举个例子如果x是\n呃the set of all natural numbers如果x是所有自然数的一个集合呃自然数集then x doesn't\nbelong to x啊很很很正常吧\nThe set of all natural numbers is not a natural number啊自然数集本\n身不是个自然数它是个集合对不它不是它是个自然数组成的个集合它并不是自然数And so x belongs to\nR，但是如但是看你看你怎么构造这个自然数集，你知道吗？\n怎怎么构造自然数定义的？\n自然数在标准集合论模型里面就就他妈的被定义成一个自然数就被定义成层层套套的一个一个一个集合，层层套套，它有它多少层空集和\n和我不知道你们空就是零就是他妈的空集的集合，一个集合里面的要素是空集，是这样的吗？\n还是哦对，然后那个一是这个这个这个\n就是一个就这层层套套套括号懂吗？\n层层套套，他妈就把零再再再并上一个那个空集，然后再套一个集合，零并上一个空集再套上一个集合，也就是说这这个集合里面有零和\n一个空集啊，它这两，然后二的话就变成这个这个集合里面有一再加上零再加上一个空集的一个集合，那么这样搞的话你你很难说，这这\n是一种构造方式，你按照这种构造方式的话，你很难说这个自然所有自然数集因为懂吗？\n因为这个集合论里面就是说它是重复出现的，就是就you understand you\nknow啊you\nunderstand的，看他怎么看他怎么定义啊，他反正他这里说了啊，那很明显就是所有自然我们头脑里面会认为所有自然数组成\n的一个集合它并不是一个自然数，所以自然数集并不属于自然数集本身，对不对？\n所以呢x是属于R的啊，这个也没问题，这个第二步这构造也没问题，那么第三步呢？It is not so easy to give examples of sets which do not belong to\nR，但是这个却很不容易去去给出一些例子，这些例子呢它不属于R不属于R，b u t t h i s i s i r r e l e v a n t，但是这不相干的，这个R不是说了吗？就是你x本身不是你自己的集合，你不x本身你不是你，如果你这个x不是你自己的呃这个要素的话，那你就属于R，但是你很难去设想一个x它是它自己的要素，但是这好像是无关紧要的，这个就可疑的就是第三点，对不对？这整个关于R的这个定义最可疑的就是第三点，你怎么去设想一个集合他妈的它是它自己的要素？你有你本你找一个集合告诉我它是它自己的要素？啊对，可能就只有人的主体性的对不对？从哲学概念，就这毕竟这有自指性嘛，s e l f-r e f e r e d嘛，s e l f-c o n t a i n e d嘛，自己包括自己，那只有人的主体主体性是这样的，或者某种智性官能或是这种模式，它可以回到它自身嘛，你并且把自己囊摄在内呢去统摄它自身啊，t h i s i s i r r e l e v a n t，那数学家想着操你妈哲学问题这么复杂老子不想了，所以这第三点我虽然找不到有哪个集合不属于这个R。\nRbut this is irrelevant但是这不相干的这个R不是说了吗就是你x本身不是你自己的集合你不x本身你不是\n你如果你这个x不是你自己的呃这个要素的话那你就属于R但是你很难去设想一个x它是它自己的要素但是这好像是无关紧要的这个就可\n疑的就是第三点对不对这整个关于R的这个定义最可疑的就是第三点你怎么去设想一个集合他妈的它是它自己的要素\n你有你本你找一个集合告诉我它是它自己的要素\n啊对可能就只有人的主体性的对不对从哲学概念就这毕竟这有自指性嘛selfrefered嘛selfcontained嘛自己包\n括自己那只有人的主体主体性是这样的或者某种智性官能或是这种模式它可以回到它自身嘛你并且把自己囊摄在内呢去统摄它自身啊this\nis irrelevant那数学家想着操你妈哲学问题这么复杂老子不想了所以这第三点我虽然找不到有哪个集合不属于这个R或者\n说有哪个集合，它自己就是它自己的要素，但是这不管了，对不对？The foregoing\nargument，那么进一步的这个问题呢，will result in a contradiction，even if there were no sets which are elements of themselves。嗯，would\nresult会，哦，\nforegoing就之前的，之前那个论断，之前那个自相矛盾的论断呢，就会\n导致一个导致一个矛盾啊，之前那个论题就会导致一个矛盾，呃，尽管there were no sets which are elements of\nthemselves，尽管不存在一些集合，他们是他们自己的要素，但是还是之前那个，\n它还是会产生矛盾啊。A plausible candidate for set which is an element of itself would be the set of all\nsets啊，一个非常\nplausible就可以好比较比较\nplausible就是大家比较公认的，或者大家比较容易提出来的，比较容易设想的一个，较容易设想的这个翻译成啊，看似合理的\n啊，比较容易去想的，看似可信的嘛，那个翻译成看似可信的，一个看似可信的一个候选啊的一个自己是自己要素的集合，就是所有集合的集合，对不对？\n由所有集合组成的这个这个集合，万集之集，是不是？\n万万集之集，包括他自己也是这个这自己的要素嘛？\n他妈的说，我我包括一，就是说我是个我包括所有的集合，我是一个集合，包括所有的集合，那这个里面所有的集合，这个all就就这\n个all本身带有自指涉性，对不对？\n因为它自己要算在内嘛，自指涉性，那么就这个v这个集合啊，clearly v belongs to\nv啊，v属于v，但是呢，the set of all sets lead to contradictions of its own in a more subtle\nway啊，但是呢，这个万集之集它会导致一个矛盾啊啊，它自己它本身会导致一个矛盾啊，但是是一个更微妙的方式导致一个矛盾，他\n在在看见习题三点三和三点六啊，那么这个东西我们到时候习题三点三三点六就会看到了，这是卖关子啊。How do this contradiction be solved？resolved？\n那么这上面上述矛盾如何被解决呢？We assume that we have a set\nR，我们现在假设我们有一个集合R，它会被定义成defined as a set of all\nsets，它被定义成是万集之集，which are not\nelements，不是不是不是万集之集，它被定义为这个R就是上面符合上述定义那个集合了，这个集合就是由所有的它不是自己的\n要素的集合所构成的一个集合，and derived a contradiction\nas，并且我们进行这样的一个假设之后的，就立刻推出了一个矛盾，这个矛盾是这个R的这个集合的定义的一个直接的一个后果，直接\n的一个推论，直接会导致这么一个矛盾。\n啊，就是上面说说过了，他就把这个过程重新说了一遍。This can only mean that there is no set satisfying the definition of R。\n那么这个只能表明呢，\n不存在啊符合R的这个定义的集合。In other\nwords，换句话说呢，this argument proves that there exists no set whose members would be precisely the set the sets which are not elements of their of themselves。\n换句话说就是说，上述的论论点它证明了，上面的这些论述呢，它证明了就是说，不存在这样的集合，这个集合呢，它的\n它的组成部分呢，呃或者它的这个要素呢，恰恰就是啊，就是不存在R了，不存在R这样的集合了，啊这个证就已经证明了，其实用归谬\n法证明，如果有R，他妈就矛盾了，所以不存在R了啊，不存在R，这个R就是说啊它的集合，它的这个它的这个要素啊，就是说啊是这\n样的集合，这些集合呢它不是它自身的要素啊，由这些集合所构成的这么一个所构成这么一个集合它不存在啊。The lesson contained in\nRussell's这个Russell这个paradox and other\nsimilar就包就这这个教训它就\n这这一课或者说这个道理就包含在罗素的悖论啊，什么理发师悖论呢？And other similar\nexamples就是自指设悖论呢，以及其他类似的一些例子当中。Is that by merely defining defining a set we do not prove its existence？\n这这个道理就是说，仅仅就是通过定义一个我们我们呃we do not prove its existence。\n就是你如果你就是说啊，如果你仅仅\n如果你只是定义一个集合，但是我们却不能证明它啊它的存在的时候啊，\n我说这个意思就是，如果你仅仅是定义，如果你仅仅是定义一个集合，那么我们是不能够证明它的存在的啊，不能证明它的实存的，不能\n证明它实际上是在现实当中站得住脚的啊，就是说在罗素悖论和其他类似的例子里面教给我们的一课就是说，只去定义一个集合，这是不\n足以去证明它的实存的啊。\n你定义的这个集合不代表你已经证明了它的实存，它能够站得住啊。Similarly as by defining a unicorn we do not prove that unicorns exist。\n但是这里的这个这个例子啊，这个这个这个这个unicorn和existence那个，直接就可以说，操，那你集合和\n你所设想的一个集合和独角兽是同一种东西吗？\n独角兽是有它表象化的，或者它有它的这个有幻想性的，就是在这里，就是说数学家的哲学能力弱了就不管了啊啊，他这傻逼了我操w h a t e v e r，t h e r e a r e p r o p e r t i e s w h i c h d o n o t d e f i n e s e t s，就是说存在一些属性，它并不能够来用来定义集合，是这个意思啊，也就是说i t i s n o t p o s s i b l e t o c o l l e c t a l l o b j e c t s，呃w i t h t h o s e p r o p e r t i e s i n t o o n e s e t，换句话说，就是说有一些属性呢，你没有办法啊用这些属性来把所有的对象收集到一个集合里面去，确实有一些属性，懂了吧？比如说有一些属性就是说它自己不是它自己的呃要素，这是一个属性，但是你没办法用这个属性来定义一个新的集合，你如果这样定义的话，那定义出来的这个集合是个非法的集合，是不成立的集合，懂了吧？就是确实有一些集合它没法用来定义集合，有一些属性啊，有一些属性没法用来定义集合，明白吗？但是没办法，甚至我们就可以说无产阶级就类似于这么一个无产阶级啊，就是或者否定性无产阶级就现实的激进的否定性，这个属性它没有办法用来定义那个s e t s，又又看你没办法用来定义集合啊，这个它反正是革命理论了，不跟你们扯了啊啊，t h i s o b s e r v a t i o n l e a v e s s e t t h e o r i s t s t h e o r i s t s呃w i t h a t a s k o f d e t e r m i n i n g t h e p r o p e r t i e s w h i c h d o d e f i n e s e t s，那么这么一个发现呢，它就留给集合论家们一个任务啊，就是要弄明白，就是要决定，要弄清楚哪些属性要刻画清楚，哪些属性可以用来定义集合，哪些不行，对不对？你要你要你至少你得说清楚哪些属性可以用来定义集合，上面的那个属性就肯定不行，上面的属性就是它的子集都是或者它里面的它自己的要素都是不是它的子集的，它自己的要素啊是不包含自己为要素的集合，那么这个属性就没有办法定义集合，是不是？那么集合论家就得去弄清楚哪些属性可以用来定义集合，哪些属性不能用来定义集合，u n f o r t u n a t e l y n o w a y h o w t o d o t h i s i s k n o w n，但是非常非常不幸的是没有办法知道怎么来知道这一点啊，n o w a y怎么来做到这一点，a n d s o m e r e s u l t i n l o g i c，e s p e c i a l l y i n s o c a l l e d i n c o m p l e t e n e s s呃t h e o r y，尤其是这个不完备性定理啊，被这个哥德尔所发现的K u r t\nG whateverthere are properties which do not define sets\n就是说存在一些属性它并不能够来用来定义集合是这个意思啊也就是说it is not possible to collect\nall objects呃with those properties into one set换句话说就是说有一些属性呢你\n没有办法啊用这些属性来把所有的对象收集到一个集合里面去确实有一些属性懂了吧比如说有一些属性就是说它自己不是它自己的呃要素\n这是一个属性但是你没办法用这个属性来定义一个新的集合\n你如果这样定义的话那定义出来的这个集合是个非法的集合是不成立的集合\n懂了吧就是确实有一些集合它没法用来定义集合有一些属性啊有一些属性没法用来定义集合明白吗但是没办法甚至我们就可以说无产阶级\n就类似于这么一个无产阶级啊就是或者否定性无产阶级就现实的激进的否定性这个属性它没有办法用来定义那个sets又又看你没办法\n用来定义集合啊这个它反正是革命理论了不跟你们扯\n了啊啊this observation leaves set theorists\ntheorists呃with a task of determining the properties which do\ndefine sets那么这么一个发现呢它就留给集合论家们一个任务啊就是要弄明白就是要决定要弄清楚哪些属性要刻画清楚哪些\n属性可以用来定义集合哪些不行对不对你要你要你至少你得说清楚哪些属性可以用来定义集合上面的那个属性就肯定不行上面的属性就是\n它的子集都是或者它里面的它自己的要素都是不是它的子集的它自己的要素啊是\n不包含自己为要素的集合那么这个属性就没有办法定义集合是不是那么集合论家就得去弄清楚哪些属性可以用来定义集合哪些属性不能用\n来定义集合unfortunately no way how to do this is known但是非常非常不幸的是没\n有办法知道怎么来知道这一点啊no way怎么来做到这一点and some result in logicespecially\nin so called incompleteness呃theory尤其是这个不完备性定理啊被这个哥德尔所发现的Kurt\nG Godel，操那G\nGodel，那德语不知道怎么念，被这狗逼发现了这个啊\n这个定理，他就已经告诉你做不到这一点了。Seem to indicate\nthat不是，他看上去好像在表明，A complete answer is not even possible。\n想要弄清楚哪些属性可以可以是刻画清楚，搞出一个明确的标准，告诉你哪种哪些属性可以用来定义集合它本身啊是不可能的。Therefore we\nattempt呃less lofty\ngoal啊，我们就是找一个更轻松的，更他妈的蛇皮一点。Lofty\nloft就是loft就是休闲的嘛，崇高的傲慢呢？\n我操不是的，loft是什么意思？\n屋顶这样阁楼呀，lofty是崇高的，\n它的翻译成更高的吗？\n不管了，less lofty less\nlofty就是不那么高的一个，那因此我们去尝试一个不那么高的一个一个一个一个一个目标，就这个上面这个目标太高了，我操，我\n们要找一个容易点目标。呃，we formulate some of the relatively simple properties of sets used by mathematicians as axioms。\n啊，我们来表述一些相对简单的属性啊，一些集合的一些属性啊，啊，他们被数学家当做是什么？\n当做是公理公理啊，这些属性被数学家用作是公理啊，相对简单的一些属性。And then\ntake呃然后我们用集合论把这公理表达出来嘛。And then take care to check that all the theorems follow logically from\nthe然后我们再来去，就是说他的意思就是说我既然给出一个标准来描述啊所有可以设立集合的属性，这个我做不到，但是呢，我们先\n他妈的那数学家都已经当成公理在用的，我来看看它这些这些这些属性，这些我们先用集合论把这些公理表达出来，然后再看看这些这些\n这些公理在集合论上它作为属性是不是给出的这些集合是不是合法的集合。\n先公理搞定了之后，再来看它的引理啊，再来看它这个说啊\n用按照逻辑，这个逻辑就直接叫形式逻辑啊，按照形式逻辑的方式从这些公理当中所引出来的这些引理啊，所定理的，这个theorem\n翻译成定理，这些定理呢，它是不是也是也是当做属性作为属性可以给出来的集合是站得住的。Since the axioms are\nobviously true and the theorems logically\nfrom呃follow from\nthem呃The theorems are also\ntrue啊，因为呢这个很明显就是说大家都认为这些公理是不是公理都是明明显就都是真的，都是对的，所以呢按照形式逻辑，按照逻\n辑的方式从当中推演出来这些定理呢，这定理也是对的啊，但是可能没那么明显，not necessarily obviously，we end up with a body of truth about sets which includes among other things the basic properties of natural，rational and real numbers，functions and orderings etc.\nbut就是说啊就是说我们最终会给出呃一系列的这个一系列的真呐，a body of\ntruth，一系列真相了啊，关于这个集合，关于下数集合的一些一系列真相啊，那么是哪些集合呢？\n就包括这个呃就是说包括基本的这个这个自然数、有理数和实数的它们的这个定义了，其实这是它们定义了啊，自然数、实数、有理数它\n的这个属性，这些属性，这个这property在这里这个是个专门术语，就是刻画那个集合的，刻画那个集合的那个共同点，叫property，\n就叫这个属性，那么用这个属性搞一个集合出来，那在这个在这个集合里面的要素，那就是可以说就是被这个集合所定义的嘛，对不对？\n啊，一基本的一些属性就自然数、有理数、实数啊，这个就是自然的、有理的、实的函数，自然的、有理的、实的这个呃这个这个orderings\n啊，orderings就翻译成那个数数序数序啊序数或者说等等等等这些东西，反正都是数学构造的啊，我们就可以得到一系列的、\n一系列的啊一系列的这些这些由这些东西由这这些东西的属性构成的这集合的它的那个真呐，它到底是真是假？But as far as is\nknown啊，呃no\ncontradictions啊，但是就是说它不能有矛盾啊啊不能有矛盾，如上所所知，我们能够得到一系列就是说这些集合在那，as far as is known，no\ncontradictions，不能有矛盾。Experience has shown that practically all notions used in contemporary mathematics can be\ndefined，就是经验表明啊，\n至少在操作上来讲，所有在当代数学当中所使用的那些概念呢，或者说那些点子、那些想法、那些乱七八糟玩意儿呢，它都是可以被定义\n的啊，那里面的所有的这些观念，所有的人脑子想出来的那些概念啊术语啊什么那些东西，and their mathematical properties derived in this axiomatic\nsystem啊，并且呢。\nYeah，呃，类似的，就是它，并且，那个，它，\n就是所有这样，在这么一个公理化的体系当中，在这么公理体系里面推演出来的数学的属性呢，啊，\n已经被展示出来了，是吧？\n啊，也被定义了嘛，是这么意思啊。\n我这后面是省略了，can be\ndefined，这里省略了can be\ndefined，就意思就是说，在这么公理体系里面的那些数学属性，啊，那些数学的属性，它也是可以被定义的，whatever。\n而且就被展示出来了嘛，被展示出来，就到底它是什么样的属性，它就被展示出来的，在经验当中被展示出来的。那in this\nsense，在这个意义上，the axiomatic set\ntheory，那公理化的集合论呢，serves as a satisfactory foundation for the other branches of mathematics。\n在这个意义上的那个\n公理化的集合论呢，它就作为一个令人满意的一个基础啊，可以为其他所有的数学分支做奠基的一个基础。\n我这就是集合论，就有有一个一个功能，就是我来看做什么样的自然数模型、实数模型，然后再把里面的公理都用集合论的方式表示出来，\n啊，都用集合的方式把它表示出来，用集合的方式把这些公理啊、把这些定理啊、把这些数学构造啊都表示出来了之后，看这个集合有没\n有矛盾，站得住站不住，对不对？\n它如果他妈的没矛盾，站得住，那就说明好，你这个你这个你这个公理就站得住，或者说你能证明你是一直是真的，或者怎么样的，啊，\n那就可以用来为数学奠基啊。On other\nhand，那么另外一方面，we do not claim that every true fact about sets can be derived from the axioms we present。\n但是我们并不宣称每一个关于集合的真的事实可以从我们所给出的这些公理当中被派生出来。The axiomatic system is not complete in this sense。\n就是说，这个集合论的公理体系呢，并不是在这个意义上是完备的。And we return to the discussion of the question of completeness in the last chapter。\n啊，并不是说\n每一个，他的意思就是说，我们给出的这个集合论的这个公理体系啊，或者说这些公理呢，并不意味着就是说所有的真，所有的数学当中\n的真的事实，比如说什么，呃，每某某一个数学定理啊，都一定是可以从这个，比如说你从最基本的数学公理，然后到它定理，到它引理，\n什么这些乱七八糟的里面推出来的。明白吗？\n所以它并不是在这个意义上是完备的，在这个意义上讲，或者说它不是完备的，这公理体系并不是完备的，它并不能够涵盖一切的真命题，\n一切的数学真命题。\n那么对于完备性的这么一个讨论呢，它会在最后一章来进行。\n就贪得无厌嘛，贪得无厌。\n它它这个公理体系就相当于它玩游戏，你按照这个套路玩，你按照这个套路玩，你玩出来的肯定都是成就，都是都是这个游戏里面反正都\n是这个好的剧情的，都玩到了。\n但是不意味着你所有的你要收集到的好的剧情、好的这个要素，你通过这种套路去玩，全能给它玩出来，对不对？\n这个可以达到全全全收藏、全成就，没这种说法，对不对？\n它的意思就是说，我们玩的这一招没办法给你搞成全全成就了，全卡牌收集不行的，但是可以让你他妈的这个杀上天梯榜前前十名，那没问题。\n简单就这样去理解啊。\n那么那么第二节他就讨论这个属性。In the preceding section we introduced sets as collections of objects having some property in common。\n在接下来的这一节呢，我们会啊把集合把它什么introduce把它介绍进来，把它引入进来，把它当成是\npreceeding在之前的啊说错了啊，在之前的那一节里面，我们已经把集合它作为拥有啊共同的某种属性的一系列对象啊，那么\n啊这个这些对象所组成的一个系列啊，组成的一个一个集体，那么就是集合。那么the notion of\nproperty呃mirrors\nsome啊，所以这个\n属性的这个这个概念呢，它就需要一部分呢需要这个需要mirrors应该值得啊，需要值得进行分析啊，\n值得啊，它就翻译成值得，值得加以分析。\n它当然它一个意思优点的意思。Some properties\ncommonly呃considered in everyday life are so vague that they can hardly be admitted in a mathematical theory。\n许多在日常生活当中啊普遍的被呃考虑到被被被会被想起来的一些属性啊啊它如此的模糊含混，以至于他们很难在数学理论中被承认。\n比如说屁股大，屁股大就没有办法被当成一个数学理论当中的一个一个属性来刻画数那个数学对象，对不对？\n来来来建构数学集合，对不对？\n因为它太模糊了，屁股多大叫大，对不对？\n啊那个臀围和腰围占比的这不多大算大呀，对不对？不清楚呀。那么consider for\nexample，那么举例而言，我们来考虑一下the set of all the great twentieth century American\nnovels啊，那么考虑一下，就是说啊，二十世纪美国小说啊，所有的美国小说，伟大的美国小说的一个集合。\n那么这这个什么什么叫他妈的伟大的美国小说？\n二十世纪美伟大美国小说啊，这个这个很模糊，你知道吗？\n包括二十世纪，那是说说这个作家出生在二十世纪，他出生在一八九九年算不算呢？对不对？是不是？\n或者说他是割脐带的时候是一一九零零年，或者一九零一年什么什么什么，还是他那个什么呃喊出第一声，还是他从那个这个产道划出来\n的一瞬间，到底怎么算？是不是？\n这个都是很模糊的，是不是？Different persons'judgments as to what constitute a great literary work differ so much。\n就是说，在这个逼呢，他是个数学家，所以他水平不够高啊。他会说什么？\n因为这个什么伟大的文学作品啊？\n什么是一个伟大文学作品呢？\n这个标准是很模糊的。\n那我告诉你，什么是二十世纪的标准也很模糊，对不对？\n啊，二十世纪标准也很模糊。\n时区的划分是不是？\n你他妈的，你这你说我们按照时区的划分，那你在这个时区的那个划分的那些那条线上面，你要说这个\n这个到底这是几点？\n这又很模糊，你知道吗？\n你是这个你对不对？\n你这个手机在这里是收到了那个信号的，是那边信号发出来的，还是什么什么？\n还是你显示屏上显示到，还是人读取到这个时间数？\n算是这个这个时间本身的确定都是很很模糊的，是不是？\n嗯，那反正就是懂了就没意思了。\n就是说，这种自然语言啊，日常语言当中所所描述这种属性呢，它是很含混的。There is no a generally accepted way how to decide whether given book is or is not an element of the set。\n很难，所以呢，就不存在一个普遍被接受的方式啊，去决定啊一本书它是还不是这个集合的这个要素啊。\n它到底是不是二十世纪美国伟大小说？\n他妈的不能确定啊。For an even more\nstartling\nexample，啊，更startling，这妈更明明显的吧？翻译成啥？\n更令人吃惊的、鲜亮的startling，一个更鲜亮的一个例子是，我们就考虑series of those natural numbers which could be written down in什么？\n这个什么notation？\n十进制啊，这个呀，十进计数法，就是说呃，考虑这么一个集合，就是所有自然数，它可以用十进制计数法写出来自然数啊。\n那么它又加括号了，这里可以，什么叫可以could？\n我们意味着就是说，someone could actually do it with paper and\npencil，就是能够用。\n纸和笔写下来的，对不对？那么clearly zero can be so written down。\n他说很明显，那零可以写下来，但是他妈的其实零也写不下来，你没有办法写一个完美的零，you understand？\n你只能你那个铅笔划一圈，你用放大镜去看，它那个也是裂开来的，是不是？\n它甚至不能不能完美的在一个平面上，所以他这个这个是数学家，他没有什么哲学功底啊，不不管了，我们不是那么抠牛角尖的人。\n他说很明显零是可以写下来，if number n can be written d o w n，t h e n s u r e l y n u m b e r n p l u s o n e c o u l d b e a l s o b e w r i t t e n d o w n。他这里就会有个矛盾了，懂了吧？如果一个数可以被写下来，那么比这个数大一个大一，那也可以写下来，可以轻而易举写下来，那也无穷无尽了。啊，那么i m a g i n e a n o t h e r s o m e w h a t f a s t e r w r i t e r o r t h e p e r s o n c a p a b l e，那你只要去想象另外一个写的更快啊，某种我怎么样，反正s o m e w h a t，他不管怎么样，他能够写的更快的一个一个人，或者说这么一个人他能够啊写这么一个数写的稍微快一点点，写的快一点点这个人，那只要n能够被写下来，比如说九万九千九百九十九亿九九十九亿的九十九亿次方，如果有一个人能把这个数写下来，那么比他大大一下大一点的一个人也能把它写下来，那么就会导致一切的数都能被写下来了。T h e r e f o r e，b y t h e f a m i l i a r p r i n c i p l e o f，那么通过一个比较熟悉的这么一个i n d u c t i o n啊i n d u c t i o n e v e r y n a t u r a l n u m b e r，通过归纳法了。这里翻译成什么好呢？通过归纳法呀，他这个我们这里翻译成归纳法了，通过归纳法的这个原理啊，但是用个f a m i l i a r就是大家所熟悉的归纳法的原理，那么每一个自然数都可以被写下来的，但是很明显是不对的，对不对？你如果一个超级大的数写你妈呀，写死了。B u t t h a t i s p l a i n l y a b s u r d t o w r i t e d o w n s a y t e n这个这个次方不知道怎么说啊，i n次方英语怎么说？次方的英语p o w e r啊p o w e r p o w e r p o w e r，呃n次方p o w n p o w e r n呢？是这样说的吗？你看这个中中文互联网的嘛，n次方英语怎么说？哦，我点错了，在网页里面，n's p o w e r啊n's p o w e r n's p o w e r t o t h e p o w e r o f t o t h e p o w e r o f，应该这样说。什么t e n t o t h e p o w e r o f t e n t o t h e p o w e r o f t e n啊t e n's p o w e r t e n's p o w e r什么i n c h e m i c a l n o t a t i o n w h a t r e q u i r e d t o f o l l o w o n e\nb y完全写不下来了，它要要downthen surely number n plus one could be also\nbe written down他这里就会有个矛盾了\n懂了吧如果一个数可以被写下来那么比这个数大一个大一那也可以写下来可以轻而易举写下来那也无穷无尽了啊那么imagine another\nsomewhat faster writer or the person capable那你只要去想象另外一个写的更快啊\n某种我怎么样反正somewhat他不管怎么样他能够写的更快的一个一个人或者说这么一个人他能够啊写这么一个数写的稍微快一点\n点写的快一点点这个人那只要n能够被写下来比如说九万九千九百九十九亿九九十九亿的九十九亿次方如果有一个人能把这个数写下来那\n么比他大大一下大一点的一个人也能把它写下来那么就会导致一切的数都能被写下来了Therefore by the familiar\nprinciple of那么通过一个比较熟悉的这么一个\ninduction啊induction every natural number通过归纳法了\n这里翻译成什么好呢\n通过归纳法呀他这个我们这里翻译成归纳法了通过归纳法的这个原理啊但是用个familiar就是大家所熟悉的归纳法的原理那么每\n一个自然数都可以被写下来的但是很明显是不对的对不对你如果一个超级大的数写你妈呀写死了But that is plainly\nabsurd to write down say ten这个这个次方不知道怎么说啊in次方英语怎么说\n次方的英语power啊power power power\n呃n次方pow n power n呢是这样说的吗\n你看这个中中文互联网的嘛n次方英语怎么说哦我点错了在网页里面\nn's power啊n's power n's power to the power of to the power of\n应该这样说什么ten to the power of ten to the power of ten啊ten's power\nten's power什么in chemical notation what required to follow\none by完全写不下来了它要要连续写三百年，这个这个傻逼，你真的去算这个东西吗？At rate of zero per\nsecond，如果你每秒钟写一个零，那是手残每秒钟写一个零。\n我如果写快一点，一秒钟写写十个零，我只要写三十年。\n啊，什么差不多这个意思啊，就是那就很很荒谬了，对不对？\n你这样搞的话就很荒谬了。The problem is caused by the vague meaning of could。\n那么这个问题，它就是是因为这个could能够啊，它是个情态动词嘛，啊，它这个情态情态动词，啊，它这个\n它的用法，它的意也是比较含混的。就avoid similar\ndifficulty，那么要避免类似的这个困境呢，我们现在啊，\n我们现在必须就是说非常清楚的描述，我们用一个属性到底在在意味着什么啊？Only clear mathematical properties are allowed。\n只有清楚明白，你看这里就是说分析哲学他喜欢的清楚明白来了，对不对？\n啊，因为它是工作工作上的困难所导致的，没办法。\n啊，只有清楚明白的数学性的这些描述被允许啊，数学性的这些属性被描被允许。\n非常幸运的是，these properties are\nsufficient啊，非常幸运是这样的属性呢，它是蛮多的，蛮充足的。For for expression of all\nmathematical呃facts，它足够来表达基基本上所有的，这里all就要加个引号了，基本上所有的数学事实都可以都\n可以用这些清楚明白的数学属性来来来刻画啊。Our exposition in this section is formal。\n那我们的这个推演啊，is informal。\n我们在这里这个这个推理啊，阐释啊，我们在在这一节里面这些阐释不是是非正式的。Readers who would like to see how this topic can be studied from a more rigorous rigorous rigorous point of view can consult some books on mathematical logic。\n就是如果还要更严格的来讨论这个问题，上述问题的话，那就看一些数学哲学或者你看分析哲学一些书啊，它就会有一个更加严格的一个\n观点啊啊，用从一个更严格的观点当中来研究这个问题啊，这个这个话题可以更严格去研究。A basic essential logical property is membership property。\n那么最基本的一个集合论的一个属性就是membership啊，成员性啊，就是它的要素性\n啊，什么属于什么，这个这这个是最基本的，因为因为就是集合就被定义成就是说它这个集合里面有呃一些它的成员呢，或者有它的这个\n要素了，所以它的最基本的属性就是membership。\n啊，你什么属性都没有，但至少你有这个membership，you know。\n啊，你有这个会员资格的membership，\n什么属性都没有，至少你是这个啊，只要你有一个集合，你集合里面的东西都具有一个属性，就membership，it's a member of this set，对不对？什么什么is a member of什么什么，which we do denote\nby这个属于，belong\nto这么一个啊，这么一个这个标记。So x belong to y reads x is an element of y or x is member of y or x belongs to y。T h e l e t t e r s x a n d y i n t h e s e e x p r e s s i o n s a r e v a r i a b l e s。你看，其实说集合论呢，它的这个思维和社会学是非常非常非常紧密的。U n d e r s t a n d？啊，是非常紧密的，因为是，因为这个阶级革命里面讨论的很重要的话题，也就是这个话题。U n d e r s t a n d？就是说，无产阶级到底是不是资产阶级社会的社会成员？明白吗？U n d e r s t a n d？我希望大家在学集合论的时候不要忘记这个，就是说这个现代资本主义社会它里面的一个认同困境啊，认同困境啊，认同困境。无产阶级归根结底在其中啊是，他没有足够的，哎呀，我靠，我掏耳屎，一边掏耳屎一边讲他妈革命理论，是吧？不讲。就说你在学习这些这些工具性的东西的时候，呃，它虽然有很多含所谓客观中立的一些工具性假设，但是你要意识到这样的东西并不是完全干净的，啊，这种完全这个标准化的这集合论内在都有很多资资本主义的意识形态前设啊，但是并不因为它它就是大毒草，不，也不这个意思，它能用，好吧？那我们要继续看啊，就是说集合论有高级版本，高级版本就是融合了结构主义、辩证法的高级版本，拉康的体系啊这种这些东西。它讲究的是符号学、发生学。那么这个这种集合论呢，它是没有符号学、发生学的，它先给你预设好符号系统，预设好了这个同属性嘛，m e m b e r s h i p嘛，b e l o n g，b e l o n g，b e l o n g n e s s，对不对？来，我们继续看嘛啊，继续看。那么这个x和y在这些在这些表表达式当中的这个x和y呢，这个字母呢，他们是变元，v a r i a b l e s。然后t h e y s t a n d f o r这个d e n o t e，他们就是说他们代表或者说他们表示，d e n o t e就表示了。\nyThe letters x and y in these expressions are variables你看其实说\n集合论呢它的这个思维和社会学是非常非常非常紧密的Understand\n啊是非常紧密的因为是因为这个阶级革命里面讨论的很重要的话题也就是这个话题Understand\n就是说无产阶级到底是不是资产阶级社会的社会成员明白吗Understand\n我希望大家在学集合论的时候不要忘记这个\n就是说这个现代资本主义社会它里面的一个认同困境啊认同困境啊认同困境\n无产阶级归根结底在其中啊是\n他没有足够的哎呀我靠我掏耳屎一边掏耳屎一边讲他妈革命理论是吧不讲\n就说你在学习这些这些工具性的东西的时候呃它虽然有很多含所谓客观中立的一些工具性假设但是你要意识到这样的东西并不是完全干净\n的啊这种完全这个标准化的这集合论内在都有很多资资本主义的意识形态前设啊但是并不因为它它就是大毒草不也不这个意思它能用好吧\n那我们要继续看啊就是说集合论有高级版本高级版本就是融合了结构主义辩证法的高级版本拉康的体系啊这种这些东西它讲究的是符号学\n发生学那么这个这种集合论呢它是没有符号学发生学的它先给你预设好符号系统\n预设好了这个同属性嘛membership嘛belongbelongbelongness对不对\n来我们继续看嘛啊继续看那么\n这个x和y在这些在这些表表达式当中的这个x和y呢这个字母呢他们是变元variables然后they stand for这\n个denote他们就是说他们代表或者说他们\n表示denote就表示了标记记下，denote上面不是有那个什么十进制计数法吗？\n啊，十进制计数法，这个de\ndecimal不对，decimal decimal notation\nnotation就是记计数法，记记的办法啊，所以这里就是说这个他们代表或者他们就是记下来啊，记下来，\n那个stand\nfor或者他们就是他们用来标记那个unspecified非特定的任意的集合，所以他们就是变元啊，它就变元x\ny代表任意集合，不确定的是哪一个是集合，arbitrary啊，然后the pro\narbitrary有五段的意思啊，在这里是任意的意思啊，任意的集合the\nproposition x belongs to y holds or does not hold depending on sets denoted by x and\ny啊，到底这个x是不是属于y，它能站得住或者说它站不住，它完全取决于啊这个x和y它代表的是哪个集合啊，x\ny代表的是哪个集合denoted by啊x\ny它记的是到底是哪个集合，所以它是变元不确定的。We sometimes say x belongs to y is a property of x and y。\n我们有的时候会说x属于y呢，它是一个x的属性，x和y的属性啊，x和y的属性，x属于y就是x它有个属性，它它属于y，懂吗？\n我们也可以说就是y有一个属性，就是说有一个x属于它啊，总归它是x和y的一个属性啊。This reader is surely familiar.The reader is surely familiar with this informal way of speech from other branches of\nmathematics.呃，这个读者呢\n啊对于这这样一种非正式的说法啊，从其他其他数学分支而来的这种非正式的这种说法呢，是非常熟悉的，非常熟悉的。For example,m is less than n is a property of m and\nn啊，这种它就是说这是一种非正式的说法，懂吗？\n这里的we指的不是集合集合论家啊，这里的we指的就是普通人啊，一般的人，一般的人有时候会说x属于y是x和y的属性，那这个\n是是一个不正式的一种说法啊。\n举个例子，比如说m小于n，它是一个m和n的一个属性。The letters m and n are variables denoting unspecified\nnumbers.那么m和n呢，它是呃用来这个标记denote或者说用来，我不喜欢把这个denote翻译成指指称，你知道吗？\n翻译成什么比较好？\n标记啊，标记，我喜欢把它翻译成标记啊，标志、指示或者表示，翻译成表示，它是用来表示这个不确定的数的一些变元啊。Some m and n have this property.有的m和n\n有这个属性啊，有的没有这个属性。\n比如说二小于四，那所以二和四有这个属性，但是呢，三和二就不具有这个属性。All other set theoretical properties can be stated in the term of membership with the help of logical means.\n所有其他的集合论的属性呢，都可以啊，\n都可以用这个啊，用这个逻辑手段，在逻辑手段的帮助下，逻辑工具、逻辑方式，就形式逻辑的啊帮助下，或者数理逻辑帮助下，的\n啊，然后通过什么？\n通过这个从属性membership\n来表达出来啊。\n所有的集合论都是属什么属于什么，什么不属于什么，什么属于什么，且什么属于什么，对吧？\n它就是集合论里面的，可以说它是一个基本，除了其他的那些逻辑算算子之外，逻辑逻辑的那些如果那么并且不是什么，除了逻辑算除了\n逻辑算符之外，集合论里面只有一个算符，它就是属于啊，就是这个\nmembership，它是最基本的，对吧？\n它就是说，所有其他的集合论属性都可以都可以加那个，这那逻辑算符只包括相同\nidentity，然后呢，逻辑连接词和逻辑量词，就是它只包括数理逻辑那几个基本的\n同一性啊，还有就是说它的那个什么，\n就是其实只只要两个就行了，这个logical connectives\n只要两个就行了啊，就是非和并且，反正它任意两个可以推出其他的嘛，以及这个\nquantifiers，但并不是所有，并不是每每就是说这个逻辑连接词哪些可以推出哪些，你们自己可以去画个表啊，它可以推推推出来的。\n其实它就是一个逻辑连接词的功能，其实就是一个那个，就是一个就是一个那个就是一个\n就是一个矩阵啊。\n逻辑连接词的功能就是个矩阵，明白吧？\n就是个矩阵啊，\n就是就是个二进制矩阵。\n所谓逻辑连接词就是二进制矩阵啊，二进制矩阵就是就是a\n如果是一就是幺幺零呃幺零幺什么幺零零零幺零零零幺零就懂了吧？\n就是一个二进制矩阵，它就是三三元三元数组的二进制矩阵，你这不个意思，你懂吗？\n然后和这个量词量词量词加同一同一律啊，叫叫叫\nidentity，叫相等，它只要这些逻辑符号。\n逻辑运算再加上一个包含，再加上一个\nmembership，这个就是属于，它就它就能够推出所有的集合论的属性了。然后呢，we often speak of one and the same set in different contexts contexts and find it convenient to denote it by different variables。\n那么我们我我们就是集合论家常会讨论一个和同一个集合，但是在不同的语境下讨论一个同一个集合，然后发现啊\n发现可以用不同的变元来来来指代它啊来标记它啊就是用不同的变元来标记它。we use the identity sign。\n那么这种情况之下啊我们就会用这个等于号来表明他们这两个呃\n两个变体啊这个翻译成变体啊两个变元了，就是说两这两个变元啊它实际上是这个variables翻译成啥？\n我操，在这里翻译成变元不太好啊，它不是什么运算元啊，它不是变量，反正\nwhatever，它就是就是有的时候我们会用x\n表示这个，有的就用y\n表这个，但是它其实同一个，那我们就用等于号来表示啊，我们就用等于号来来标记它是同一个。so we write x equals to y if x is the same identical。\n这个这个不能翻译成equals to啊equals to\n可能要用三个横杠啊，不是不这这这里要whatever what\n不管这个可能就是说这个是标记问题啊，就是说x is identical with x\n啊这个念这个这个等于号念成它不是数学里面的那个相等号啊，它就是等同号，这个应该是一个等同号，你就是说x is identical with y啊if x is the same set as y x is identical with y or x is也可以念成equals equals to啊不管了啊in the next example we list some obvious facts about identity。\n那么下面举了一些例子啊，就是a x等于x啊x is identical with\n这个是这个是这个就是一个逻辑公式了，不是同一同一律了。然后if x如果x等于y，那么y等于x\n啊这就对称性了啊if x\n就是它可传递性啊那这反过来也是一样的啊，如果x和y是相等，那么y和x\n也相等的啊，然后它可这可以可传这是可传递性，这对称性啊如果x等于y y等于z，那么x等于z啊如果x等于y x属于属于z，那么y也属于z\n啊这个就是一个集合关系的集合关系的一个也被传递过去了啊x和y\n是相等的，那么你写x属于y，你就相当于x属于z相当于写y也属于z\n啊都是一样的，这个都是用直观就行了，你都不用论证的嘛，这个你要证明他妈的就证个屁啊我靠！如果x等于等于\ny，那么啊，这个不说了啊，一样的，就是把它倒过来一下，倒过来一下。\n如果有个东西属于它，那么呃，有个东西会属于它所等同的那个东西啊。\nProperties，啊，这个logical connectives can be used to construct more complicated\nproperties，呃，from\nsimpler，呃，ones。\n那个逻辑连接词呢，可以被用来去构造更复杂的一些啊一些属性啊，就是从那些简单的属性里面来搞出一些更复杂的属性。They are expressions like\nnot啊，什么什么and什么什么，if什么什么then什么什么，and什么if and only\nif就是非什么什么，并且什么，如果则什么什么，以及当且仅当什么什么。\n那么举个例子啊，啊，x属于y或者y属于z is a property of x and y。\n啊，举了个例子，嗯，它是x\ny的一个属性，然后\n就是all了，他就跟你讲这个all了啊，用all来构造出一个集合论的一个属性啊。\n这个all是包不包含，\n包不包含同时相等的？\n如果说就它有的这个或它是有的或它是包括它都成立的情况的，这个或不知道它包不包括\n啊啊，那就看看它有没有写清楚了。\n它有的版本上有，就是说这个，比如这个例子，x属于y或者y属于x，那是包不包括x属于y且y属于x，就是x等于y那种情况？\n嗯，不管了，not那就并非x属于y，n o t x b e l o n g s t o y a n d n o t y b e l o n g s t o x啊。呃，o r i n m o r e i d i o m a t i c E n g l i s h，或者一个更更是i d i o m a t i c更傻逼吗？更惯用啊，更惯用的英语，或者用更惯用的英语方式，x i s n o t a n e l e m e n t o f y a n d y i s n o t a n e l e m e n t o f x i s a l s o a p r o p e r t y o f x a n d y，也是个啊，也可以当成是x y的一个属性啊啊，就是y不是x不是y的要素，y也不是x的要素啊，这也可以也可以被建构成为是x y的一个属性。I f x e q u a l s i s e q u a l s t o y t h e n x b e l o n g s t o z i f a n d o n l y i f y b e l o n g s t o z i s a p r o p e r t y o f x y a n d z啊。这个是这个是对的呀，对不对？这个只不过说把上面啊啊，就是把这句话啊，把这句话把这句话拿过来，就把这句话，那么第二二点一里面这个d拿过来，说这个这个这句话里面就包含了i f t h e n的啊，就i f a n d o n l y i f，他把它变成了i f a n d o n l y i f。这里只给了一个i f t h e n，他并没有说i f a n d o n l y i f，对不对？他没有说这个。\nynot x belongs to y and not y belongs to x啊呃or in more idiomatic\nEnglish或者一个更更是idiomatic更傻逼吗\n更惯用啊更惯用的英语或者用更惯用的英语方式x is not an element of y and y is not an\nelement of x is also a property of x and y也是个啊也可以当成是x y的一个属性\n啊啊就是y不是x不是y的要素y也不是x的要素啊这也可以也可以被建构成为是x y的一个属性If x equals is equals\nto y then x belongs to z if and only if y belongs to z is a property\nof x y and z啊\n这个是这个是对的呀对不对这个只不过说把上面啊\n啊就是把这句话啊把这句话把这句话拿过来就把这句话那么第二二点一里面这个d拿过来说这个这个这句话里面就包含了if then\n的啊就if and only if他把它变成了if and only if\n这里只给了一个if then他并没有说if and only if对不对他没有说这个反，如果说当前紧张的话，那就是右边可\n以推过来，就是说，\n啊，所以它是有问题的，是吧？If and only\nif，不是不是不是，不管了。\n当前紧张不是右边可以推过来，当前紧张意思就是说，呃，\n就是它可以推向它，如果它不成立的话，那么它也不成立，啊，这是if and only if。\n啊，如果它不成立的话，那么它也不成立啊，不管了，这不，这个不是说让你在这里研究这些命题到底，它就是用来告诉你，加上逻辑连\n接词，再加上这个等于关系，它可以给出一些更复杂的一些啊，集合论的一些属性。X is not an element of X，X不是X的要素啊，或者或者我们可以表示表示成并非X属于X i s a p r o p e r t y o f X。然后w e w r i t e X d o e s n't b e l o n g t o Y i n s t e a d o f，就是说为了表计数的方式，直接把这个n o t，把这个否定词啊放在后面，放到后面去啊，就是说啊，而不是写写并非X属于Y，而是直接是X不属于Y，然后X不等于Y，啊，而不是写成并非X等于Y啊，也把这个否定词移到这个等号上面去。然后第三部分的q u a n t i f i e r s f o r a l l a n d f o r e v e r y，啊，a n d t h e r e i s t h e r e e x i s t s p r o v i d e a d d i t i o n a l l o g i c a l m e a n s。那么量词呢？量词它就会提供啊，更进一步的逻辑含义啊，就是更多的逻辑含，a d d i t i o n a l l y额外的逻辑含义，啊，就是量词就两个了，一个全程量词，还有一个就存在量词。那么m a t h e m a t i c a l p r a c t i c e s h o w s t h a t a l l m a t h e m a t i c a l f a c t s c a n b e e x p r e s s e d i n t h e v e r y r e s t r i c t e d l a n g u a g e w e j u s t d e s c r i b e d。那么数学实践已经表明，所有的数学事实可以以非常严格的、非常r e s t r i c t e d、非常限定的一个语言，就是用数理逻辑来表达啊，我们刚刚所描述的那种语言来表达。B u t t h a t t h i s l a n g u a g e d o e s n o t a l l o w v a g u e e x p r e s s i o n s l i k e t h e o n e a t t h e b e g i n n i n g o f t h e s e c t i o n。但是这样一种语言呢，数理逻辑语言并不允许那些模糊的表表述，就是模糊表述就是我们正如这一节开头所提出的一些描模糊的表述，比如说能够啊，呃，比如说什么什么伟大的美国小说什么这点儿东西。那么l e t u s l o o k a t s o m e e x a m p l e s o f p r o p e r t i e s w h i c h i n v o l v e q u a n t i f i e r s。然后我们举一些例子，它包含这个量词的一些例子啊，然后说e x a m p l e举个例子，t h e r e e x i s t s y b e l o n g s t o X，啊，就是t h e r e e x i s t s y b e l o n g s t o X，就存在y属于，有存在y属于X。F o r e v e r y X b e l o n g s t o y，呃，f o r e v e r y y b e l o n g s t o X，对于每一个属于X的y。\nXX不是X的要素啊或者或者我们可以表示表示成并非X属于X is a property of X然后we write X doesn't\nbelong to Y instead of就是说为了表计数的方式直接把这个not把这个否定词啊放在后面放到后面去啊就是\n说啊而不是写写并非X属于Y而是直接是X不属于Y然后X不等于Y啊而不是写成并非X等于Y啊也把这个否定词移到这个等号上面去\n然后第三部分的quantifiers for all and for every啊and there is there exists\nprovide additional logical means那么量词呢量词它就会提供啊更进一步的逻辑含义啊就是更多的\n逻辑含additionally额外的逻辑含义啊就是量词就两个了一个全程量词还有一个就存在量词那么mathematical\npractice shows that all mathematical facts can be expressed in\nthe very restricted language we just described那么数学实践已经表明所有的数\n学事实可以以非常严格的非常restricted非常限定的一个语言就是用数理逻辑来表达啊我们刚刚所描述的那种语言来表达But\nthat this language does not allow vague expressions like the\none at the beginning of the section但是这样一种语言呢数理逻辑语言并不允许那些模糊的表\n表述就是模糊表述就是我们正如这一节开头所提出的一些描模糊的表述比如说能够啊呃比如说什么什么伟大的美国小说什么这点儿东西那\n么let us look at some examples of properties which involve quantifiers\n然后我们举一些例子它包含这个量词的一些例子啊然后说example举个例子there exists y belongs to\nX啊就是there exists y belongs to X就存在y属于有存在y属于XFor every X belongs\nto y呃for every y belongs to X对于每一个属于X的y都有一个z啊，这个z属于x，并且z属于y\n啊，它也是这种表达。There exist z,uh,such that z belongs to x and z uh does not belong to y\n啊，就是说存在z，这个z属于x，但是z不属于y啊。Truth or falsity of a obviously depend on the\nset，它要继继续讨论这个东西呢。那么a\n这句啊，存在y属于x，a的它的i s真还是假，很明显啊，它取决于这个由边缘x所标记的、所标志、所所所所所所指的这个集合，完全取决于x啊，完全取决于x，就取决于这个x到底里面有没有y了啊。这句话到是对还是错，其实归根结底取决于x里面到底有没有y。F o r e xa m p l e,i f x i s s e t o f a l l A m e r i c a n p r e s i d e n t s a f t e r u h 1 7 8 9,1 7 8 9，就如果x\n是一个所有美国总统一七八九年之后美国总统的一个集合啊，那么a就是错的，很明显你们a没有y啊，a里面不存在y的是吧？这个这这个就是啊一七八九年之前啊，就还存在啊。T h e r e e x i s t y b e l o n g s t o x，就是很明显，因为这人都死了，是不是？是这个意思吧？我的妈，他的意思就是a就很明显，你找不到一个这个这个这个这个空集合，他的意思就是这是个空集合。G e n e r a l l y，但是这个是个是个数学家不聪明的嘛，数学家不是特别聪明。那我说这个集合里面是一些人的名字或这些人的历史，历史上的这些人，作为一个死人或者共同体想象当中的共同体回忆当中的这些人，记录下来这些人。嗯，G e n e r a l l y,a i s t r u e i f x h a s s o m e e l e m e n t s a n d f a l s e i f x i s e m p t y啊。就如果这个x啊，如果这个x它是个空集合的话，它就完全就错了。如果它这个x它是不是空集，那这个a你存在就是它里面有要素，这个y，因为这个y它是个边缘，它不特指的、不特定的、不特定的啊，所以只要这个x里面不这个x不是空集，那么都可以说这个a是对的，都可以说它是对的，反正至少它是可以是对的，它是对的。因为你没有对y进行进一步的刻画，明白吗？T h e r e e x is t y b e l o n g s t o x，只要这个x i s n o t e m p t y s e t，只要它不是一个空集，那么就可以说a是对的，因为你没有对y进行进一步的描述。如果你对y进行进一步的描述，那你就说，那我们看看到底x里面有没有具体的哪哪种y。那如果没有对y进行进一步描述，只要这个x不是个空集，只要这里逗号x i s n o t a n e m p t y s e t，那么这句话就永远是对的，因为你没有说y到底是啥，y只要是任意一个什么狗屁玩意就行了。\n真还是假很明显啊它取决于这个由边缘x所\n标记的所标志所所所所所所指的这个集合完全取决于x啊完全取决于x就取决于这个x到底里面有没有y了啊这句话到是对还是错其实归\n根结底取决于x里面到底有没有yFor example if x is set of all American presidents\nafter uh 1789 1789就如果x是一个所有美国总统一七八九年之后美国总统的一个集合啊那么a就是错的很明显你们\na没有y啊a里面不存在y的是吧\n这个这这个就是\n啊一七八九年之前啊就还存在啊There exist y belongs to x就是很明显因为这人都死了是不是是这个意思\n吧我的妈他的意思就是a就很明显你找不到一个这个这个这个这个空集合他的意思就是这是个空集合Generally但是这个是个是\n个数学家不聪明的嘛数学家不是特别聪明那我说这个集合里面是一些人的名字或这些人的历史历史上的这些人作为一个死人或者共同体想\n象当中的共同体回忆当中的这些人记录下来这些人嗯Generally a is true if x has some elements\nand false if x is empty啊就如果这个x啊\n如果这个x它是个空集合的话它就完全就错了如果它这个x它是不是空集那这个a\n你存在就是它里面有要素这个y因为这个y它是个边缘它不特指的不特定的不特定的啊所以只要这个x里面不这个x不是空集那么都可以\n说这个a是对的都可以说它是对的反正至少它是可以是对的它是对的因为你没有对y进行进一步的刻画明白吗There exist y\nbelongs to x只要这个x is not empty set只要它不是一个空集那么就可以说a是对的因为你没有对y\n进行进一步的描述如果你对y进行进一步的描述那你就说那我们看看到底x里面有没有具体的哪哪种y那如果没有对y进行进一步描述只\n要这个x不是个空集只要这里逗号x is not an empty set那么这句话就永远是对的因为你没有说y到底是啥y只\n要是任意一个什么狗屁玩意就行了理解吗？\ny只要是任意一个什么狗屁东西就可以了。然后we say that a is the property of x that,or that a depends on the parameter\nx啊，我们就会说呃a是一个\n呃x的一个属性，或者我们说a取决于这个x的parameter取决于它啥？\n取决于它的这个这个翻译成什么？\n取决于它的参数啊，\n取决于它的范围，\n取决于变量哦，这里这里这parameter这parameter在这里翻译成变量啊，或者我们就说a\na或者我我们就可以说这个a是x的一个属性，或者我们说a取决于变量x，\n就是说a这个这个命题啊，或者说这个a这么一个集合w h a t e v e r，a这么一个属性啊，a这个属性它取决于变量x，因为x决定了a的是真是假，如果x是空集，那它就是假，如果x不是空集，那它就是真，所以a这个这个属性它就取决于这个变量x参数x啊，取决于翻译成参数比较好了，它就取决于参数x.S i m i l a r l y,b i s a p r o p e r t y o f x.类似的b也是一个x的一个属性，a n d c i s a p r o p e r t y o f x a n d y.然后c是x和y的一个属性，因为c的话它是取决于x和y这两个啊，明白吧？啊，那b的话，但是就只取决于这个，我靠，嗯，b这个就只取决于x这一个，它这它是证明的嘛，w h a t e v e r啊.N o t i c e a l s o t h a t y i s n o t a p a r a m e t e r i n a,s i n c e i t d o e s n o t m a k e s e n s e t o i n q u i r e i n q u i r e w h e t h e r a i s t r u e f o r s o m e p a r t i c u l a r s e t y啊。我们要注意到就是说y i s n o t a p a r a m e t e r i n a,y并不是a里面的一个参数，因为你这里把y换成其他的这个什么狗屁玩意，就是你换个字母，这这句话并没有实质性影响，你明白吗？你换个字母并没有实质性影响，我不知道你们能不能理解啊，就是说这a b c这三个东西都是用来干嘛？都是用来刻画一个集合的，都是用来刻画一个集合的啊，明白吗？它是用来刻画一个集合，刻画一堆要素的，或者说它是用来刻画一堆要素，刻画一个集合的。那如果我用a来进行一个刻画的话，那我刻画出来的是什么？刻画出来的就是一堆有要素的集合构成的集合，明白吗？我就是我这个东西，这a这句话最最终是用来描述这个x的。\nwhatevera这么一个属性啊a这个属性它取决于变量x因为x决定了a的是真是假如果x是空集那它就是假如果x不是空集那它\n就是真所以a这个这个属性它就取决于这个变量x参数x啊取决于翻译成参数比较好了它就取决于参数x Similarly b is\na property of x类似的b也是一个x的一个属性and c is a property of x and y\n然后c是x和y的一个属性因为c的话它是取决于x和y这两个啊明\n白吧啊那b的话但是就只取决于这个我靠\n嗯b这个就只取决于x这一个它这它是证明的嘛whatever\n啊Notice also that y is not a parameter in a since it does not\nmake sense to inquire inquire whether a is true for some particular\nset y啊我们要注意到就是说y is not a parameter in a y并不是a里面的一个参数因为你这里把y\n换成其他的这个什么狗屁玩意就是你换个字母这这句话并没有实质性影响你明白吗你换个字母\n并没有实质性影响我不知道你们能不能理解啊就是说这a b c这三个东西都是用来干嘛都是用来刻画一个集合的\n都是用来刻画一个集合的啊\n明白吗它是用来刻画一个集合\n刻画一堆要素的或者说它是用来刻画一堆要素刻画一个集合的\n那如果我用a来进行一个刻画的话那我刻画出来的是什么刻画出来的就是一堆有要素的集合构成的集合\n明白吗我就是我这个东西这a这句话最最终是用来描述这个x的\n到底这个y是什么狗屁玩意，跟我没关系，明白吗？\n所以a这句话只是用来限定x，或者只是用来描述x，就是说我会有一个集合，比如说u，u这个集合里面有一堆x一、x二、x三、x四、x五、x六、x七，啊，这些x它都有一个共同的一个属性，就是说啊，它这些x都有都都有都有y属于这个x，到底这个y，比如说x里面有个y一，啊x一里面有个y，它或者它反正只要里面有东西就行，啊，就是说就是非空非空的集合构成的集合，它的里面的要素的共同点就是这句话a啊，非空集合非空集合的共同点就是a啊，就是说它它有要素，就是它有要素啊，所以这个a它是用来刻画x的，是用来描述x的，跟y没什么关系，y去你妈的啊，那么因为y它只是一个符号用来标记用的，懂吧？它只是个符号，它没有指向什么的，它也没有约束什么什么东西，啊，它没有指向，也没有约束什么东西东西。那么b也是的，b这句话里面同样它只刻画了x啊，对于每一个，就是说我b这句话是用来刻画这个集合，你别看这个x写在后面，但实际上它是用来刻画这个x的，它就是说我现在要要要描述一堆集合，一堆x，这些x是什么样的？就是说它的每一个要素，这些x的每一个要素，就是说假如有一个集合x，那么它的每一个要素必须啊必须是必须是这样的，它的每一个要素就是说如果它有另外一个要素，它有某一个要素存在一个要素属于x，那么这个要素就要属于y，懂吗？那么到底y是什么屌东西，它不管的，因为它并没有刻画y，它只是对x提出了一个要求。第二句话也是的，它对x提出了一个要求，就是说你的每一个要素要要要满足x的每一个要素y要满足一个特性，就是说如果有z属于x，那么z也得属于y，懂了吗？这个这个这这这个构造是很烦的，就比如说呃就是x，你把x想象成是一个大盒子，大盒子里面有很多小盒子，这些小盒子每一个小盒子就是就是y了，每一个小盒子都是y，那么它每一个小盒子要符合什么什么标准呢？就是说呃你这个大盒子里面的任何一个另外的就存在存在一个不需要每一个，只要你里面存在一个小盒子，这个小盒子它是大盒子的要素，它是整个大盒子要素，它同时也是每一个小盒子的要素，懂了吗？\nuu这个集合里面有一堆x一x二x三x四x五x六x七啊这些x它都有一个共同的一个属性就是说啊它\n这些x都有都都有都有y属于这个x到底这个y比如说x里面有个y一啊x一里面有个y它或者它反正只要里面有东西就行啊就是说就是\n非空非空的集合构成的集合它的里面的要素的共同点就是这句话a啊非空集合非空集合的共同点就是a啊就是说它它有要素就是它有要素\n啊所以这个a它是用来刻画x的是用来描述x的跟y没什么关系y去你妈的啊那么因为y它只是一个符号用来标记用的懂吧它只是个符号\n它没有指向什么的它也没有约束什么什么东西啊它没有指向也没有约束什么东西东西那么b也是的b这句话里面同样它只刻画了x啊对于\n每一个就是说我b这句话是用来刻画这个集合你别看这个x写在后面但实际上它是用来刻画这个x的它就是说我现在要要要描述一堆集合\n一堆x这些x是什么样的就是说它的每一个要素\n这些x的每一个要素就是说假如有一个集合x那么它的每一个要素必须啊必须是\n必须是这样的它的每一个要素就是说如果它有另外一个要素它有某一个要素存在一个要素属于x那么这个要素就要属于y\n懂吗那么到底y是什么屌东西它不管的因为它并没有刻画y它只是对x提出了一个要求第二句话也是的它对x提出了一个要求就是说你的\n每一个要素要要要满足x的每一个要素y要满足一个特性就是说如果有z属于x那么z也得属于y\n懂了吗这个这个这这这个构造是很烦的就比如说呃就是x你把x想象成是一个大盒子大盒子里面有很多小盒子这些小盒子每一个小盒子就\n是就是y了每一个小盒子都是y那么它每一个小盒子要符合什么什么标准呢就是说呃你这个大盒子里面的任何一个另外的就存在存在一个\n不需要每一个只要你里面存在一个小盒子这个小盒子它是大盒子的要素它是整个大盒子要素它同时也是每一个小盒子的要素\n懂了吗那么这个在逻辑上是不太可能的，对不对？\n就你要证明了，证明了，明白吧？\n就是这个b也是对于这个x，对于这个大盒子，大盒子到底怎样的一个要求？\n所以他们会说这个b啊，只只刻画了x，你明白吗？\n这个这个b只约束了x啊，啊，然后这个c呢，它既约束了x，也约束了y啊，既约束了x，也约束了y。\n然后它，我们就看这边的，就是说，\n就是说，就是就是a这个a这个属性啊，它并没有，does not make sense to inquire whether a is true for some particular\nset，就是说你去探究a对于某个特定的y是不是真的，它是没有意义的啊。然后we use the letter y in the quantifier only for convenience and could as well say there exists w belongs to\nx啊，它包含在量词里面的，它就是一个虚的，它这包含在量词里面的一个虚的一个一个屌东西。\n我们也可以不用y这个字母，可以用w这个字母。Oh,there exist some elements of\nx，我们也可以直接用elements就行了。There exist some\nelements，直接用some\nelements这个单词来代替y就行了。Similarly,b is not a property of y or z,and c is not a property of z啊。\n这个东西你都可以可以去，其实你可以去证明的，对吧？就是a,b,\nc你都可以当成习题去证明，就是说，就是证明y可以是任意的一个东西，任意的一个集合，y可以是任意集合，或者y可以任意要素，\n就是说y本身，说你可以反证，如果y是一个特，如果对，如果有一个东东西不是y就，你你可以反证，反证法把a,b,\nc这三个都证出来，其实没必要，工作没必要做的，它就是这样定义的，明白吗？\n然后，although precise rules for determining\npara呃parameters of a given property can easily be\nformulated，呃，we rely on the reader's common sense and limit ourselves to one last examples啊。\n然后说，尽管啊，要决定一个给定的属性它到底啊是不是它的参数啊的那些精确的规则可以很容易被表达出来，可以很容易被形式化的表\n述出来，我们还是啊要依靠读者的常识，并且把我们自己呃and limit ourselves to one last\nexample，我们只举最后一个例子啊，你就你来判断，你在判断这种描述这种属性当中，它里面到底哪个是参数，哪些不是参数，\n这个啊这个这个很容易很容易表述出来，很容易给你写出来，但是说这个工作我不做，我只举最后一个例子啊，然后那个更多的是让你一\n个读者用你自己的常识，用你自己的common sense。读者的common\nsense就常识，就大家都有的通用的一个官能，通用的通用的那个general\nsense，有那基本的头脑，你自己去判断。\n然后他给出一个例子，二点四例子，A、B、C三个例子是吧？然后这个，呃，y b e l o n g s t o x，还是让你做习题啊？然后h e r e A i s a p r o p e r t y o f x a n d y，在这里A是这个x y的一个属性。I t i s t r u e f o r s o m e p a i r s o f s e t s x y a n d f a l s e f o r o t h e r s啊。这个在这这里的话就是这个就是y和x都是它的参数，都是它的参数。因为当你这样说的时候，你不引入这个量词，直接说y属于x啊，y属于x，只有它是它它它用来约束的是对子对不对？它用来约束的是y x的对子啊啊。I t i s t r u e f o r s o m e p a i r s o f s e t s x y，就是它用来约束是y和x的集合对，集合y和集合x一个集合另一个集合组成的一个对子。它这两这两个这一对集合符合符合一个属于另一个这个关系，那么它才符合这个描述。所以它里面参数是两个对不对？所以s o m e p a i r s o f s e t s x y a n d f a l s e f o r o t h e r s。然后B然后说t h e r e i s y b e l o n g s t o x，这个B就是说就是说啊它只是x的，这个就是前面讲的，就是这个了。T h e r e e x i s t s y，就只只不过把这个e x i s t s换成了i s嘛啊，就是说那么这个就只是对于x的啊，它只有一个参数，这个参数就是x啊，只有一个参数，参数就是x。意思就是说它有它有要有要素啊有要素啊，只刻画了x啊，它有要素，你并没有刻画y呀，刻刻画y到底这里刻画什么y啊？没有刻画什么y，明白吗？这个东西只能用来刻画x啊，就是B i s p r o p e r t y o f x n o t b y y，w h i l e C h a s n o e l e m e n t。什么？C是个没有要素。F o r e v e r y x t h e r e i s y，对于每一个x而言都有一个y属于x。I s t h e r e f o r e C i s t h e r e f o r e e i t h e r t r u e o r f a l s e。对于每一个x，因为这个量词，我靠这个t h e r e i s y b e l o n g s t o x，对于每这个对于每一个x每一个什么样的x呢？对不对？他没有说清楚这是什么样的x，都存在一个y属于x。F o r e v e r y x t h e r e i s。\nABC三个例子是吧然后这个呃y\nbelongs to x\n还是让你做习题啊\n然后here A is a property of x and y在这里A是这个x y的一个属性It is true for\nsome pairs of sets x y and false for others啊这个在这这里的话就是这个就是\ny和x都是它的参数都是它的参数因为当你这样说的时候你不引入这个量词直接说y属于x啊y属于x只有它是它它它用来约束的是对子\n对不对它用来约束的是y x的对子啊啊It is true for some pairs of sets x y就是它用来\n约束是y和x的集合对集合y和集合x一个集合另一个集合组成的一个对子它这两这两个这一对集合符合符合一个属于另一个这个关系那\n么它才符合这个描述所以它里面参数是两个对不对所以some pairs of sets x y and false for\nothers然后B然后说there is y belongs to x\n这个B就是说就是说\n啊它只是x的这个就是前面讲的就是这个了There exists y就只只不过把这个exists换成了is嘛啊就是说\n那么这个就只是对于x的啊它只有一个参数这个参数就是x啊只有一个参数参数就是x意思就是说它有它有要有要素啊有要素啊只刻画了\nx啊它有要素你并没有刻画y呀刻刻画y到底这里刻画什么y啊没有刻画什么y明白吗\n这个东西只能用来刻画x啊\n就是B is property of x not by y while C has no element什么C是个没有要\n素For every x there is y\n对于每一个x而言都有一个y属于\nxIs therefore C is therefore either true or false\n对于每一个x\n因为这个量词我靠这个there is y belongs to x对于每这个\n对于每一个x每一个什么样的x呢对不对他没有说清楚这是什么样的x都存在一个y属于xFor\nevery x there is\n这个就是两个量词堆叠啊，这个C\n这个东西写出来就是两个两个量词堆叠，明白吗？\n就是说你可以写成这个x，逗号存在y属于x，逗号，就是C\n这个你如果学过数理逻辑的话，它就是写了两个量词，后面什么都没有写，\n所以它本身都都不能算是一个描述，you know，你明白吗？\n啊，它本身都，\n就是说你你要看到底它有没有参数，你你就要看它能不能写成一个一个一个数理逻辑表达式啊，数理逻辑表达式，明白吗？然后，therefore either true or false，it is in fact false properties which have no parameters and are therefore either true or false。\n那么这样呢，没有没有参数的这个，\n没有参数的这些属性呢，它们就既不是真的也不是假的，被叫做statements，就被叫叫做statements表述，啊，all mathematical theorems are statements，are true statements，\n然后所有的数学，\n它就不取决于，不取，就是这个东西的没，这个东西的真假不取决于x是怎么样，不取决于y怎么样，you know，for every x there is，\n就这句话，这个英语，我操，我们不是英语国家的人，就看这个东西也很膈应，你知道吗？对于所有的x，there is y belongs to x，\n我就是这句话就弄不懂，就是在约束这个x\n还在，就是这句话好像就是说，\n哎呀，这个这个话他妈的令人头疼，你知道为什么？\n因为我不知道是后面这个东西是用来描述这个x\n的，是不是用来描述这个x的，明白吗？就用来限制这个x，\n就是对于所有的非空非空集合x，就C C\n这个东西你完全就可以变成for every unempty sets，for every unempty sets。懂吗？So for every unempty\nset，然后后面么得嘞？没有啊？For\nm没有了，没话说了。\n就是C这个话就是一句空话。\n对于每一个非空集合，么嘞？\n或者说对于每一个集合，\n对于每一个对对于每一个某个东西，然后它是非空集合，这不是废话吗？你明白吗？\n对于每一个某个东西，它是非空集合。然后怎么样呢？\n然后后面没有怎么样了，你知道？There\nis后面没有怎么样了，没有怎么样了。\n所以它没有办法用来这个，它这句话就是不能够，它不取决于任何一个东西啊。\n它没有真没有假可言啊，没有真没有假可言。\n你举个例子，如果这里x是空集的话，如果x是空集的话，那么there\nis那这个x是空集的话，它就它它就它就它就不是for every x了，明白吗？\n它就不能for那个空集就不好不包含在前面这个x里面，空集不包含在前面这个x里面，那么说这句话这句话对于\n就是就这句话就没有办法让x是个空集，明白吗？\n你如果举个例子，就是说for every x there is y belongs to\nx，然后如果x是，也就是说像b这种情况，你可以用如果x是空集，那么b就是错，对不对？\n如果x不是空集，那么b就是对，它能判定它的是是对是错。\n也就是说空集不具有这个属性，而非空集具有这个属性，对吧？\nb可以用来，所以说b它有一个参数就是x了啊，就是x。\n如果x是空集，那么这个就是就可以说是x的一个属性，呃不是非空集，那么这这个b就是x的属性。\n如果它它是是空集的话，那这个b就不是它的一个属性。\n那么对于这这句话呢，我操！\n你如果b是如果这个这个x是空集的话，那这个这句话跟他妈x屁关系都没有，他就\n他预先排除掉了，他就是那个那个那个空集就不在那个every\nx里面，你明白？\n他预先把它排除掉\n了啊，他预先把它排除掉了。\n然后你你反过来要说for every\nx，他如果说x是是一个是一个非空集，there is。\n你就不能说它对，你知道吗？你不能说它对。You understand?For every x,there is.\n因为如果x就是……\n哎呀，这个这这个c怎么说呢？\n它只是个whatever，只是一个限定嘛。\n如果x是这里这这里是要算的。\n对于每一个非空集\n存在y属，对于每一个空集存在y属于空集。For\nevery，它如果它是空集的话，\nthe它就它就不符合这个描述了。\n你这我会觉得c这个东西它会会出现这种状况。For every\nx，如果这里是\n后面这句话就根本没法写出来。\n哎呀，不管了不管了，whatever。呃，all mathematic we sometimes wish to refer to an arbitrary unspecified property。\n有的时候我们想要去援引一个任意的不确定的一个属性，we use bold bold face\ncapital啊letters to denote statements and properties and if convenient list some or all of their\nparameters啊。\n就是说，我们有的时候如果想要，我们会用这个加粗的字母啊，加粗的字母，\n而且是大写字母啊，\n加粗的首字母，bold\nface粗脸首字母，bold\nface我操，翻译成什么？\n粗体黑体啊，我们会用这个黑体首字母来指示一些statements and\nproperties啊，指示一些属性或者说一些表表表达式啊表达式啊，如果方便的话，我们会把某些或者它的所有的参数啊在括号里面都写出来。So a x stands for any properties of the param parameter x。a x就代表着任何一个有参数x的一个属性。举个例子，a b啊或者c啊，甚至二点三里面的c，a b a b或者二点三里面的这个c啊，只要列出一个就行了，不需要全部列出来。呃，e x y i s a p r o p e r t y o f\np a r a m xa x就代表着任何一个有参数x的一个属性举个例子a b啊或者c啊甚至二点三里面的ca b\na b或者二点三里面的这个c啊只要列出一个就行了不需要全部列出来\n呃e x y is a property of param meter x and\ny，比如说二点三里面的这个c\n这个例子，或者说啊二点四里面的这个哦a in example two point\nfour，啊二点四里面a\n这个例子，这个它这个然后那个\nd，它是又举了第四个例子，x属于y，或者x等于y，或者y属于x。I n g e n e r a l,p x y什么什么z i s a p r o p e r t y w h o s e t r u t h o r f a l s i t y d e p e n d s o n p a r a m e t e r s x y z a n d p o s s i b l y o t h e r s。一般来讲，然后p x y什么什么它就是p这个这个表达式呢，它代表的是一个属性，那么它的真或假取决于它后面的参数啊，啊以及其他可能的参数。W e s a i d r e p e a t e d l y t h a t a l l s e t t h e o r y p r o p e r t i e s c a n b e e x p r e s s e d i n o u r r e s t r i c t e d l a n g u a g e。我们反复强调就是说，所有的集合论的属性都可以用我们的这种呃被严格限制的这种语言来表达，它仅仅是由这个呃这个这个成员性就是m e m b e r s h i p就属于的属于的属性和逻辑的方式和其他的那些逻逻辑运算方式啊逻辑方法所构成。无论如何，但是呢，a s t h e呃d e v e l o p m e n t p r o c e e d s a n d m o r e a n d m o r e c o m p l i c a t e d t h e o r e m s a r e p r o v i d e d，那么由于这个集合论越来越发展，然后越来越复杂的一些定理被提出、被证明、被给出。I t i s p r a c t i c a l t o g i v e n a m e s t o v a r i o u s p r a c t i c a l p r o p e r t i e s。大家这可就是说去为一些各式各样的啊特特殊的特别的一些一些属性呢，呃，给它命名，提供一个特殊的名字，啊是比较是很很实际的，就比较很具有操作性的这个这这是i t's p r a c t i c a l，就是可可以这样做啊。I t i s，也就是说t o d e f i n e n e w p r o p e r t i e s，也就是去去定义一些新的这个属性。A n e w s y m b o l i s t h e n i n t r o d u c e d，d e f i n e d t o d e n o t e t h e p r o p e r t y i n q u e s t i o n。就会有一个新的符号被引入进来啊，被定义成啊去被用来去标记这么一个啊相应的一个属性。W e c a n v i e w i t a s a s h o r t h a n d啊f o r t h e e x p l i c i t f o r m u l a t i o n。但就用来作为一个什么？作为一个它的一个缩写，用来做缩写。S h o r t h a n d啊，就是短手嘛，就是用来做缩，又为它的就是e x p l i c i t，把它它可以有个清晰这个表达，但是我们可以把可以用一个新符号拿来做一个缩写，拿来做这个属性的一个缩写。它就举例子啊，举例子就是说子集关系。T h e p r o p e r t y o f b e i n g a s u b s e t i s d e f i n e d b y啊，它就子集关系x。\nxIn general p x y什么什么z is a property whose truth or falsity depends\non parameters x y z and possibly others一般来讲然后p x y什么什么它就是p这个\n这个表达式呢它代表的是一个属性那么它的真或假取决于它后面的参数啊啊以及其他可能的参数We said repeatedly\nthat all set theory properties can be expressed in our restricted\nlanguage我们反复强调就是说所有的集合论的属性都可以用我们的这种呃被严格限制的这种语言来表达它仅仅是由这个呃\n这个这个成员性就是membership就属于的属于的属性和逻辑的方式和其他的那些逻逻辑运算方式啊逻辑方法所构成无论如何但\n是呢as the呃development proceeds and more and more complicated theorems\nare provided那么由于这个集合论越来越发展然后越来越复杂的一些定理被提出被证明被给出It is practical\nto give names to various\npractical properties大家这可就是说去为一些各式各样的啊特特殊的特别的一些一些属性呢呃给它命名提供一个\n特殊的名字啊是比较是很很实际的就比较很具有操作性的这个这这是it's practical就是可可以这样做啊It is也就\n是说to define new properties也就是去去定义一些新的这个属性A new symbol is then\nintroduceddefined to denote the property in question就会有一个新的符\n号被引入进来啊被定义成啊去被用来去标记这么一个啊相应的一个属性We can view it as a shorthand\n啊for the explicit formulation但就用来作为一个什么作为一个它的一个缩写用来做缩写\nShorthand啊就是短手嘛就是用来做缩又为它的\n就是explicit把它它可以有个清晰这个表达但是我们可以把可以用一个新符号拿来做一个缩写拿来做这个属性的一个缩写它就举\n例子啊举例子就是说子集关系The property of being a subset is defined by啊它就\n子集关系x这个念作什么？Is a subset of y if and only if every element of x is an element of y啊。\n就如果x的所有要素都是y的所有要素的话，那么它就是它的子集。X is subset of y.Is a property of x and y.We can use it in more complicated formulations and whenever desirable,\nreplace啊。就是说，replace x is subset of y by its definition。\n就可以用来用我们在那些更复杂的情况之下呢，我们就无论什么情况下，只要你想要，你都可以用它的定义来代替它。\n你都可以用它定义，定义就是说它的每一个要素都是y的每x的每个要素是y的每一个要素。\n你可以用缩写，但是只要你要用，你都可以用它的定义来来来来代代替代替这个缩写，把把缩写都换又换回成它的定义了。For example,the explicit definition of呃if x is subset of y and y subset of z,then x is subset of\nz啊这个东西的它的清楚的定义就会说啊就是把它换一下吧。If every element of x is an element of y and every element of y is an element of z,then every element of x is an element of z.It is clear that mathematics without definitions would be possible,but\nexceedingly clumsy.\nClumsy就别矫嘛，\n笨拙啊笨拙就不好用对吧？\n就是很明显就是说数学可以不用定义，\n没有定义的数学是不可能的，但是有点太笨拙了，就这个太笨拙了，把它写成这样简短对不对？\n写成这样太笨拙了。For another type of definition,consider the property p\nx.那么要考虑到另外一种定义的方式，那么考虑到这个p\nx这个属性啊，there exist no y。\n我们另外一种定义，另外一种定义，我们考虑到另一种形式的定义的话，我们只要考虑下述下述这个属性，就是说这个属性p\nx就是说啊there exist no\ny，那么这个就空集了，这个就是写成写作空集，明白吗？这个p\nx就是空集了，x空集了。We provide in section three\nthat这个这个属性就是说x没有要素了啊x没有要素，没有没有一个要素。There exist no y belongs to x。\n也就是说啊集合x里面没有y，也就集合x里面没有任意的一个y，就是\n没有要素，集合x里面没要素，这是一个属性。\n那么我们在第三节里面会证明there exist a set x such that p x。\n就是说，会证明存在一个集合，这个集合会使得这个P\nX会使得这个属性成立。There exist a set X with no\nelements，就存在一个集合，它的这个集合是没有要素的。\n然后在第三节里面也会证明，there exist at most one set X such that P X it\nis的，啊，就是说最多有一个集合X，它符合P\nX，啊，它具有P\nX这个属性，也就这唯一的这一个集合就是空集了，只有一个集合。\n也就是说，如果P X并且P\nX一撇，如果X满足P，啊P\nX，啊，然后X一撇也满足这个P\nX的话，那么X和X一撇是同一个集合，就这么。\n如果集合X满足P\nX，集合一撇X啊也满足X的话，这个X一撇念作什么？\n这个哦，这个没文化，Prime是吧？D o t，X p r i m e嘛，一般念X p r i m e嘛，撇号，X p r i m e，d o u b l e p r i m e，t r i p l e p r i m e，p r i m e好了。如果X p r i m e也满足P，那么X和X p r i m e就同一个啊。I f X h a s n o e l e m e n t s a n d，那么它这个东西就可以给你把定义再复制粘贴进去，复制粘贴。如果X没有要素，并且X p r i m e也没有要素，那么X和X p r i m e是同一个。那么A和B一起就表示出了一个事实，就是说有一个独一无二的集合X，啊，它它只有这个独一无二的X这个集合才有P X的这么一个属性。S o w e c a n t h e n g i v e t h e s e t a n a m e，那么我们就可以给它一个名字，它独一无二的嘛，给它一个名字，啊，这个名字就叫做e m p t y s e t啊，e m p t y s e t就空集，a n d u s e i t i n m o r e c o m p l i c a t e d e x p r e s s i o n s，然后在一个更复杂多的表达当中去使用它。然后t h e f u l l m i l l i o n s o f z e r o，呃i s s u b呃不不，e m p t y s e t i s s u b s e t o f Z，所以它就是说空集是Z的子集，它的完全的意义是t h e s e t X w h i c h h a s n o e l e m e n t s i s t h e s u b s e t o f Z，啊，它的意思就是说。\nDotX prime嘛一般念X prime嘛\n撇号X primedouble primetriple primeprime好了如果X prime也满足P那么X和X prime\n就同一个啊If X has no elements and那么它这个东西就可以给你把定义再复制粘贴进去复制粘贴如果X没有\n要素并且X prime也没有要素那么X和X prime是同一个\n那么A和B一起就表示出了一个事实就是说有一个独一无二的集合X啊它它只有这个独一无二的X这个集合才有P X的这么一个属性So\nwe can then give the set a name那么我们就可以给它一个名字它独一无二的嘛给它一个名字啊这个\n名字就叫做empty set啊empty set就空集and use it in more complicated expressions\n然后在一个更复杂多的表达当中去使用它\n然后the full millions of zero呃is sub呃不不empty set is subset of Z\n所以它就是说空集是Z的子集它的完全的意义是the set X which has no elements is the subset\nof Z啊它的意思就是说没有要素的集合X是Z这个集合的子集。We occasionally refer to empty set as a constant defined by the property P啊。\n我们偶尔会指向\n啊，我们偶偶尔会援引这个空集，它作为一个常量啊，它作为一个常量，它就是被这个P所定义的，被这个属性P所定义的一个常量，a\nconstant啊，一个常数，一个不是常数的，就是长长东西的长圆，我操！\n因为你们是先，绝大部分人是先学这个，先学先学数学，再学数理逻辑的，明白？\n所以你就会把constant翻译成常量，variables翻译成变量。\n其实它就是一个，它就是一个，\n它就是一个不是计算了，它就是个思辨的圆，思辨的一个单位，思辨的一个东西啊。\n或者这里就可以一个，\n如果翻，如果用黑格尔辩证法的方式来来描述，constant就是一个恒长者，一个恒长者啊，variable就是一个可变者，\n可变者者用者，啊不要用量，他妈的它不是个量哎，我操！\n它是个运算运算的圆，对不对？\n或者它是一个思考的圆，它甚至不是算的，对不对？\n它这个思考的一个圆啊。\n所以在这里翻译长圆啊，它这个长圆不不不不变不变圆，不不啊。\n那么我们就可以把它当成这个长长长长长一个不一个不不变的东西啊。For our last example of a definition,consider the property Qx,y,z of x,y,and z啊。\n那么对于我们最后一个关于一个定义的一个例子，我们最后举个例子，就是我们考虑一个一个属性Q，它有三个三个parameters x,y,z啊啊。它是x,y,\nz的一个属性，就是说for every u,u belongs to z if and only if u belongs to x and u belongs to y。\n对于每一个u来讲啊，u属于z，当且仅当啊u属于x，并且u属于y\n啊，也就是说这个u必须是x和y的公共要素。\n那么也就是说，它这个意思就是说，z是这样一个z是这样一个\nz是这样一个集合，它必须有一个自己的要素，会是另外两个集合的公共要素，懂了吧？\n那么x和y是这样的一个集合，x啊x需要和，就是说x要得和另外一个集合有一个公共要素，明白了吗？\n啊，x得和另外一个集合有，而z是它的每一个要素都是另外两个集合的公共要素，所以所以这一个属性它刻画了三个集合，对不对？\n它描述了三个集合，描述了，其实它是描述了两种集合了，这在这里面来讲，x和y是平等的了，某种意义上讲，you k n o w，x和y某种意义上是平等，是平等的，z和x和y是一类描述，z是另外一类描述，但是x y z在这个里面都被描述了，啊，都被刻画了，是不是？啊，x y就是说，啊，他妈了个巴子的，我有要素是另外一个集合的要素，啊，或者甚至说是另外两个集合的要素，w h a t e v e r，啊，是反正是它是另外也集合的要素就行了，反正它的话，我的要素能够成为呃两个集合的公共要素，包括我在内的另外一个集合的公共要素，那我就是x或者y，那么z的话就是说我的所有的所有的要素都得是另外两个集合的公共要素，另外两个集合的公共要素。那我们这里要考虑到，啊不，然后呢，w i t h i n t h e n e x t s e c t i o n t h a t，我们会在下一个下一节里面看到，f o r e v e r y x a n d y t h e r e i s z s u c h t h a t x y z，我们会看到a就是说，对于每一个x和y都会存在一个z啊，满足q满足这个，下一集下一节里面就会证明啊，就会证明对于每一个x，对于任何一个y来讲，都会存在一个z，它满足这个x y z x y z啊x y z，然后f o r e v e r y x a n d y，嗯，这个东西还是蛮好证明的吧，还是蛮好证明的吧。t h e o n l y a n d，他下一集看的怎么证明啊？不管了，他这个东西算是一个集合论的一个公理啊，集合论公理，f o r e v e r y x a n d y i f，这这个我们来看一下吧，t h e r e i s z s u c h t h a t，呃，就是说如就是说，因为它这里是当且仅当呀，它如果举个例子啊，如果x和y没有公共要素，没有公共要素的话。\nknowx和y某种意义上是平等是平等的z和x和y是一类描述z是另外一类描述但是x y z在这个里面都被描述了啊都被刻画了\n是不是啊x y就是说啊他妈了个巴子的我有要素是另外一个集合的要素\n啊或者甚至说是另外两个集合的要素whatever啊是反正是它是另外也集合的要素就行了反正它的话我的要素能够成为呃两个集合\n的公共要素包括我在内的另外一个集合的公共要素那我就是x或者y那么z的话就是说我的所有的所有的要素都得是另外两个集合的公共\n要素另外两个集合的公共要素\n那我们这里要考虑到啊不然后呢within the next section that我们会在下一个下一节里面看到for every\nx and y there is z such that x y z\n我们会看到a就是说对于每一个x和y都会存在一个z啊满足q满足这个下一集下一节里面就会证明啊就会证明对于每一个x对于任何一\n个y来讲都会存在一个z它\n满足这个x y z x y\nz啊x y z然后for every x and y\n嗯这个东西还是蛮好证明的吧\n还是蛮好证明的吧the only and\n他下一集看的怎么证明啊不管了他这个东西算是一个集合论的一个公理啊集合论公理for every x and y if这这个\n我们来看一下吧there is z such that\n呃就是说如就是说因为它这里是当且仅当呀它如果举个例子啊如果x和y没有公共要素没有公共要素的话\n那么前面就不成立啊，对不对？\n它就是它并不是说一定要它有，懂吗？\n它是当且仅当，if and only\nif，就说只要它有的话，\n只要它有的话就会有z，明白吗？\n这句话的意思是说，只要y\n当且仅当y和z有公共要素，那么\n就会存在一个z啊，这个是可以证明的，你就能你就能搞一个构造一个z出来，z里面就反正都是x\ny的这个交集了。然后for every x and y,if qx yz and qx\nyz一撇，then就是说\n那个b的话，它的意思就是说交集的唯一性，两个集合如果它有交集，那个集那个交集就是只能是同一个交集，它不能得有两个交集，就这么意思啊。啊，for every x and y,there exists at most one z such that qx yz啊。\n然后conditions a and b which have to be proved whenever this type of definition is used guarantee that for every x and y,there is unique set z such that qx y啊。\n就是说a和b这两个条件，就是a保证了肯定有交，就是说要么没交集，要么有交集嘛。\n如果有交集的话，它它一定会这个交就就是a保证了如果有公共元素，那么这个公共元素可以构成一个交集，它成为一个集子，对不对？\n啊，a就保证了如果公共元素，那它就有要有交集。\nb保证了如果它有交集，那就是只有一个交集，只有同一个交集。\n啊，所以呢a和b这两个条件在一起啊，它保证了对于每一个x\ny，它有一个有一个独一无二的集子z啊，呃满足qx y z。W e c a n t h e n i n t r o d u c e a n a m e c，那么我们就可以啊给它引入一个名字，也就是说x交b啊啊x交x交y啊，a交b了，就是我们叫的啊。F o r t h i s u n i q u e s e t z啊，就来为这么一个独独特的这个z这个集合给它一个名字，就是哎x交y啊x交y。然后a n d c a l l这个字i n t e r s e c t i o n啊，就是x a n d y的i n t e r s e c t i o n o f x a n d y，好他妈长啊，你懂不懂？i n t e r s e c t i o n x i n t e r y，他妈的可不可以就这样简单念啊？简单念，或者所以的话就是q x y t h e i n t e r s e c t i o n o f x a n d y h o l d s，所以它站得住。W e r e f e r t o这个玩意儿a s a o p e r a t i o n d e f i n e d b y t h e p r o p e r t y q，这个东西怎么念啊？i n t e r s e c t i o n啊i n t e r s e c t i o n啊，就交集的。它就是这里逐层的给你定义了啊，逐层的给你定义了集合论里面的一些基本的。它现在告诉你，嗯，我讲了两个小时吧，啊，正好两个小时。\nyzWe can then introduce a name c那么我们就可以啊给它引入一个名字也就是说x交b啊啊x交x\n交y啊a交b了就是我们叫的啊For this unique set z啊就来为这么一个独独特的这个z这个集合给它一个名字\n就是哎x交y\n啊x交y然后and call这个字intersection啊就是x and y的intersection of x and\ny好他妈长啊你懂不懂intersection\nx inter y他妈的可不可以就这样简单念啊简单念或者所以的话就是qx y the intersection of x\nand y holds所以它站得住We refer to这个玩意儿as a operation defined by the\nproperty q这个东西怎么念啊intersection啊intersection啊就交集的\n它就是这里逐层的给你定义了啊逐层的给你定义了集合论里面的一些基本的它现在告诉你\n嗯我讲了两个小时吧啊正好两个小时说到到这里，它逐层给你定义了什么叫做属性啊，集合论的一些基本的、基本的一些构造啊，什么叫\n属性，什么叫表述啊，什么什么\n什么啊，这东西，understand啊。\n那我们今天就就讲到这边啊，今天就讲到这里。",
+  "quality": {
+    "is_fully_human_reviewed": null,
+    "requires_review": null,
+    "is_subtitle_export_enabled": null
+  },
+  "id": "t-301645214516012cf0c3430c",
+  "content_sha256": "3d0475b3449dd33a108acb23c5e708523dbc09c0eb2798b8b64a153f5707177a",
+  "metadata": {
+    "content_sha256": [
+      "ba5a8cfff7314fa020d4d08786614ab66df90473867846ff1d34b08c2ce3528f",
+      "07d396f676b095201df184d6d6a6c0fb53da4b02b053706b951640c59364d7d6"
+    ],
+    "transcript_id": [
+      795
+    ],
+    "video_part_id": [
+      514
+    ],
+    "source_kind": [
+      "asr-local"
+    ],
+    "model_id": [
+      1
+    ],
+    "version": [
+      1
+    ],
+    "generated_at_unix_seconds": [
+      1792048354
+    ]
+  },
+  "_legacy": {
+    "table": "transcripts",
+    "keys": [
+      "audio_ids",
+      "content_sha256",
+      "id",
+      "item_id",
+      "kind",
+      "language",
+      "metadata",
+      "method",
+      "model",
+      "quality",
+      "schema_version",
+      "segments",
+      "text",
+      "time_unit"
+    ],
+    "derived": [
+      "quality.timing_issues"
+    ],
+    "metadata_aliases": {
+      "language": "$language"
+    }
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-13bef50ee4e86bb5f79c6e08"
+    }
+  ],
+  "blocks": [
+    {
+      "start": 1040,
+      "end": 2320,
+      "range": [
+        0,
+        13
+      ]
+    },
+    {
+      "start": 2320,
+      "end": 3520,
+      "range": [
+        14,
+        22
+      ]
+    },
+    {
+      "start": 4560,
+      "end": 10320,
+      "range": [
+        23,
+        45
+      ]
+    },
+    {
+      "start": 13040,
+      "end": 16880,
+      "range": [
+        46,
+        70
+      ]
+    },
+    {
+      "start": 17520,
+      "end": 20640,
+      "range": [
+        71,
+        89
+      ]
+    },
+    {
+      "start": 21760,
+      "end": 25280,
+      "range": [
+        90,
+        106
+      ]
+    },
+    {
+      "start": 26320,
+      "end": 34000,
+      "range": [
+        107,
+        155
+      ]
+    },
+    {
+      "start": 34640,
+      "end": 40880,
+      "range": [
+        156,
+        198
+      ]
+    },
+    {
+      "start": 40880,
+      "end": 47920,
+      "range": [
+        199,
+        248
+      ]
+    },
+    {
+      "start": 48000,
+      "end": 52320,
+      "range": [
+        249,
+        268
+      ]
+    },
+    {
+      "start": 53360,
+      "end": 58400,
+      "range": [
+        269,
+        318
+      ]
+    },
+    {
+      "start": 58400,
+      "end": 67600,
+      "range": [
+        319,
+        404
+      ]
+    },
+    {
+      "start": 67760,
+      "end": 68880,
+      "range": [
+        405,
+        418
+      ]
+    },
+    {
+      "start": 69520,
+      "end": 73520,
+      "range": [
+        419,
+        446
+      ]
+    },
+    {
+      "start": 74960,
+      "end": 81600,
+      "range": [
+        447,
+        485
+      ]
+    },
+    {
+      "start": 81920,
+      "end": 84800,
+      "range": [
+        486,
+        512
+      ]
+    },
+    {
+      "start": 85280,
+      "end": 88960,
+      "range": [
+        513,
+        542
+      ]
+    },
+    {
+      "start": 89040,
+      "end": 93120,
+      "range": [
+        543,
+        578
+      ]
+    },
+    {
+      "start": 94080,
+      "end": 112080,
+      "range": [
+        579,
+        723
+      ]
+    },
+    {
+      "start": 112320,
+      "end": 115840,
+      "range": [
+        724,
+        737
+      ]
+    },
+    {
+      "start": 118240,
+      "end": 124240,
+      "range": [
+        738,
+        759
+      ]
+    },
+    {
+      "start": 126400,
+      "end": 128960,
+      "range": [
+        760,
+        778
+      ]
+    },
+    {
+      "start": 130400,
+      "end": 131440,
+      "range": [
+        779,
+        787
+      ]
+    },
+    {
+      "start": 132080,
+      "end": 145040,
+      "range": [
+        788,
+        849
+      ]
+    },
+    {
+      "start": 145040,
+      "end": 152880,
+      "range": [
+        850,
+        895
+      ]
+    },
+    {
+      "start": 155360,
+      "end": 156560,
+      "range": [
+        896,
+        905
+      ]
+    },
+    {
+      "start": 157360,
+      "end": 162720,
+      "range": [
+        906,
+        931
+      ]
+    },
+    {
+      "start": 162720,
+      "end": 166720,
+      "range": [
+        932,
+        959
+      ]
+    },
+    {
+      "start": 166720,
+      "end": 172960,
+      "range": [
+        960,
+        1009
+      ]
+    },
+    {
+      "start": 173760,
+      "end": 185408,
+      "range": [
+        1010,
+        1055
+      ]
+    },
+    {
+      "start": 185728,
+      "end": 186768,
+      "range": [
+        1056,
+        1064
+      ]
+    },
+    {
+      "start": 187328,
+      "end": 193328,
+      "range": [
+        1065,
+        1104
+      ]
+    },
+    {
+      "start": 193328,
+      "end": 196448,
+      "range": [
+        1105,
+        1117
+      ]
+    },
+    {
+      "start": 196928,
+      "end": 199408,
+      "range": [
+        1118,
+        1125
+      ]
+    },
+    {
+      "start": 200448,
+      "end": 202128,
+      "range": [
+        1126,
+        1135
+      ]
+    },
+    {
+      "start": 202128,
+      "end": 208688,
+      "range": [
+        1136,
+        1173
+      ]
+    },
+    {
+      "start": 208688,
+      "end": 218928,
+      "range": [
+        1174,
+        1233
+      ]
+    },
+    {
+      "start": 220128,
+      "end": 223168,
+      "range": [
+        1234,
+        1259
+      ]
+    },
+    {
+      "start": 223168,
+      "end": 227008,
+      "range": [
+        1260,
+        1286
+      ]
+    },
+    {
+      "start": 228048,
+      "end": 233648,
+      "range": [
+        1287,
+        1345
+      ]
+    },
+    {
+      "start": 233648,
+      "end": 247888,
+      "range": [
+        1346,
+        1406
+      ]
+    },
+    {
+      "start": 247888,
+      "end": 250528,
+      "range": [
+        1407,
+        1440
+      ]
+    },
+    {
+      "start": 250528,
+      "end": 261808,
+      "range": [
+        1441,
+        1501
+      ]
+    },
+    {
+      "start": 261808,
+      "end": 277728,
+      "range": [
+        1502,
+        1562
+      ]
+    },
+    {
+      "start": 277728,
+      "end": 294288,
+      "range": [
+        1563,
+        1656
+      ]
+    },
+    {
+      "start": 294288,
+      "end": 301248,
+      "range": [
+        1657,
+        1694
+      ]
+    },
+    {
+      "start": 302448,
+      "end": 314768,
+      "range": [
+        1695,
+        1755
+      ]
+    },
+    {
+      "start": 314848,
+      "end": 323328,
+      "range": [
+        1756,
+        1800
+      ]
+    },
+    {
+      "start": 324768,
+      "end": 329088,
+      "range": [
+        1801,
+        1847
+      ]
+    },
+    {
+      "start": 329168,
+      "end": 333248,
+      "range": [
+        1848,
+        1865
+      ]
+    },
+    {
+      "start": 334288,
+      "end": 346528,
+      "range": [
+        1866,
+        1926
+      ]
+    },
+    {
+      "start": 346528,
+      "end": 347568,
+      "range": [
+        1927,
+        1935
+      ]
+    },
+    {
+      "start": 348848,
+      "end": 359888,
+      "range": [
+        1936,
+        1995
+      ]
+    },
+    {
+      "start": 361168,
+      "end": 369906,
+      "range": [
+        1996,
+        2088
+      ]
+    },
+    {
+      "start": 370066,
+      "end": 380066,
+      "range": [
+        2089,
+        2149
+      ]
+    },
+    {
+      "start": 381666,
+      "end": 393986,
+      "range": [
+        2150,
+        2210
+      ]
+    },
+    {
+      "start": 393986,
+      "end": 395106,
+      "range": [
+        2211,
+        2220
+      ]
+    },
+    {
+      "start": 395186,
+      "end": 402626,
+      "range": [
+        2221,
+        2337
+      ]
+    },
+    {
+      "start": 403186,
+      "end": 410946,
+      "range": [
+        2338,
+        2397
+      ]
+    },
+    {
+      "start": 410946,
+      "end": 413666,
+      "range": [
+        2398,
+        2427
+      ]
+    },
+    {
+      "start": 413666,
+      "end": 430626,
+      "range": [
+        2428,
+        2547
+      ]
+    },
+    {
+      "start": 430626,
+      "end": 435426,
+      "range": [
+        2548,
+        2574
+      ]
+    },
+    {
+      "start": 435426,
+      "end": 439506,
+      "range": [
+        2575,
+        2600
+      ]
+    },
+    {
+      "start": 439986,
+      "end": 443666,
+      "range": [
+        2601,
+        2628
+      ]
+    },
+    {
+      "start": 443826,
+      "end": 448226,
+      "range": [
+        2629,
+        2669
+      ]
+    },
+    {
+      "start": 448226,
+      "end": 459106,
+      "range": [
+        2670,
+        2730
+      ]
+    },
+    {
+      "start": 459106,
+      "end": 461746,
+      "range": [
+        2731,
+        2748
+      ]
+    },
+    {
+      "start": 462386,
+      "end": 473746,
+      "range": [
+        2749,
+        2808
+      ]
+    },
+    {
+      "start": 474386,
+      "end": 484386,
+      "range": [
+        2809,
+        2860
+      ]
+    },
+    {
+      "start": 484386,
+      "end": 490386,
+      "range": [
+        2861,
+        2892
+      ]
+    },
+    {
+      "start": 491906,
+      "end": 498146,
+      "range": [
+        2893,
+        2921
+      ]
+    },
+    {
+      "start": 498706,
+      "end": 508946,
+      "range": [
+        2922,
+        2982
+      ]
+    },
+    {
+      "start": 508946,
+      "end": 517426,
+      "range": [
+        2983,
+        3071
+      ]
+    },
+    {
+      "start": 517426,
+      "end": 519506,
+      "range": [
+        3072,
+        3087
+      ]
+    },
+    {
+      "start": 519986,
+      "end": 526786,
+      "range": [
+        3088,
+        3123
+      ]
+    },
+    {
+      "start": 526786,
+      "end": 529266,
+      "range": [
+        3124,
+        3148
+      ]
+    },
+    {
+      "start": 529266,
+      "end": 530466,
+      "range": [
+        3149,
+        3159
+      ]
+    },
+    {
+      "start": 530946,
+      "end": 536706,
+      "range": [
+        3160,
+        3174
+      ]
+    },
+    {
+      "start": 537826,
+      "end": 546755,
+      "range": [
+        3175,
+        3219
+      ]
+    },
+    {
+      "start": 546995,
+      "end": 550275,
+      "range": [
+        3220,
+        3237
+      ]
+    },
+    {
+      "start": 550275,
+      "end": 557075,
+      "range": [
+        3238,
+        3274
+      ]
+    },
+    {
+      "start": 557075,
+      "end": 560035,
+      "range": [
+        3275,
+        3297
+      ]
+    },
+    {
+      "start": 560195,
+      "end": 564755,
+      "range": [
+        3298,
+        3330
+      ]
+    },
+    {
+      "start": 564995,
+      "end": 574675,
+      "range": [
+        3331,
+        3391
+      ]
+    },
+    {
+      "start": 574675,
+      "end": 577395,
+      "range": [
+        3392,
+        3411
+      ]
+    },
+    {
+      "start": 577395,
+      "end": 580915,
+      "range": [
+        3412,
+        3461
+      ]
+    },
+    {
+      "start": 581155,
+      "end": 595235,
+      "range": [
+        3462,
+        3566
+      ]
+    },
+    {
+      "start": 596915,
+      "end": 613075,
+      "range": [
+        3567,
+        3627
+      ]
+    },
+    {
+      "start": 613075,
+      "end": 619395,
+      "range": [
+        3628,
+        3693
+      ]
+    },
+    {
+      "start": 619395,
+      "end": 624275,
+      "range": [
+        3694,
+        4659
+      ]
+    },
+    {
+      "start": 624275,
+      "end": 627715,
+      "range": [
+        4660,
+        4721
+      ]
+    },
+    {
+      "start": 627715,
+      "end": 636355,
+      "range": [
+        4722,
+        4782
+      ]
+    },
+    {
+      "start": 636355,
+      "end": 648675,
+      "range": [
+        4783,
+        4843
+      ]
+    },
+    {
+      "start": 648675,
+      "end": 662195,
+      "range": [
+        4844,
+        4904
+      ]
+    },
+    {
+      "start": 662195,
+      "end": 667795,
+      "range": [
+        4905,
+        4965
+      ]
+    },
+    {
+      "start": 667795,
+      "end": 679555,
+      "range": [
+        4966,
+        5028
+      ]
+    },
+    {
+      "start": 679555,
+      "end": 684435,
+      "range": [
+        5029,
+        5090
+      ]
+    },
+    {
+      "start": 684515,
+      "end": 697315,
+      "range": [
+        5091,
+        5151
+      ]
+    },
+    {
+      "start": 697315,
+      "end": 708115,
+      "range": [
+        5152,
+        5212
+      ]
+    },
+    {
+      "start": 708115,
+      "end": 713635,
+      "range": [
+        5213,
+        5273
+      ]
+    },
+    {
+      "start": 713715,
+      "end": 717955,
+      "range": [
+        5274,
+        5334
+      ]
+    },
+    {
+      "start": 717955,
+      "end": 732033,
+      "range": [
+        5335,
+        5479
+      ]
+    },
+    {
+      "start": 732353,
+      "end": 735473,
+      "range": [
+        5480,
+        5506
+      ]
+    },
+    {
+      "start": 736593,
+      "end": 748913,
+      "range": [
+        5507,
+        5555
+      ]
+    },
+    {
+      "start": 750033,
+      "end": 765873,
+      "range": [
+        5556,
+        5687
+      ]
+    },
+    {
+      "start": 766273,
+      "end": 773873,
+      "range": [
+        5688,
+        5733
+      ]
+    },
+    {
+      "start": 774033,
+      "end": 783713,
+      "range": [
+        5734,
+        5800
+      ]
+    },
+    {
+      "start": 783793,
+      "end": 787793,
+      "range": [
+        5801,
+        5830
+      ]
+    },
+    {
+      "start": 788113,
+      "end": 793073,
+      "range": [
+        5831,
+        5866
+      ]
+    },
+    {
+      "start": 793393,
+      "end": 797553,
+      "range": [
+        5867,
+        5897
+      ]
+    },
+    {
+      "start": 798273,
+      "end": 802993,
+      "range": [
+        5898,
+        5926
+      ]
+    },
+    {
+      "start": 803073,
+      "end": 815553,
+      "range": [
+        5927,
+        5987
+      ]
+    },
+    {
+      "start": 815553,
+      "end": 827793,
+      "range": [
+        5988,
+        6048
+      ]
+    },
+    {
+      "start": 827793,
+      "end": 828993,
+      "range": [
+        6049,
+        6062
+      ]
+    },
+    {
+      "start": 830113,
+      "end": 831793,
+      "range": [
+        6063,
+        6077
+      ]
+    },
+    {
+      "start": 832113,
+      "end": 834193,
+      "range": [
+        6078,
+        6092
+      ]
+    },
+    {
+      "start": 835233,
+      "end": 838273,
+      "range": [
+        6093,
+        6111
+      ]
+    },
+    {
+      "start": 838353,
+      "end": 840913,
+      "range": [
+        6112,
+        6132
+      ]
+    },
+    {
+      "start": 840913,
+      "end": 843633,
+      "range": [
+        6133,
+        6143
+      ]
+    },
+    {
+      "start": 845313,
+      "end": 851713,
+      "range": [
+        6144,
+        6178
+      ]
+    },
+    {
+      "start": 851713,
+      "end": 853953,
+      "range": [
+        6179,
+        6193
+      ]
+    },
+    {
+      "start": 855233,
+      "end": 860513,
+      "range": [
+        6194,
+        6230
+      ]
+    },
+    {
+      "start": 860513,
+      "end": 861953,
+      "range": [
+        6231,
+        6244
+      ]
+    },
+    {
+      "start": 863233,
+      "end": 870753,
+      "range": [
+        6245,
+        6260
+      ]
+    },
+    {
+      "start": 870913,
+      "end": 877313,
+      "range": [
+        6261,
+        6324
+      ]
+    },
+    {
+      "start": 877873,
+      "end": 881473,
+      "range": [
+        6325,
+        6345
+      ]
+    },
+    {
+      "start": 881713,
+      "end": 885873,
+      "range": [
+        6346,
+        6371
+      ]
+    },
+    {
+      "start": 886193,
+      "end": 890273,
+      "range": [
+        6372,
+        6387
+      ]
+    },
+    {
+      "start": 890273,
+      "end": 893793,
+      "range": [
+        6388,
+        6407
+      ]
+    },
+    {
+      "start": 895793,
+      "end": 899953,
+      "range": [
+        6408,
+        6441
+      ]
+    },
+    {
+      "start": 899953,
+      "end": 902113,
+      "range": [
+        6442,
+        6455
+      ]
+    },
+    {
+      "start": 902464,
+      "end": 910944,
+      "range": [
+        6456,
+        6524
+      ]
+    },
+    {
+      "start": 911024,
+      "end": 916224,
+      "range": [
+        6525,
+        6539
+      ]
+    },
+    {
+      "start": 916224,
+      "end": 929024,
+      "range": [
+        6540,
+        6600
+      ]
+    },
+    {
+      "start": 929104,
+      "end": 937104,
+      "range": [
+        6601,
+        6622
+      ]
+    },
+    {
+      "start": 937184,
+      "end": 941824,
+      "range": [
+        6623,
+        6630
+      ]
+    },
+    {
+      "start": 941824,
+      "end": 944144,
+      "range": [
+        6631,
+        6646
+      ]
+    },
+    {
+      "start": 945264,
+      "end": 949264,
+      "range": [
+        6647,
+        6664
+      ]
+    },
+    {
+      "start": 951664,
+      "end": 958624,
+      "range": [
+        6665,
+        6697
+      ]
+    },
+    {
+      "start": 959664,
+      "end": 961184,
+      "range": [
+        6698,
+        6710
+      ]
+    },
+    {
+      "start": 963664,
+      "end": 969344,
+      "range": [
+        6711,
+        6736
+      ]
+    },
+    {
+      "start": 971264,
+      "end": 978944,
+      "range": [
+        6737,
+        6776
+      ]
+    },
+    {
+      "start": 980304,
+      "end": 983424,
+      "range": [
+        6777,
+        6790
+      ]
+    },
+    {
+      "start": 984464,
+      "end": 992864,
+      "range": [
+        6791,
+        6851
+      ]
+    },
+    {
+      "start": 993184,
+      "end": 997824,
+      "range": [
+        6852,
+        6921
+      ]
+    },
+    {
+      "start": 997824,
+      "end": 1005344,
+      "range": [
+        6922,
+        6959
+      ]
+    },
+    {
+      "start": 1005344,
+      "end": 1019024,
+      "range": [
+        6960,
+        7020
+      ]
+    },
+    {
+      "start": 1019024,
+      "end": 1033424,
+      "range": [
+        7021,
+        7173
+      ]
+    },
+    {
+      "start": 1034144,
+      "end": 1038784,
+      "range": [
+        7174,
+        7200
+      ]
+    },
+    {
+      "start": 1040464,
+      "end": 1054064,
+      "range": [
+        7201,
+        7326
+      ]
+    },
+    {
+      "start": 1054864,
+      "end": 1065984,
+      "range": [
+        7327,
+        7366
+      ]
+    },
+    {
+      "start": 1068864,
+      "end": 1072224,
+      "range": [
+        7367,
+        7389
+      ]
+    },
+    {
+      "start": 1073424,
+      "end": 1077584,
+      "range": [
+        7390,
+        7418
+      ]
+    },
+    {
+      "start": 1077678,
+      "end": 1082878,
+      "range": [
+        7419,
+        7459
+      ]
+    },
+    {
+      "start": 1082958,
+      "end": 1094478,
+      "range": [
+        7460,
+        7516
+      ]
+    },
+    {
+      "start": 1094798,
+      "end": 1109198,
+      "range": [
+        7517,
+        8968
+      ]
+    },
+    {
+      "start": 1109198,
+      "end": 1110238,
+      "range": [
+        8969,
+        8989
+      ]
+    },
+    {
+      "start": 1111358,
+      "end": 1116158,
+      "range": [
+        8990,
+        9050
+      ]
+    },
+    {
+      "start": 1118558,
+      "end": 1127038,
+      "range": [
+        9051,
+        9111
+      ]
+    },
+    {
+      "start": 1127038,
+      "end": 1135198,
+      "range": [
+        9112,
+        9172
+      ]
+    },
+    {
+      "start": 1135198,
+      "end": 1147038,
+      "range": [
+        9173,
+        9233
+      ]
+    },
+    {
+      "start": 1148558,
+      "end": 1158718,
+      "range": [
+        9234,
+        9285
+      ]
+    },
+    {
+      "start": 1160318,
+      "end": 1170078,
+      "range": [
+        9286,
+        9344
+      ]
+    },
+    {
+      "start": 1172318,
+      "end": 1180798,
+      "range": [
+        9345,
+        9405
+      ]
+    },
+    {
+      "start": 1180798,
+      "end": 1189838,
+      "range": [
+        9406,
+        9470
+      ]
+    },
+    {
+      "start": 1190158,
+      "end": 1199518,
+      "range": [
+        9471,
+        9536
+      ]
+    },
+    {
+      "start": 1199518,
+      "end": 1206878,
+      "range": [
+        9537,
+        9597
+      ]
+    },
+    {
+      "start": 1206958,
+      "end": 1211278,
+      "range": [
+        9598,
+        9658
+      ]
+    },
+    {
+      "start": 1211278,
+      "end": 1224398,
+      "range": [
+        9659,
+        9725
+      ]
+    },
+    {
+      "start": 1224398,
+      "end": 1228638,
+      "range": [
+        9726,
+        9788
+      ]
+    },
+    {
+      "start": 1228638,
+      "end": 1231758,
+      "range": [
+        9789,
+        9835
+      ]
+    },
+    {
+      "start": 1232798,
+      "end": 1246478,
+      "range": [
+        9836,
+        9890
+      ]
+    },
+    {
+      "start": 1248638,
+      "end": 1259208,
+      "range": [
+        9891,
+        9962
+      ]
+    },
+    {
+      "start": 1259288,
+      "end": 1268408,
+      "range": [
+        9963,
+        10023
+      ]
+    },
+    {
+      "start": 1268408,
+      "end": 1277128,
+      "range": [
+        10024,
+        10125
+      ]
+    },
+    {
+      "start": 1277288,
+      "end": 1281608,
+      "range": [
+        10126,
+        10151
+      ]
+    },
+    {
+      "start": 1283368,
+      "end": 1294248,
+      "range": [
+        10152,
+        10241
+      ]
+    },
+    {
+      "start": 1298808,
+      "end": 1300168,
+      "range": [
+        10242,
+        10250
+      ]
+    },
+    {
+      "start": 1301368,
+      "end": 1303608,
+      "range": [
+        10251,
+        10267
+      ]
+    },
+    {
+      "start": 1303688,
+      "end": 1305848,
+      "range": [
+        10268,
+        10277
+      ]
+    },
+    {
+      "start": 1307048,
+      "end": 1311848,
+      "range": [
+        10278,
+        10298
+      ]
+    },
+    {
+      "start": 1311928,
+      "end": 1326088,
+      "range": [
+        10299,
+        10359
+      ]
+    },
+    {
+      "start": 1326088,
+      "end": 1329688,
+      "range": [
+        10360,
+        10372
+      ]
+    },
+    {
+      "start": 1329688,
+      "end": 1335128,
+      "range": [
+        10373,
+        10432
+      ]
+    },
+    {
+      "start": 1335128,
+      "end": 1342008,
+      "range": [
+        10433,
+        10465
+      ]
+    },
+    {
+      "start": 1343048,
+      "end": 1344968,
+      "range": [
+        10466,
+        10483
+      ]
+    },
+    {
+      "start": 1345048,
+      "end": 1346408,
+      "range": [
+        10484,
+        10503
+      ]
+    },
+    {
+      "start": 1346408,
+      "end": 1350088,
+      "range": [
+        10504,
+        10539
+      ]
+    },
+    {
+      "start": 1350088,
+      "end": 1354168,
+      "range": [
+        10540,
+        10564
+      ]
+    },
+    {
+      "start": 1354328,
+      "end": 1363848,
+      "range": [
+        10565,
+        10632
+      ]
+    },
+    {
+      "start": 1363848,
+      "end": 1367288,
+      "range": [
+        10633,
+        10645
+      ]
+    },
+    {
+      "start": 1367288,
+      "end": 1371202,
+      "range": [
+        10646,
+        10679
+      ]
+    },
+    {
+      "start": 1371333,
+      "end": 1376088,
+      "range": [
+        10680,
+        10712
+      ]
+    },
+    {
+      "start": 1376088,
+      "end": 1383768,
+      "range": [
+        10713,
+        10782
+      ]
+    },
+    {
+      "start": 1383848,
+      "end": 1385208,
+      "range": [
+        10783,
+        10791
+      ]
+    },
+    {
+      "start": 1387608,
+      "end": 1388648,
+      "range": [
+        10792,
+        10801
+      ]
+    },
+    {
+      "start": 1391128,
+      "end": 1395608,
+      "range": [
+        10802,
+        11374
+      ]
+    },
+    {
+      "start": 1395608,
+      "end": 1399848,
+      "range": [
+        11375,
+        11435
+      ]
+    },
+    {
+      "start": 1399928,
+      "end": 1407448,
+      "range": [
+        11436,
+        11496
+      ]
+    },
+    {
+      "start": 1407448,
+      "end": 1410568,
+      "range": [
+        11497,
+        11515
+      ]
+    },
+    {
+      "start": 1411608,
+      "end": 1415368,
+      "range": [
+        11516,
+        11578
+      ]
+    },
+    {
+      "start": 1415448,
+      "end": 1422888,
+      "range": [
+        11579,
+        11641
+      ]
+    },
+    {
+      "start": 1422888,
+      "end": 1432968,
+      "range": [
+        11642,
+        11702
+      ]
+    },
+    {
+      "start": 1432968,
+      "end": 1442385,
+      "range": [
+        11703,
+        11763
+      ]
+    },
+    {
+      "start": 1442385,
+      "end": 1444705,
+      "range": [
+        11764,
+        11793
+      ]
+    },
+    {
+      "start": 1444785,
+      "end": 1453425,
+      "range": [
+        11794,
+        11877
+      ]
+    },
+    {
+      "start": 1453665,
+      "end": 1457665,
+      "range": [
+        11878,
+        11897
+      ]
+    },
+    {
+      "start": 1458145,
+      "end": 1461505,
+      "range": [
+        11898,
+        11913
+      ]
+    },
+    {
+      "start": 1462545,
+      "end": 1465665,
+      "range": [
+        11914,
+        11934
+      ]
+    },
+    {
+      "start": 1465665,
+      "end": 1469505,
+      "range": [
+        11935,
+        11956
+      ]
+    },
+    {
+      "start": 1469985,
+      "end": 1471505,
+      "range": [
+        11957,
+        13293
+      ]
+    },
+    {
+      "start": 1471505,
+      "end": 1480385,
+      "range": [
+        13294,
+        13354
+      ]
+    },
+    {
+      "start": 1480625,
+      "end": 1490225,
+      "range": [
+        13355,
+        13415
+      ]
+    },
+    {
+      "start": 1490225,
+      "end": 1499745,
+      "range": [
+        13416,
+        13478
+      ]
+    },
+    {
+      "start": 1500465,
+      "end": 1509345,
+      "range": [
+        13479,
+        13523
+      ]
+    },
+    {
+      "start": 1511585,
+      "end": 1513345,
+      "range": [
+        13524,
+        13540
+      ]
+    },
+    {
+      "start": 1515185,
+      "end": 1523105,
+      "range": [
+        13541,
+        13601
+      ]
+    },
+    {
+      "start": 1523105,
+      "end": 1528545,
+      "range": [
+        13602,
+        13664
+      ]
+    },
+    {
+      "start": 1528705,
+      "end": 1530305,
+      "range": [
+        13665,
+        13693
+      ]
+    },
+    {
+      "start": 1531345,
+      "end": 1541825,
+      "range": [
+        13694,
+        13755
+      ]
+    },
+    {
+      "start": 1541825,
+      "end": 1546705,
+      "range": [
+        13756,
+        13816
+      ]
+    },
+    {
+      "start": 1546705,
+      "end": 1561185,
+      "range": [
+        13817,
+        13877
+      ]
+    },
+    {
+      "start": 1561185,
+      "end": 1569905,
+      "range": [
+        13878,
+        13938
+      ]
+    },
+    {
+      "start": 1569905,
+      "end": 1577265,
+      "range": [
+        13939,
+        13999
+      ]
+    },
+    {
+      "start": 1577345,
+      "end": 1583425,
+      "range": [
+        14000,
+        14062
+      ]
+    },
+    {
+      "start": 1583425,
+      "end": 1593505,
+      "range": [
+        14063,
+        14099
+      ]
+    },
+    {
+      "start": 1595265,
+      "end": 1604225,
+      "range": [
+        14100,
+        14164
+      ]
+    },
+    {
+      "start": 1604225,
+      "end": 1610145,
+      "range": [
+        14165,
+        14183
+      ]
+    },
+    {
+      "start": 1611905,
+      "end": 1616305,
+      "range": [
+        14184,
+        14244
+      ]
+    },
+    {
+      "start": 1616305,
+      "end": 1624977,
+      "range": [
+        14245,
+        14300
+      ]
+    },
+    {
+      "start": 1624977,
+      "end": 1631297,
+      "range": [
+        14301,
+        14328
+      ]
+    },
+    {
+      "start": 1631297,
+      "end": 1633137,
+      "range": [
+        14329,
+        14341
+      ]
+    },
+    {
+      "start": 1633697,
+      "end": 1645137,
+      "range": [
+        14342,
+        14402
+      ]
+    },
+    {
+      "start": 1645217,
+      "end": 1655057,
+      "range": [
+        14403,
+        14444
+      ]
+    },
+    {
+      "start": 1655057,
+      "end": 1659217,
+      "range": [
+        14445,
+        14462
+      ]
+    },
+    {
+      "start": 1660497,
+      "end": 1663857,
+      "range": [
+        14463,
+        14479
+      ]
+    },
+    {
+      "start": 1664097,
+      "end": 1676257,
+      "range": [
+        14480,
+        14540
+      ]
+    },
+    {
+      "start": 1676257,
+      "end": 1689057,
+      "range": [
+        14541,
+        14601
+      ]
+    },
+    {
+      "start": 1689057,
+      "end": 1696977,
+      "range": [
+        14602,
+        14641
+      ]
+    },
+    {
+      "start": 1696977,
+      "end": 1701457,
+      "range": [
+        14642,
+        14683
+      ]
+    },
+    {
+      "start": 1701457,
+      "end": 1703377,
+      "range": [
+        14684,
+        14692
+      ]
+    },
+    {
+      "start": 1703377,
+      "end": 1713777,
+      "range": [
+        14693,
+        14753
+      ]
+    },
+    {
+      "start": 1713777,
+      "end": 1719057,
+      "range": [
+        14754,
+        14790
+      ]
+    },
+    {
+      "start": 1719297,
+      "end": 1729857,
+      "range": [
+        14791,
+        14894
+      ]
+    },
+    {
+      "start": 1729857,
+      "end": 1737217,
+      "range": [
+        14895,
+        15380
+      ]
+    },
+    {
+      "start": 1737297,
+      "end": 1747537,
+      "range": [
+        15381,
+        15441
+      ]
+    },
+    {
+      "start": 1747537,
+      "end": 1761617,
+      "range": [
+        15442,
+        15502
+      ]
+    },
+    {
+      "start": 1761617,
+      "end": 1769137,
+      "range": [
+        15503,
+        15554
+      ]
+    },
+    {
+      "start": 1770897,
+      "end": 1774497,
+      "range": [
+        15555,
+        15576
+      ]
+    },
+    {
+      "start": 1776417,
+      "end": 1784897,
+      "range": [
+        15577,
+        15637
+      ]
+    },
+    {
+      "start": 1784897,
+      "end": 1795617,
+      "range": [
+        15638,
+        15700
+      ]
+    },
+    {
+      "start": 1795697,
+      "end": 1805108,
+      "range": [
+        15701,
+        15761
+      ]
+    },
+    {
+      "start": 1805108,
+      "end": 1810148,
+      "range": [
+        15762,
+        15805
+      ]
+    },
+    {
+      "start": 1810148,
+      "end": 1821108,
+      "range": [
+        15806,
+        15925
+      ]
+    },
+    {
+      "start": 1821108,
+      "end": 1824228,
+      "range": [
+        15926,
+        15936
+      ]
+    },
+    {
+      "start": 1824308,
+      "end": 1828948,
+      "range": [
+        15937,
+        15973
+      ]
+    },
+    {
+      "start": 1831108,
+      "end": 1839428,
+      "range": [
+        15974,
+        16045
+      ]
+    },
+    {
+      "start": 1839508,
+      "end": 1846628,
+      "range": [
+        16046,
+        16087
+      ]
+    },
+    {
+      "start": 1848068,
+      "end": 1855348,
+      "range": [
+        16088,
+        16181
+      ]
+    },
+    {
+      "start": 1855348,
+      "end": 1857028,
+      "range": [
+        16182,
+        16192
+      ]
+    },
+    {
+      "start": 1857348,
+      "end": 1860788,
+      "range": [
+        16193,
+        16210
+      ]
+    },
+    {
+      "start": 1861428,
+      "end": 1871108,
+      "range": [
+        16211,
+        16271
+      ]
+    },
+    {
+      "start": 1871668,
+      "end": 1883428,
+      "range": [
+        16272,
+        16340
+      ]
+    },
+    {
+      "start": 1883508,
+      "end": 1887028,
+      "range": [
+        16341,
+        16365
+      ]
+    },
+    {
+      "start": 1887668,
+      "end": 1891428,
+      "range": [
+        16366,
+        16389
+      ]
+    },
+    {
+      "start": 1891508,
+      "end": 1900548,
+      "range": [
+        16390,
+        16450
+      ]
+    },
+    {
+      "start": 1900548,
+      "end": 1902948,
+      "range": [
+        16451,
+        16468
+      ]
+    },
+    {
+      "start": 1903508,
+      "end": 1910628,
+      "range": [
+        16469,
+        16517
+      ]
+    },
+    {
+      "start": 1910628,
+      "end": 1916948,
+      "range": [
+        16518,
+        16600
+      ]
+    },
+    {
+      "start": 1916948,
+      "end": 1927988,
+      "range": [
+        16601,
+        16661
+      ]
+    },
+    {
+      "start": 1927988,
+      "end": 1939908,
+      "range": [
+        16662,
+        16754
+      ]
+    },
+    {
+      "start": 1939988,
+      "end": 1944548,
+      "range": [
+        16755,
+        16799
+      ]
+    },
+    {
+      "start": 1944548,
+      "end": 1950868,
+      "range": [
+        16800,
+        16846
+      ]
+    },
+    {
+      "start": 1950868,
+      "end": 1953588,
+      "range": [
+        16847,
+        16876
+      ]
+    },
+    {
+      "start": 1953588,
+      "end": 1963028,
+      "range": [
+        16877,
+        16937
+      ]
+    },
+    {
+      "start": 1963028,
+      "end": 1968228,
+      "range": [
+        16938,
+        16979
+      ]
+    },
+    {
+      "start": 1968228,
+      "end": 1979428,
+      "range": [
+        16980,
+        17040
+      ]
+    },
+    {
+      "start": 1979428,
+      "end": 1981348,
+      "range": [
+        17041,
+        17059
+      ]
+    },
+    {
+      "start": 1982030,
+      "end": 1992110,
+      "range": [
+        17060,
+        17156
+      ]
+    },
+    {
+      "start": 1992110,
+      "end": 1993630,
+      "range": [
+        17157,
+        17167
+      ]
+    },
+    {
+      "start": 1994910,
+      "end": 1999790,
+      "range": [
+        17168,
+        17192
+      ]
+    },
+    {
+      "start": 1999790,
+      "end": 2010990,
+      "range": [
+        17193,
+        17347
+      ]
+    },
+    {
+      "start": 2011470,
+      "end": 2023550,
+      "range": [
+        17348,
+        17401
+      ]
+    },
+    {
+      "start": 2024910,
+      "end": 2036750,
+      "range": [
+        17402,
+        17462
+      ]
+    },
+    {
+      "start": 2036750,
+      "end": 2048830,
+      "range": [
+        17463,
+        17523
+      ]
+    },
+    {
+      "start": 2048830,
+      "end": 2060350,
+      "range": [
+        17524,
+        17596
+      ]
+    },
+    {
+      "start": 2060350,
+      "end": 2065870,
+      "range": [
+        17597,
+        17634
+      ]
+    },
+    {
+      "start": 2065870,
+      "end": 2069630,
+      "range": [
+        17635,
+        17652
+      ]
+    },
+    {
+      "start": 2070670,
+      "end": 2076830,
+      "range": [
+        17653,
+        17701
+      ]
+    },
+    {
+      "start": 2076830,
+      "end": 2086110,
+      "range": [
+        17702,
+        17805
+      ]
+    },
+    {
+      "start": 2089710,
+      "end": 2098670,
+      "range": [
+        17806,
+        17860
+      ]
+    },
+    {
+      "start": 2101230,
+      "end": 2106910,
+      "range": [
+        17861,
+        17877
+      ]
+    },
+    {
+      "start": 2108830,
+      "end": 2115310,
+      "range": [
+        17878,
+        17910
+      ]
+    },
+    {
+      "start": 2119470,
+      "end": 2129230,
+      "range": [
+        17911,
+        17971
+      ]
+    },
+    {
+      "start": 2129230,
+      "end": 2140590,
+      "range": [
+        17972,
+        18032
+      ]
+    },
+    {
+      "start": 2140590,
+      "end": 2142990,
+      "range": [
+        18033,
+        18045
+      ]
+    },
+    {
+      "start": 2143870,
+      "end": 2152990,
+      "range": [
+        18046,
+        18147
+      ]
+    },
+    {
+      "start": 2153070,
+      "end": 2162190,
+      "range": [
+        18148,
+        18203
+      ]
+    },
+    {
+      "start": 2163266,
+      "end": 2166226,
+      "range": [
+        18204,
+        18225
+      ]
+    },
+    {
+      "start": 2166306,
+      "end": 2176226,
+      "range": [
+        18226,
+        19521
+      ]
+    },
+    {
+      "start": 2176226,
+      "end": 2180466,
+      "range": [
+        19522,
+        19577
+      ]
+    },
+    {
+      "start": 2183106,
+      "end": 2192306,
+      "range": [
+        19578,
+        19638
+      ]
+    },
+    {
+      "start": 2192466,
+      "end": 2202146,
+      "range": [
+        19639,
+        19699
+      ]
+    },
+    {
+      "start": 2202146,
+      "end": 2216866,
+      "range": [
+        19700,
+        19760
+      ]
+    },
+    {
+      "start": 2217186,
+      "end": 2221746,
+      "range": [
+        19761,
+        19787
+      ]
+    },
+    {
+      "start": 2222946,
+      "end": 2227666,
+      "range": [
+        19788,
+        19821
+      ]
+    },
+    {
+      "start": 2228946,
+      "end": 2241186,
+      "range": [
+        19822,
+        19882
+      ]
+    },
+    {
+      "start": 2241186,
+      "end": 2253266,
+      "range": [
+        19883,
+        19943
+      ]
+    },
+    {
+      "start": 2253266,
+      "end": 2257266,
+      "range": [
+        19944,
+        19967
+      ]
+    },
+    {
+      "start": 2258386,
+      "end": 2261346,
+      "range": [
+        19968,
+        20008
+      ]
+    },
+    {
+      "start": 2262466,
+      "end": 2267106,
+      "range": [
+        20009,
+        20069
+      ]
+    },
+    {
+      "start": 2267106,
+      "end": 2283106,
+      "range": [
+        20070,
+        20130
+      ]
+    },
+    {
+      "start": 2283106,
+      "end": 2294546,
+      "range": [
+        20131,
+        20191
+      ]
+    },
+    {
+      "start": 2294546,
+      "end": 2302146,
+      "range": [
+        20192,
+        20227
+      ]
+    },
+    {
+      "start": 2303266,
+      "end": 2315346,
+      "range": [
+        20228,
+        20288
+      ]
+    },
+    {
+      "start": 2315346,
+      "end": 2322066,
+      "range": [
+        20289,
+        20349
+      ]
+    },
+    {
+      "start": 2322066,
+      "end": 2328306,
+      "range": [
+        20350,
+        20412
+      ]
+    },
+    {
+      "start": 2328786,
+      "end": 2338626,
+      "range": [
+        20413,
+        20473
+      ]
+    },
+    {
+      "start": 2338866,
+      "end": 2340618,
+      "range": [
+        20474,
+        20485
+      ]
+    },
+    {
+      "start": 2340698,
+      "end": 2345418,
+      "range": [
+        20486,
+        20512
+      ]
+    },
+    {
+      "start": 2348058,
+      "end": 2352778,
+      "range": [
+        20513,
+        20549
+      ]
+    },
+    {
+      "start": 2352778,
+      "end": 2359258,
+      "range": [
+        20550,
+        20606
+      ]
+    },
+    {
+      "start": 2360218,
+      "end": 2374218,
+      "range": [
+        20607,
+        20675
+      ]
+    },
+    {
+      "start": 2374218,
+      "end": 2376538,
+      "range": [
+        20676,
+        20694
+      ]
+    },
+    {
+      "start": 2376538,
+      "end": 2382138,
+      "range": [
+        20695,
+        20727
+      ]
+    },
+    {
+      "start": 2382298,
+      "end": 2387578,
+      "range": [
+        20728,
+        20752
+      ]
+    },
+    {
+      "start": 2387898,
+      "end": 2390618,
+      "range": [
+        20753,
+        20769
+      ]
+    },
+    {
+      "start": 2391818,
+      "end": 2395418,
+      "range": [
+        20770,
+        20788
+      ]
+    },
+    {
+      "start": 2399658,
+      "end": 2401178,
+      "range": [
+        20789,
+        20799
+      ]
+    },
+    {
+      "start": 2401738,
+      "end": 2405258,
+      "range": [
+        20800,
+        20819
+      ]
+    },
+    {
+      "start": 2405258,
+      "end": 2414538,
+      "range": [
+        20820,
+        20880
+      ]
+    },
+    {
+      "start": 2414538,
+      "end": 2425578,
+      "range": [
+        20881,
+        20989
+      ]
+    },
+    {
+      "start": 2426618,
+      "end": 2435258,
+      "range": [
+        20990,
+        21033
+      ]
+    },
+    {
+      "start": 2435658,
+      "end": 2444378,
+      "range": [
+        21034,
+        21076
+      ]
+    },
+    {
+      "start": 2444378,
+      "end": 2454858,
+      "range": [
+        21077,
+        21171
+      ]
+    },
+    {
+      "start": 2454858,
+      "end": 2468698,
+      "range": [
+        21172,
+        21232
+      ]
+    },
+    {
+      "start": 2468698,
+      "end": 2480698,
+      "range": [
+        21233,
+        21293
+      ]
+    },
+    {
+      "start": 2481098,
+      "end": 2486618,
+      "range": [
+        21294,
+        21327
+      ]
+    },
+    {
+      "start": 2487018,
+      "end": 2491498,
+      "range": [
+        21328,
+        21354
+      ]
+    },
+    {
+      "start": 2492538,
+      "end": 2503018,
+      "range": [
+        21355,
+        21416
+      ]
+    },
+    {
+      "start": 2503178,
+      "end": 2512858,
+      "range": [
+        21417,
+        21479
+      ]
+    },
+    {
+      "start": 2513098,
+      "end": 2517338,
+      "range": [
+        21480,
+        21521
+      ]
+    },
+    {
+      "start": 2517338,
+      "end": 2519418,
+      "range": [
+        21522,
+        21538
+      ]
+    },
+    {
+      "start": 2519418,
+      "end": 2522558,
+      "range": [
+        21539,
+        21565
+      ]
+    },
+    {
+      "start": 2522558,
+      "end": 2534638,
+      "range": [
+        21566,
+        21626
+      ]
+    },
+    {
+      "start": 2534638,
+      "end": 2555998,
+      "range": [
+        21627,
+        21851
+      ]
+    },
+    {
+      "start": 2557358,
+      "end": 2563438,
+      "range": [
+        21852,
+        21892
+      ]
+    },
+    {
+      "start": 2563518,
+      "end": 2574638,
+      "range": [
+        21893,
+        21939
+      ]
+    },
+    {
+      "start": 2574638,
+      "end": 2589758,
+      "range": [
+        21940,
+        22000
+      ]
+    },
+    {
+      "start": 2589758,
+      "end": 2599918,
+      "range": [
+        22001,
+        22068
+      ]
+    },
+    {
+      "start": 2599998,
+      "end": 2609838,
+      "range": [
+        22069,
+        22129
+      ]
+    },
+    {
+      "start": 2610318,
+      "end": 2624238,
+      "range": [
+        22130,
+        22196
+      ]
+    },
+    {
+      "start": 2624318,
+      "end": 2637198,
+      "range": [
+        22197,
+        22257
+      ]
+    },
+    {
+      "start": 2637598,
+      "end": 2648878,
+      "range": [
+        22258,
+        22323
+      ]
+    },
+    {
+      "start": 2648878,
+      "end": 2650558,
+      "range": [
+        22324,
+        22334
+      ]
+    },
+    {
+      "start": 2650558,
+      "end": 2665038,
+      "range": [
+        22335,
+        22416
+      ]
+    },
+    {
+      "start": 2665038,
+      "end": 2674798,
+      "range": [
+        22417,
+        22527
+      ]
+    },
+    {
+      "start": 2674798,
+      "end": 2677758,
+      "range": [
+        22528,
+        22544
+      ]
+    },
+    {
+      "start": 2679038,
+      "end": 2690238,
+      "range": [
+        22545,
+        22605
+      ]
+    },
+    {
+      "start": 2690238,
+      "end": 2703038,
+      "range": [
+        22606,
+        22705
+      ]
+    },
+    {
+      "start": 2703038,
+      "end": 2704638,
+      "range": [
+        22706,
+        22718
+      ]
+    },
+    {
+      "start": 2713310,
+      "end": 2717390,
+      "range": [
+        22719,
+        22742
+      ]
+    },
+    {
+      "start": 2720030,
+      "end": 2729950,
+      "range": [
+        22743,
+        22787
+      ]
+    },
+    {
+      "start": 2732670,
+      "end": 2734190,
+      "range": [
+        22788,
+        22800
+      ]
+    },
+    {
+      "start": 2734430,
+      "end": 2736430,
+      "range": [
+        22801,
+        22817
+      ]
+    },
+    {
+      "start": 2736590,
+      "end": 2738430,
+      "range": [
+        22818,
+        22833
+      ]
+    },
+    {
+      "start": 2738430,
+      "end": 2739870,
+      "range": [
+        22834,
+        22853
+      ]
+    },
+    {
+      "start": 2739870,
+      "end": 2748750,
+      "range": [
+        22854,
+        22915
+      ]
+    },
+    {
+      "start": 2753070,
+      "end": 2760830,
+      "range": [
+        22916,
+        22974
+      ]
+    },
+    {
+      "start": 2760830,
+      "end": 2763950,
+      "range": [
+        22975,
+        23005
+      ]
+    },
+    {
+      "start": 2764030,
+      "end": 2770750,
+      "range": [
+        23006,
+        23097
+      ]
+    },
+    {
+      "start": 2771790,
+      "end": 2773310,
+      "range": [
+        23098,
+        23107
+      ]
+    },
+    {
+      "start": 2774430,
+      "end": 2783230,
+      "range": [
+        23108,
+        23155
+      ]
+    },
+    {
+      "start": 2783790,
+      "end": 2795710,
+      "range": [
+        23156,
+        23217
+      ]
+    },
+    {
+      "start": 2796510,
+      "end": 2805790,
+      "range": [
+        23218,
+        23278
+      ]
+    },
+    {
+      "start": 2805790,
+      "end": 2808670,
+      "range": [
+        23279,
+        23294
+      ]
+    },
+    {
+      "start": 2808670,
+      "end": 2818350,
+      "range": [
+        23295,
+        23355
+      ]
+    },
+    {
+      "start": 2818430,
+      "end": 2822110,
+      "range": [
+        23356,
+        23377
+      ]
+    },
+    {
+      "start": 2822110,
+      "end": 2829230,
+      "range": [
+        23378,
+        23481
+      ]
+    },
+    {
+      "start": 2829310,
+      "end": 2843470,
+      "range": [
+        23482,
+        23574
+      ]
+    },
+    {
+      "start": 2844030,
+      "end": 2853310,
+      "range": [
+        23575,
+        23689
+      ]
+    },
+    {
+      "start": 2853950,
+      "end": 2855230,
+      "range": [
+        23690,
+        23696
+      ]
+    },
+    {
+      "start": 2856510,
+      "end": 2867870,
+      "range": [
+        23697,
+        23757
+      ]
+    },
+    {
+      "start": 2867870,
+      "end": 2881150,
+      "range": [
+        23758,
+        23819
+      ]
+    },
+    {
+      "start": 2881150,
+      "end": 2884238,
+      "range": [
+        23820,
+        23840
+      ]
+    },
+    {
+      "start": 2885598,
+      "end": 2893918,
+      "range": [
+        23841,
+        23902
+      ]
+    },
+    {
+      "start": 2893918,
+      "end": 2895198,
+      "range": [
+        23903,
+        23912
+      ]
+    },
+    {
+      "start": 2895678,
+      "end": 2899278,
+      "range": [
+        23913,
+        23940
+      ]
+    },
+    {
+      "start": 2900958,
+      "end": 2902638,
+      "range": [
+        23941,
+        23953
+      ]
+    },
+    {
+      "start": 2902638,
+      "end": 2912478,
+      "range": [
+        23954,
+        24014
+      ]
+    },
+    {
+      "start": 2912478,
+      "end": 2914478,
+      "range": [
+        24015,
+        24029
+      ]
+    },
+    {
+      "start": 2914638,
+      "end": 2922398,
+      "range": [
+        24030,
+        24080
+      ]
+    },
+    {
+      "start": 2922398,
+      "end": 2927758,
+      "range": [
+        24081,
+        24107
+      ]
+    },
+    {
+      "start": 2928078,
+      "end": 2939198,
+      "range": [
+        24108,
+        24171
+      ]
+    },
+    {
+      "start": 2940638,
+      "end": 2941918,
+      "range": [
+        24172,
+        24182
+      ]
+    },
+    {
+      "start": 2942798,
+      "end": 2951438,
+      "range": [
+        24183,
+        24300
+      ]
+    },
+    {
+      "start": 2952078,
+      "end": 2963678,
+      "range": [
+        24301,
+        24350
+      ]
+    },
+    {
+      "start": 2964718,
+      "end": 2976158,
+      "range": [
+        24351,
+        24411
+      ]
+    },
+    {
+      "start": 2976638,
+      "end": 2983038,
+      "range": [
+        24412,
+        24461
+      ]
+    },
+    {
+      "start": 2983038,
+      "end": 2984318,
+      "range": [
+        24462,
+        24478
+      ]
+    },
+    {
+      "start": 2984318,
+      "end": 2986958,
+      "range": [
+        24479,
+        24489
+      ]
+    },
+    {
+      "start": 2988798,
+      "end": 2997758,
+      "range": [
+        24490,
+        24538
+      ]
+    },
+    {
+      "start": 2998878,
+      "end": 3002478,
+      "range": [
+        24539,
+        24558
+      ]
+    },
+    {
+      "start": 3002878,
+      "end": 3005838,
+      "range": [
+        24559,
+        24588
+      ]
+    },
+    {
+      "start": 3006078,
+      "end": 3013678,
+      "range": [
+        24589,
+        24697
+      ]
+    },
+    {
+      "start": 3014238,
+      "end": 3032078,
+      "range": [
+        24698,
+        24757
+      ]
+    },
+    {
+      "start": 3032398,
+      "end": 3041198,
+      "range": [
+        24758,
+        24806
+      ]
+    },
+    {
+      "start": 3041678,
+      "end": 3043998,
+      "range": [
+        24807,
+        24821
+      ]
+    },
+    {
+      "start": 3044158,
+      "end": 3047198,
+      "range": [
+        24822,
+        24841
+      ]
+    },
+    {
+      "start": 3047598,
+      "end": 3053918,
+      "range": [
+        24842,
+        24884
+      ]
+    },
+    {
+      "start": 3053918,
+      "end": 3059198,
+      "range": [
+        24885,
+        24958
+      ]
+    },
+    {
+      "start": 3059678,
+      "end": 3069805,
+      "range": [
+        24959,
+        25010
+      ]
+    },
+    {
+      "start": 3070045,
+      "end": 3072925,
+      "range": [
+        25011,
+        25032
+      ]
+    },
+    {
+      "start": 3072925,
+      "end": 3077085,
+      "range": [
+        25033,
+        25059
+      ]
+    },
+    {
+      "start": 3077165,
+      "end": 3085805,
+      "range": [
+        25060,
+        25105
+      ]
+    },
+    {
+      "start": 3087085,
+      "end": 3098845,
+      "range": [
+        25106,
+        25166
+      ]
+    },
+    {
+      "start": 3098845,
+      "end": 3100605,
+      "range": [
+        25167,
+        25182
+      ]
+    },
+    {
+      "start": 3100685,
+      "end": 3109325,
+      "range": [
+        25183,
+        25283
+      ]
+    },
+    {
+      "start": 3109965,
+      "end": 3114765,
+      "range": [
+        25284,
+        25317
+      ]
+    },
+    {
+      "start": 3114765,
+      "end": 3117725,
+      "range": [
+        25318,
+        25333
+      ]
+    },
+    {
+      "start": 3117725,
+      "end": 3119325,
+      "range": [
+        25334,
+        25347
+      ]
+    },
+    {
+      "start": 3119325,
+      "end": 3120845,
+      "range": [
+        25348,
+        25358
+      ]
+    },
+    {
+      "start": 3120845,
+      "end": 3123965,
+      "range": [
+        25359,
+        25384
+      ]
+    },
+    {
+      "start": 3124765,
+      "end": 3126365,
+      "range": [
+        25385,
+        25398
+      ]
+    },
+    {
+      "start": 3127005,
+      "end": 3128685,
+      "range": [
+        25399,
+        25408
+      ]
+    },
+    {
+      "start": 3128925,
+      "end": 3137005,
+      "range": [
+        25409,
+        25454
+      ]
+    },
+    {
+      "start": 3138045,
+      "end": 3139165,
+      "range": [
+        25455,
+        25464
+      ]
+    },
+    {
+      "start": 3139165,
+      "end": 3141005,
+      "range": [
+        25465,
+        25476
+      ]
+    },
+    {
+      "start": 3141085,
+      "end": 3143485,
+      "range": [
+        25477,
+        25486
+      ]
+    },
+    {
+      "start": 3143485,
+      "end": 3149165,
+      "range": [
+        25487,
+        25522
+      ]
+    },
+    {
+      "start": 3149245,
+      "end": 3152605,
+      "range": [
+        25523,
+        25546
+      ]
+    },
+    {
+      "start": 3152765,
+      "end": 3156125,
+      "range": [
+        25547,
+        25572
+      ]
+    },
+    {
+      "start": 3158205,
+      "end": 3162045,
+      "range": [
+        25573,
+        25588
+      ]
+    },
+    {
+      "start": 3162045,
+      "end": 3174765,
+      "range": [
+        25589,
+        25729
+      ]
+    },
+    {
+      "start": 3174925,
+      "end": 3186525,
+      "range": [
+        25730,
+        25776
+      ]
+    },
+    {
+      "start": 3186525,
+      "end": 3188925,
+      "range": [
+        25777,
+        25794
+      ]
+    },
+    {
+      "start": 3188925,
+      "end": 3191725,
+      "range": [
+        25795,
+        25820
+      ]
+    },
+    {
+      "start": 3191725,
+      "end": 3193165,
+      "range": [
+        25821,
+        25830
+      ]
+    },
+    {
+      "start": 3193165,
+      "end": 3198125,
+      "range": [
+        25831,
+        25866
+      ]
+    },
+    {
+      "start": 3198925,
+      "end": 3210605,
+      "range": [
+        25867,
+        25969
+      ]
+    },
+    {
+      "start": 3214845,
+      "end": 3218685,
+      "range": [
+        25970,
+        25983
+      ]
+    },
+    {
+      "start": 3219325,
+      "end": 3231405,
+      "range": [
+        25984,
+        26039
+      ]
+    },
+    {
+      "start": 3231485,
+      "end": 3235245,
+      "range": [
+        26040,
+        26065
+      ]
+    },
+    {
+      "start": 3235405,
+      "end": 3238925,
+      "range": [
+        26066,
+        26118
+      ]
+    },
+    {
+      "start": 3238925,
+      "end": 3240285,
+      "range": [
+        26119,
+        26132
+      ]
+    },
+    {
+      "start": 3240424,
+      "end": 3245784,
+      "range": [
+        26133,
+        26183
+      ]
+    },
+    {
+      "start": 3246024,
+      "end": 3251624,
+      "range": [
+        26184,
+        26240
+      ]
+    },
+    {
+      "start": 3251944,
+      "end": 3257944,
+      "range": [
+        26241,
+        26275
+      ]
+    },
+    {
+      "start": 3258184,
+      "end": 3266664,
+      "range": [
+        26276,
+        26334
+      ]
+    },
+    {
+      "start": 3267384,
+      "end": 3270344,
+      "range": [
+        26335,
+        27629
+      ]
+    },
+    {
+      "start": 3270344,
+      "end": 3274504,
+      "range": [
+        27630,
+        27691
+      ]
+    },
+    {
+      "start": 3274504,
+      "end": 3276584,
+      "range": [
+        27692,
+        27717
+      ]
+    },
+    {
+      "start": 3277864,
+      "end": 3289704,
+      "range": [
+        27718,
+        27784
+      ]
+    },
+    {
+      "start": 3289704,
+      "end": 3295784,
+      "range": [
+        27785,
+        27845
+      ]
+    },
+    {
+      "start": 3295784,
+      "end": 3306904,
+      "range": [
+        27846,
+        27906
+      ]
+    },
+    {
+      "start": 3306904,
+      "end": 3316664,
+      "range": [
+        27907,
+        27967
+      ]
+    },
+    {
+      "start": 3316664,
+      "end": 3325384,
+      "range": [
+        27968,
+        28031
+      ]
+    },
+    {
+      "start": 3325384,
+      "end": 3330424,
+      "range": [
+        28032,
+        28059
+      ]
+    },
+    {
+      "start": 3332584,
+      "end": 3335864,
+      "range": [
+        28060,
+        28106
+      ]
+    },
+    {
+      "start": 3343784,
+      "end": 3345064,
+      "range": [
+        28107,
+        28116
+      ]
+    },
+    {
+      "start": 3348424,
+      "end": 3358184,
+      "range": [
+        28117,
+        28177
+      ]
+    },
+    {
+      "start": 3358184,
+      "end": 3365544,
+      "range": [
+        28178,
+        28239
+      ]
+    },
+    {
+      "start": 3365544,
+      "end": 3373224,
+      "range": [
+        28240,
+        28290
+      ]
+    },
+    {
+      "start": 3381064,
+      "end": 3383864,
+      "range": [
+        28291,
+        28319
+      ]
+    },
+    {
+      "start": 3384904,
+      "end": 3389544,
+      "range": [
+        28320,
+        28344
+      ]
+    },
+    {
+      "start": 3392264,
+      "end": 3398504,
+      "range": [
+        28345,
+        28375
+      ]
+    },
+    {
+      "start": 3399624,
+      "end": 3403944,
+      "range": [
+        28376,
+        28437
+      ]
+    },
+    {
+      "start": 3404344,
+      "end": 3408744,
+      "range": [
+        28438,
+        28500
+      ]
+    },
+    {
+      "start": 3408744,
+      "end": 3412744,
+      "range": [
+        28501,
+        28558
+      ]
+    },
+    {
+      "start": 3414024,
+      "end": 3423043,
+      "range": [
+        28559,
+        28619
+      ]
+    },
+    {
+      "start": 3423043,
+      "end": 3426563,
+      "range": [
+        28620,
+        28650
+      ]
+    },
+    {
+      "start": 3426963,
+      "end": 3430483,
+      "range": [
+        28651,
+        28676
+      ]
+    },
+    {
+      "start": 3432403,
+      "end": 3435923,
+      "range": [
+        28677,
+        28704
+      ]
+    },
+    {
+      "start": 3435923,
+      "end": 3440083,
+      "range": [
+        28705,
+        28769
+      ]
+    },
+    {
+      "start": 3440883,
+      "end": 3452163,
+      "range": [
+        28770,
+        28820
+      ]
+    },
+    {
+      "start": 3454323,
+      "end": 3458083,
+      "range": [
+        28821,
+        28851
+      ]
+    },
+    {
+      "start": 3458083,
+      "end": 3462243,
+      "range": [
+        28852,
+        28883
+      ]
+    },
+    {
+      "start": 3463603,
+      "end": 3473443,
+      "range": [
+        28884,
+        28966
+      ]
+    },
+    {
+      "start": 3473523,
+      "end": 3477923,
+      "range": [
+        28967,
+        29000
+      ]
+    },
+    {
+      "start": 3478163,
+      "end": 3483763,
+      "range": [
+        29001,
+        29024
+      ]
+    },
+    {
+      "start": 3483763,
+      "end": 3490323,
+      "range": [
+        29025,
+        29061
+      ]
+    },
+    {
+      "start": 3490883,
+      "end": 3493203,
+      "range": [
+        29062,
+        29089
+      ]
+    },
+    {
+      "start": 3493203,
+      "end": 3500403,
+      "range": [
+        29090,
+        29150
+      ]
+    },
+    {
+      "start": 3500403,
+      "end": 3509923,
+      "range": [
+        29151,
+        29211
+      ]
+    },
+    {
+      "start": 3509923,
+      "end": 3518483,
+      "range": [
+        29212,
+        29274
+      ]
+    },
+    {
+      "start": 3519203,
+      "end": 3522003,
+      "range": [
+        29275,
+        29297
+      ]
+    },
+    {
+      "start": 3522723,
+      "end": 3540803,
+      "range": [
+        29298,
+        29494
+      ]
+    },
+    {
+      "start": 3541363,
+      "end": 3552083,
+      "range": [
+        29495,
+        29555
+      ]
+    },
+    {
+      "start": 3552083,
+      "end": 3564563,
+      "range": [
+        29556,
+        29655
+      ]
+    },
+    {
+      "start": 3564883,
+      "end": 3573603,
+      "range": [
+        29656,
+        29698
+      ]
+    },
+    {
+      "start": 3574643,
+      "end": 3585763,
+      "range": [
+        29699,
+        29759
+      ]
+    },
+    {
+      "start": 3585843,
+      "end": 3588883,
+      "range": [
+        29760,
+        29787
+      ]
+    },
+    {
+      "start": 3590163,
+      "end": 3593363,
+      "range": [
+        29788,
+        29826
+      ]
+    },
+    {
+      "start": 3594217,
+      "end": 3596377,
+      "range": [
+        29827,
+        29849
+      ]
+    },
+    {
+      "start": 3597737,
+      "end": 3610617,
+      "range": [
+        29850,
+        29974
+      ]
+    },
+    {
+      "start": 3611017,
+      "end": 3612697,
+      "range": [
+        29975,
+        29988
+      ]
+    },
+    {
+      "start": 3612697,
+      "end": 3622457,
+      "range": [
+        29989,
+        30909
+      ]
+    },
+    {
+      "start": 3623017,
+      "end": 3628137,
+      "range": [
+        30910,
+        30970
+      ]
+    },
+    {
+      "start": 3628137,
+      "end": 3634217,
+      "range": [
+        30971,
+        31005
+      ]
+    },
+    {
+      "start": 3637257,
+      "end": 3646377,
+      "range": [
+        31006,
+        31052
+      ]
+    },
+    {
+      "start": 3651017,
+      "end": 3657017,
+      "range": [
+        31053,
+        31089
+      ]
+    },
+    {
+      "start": 3661977,
+      "end": 3664697,
+      "range": [
+        31090,
+        31109
+      ]
+    },
+    {
+      "start": 3667497,
+      "end": 3673097,
+      "range": [
+        31110,
+        31143
+      ]
+    },
+    {
+      "start": 3675737,
+      "end": 3678297,
+      "range": [
+        31144,
+        31157
+      ]
+    },
+    {
+      "start": 3680537,
+      "end": 3688777,
+      "range": [
+        31158,
+        31190
+      ]
+    },
+    {
+      "start": 3695497,
+      "end": 3707577,
+      "range": [
+        31191,
+        31251
+      ]
+    },
+    {
+      "start": 3707577,
+      "end": 3721497,
+      "range": [
+        31252,
+        31312
+      ]
+    },
+    {
+      "start": 3722057,
+      "end": 3732857,
+      "range": [
+        31313,
+        31373
+      ]
+    },
+    {
+      "start": 3732857,
+      "end": 3738697,
+      "range": [
+        31374,
+        31409
+      ]
+    },
+    {
+      "start": 3742697,
+      "end": 3748297,
+      "range": [
+        31410,
+        31456
+      ]
+    },
+    {
+      "start": 3755177,
+      "end": 3757257,
+      "range": [
+        31457,
+        31470
+      ]
+    },
+    {
+      "start": 3758297,
+      "end": 3769177,
+      "range": [
+        31471,
+        31531
+      ]
+    },
+    {
+      "start": 3769177,
+      "end": 3771657,
+      "range": [
+        31532,
+        31553
+      ]
+    },
+    {
+      "start": 3772857,
+      "end": 3780570,
+      "range": [
+        31554,
+        31594
+      ]
+    },
+    {
+      "start": 3781850,
+      "end": 3785770,
+      "range": [
+        31595,
+        31608
+      ]
+    },
+    {
+      "start": 3786890,
+      "end": 3789930,
+      "range": [
+        31609,
+        31643
+      ]
+    },
+    {
+      "start": 3789930,
+      "end": 3798970,
+      "range": [
+        31644,
+        31694
+      ]
+    },
+    {
+      "start": 3801610,
+      "end": 3802970,
+      "range": [
+        31695,
+        31702
+      ]
+    },
+    {
+      "start": 3802970,
+      "end": 3814890,
+      "range": [
+        31703,
+        31756
+      ]
+    },
+    {
+      "start": 3814890,
+      "end": 3822170,
+      "range": [
+        31757,
+        31797
+      ]
+    },
+    {
+      "start": 3822970,
+      "end": 3826810,
+      "range": [
+        31798,
+        31834
+      ]
+    },
+    {
+      "start": 3826970,
+      "end": 3835930,
+      "range": [
+        31835,
+        31919
+      ]
+    },
+    {
+      "start": 3835930,
+      "end": 3847850,
+      "range": [
+        31920,
+        31972
+      ]
+    },
+    {
+      "start": 3847850,
+      "end": 3850570,
+      "range": [
+        31973,
+        31994
+      ]
+    },
+    {
+      "start": 3850570,
+      "end": 3857610,
+      "range": [
+        31995,
+        32076
+      ]
+    },
+    {
+      "start": 3857770,
+      "end": 3870570,
+      "range": [
+        32077,
+        32137
+      ]
+    },
+    {
+      "start": 3870970,
+      "end": 3885850,
+      "range": [
+        32138,
+        32295
+      ]
+    },
+    {
+      "start": 3885850,
+      "end": 3888650,
+      "range": [
+        32296,
+        32315
+      ]
+    },
+    {
+      "start": 3889770,
+      "end": 3907850,
+      "range": [
+        32316,
+        32420
+      ]
+    },
+    {
+      "start": 3907850,
+      "end": 3912010,
+      "range": [
+        32421,
+        32444
+      ]
+    },
+    {
+      "start": 3912090,
+      "end": 3920970,
+      "range": [
+        32445,
+        32505
+      ]
+    },
+    {
+      "start": 3920970,
+      "end": 3923850,
+      "range": [
+        32506,
+        32520
+      ]
+    },
+    {
+      "start": 3923850,
+      "end": 3932330,
+      "range": [
+        32521,
+        32601
+      ]
+    },
+    {
+      "start": 3932410,
+      "end": 3944250,
+      "range": [
+        32602,
+        32663
+      ]
+    },
+    {
+      "start": 3944490,
+      "end": 3945690,
+      "range": [
+        32664,
+        32673
+      ]
+    },
+    {
+      "start": 3946170,
+      "end": 3963048,
+      "range": [
+        32674,
+        32766
+      ]
+    },
+    {
+      "start": 3963048,
+      "end": 3966008,
+      "range": [
+        32767,
+        32783
+      ]
+    },
+    {
+      "start": 3966088,
+      "end": 3979208,
+      "range": [
+        32784,
+        32928
+      ]
+    },
+    {
+      "start": 3979688,
+      "end": 3985208,
+      "range": [
+        32929,
+        32947
+      ]
+    },
+    {
+      "start": 3986568,
+      "end": 3998408,
+      "range": [
+        32948,
+        33006
+      ]
+    },
+    {
+      "start": 4000408,
+      "end": 4002008,
+      "range": [
+        33007,
+        33016
+      ]
+    },
+    {
+      "start": 4002088,
+      "end": 4005368,
+      "range": [
+        33017,
+        33034
+      ]
+    },
+    {
+      "start": 4005608,
+      "end": 4007048,
+      "range": [
+        33035,
+        33042
+      ]
+    },
+    {
+      "start": 4007048,
+      "end": 4013208,
+      "range": [
+        33043,
+        33085
+      ]
+    },
+    {
+      "start": 4013288,
+      "end": 4028408,
+      "range": [
+        33086,
+        33146
+      ]
+    },
+    {
+      "start": 4028408,
+      "end": 4033848,
+      "range": [
+        33147,
+        33177
+      ]
+    },
+    {
+      "start": 4033848,
+      "end": 4035368,
+      "range": [
+        33178,
+        33199
+      ]
+    },
+    {
+      "start": 4035608,
+      "end": 4044568,
+      "range": [
+        33200,
+        33236
+      ]
+    },
+    {
+      "start": 4044728,
+      "end": 4052888,
+      "range": [
+        33237,
+        33277
+      ]
+    },
+    {
+      "start": 4054488,
+      "end": 4057608,
+      "range": [
+        33278,
+        33295
+      ]
+    },
+    {
+      "start": 4059128,
+      "end": 4062568,
+      "range": [
+        33296,
+        33330
+      ]
+    },
+    {
+      "start": 4062648,
+      "end": 4070328,
+      "range": [
+        33331,
+        33367
+      ]
+    },
+    {
+      "start": 4070568,
+      "end": 4080808,
+      "range": [
+        33368,
+        33433
+      ]
+    },
+    {
+      "start": 4081128,
+      "end": 4090568,
+      "range": [
+        33434,
+        33473
+      ]
+    },
+    {
+      "start": 4092488,
+      "end": 4093528,
+      "range": [
+        33474,
+        33482
+      ]
+    },
+    {
+      "start": 4093688,
+      "end": 4097288,
+      "range": [
+        33483,
+        33501
+      ]
+    },
+    {
+      "start": 4097288,
+      "end": 4099208,
+      "range": [
+        33502,
+        33509
+      ]
+    },
+    {
+      "start": 4100968,
+      "end": 4103848,
+      "range": [
+        33510,
+        33521
+      ]
+    },
+    {
+      "start": 4104568,
+      "end": 4110408,
+      "range": [
+        33522,
+        33548
+      ]
+    },
+    {
+      "start": 4110408,
+      "end": 4119288,
+      "range": [
+        33549,
+        33579
+      ]
+    },
+    {
+      "start": 4119288,
+      "end": 4128168,
+      "range": [
+        33580,
+        33618
+      ]
+    },
+    {
+      "start": 4128488,
+      "end": 4132728,
+      "range": [
+        33619,
+        33641
+      ]
+    },
+    {
+      "start": 4132728,
+      "end": 4136008,
+      "range": [
+        33642,
+        33665
+      ]
+    },
+    {
+      "start": 4136592,
+      "end": 4140272,
+      "range": [
+        33666,
+        33683
+      ]
+    },
+    {
+      "start": 4140272,
+      "end": 4154432,
+      "range": [
+        33684,
+        33854
+      ]
+    },
+    {
+      "start": 4154992,
+      "end": 4167152,
+      "range": [
+        33855,
+        33905
+      ]
+    },
+    {
+      "start": 4168752,
+      "end": 4177152,
+      "range": [
+        33906,
+        33966
+      ]
+    },
+    {
+      "start": 4177232,
+      "end": 4182672,
+      "range": [
+        33967,
+        33995
+      ]
+    },
+    {
+      "start": 4184192,
+      "end": 4195472,
+      "range": [
+        33996,
+        34046
+      ]
+    },
+    {
+      "start": 4195712,
+      "end": 4201232,
+      "range": [
+        34047,
+        34081
+      ]
+    },
+    {
+      "start": 4201312,
+      "end": 4204432,
+      "range": [
+        34082,
+        34105
+      ]
+    },
+    {
+      "start": 4204432,
+      "end": 4205712,
+      "range": [
+        34106,
+        34116
+      ]
+    },
+    {
+      "start": 4205712,
+      "end": 4219232,
+      "range": [
+        34117,
+        34213
+      ]
+    },
+    {
+      "start": 4219312,
+      "end": 4221952,
+      "range": [
+        34214,
+        34242
+      ]
+    },
+    {
+      "start": 4222192,
+      "end": 4227472,
+      "range": [
+        34243,
+        34274
+      ]
+    },
+    {
+      "start": 4228992,
+      "end": 4233232,
+      "range": [
+        34275,
+        34317
+      ]
+    },
+    {
+      "start": 4233232,
+      "end": 4257072,
+      "range": [
+        34318,
+        34533
+      ]
+    },
+    {
+      "start": 4257232,
+      "end": 4263152,
+      "range": [
+        34534,
+        34574
+      ]
+    },
+    {
+      "start": 4263152,
+      "end": 4270752,
+      "range": [
+        34575,
+        34621
+      ]
+    },
+    {
+      "start": 4270752,
+      "end": 4272672,
+      "range": [
+        34622,
+        34634
+      ]
+    },
+    {
+      "start": 4273152,
+      "end": 4278672,
+      "range": [
+        34635,
+        34669
+      ]
+    },
+    {
+      "start": 4278672,
+      "end": 4290672,
+      "range": [
+        34670,
+        34737
+      ]
+    },
+    {
+      "start": 4291152,
+      "end": 4297232,
+      "range": [
+        34738,
+        34768
+      ]
+    },
+    {
+      "start": 4297312,
+      "end": 4303872,
+      "range": [
+        34769,
+        34801
+      ]
+    },
+    {
+      "start": 4303872,
+      "end": 4312512,
+      "range": [
+        34802,
+        34853
+      ]
+    },
+    {
+      "start": 4312512,
+      "end": 4316450,
+      "range": [
+        34854,
+        34887
+      ]
+    },
+    {
+      "start": 4316450,
+      "end": 4321490,
+      "range": [
+        34888,
+        34920
+      ]
+    },
+    {
+      "start": 4321730,
+      "end": 4327250,
+      "range": [
+        34921,
+        34997
+      ]
+    },
+    {
+      "start": 4327330,
+      "end": 4329010,
+      "range": [
+        34998,
+        35015
+      ]
+    },
+    {
+      "start": 4329010,
+      "end": 4332130,
+      "range": [
+        35016,
+        35031
+      ]
+    },
+    {
+      "start": 4332930,
+      "end": 4346290,
+      "range": [
+        35032,
+        35111
+      ]
+    },
+    {
+      "start": 4346290,
+      "end": 4352530,
+      "range": [
+        35112,
+        35160
+      ]
+    },
+    {
+      "start": 4352530,
+      "end": 4358370,
+      "range": [
+        35161,
+        35195
+      ]
+    },
+    {
+      "start": 4358450,
+      "end": 4363650,
+      "range": [
+        35196,
+        35242
+      ]
+    },
+    {
+      "start": 4364370,
+      "end": 4368210,
+      "range": [
+        35243,
+        35256
+      ]
+    },
+    {
+      "start": 4368290,
+      "end": 4370210,
+      "range": [
+        35257,
+        35266
+      ]
+    },
+    {
+      "start": 4371970,
+      "end": 4377810,
+      "range": [
+        35267,
+        35307
+      ]
+    },
+    {
+      "start": 4379730,
+      "end": 4381410,
+      "range": [
+        35308,
+        35319
+      ]
+    },
+    {
+      "start": 4382530,
+      "end": 4384690,
+      "range": [
+        35320,
+        35330
+      ]
+    },
+    {
+      "start": 4384690,
+      "end": 4393010,
+      "range": [
+        35331,
+        35370
+      ]
+    },
+    {
+      "start": 4394210,
+      "end": 4396370,
+      "range": [
+        35371,
+        35387
+      ]
+    },
+    {
+      "start": 4396850,
+      "end": 4406930,
+      "range": [
+        35388,
+        35447
+      ]
+    },
+    {
+      "start": 4408770,
+      "end": 4413810,
+      "range": [
+        35448,
+        36178
+      ]
+    },
+    {
+      "start": 4413810,
+      "end": 4421410,
+      "range": [
+        36179,
+        36243
+      ]
+    },
+    {
+      "start": 4421490,
+      "end": 4427090,
+      "range": [
+        36244,
+        36271
+      ]
+    },
+    {
+      "start": 4429330,
+      "end": 4435570,
+      "range": [
+        36272,
+        36333
+      ]
+    },
+    {
+      "start": 4435650,
+      "end": 4442850,
+      "range": [
+        36334,
+        36394
+      ]
+    },
+    {
+      "start": 4443570,
+      "end": 4457490,
+      "range": [
+        36395,
+        36460
+      ]
+    },
+    {
+      "start": 4457570,
+      "end": 4462850,
+      "range": [
+        36461,
+        36529
+      ]
+    },
+    {
+      "start": 4463250,
+      "end": 4465090,
+      "range": [
+        36530,
+        36543
+      ]
+    },
+    {
+      "start": 4466210,
+      "end": 4470290,
+      "range": [
+        36544,
+        36566
+      ]
+    },
+    {
+      "start": 4471570,
+      "end": 4481730,
+      "range": [
+        36567,
+        36627
+      ]
+    },
+    {
+      "start": 4481730,
+      "end": 4486130,
+      "range": [
+        36628,
+        36665
+      ]
+    },
+    {
+      "start": 4488370,
+      "end": 4496142,
+      "range": [
+        36666,
+        36726
+      ]
+    },
+    {
+      "start": 4496142,
+      "end": 4497502,
+      "range": [
+        36727,
+        36736
+      ]
+    },
+    {
+      "start": 4498782,
+      "end": 4501742,
+      "range": [
+        36737,
+        36762
+      ]
+    },
+    {
+      "start": 4501742,
+      "end": 4503262,
+      "range": [
+        36763,
+        36777
+      ]
+    },
+    {
+      "start": 4504542,
+      "end": 4509022,
+      "range": [
+        36778,
+        36804
+      ]
+    },
+    {
+      "start": 4510542,
+      "end": 4516142,
+      "range": [
+        36805,
+        36850
+      ]
+    },
+    {
+      "start": 4517822,
+      "end": 4527742,
+      "range": [
+        36851,
+        36911
+      ]
+    },
+    {
+      "start": 4527742,
+      "end": 4537022,
+      "range": [
+        36912,
+        38380
+      ]
+    },
+    {
+      "start": 4537022,
+      "end": 4548302,
+      "range": [
+        38381,
+        38448
+      ]
+    },
+    {
+      "start": 4548302,
+      "end": 4559022,
+      "range": [
+        38449,
+        38509
+      ]
+    },
+    {
+      "start": 4559022,
+      "end": 4571902,
+      "range": [
+        38510,
+        38569
+      ]
+    },
+    {
+      "start": 4573022,
+      "end": 4578622,
+      "range": [
+        38570,
+        38636
+      ]
+    },
+    {
+      "start": 4578782,
+      "end": 4589262,
+      "range": [
+        38637,
+        38697
+      ]
+    },
+    {
+      "start": 4589262,
+      "end": 4598302,
+      "range": [
+        38698,
+        38758
+      ]
+    },
+    {
+      "start": 4598302,
+      "end": 4602622,
+      "range": [
+        38759,
+        38821
+      ]
+    },
+    {
+      "start": 4602622,
+      "end": 4609182,
+      "range": [
+        38822,
+        38882
+      ]
+    },
+    {
+      "start": 4609182,
+      "end": 4622622,
+      "range": [
+        38883,
+        38944
+      ]
+    },
+    {
+      "start": 4622702,
+      "end": 4626542,
+      "range": [
+        38945,
+        39005
+      ]
+    },
+    {
+      "start": 4626702,
+      "end": 4634782,
+      "range": [
+        39006,
+        39066
+      ]
+    },
+    {
+      "start": 4634782,
+      "end": 4648382,
+      "range": [
+        39067,
+        39127
+      ]
+    },
+    {
+      "start": 4648382,
+      "end": 4653022,
+      "range": [
+        39128,
+        39197
+      ]
+    },
+    {
+      "start": 4653102,
+      "end": 4659422,
+      "range": [
+        39198,
+        39259
+      ]
+    },
+    {
+      "start": 4659422,
+      "end": 4668782,
+      "range": [
+        39260,
+        39323
+      ]
+    },
+    {
+      "start": 4668782,
+      "end": 4680359,
+      "range": [
+        39324,
+        39383
+      ]
+    },
+    {
+      "start": 4680359,
+      "end": 4688279,
+      "range": [
+        39384,
+        39465
+      ]
+    },
+    {
+      "start": 4688359,
+      "end": 4697799,
+      "range": [
+        39466,
+        39536
+      ]
+    },
+    {
+      "start": 4698039,
+      "end": 4701719,
+      "range": [
+        39537,
+        39557
+      ]
+    },
+    {
+      "start": 4702519,
+      "end": 4705559,
+      "range": [
+        39558,
+        39795
+      ]
+    },
+    {
+      "start": 4705559,
+      "end": 4708679,
+      "range": [
+        39796,
+        40634
+      ]
+    },
+    {
+      "start": 4708759,
+      "end": 4716999,
+      "range": [
+        40635,
+        40654
+      ]
+    },
+    {
+      "start": 4718039,
+      "end": 4730919,
+      "range": [
+        40655,
+        40715
+      ]
+    },
+    {
+      "start": 4730919,
+      "end": 4736439,
+      "range": [
+        40716,
+        40781
+      ]
+    },
+    {
+      "start": 4736439,
+      "end": 4750679,
+      "range": [
+        40782,
+        40842
+      ]
+    },
+    {
+      "start": 4750679,
+      "end": 4752919,
+      "range": [
+        40843,
+        40858
+      ]
+    },
+    {
+      "start": 4756599,
+      "end": 4758359,
+      "range": [
+        40859,
+        40866
+      ]
+    },
+    {
+      "start": 4759639,
+      "end": 4766839,
+      "range": [
+        40867,
+        40927
+      ]
+    },
+    {
+      "start": 4766839,
+      "end": 4776679,
+      "range": [
+        40928,
+        40988
+      ]
+    },
+    {
+      "start": 4776679,
+      "end": 4784839,
+      "range": [
+        40989,
+        41049
+      ]
+    },
+    {
+      "start": 4784839,
+      "end": 4792759,
+      "range": [
+        41050,
+        41115
+      ]
+    },
+    {
+      "start": 4792919,
+      "end": 4796999,
+      "range": [
+        41116,
+        41147
+      ]
+    },
+    {
+      "start": 4799479,
+      "end": 4806359,
+      "range": [
+        41148,
+        41184
+      ]
+    },
+    {
+      "start": 4808039,
+      "end": 4820039,
+      "range": [
+        41185,
+        41245
+      ]
+    },
+    {
+      "start": 4820039,
+      "end": 4828679,
+      "range": [
+        41246,
+        41307
+      ]
+    },
+    {
+      "start": 4828679,
+      "end": 4837159,
+      "range": [
+        41308,
+        41368
+      ]
+    },
+    {
+      "start": 4837319,
+      "end": 4846839,
+      "range": [
+        41369,
+        41429
+      ]
+    },
+    {
+      "start": 4846839,
+      "end": 4856839,
+      "range": [
+        41430,
+        41490
+      ]
+    },
+    {
+      "start": 4856839,
+      "end": 4860010,
+      "range": [
+        41491,
+        41510
+      ]
+    },
+    {
+      "start": 4860010,
+      "end": 4871210,
+      "range": [
+        41511,
+        41606
+      ]
+    },
+    {
+      "start": 4871210,
+      "end": 4875690,
+      "range": [
+        41607,
+        41620
+      ]
+    },
+    {
+      "start": 4876730,
+      "end": 4884730,
+      "range": [
+        41621,
+        41657
+      ]
+    },
+    {
+      "start": 4884730,
+      "end": 4886890,
+      "range": [
+        41658,
+        41673
+      ]
+    },
+    {
+      "start": 4887690,
+      "end": 4888970,
+      "range": [
+        41674,
+        41683
+      ]
+    },
+    {
+      "start": 4890410,
+      "end": 4891450,
+      "range": [
+        41684,
+        41692
+      ]
+    },
+    {
+      "start": 4894250,
+      "end": 4901130,
+      "range": [
+        41693,
+        41741
+      ]
+    },
+    {
+      "start": 4901530,
+      "end": 4910410,
+      "range": [
+        41742,
+        41776
+      ]
+    },
+    {
+      "start": 4911530,
+      "end": 4916250,
+      "range": [
+        41777,
+        42647
+      ]
+    },
+    {
+      "start": 4916250,
+      "end": 4928890,
+      "range": [
+        42648,
+        42708
+      ]
+    },
+    {
+      "start": 4928890,
+      "end": 4941370,
+      "range": [
+        42709,
+        42770
+      ]
+    },
+    {
+      "start": 4941370,
+      "end": 4947370,
+      "range": [
+        42771,
+        42830
+      ]
+    },
+    {
+      "start": 4949530,
+      "end": 4956490,
+      "range": [
+        42831,
+        42861
+      ]
+    },
+    {
+      "start": 4957770,
+      "end": 4963450,
+      "range": [
+        42862,
+        42880
+      ]
+    },
+    {
+      "start": 4966170,
+      "end": 4973930,
+      "range": [
+        42881,
+        42910
+      ]
+    },
+    {
+      "start": 4976650,
+      "end": 4980570,
+      "range": [
+        42911,
+        42972
+      ]
+    },
+    {
+      "start": 4980570,
+      "end": 4984490,
+      "range": [
+        42973,
+        43040
+      ]
+    },
+    {
+      "start": 4984490,
+      "end": 4994650,
+      "range": [
+        43041,
+        43101
+      ]
+    },
+    {
+      "start": 4994650,
+      "end": 5003530,
+      "range": [
+        43102,
+        43143
+      ]
+    },
+    {
+      "start": 5005450,
+      "end": 5013610,
+      "range": [
+        43144,
+        43195
+      ]
+    },
+    {
+      "start": 5015130,
+      "end": 5017530,
+      "range": [
+        43196,
+        43208
+      ]
+    },
+    {
+      "start": 5019130,
+      "end": 5021210,
+      "range": [
+        43209,
+        43222
+      ]
+    },
+    {
+      "start": 5022250,
+      "end": 5026490,
+      "range": [
+        43223,
+        43250
+      ]
+    },
+    {
+      "start": 5028010,
+      "end": 5035770,
+      "range": [
+        43251,
+        43296
+      ]
+    },
+    {
+      "start": 5037530,
+      "end": 5042970,
+      "range": [
+        43297,
+        43325
+      ]
+    },
+    {
+      "start": 5044156,
+      "end": 5047916,
+      "range": [
+        43326,
+        43349
+      ]
+    },
+    {
+      "start": 5048156,
+      "end": 5054156,
+      "range": [
+        43350,
+        44197
+      ]
+    },
+    {
+      "start": 5054156,
+      "end": 5065916,
+      "range": [
+        44198,
+        44244
+      ]
+    },
+    {
+      "start": 5066956,
+      "end": 5078716,
+      "range": [
+        44245,
+        44305
+      ]
+    },
+    {
+      "start": 5079756,
+      "end": 5097916,
+      "range": [
+        44306,
+        44366
+      ]
+    },
+    {
+      "start": 5098636,
+      "end": 5110316,
+      "range": [
+        44367,
+        44427
+      ]
+    },
+    {
+      "start": 5110316,
+      "end": 5120796,
+      "range": [
+        44428,
+        44488
+      ]
+    },
+    {
+      "start": 5120876,
+      "end": 5133676,
+      "range": [
+        44489,
+        44549
+      ]
+    },
+    {
+      "start": 5133676,
+      "end": 5137516,
+      "range": [
+        44550,
+        44571
+      ]
+    },
+    {
+      "start": 5138956,
+      "end": 5145996,
+      "range": [
+        44572,
+        44607
+      ]
+    },
+    {
+      "start": 5149036,
+      "end": 5159436,
+      "range": [
+        44608,
+        44661
+      ]
+    },
+    {
+      "start": 5160876,
+      "end": 5170636,
+      "range": [
+        44662,
+        44722
+      ]
+    },
+    {
+      "start": 5170636,
+      "end": 5179836,
+      "range": [
+        44723,
+        44766
+      ]
+    },
+    {
+      "start": 5180956,
+      "end": 5193196,
+      "range": [
+        44767,
+        44827
+      ]
+    },
+    {
+      "start": 5193196,
+      "end": 5207516,
+      "range": [
+        44828,
+        44888
+      ]
+    },
+    {
+      "start": 5207676,
+      "end": 5218156,
+      "range": [
+        44889,
+        44943
+      ]
+    },
+    {
+      "start": 5219356,
+      "end": 5222295,
+      "range": [
+        44944,
+        44966
+      ]
+    },
+    {
+      "start": 5223175,
+      "end": 5226055,
+      "range": [
+        44967,
+        44982
+      ]
+    },
+    {
+      "start": 5226055,
+      "end": 5231895,
+      "range": [
+        44983,
+        45017
+      ]
+    },
+    {
+      "start": 5232295,
+      "end": 5235895,
+      "range": [
+        45018,
+        45041
+      ]
+    },
+    {
+      "start": 5236295,
+      "end": 5245095,
+      "range": [
+        45042,
+        45089
+      ]
+    },
+    {
+      "start": 5247495,
+      "end": 5249255,
+      "range": [
+        45090,
+        45106
+      ]
+    },
+    {
+      "start": 5250535,
+      "end": 5262615,
+      "range": [
+        45107,
+        45198
+      ]
+    },
+    {
+      "start": 5262615,
+      "end": 5278855,
+      "range": [
+        45199,
+        45342
+      ]
+    },
+    {
+      "start": 5278855,
+      "end": 5285415,
+      "range": [
+        45343,
+        45386
+      ]
+    },
+    {
+      "start": 5287495,
+      "end": 5292295,
+      "range": [
+        45387,
+        45440
+      ]
+    },
+    {
+      "start": 5292295,
+      "end": 5295895,
+      "range": [
+        45441,
+        45479
+      ]
+    },
+    {
+      "start": 5295895,
+      "end": 5297495,
+      "range": [
+        45480,
+        45496
+      ]
+    },
+    {
+      "start": 5297495,
+      "end": 5304455,
+      "range": [
+        45497,
+        45587
+      ]
+    },
+    {
+      "start": 5305015,
+      "end": 5309655,
+      "range": [
+        45588,
+        45619
+      ]
+    },
+    {
+      "start": 5309655,
+      "end": 5321415,
+      "range": [
+        45620,
+        45680
+      ]
+    },
+    {
+      "start": 5321815,
+      "end": 5329735,
+      "range": [
+        45681,
+        45735
+      ]
+    },
+    {
+      "start": 5329735,
+      "end": 5334375,
+      "range": [
+        45736,
+        45772
+      ]
+    },
+    {
+      "start": 5335255,
+      "end": 5338135,
+      "range": [
+        45773,
+        45814
+      ]
+    },
+    {
+      "start": 5338215,
+      "end": 5341815,
+      "range": [
+        45815,
+        45864
+      ]
+    },
+    {
+      "start": 5341815,
+      "end": 5348215,
+      "range": [
+        45865,
+        45957
+      ]
+    },
+    {
+      "start": 5348615,
+      "end": 5366295,
+      "range": [
+        45958,
+        46018
+      ]
+    },
+    {
+      "start": 5366295,
+      "end": 5377335,
+      "range": [
+        46019,
+        46076
+      ]
+    },
+    {
+      "start": 5377415,
+      "end": 5387015,
+      "range": [
+        46077,
+        46137
+      ]
+    },
+    {
+      "start": 5387015,
+      "end": 5399895,
+      "range": [
+        46138,
+        46198
+      ]
+    },
+    {
+      "start": 5399895,
+      "end": 5404737,
+      "range": [
+        46199,
+        46237
+      ]
+    },
+    {
+      "start": 5404737,
+      "end": 5409937,
+      "range": [
+        46238,
+        46276
+      ]
+    },
+    {
+      "start": 5409937,
+      "end": 5413697,
+      "range": [
+        46277,
+        46298
+      ]
+    },
+    {
+      "start": 5415617,
+      "end": 5417617,
+      "range": [
+        46299,
+        47444
+      ]
+    },
+    {
+      "start": 5418097,
+      "end": 5421137,
+      "range": [
+        47445,
+        47460
+      ]
+    },
+    {
+      "start": 5422497,
+      "end": 5423617,
+      "range": [
+        47461,
+        47473
+      ]
+    },
+    {
+      "start": 5424657,
+      "end": 5425697,
+      "range": [
+        47474,
+        47482
+      ]
+    },
+    {
+      "start": 5427377,
+      "end": 5434577,
+      "range": [
+        47483,
+        47545
+      ]
+    },
+    {
+      "start": 5434577,
+      "end": 5441777,
+      "range": [
+        47546,
+        47604
+      ]
+    },
+    {
+      "start": 5442897,
+      "end": 5460017,
+      "range": [
+        47605,
+        47665
+      ]
+    },
+    {
+      "start": 5460017,
+      "end": 5467617,
+      "range": [
+        47666,
+        47726
+      ]
+    },
+    {
+      "start": 5467617,
+      "end": 5482657,
+      "range": [
+        47727,
+        47787
+      ]
+    },
+    {
+      "start": 5482657,
+      "end": 5489297,
+      "range": [
+        47788,
+        47848
+      ]
+    },
+    {
+      "start": 5489377,
+      "end": 5494577,
+      "range": [
+        47849,
+        47884
+      ]
+    },
+    {
+      "start": 5497377,
+      "end": 5499137,
+      "range": [
+        47885,
+        47894
+      ]
+    },
+    {
+      "start": 5500257,
+      "end": 5509457,
+      "range": [
+        47895,
+        47952
+      ]
+    },
+    {
+      "start": 5510817,
+      "end": 5524337,
+      "range": [
+        47953,
+        48013
+      ]
+    },
+    {
+      "start": 5524337,
+      "end": 5531537,
+      "range": [
+        48014,
+        48052
+      ]
+    },
+    {
+      "start": 5533137,
+      "end": 5535137,
+      "range": [
+        48053,
+        48065
+      ]
+    },
+    {
+      "start": 5536737,
+      "end": 5544017,
+      "range": [
+        48066,
+        48126
+      ]
+    },
+    {
+      "start": 5544017,
+      "end": 5547137,
+      "range": [
+        48127,
+        48150
+      ]
+    },
+    {
+      "start": 5548257,
+      "end": 5552497,
+      "range": [
+        48151,
+        48166
+      ]
+    },
+    {
+      "start": 5556097,
+      "end": 5558577,
+      "range": [
+        48167,
+        48216
+      ]
+    },
+    {
+      "start": 5564097,
+      "end": 5565617,
+      "range": [
+        48217,
+        48223
+      ]
+    },
+    {
+      "start": 5567377,
+      "end": 5573857,
+      "range": [
+        48224,
+        48262
+      ]
+    },
+    {
+      "start": 5575777,
+      "end": 5582737,
+      "range": [
+        48263,
+        48306
+      ]
+    },
+    {
+      "start": 5585617,
+      "end": 5587217,
+      "range": [
+        48307,
+        48323
+      ]
+    },
+    {
+      "start": 5591911,
+      "end": 5595831,
+      "range": [
+        48324,
+        48339
+      ]
+    },
+    {
+      "start": 5595911,
+      "end": 5600071,
+      "range": [
+        48340,
+        48362
+      ]
+    },
+    {
+      "start": 5600791,
+      "end": 5607511,
+      "range": [
+        48363,
+        48390
+      ]
+    },
+    {
+      "start": 5607671,
+      "end": 5612071,
+      "range": [
+        48391,
+        48424
+      ]
+    },
+    {
+      "start": 5613191,
+      "end": 5618311,
+      "range": [
+        48425,
+        48455
+      ]
+    },
+    {
+      "start": 5618311,
+      "end": 5622471,
+      "range": [
+        48456,
+        48463
+      ]
+    },
+    {
+      "start": 5624151,
+      "end": 5662151,
+      "range": [
+        48464,
+        48647
+      ]
+    },
+    {
+      "start": 5662631,
+      "end": 5665911,
+      "range": [
+        48648,
+        48664
+      ]
+    },
+    {
+      "start": 5666951,
+      "end": 5682151,
+      "range": [
+        48665,
+        48785
+      ]
+    },
+    {
+      "start": 5683031,
+      "end": 5685111,
+      "range": [
+        48786,
+        48794
+      ]
+    },
+    {
+      "start": 5686551,
+      "end": 5712471,
+      "range": [
+        48795,
+        48870
+      ]
+    },
+    {
+      "start": 5714791,
+      "end": 5725671,
+      "range": [
+        48871,
+        48942
+      ]
+    },
+    {
+      "start": 5729511,
+      "end": 5732951,
+      "range": [
+        48943,
+        48962
+      ]
+    },
+    {
+      "start": 5732951,
+      "end": 5735111,
+      "range": [
+        48963,
+        48977
+      ]
+    },
+    {
+      "start": 5738631,
+      "end": 5741591,
+      "range": [
+        48978,
+        49001
+      ]
+    },
+    {
+      "start": 5741591,
+      "end": 5745351,
+      "range": [
+        49002,
+        49023
+      ]
+    },
+    {
+      "start": 5745351,
+      "end": 5749351,
+      "range": [
+        49024,
+        49051
+      ]
+    },
+    {
+      "start": 5749351,
+      "end": 5756871,
+      "range": [
+        49052,
+        49071
+      ]
+    },
+    {
+      "start": 5756871,
+      "end": 5766079,
+      "range": [
+        49072,
+        49153
+      ]
+    },
+    {
+      "start": 5766079,
+      "end": 5770479,
+      "range": [
+        49154,
+        49173
+      ]
+    },
+    {
+      "start": 5770479,
+      "end": 5774479,
+      "range": [
+        49174,
+        49184
+      ]
+    },
+    {
+      "start": 5774479,
+      "end": 5776639,
+      "range": [
+        49185,
+        49198
+      ]
+    },
+    {
+      "start": 5776959,
+      "end": 5780319,
+      "range": [
+        49199,
+        49212
+      ]
+    },
+    {
+      "start": 5782079,
+      "end": 5783999,
+      "range": [
+        49213,
+        49224
+      ]
+    },
+    {
+      "start": 5785119,
+      "end": 5794159,
+      "range": [
+        49225,
+        49262
+      ]
+    },
+    {
+      "start": 5794879,
+      "end": 5801279,
+      "range": [
+        49263,
+        49287
+      ]
+    },
+    {
+      "start": 5801279,
+      "end": 5803119,
+      "range": [
+        49288,
+        49308
+      ]
+    },
+    {
+      "start": 5803119,
+      "end": 5806079,
+      "range": [
+        49309,
+        49327
+      ]
+    },
+    {
+      "start": 5811919,
+      "end": 5817519,
+      "range": [
+        49328,
+        49363
+      ]
+    },
+    {
+      "start": 5818079,
+      "end": 5821039,
+      "range": [
+        49364,
+        49384
+      ]
+    },
+    {
+      "start": 5824959,
+      "end": 5829679,
+      "range": [
+        49385,
+        49418
+      ]
+    },
+    {
+      "start": 5829679,
+      "end": 5837439,
+      "range": [
+        49419,
+        49459
+      ]
+    },
+    {
+      "start": 5837519,
+      "end": 5845439,
+      "range": [
+        49460,
+        49511
+      ]
+    },
+    {
+      "start": 5847279,
+      "end": 5853039,
+      "range": [
+        49512,
+        49534
+      ]
+    },
+    {
+      "start": 5853039,
+      "end": 5856479,
+      "range": [
+        49535,
+        49579
+      ]
+    },
+    {
+      "start": 5856479,
+      "end": 5866959,
+      "range": [
+        49580,
+        49622
+      ]
+    },
+    {
+      "start": 5867039,
+      "end": 5872799,
+      "range": [
+        49623,
+        49650
+      ]
+    },
+    {
+      "start": 5873679,
+      "end": 5879999,
+      "range": [
+        49651,
+        49679
+      ]
+    },
+    {
+      "start": 5880159,
+      "end": 5884559,
+      "range": [
+        49680,
+        49706
+      ]
+    },
+    {
+      "start": 5884639,
+      "end": 5891679,
+      "range": [
+        49707,
+        49752
+      ]
+    },
+    {
+      "start": 5891679,
+      "end": 5894959,
+      "range": [
+        49753,
+        49778
+      ]
+    },
+    {
+      "start": 5895279,
+      "end": 5897119,
+      "range": [
+        49779,
+        49792
+      ]
+    },
+    {
+      "start": 5898559,
+      "end": 5907679,
+      "range": [
+        49793,
+        49830
+      ]
+    },
+    {
+      "start": 5909359,
+      "end": 5914399,
+      "range": [
+        49831,
+        49860
+      ]
+    },
+    {
+      "start": 5914399,
+      "end": 5915839,
+      "range": [
+        49861,
+        49869
+      ]
+    },
+    {
+      "start": 5916079,
+      "end": 5917359,
+      "range": [
+        49870,
+        49878
+      ]
+    },
+    {
+      "start": 5921439,
+      "end": 5922879,
+      "range": [
+        49879,
+        49892
+      ]
+    },
+    {
+      "start": 5933359,
+      "end": 5935439,
+      "range": [
+        49893,
+        49911
+      ]
+    },
+    {
+      "start": 5935519,
+      "end": 5940239,
+      "range": [
+        49912,
+        49939
+      ]
+    },
+    {
+      "start": 5942494,
+      "end": 5946654,
+      "range": [
+        49940,
+        49996
+      ]
+    },
+    {
+      "start": 5946894,
+      "end": 5949534,
+      "range": [
+        49997,
+        50006
+      ]
+    },
+    {
+      "start": 5952814,
+      "end": 5956734,
+      "range": [
+        50007,
+        50021
+      ]
+    },
+    {
+      "start": 5956734,
+      "end": 5960014,
+      "range": [
+        50022,
+        50043
+      ]
+    },
+    {
+      "start": 5961054,
+      "end": 5964574,
+      "range": [
+        50044,
+        50058
+      ]
+    },
+    {
+      "start": 5974654,
+      "end": 5976814,
+      "range": [
+        50059,
+        50067
+      ]
+    },
+    {
+      "start": 5979694,
+      "end": 5985214,
+      "range": [
+        50068,
+        50091
+      ]
+    },
+    {
+      "start": 5985294,
+      "end": 5991134,
+      "range": [
+        50092,
+        50108
+      ]
+    },
+    {
+      "start": 6004494,
+      "end": 6006974,
+      "range": [
+        50109,
+        50125
+      ]
+    },
+    {
+      "start": 6006974,
+      "end": 6011134,
+      "range": [
+        50126,
+        50156
+      ]
+    },
+    {
+      "start": 6011134,
+      "end": 6012254,
+      "range": [
+        50157,
+        50164
+      ]
+    },
+    {
+      "start": 6014414,
+      "end": 6016494,
+      "range": [
+        50165,
+        50179
+      ]
+    },
+    {
+      "start": 6016734,
+      "end": 6024974,
+      "range": [
+        50180,
+        50280
+      ]
+    },
+    {
+      "start": 6025214,
+      "end": 6033054,
+      "range": [
+        50281,
+        50327
+      ]
+    },
+    {
+      "start": 6033134,
+      "end": 6041774,
+      "range": [
+        50328,
+        50423
+      ]
+    },
+    {
+      "start": 6041774,
+      "end": 6044094,
+      "range": [
+        50424,
+        50436
+      ]
+    },
+    {
+      "start": 6044094,
+      "end": 6052014,
+      "range": [
+        50437,
+        50471
+      ]
+    },
+    {
+      "start": 6053054,
+      "end": 6054334,
+      "range": [
+        50472,
+        50481
+      ]
+    },
+    {
+      "start": 6056334,
+      "end": 6058734,
+      "range": [
+        50482,
+        50493
+      ]
+    },
+    {
+      "start": 6058734,
+      "end": 6061534,
+      "range": [
+        50494,
+        50508
+      ]
+    },
+    {
+      "start": 6061614,
+      "end": 6062814,
+      "range": [
+        50509,
+        50522
+      ]
+    },
+    {
+      "start": 6064094,
+      "end": 6071614,
+      "range": [
+        50523,
+        50559
+      ]
+    },
+    {
+      "start": 6071614,
+      "end": 6091294,
+      "range": [
+        50560,
+        50802
+      ]
+    },
+    {
+      "start": 6091294,
+      "end": 6102894,
+      "range": [
+        50803,
+        50858
+      ]
+    },
+    {
+      "start": 6104974,
+      "end": 6110734,
+      "range": [
+        50859,
+        50891
+      ]
+    },
+    {
+      "start": 6112094,
+      "end": 6118559,
+      "range": [
+        50892,
+        50933
+      ]
+    },
+    {
+      "start": 6118559,
+      "end": 6120479,
+      "range": [
+        50934,
+        50948
+      ]
+    },
+    {
+      "start": 6120559,
+      "end": 6126239,
+      "range": [
+        50949,
+        50989
+      ]
+    },
+    {
+      "start": 6126239,
+      "end": 6128159,
+      "range": [
+        50990,
+        51002
+      ]
+    },
+    {
+      "start": 6128159,
+      "end": 6131039,
+      "range": [
+        51003,
+        51017
+      ]
+    },
+    {
+      "start": 6131039,
+      "end": 6138639,
+      "range": [
+        51018,
+        52518
+      ]
+    },
+    {
+      "start": 6138639,
+      "end": 6145279,
+      "range": [
+        52519,
+        52586
+      ]
+    },
+    {
+      "start": 6145359,
+      "end": 6155839,
+      "range": [
+        52587,
+        52647
+      ]
+    },
+    {
+      "start": 6155839,
+      "end": 6166719,
+      "range": [
+        52648,
+        52708
+      ]
+    },
+    {
+      "start": 6166719,
+      "end": 6172159,
+      "range": [
+        52709,
+        52774
+      ]
+    },
+    {
+      "start": 6172159,
+      "end": 6184159,
+      "range": [
+        52775,
+        52832
+      ]
+    },
+    {
+      "start": 6185679,
+      "end": 6198879,
+      "range": [
+        52833,
+        52893
+      ]
+    },
+    {
+      "start": 6198879,
+      "end": 6203919,
+      "range": [
+        52894,
+        52962
+      ]
+    },
+    {
+      "start": 6203919,
+      "end": 6214399,
+      "range": [
+        52963,
+        53025
+      ]
+    },
+    {
+      "start": 6214399,
+      "end": 6215999,
+      "range": [
+        53026,
+        53050
+      ]
+    },
+    {
+      "start": 6217119,
+      "end": 6231999,
+      "range": [
+        53051,
+        53111
+      ]
+    },
+    {
+      "start": 6232079,
+      "end": 6243519,
+      "range": [
+        53112,
+        53172
+      ]
+    },
+    {
+      "start": 6243519,
+      "end": 6249679,
+      "range": [
+        53173,
+        53234
+      ]
+    },
+    {
+      "start": 6249679,
+      "end": 6254079,
+      "range": [
+        53235,
+        53295
+      ]
+    },
+    {
+      "start": 6254079,
+      "end": 6265519,
+      "range": [
+        53296,
+        53356
+      ]
+    },
+    {
+      "start": 6266159,
+      "end": 6275439,
+      "range": [
+        53357,
+        53411
+      ]
+    },
+    {
+      "start": 6278479,
+      "end": 6282479,
+      "range": [
+        53412,
+        53437
+      ]
+    },
+    {
+      "start": 6284319,
+      "end": 6294399,
+      "range": [
+        53438,
+        53498
+      ]
+    },
+    {
+      "start": 6294399,
+      "end": 6300319,
+      "range": [
+        53499,
+        53559
+      ]
+    },
+    {
+      "start": 6300319,
+      "end": 6308747,
+      "range": [
+        53560,
+        53643
+      ]
+    },
+    {
+      "start": 6309067,
+      "end": 6322507,
+      "range": [
+        53644,
+        53786
+      ]
+    },
+    {
+      "start": 6322507,
+      "end": 6331627,
+      "range": [
+        53787,
+        53843
+      ]
+    },
+    {
+      "start": 6332987,
+      "end": 6344027,
+      "range": [
+        53844,
+        53896
+      ]
+    },
+    {
+      "start": 6344347,
+      "end": 6350267,
+      "range": [
+        53897,
+        53938
+      ]
+    },
+    {
+      "start": 6350987,
+      "end": 6367467,
+      "range": [
+        53939,
+        54089
+      ]
+    },
+    {
+      "start": 6367547,
+      "end": 6387787,
+      "range": [
+        54090,
+        54313
+      ]
+    },
+    {
+      "start": 6388427,
+      "end": 6390907,
+      "range": [
+        54314,
+        54333
+      ]
+    },
+    {
+      "start": 6390907,
+      "end": 6392747,
+      "range": [
+        54334,
+        54345
+      ]
+    },
+    {
+      "start": 6395467,
+      "end": 6399947,
+      "range": [
+        54346,
+        54358
+      ]
+    },
+    {
+      "start": 6400427,
+      "end": 6403467,
+      "range": [
+        54359,
+        54376
+      ]
+    },
+    {
+      "start": 6405067,
+      "end": 6412267,
+      "range": [
+        54377,
+        54419
+      ]
+    },
+    {
+      "start": 6412267,
+      "end": 6416827,
+      "range": [
+        54420,
+        54483
+      ]
+    },
+    {
+      "start": 6417067,
+      "end": 6423547,
+      "range": [
+        54484,
+        54510
+      ]
+    },
+    {
+      "start": 6423547,
+      "end": 6426907,
+      "range": [
+        54511,
+        54535
+      ]
+    },
+    {
+      "start": 6429947,
+      "end": 6440747,
+      "range": [
+        54536,
+        54591
+      ]
+    },
+    {
+      "start": 6440747,
+      "end": 6444107,
+      "range": [
+        54592,
+        54611
+      ]
+    },
+    {
+      "start": 6444107,
+      "end": 6448507,
+      "range": [
+        54612,
+        54641
+      ]
+    },
+    {
+      "start": 6448507,
+      "end": 6451947,
+      "range": [
+        54642,
+        54681
+      ]
+    },
+    {
+      "start": 6452027,
+      "end": 6462187,
+      "range": [
+        54682,
+        54747
+      ]
+    },
+    {
+      "start": 6462907,
+      "end": 6470267,
+      "range": [
+        54748,
+        54780
+      ]
+    },
+    {
+      "start": 6471307,
+      "end": 6473947,
+      "range": [
+        54781,
+        54802
+      ]
+    },
+    {
+      "start": 6474587,
+      "end": 6480507,
+      "range": [
+        54803,
+        54850
+      ]
+    },
+    {
+      "start": 6483187,
+      "end": 6487267,
+      "range": [
+        54851,
+        54875
+      ]
+    },
+    {
+      "start": 6487267,
+      "end": 6491427,
+      "range": [
+        54876,
+        54914
+      ]
+    },
+    {
+      "start": 6491427,
+      "end": 6494947,
+      "range": [
+        54915,
+        54945
+      ]
+    },
+    {
+      "start": 6495667,
+      "end": 6502787,
+      "range": [
+        54946,
+        55005
+      ]
+    },
+    {
+      "start": 6502787,
+      "end": 6509667,
+      "range": [
+        55006,
+        55028
+      ]
+    },
+    {
+      "start": 6509667,
+      "end": 6511667,
+      "range": [
+        55029,
+        55037
+      ]
+    },
+    {
+      "start": 6511667,
+      "end": 6515267,
+      "range": [
+        55038,
+        55068
+      ]
+    },
+    {
+      "start": 6515507,
+      "end": 6517987,
+      "range": [
+        55069,
+        55082
+      ]
+    },
+    {
+      "start": 6517987,
+      "end": 6521587,
+      "range": [
+        55083,
+        55096
+      ]
+    },
+    {
+      "start": 6521587,
+      "end": 6525107,
+      "range": [
+        55097,
+        55112
+      ]
+    },
+    {
+      "start": 6525107,
+      "end": 6528867,
+      "range": [
+        55113,
+        55135
+      ]
+    },
+    {
+      "start": 6529107,
+      "end": 6530467,
+      "range": [
+        55136,
+        55144
+      ]
+    },
+    {
+      "start": 6530467,
+      "end": 6537747,
+      "range": [
+        55145,
+        55170
+      ]
+    },
+    {
+      "start": 6538787,
+      "end": 6574787,
+      "range": [
+        55171,
+        55933
+      ]
+    },
+    {
+      "start": 6575507,
+      "end": 6581907,
+      "range": [
+        55934,
+        55956
+      ]
+    },
+    {
+      "start": 6584467,
+      "end": 6592147,
+      "range": [
+        55957,
+        56021
+      ]
+    },
+    {
+      "start": 6592147,
+      "end": 6601347,
+      "range": [
+        56022,
+        56082
+      ]
+    },
+    {
+      "start": 6601347,
+      "end": 6605907,
+      "range": [
+        56083,
+        56114
+      ]
+    },
+    {
+      "start": 6607747,
+      "end": 6620787,
+      "range": [
+        56115,
+        56176
+      ]
+    },
+    {
+      "start": 6620787,
+      "end": 6627507,
+      "range": [
+        56177,
+        56237
+      ]
+    },
+    {
+      "start": 6627507,
+      "end": 6634147,
+      "range": [
+        56238,
+        56307
+      ]
+    },
+    {
+      "start": 6634147,
+      "end": 6638547,
+      "range": [
+        56308,
+        56326
+      ]
+    },
+    {
+      "start": 6641027,
+      "end": 6647267,
+      "range": [
+        56327,
+        56388
+      ]
+    },
+    {
+      "start": 6650947,
+      "end": 6660227,
+      "range": [
+        56389,
+        56455
+      ]
+    },
+    {
+      "start": 6660227,
+      "end": 6672308,
+      "range": [
+        56456,
+        56562
+      ]
+    },
+    {
+      "start": 6672868,
+      "end": 6674868,
+      "range": [
+        56563,
+        56570
+      ]
+    },
+    {
+      "start": 6676228,
+      "end": 6686948,
+      "range": [
+        56571,
+        56631
+      ]
+    },
+    {
+      "start": 6686948,
+      "end": 6693028,
+      "range": [
+        56632,
+        56668
+      ]
+    },
+    {
+      "start": 6693348,
+      "end": 6702148,
+      "range": [
+        56669,
+        56705
+      ]
+    },
+    {
+      "start": 6702148,
+      "end": 6706788,
+      "range": [
+        56706,
+        56741
+      ]
+    },
+    {
+      "start": 6707268,
+      "end": 6709428,
+      "range": [
+        56742,
+        56756
+      ]
+    },
+    {
+      "start": 6710628,
+      "end": 6717508,
+      "range": [
+        56757,
+        56794
+      ]
+    },
+    {
+      "start": 6717588,
+      "end": 6719108,
+      "range": [
+        56795,
+        56805
+      ]
+    },
+    {
+      "start": 6720148,
+      "end": 6729828,
+      "range": [
+        56806,
+        56866
+      ]
+    },
+    {
+      "start": 6730068,
+      "end": 6735588,
+      "range": [
+        56867,
+        56893
+      ]
+    },
+    {
+      "start": 6736228,
+      "end": 6738468,
+      "range": [
+        56894,
+        56908
+      ]
+    },
+    {
+      "start": 6738708,
+      "end": 6742228,
+      "range": [
+        56909,
+        56932
+      ]
+    },
+    {
+      "start": 6742708,
+      "end": 6745188,
+      "range": [
+        56933,
+        56944
+      ]
+    },
+    {
+      "start": 6746868,
+      "end": 6753588,
+      "range": [
+        56945,
+        56974
+      ]
+    },
+    {
+      "start": 6754948,
+      "end": 6768148,
+      "range": [
+        56975,
+        57086
+      ]
+    },
+    {
+      "start": 6769988,
+      "end": 6783828,
+      "range": [
+        57087,
+        57163
+      ]
+    },
+    {
+      "start": 6783908,
+      "end": 6791508,
+      "range": [
+        57164,
+        57250
+      ]
+    },
+    {
+      "start": 6792708,
+      "end": 6801108,
+      "range": [
+        57251,
+        57282
+      ]
+    },
+    {
+      "start": 6802548,
+      "end": 6806068,
+      "range": [
+        57283,
+        57304
+      ]
+    },
+    {
+      "start": 6806068,
+      "end": 6812468,
+      "range": [
+        57305,
+        57333
+      ]
+    },
+    {
+      "start": 6813748,
+      "end": 6821508,
+      "range": [
+        57334,
+        57373
+      ]
+    },
+    {
+      "start": 6821908,
+      "end": 6835508,
+      "range": [
+        57374,
+        57421
+      ]
+    },
+    {
+      "start": 6835508,
+      "end": 6845428,
+      "range": [
+        57422,
+        57481
+      ]
+    },
+    {
+      "start": 6845578,
+      "end": 6855098,
+      "range": [
+        57482,
+        58279
+      ]
+    },
+    {
+      "start": 6855098,
+      "end": 6867018,
+      "range": [
+        58280,
+        58340
+      ]
+    },
+    {
+      "start": 6867178,
+      "end": 6875898,
+      "range": [
+        58341,
+        58373
+      ]
+    },
+    {
+      "start": 6877578,
+      "end": 6889738,
+      "range": [
+        58374,
+        58434
+      ]
+    },
+    {
+      "start": 6889738,
+      "end": 6900858,
+      "range": [
+        58435,
+        58495
+      ]
+    },
+    {
+      "start": 6900858,
+      "end": 6903178,
+      "range": [
+        58496,
+        58509
+      ]
+    },
+    {
+      "start": 6905578,
+      "end": 6913258,
+      "range": [
+        58510,
+        58575
+      ]
+    },
+    {
+      "start": 6913258,
+      "end": 6916138,
+      "range": [
+        58576,
+        58610
+      ]
+    },
+    {
+      "start": 6919018,
+      "end": 6933418,
+      "range": [
+        58611,
+        58671
+      ]
+    },
+    {
+      "start": 6933418,
+      "end": 6937418,
+      "range": [
+        58672,
+        58684
+      ]
+    },
+    {
+      "start": 6939258,
+      "end": 6943338,
+      "range": [
+        58685,
+        58698
+      ]
+    },
+    {
+      "start": 6945738,
+      "end": 6951578,
+      "range": [
+        58699,
+        58725
+      ]
+    },
+    {
+      "start": 6952858,
+      "end": 6955738,
+      "range": [
+        58726,
+        58739
+      ]
+    },
+    {
+      "start": 6958458,
+      "end": 6967898,
+      "range": [
+        58740,
+        58760
+      ]
+    },
+    {
+      "start": 6972218,
+      "end": 6981578,
+      "range": [
+        58761,
+        58821
+      ]
+    },
+    {
+      "start": 6981578,
+      "end": 6983658,
+      "range": [
+        58822,
+        58849
+      ]
+    },
+    {
+      "start": 6984778,
+      "end": 7022538,
+      "range": [
+        58850,
+        58896
+      ]
+    },
+    {
+      "start": 7024358,
+      "end": 7026998,
+      "range": [
+        58897,
+        58911
+      ]
+    },
+    {
+      "start": 7027158,
+      "end": 7029798,
+      "range": [
+        58912,
+        58929
+      ]
+    },
+    {
+      "start": 7029798,
+      "end": 7031558,
+      "range": [
+        58930,
+        58948
+      ]
+    },
+    {
+      "start": 7031558,
+      "end": 7033558,
+      "range": [
+        58949,
+        58961
+      ]
+    },
+    {
+      "start": 7035158,
+      "end": 7038278,
+      "range": [
+        58962,
+        58977
+      ]
+    },
+    {
+      "start": 7038278,
+      "end": 7040838,
+      "range": [
+        58978,
+        58990
+      ]
+    },
+    {
+      "start": 7042118,
+      "end": 7044758,
+      "range": [
+        58991,
+        59006
+      ]
+    },
+    {
+      "start": 7045958,
+      "end": 7054278,
+      "range": [
+        59007,
+        59051
+      ]
+    },
+    {
+      "start": 7054278,
+      "end": 7059638,
+      "range": [
+        59052,
+        59095
+      ]
+    },
+    {
+      "start": 7059638,
+      "end": 7061798,
+      "range": [
+        59096,
+        59108
+      ]
+    },
+    {
+      "start": 7062998,
+      "end": 7081158,
+      "range": [
+        59109,
+        59239
+      ]
+    },
+    {
+      "start": 7081558,
+      "end": 7094518,
+      "range": [
+        59240,
+        59397
+      ]
+    },
+    {
+      "start": 7095078,
+      "end": 7103398,
+      "range": [
+        59398,
+        59437
+      ]
+    },
+    {
+      "start": 7103478,
+      "end": 7114758,
+      "range": [
+        59438,
+        59498
+      ]
+    },
+    {
+      "start": 7115478,
+      "end": 7119078,
+      "range": [
+        59499,
+        59522
+      ]
+    },
+    {
+      "start": 7119078,
+      "end": 7122838,
+      "range": [
+        59523,
+        59552
+      ]
+    },
+    {
+      "start": 7123638,
+      "end": 7130438,
+      "range": [
+        59553,
+        59581
+      ]
+    },
+    {
+      "start": 7130438,
+      "end": 7134998,
+      "range": [
+        59582,
+        60225
+      ]
+    },
+    {
+      "start": 7135958,
+      "end": 7144918,
+      "range": [
+        60226,
+        60286
+      ]
+    },
+    {
+      "start": 7144918,
+      "end": 7154838,
+      "range": [
+        60287,
+        60347
+      ]
+    },
+    {
+      "start": 7154838,
+      "end": 7156518,
+      "range": [
+        60348,
+        60354
+      ]
+    },
+    {
+      "start": 7157798,
+      "end": 7165878,
+      "range": [
+        60355,
+        60416
+      ]
+    },
+    {
+      "start": 7165878,
+      "end": 7167878,
+      "range": [
+        60417,
+        60439
+      ]
+    },
+    {
+      "start": 7168998,
+      "end": 7178678,
+      "range": [
+        60440,
+        60500
+      ]
+    },
+    {
+      "start": 7178678,
+      "end": 7184358,
+      "range": [
+        60501,
+        60563
+      ]
+    },
+    {
+      "start": 7184358,
+      "end": 7188838,
+      "range": [
+        60564,
+        60612
+      ]
+    },
+    {
+      "start": 7191638,
+      "end": 7198518,
+      "range": [
+        60613,
+        60652
+      ]
+    },
+    {
+      "start": 7199558,
+      "end": 7210700,
+      "range": [
+        60653,
+        60713
+      ]
+    },
+    {
+      "start": 7210700,
+      "end": 7212460,
+      "range": [
+        60714,
+        60728
+      ]
+    },
+    {
+      "start": 7214700,
+      "end": 7217900,
+      "range": [
+        60729,
+        60749
+      ]
+    },
+    {
+      "start": 7219260,
+      "end": 7223340,
+      "range": [
+        60750,
+        60771
+      ]
+    }
+  ]
+}

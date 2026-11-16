@@ -1,0 +1,40 @@
+{
+  "schema_version": 3,
+  "format_fingerprint": "v3-four-entities-cp-range-20261116-final-1",
+  "module": "weimingzi_corpus.schema_v3",
+  "status": "public_interface_and_native_format_frozen",
+  "root": "repository root, containing data/",
+  "functions": {
+    "is_v3(root)": "bool; data/schema.json version absent=>v2, version2=>false, version3=>true; explicit unsupported version raises ValueError",
+    "iter_native_records(root, entity)": "iterator (native_dict, pathlib.Path), sorted stable IDs; four entity names",
+    "iter_legacy_records(root, table)": "iterator (exact_v2_dict, native_path), nine legacy names; audio reads only schema.json/assets.jsonl; compatibility version adapter",
+    "load_legacy_record(root, record_id)": "dict; single v3 document and necessary hash/artifact/annotation dependencies only",
+    "migrate_v2(source_root, destination_root)": "dict report; destination data must not exist; source untouched; lightweight wrapper",
+    "replace_legacy_records(root, table, rows)": "dict report; one complete legacy table replacement, other tables preserved, v3 only; rows dict or (dict,path)",
+    "write_legacy_dataset(root, tables)": "dict report; complete nine-table mapping (missing empty), iterable values consumed once; unknown fields fail before writes; rejects legacy destination files; atomic per-file os.replace detaches hardlinks",
+    "write_legacy_updates(root, updates)": "list[pathlib.Path] relative to root, changed paths; upsert all table batches once, omitted IDs preserved",
+    "validate_native(root)": "list[str]; [] valid; structural/references/byte hash/legacy hash/projection recipes; stdlib only"
+  },
+  "writer_report": "{schema_version:3,counts:{entity:int},legacy_counts:{table:int},artifacts:[asset dict],changed_paths:[relative_posix_string]}",
+  "root_schema": {"schema_version":3,"entities":["items","documents","assets","annotations"],"range_unit":"unicode_codepoint","range_end":"exclusive"},
+  "entities": {
+    "items": "data/items.jsonl merges original items and collections; original IDs/kinds",
+    "documents": "data/documents/<id>.json; transcript/edited_transcript/post/article",
+    "assets": "data/assets.jsonl; audio/archive/review_document/html; artifacts are real UTF8 files",
+    "annotations": "data/annotations.jsonl; confirmation/segment_attribution"
+  },
+  "native_fields": {
+    "common": "No per-record schema_version. id/kind and retained semantic fields; _legacy={table,keys,metadata_aliases?,derived?,null_fields?}; keys lists exact original root key presence; no original row/raw dump; original kind lives only in row.kind",
+    "metadata_aliases": "map removed metadata key -> retained metadata key, identical canonical JSON only (types significant); $title/$content_sha256/$language/$model restores [root_value]. created/ctime/author never treated as pubdate/uploader",
+    "documents": "inputs=[{role,target_id}], blocks=[{range:[start,end] XOR literal:string, original non-index/text fields, input_text_ref? or input_text, index_absent?:true}]; ranges Unicode codepoints half-open, sequential monotone; index=array position",
+    "input_roles": "item:item_id|item_ids, audio:audio_ids, transcript:transcript_ids, derived_from:derived_from_id, input_units_from:input_units_from_id, article_item:article_item_ids; artifact inputs role review_document_markdown|html",
+    "input_text_ref": "{target_id,content_sha256,source,range:[start,end]}; source=text uses upstream.text; segments/segments_space/segments_newline use upstream blocks text joined with empty/space/newline; input_units uses target.input_units.base.segments text joined empty. Non-snapshot digest is recomputed legacy transcript payload hash (and checked against stored content_sha256); snapshot digest is canonical JSON SHA256(base). Only unique substring in unique source document is referenced; ambiguous input remains original input_text",
+    "input_units": "original immutable snapshot object retained, including source text/timing/quality; never overwritten by current transcript",
+    "assets": "audio item_ids -> inputs role item; downloads[].archive -> archive_id (z- + canonical JSON SHA256 archive object). archive asset retains name/size_bytes/sha256/url. review_document/html asset {id:x-digest,kind,sha256,size_bytes,local_path:data/artifacts/<utf8-byte-sha256>.md|html}; bytes UTF8 and line endings exact; JSON hashes are distinct",
+    "annotations": "targets ordered as original item then edited IDs; {role:item|applies_to|revision,target_id,confirmation_index?}; confirmation_index original index of annotation.id in target document confirmation_ids; revision marks applicable document having derived_from input; no confirmation IDs in documents except presence key name",
+    "derived": "_legacy.derived list supports members.position (index+1), paragraphs_match_text ('\\n\\n'.join(paragraph text).strip()==text.strip()), quality.timing_issues (records.find_timestamp_issues algorithm, independently reimplemented Decimal). Remove only when exact equality to calculated value; historical disagreement stays inline. No other quality judgments inferred",
+    "projection": "schema_version=2 if present in _legacy.keys; kind unchanged; reconstruct blocks/index/input_text; reverse inputs/targets; confirmation_ids from annotation.id sorted target.confirmation_index; resolve artifacts/archive; derive declared fields; restore exact metadata aliases; final filter _legacy.keys preserves absence/null"
+  },
+  "failure": "unknown legacy root/block/download/archive or native fields explicitly fail; no silent loss; missing refs/invalid hashes fail native validation",
+  "constraints": ["stdlib only","no imports from records","four entity indexes/documents dir exist even empty","no old nine-table files dual-write","IDs stable","old full record JSON value exact","no timestamp repair"]
+}

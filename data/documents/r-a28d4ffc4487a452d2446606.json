@@ -1,0 +1,138 @@
+{
+  "model": {
+    "name": "deepseek-v4.1-flash"
+  },
+  "time_unit": "ms",
+  "text": "哲学思考首先要掌握的一个要素叫场域。简单来说，场域就是整个世界。不过，当你说“整个世界”的时候，实际上已经是一种哲学立场了。\n\n审慎的哲学家不会轻易讨论“这个世界”这个东西，也不会总说世界怎么样、世界怎么样；一个蹩脚的哲学爱好者，有时反而会问世界是怎么样的、世界是怎么样的。但如果你是哲学家，你不会讨论世界，而会讨论场域。因为“场域”这个词的预设稍微少一点。你说“世界”，就意味着时间和空间连接在一起，是一个稳固的整体，这背后有很多预设。所以，我们会把场域当成哲学思考的第一个环节。\n\n场域我其实也介绍过了，它有四种不同的状态，代表四种非常复杂、非常宏大的分支。\n",
+  "quality": {
+    "is_fully_human_reviewed": false,
+    "requires_review": true,
+    "status": "needs_review"
+  },
+  "id": "r-a28d4ffc4487a452d2446606",
+  "kind": "edited_transcript",
+  "metadata": {
+    "revision_id": [
+      "6c1b6aac0b41b22e929d30a50fef4b89ac977937105364c818171a538bb10a17"
+    ],
+    "input_id": [
+      "8a4b71717fd5cdc58c12e491e4a873ad28832c24750efcc97ae0def0f09bf7c5"
+    ],
+    "generated_at_unix_seconds": [
+      1793641511
+    ]
+  },
+  "is_complete": true,
+  "notes_markdown": "# 一分钟哲学课：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`6c1b6aac0b41b22e929d30a50fef4b89ac977937105364c818171a538bb10a17`\n\n输入快照：`8a4b71717fd5cdc58c12e491e4a873ad28832c24750efcc97ae0def0f09bf7c5`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2646`；参考转录：`3573`",
+  "_legacy": {
+    "table": "edited_transcripts",
+    "keys": [
+      "id",
+      "is_complete",
+      "item_id",
+      "kind",
+      "metadata",
+      "model",
+      "notes_markdown",
+      "paragraphs",
+      "paragraphs_match_text",
+      "quality",
+      "schema_version",
+      "text",
+      "time_unit",
+      "transcript_ids"
+    ],
+    "derived": [
+      "paragraphs_match_text"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-7e3af4a6b9775350abbc87d1"
+    },
+    {
+      "role": "transcript",
+      "target_id": "t-6d0c4a87d5902651bb15d314"
+    }
+  ],
+  "blocks": [
+    {
+      "issues": [],
+      "start": 400,
+      "end": 10320,
+      "input_unit_labels": [
+        "t2646:s0",
+        "t2646:s1"
+      ],
+      "range": [
+        0,
+        62
+      ],
+      "input_text_ref": {
+        "target_id": "t-6d0c4a87d5902651bb15d314",
+        "content_sha256": "a24e8e5fd2ef15638d17cf1dcb068b6a36d39c511fe2a043b19d1270e68fce83",
+        "source": "segments",
+        "range": [
+          0,
+          62
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "审慎的哲学家",
+          "note": "原字幕为“神圣的哲学家”，参考字幕作“审慎的时候哲学家”，正文按“审慎的哲学家”整理；“神圣的”疑为识别错误，需审核确认。",
+          "evidence_labels": [
+            "t3573:s2"
+          ]
+        }
+      ],
+      "start": 11040,
+      "end": 45680,
+      "input_unit_labels": [
+        "t2646:s2",
+        "t2646:s3",
+        "t2646:s4",
+        "t2646:s5",
+        "t2646:s6",
+        "t2646:s7"
+      ],
+      "range": [
+        64,
+        241
+      ],
+      "input_text_ref": {
+        "target_id": "t-6d0c4a87d5902651bb15d314",
+        "content_sha256": "a24e8e5fd2ef15638d17cf1dcb068b6a36d39c511fe2a043b19d1270e68fce83",
+        "source": "segments",
+        "range": [
+          62,
+          261
+        ]
+      }
+    },
+    {
+      "issues": [],
+      "start": 46320,
+      "end": 58160,
+      "input_unit_labels": [
+        "t2646:s8"
+      ],
+      "range": [
+        243,
+        281
+      ],
+      "input_text_ref": {
+        "target_id": "t-6d0c4a87d5902651bb15d314",
+        "content_sha256": "a24e8e5fd2ef15638d17cf1dcb068b6a36d39c511fe2a043b19d1270e68fce83",
+        "source": "text",
+        "range": [
+          269,
+          317
+        ]
+      }
+    }
+  ]
+}

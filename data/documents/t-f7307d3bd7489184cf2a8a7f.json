@@ -1,0 +1,179 @@
+{
+  "kind": "transcript",
+  "method": "asr_local",
+  "language": "Chinese",
+  "model": {
+    "revision": "bcd2b5b7f32b480ab5790554cfa8347f246a14f3",
+    "name": "source://production/models/Qwen3-ASR-1.7B-hf"
+  },
+  "time_unit": "ms",
+  "text": "这个也是之前写的一首啊。\n玉兰清雨时，风吹散\n两枝，落去谁人知？\n同是一般痴，在晚风轻拂琉璃湖边，\n飘零有几片，更无需思量风的语言，不觉在耳边。\n玉兰清雨时，风\n吹散两枝，千问谁人知？\n秋去春来迟，在名利难免去痴人间，\n飘零有几片，倒也叫无情多情人间，不必费遮掩。\n玉兰清雨时，风吹散两枝，世情清\n冷更胜过秋风，\n不留丝雪涟漪，\n乍惊欢恨，无语吹寒意。扎进荒痕。",
+  "quality": {
+    "is_fully_human_reviewed": null,
+    "requires_review": null,
+    "is_subtitle_export_enabled": null
+  },
+  "id": "t-f7307d3bd7489184cf2a8a7f",
+  "content_sha256": "db1b7159c1f7b6b6862e7b9d4fe4c8d1b165ba42f1bba4f5e5169d84d524c784",
+  "metadata": {
+    "content_sha256": [
+      "49edc827358c312dfe89bdc7b57c2ce2622477393f274e35d7f53ad2ae103880",
+      "1f8e87407d620779a38503a9f7e3851033680c0e73e780b9009c7bd455356824"
+    ],
+    "transcript_id": [
+      1037
+    ],
+    "video_part_id": [
+      664
+    ],
+    "source_kind": [
+      "asr-local"
+    ],
+    "model_id": [
+      1
+    ],
+    "version": [
+      1
+    ],
+    "generated_at_unix_seconds": [
+      1792058908
+    ]
+  },
+  "_legacy": {
+    "table": "transcripts",
+    "keys": [
+      "audio_ids",
+      "content_sha256",
+      "id",
+      "item_id",
+      "kind",
+      "language",
+      "metadata",
+      "method",
+      "model",
+      "quality",
+      "schema_version",
+      "segments",
+      "text",
+      "time_unit"
+    ],
+    "derived": [
+      "quality.timing_issues"
+    ],
+    "metadata_aliases": {
+      "language": "$language"
+    }
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-6d639439bc962866b4691440"
+    }
+  ],
+  "blocks": [
+    {
+      "start": 400,
+      "end": 1920,
+      "range": [
+        0,
+        12
+      ]
+    },
+    {
+      "start": 26880,
+      "end": 35760,
+      "range": [
+        13,
+        22
+      ]
+    },
+    {
+      "start": 37040,
+      "end": 44720,
+      "range": [
+        23,
+        32
+      ]
+    },
+    {
+      "start": 47920,
+      "end": 59360,
+      "range": [
+        33,
+        49
+      ]
+    },
+    {
+      "start": 62160,
+      "end": 80080,
+      "range": [
+        50,
+        72
+      ]
+    },
+    {
+      "start": 86880,
+      "end": 93760,
+      "range": [
+        73,
+        80
+      ]
+    },
+    {
+      "start": 95280,
+      "end": 105680,
+      "range": [
+        81,
+        92
+      ]
+    },
+    {
+      "start": 108160,
+      "end": 119440,
+      "range": [
+        93,
+        109
+      ]
+    },
+    {
+      "start": 122400,
+      "end": 143600,
+      "range": [
+        110,
+        132
+      ]
+    },
+    {
+      "start": 143600,
+      "end": 158080,
+      "range": [
+        133,
+        148
+      ]
+    },
+    {
+      "start": 159600,
+      "end": 162000,
+      "range": [
+        149,
+        156
+      ]
+    },
+    {
+      "start": 164560,
+      "end": 170000,
+      "range": [
+        157,
+        164
+      ]
+    },
+    {
+      "start": 171440,
+      "end": 189488,
+      "range": [
+        165,
+        181
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "kind": "transcript",
+  "method": "asr_local",
+  "language": "Chinese",
+  "model": {
+    "revision": "bcd2b5b7f32b480ab5790554cfa8347f246a14f3",
+    "name": "source://production/models/Qwen3-ASR-1.7B-hf"
+  },
+  "time_unit": "ms",
+  "text": "我们在讲庄子\n大宗师里面讲到的那个呃成道的第一步啊，外天下。\n一步外天下，要做到这一步呢，我们\n看庄子的最后一篇杂篇\n的最后一篇天下篇。\n天下篇里面差不多有四个还是五个步骤啊？\n一二三，四个步骤。\n我看一下，啊，应该是四个步骤。\n经过这四个步骤就可以外天下了啊，对外天下了。",
+  "quality": {
+    "is_fully_human_reviewed": null,
+    "requires_review": null,
+    "is_subtitle_export_enabled": null
+  },
+  "id": "t-db3370da6db06fddee7e081a",
+  "content_sha256": "65804c4832e8b8ae16564627a4f27866c3210e682b26529fcf40ad0853aacae6",
+  "metadata": {
+    "content_sha256": [
+      "631552c9d192bc356f2750fb43bad3d900ef624a4de072f76a57d246f8928363",
+      "de47e8906f6e0451d67cb49b316be2cc2763db42b8b5af323d68e309762fe6a4"
+    ],
+    "transcript_id": [
+      2271
+    ],
+    "video_part_id": [
+      1737
+    ],
+    "source_kind": [
+      "asr-local"
+    ],
+    "model_id": [
+      1
+    ],
+    "version": [
+      1
+    ],
+    "generated_at_unix_seconds": [
+      1793514988
+    ]
+  },
+  "_legacy": {
+    "table": "transcripts",
+    "keys": [
+      "audio_ids",
+      "content_sha256",
+      "id",
+      "item_id",
+      "kind",
+      "language",
+      "metadata",
+      "method",
+      "model",
+      "quality",
+      "schema_version",
+      "segments",
+      "text",
+      "time_unit"
+    ],
+    "derived": [
+      "quality.timing_issues"
+    ],
+    "metadata_aliases": {
+      "language": "$language"
+    }
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-c6eca5114f9e738af70b981a"
+    }
+  ],
+  "blocks": [
+    {
+      "start": 80,
+      "end": 1600,
+      "range": [
+        0,
+        6
+      ]
+    },
+    {
+      "start": 3200,
+      "end": 10960,
+      "range": [
+        7,
+        30
+      ]
+    },
+    {
+      "start": 13440,
+      "end": 18800,
+      "range": [
+        31,
+        47
+      ]
+    },
+    {
+      "start": 19920,
+      "end": 22720,
+      "range": [
+        48,
+        58
+      ]
+    },
+    {
+      "start": 24400,
+      "end": 26000,
+      "range": [
+        59,
+        68
+      ]
+    },
+    {
+      "start": 29760,
+      "end": 32960,
+      "range": [
+        69,
+        88
+      ]
+    },
+    {
+      "start": 34080,
+      "end": 37520,
+      "range": [
+        89,
+        98
+      ]
+    },
+    {
+      "start": 39600,
+      "end": 42800,
+      "range": [
+        99,
+        114
+      ]
+    },
+    {
+      "start": 43280,
+      "end": 48320,
+      "range": [
+        115,
+        137
+      ]
+    }
+  ]
+}

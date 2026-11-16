@@ -1,6 +1,8 @@
 # BV1CP4y1s7BM P2 无声源与 P1 有声重录版
 
-核查日期：2026-11-05。原转录见 [t-79e1eb0ea7c54df6013b144c.json](../../data/transcripts/t-79e1eb0ea7c54df6013b144c.json)。
+核查日期：2026-11-05。原转录见 [t-79e1eb0ea7c54df6013b144c.json](../../data/documents/t-79e1eb0ea7c54df6013b144c.json)。
+
+现行定位说明：本文保留 2026-11-05 的核查结论和字段表述，维护链接已指向 v3 文件。下文的 `segments`、`item_id`、`audio_ids` 等指旧逻辑投影视图；当前文档以 `blocks` 的 `range` 或 `literal` 还原块文字，以 `inputs` 保存输入关系。`coverage --include-records` 仍返回旧字段视图，`record_path` 指向当前文档。
 
 ## 用户确认
 
@@ -12,7 +14,7 @@ P2 按用户确认的无声源记录；P1 是对应的有声重录版。此判�
 
 ## 原转录证据
 
-原转录的 text 是“嗯。”重复 22 次，共 44 个字符，见[存储文本与分段](../../data/transcripts/t-79e1eb0ea7c54df6013b144c.json)。
+原转录的 text 是“嗯。”重复 22 次，共 44 个字符，见[存储文本与分段](../../data/documents/t-79e1eb0ea7c54df6013b144c.json)。
 
 segments 只有一项，其文字与 text 相同，时间范围为 0 至 3675000 毫秒，见上述记录。原 timing_issues 为空；这些时间值通过结构检查，不代表正文有实质内容。
 
@@ -34,9 +36,9 @@ text、segments、model、content_sha256、原 metadata、audio_ids 和原复核
 
 P1 条目为 i-8520cf119fcad17735d1fb60，CID 为 377219995，见 [items.jsonl](../../data/items.jsonl)。已有文稿为：
 
-- [本地 ASR 转录](../../data/transcripts/t-f87ba197d7b776c27aa62a58.json)。
-- [平台 AI 字幕转录](../../data/transcripts/t-0e80e9989a8827ed4f481269.json)。
-- [整理稿](../../data/edited_transcripts/r-3dd2af3cb9bf5fcc38f95caf.json)。
+- [本地 ASR 转录](../../data/documents/t-f87ba197d7b776c27aa62a58.json)。
+- [平台 AI 字幕转录](../../data/documents/t-0e80e9989a8827ed4f481269.json)。
+- [整理稿](../../data/documents/r-3dd2af3cb9bf5fcc38f95caf.json)。
 
 该整理稿 is_complete=true，requires_review=true，is_fully_human_reviewed=false；完成状态和复核状态分别保留。
 
@@ -48,7 +50,7 @@ P1 的 audible_rerecording_of 关系指向 P2，保存用户确认依据。查�
 
 [issue #5](https://github.com/chosenecho/weimingzi-data/issues/5)在 2026-11-04 的说明曾提到其他渠道音频。本次 2026-11-05 的用户确认明确了可用版本为 P1，取代此前等待备用文件的处理路径。
 
-仓库音频索引中对应记录仍为 unavailable，local_path=null，见 [audio.jsonl](../../data/audio.jsonl)。音频 ID 为：
+仓库音频索引中对应记录仍为 unavailable，local_path=null，见 [assets.jsonl](../../data/assets.jsonl)。音频 ID 为：
 
     m-3f2f3ca7b3260f48f3799764aedf950fdbf3e718952b7d2117766983fe21b4e3
 

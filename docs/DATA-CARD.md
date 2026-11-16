@@ -1,6 +1,8 @@
 # 数据质量与使用限制
 
-本库汇集未明子的基础转录、整理稿、动态、专栏、集合和相关元数据。数量及可恢复音频规模来自 [counts.json](counts.json)，记录结构见 [SCHEMA.md](SCHEMA.md)。
+本库汇集未明子的基础转录、整理稿、动态、专栏、集合和相关元数据。当前 schema v3 由 [schema.json](../data/schema.json) 声明。
+
+条目与集合位于 [items.jsonl](../data/items.jsonl)，文稿位于 [documents](../data/documents)。音频及归档等资产位于 [assets.jsonl](../data/assets.jsonl)，人工确认与片段归属位于 [annotations.jsonl](../data/annotations.jsonl)。数量及可恢复音频规模来自 [counts.json](counts.json)；计数仍使用基础转录、整理稿等逻辑分类，记录结构见 [SCHEMA.md](SCHEMA.md)。
 
 基础转录包含字幕和语音识别结果，整理稿包含模型整理、局部输出及有限人工修订。同一内容可以关联多个结果；模型名、生成参数、原有疑点和质量状态保存在相应记录中。
 
@@ -14,7 +16,7 @@
 
 整理稿的段落时间可能来自输入块边界。它们用于回查材料，不是强制对齐结果；分块内的说话人标签也不表示跨块身份已核实。
 
-片段说话人与观点归属只覆盖 [attributions.jsonl](../data/attributions.jsonl) 中人工确认的少量段落，数量见计数文件的 `attributions`。未覆盖的段落是未审核，不表示归属有误；文字确认、上传者和标题都不能代替归属确认。
+片段说话人与观点归属只覆盖 [annotations.jsonl](../data/annotations.jsonl) 中 `kind=segment_attribution` 人工确认的少量段落，数量见计数文件的 `attributions`。未覆盖的段落是未审核，不表示归属有误；文字确认、上传者和标题都不能代替归属确认。标注的 `targets` 分别记录条目、适用文档及修订采用关系；确认适用不表示正文已采用，更不表示全文审核通过。
 
 动态保留原始富文本、转发对象和专栏关联。专栏同时保留已有富文本；带展开提示的页面通过质量字段说明。条目目录中仅有元数据的内容尚不具备正文，不能计为已有转录。
 

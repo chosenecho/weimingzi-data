@@ -1,0 +1,146 @@
+{
+  "model": {
+    "name": "deepseek-v4.1-flash"
+  },
+  "time_unit": "ms",
+  "text": "谁伴明窗独坐，我共影儿两个；在灯尽欲灭时，影儿也把人抛躲。无奈无奈，好个凄凉的我。\n\n他那个歌词打错了，应该是“无奈无奈”，不是“无聊无聊”，真的是没文化。全民K歌的工作人员真是没文化，很垃圾。没看过原曲吗？“无奈无奈”，真是傻屌，一点点文化都没有！教育系统怎么不把这种人培养出来？\n",
+  "quality": {
+    "is_fully_human_reviewed": false,
+    "requires_review": true,
+    "status": "needs_review"
+  },
+  "id": "r-d64b5e237c9591cb643feec8",
+  "kind": "edited_transcript",
+  "metadata": {
+    "revision_id": [
+      "7b8c4c9aab1d29f3206f76c33d6bb979b006882d172f2b0ae87041d7da08c6d5"
+    ],
+    "input_id": [
+      "a74c0b5b5081429ff1c33326724c5032ddc32e51044d397590e07b631b881f92"
+    ],
+    "generated_at_unix_seconds": [
+      1793640998
+    ]
+  },
+  "is_complete": true,
+  "notes_markdown": "# 【唱歌酬宾】7\\-21 沧海一声笑、心里日记、逍遥游、如梦令：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`7b8c4c9aab1d29f3206f76c33d6bb979b006882d172f2b0ae87041d7da08c6d5`\n\n输入快照：`a74c0b5b5081429ff1c33326724c5032ddc32e51044d397590e07b631b881f92`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2150`；参考转录：`无`",
+  "_legacy": {
+    "table": "edited_transcripts",
+    "keys": [
+      "id",
+      "is_complete",
+      "item_id",
+      "kind",
+      "metadata",
+      "model",
+      "notes_markdown",
+      "paragraphs",
+      "paragraphs_match_text",
+      "quality",
+      "schema_version",
+      "text",
+      "time_unit",
+      "transcript_ids"
+    ],
+    "derived": [
+      "paragraphs_match_text"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-41228c66df8709d6b2728f5b"
+    },
+    {
+      "role": "transcript",
+      "target_id": "t-860b211e4d9d5fa1c64852f7"
+    }
+  ],
+  "blocks": [
+    {
+      "issues": [
+        {
+          "candidate": "影儿也把人抛躲；无奈无奈",
+          "note": "s10“银儿也把人抛多”、s11“雾哪雾哪”与前文歌词不一致，正文结合前文整理为“影儿也把人抛躲”“无奈无奈”。",
+          "evidence_labels": [
+            "t2150:s10",
+            "t2150:s11"
+          ]
+        }
+      ],
+      "start": 38240,
+      "end": 191073,
+      "input_unit_labels": [
+        "t2150:s0",
+        "t2150:s1",
+        "t2150:s2",
+        "t2150:s3",
+        "t2150:s4",
+        "t2150:s5",
+        "t2150:s6",
+        "t2150:s7",
+        "t2150:s8",
+        "t2150:s9",
+        "t2150:s10",
+        "t2150:s11"
+      ],
+      "range": [
+        0,
+        41
+      ],
+      "input_text_ref": {
+        "target_id": "t-860b211e4d9d5fa1c64852f7",
+        "content_sha256": "a9559da5b14b5fece493bbcd51e6b792bc2384b7acf3e831e7bec12fd74540c7",
+        "source": "segments",
+        "range": [
+          0,
+          151
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "无奈无奈；教育系统怎么把这种人培养出来的？",
+          "note": "“雾哪雾哪”结合歌词与上下文疑为“无奈无奈”的识别错误；“怎么不把这种人培养出来的”中的否定也可能有误。",
+          "evidence_labels": [
+            "t2150:s12",
+            "t2150:s13",
+            "t2150:s18"
+          ]
+        },
+        {
+          "candidate": "真是的",
+          "note": "末尾“今天是”语义不完整，疑为“真是的”或未完成语句，正文未展开。",
+          "evidence_labels": [
+            "t2150:s18"
+          ]
+        }
+      ],
+      "start": 209233,
+      "end": 254113,
+      "input_unit_labels": [
+        "t2150:s12",
+        "t2150:s13",
+        "t2150:s14",
+        "t2150:s15",
+        "t2150:s16",
+        "t2150:s17",
+        "t2150:s18"
+      ],
+      "range": [
+        43,
+        141
+      ],
+      "input_text_ref": {
+        "target_id": "t-860b211e4d9d5fa1c64852f7",
+        "content_sha256": "a9559da5b14b5fece493bbcd51e6b792bc2384b7acf3e831e7bec12fd74540c7",
+        "source": "segments",
+        "range": [
+          151,
+          278
+        ]
+      }
+    }
+  ]
+}

@@ -15,7 +15,7 @@ from .records import (
     JSON_RECORD_TABLES,
     JSONL_TABLES,
     canonical_json,
-    read_json,
+    content_record_path,
     iter_records,
     find_timestamp_issues,
     validate_corpus,
@@ -128,7 +128,7 @@ def render_review_markdown(row: dict, item: dict) -> str:
     return "\n".join(lines)
 
 
-def iter_review_issues(row: dict):
+def iter_review_issues(row: dict, root: Path | None = None):
     """Expose every stored annotation with an exact locator, without inferring status."""
     if row["kind"] != "edited_transcript":
         raise ValueError("Review issues require an edited transcript record")
@@ -139,7 +139,11 @@ def iter_review_issues(row: dict):
                 "item_id": row["item_id"],
                 "paragraph_index": paragraph_index,
                 "issue_index": issue_index,
-                "record_path": f"data/edited_transcripts/{row['id']}.json",
+                "record_path": (
+                    content_record_path(root, "edited_transcripts", row["id"])
+                    .relative_to(root.resolve()).as_posix()
+                    if root is not None else f"data/edited_transcripts/{row['id']}.json"
+                ),
                 "issue": issue,
             }
 
@@ -177,14 +181,25 @@ def render_catalog_csv(root: Path) -> str:
                 "identifiers": canonical_json(item["identifiers"]),
                 "is_fully_human_reviewed": flags.get("is_fully_human_reviewed"),
                 "requires_review": flags.get("requires_review"),
-                "record_path": f"data/{table}/{row['id']}.json",
+                "record_path": (
+                    content_record_path(root, table, row["id"])
+                    .relative_to(root.resolve()).as_posix()
+                ),
             }
         )
     return out.getvalue()
 
 
 def export_sqlite(root: Path, output: Path) -> None:
-    """Rebuild a disposable SQLite search projection from canonical records."""
+    """Rebuild native record tables and a disposable full-text search projection."""
+    from .schema_v3 import is_v3, iter_native_records
+
+    native = is_v3(root)
+    tables = (
+        ("items", "documents", "assets", "annotations")
+        if native else (*JSONL_TABLES, *JSON_RECORD_TABLES)
+    )
+    iterate = iter_native_records if native else iter_records
     output.parent.mkdir(parents=True, exist_ok=True)
     partial = output.with_name(output.name + ".part")
     if partial.exists():
@@ -193,33 +208,33 @@ def export_sqlite(root: Path, output: Path) -> None:
     try:
         connection.execute("PRAGMA journal_mode=OFF")
         connection.execute("PRAGMA synchronous=OFF")
-        for table in (*JSONL_TABLES, *JSON_RECORD_TABLES):
+        for table in tables:
             connection.execute(
                 f'CREATE TABLE "{table}"(id TEXT PRIMARY KEY, item_id TEXT, record_json TEXT NOT NULL)'
             )
         connection.execute(
             "CREATE VIRTUAL TABLE content_search USING fts5(id UNINDEXED, item_id UNINDEXED, kind UNINDEXED, text, tokenize='trigram')"
         )
-        for table in (*JSONL_TABLES, *JSON_RECORD_TABLES):
-            for row, _ in iter_records(root, table):
+        for table in tables:
+            for row, _ in iterate(root, table):
+                item_id = row.get("item_id")
+                if native:
+                    owners = [
+                        edge["target_id"]
+                        for edge in row.get("inputs", row.get("targets", []))
+                        if edge["role"] == "item"
+                    ]
+                    item_id = owners[0] if len(owners) == 1 else None
                 connection.execute(
                     f'INSERT INTO "{table}" VALUES(?,?,?)',
-                    (row["id"], row.get("item_id"), canonical_json(row)),
+                    (row["id"], item_id, canonical_json(row)),
                 )
-                if table in JSON_RECORD_TABLES:
-                    connection.execute(
-                        "INSERT INTO content_search VALUES(?,?,?,?)",
-                        (row["id"], row["item_id"], row["kind"], extract_text(row)),
-                    )
             connection.commit()
-        connection.execute(
-            "CREATE TABLE selections(name TEXT PRIMARY KEY, selection_json TEXT NOT NULL)"
-        )
-        selection = read_json(root / "selections/training.json")
-        connection.execute(
-            "INSERT INTO selections VALUES(?,?)",
-            ("training", canonical_json(selection)),
-        )
+        for _, row in iter_content_records(root):
+            connection.execute(
+                "INSERT INTO content_search VALUES(?,?,?,?)",
+                (row["id"], row["item_id"], row["kind"], extract_text(row)),
+            )
         connection.commit()
         if connection.execute("PRAGMA integrity_check").fetchone()[0] != "ok":
             raise ValueError("SQLite integrity check failed")
@@ -239,7 +254,7 @@ def escape_markdown_label(value: str) -> str:
     )
 
 
-def render_catalog_link(table: str, row: dict) -> str:
+def render_catalog_link(table: str, row: dict, root: Path | None = None) -> str:
     if table == "transcripts":
         label = {
             "subtitle_ai": "平台 AI 字幕",
@@ -257,9 +272,13 @@ def render_catalog_link(table: str, row: dict) -> str:
             model_name = model["name"].replace("\\", "/").rsplit("/", 1)[-1]
             label += f"（{model_name}）"
     record_id = row["id"]
+    target = (
+        content_record_path(root, table, record_id).relative_to(root.resolve()).as_posix()
+        if root is not None else f"data/{table}/{record_id}.json"
+    )
     link = (
         f"[{escape_markdown_label(label)}:{record_id[2:10]}]"
-        f"(../../data/{table}/{record_id}.json)"
+        f"(../../{target})"
     )
     if table == "edited_transcripts":
         inputs = "、".join(
@@ -276,7 +295,7 @@ def generate_catalog_docs(root: Path, check: bool = False) -> dict:
     by_item = defaultdict(list)
     reviews = []
     for table, row in iter_content_records(root):
-        by_item[row["item_id"]].append((table, row["id"], render_catalog_link(table, row)))
+        by_item[row["item_id"]].append((table, row["id"], render_catalog_link(table, row, root)))
         if table == "edited_transcripts":
             issue_count = sum(len(p.get("issues", [])) for p in row["paragraphs"])
             reviews.append(
@@ -428,19 +447,14 @@ def generate_catalog_docs(root: Path, check: bool = False) -> dict:
         reviews, key=lambda entry: (items[entry[0]]["title"], entry[1])
     ):
         title = escape_markdown_label(items[item_id]["title"]).replace("|", "\\|")
+        target = content_record_path(root, "edited_transcripts", record_id).relative_to(root.resolve()).as_posix()
         lines.append(
-            f"| [{title} · {record_id[2:10]}](../../data/edited_transcripts/{record_id}.json) "
+            f"| [{title} · {record_id[2:10]}](../../{target}) "
             f"| {count} | {labels[review]} | {labels[complete]} | {labels[notes]} | {labels[document]} |"
         )
     output["docs/catalog/reviews.md"] = "\n".join(lines).rstrip() + "\n"
     topic_navigation = []
     if (root / "selections/topics.json").is_file():
-        from .coverage import CoverageIndex
-        from .topics import definitions, render_topic_catalog
-
-        output["docs/catalog/topics.md"] = render_topic_catalog(
-            CoverageIndex(root), definitions(root)
-        )
         topic_navigation = ["- [专题索引](catalog/topics.md)"]
     output["docs/INDEX.md"] = (
         "# 数据目录\n\n[名词与概念](GLOSSARY.md) · [数据结构](SCHEMA.md)\n\n由 `python tools/corpus.py generate` 生成。计数见 [counts.json](counts.json)。\n\n"

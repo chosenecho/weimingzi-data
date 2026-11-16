@@ -1,0 +1,347 @@
+{
+  "model": {
+    "name": "deepseek-v4.1-flash"
+  },
+  "time_unit": "ms",
+  "text": "我们今天来唱一首歌。这首歌是我自己写的，叫《秋风》，原曲也是《秋风》，是城之内谱的曲子。我们来听一下。\n\n白云悠悠，一路飞去秋风起。花儿都谢了，燕子都去了。漫漫长夜，黯然相思；秋风里，月儿都倦了，云儿都睡了。\n\n过月见落雁，扫云空雨歇。在这般凄凉的夜，苍白的语言。这秋风无依无靠，无端无了，不说不笑，哭不嚎。寂灭到真，难分难了。什么这么说，无需知道，情不明了，早就分晓。\n\n这秋风让目光迷了沙，生出了迷惘。你不肯说，你不肯说，你不肯说心底的思量。你不肯说，你不肯说，你不肯说心底的思量。\n\n白云悠悠，一路飞去千万里。花儿不见了，燕子不见了。漫漫长夜，一人相思在梦里，月儿不见了，月儿不见了。\n\n到如今秋风过，月见落雁。扫云空雨歇，只听见凄凉的屋檐，苍白的语言。\n\n若逢屋漏，沾湿长夜，天下尽无眠。下者飘零，躺卧荒野；上者挂林间。八月秋高风怒号，卷我屋上三重茅。入竹去，归来倚杖自叹，叹息。安得广厦千万间，安得广厦千万间，大庇天下寒士俱欢颜，俱欢颜。\n\n南村群童，忍能对面为盗贼。对盗贼，不肯说，不肯说，不肯说心底的思量。不肯说，不肯说，不肯说心底的思量。不肯说。\n\n这个“南村群童”指的不是年轻人，它指的是哪些人？其实我们都知道。好的，就这样。\n",
+  "quality": {
+    "is_fully_human_reviewed": false,
+    "requires_review": true,
+    "status": "needs_review"
+  },
+  "id": "r-05d6bc818afc47ff03d360c7",
+  "kind": "edited_transcript",
+  "metadata": {
+    "revision_id": [
+      "4a6783d855f6dc7c39806ff64e7b4e9dfe3c5b93cc102a51dc2187b15b187e65"
+    ],
+    "input_id": [
+      "b5d3fc6b0354b96e1a895469f0161255c90b2ddd8081399d4b1903c97b117284"
+    ],
+    "generated_at_unix_seconds": [
+      1793641482
+    ]
+  },
+  "is_complete": true,
+  "notes_markdown": "# 【写词唱歌】秋风：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`4a6783d855f6dc7c39806ff64e7b4e9dfe3c5b93cc102a51dc2187b15b187e65`\n\n输入快照：`b5d3fc6b0354b96e1a895469f0161255c90b2ddd8081399d4b1903c97b117284`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2653`；参考转录：`3509`",
+  "_legacy": {
+    "table": "edited_transcripts",
+    "keys": [
+      "id",
+      "is_complete",
+      "item_id",
+      "kind",
+      "metadata",
+      "model",
+      "notes_markdown",
+      "paragraphs",
+      "paragraphs_match_text",
+      "quality",
+      "schema_version",
+      "text",
+      "time_unit",
+      "transcript_ids"
+    ],
+    "derived": [
+      "paragraphs_match_text"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-0de5edced40a7467486284cb"
+    },
+    {
+      "role": "transcript",
+      "target_id": "t-a23410801ed70080e53c6d7d"
+    }
+  ],
+  "blocks": [
+    {
+      "issues": [
+        {
+          "candidate": "城之内谱的曲子",
+          "note": "“是那个城之内啊谱的曲子”参考字幕作“城之内啊不是曲子”，作曲者及原曲表述待核。",
+          "evidence_labels": [
+            "t3509:s5"
+          ]
+        }
+      ],
+      "start": 400,
+      "end": 12880,
+      "input_unit_labels": [
+        "t2653:s0"
+      ],
+      "range": [
+        0,
+        51
+      ],
+      "input_text_ref": {
+        "target_id": "t-a23410801ed70080e53c6d7d",
+        "content_sha256": "805d97cf964946c4f8117fea071c98c96bad56822c60338df3cc4c884ee80e9c",
+        "source": "text",
+        "range": [
+          0,
+          53
+        ]
+      }
+    },
+    {
+      "issues": [],
+      "start": 14060,
+      "end": 75680,
+      "input_unit_labels": [
+        "t2653:s1",
+        "t2653:s2",
+        "t2653:s3"
+      ],
+      "range": [
+        53,
+        104
+      ],
+      "input_text_ref": {
+        "target_id": "t-a23410801ed70080e53c6d7d",
+        "content_sha256": "805d97cf964946c4f8117fea071c98c96bad56822c60338df3cc4c884ee80e9c",
+        "source": "segments",
+        "range": [
+          53,
+          103
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "",
+          "note": "歌词字句识别不清，“过月见落雁”“无端无了”“寂灭到真，难分难了”等已按语义整理，具体用字待核。",
+          "evidence_labels": [
+            "t2653:s4",
+            "t2653:s8"
+          ]
+        }
+      ],
+      "start": 75680,
+      "end": 121680,
+      "input_unit_labels": [
+        "t2653:s4",
+        "t2653:s5",
+        "t2653:s6",
+        "t2653:s7",
+        "t2653:s8",
+        "t2653:s9"
+      ],
+      "range": [
+        106,
+        185
+      ],
+      "input_text_ref": {
+        "target_id": "t-a23410801ed70080e53c6d7d",
+        "content_sha256": "805d97cf964946c4f8117fea071c98c96bad56822c60338df3cc4c884ee80e9c",
+        "source": "segments",
+        "range": [
+          103,
+          181
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "迷了沙",
+          "note": "“迷了傻”疑为“迷了沙”，参考字幕有“目光里的沙”。",
+          "evidence_labels": [
+            "t3509:s23"
+          ]
+        }
+      ],
+      "start": 122720,
+      "end": 153520,
+      "input_unit_labels": [
+        "t2653:s10",
+        "t2653:s11",
+        "t2653:s12",
+        "t2653:s13"
+      ],
+      "range": [
+        187,
+        243
+      ],
+      "input_text_ref": {
+        "target_id": "t-a23410801ed70080e53c6d7d",
+        "content_sha256": "805d97cf964946c4f8117fea071c98c96bad56822c60338df3cc4c884ee80e9c",
+        "source": "segments",
+        "range": [
+          181,
+          237
+        ]
+      }
+    },
+    {
+      "issues": [],
+      "start": 154080,
+      "end": 172240,
+      "input_unit_labels": [
+        "t2653:s14",
+        "t2653:s15",
+        "t2653:s16"
+      ],
+      "range": [
+        245,
+        295
+      ],
+      "input_text_ref": {
+        "target_id": "t-a23410801ed70080e53c6d7d",
+        "content_sha256": "805d97cf964946c4f8117fea071c98c96bad56822c60338df3cc4c884ee80e9c",
+        "source": "segments",
+        "range": [
+          237,
+          286
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "扫云空雨歇，只听见",
+          "note": "“搜云空雨闲，指天间凄”按上下文及参考字幕整理为“扫云空雨歇，只听见凄”，待核。",
+          "evidence_labels": [
+            "t2653:s18",
+            "t3509:s38"
+          ]
+        }
+      ],
+      "start": 173200,
+      "end": 194510,
+      "input_unit_labels": [
+        "t2653:s17",
+        "t2653:s18",
+        "t2653:s19"
+      ],
+      "range": [
+        297,
+        330
+      ],
+      "input_text_ref": {
+        "target_id": "t-a23410801ed70080e53c6d7d",
+        "content_sha256": "805d97cf964946c4f8117fea071c98c96bad56822c60338df3cc4c884ee80e9c",
+        "source": "segments",
+        "range": [
+          286,
+          319
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "屋漏",
+          "note": "“五楼”疑为“屋漏”，按“沾湿长夜”语义整理。",
+          "evidence_labels": [
+            "t2653:s20",
+            "t3509:s40"
+          ]
+        },
+        {
+          "candidate": "下者飘零，躺卧荒野，上者挂林间",
+          "note": "“下着飘零，躺好荒野，上这挂林间”字句不清，暂整理为“下者飘零，躺卧荒野，上者挂林间”。",
+          "evidence_labels": [
+            "t2653:s21",
+            "t3509:s41"
+          ]
+        },
+        {
+          "candidate": "入竹去",
+          "note": "“如住去”疑为“入竹去”，与杜甫《茅屋为秋风所破歌》语境相符，待核。",
+          "evidence_labels": [
+            "t2653:s24",
+            "t3509:s44"
+          ]
+        },
+        {
+          "candidate": "安得广厦千万间",
+          "note": "“安得广厦千万”据原诗补为“千万间”。",
+          "evidence_labels": [
+            "t3509:s46"
+          ]
+        }
+      ],
+      "start": 194510,
+      "end": 241870,
+      "input_unit_labels": [
+        "t2653:s20",
+        "t2653:s21",
+        "t2653:s22",
+        "t2653:s23",
+        "t2653:s24"
+      ],
+      "range": [
+        332,
+        424
+      ],
+      "input_text_ref": {
+        "target_id": "t-a23410801ed70080e53c6d7d",
+        "content_sha256": "805d97cf964946c4f8117fea071c98c96bad56822c60338df3cc4c884ee80e9c",
+        "source": "segments",
+        "range": [
+          319,
+          406
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "忍能对面为盗贼",
+          "note": "“谁能对面对盗贼”按杜诗及上下文整理为“忍能对面为盗贼”，待核。",
+          "evidence_labels": [
+            "t2653:s25",
+            "t3509:s51"
+          ]
+        }
+      ],
+      "start": 241950,
+      "end": 273150,
+      "input_unit_labels": [
+        "t2653:s25",
+        "t2653:s26",
+        "t2653:s27",
+        "t2653:s28",
+        "t2653:s29"
+      ],
+      "range": [
+        426,
+        481
+      ],
+      "input_text_ref": {
+        "target_id": "t-a23410801ed70080e53c6d7d",
+        "content_sha256": "805d97cf964946c4f8117fea071c98c96bad56822c60338df3cc4c884ee80e9c",
+        "source": "segments",
+        "range": [
+          406,
+          461
+        ]
+      }
+    },
+    {
+      "issues": [],
+      "start": 276430,
+      "end": 284510,
+      "input_unit_labels": [
+        "t2653:s30"
+      ],
+      "range": [
+        483,
+        522
+      ],
+      "input_text_ref": {
+        "target_id": "t-a23410801ed70080e53c6d7d",
+        "content_sha256": "805d97cf964946c4f8117fea071c98c96bad56822c60338df3cc4c884ee80e9c",
+        "source": "text",
+        "range": [
+          491,
+          529
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "model": {
+    "name": "deepseek-v4.1-flash"
+  },
+  "time_unit": "ms",
+  "text": "轻轻笑声，在为我送温暖，你为我注入快乐强电。轻轻说声，漫长路快要走过，终于走到明媚晴天。\n\n声声欢呼跃起，像红日发放金箭；我伴你往日笑面重现。轻轻叫声，共抬望眼看高空，终于青天优美为你献。\n\n拥着你，当初温馨再涌现；心里边，童年稚气梦未污染。今日我与你又试肩并肩，当年情此刻是添上新鲜。\n\n一望你，眼里温馨已通电；心里边，从前梦一点未改变。今日我与你又试肩并肩，当年情再度添上新鲜。\n\n声声欢呼跃起，像红日发放金箭；我伴你往日笑面重现。轻轻叫声，共抬望眼看高空，终于青天优美为你献。\n\n拥着你，当初温馨再涌现；心里边，童年稚气梦未污染。今日我与你又试肩并肩，当年情此刻是添上新鲜。\n\n一望你，眼里温馨已通电；心里边，从前梦一点未改变。今日我与你又试肩并肩，当年情再度添上新鲜。\n",
+  "quality": {
+    "is_fully_human_reviewed": false,
+    "requires_review": true,
+    "status": "needs_review"
+  },
+  "id": "r-be65973c75063bcb8ee2ddb6",
+  "kind": "edited_transcript",
+  "metadata": {
+    "revision_id": [
+      "9436a808bf050c6dc1021b903f21d9105a8a520412247c1c80cc5d0596892808"
+    ],
+    "input_id": [
+      "bccc8ccb5c12c2875a7da9343d73860e92c6d3cfff0a6ce70caaa683889ce5ec"
+    ],
+    "generated_at_unix_seconds": [
+      1793642846
+    ]
+  },
+  "is_complete": true,
+  "notes_markdown": "# 【有谁共鸣】翻唱，追忆张国荣：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`9436a808bf050c6dc1021b903f21d9105a8a520412247c1c80cc5d0596892808`\n\n输入快照：`bccc8ccb5c12c2875a7da9343d73860e92c6d3cfff0a6ce70caaa683889ce5ec`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`1853`；参考转录：`3011`",
+  "_legacy": {
+    "table": "edited_transcripts",
+    "keys": [
+      "id",
+      "is_complete",
+      "item_id",
+      "kind",
+      "metadata",
+      "model",
+      "notes_markdown",
+      "paragraphs",
+      "paragraphs_match_text",
+      "quality",
+      "schema_version",
+      "text",
+      "time_unit",
+      "transcript_ids"
+    ],
+    "derived": [
+      "paragraphs_match_text"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-605cec08425181064fb0c8b8"
+    },
+    {
+      "role": "transcript",
+      "target_id": "t-c88a1e4afd5fb1f1ed5c4295"
+    }
+  ],
+  "blocks": [
+    {
+      "issues": [
+        {
+          "candidate": "快乐强电",
+          "note": "“快乐泉源”按全篇“通电”的语境疑为“快乐强电”，此句无对应参考字幕。",
+          "evidence_labels": [
+            "t1853:s0"
+          ]
+        },
+        {
+          "candidate": "轻轻说声",
+          "note": "“轻轻笑声”在本句疑为“轻轻说声”，参考字幕亦作“笑声”。",
+          "evidence_labels": [
+            "t1853:s1",
+            "t3011:s2"
+          ]
+        }
+      ],
+      "start": 46400,
+      "end": 54240,
+      "input_unit_labels": [
+        "t1853:s0",
+        "t1853:s1"
+      ],
+      "range": [
+        0,
+        44
+      ],
+      "input_text_ref": {
+        "target_id": "t-c88a1e4afd5fb1f1ed5c4295",
+        "content_sha256": "0fea0ba97d643bd8d5f4b6e46d87b909746fbfb6896b358f5c579432723d2f56",
+        "source": "segments",
+        "range": [
+          0,
+          42
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "青天",
+          "note": "“晴天”与歌词中“青天”存在异文，正文取“青天”。",
+          "evidence_labels": [
+            "t3011:s9",
+            "t3011:s10"
+          ]
+        }
+      ],
+      "start": 54720,
+      "end": 80080,
+      "input_unit_labels": [
+        "t1853:s2",
+        "t1853:s3",
+        "t1853:s4"
+      ],
+      "range": [
+        46,
+        94
+      ],
+      "input_text_ref": {
+        "target_id": "t-c88a1e4afd5fb1f1ed5c4295",
+        "content_sha256": "0fea0ba97d643bd8d5f4b6e46d87b909746fbfb6896b358f5c579432723d2f56",
+        "source": "segments",
+        "range": [
+          42,
+          89
+        ]
+      }
+    },
+    {
+      "issues": [],
+      "start": 80080,
+      "end": 104960,
+      "input_unit_labels": [
+        "t1853:s5",
+        "t1853:s6",
+        "t1853:s7",
+        "t1853:s8"
+      ],
+      "range": [
+        96,
+        143
+      ],
+      "input_text_ref": {
+        "target_id": "t-c88a1e4afd5fb1f1ed5c4295",
+        "content_sha256": "0fea0ba97d643bd8d5f4b6e46d87b909746fbfb6896b358f5c579432723d2f56",
+        "source": "segments",
+        "range": [
+          89,
+          134
+        ]
+      }
+    },
+    {
+      "issues": [],
+      "start": 105040,
+      "end": 136800,
+      "input_unit_labels": [
+        "t1853:s9",
+        "t1853:s10",
+        "t1853:s11",
+        "t1853:s12"
+      ],
+      "range": [
+        145,
+        191
+      ],
+      "input_text_ref": {
+        "target_id": "t-c88a1e4afd5fb1f1ed5c4295",
+        "content_sha256": "0fea0ba97d643bd8d5f4b6e46d87b909746fbfb6896b358f5c579432723d2f56",
+        "source": "segments",
+        "range": [
+          134,
+          178
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "青天",
+          "note": "“晴天”与歌词中“青天”存在异文，正文取“青天”。",
+          "evidence_labels": [
+            "t3011:s28"
+          ]
+        }
+      ],
+      "start": 136800,
+      "end": 188671,
+      "input_unit_labels": [
+        "t1853:s13",
+        "t1853:s14"
+      ],
+      "range": [
+        193,
+        241
+      ],
+      "input_text_ref": {
+        "target_id": "t-c88a1e4afd5fb1f1ed5c4295",
+        "content_sha256": "0fea0ba97d643bd8d5f4b6e46d87b909746fbfb6896b358f5c579432723d2f56",
+        "source": "segments",
+        "range": [
+          178,
+          225
+        ]
+      }
+    },
+    {
+      "issues": [],
+      "start": 188671,
+      "end": 218751,
+      "input_unit_labels": [
+        "t1853:s15",
+        "t1853:s16",
+        "t1853:s17"
+      ],
+      "range": [
+        243,
+        290
+      ],
+      "input_text_ref": {
+        "target_id": "t-c88a1e4afd5fb1f1ed5c4295",
+        "content_sha256": "0fea0ba97d643bd8d5f4b6e46d87b909746fbfb6896b358f5c579432723d2f56",
+        "source": "segments",
+        "range": [
+          225,
+          272
+        ]
+      }
+    },
+    {
+      "issues": [],
+      "start": 218831,
+      "end": 243551,
+      "input_unit_labels": [
+        "t1853:s18",
+        "t1853:s19",
+        "t1853:s20",
+        "t1853:s21"
+      ],
+      "range": [
+        292,
+        338
+      ],
+      "input_text_ref": {
+        "target_id": "t-c88a1e4afd5fb1f1ed5c4295",
+        "content_sha256": "0fea0ba97d643bd8d5f4b6e46d87b909746fbfb6896b358f5c579432723d2f56",
+        "source": "segments",
+        "range": [
+          272,
+          318
+        ]
+      }
+    }
+  ]
+}

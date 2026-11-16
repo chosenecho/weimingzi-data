@@ -1,0 +1,377 @@
+{
+  "model": {
+    "name": "deepseek-v4.1-flash"
+  },
+  "time_unit": "ms",
+  "text": "心思惹人笑，绝非所谓佳人。却又何必问，早零落在风尘。听一曲花亭，何地不须恨；莫学那做古人，负了良辰。\n\n心思惹人笑，不爱所谓温存。却又何必问，早遗失了伤痕。今一朝乘风归去，不须恨；莫学那多情人，空对寒樽。\n\n一笑新月同影，千载成空何如？长歌一曲，沧浪一曲，我心无奈从容。江东渭北，寒樽与谁同？春去秋来，莲花清露浓。听一曲花亭何里，抚慰谁人心？在人间，风波难平。\n\n心思惹人笑，不爱所谓温存。却又何必问，早已失了伤痕。今一朝乘风归去，不须恨；莫学那多情人，空对寒樽。一笑新月同影，千载成空何如？\n\n长歌一曲，沧浪一曲，我心无奈从容。江东渭北，寒樽与谁同？春去秋来，莲花清露浓。听一曲花亭何里，抚慰谁人心？在人间，风波难平。无奈千载成空，来去都从容。\n\n听一曲花亭何里，抚慰谁人心？在人间，风波难平。长歌一曲，沧浪一曲，无痕无痕。\n\n哎，唱到后面没力气了，然后破音了，人家不要管啊。这歌本来就是让女孩子唱的，叫《琴姬》，就是以这个弹琴的歌姬的第一人称口吻来写的哈。\n",
+  "quality": {
+    "is_fully_human_reviewed": false,
+    "requires_review": true,
+    "status": "needs_review"
+  },
+  "id": "r-0074aedc6a446e0283a9f4ab",
+  "kind": "edited_transcript",
+  "metadata": {
+    "revision_id": [
+      "b4ecf04e4e2758c94f5f28eabc027af38f78a891e20b84889043002711f6ed02"
+    ],
+    "input_id": [
+      "c1a00d0c517e995fe783a9739f859a775f6880bdbc8c93eb7b9c4b5e13e8a2e8"
+    ],
+    "generated_at_unix_seconds": [
+      1793641446
+    ]
+  },
+  "is_complete": true,
+  "notes_markdown": "# 【原曲翻唱】琴姬：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`b4ecf04e4e2758c94f5f28eabc027af38f78a891e20b84889043002711f6ed02`\n\n输入快照：`c1a00d0c517e995fe783a9739f859a775f6880bdbc8c93eb7b9c4b5e13e8a2e8`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2624`；参考转录：`3529`",
+  "_legacy": {
+    "table": "edited_transcripts",
+    "keys": [
+      "id",
+      "is_complete",
+      "item_id",
+      "kind",
+      "metadata",
+      "model",
+      "notes_markdown",
+      "paragraphs",
+      "paragraphs_match_text",
+      "quality",
+      "schema_version",
+      "text",
+      "time_unit",
+      "transcript_ids"
+    ],
+    "derived": [
+      "paragraphs_match_text"
+    ]
+  },
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-043c209fdeef4b6657b6b8e5"
+    },
+    {
+      "role": "transcript",
+      "target_id": "t-f12e834f1e6d9ff0d6b63334"
+    }
+  ],
+  "blocks": [
+    {
+      "issues": [
+        {
+          "candidate": "心思惹人笑",
+          "note": "首句“心思”系据后文重复句校正，原段为“心似”，单凭本句读音仍有不确定性。",
+          "evidence_labels": [
+            "t3529:s2"
+          ]
+        },
+        {
+          "candidate": "听一曲花亭，何地不须恨",
+          "note": "“听一曲花亭，何地不须恨”的分句和“花亭”二字不确定，参考字幕亦作“听一句话/亭合理”，保留可读整理。",
+          "evidence_labels": [
+            "t3529:s5",
+            "t3529:s6"
+          ]
+        },
+        {
+          "candidate": "莫学那做故人",
+          "note": "“莫学那做古人”中“做”字可疑，可能为“故人”等，未敢据参考字幕改定。",
+          "evidence_labels": [
+            "t3529:s7",
+            "t3529:s8",
+            "t3529:s9"
+          ]
+        }
+      ],
+      "start": 27360,
+      "end": 52320,
+      "input_unit_labels": [
+        "t2624:s0",
+        "t2624:s1",
+        "t2624:s2",
+        "t2624:s3"
+      ],
+      "range": [
+        0,
+        50
+      ],
+      "input_text_ref": {
+        "target_id": "t-f12e834f1e6d9ff0d6b63334",
+        "content_sha256": "8724933697812d9e340b1b0c3969b1bc9e6ac659db7e876e2d6dcf1e6bd25d21",
+        "source": "segments",
+        "range": [
+          0,
+          48
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "不爱所谓温存",
+          "note": "“不爱所谓温存”的否定词依据原段；参考字幕作“吾爱”，二者语义相反，需复核。",
+          "evidence_labels": [
+            "t3529:s11"
+          ]
+        },
+        {
+          "candidate": "早已失了伤痕",
+          "note": "“早遗失了伤痕”参考字幕作“早已失的伤痕”，具体是“遗失”还是“已失”未能确定。",
+          "evidence_labels": [
+            "t3529:s12"
+          ]
+        }
+      ],
+      "start": 54400,
+      "end": 77600,
+      "input_unit_labels": [
+        "t2624:s4",
+        "t2624:s5",
+        "t2624:s6",
+        "t2624:s7"
+      ],
+      "range": [
+        52,
+        102
+      ],
+      "input_text_ref": {
+        "target_id": "t-f12e834f1e6d9ff0d6b63334",
+        "content_sha256": "8724933697812d9e340b1b0c3969b1bc9e6ac659db7e876e2d6dcf1e6bd25d21",
+        "source": "segments",
+        "range": [
+          48,
+          96
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "一笑新月同影",
+          "note": "“一笑新月同影”中“新月/心月”难辨，参考字幕作“心越痛”等，暂取“新月”。",
+          "evidence_labels": [
+            "t3529:s16",
+            "t3529:s17",
+            "t3529:s18"
+          ]
+        },
+        {
+          "candidate": "江东渭北",
+          "note": "“江东渭北”系据参考字幕校正原段“为北”，但字幕亦有“微北”，地名仍可复核。",
+          "evidence_labels": [
+            "t3529:s21",
+            "t3529:s22"
+          ]
+        },
+        {
+          "candidate": "莲花清露浓",
+          "note": "“莲花清露浓”系据参考字幕校正原段“菱花镜露浓”，具体花名未能完全确认。",
+          "evidence_labels": [
+            "t3529:s23",
+            "t3529:s24"
+          ]
+        },
+        {
+          "candidate": "听一曲花亭何里，抚慰谁人心",
+          "note": "“听一曲花亭何里，抚慰谁人心”系据后文重复句整理，原段作“何地不为谁人心”，分句和字词仍有不确定。",
+          "evidence_labels": [
+            "t3529:s25",
+            "t3529:s26",
+            "t3529:s27"
+          ]
+        }
+      ],
+      "start": 80960,
+      "end": 135280,
+      "input_unit_labels": [
+        "t2624:s8",
+        "t2624:s9",
+        "t2624:s10",
+        "t2624:s11",
+        "t2624:s12",
+        "t2624:s13"
+      ],
+      "range": [
+        104,
+        180
+      ],
+      "input_text_ref": {
+        "target_id": "t-f12e834f1e6d9ff0d6b63334",
+        "content_sha256": "8724933697812d9e340b1b0c3969b1bc9e6ac659db7e876e2d6dcf1e6bd25d21",
+        "source": "segments",
+        "range": [
+          96,
+          167
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "早已失了伤痕",
+          "note": "“早已失了伤痕”参考字幕作“早已逝的伤痕轻”，此处只按原段整理，未改“失”字。",
+          "evidence_labels": [
+            "t3529:s33"
+          ]
+        },
+        {
+          "candidate": "莫学那多情人",
+          "note": "“莫学那多情人”原段作“多情远”，参考字幕亦不清，暂按前文重复句作“多情人”。",
+          "evidence_labels": [
+            "t3529:s36",
+            "t3529:s37"
+          ]
+        },
+        {
+          "candidate": "一笑新月同影",
+          "note": "“一笑新月同影”中“新月”与后段“心月”存在异文，暂统一为“新月”。",
+          "evidence_labels": [
+            "t3529:s38",
+            "t3529:s39"
+          ]
+        }
+      ],
+      "start": 182836,
+      "end": 220676,
+      "input_unit_labels": [
+        "t2624:s14",
+        "t2624:s15",
+        "t2624:s16",
+        "t2624:s17",
+        "t2624:s18"
+      ],
+      "range": [
+        182,
+        246
+      ],
+      "input_text_ref": {
+        "target_id": "t-f12e834f1e6d9ff0d6b63334",
+        "content_sha256": "8724933697812d9e340b1b0c3969b1bc9e6ac659db7e876e2d6dcf1e6bd25d21",
+        "source": "segments",
+        "range": [
+          167,
+          229
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "听一曲花亭何里，抚慰谁人心",
+          "note": "“听一曲花亭何里，抚慰谁人心”原段作“画听何里”，字词不确定，暂按前后重复句整理。",
+          "evidence_labels": [
+            "t3529:s47",
+            "t3529:s48"
+          ]
+        },
+        {
+          "candidate": "无奈千载成空",
+          "note": "“无奈千载成空”参考字幕作“成功”，按前后文义和原段取“成空”。",
+          "evidence_labels": [
+            "t3529:s51"
+          ]
+        }
+      ],
+      "start": 222916,
+      "end": 275796,
+      "input_unit_labels": [
+        "t2624:s19",
+        "t2624:s20",
+        "t2624:s21",
+        "t2624:s22",
+        "t2624:s23",
+        "t2624:s24"
+      ],
+      "range": [
+        248,
+        323
+      ],
+      "input_text_ref": {
+        "target_id": "t-f12e834f1e6d9ff0d6b63334",
+        "content_sha256": "8724933697812d9e340b1b0c3969b1bc9e6ac659db7e876e2d6dcf1e6bd25d21",
+        "source": "segments",
+        "range": [
+          229,
+          300
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "听一曲花亭何里，抚慰谁人心",
+          "note": "“听一曲花亭何里，抚慰谁人心”原段作“画听何里”，此处沿用前文整理，具体字词仍可复核。",
+          "evidence_labels": [
+            "t3529:s53",
+            "t3529:s54"
+          ]
+        },
+        {
+          "candidate": "无痕无痕",
+          "note": "“无痕无痕”为原段重复，可能是有意叠词，也可能是演唱重复，未删。",
+          "evidence_labels": [
+            "t3529:s56"
+          ]
+        }
+      ],
+      "start": 276996,
+      "end": 304276,
+      "input_unit_labels": [
+        "t2624:s25",
+        "t2624:s26",
+        "t2624:s27"
+      ],
+      "range": [
+        325,
+        363
+      ],
+      "input_text_ref": {
+        "target_id": "t-f12e834f1e6d9ff0d6b63334",
+        "content_sha256": "8724933697812d9e340b1b0c3969b1bc9e6ac659db7e876e2d6dcf1e6bd25d21",
+        "source": "segments",
+        "range": [
+          300,
+          334
+        ]
+      }
+    },
+    {
+      "issues": [
+        {
+          "candidate": "大家不要管啊",
+          "note": "“人家不要管啊”中的主语/对象不清，可能为“大家不要管啊”等，未敢改。",
+          "evidence_labels": [
+            "t3529:s59"
+          ]
+        },
+        {
+          "candidate": "琴姬",
+          "note": "曲名“琴姬”系据语境整理，参考字幕作“情基”，具体字形待核。",
+          "evidence_labels": [
+            "t3529:s61"
+          ]
+        }
+      ],
+      "start": 314116,
+      "end": 325956,
+      "input_unit_labels": [
+        "t2624:s28",
+        "t2624:s29"
+      ],
+      "range": [
+        365,
+        430
+      ],
+      "input_text_ref": {
+        "target_id": "t-f12e834f1e6d9ff0d6b63334",
+        "content_sha256": "8724933697812d9e340b1b0c3969b1bc9e6ac659db7e876e2d6dcf1e6bd25d21",
+        "source": "segments",
+        "range": [
+          334,
+          404
+        ]
+      }
+    }
+  ]
+}

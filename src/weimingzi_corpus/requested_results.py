@@ -16,11 +16,11 @@ from .records import (
     iter_records,
     json_sha256,
     make_record_id,
-    resolve_repository_path,
     transcript_hash_input,
     validate_corpus,
     validate_relative_path,
-    write_json,
+    install_candidate_updates,
+    write_record_updates,
 )
 from .exports import render_subtitles
 
@@ -292,29 +292,10 @@ def import_requested_results(root: Path, source: Path) -> dict:
     cache.mkdir(exist_ok=True)
     with tempfile.TemporaryDirectory(prefix="package-", dir=cache) as name:
         candidate = Path(name)
-        for folder in ("data", "selections"):
-            shutil.copytree(root / folder, candidate / folder, copy_function=os.link)
-        for table, rows in new.items():
-            for row in rows:
-                write_json(
-                    resolve_repository_path(
-                        candidate, f"data/{table}/{row['id']}.json"
-                    ),
-                    row,
-                )
+        shutil.copytree(root / "data", candidate / "data", copy_function=os.link)
+        changed_paths = write_record_updates(candidate, new)
         validate_corpus(candidate)
-        added = []
-        try:
-            for table, rows in new.items():
-                for row in rows:
-                    relative = f"data/{table}/{row['id']}.json"
-                    destination = resolve_repository_path(root, relative)
-                    os.replace(candidate / relative, destination)
-                    added.append(destination)
-        except OSError:
-            for path in reversed(added):
-                path.unlink()
-            raise
+        install_candidate_updates(root, candidate, changed_paths)
     return {
         "inserted": {table: len(rows) for table, rows in new.items()},
         "record_ids": {

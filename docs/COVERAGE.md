@@ -7,7 +7,7 @@ coverage 查询视频、分 P 或独立录音，保留每份基础转录和整�
     python tools/corpus.py coverage BV1oq4y1q7rg --part 1 --include-records --output .cache/a.json
     python tools/corpus.py coverage BV1dA411T7xD --format jsonl --include-records --output .cache/a.jl
 
-JSON 报告包含 scope_item_ids、四层关联、逐层计数和 summary；JSONL 每行包含查询条目、关联层及一份记录。加 --include-records 后，每个结果的 record 是未经改写的完整规范记录，包括正文、输入参照、附注、校对标注和质量快照。相同记录可能出现在不同证据层；各层按 ID 去重，summary.related 跨层按 ID 去重。此导出不选择“最佳版本”，也不更改训练选稿。
+JSON 报告包含 scope_item_ids、四层关联、逐层计数和 summary；JSONL 每行包含查询条目、关联层及一份记录。加 `--include-records` 后，每个结果的 `record` 保留旧逻辑表的完整字段语义，包括正文、输入参照、附注、校对标注和质量快照；读取 v3 时由四实体无损投影，`record` 不是原生文档 JSON。结果中的 `record_path` 指向实际维护文件，v3 为 `data/documents/<id>.json`，其中使用 `blocks`、`inputs` 等原生字段。相同记录可能出现在不同证据层；各层按 ID 去重，summary.related 跨层按 ID 去重。此导出不选择“最佳版本”，也不更改训练选稿。
 
 | 层 | 依据 | 范围 |
 | --- | --- | --- |
