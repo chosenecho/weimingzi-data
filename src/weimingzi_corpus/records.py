@@ -794,5 +794,6 @@ def validate_corpus(root: Path) -> dict:
             )
             raise ValueError(f"Release projection is inconsistent: {detail}")
         counts["release_items"] = report["counts"]["items"]
+        counts["release_transcripts"] = report["counts"]["transcripts_included"]
         counts["release_paragraphs"] = report["counts"]["paragraphs"]
     return dict(sorted(counts.items()))

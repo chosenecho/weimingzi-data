@@ -1,8 +1,8 @@
-# 发布视图
+# 发布视图（release_transcripts）
 
-发布视图（release view）是把 `data/` 投影成「每个条目一份整理稿、已应用人工确认」的段落表，供检索、导出和后续数据集使用。它是一层只读投影，不是第二份真源：`selections/release.json` 只存指针，段落正文每次从 `data/edited_transcripts/` 重建。
+发布视图把 `data/` 投影成「每个条目一份整理稿、只收没有疑点的段落、并应用人工确认」的发布文本集合，也就是 release_transcripts：**没有疑点的段落 + 被确认定案的段落**。它是一层只读投影，不是第二份真源：`selections/release.json` 只存指针，段落正文每次从 `data/edited_transcripts/` 重建。
 
-发布视图不等于人工复核。段落上的 `issue_state` 来自整理稿自带的模型校对标注；仓库中没有任何记录声明 `is_fully_human_reviewed=true`。
+发布视图不等于人工复核。段落上的 `issue_state=clean` 只表示模型没有报疑点；`confirmed` 只表示该段有一处人工确认。仓库中没有任何记录声明 `is_fully_human_reviewed=true`。
 
 ## 为什么需要这一层
 
@@ -16,6 +16,7 @@
 {
   "schema_version": 2,
   "policy_version": "release-1",
+  "policy": "clean",
   "generated_from_commit": "<生成时读取数据的 commit>",
   "items": [
     {
@@ -28,7 +29,14 @@
 }
 ```
 
-只为「多份稿的条目」和「带确认的条目」写条目（当前 30 条）。单稿无确认的条目不需要指针，按唯一整理稿处理。`excluded_paragraphs` 存段落 index，默认留空；排除只影响投影，不删记录。
+每个有整理稿的条目都有一条记录（当前 1989 条），因此这份文件本身就是 release_transcripts 的清单：`head_edited_id` 是进入发布的整理稿，其余版本不进入。`excluded_paragraphs` 存段落 index，默认留空；排除只影响投影，不删记录。
+
+## 收录策略
+
+- `policy=clean`（默认）：只收**没有校对标注（issues 为空）的段落**，外加**被确认定案的段落**（即使该段带标注）。当前 76359 段 = 76354 段无标注 + 5 段由确认定案，丢弃 41081 段带疑点的段落。
+- `policy=full`：收全部 head 段落，用 `issue_state=flagged` 标出带疑点的段落，不丢弃。
+
+两种策略共用同一份指针与同一套 head 规则，只在投影时过滤。
 
 ## head 规则
 
@@ -64,17 +72,17 @@ head = 该条目下 `metadata.revision_id` 存在、且没有被组内任何 `de
 
 ```sh
 python tools/release.py check
-python tools/release.py init-selection          # 首次按 head 规则生成 selections/release.json，已存在则拒绝覆盖
-python tools/release.py export --output .cache/exports/release_paragraphs.jsonl
+python tools/release.py init-selection --force   # 重建清单；写入每个有整理稿的条目
+python tools/release.py export --output .cache/exports/release_paragraphs.jsonl [--policy clean|full]
 ```
 
 `export` 输出段落级 JSONL 并写同名 `.manifest.json`（含 `selection_sha256`、`release_paragraphs_sha256`、计数和 `review_basis` 说明）。导出是派生物，不入库；需要分发时由 `chosenecho/weimingzi-datasets` 承载。
 
 ## 导出字段
 
-`release_schema_version`、`policy_version`、`item_id`、`item_title`、`source_url`、`edited_id`、`paragraph_id`（`<edited_id>:p<index>`）、`paragraph_index`、`time_unit`（恒 `ms`）、`start_ms`、`end_ms`、`text`、`issue_state`（`clean` / `flagged`）、`issue_count`、`applied_confirmation_ids`、`review_basis`（`model_flagged_clean` / `model_flagged_with_notes`）。
+`release_schema_version`、`policy_version`、`policy`、`item_id`、`item_title`、`source_url`、`edited_id`、`paragraph_id`（`<edited_id>:p<index>`）、`paragraph_index`、`time_unit`（恒 `ms`）、`start_ms`、`end_ms`、`text`、`issue_state`（`clean` / `confirmed` / 仅 `full` 下出现 `flagged`）、`issue_count`、`applied_confirmation_ids`、`review_basis`（`model_flagged_clean` / `human_confirmed_local` / `model_flagged_with_notes`）。
 
-当前投影：1989 个条目、117440 段（总 118775 段减去非 head 版本的 1335 段），其中 41086 段带校对标注。
+当前 `clean` 投影：1989 个条目、1951 份整理稿、76359 段（76354 无标注 + 5 由确认定案），另有 38 份稿的段落全部带疑点而不进入。
 
 ## 边界
 

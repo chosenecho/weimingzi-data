@@ -11,7 +11,8 @@ from weimingzi_corpus import release
 from weimingzi_corpus.records import write_json, write_jsonl
 
 
-def make_edited(record_id, item_id, texts, revision=True, derived_from=None, superseded_by=None):
+def make_edited(record_id, item_id, texts, revision=True, derived_from=None, superseded_by=None, issues=None):
+    issues = issues or {}
     record = {
         "id": record_id,
         "kind": "edited_transcript",
@@ -25,7 +26,7 @@ def make_edited(record_id, item_id, texts, revision=True, derived_from=None, sup
                 "text": text,
                 "input_text": text,
                 "input_unit_labels": [],
-                "issues": [],
+                "issues": issues.get(index, []),
                 "start": index * 1000,
                 "end": index * 1000 + 900,
             }
@@ -184,6 +185,39 @@ class ProjectionTests(unittest.TestCase):
         report = release.validate_release(self.root)
         self.assertEqual([error["code"] for error in report["errors"]], ["HEAD_NOT_UNIQUE"])
 
+    def write_flagged_corpus(self, with_confirmation=False):
+        head = make_edited("r-" + "b" * 24, "i-1", ["干净段", "原文句"], issues={1: [{"note": "疑点"}]})
+        write_json(self.root / "data" / "edited_transcripts" / (head["id"] + ".json"), head)
+        write_jsonl(
+            self.root / "data" / "items.jsonl",
+            [{"id": "i-1", "kind": "video_part", "schema_version": 2, "title": "示例", "urls": []}],
+        )
+        rows = []
+        if with_confirmation:
+            rows.append(make_confirmation("a-" + "1" * 24, "i-1", "原文句", "原文句改", [head["id"]]))
+        write_jsonl(self.root / "data" / "confirmations.jsonl", rows)
+        return head
+
+    def test_clean_policy_drops_flagged_paragraph(self):
+        head = self.write_flagged_corpus()
+        self.write_selection(head["id"])
+        report = release.validate_release(self.root)
+        self.assertEqual(report["counts"]["paragraphs"], 1)
+        self.assertEqual(report["counts"]["dropped_paragraphs"], 1)
+        self.assertEqual(report["counts"]["transcripts_included"], 1)
+        full = release.build_release(self.root, release.read_selection(self.root), policy="full")
+        self.assertEqual(len(full["rows"]), 2)
+        self.assertEqual(full["rows"][1]["issue_state"], "flagged")
+
+    def test_confirmed_paragraph_survives_clean_policy(self):
+        head = self.write_flagged_corpus(with_confirmation=True)
+        self.write_selection(head["id"], "a-" + "1" * 24)
+        built = release.build_release(self.root, release.read_selection(self.root))
+        self.assertEqual(len(built["rows"]), 2)
+        self.assertEqual(built["rows"][1]["issue_state"], "confirmed")
+        self.assertEqual(built["rows"][1]["text"], "原文句改")
+        self.assertEqual(built["counts"]["confirmed_paragraphs"], 1)
+
     def test_unlisted_confirmation_is_reported(self):
         head, _ = self.write_corpus()
         self.write_selection(head["id"])
@@ -202,6 +236,7 @@ class ProjectionTests(unittest.TestCase):
         output = self.root / "out" / "release_paragraphs.jsonl"
         manifest = release.write_release(self.root, output, built, selection)
         self.assertEqual(manifest["counts"]["paragraphs"], 1)
+        self.assertEqual(manifest["policy"], "clean")
         self.assertTrue(output.is_file())
         self.assertEqual(len(manifest["release_paragraphs_sha256"]), 64)
         row = json.loads(output.read_text(encoding="utf-8").strip())

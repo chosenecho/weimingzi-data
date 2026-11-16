@@ -22,7 +22,10 @@ SCHEMA_VERSION = 2
 POLICY_VERSION = "release-1"
 ROW_SCHEMA_VERSION = 1
 SELECTION_PATH = "selections/release.json"
+POLICIES = ("clean", "full")
+DEFAULT_POLICY = "clean"
 REVIEW_BASIS_CLEAN = "model_flagged_clean"
+REVIEW_BASIS_CONFIRMED = "human_confirmed_local"
 REVIEW_BASIS_FLAGGED = "model_flagged_with_notes"
 
 ERROR_CODES = (
@@ -272,7 +275,15 @@ def to_ms(value, unit) -> int:
     return value
 
 
-def build_release(root: Path, selection: dict) -> dict:
+def build_release(root: Path, selection: dict, policy: str = "clean") -> dict:
+    """Project the release view.
+
+    policy="clean" keeps only paragraphs without review issues plus paragraphs a
+    confirmation settles; policy="full" keeps every head paragraph and marks the
+    flagged ones instead of dropping them.
+    """
+    if policy not in POLICIES:
+        raise ValueError(f"unknown release policy: {policy}")
     edited = load_edited(root)
     confirmations = load_confirmations(root)
     items = load_items(root)
@@ -283,7 +294,9 @@ def build_release(root: Path, selection: dict) -> dict:
     rows = []
     applied_total = 0
     excluded_total = 0
-    flagged = 0
+    dropped_total = 0
+    confirmed_paragraphs = 0
+    transcripts_included = 0
     for item in sorted(heads):
         head = heads[item]
         record = edited[head]
@@ -294,22 +307,31 @@ def build_release(root: Path, selection: dict) -> dict:
             continue
         applied_total += len(applied)
         excluded = set(entry.get("excluded_paragraphs") or [])
+        settled = {step["paragraph_index"] for step in applied if step["paragraph_index"] is not None}
         texts = apply_text(record["paragraphs"], confirmations, applied)
         cited = [step["confirmation_id"] for step in applied]
         item_row = items.get(item, {})
         urls = item_row.get("urls") or []
         source_url = urls[0] if urls and isinstance(urls[0], str) else None
+        kept_in_item = 0
         for paragraph in record["paragraphs"]:
             index = paragraph["index"]
             if index in excluded:
                 excluded_total += 1
                 continue
             issues = paragraph.get("issues") or []
-            flagged += bool(issues)
+            is_settled = index in settled
+            if policy == "clean" and issues and not is_settled:
+                dropped_total += 1
+                continue
+            if issues and is_settled:
+                confirmed_paragraphs += 1
+            kept_in_item += 1
             rows.append(
                 {
                     "release_schema_version": ROW_SCHEMA_VERSION,
                     "policy_version": POLICY_VERSION,
+                    "policy": policy,
                     "item_id": item,
                     "item_title": item_row.get("title"),
                     "source_url": source_url,
@@ -320,25 +342,33 @@ def build_release(root: Path, selection: dict) -> dict:
                     "start_ms": to_ms(paragraph.get("start"), record.get("time_unit")),
                     "end_ms": to_ms(paragraph.get("end"), record.get("time_unit")),
                     "text": texts[index],
-                    "issue_state": "flagged" if issues else "clean",
+                    "issue_state": "clean" if not issues else ("confirmed" if is_settled else "flagged"),
                     "issue_count": len(issues),
                     "applied_confirmation_ids": cited,
-                    "review_basis": REVIEW_BASIS_FLAGGED if issues else REVIEW_BASIS_CLEAN,
+                    "review_basis": (
+                        REVIEW_BASIS_CLEAN
+                        if not issues
+                        else (REVIEW_BASIS_CONFIRMED if is_settled else REVIEW_BASIS_FLAGGED)
+                    ),
                 }
             )
+        if kept_in_item:
+            transcripts_included += 1
 
     counts = {
         "items": len(heads),
+        "transcripts_included": transcripts_included,
         "multi_version_items": sum(1 for ids in groups.values() if len(ids) > 1),
         "edited_transcripts": len(edited),
         "confirmations": len(confirmations),
         "paragraphs": len(rows),
-        "flagged_paragraphs": flagged,
+        "confirmed_paragraphs": confirmed_paragraphs,
+        "dropped_paragraphs": dropped_total,
         "excluded_paragraphs": excluded_total,
         "applied_confirmations": applied_total,
     }
     warnings = []
-    return {"rows": rows, "errors": errors, "warnings": warnings, "counts": counts}
+    return {"rows": rows, "errors": errors, "warnings": warnings, "counts": counts, "policy": policy}
 
 
 def git_head(root: Path) -> str | None:
@@ -364,6 +394,7 @@ def write_release(root: Path, output: Path, built: dict, selection: dict) -> dic
     manifest = {
         "schema_version": 1,
         "policy_version": POLICY_VERSION,
+        "policy": built.get("policy", DEFAULT_POLICY),
         "generated_from_commit": selection.get("generated_from_commit"),
         "selection_sha256": json_sha256(selection),
         "release_paragraphs_file": output.name,
@@ -371,8 +402,9 @@ def write_release(root: Path, output: Path, built: dict, selection: dict) -> dic
         "counts": built["counts"],
         "review_basis": {
             "clean": REVIEW_BASIS_CLEAN,
+            "confirmed": REVIEW_BASIS_CONFIRMED,
             "flagged": REVIEW_BASIS_FLAGGED,
-            "note": "Paragraph state is the model's own review flag, not human review; no record in data/ claims is_fully_human_reviewed=true.",
+            "note": "clean means the model reported no review issue; confirmed means a recorded confirmation settled that paragraph. Neither is human review of the whole transcript; no record in data/ claims is_fully_human_reviewed=true.",
         },
     }
     manifest_path = output.with_suffix(".manifest.json")
@@ -386,8 +418,6 @@ def build_selection(root: Path, edited: dict, confirmations: dict, groups: dict,
     for cid, row in confirmations.items():
         owned[row["item_id"]].append(cid)
     for item in sorted(heads):
-        if len(groups[item]) == 1 and not owned.get(item):
-            continue
         head = heads[item]
         record = edited[head]
         applied = []
@@ -408,6 +438,7 @@ def build_selection(root: Path, edited: dict, confirmations: dict, groups: dict,
     return {
         "schema_version": SCHEMA_VERSION,
         "policy_version": POLICY_VERSION,
+        "policy": DEFAULT_POLICY,
         "generated_from_commit": git_head(root),
         "items": entries,
     }
@@ -418,7 +449,7 @@ def validate_release(root: Path) -> dict:
     path = root / SELECTION_PATH
     if not path.is_file():
         return {"skipped": True, "errors": [], "warnings": [], "counts": {}}
-    built = build_release(root, read_selection(root))
+    built = build_release(root, read_selection(root), policy=DEFAULT_POLICY)
     return {
         "skipped": False,
         "errors": built["errors"],
@@ -447,15 +478,17 @@ def main(argv=None) -> int:
     commands.add_parser("check", help="validate release.json against data/")
     export = commands.add_parser("export", help="write paragraph-level release rows and a manifest")
     export.add_argument("--output", type=Path, required=True)
-    init = commands.add_parser("init-selection", help="bootstrap selections/release.json from the head rule")
+    export.add_argument("--policy", choices=POLICIES, default=DEFAULT_POLICY)
+    init = commands.add_parser("init-selection", help="write selections/release.json for every item")
     init.add_argument("--output", type=Path)
+    init.add_argument("--force", action="store_true", help="overwrite an existing selection")
     args = parser.parse_args(argv)
     root = args.root.resolve()
 
     selection = read_selection(root)
     if args.command == "init-selection":
         destination = (args.output or (root / SELECTION_PATH)).resolve()
-        if destination.exists():
+        if destination.exists() and not args.force:
             raise SystemExit(f"refusing to overwrite existing selection: {destination}")
         edited = load_edited(root)
         confirmations = load_confirmations(root)
@@ -472,7 +505,8 @@ def main(argv=None) -> int:
         print(json.dumps({"ok": True, "selection": str(destination), "entries": len(built_selection["items"])}, ensure_ascii=False))
         return 0
 
-    built = build_release(root, selection)
+    policy = getattr(args, "policy", DEFAULT_POLICY)
+    built = build_release(root, selection, policy=policy)
     if args.command == "check":
         print(json.dumps(summarise(built), ensure_ascii=False, indent=2))
         return 0 if not built["errors"] else 1
