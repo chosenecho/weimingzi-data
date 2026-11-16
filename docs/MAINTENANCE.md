@@ -103,7 +103,7 @@ python tools/release.py check
 python tools/release.py export --output .cache/exports/release_paragraphs.jsonl
 ```
 
-`init-selection` 只在首次生成指针时用，已存在会拒绝覆盖。head 规则、校验码和导出字段见[发布视图](RELEASE.md)。
+`init-selection` 用于首次生成清单；数据变动后加 `--force` 重建，不加则拒绝覆盖。head 规则、收录策略、校验码和导出字段见[发布视图](RELEASE.md)。
 
 ## 片段归属
 
