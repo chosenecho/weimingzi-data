@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【作词翻唱】转动的四季：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`e796a21fcaae0d4daa2b653c1fc684d065129cfd9101fbb791fa31130304293c`\n\n输入快照：`556fa5f5021cd683cb68b730ab6334c961aa48fe3077f200b8fc6065252236f0`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`1053`；参考转录：`1287`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -79,8 +57,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-af9f75af462b55c31cc38019",
-        "content_sha256": "f913794d9a90ad52f40dc46bb120d5a3d130dee5e834c59632be155dac5beb74",
-        "source": "segments",
+        "content_sha256": "103411cbbbe172f79019eba7faa27d9449de3c6bba43731958153265975b8a0d",
+        "source": "blocks",
         "range": [
           0,
           40
@@ -112,8 +90,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-af9f75af462b55c31cc38019",
-        "content_sha256": "f913794d9a90ad52f40dc46bb120d5a3d130dee5e834c59632be155dac5beb74",
-        "source": "segments",
+        "content_sha256": "103411cbbbe172f79019eba7faa27d9449de3c6bba43731958153265975b8a0d",
+        "source": "blocks",
         "range": [
           40,
           89
@@ -144,8 +122,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-af9f75af462b55c31cc38019",
-        "content_sha256": "f913794d9a90ad52f40dc46bb120d5a3d130dee5e834c59632be155dac5beb74",
-        "source": "segments",
+        "content_sha256": "103411cbbbe172f79019eba7faa27d9449de3c6bba43731958153265975b8a0d",
+        "source": "blocks",
         "range": [
           89,
           154
@@ -183,8 +161,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-af9f75af462b55c31cc38019",
-        "content_sha256": "f913794d9a90ad52f40dc46bb120d5a3d130dee5e834c59632be155dac5beb74",
-        "source": "segments",
+        "content_sha256": "103411cbbbe172f79019eba7faa27d9449de3c6bba43731958153265975b8a0d",
+        "source": "blocks",
         "range": [
           154,
           228
@@ -215,8 +193,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-af9f75af462b55c31cc38019",
-        "content_sha256": "f913794d9a90ad52f40dc46bb120d5a3d130dee5e834c59632be155dac5beb74",
-        "source": "segments",
+        "content_sha256": "103411cbbbe172f79019eba7faa27d9449de3c6bba43731958153265975b8a0d",
+        "source": "blocks",
         "range": [
           228,
           312
@@ -256,8 +234,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-af9f75af462b55c31cc38019",
-        "content_sha256": "f913794d9a90ad52f40dc46bb120d5a3d130dee5e834c59632be155dac5beb74",
-        "source": "segments",
+        "content_sha256": "103411cbbbe172f79019eba7faa27d9449de3c6bba43731958153265975b8a0d",
+        "source": "blocks",
         "range": [
           312,
           398

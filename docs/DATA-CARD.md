@@ -2,13 +2,13 @@
 
 本库汇集未明子的基础转录、整理稿、动态、专栏、集合和相关元数据。当前 schema v3 由 [schema.json](../data/schema.json) 声明。
 
-条目与集合位于 [items.jsonl](../data/items.jsonl)，文稿位于 [documents](../data/documents)。音频及归档等资产位于 [assets.jsonl](../data/assets.jsonl)，人工确认与片段归属位于 [annotations.jsonl](../data/annotations.jsonl)。数量及可恢复音频规模来自 [counts.json](counts.json)；计数仍使用基础转录、整理稿等逻辑分类，记录结构见 [SCHEMA.md](SCHEMA.md)。
+条目与集合位于 [items.jsonl](../data/items.jsonl)，文稿位于 [documents](../data/documents)。音频及归档等资产位于 [assets.jsonl](../data/assets.jsonl)，人工确认与片段归属位于 [annotations.jsonl](../data/annotations.jsonl)。数量及可恢复音频规模来自 [counts.json](counts.json)；计数按原生实体及 transcript、edited_transcript 等 kind 派生，记录结构见 [SCHEMA.md](SCHEMA.md)。
 
 基础转录包含字幕和语音识别结果，整理稿包含模型整理、局部输出及有限人工修订。同一内容可以关联多个结果；模型名、生成参数、原有疑点和质量状态保存在相应记录中。
 
 段落校对标注、整理附注和独立校验稿分别保存，见 [校对目录](catalog/reviews.md)。标注包含疑点、候选改法及修改说明，不表示所有条目都尚未解决。标注及参照稿数量由 [counts.json](counts.json) 生成；查阅和全量导出见 [查询说明](QUERY.md#查看校对标注)。
 
-`quality.is_fully_human_reviewed`、`requires_review`、`is_subtitle_export_enabled` 使用布尔值或 `null`：`false` 表示明确否，`null` 表示原数据未说明。训练选稿不能作为全文人工审核的凭据，确认记录只适用于锚定的字句或术语。
+`quality.is_fully_human_reviewed`、`requires_review`、`is_subtitle_export_enabled` 使用布尔值或 `null`：`false` 表示明确否，`null` 表示原数据未说明。查询纳入或使用某份资料不作为全文人工审核凭据，确认记录只适用于锚定的字句或术语。
 
 现存不完整整理稿和异常时间转录的数量分别列在计数文件的 `incomplete_edited_transcripts`、`timing_issue_transcripts`。其正文与时间原值仍保留；工具拒绝将不合要求的时间转换为字幕。
 
@@ -21,3 +21,5 @@
 动态保留原始富文本、转发对象和专栏关联。专栏同时保留已有富文本；带展开提示的页面通过质量字段说明。条目目录中仅有元数据的内容尚不具备正文，不能计为已有转录。
 
 使用、再发布或训练前请阅读 [内容权利说明](../CONTENT-RIGHTS.md)，并按实际用途筛选完整性、质量状态和人工确认范围。
+
+原始输入 `input_text`、`input_units`、来源摘要及当时质量快照是独立历史事实，不随上游新哈希或时间重写。现有 notes、识别块、模型、unknown/false/null 及原异常时间保留；当前时间异常按原值派生，不伪造修复。当前原生整理及证据见[实施记录](NATIVE-V3-CLEANUP.md)，实际验证状态以该记录为准。

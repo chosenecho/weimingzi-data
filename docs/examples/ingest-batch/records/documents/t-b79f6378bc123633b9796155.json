@@ -1,0 +1,46 @@
+{
+  "id": "t-b79f6378bc123633b9796155",
+  "kind": "transcript",
+  "inputs": [
+    {
+      "role": "item",
+      "target_id": "i-3262b7a621893b2fba1d80f0"
+    },
+    {
+      "role": "audio",
+      "target_id": "m-53b773b65438e16d42997558"
+    }
+  ],
+  "method": "asr_cloud",
+  "language": "zh",
+  "model": {
+    "name": "fixture-asr"
+  },
+  "time_unit": "ms",
+  "text": "原句😀。第二段。",
+  "blocks": [
+    {
+      "range": [
+        0,
+        4
+      ],
+      "start": 0,
+      "end": 1000
+    },
+    {
+      "range": [
+        4,
+        8
+      ],
+      "start": 1000,
+      "end": 2000
+    }
+  ],
+  "quality": {
+    "is_fully_human_reviewed": null,
+    "requires_review": true,
+    "is_subtitle_export_enabled": true
+  },
+  "metadata": {},
+  "content_sha256": "8a1d8d8685d5ffa02f4fba652396a8f1aa679b984315a800d9ab4570d8665cab"
+}

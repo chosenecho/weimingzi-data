@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【随便聊聊】如何看待陈腐者：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`c4b8ead9ab648a38509d6ff065d27218faa6133204fbebfaf6e124d13f8a0211`\n\n输入快照：`65ac0df710ada28ac0ce85d767a1dcd21e18ab9df2e1b66c123f1f053aa8de6f`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`419`；参考转录：`151`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -74,8 +52,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-d130f873d7c72f627cdfac89",
-        "content_sha256": "c784e6a6806b89f8a2dba380ea723ecc0c3759a875bc64ff98c102aa57dc263f",
-        "source": "segments",
+        "content_sha256": "652b680207eb4501768c4a0f34be5132dc0669fa99739461a9afb4ac8dc00a75",
+        "source": "blocks",
         "range": [
           0,
           207
@@ -99,8 +77,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-d130f873d7c72f627cdfac89",
-        "content_sha256": "c784e6a6806b89f8a2dba380ea723ecc0c3759a875bc64ff98c102aa57dc263f",
-        "source": "segments",
+        "content_sha256": "652b680207eb4501768c4a0f34be5132dc0669fa99739461a9afb4ac8dc00a75",
+        "source": "blocks",
         "range": [
           207,
           361
@@ -123,8 +101,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-d130f873d7c72f627cdfac89",
-        "content_sha256": "c784e6a6806b89f8a2dba380ea723ecc0c3759a875bc64ff98c102aa57dc263f",
-        "source": "segments",
+        "content_sha256": "652b680207eb4501768c4a0f34be5132dc0669fa99739461a9afb4ac8dc00a75",
+        "source": "blocks",
         "range": [
           361,
           464
@@ -145,8 +123,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-d130f873d7c72f627cdfac89",
-        "content_sha256": "c784e6a6806b89f8a2dba380ea723ecc0c3759a875bc64ff98c102aa57dc263f",
-        "source": "segments",
+        "content_sha256": "652b680207eb4501768c4a0f34be5132dc0669fa99739461a9afb4ac8dc00a75",
+        "source": "blocks",
         "range": [
           464,
           518
@@ -178,8 +156,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-d130f873d7c72f627cdfac89",
-        "content_sha256": "c784e6a6806b89f8a2dba380ea723ecc0c3759a875bc64ff98c102aa57dc263f",
-        "source": "segments",
+        "content_sha256": "652b680207eb4501768c4a0f34be5132dc0669fa99739461a9afb4ac8dc00a75",
+        "source": "blocks",
         "range": [
           518,
           678
@@ -216,8 +194,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-d130f873d7c72f627cdfac89",
-        "content_sha256": "c784e6a6806b89f8a2dba380ea723ecc0c3759a875bc64ff98c102aa57dc263f",
-        "source": "segments",
+        "content_sha256": "652b680207eb4501768c4a0f34be5132dc0669fa99739461a9afb4ac8dc00a75",
+        "source": "blocks",
         "range": [
           678,
           743
@@ -241,8 +219,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-d130f873d7c72f627cdfac89",
-        "content_sha256": "c784e6a6806b89f8a2dba380ea723ecc0c3759a875bc64ff98c102aa57dc263f",
-        "source": "segments",
+        "content_sha256": "652b680207eb4501768c4a0f34be5132dc0669fa99739461a9afb4ac8dc00a75",
+        "source": "blocks",
         "range": [
           743,
           874
@@ -285,8 +263,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-d130f873d7c72f627cdfac89",
-        "content_sha256": "c784e6a6806b89f8a2dba380ea723ecc0c3759a875bc64ff98c102aa57dc263f",
-        "source": "segments",
+        "content_sha256": "652b680207eb4501768c4a0f34be5132dc0669fa99739461a9afb4ac8dc00a75",
+        "source": "blocks",
         "range": [
           874,
           1132
@@ -324,8 +302,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-d130f873d7c72f627cdfac89",
-        "content_sha256": "c784e6a6806b89f8a2dba380ea723ecc0c3759a875bc64ff98c102aa57dc263f",
-        "source": "segments",
+        "content_sha256": "652b680207eb4501768c4a0f34be5132dc0669fa99739461a9afb4ac8dc00a75",
+        "source": "blocks",
         "range": [
           1132,
           1336
@@ -360,8 +338,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-d130f873d7c72f627cdfac89",
-        "content_sha256": "c784e6a6806b89f8a2dba380ea723ecc0c3759a875bc64ff98c102aa57dc263f",
-        "source": "segments",
+        "content_sha256": "652b680207eb4501768c4a0f34be5132dc0669fa99739461a9afb4ac8dc00a75",
+        "source": "blocks",
         "range": [
           1336,
           1463
@@ -387,8 +365,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-d130f873d7c72f627cdfac89",
-        "content_sha256": "c784e6a6806b89f8a2dba380ea723ecc0c3759a875bc64ff98c102aa57dc263f",
-        "source": "segments",
+        "content_sha256": "652b680207eb4501768c4a0f34be5132dc0669fa99739461a9afb4ac8dc00a75",
+        "source": "blocks",
         "range": [
           1463,
           1671
@@ -419,8 +397,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-d130f873d7c72f627cdfac89",
-        "content_sha256": "c784e6a6806b89f8a2dba380ea723ecc0c3759a875bc64ff98c102aa57dc263f",
-        "source": "segments",
+        "content_sha256": "652b680207eb4501768c4a0f34be5132dc0669fa99739461a9afb4ac8dc00a75",
+        "source": "blocks",
         "range": [
           1671,
           1727

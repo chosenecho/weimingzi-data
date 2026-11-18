@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【作词翻唱】花影：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`f977555b7f2ea08eb647ba1a1c623a178307730b640cf956398896dd5e5c345e`\n\n输入快照：`a66a0f7adcc7d1d971d5df1fff6845f66d452ff6c46ad1e3406bdbdfad7fe272`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`1333`；参考转录：`1267`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -89,8 +67,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-0ebba2b9e06301c6fdb992f6",
-        "content_sha256": "51ea5b1cf3f106f3a7b925ba128ca5be31b1799d68a13690080d783e36418caf",
-        "source": "segments",
+        "content_sha256": "8f3bbb9fedff0d56a7f53634eb96673817144a87dd11b4a087d1f976a70d7567",
+        "source": "blocks",
         "range": [
           0,
           61
@@ -123,8 +101,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-0ebba2b9e06301c6fdb992f6",
-        "content_sha256": "51ea5b1cf3f106f3a7b925ba128ca5be31b1799d68a13690080d783e36418caf",
-        "source": "segments",
+        "content_sha256": "8f3bbb9fedff0d56a7f53634eb96673817144a87dd11b4a087d1f976a70d7567",
+        "source": "blocks",
         "range": [
           61,
           123
@@ -155,8 +133,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-0ebba2b9e06301c6fdb992f6",
-        "content_sha256": "51ea5b1cf3f106f3a7b925ba128ca5be31b1799d68a13690080d783e36418caf",
-        "source": "segments",
+        "content_sha256": "8f3bbb9fedff0d56a7f53634eb96673817144a87dd11b4a087d1f976a70d7567",
+        "source": "blocks",
         "range": [
           123,
           162
@@ -188,8 +166,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-0ebba2b9e06301c6fdb992f6",
-        "content_sha256": "51ea5b1cf3f106f3a7b925ba128ca5be31b1799d68a13690080d783e36418caf",
-        "source": "segments",
+        "content_sha256": "8f3bbb9fedff0d56a7f53634eb96673817144a87dd11b4a087d1f976a70d7567",
+        "source": "blocks",
         "range": [
           162,
           203
@@ -223,8 +201,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-0ebba2b9e06301c6fdb992f6",
-        "content_sha256": "51ea5b1cf3f106f3a7b925ba128ca5be31b1799d68a13690080d783e36418caf",
-        "source": "segments",
+        "content_sha256": "8f3bbb9fedff0d56a7f53634eb96673817144a87dd11b4a087d1f976a70d7567",
+        "source": "blocks",
         "range": [
           203,
           264
@@ -255,8 +233,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-0ebba2b9e06301c6fdb992f6",
-        "content_sha256": "51ea5b1cf3f106f3a7b925ba128ca5be31b1799d68a13690080d783e36418caf",
-        "source": "segments",
+        "content_sha256": "8f3bbb9fedff0d56a7f53634eb96673817144a87dd11b4a087d1f976a70d7567",
+        "source": "blocks",
         "range": [
           264,
           312
@@ -287,8 +265,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-0ebba2b9e06301c6fdb992f6",
-        "content_sha256": "51ea5b1cf3f106f3a7b925ba128ca5be31b1799d68a13690080d783e36418caf",
-        "source": "segments",
+        "content_sha256": "8f3bbb9fedff0d56a7f53634eb96673817144a87dd11b4a087d1f976a70d7567",
+        "source": "blocks",
         "range": [
           312,
           360

@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 一分钟哲学课：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`3df0467dd21f2ef914e6f9a0a8da550aed924f9f2cef8f4e31cc782867a46beb`\n\n输入快照：`f4253ac170b97211361be8817a6e589c138ff791b0daf949f812847af0a3a5e9`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2760`；参考转录：`3739`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -74,8 +52,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-b0d7e6f1ee4867b0506346cf",
-        "content_sha256": "c30a1efcab61123585846d5b6feaea4f119ed8e840e0dc9617770b2f571444f5",
-        "source": "segments",
+        "content_sha256": "984a48f11336bfd7a939221b3d5d11c92ae1b256a7c9add753a7b9c7e44e91b7",
+        "source": "blocks",
         "range": [
           0,
           220
@@ -110,8 +88,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-b0d7e6f1ee4867b0506346cf",
-        "content_sha256": "c30a1efcab61123585846d5b6feaea4f119ed8e840e0dc9617770b2f571444f5",
-        "source": "segments",
+        "content_sha256": "984a48f11336bfd7a939221b3d5d11c92ae1b256a7c9add753a7b9c7e44e91b7",
+        "source": "blocks",
         "range": [
           220,
           579
@@ -132,8 +110,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-b0d7e6f1ee4867b0506346cf",
-        "content_sha256": "c30a1efcab61123585846d5b6feaea4f119ed8e840e0dc9617770b2f571444f5",
-        "source": "segments",
+        "content_sha256": "984a48f11336bfd7a939221b3d5d11c92ae1b256a7c9add753a7b9c7e44e91b7",
+        "source": "blocks",
         "range": [
           579,
           668
@@ -156,8 +134,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-b0d7e6f1ee4867b0506346cf",
-        "content_sha256": "c30a1efcab61123585846d5b6feaea4f119ed8e840e0dc9617770b2f571444f5",
-        "source": "segments",
+        "content_sha256": "984a48f11336bfd7a939221b3d5d11c92ae1b256a7c9add753a7b9c7e44e91b7",
+        "source": "blocks",
         "range": [
           668,
           852
@@ -181,8 +159,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-b0d7e6f1ee4867b0506346cf",
-        "content_sha256": "c30a1efcab61123585846d5b6feaea4f119ed8e840e0dc9617770b2f571444f5",
-        "source": "segments",
+        "content_sha256": "984a48f11336bfd7a939221b3d5d11c92ae1b256a7c9add753a7b9c7e44e91b7",
+        "source": "blocks",
         "range": [
           852,
           972
@@ -215,8 +193,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-b0d7e6f1ee4867b0506346cf",
-        "content_sha256": "c30a1efcab61123585846d5b6feaea4f119ed8e840e0dc9617770b2f571444f5",
-        "source": "segments",
+        "content_sha256": "984a48f11336bfd7a939221b3d5d11c92ae1b256a7c9add753a7b9c7e44e91b7",
+        "source": "blocks",
         "range": [
           972,
           1161
@@ -241,8 +219,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-b0d7e6f1ee4867b0506346cf",
-        "content_sha256": "c30a1efcab61123585846d5b6feaea4f119ed8e840e0dc9617770b2f571444f5",
-        "source": "segments",
+        "content_sha256": "984a48f11336bfd7a939221b3d5d11c92ae1b256a7c9add753a7b9c7e44e91b7",
+        "source": "blocks",
         "range": [
           1161,
           1431
@@ -271,8 +249,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-b0d7e6f1ee4867b0506346cf",
-        "content_sha256": "c30a1efcab61123585846d5b6feaea4f119ed8e840e0dc9617770b2f571444f5",
-        "source": "segments",
+        "content_sha256": "984a48f11336bfd7a939221b3d5d11c92ae1b256a7c9add753a7b9c7e44e91b7",
+        "source": "blocks",
         "range": [
           1431,
           1855

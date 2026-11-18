@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【行动建议】与其害怕死亡，更应害怕衰老：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`9bb3752078d21e4f71f410ddb5b1daf3f07f81a083392bd01daa668dab214378`\n\n输入快照：`a53d47d7fc343040a3cdb1b4f0b9a9581b63cddb4db25f74a82a7243d09bec41`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`425`；参考转录：`142`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -84,8 +62,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-153cb9fe1184b98c0accd598",
-        "content_sha256": "b64010b1622a085e21e1b36cd220411f0f029acaa762105eeeac2f7941cb0eca",
-        "source": "segments",
+        "content_sha256": "271a265749e203222086506776161f96aae14563d4a4b5bcc7a082f552f40488",
+        "source": "blocks",
         "range": [
           0,
           234
@@ -122,8 +100,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-153cb9fe1184b98c0accd598",
-        "content_sha256": "b64010b1622a085e21e1b36cd220411f0f029acaa762105eeeac2f7941cb0eca",
-        "source": "segments",
+        "content_sha256": "271a265749e203222086506776161f96aae14563d4a4b5bcc7a082f552f40488",
+        "source": "blocks",
         "range": [
           234,
           436
@@ -148,8 +126,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-153cb9fe1184b98c0accd598",
-        "content_sha256": "b64010b1622a085e21e1b36cd220411f0f029acaa762105eeeac2f7941cb0eca",
-        "source": "segments",
+        "content_sha256": "271a265749e203222086506776161f96aae14563d4a4b5bcc7a082f552f40488",
+        "source": "blocks",
         "range": [
           436,
           591
@@ -177,8 +155,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-153cb9fe1184b98c0accd598",
-        "content_sha256": "b64010b1622a085e21e1b36cd220411f0f029acaa762105eeeac2f7941cb0eca",
-        "source": "segments",
+        "content_sha256": "271a265749e203222086506776161f96aae14563d4a4b5bcc7a082f552f40488",
+        "source": "blocks",
         "range": [
           591,
           789
@@ -220,8 +198,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-153cb9fe1184b98c0accd598",
-        "content_sha256": "b64010b1622a085e21e1b36cd220411f0f029acaa762105eeeac2f7941cb0eca",
-        "source": "segments",
+        "content_sha256": "271a265749e203222086506776161f96aae14563d4a4b5bcc7a082f552f40488",
+        "source": "blocks",
         "range": [
           789,
           1442
@@ -248,8 +226,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-153cb9fe1184b98c0accd598",
-        "content_sha256": "b64010b1622a085e21e1b36cd220411f0f029acaa762105eeeac2f7941cb0eca",
-        "source": "segments",
+        "content_sha256": "271a265749e203222086506776161f96aae14563d4a4b5bcc7a082f552f40488",
+        "source": "blocks",
         "range": [
           1442,
           1613
@@ -281,8 +259,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-153cb9fe1184b98c0accd598",
-        "content_sha256": "b64010b1622a085e21e1b36cd220411f0f029acaa762105eeeac2f7941cb0eca",
-        "source": "segments",
+        "content_sha256": "271a265749e203222086506776161f96aae14563d4a4b5bcc7a082f552f40488",
+        "source": "blocks",
         "range": [
           1613,
           1712
@@ -330,8 +308,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-153cb9fe1184b98c0accd598",
-        "content_sha256": "b64010b1622a085e21e1b36cd220411f0f029acaa762105eeeac2f7941cb0eca",
-        "source": "segments",
+        "content_sha256": "271a265749e203222086506776161f96aae14563d4a4b5bcc7a082f552f40488",
+        "source": "blocks",
         "range": [
           1712,
           1939
@@ -366,8 +344,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-153cb9fe1184b98c0accd598",
-        "content_sha256": "b64010b1622a085e21e1b36cd220411f0f029acaa762105eeeac2f7941cb0eca",
-        "source": "segments",
+        "content_sha256": "271a265749e203222086506776161f96aae14563d4a4b5bcc7a082f552f40488",
+        "source": "blocks",
         "range": [
           1939,
           2117
@@ -398,8 +376,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-153cb9fe1184b98c0accd598",
-        "content_sha256": "b64010b1622a085e21e1b36cd220411f0f029acaa762105eeeac2f7941cb0eca",
-        "source": "segments",
+        "content_sha256": "271a265749e203222086506776161f96aae14563d4a4b5bcc7a082f552f40488",
+        "source": "blocks",
         "range": [
           2117,
           2327

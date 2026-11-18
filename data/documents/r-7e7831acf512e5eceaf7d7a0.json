@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【有谁共鸣】翻唱，追忆张国荣：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`7e7cecf7fd92c6087a5c7385f3b25a7ae87caabe64f8be8a2ed15957f546029a`\n\n输入快照：`5d679840e9ce7d1265b75017149e3ddc1c5b80bedb7c222e04b639e368cdc76a`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2061`；参考转录：`3025`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -112,8 +90,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-763ea5fbb722ec6ed5a86111",
-        "content_sha256": "c5a086ac7d6dd413523535cb83afe720d4b9a39272a77d847869b4d21c7c7b19",
-        "source": "segments",
+        "content_sha256": "2b304bc306f49ff84651554cd2470bb2025e8976825d15ee571b9cec9f59af2a",
+        "source": "blocks",
         "range": [
           0,
           73
@@ -154,8 +132,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-763ea5fbb722ec6ed5a86111",
-        "content_sha256": "c5a086ac7d6dd413523535cb83afe720d4b9a39272a77d847869b4d21c7c7b19",
-        "source": "segments",
+        "content_sha256": "2b304bc306f49ff84651554cd2470bb2025e8976825d15ee571b9cec9f59af2a",
+        "source": "blocks",
         "range": [
           73,
           138
@@ -197,7 +175,7 @@
       ],
       "input_text_ref": {
         "target_id": "t-763ea5fbb722ec6ed5a86111",
-        "content_sha256": "c5a086ac7d6dd413523535cb83afe720d4b9a39272a77d847869b4d21c7c7b19",
+        "content_sha256": "2b304bc306f49ff84651554cd2470bb2025e8976825d15ee571b9cec9f59af2a",
         "source": "text",
         "range": [
           209,
@@ -228,7 +206,7 @@
       ],
       "input_text_ref": {
         "target_id": "t-763ea5fbb722ec6ed5a86111",
-        "content_sha256": "c5a086ac7d6dd413523535cb83afe720d4b9a39272a77d847869b4d21c7c7b19",
+        "content_sha256": "2b304bc306f49ff84651554cd2470bb2025e8976825d15ee571b9cec9f59af2a",
         "source": "text",
         "range": [
           209,
@@ -302,8 +280,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-763ea5fbb722ec6ed5a86111",
-        "content_sha256": "c5a086ac7d6dd413523535cb83afe720d4b9a39272a77d847869b4d21c7c7b19",
-        "source": "segments",
+        "content_sha256": "2b304bc306f49ff84651554cd2470bb2025e8976825d15ee571b9cec9f59af2a",
+        "source": "blocks",
         "range": [
           308,
           364

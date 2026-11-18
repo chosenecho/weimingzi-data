@@ -1,294 +1,267 @@
-"""Focused tests across the public four-entity version seam."""
+"""Native kinds, edges, cycles and local confirmation evidence invariants."""
 import copy
-import hashlib
-import json
-import os
 from pathlib import Path
 import tempfile
 import unittest
 
-from weimingzi_corpus import schema_v3 as v3
+from native_fixtures import fixture_records, rid, text_sha256, write_corpus
+from weimingzi_corpus.records import (
+    block_text, document_hash_input, json_sha256, load_document,
+    validate_corpus, write_json, write_jsonl, write_record_updates,
+)
+from weimingzi_corpus.schema_v3 import validate_native
 
 
-def fixture():
-    transcript = {
-        "schema_version": 2, "id": "t-example", "kind": "transcript", "item_id": "i-example",
-        "audio_ids": [], "method": "asr_cloud", "language": "zh", "model": {"name": "model"},
-        "time_unit": "s", "text": "甲😀\n乙", "segments": [
-            {"index": 0, "text": "甲😀", "start": 0.0001, "end": 0.0009, "speaker_id": "s1"},
-            {"index": 1, "text": "乙", "start": -1, "end": -2, "chunk_offset_seconds": 3}],
-        "quality": {"timing_issues": ["segment 1: expected 0 <= start < end", "segment 1: starts must not decrease"], "is_fully_human_reviewed": None},
-        "metadata": {"language": ["zh"]},
-    }
-    transcript["content_sha256"] = v3.json_sha256({k: transcript[k] for k in ("item_id", "method", "language", "model", "time_unit", "text", "segments")})
-    edited = {"schema_version": 2, "id": "r-example", "kind": "edited_transcript", "item_id": "i-example",
-              "transcript_ids": ["t-example"], "text": "甲😀\n\n改后。\n", "time_unit": "ms", "model": None,
-              "paragraphs": [{"index": 0, "text": "甲😀", "start": 0.00001, "end": 0.2, "input_text": "甲😀", "issues": [], "input_unit_labels": []},
-                             {"index": 1, "text": "全文外原段", "start": 1, "end": 0, "input_text": "未映射输入", "issues": [{"note": "原样"}]}],
-              "paragraphs_match_text": False, "quality": {"input_quality": {"timing_issues": ["historic"], "is_fully_human_reviewed": None}},
-              "confirmation_ids": ["a-confirm"], "notes_markdown": "附注", "review_document_markdown": "# 独立稿\r\n😀\n", "is_complete": False}
-    return {
-        "items": [{"schema_version": 2, "id": "i-example", "kind": "video", "title": "题", "metadata": {"title": ["题"], "pubdate": [1], "published_at_unix_seconds": [1], "created": [1], "ctime": [1], "author": ["A"], "uploader_name": ["B"]}}],
-        "collections": [{"schema_version": 2, "id": "c-example", "kind": "video_collection", "members": [{"item_id": "i-example", "position": 1}]}],
-        "transcripts": [transcript], "edited_transcripts": [edited],
-        "confirmations": [{"schema_version": 2, "id": "a-confirm", "kind": "confirmation", "item_id": "i-example", "edited_transcript_ids": ["r-example"], "scope": "local_text_or_term", "status": "user_confirmed", "confirmation": {"assistant_listened_to_audio": False}}],
-        "attributions": [{"schema_version": 2, "id": "s-example", "kind": "segment_attribution", "item_id": "i-example", "edited_transcript_id": "r-example", "anchor": {"paragraph_index": 0}, "viewpoint": "unknown", "speaker_role": "unknown", "status": "human_confirmed"}],
-        "audio": [{"schema_version": 2, "id": "m-example", "kind": "audio", "item_ids": ["i-example"], "availability": "available", "sha256": "a" * 64, "downloads": [{"release_tag": "v1", "member_path": "原/成员.m4a", "archive": {"name": "one.zip", "size_bytes": 3, "sha256": "b" * 64, "url": "https://example.org/one.zip"}}]}],
-        "articles": [{"schema_version": 2, "id": "a-article", "kind": "article", "item_id": "i-example", "text": "正文", "html": "<p>正文</p>"}],
-        "posts": [{"schema_version": 2, "id": "d-post", "kind": "post", "item_id": "i-example", "content": {"rich": ["😀"]}, "article_item_ids": []}],
-    }
-
-
-class SchemaV3Tests(unittest.TestCase):
+class NativeSchemaTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
-        self.addCleanup(self.temp.cleanup)
-        self.root = Path(self.temp.name) / "repository"
+        self.root = Path(self.temp.name) / "corpus"
+        self.rows = fixture_records()
+        write_corpus(self.root, self.rows)
 
-    def write(self, tables=None):
-        tables = fixture() if tables is None else tables
-        v3.write_legacy_dataset(self.root, tables)
-        return tables
+    def tearDown(self):
+        self.temp.cleanup()
 
-    def test_all_nine_tables_roundtrip_and_only_four_entities(self):
-        original = self.write()
-        self.assertTrue(v3.is_v3(self.root))
-        self.assertEqual([], v3.validate_native(self.root))
-        for table in v3.LEGACY_TABLES:
-            self.assertEqual(sorted(original.get(table, []), key=lambda r: r["id"]), [r for r, _ in v3.iter_legacy_records(self.root, table)])
-        self.assertEqual({"schema.json", "items.jsonl", "assets.jsonl", "annotations.jsonl", "documents", "artifacts"}, {p.name for p in (self.root / "data").iterdir()})
-        for entity in v3.ENTITIES:
-            self.assertTrue(all("schema_version" not in r for r, _ in v3.iter_native_records(self.root, entity)))
+    def save(self):
+        write_corpus(self.root, self.rows)
 
-    def test_unicode_codepoints_literal_and_preserved_timing(self):
-        original = self.write()
-        doc = dict((r["id"], r) for r, _ in v3.iter_native_records(self.root, "documents"))["r-example"]
-        self.assertEqual([0, 2], doc["blocks"][0]["range"])
-        self.assertEqual("全文外原段", doc["blocks"][1]["literal"])
-        self.assertNotIn("index", doc["blocks"][0])
-        self.assertEqual(0.00001, doc["blocks"][0]["start"])
-        self.assertEqual(original["edited_transcripts"][0], v3.load_legacy_record(self.root, "r-example"))
+    def assert_invalid(self, message):
+        self.save()
+        with self.assertRaisesRegex(ValueError, message):
+            validate_corpus(self.root)
 
-    def test_snapshot_and_quality_remain_historical(self):
-        tables = fixture()
-        edit = tables["edited_transcripts"][0]
-        edit["transcript_ids"] = []
-        edit["input_units"] = {"base": {"content_sha256": "old external hash", "method": "asr_cloud", "language": "zh", "upstream_transcript_id": "external", "segments": [{"label": "unit-a", "text": "甲😀", "start_ms": -13.5, "end_ms": 0.1, "checkpoint": "chunk"}]}, "unassigned_reference_labels": ["not-assigned"]}
-        self.write(tables)
-        doc = v3.load_legacy_record(self.root, "r-example")
-        self.assertEqual(edit, doc)
-        self.assertEqual(-13.5, doc["input_units"]["base"]["segments"][0]["start_ms"])
-        native = json.loads((self.root / "data/documents/r-example.json").read_text(encoding="utf-8"))
-        self.assertEqual("input_units", native["blocks"][0]["input_text_ref"]["source"])
+    def test_native_counts_include_independent_assets_and_entity_kinds(self):
+        counts = validate_corpus(self.root)
+        self.assertEqual({key: counts[key] for key in ("items", "documents", "assets", "annotations", "blocks")}, {"items": 5, "documents": 5, "assets": 3, "annotations": 2, "blocks": 6})
+        self.assertEqual(counts["documents_edited_transcript"], 2)
+        self.assertEqual(counts["assets_archive"], 2)
+        self.assertEqual(validate_native(self.root), [])
+        for name in ("transcripts", "edited_transcripts", "articles", "posts", "confirmations", "attributions"):
+            self.assertNotIn(name, counts)
 
-    def test_annotation_one_way_and_order(self):
-        self.write()
-        native = json.loads((self.root / "data/documents/r-example.json").read_text(encoding="utf-8"))
-        self.assertNotIn("confirmation_ids", native)
-        self.assertIn("confirmation_ids", native["_legacy"]["keys"])
-        annotations = dict((r["id"], r) for r, _ in v3.iter_native_records(self.root, "annotations"))
-        target = annotations["a-confirm"]["targets"][1]
-        self.assertEqual({"role": "applies_to", "target_id": "r-example", "confirmation_index": 0}, target)
-        self.assertEqual("unknown", annotations["s-example"]["viewpoint"])
+    def test_missing_native_storage_and_unknown_schema_fail_closed(self):
+        (self.root / "data/annotations.jsonl").unlink()
+        self.assertIn("Missing native storage", validate_native(self.root)[0])
+        self.save()
+        write_json(self.root / "data/schema.json", {"schema_version": 3})
+        self.assertIn("native four-entity", validate_native(self.root)[0])
 
-    def test_metadata_and_derived_values(self):
-        self.write()
-        rows = dict((r["id"], r) for r, _ in v3.iter_native_records(self.root, "items"))
-        item = rows["i-example"]
-        self.assertNotIn("pubdate", item["metadata"])
-        self.assertNotIn("title", item["metadata"])
-        self.assertEqual([1], item["metadata"]["created"])
-        self.assertEqual([1], item["metadata"]["ctime"])
-        self.assertEqual(["A"], item["metadata"]["author"])
-        self.assertNotIn("position", rows["c-example"]["members"][0])
-        transcript = json.loads((self.root / "data/documents/t-example.json").read_text(encoding="utf-8"))
-        self.assertNotIn("timing_issues", transcript["quality"])
+    def test_no_projection_or_reconstruction_fields(self):
+        for key, value in (("_legacy", {}), ("schema_version", 2), ("segments", []), ("item_id", self.rows["items"][1]["id"]), ("index_absent", True)):
+            with self.subTest(key=key):
+                rows = fixture_records()
+                rows["documents"][0][key] = value
+                write_corpus(self.root, rows)
+                with self.assertRaisesRegex(ValueError, "unknown fields"):
+                    validate_corpus(self.root)
+        self.save()
+        self.rows["documents"][0]["blocks"][0]["index"] = 0
+        self.assert_invalid("unknown fields")
 
-    def test_unknown_root_and_block_fail_before_writing(self):
-        for field in ("root", "block"):
-            tables = fixture()
-            target = tables["transcripts"][0] if field == "root" else tables["transcripts"][0]["segments"][0]
-            target["future_fact"] = {"must": "survive"}
-            with self.assertRaisesRegex(ValueError, "unknown fields"):
-                self.write(tables)
-            self.assertFalse((self.root / "data").exists())
+    def test_document_and_asset_kinds_dispatch_directly(self):
+        self.rows["documents"][3]["kind"] = "article"
+        self.assert_invalid("unknown fields|wrong-kind item owner")
+        self.rows = fixture_records()
+        self.rows["assets"][2]["kind"] = "review_document_markdown"
+        self.assert_invalid("unexpected assets kind")
 
-    def test_ambiguous_input_text_is_not_referenced(self):
-        tables = fixture()
-        transcript = tables["transcripts"][0]
-        transcript["text"] = "甲😀甲😀"
-        transcript["segments"] = [{"index": 0, "text": "甲😀", "start": 0, "end": 1}, {"index": 1, "text": "甲😀", "start": 1, "end": 2}]
-        transcript["content_sha256"] = v3.json_sha256({k: transcript[k] for k in ("item_id", "method", "language", "model", "time_unit", "text", "segments")})
-        self.write(tables)
-        doc = json.loads((self.root / "data/documents/r-example.json").read_text(encoding="utf-8"))
-        self.assertEqual("甲😀", doc["blocks"][0]["input_text"])
-        self.assertNotIn("input_text_ref", doc["blocks"][0])
+    def test_document_owner_cardinality_and_kind(self):
+        for edges in ([], [{"role": "item", "target_id": self.rows["items"][0]["id"]}, {"role": "item", "target_id": self.rows["items"][1]["id"]}], [{"role": "item", "target_id": self.rows["items"][2]["id"]}]):
+            with self.subTest(edges=edges):
+                self.rows = fixture_records()
+                self.rows["documents"][0]["inputs"] = edges
+                self.rows["documents"][0]["content_sha256"] = json_sha256(document_hash_input(self.rows["documents"][0]))
+                self.assert_invalid("exactly one item|wrong-kind item owner")
 
-    def test_atomic_upsert_detaches_hardlinks_and_preserves_other_tables(self):
-        original = self.write()
-        path = self.root / "data/documents/r-example.json"
-        linked = Path(self.temp.name) / "original.json"
-        os.link(path, linked)
-        before = linked.read_bytes()
-        edited = copy.deepcopy(original["edited_transcripts"][0])
-        edited["notes_markdown"] = "批量更新"
-        paths = v3.write_legacy_updates(self.root, {"edited_transcripts": [edited]})
-        self.assertIn(Path("data/documents/r-example.json"), paths)
-        self.assertTrue(all(not p.is_absolute() for p in paths))
-        self.assertEqual(before, linked.read_bytes())
-        self.assertEqual(edited, v3.load_legacy_record(self.root, "r-example"))
-        self.assertEqual(original["attributions"], [r for r, _ in v3.iter_legacy_records(self.root, "attributions")])
+    def test_unknown_wrong_kind_and_duplicate_edges(self):
+        doc = self.rows["documents"][1]
+        for edge, message in (({"role": "transcript", "target_id": doc["id"]}, "wrong-kind transcript"), ({"role": "audio", "target_id": self.rows["assets"][0]["id"]}, "invalid inputs role"), ({"role": "transcript", "target_id": rid("missing", "t")}, "unresolved")):
+            with self.subTest(edge=edge):
+                self.rows = fixture_records()
+                self.rows["documents"][1]["inputs"].append(edge)
+                self.assert_invalid(message)
+        self.rows = fixture_records()
+        self.rows["documents"][1]["inputs"].append(copy.deepcopy(self.rows["documents"][1]["inputs"][1]))
+        self.assert_invalid("duplicate transcript")
 
-    def test_artifact_byte_hash_separate_from_canonical_json_hash(self):
-        self.write()
-        assets = [r for r, _ in v3.iter_native_records(self.root, "assets") if r["kind"] == "review_document"]
-        asset = assets[0]
-        data = (self.root / asset["local_path"]).read_bytes()
-        self.assertEqual(hashlib.sha256(data).hexdigest(), asset["sha256"])
-        self.assertNotEqual(v3.json_sha256(data.decode()), asset["sha256"])
-        (self.root / asset["local_path"]).write_bytes(b"changed")
-        self.assertTrue(any("artifact byte hash mismatch" in e for e in v3.validate_native(self.root)))
+    def test_issue_candidates_keep_absent_null_and_empty_separate(self):
+        for candidate in ({}, {"candidate": None}, {"candidate": ""}, {"candidate": "原样候选"}):
+            with self.subTest(candidate=candidate):
+                self.rows = fixture_records()
+                issue = {"note": "待回查，未推断是否采用", **candidate}
+                self.rows["documents"][1]["blocks"][0]["issues"] = [issue]
+                self.save()
+                self.assertEqual(validate_native(self.root), [])
+                actual = load_document(self.root, self.rows["documents"][1]["id"])
+                self.assertEqual(actual["blocks"][0]["issues"], [issue])
+        self.rows["documents"][1]["blocks"][0]["issues"][0]["candidate"] = False
+        self.assert_invalid("candidate must be text or null")
 
-    def test_structure_and_unknown_version_fail_closed(self):
-        self.write({})
-        self.assertTrue((self.root / "data/documents").is_dir())
-        schema_path = self.root / "data/schema.json"
-        schema = json.loads(schema_path.read_text(encoding="utf-8"))
-        schema["range_unit"] = "utf16"
-        schema_path.write_text(json.dumps(schema), encoding="utf-8")
-        self.assertTrue(any("range contract" in e for e in v3.validate_native(self.root)))
-        schema["schema_version"] = 99
-        schema_path.write_text(json.dumps(schema), encoding="utf-8")
-        with self.assertRaisesRegex(ValueError, "Unsupported schema version"):
-            list(v3.iter_legacy_records(self.root, "items"))
+    def test_same_item_constraints_for_input_and_annotation(self):
+        self.rows["documents"][1]["inputs"][0]["target_id"] = self.rows["items"][0]["id"]
+        self.assert_invalid("different item")
+        self.rows = fixture_records()
+        self.rows["annotations"][0]["targets"][0]["target_id"] = self.rows["items"][0]["id"]
+        self.assert_invalid("different item")
 
-    def test_missing_native_index_and_misplaced_entity_detected(self):
-        self.write()
-        (self.root / "data/items.jsonl").unlink()
-        self.assertTrue(any("Missing native storage" in e for e in v3.validate_native(self.root)))
-        self.write()
-        path = self.root / "data/documents/r-example.json"
-        doc = json.loads(path.read_text(encoding="utf-8"))
-        doc["kind"] = "post"
-        path.write_text(json.dumps(doc), encoding="utf-8")
-        self.assertTrue(any("table/entity/kind mismatch" in e for e in v3.validate_native(self.root)))
+    def test_reference_sources_hashes_ranges_and_direct_input_checked(self):
+        for name, value, message in (("source", "segments", "invalid input text source"), ("content_sha256", "d" * 64, "hash mismatch"), ("range", [0, 999], "range outside text"), ("range", [False, 1], "invalid Unicode codepoint range")):
+            with self.subTest(name=name):
+                self.rows = fixture_records()
+                self.rows["documents"][1]["blocks"][0]["input_text_ref"][name] = value
+                self.assert_invalid(message)
+        self.rows = fixture_records()
+        self.rows["documents"][1]["inputs"] = self.rows["documents"][1]["inputs"][:1]
+        self.assert_invalid("transcript input")
 
-    def test_native_unknown_or_standalone_asset_is_never_dropped_by_updates(self):
-        self.write()
-        path = self.root / "data/documents/r-example.json"
-        doc = json.loads(path.read_text(encoding="utf-8"))
-        doc["future_fact"] = "preserve me"
-        path.write_text(json.dumps(doc), encoding="utf-8")
-        before = path.read_bytes()
-        with self.assertRaisesRegex(ValueError, "unknown fields"):
-            v3.write_legacy_updates(self.root, {})
-        self.assertEqual(before, path.read_bytes())
-        del doc["future_fact"]
-        path.write_text(json.dumps(doc), encoding="utf-8")
-        asset_path = self.root / "data/assets.jsonl"
-        with asset_path.open("a", encoding="utf-8") as stream:
-            stream.write(json.dumps({"id": "z-standalone", "kind": "archive", "name": "independent.zip"}) + "\n")
-        before = asset_path.read_bytes()
-        with self.assertRaisesRegex(ValueError, "standalone native asset"):
-            v3.write_legacy_updates(self.root, {})
-        self.assertEqual(before, asset_path.read_bytes())
+    def test_transcript_hash_native_and_recognition_hash_independent(self):
+        transcript = self.rows["documents"][0]
+        transcript["recognition_chunks"] = [{"id": "chunk-1", "time_unit": "ms", "sentences": []}]
+        transcript["recognition_chunks_sha256"] = json_sha256(transcript["recognition_chunks"])
+        self.save()
+        self.assertEqual(validate_native(self.root), [])
+        transcript["recognition_chunks"][0]["sentences"].append({"text": "未改正文的识别观测", "start": -10, "end": 1})
+        self.assert_invalid("recognition chunks SHA-256 mismatch")
+        transcript["recognition_chunks_sha256"] = json_sha256(transcript["recognition_chunks"])
+        self.save()
+        self.assertEqual(validate_native(self.root), [])
+        transcript["text"] += "改变正文"
+        self.assert_invalid("content SHA-256 mismatch")
 
-    def test_noop_batch_preserves_document_bytes(self):
-        self.write()
-        paths = sorted((self.root / "data/documents").glob("*.json"))
-        before = {p: p.read_bytes() for p in paths}
-        self.assertEqual([], v3.write_legacy_updates(self.root, {}))
-        self.assertEqual(before, {p: p.read_bytes() for p in paths})
+    def test_original_time_anomalies_are_preserved(self):
+        self.rows["annotations"] = []
+        raw, edited, revision = self.rows["documents"][:3]
+        raw["blocks"][0].update(start=-4.125, end=-10)
+        raw["content_sha256"] = json_sha256(document_hash_input(raw))
+        edited["blocks"][0]["input_text_ref"]["content_sha256"] = raw["content_sha256"]
+        edited["blocks"][0].update(start=2000, end=1000.125)
+        self.save()
+        self.assertEqual(validate_native(self.root), [])
+        self.assertEqual(load_document(self.root, edited["id"])["blocks"][0]["end"], 1000.125)
 
-    def test_scalar_inputs_and_annotation_targets_fail_before_noop_write(self):
-        self.write()
-        path = self.root / "data/documents/r-example.json"
-        document = json.loads(path.read_text(encoding="utf-8"))
-        document["inputs"].append({"role": "item", "target_id": "c-example"})
-        path.write_text(json.dumps(document), encoding="utf-8")
-        before = path.read_bytes()
-        self.assertTrue(any("scalar input role item" in error for error in v3.validate_native(self.root)))
-        with self.assertRaisesRegex(ValueError, "scalar input role item"):
-            v3.write_legacy_updates(self.root, {})
-        self.assertEqual(before, path.read_bytes())
-        document["inputs"].pop()
-        path.write_text(json.dumps(document), encoding="utf-8")
-        path = self.root / "data/annotations.jsonl"
-        rows = [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines()]
-        attribution = next(row for row in rows if row["id"] == "s-example")
-        attribution["targets"].append({"role": "applies_to", "target_id": "r-example"})
-        path.write_text("".join(json.dumps(row) + "\n" for row in rows), encoding="utf-8")
-        before = path.read_bytes()
-        self.assertTrue(any("scalar annotation applies_to" in error for error in v3.validate_native(self.root)))
-        with self.assertRaisesRegex(ValueError, "scalar annotation applies_to"):
-            v3.write_legacy_updates(self.root, {})
-        self.assertEqual(before, path.read_bytes())
+    def test_quality_null_false_absence_and_model_observations(self):
+        self.rows["documents"][0]["quality"]["is_fully_human_reviewed"] = None
+        self.rows["documents"][1]["quality"]["is_fully_human_reviewed"] = False
+        self.rows["documents"][2].pop("quality")
+        self.save()
+        self.assertEqual(validate_native(self.root), [])
+        self.rows["documents"][1]["quality"]["is_fully_human_reviewed"] = "true"
+        self.assert_invalid("boolean or null")
+        self.rows = fixture_records()
+        self.rows["documents"][1]["model"] = "made-up-model"
+        self.assert_invalid("model must")
 
-    def test_confirmation_indices_are_contiguous_and_artifact_extra_facts_fail_closed(self):
-        self.write()
-        path = self.root / "data/annotations.jsonl"
-        rows = [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines()]
-        next(row for row in rows if row["id"] == "a-confirm")["targets"][1]["confirmation_index"] = 42
-        path.write_text("".join(json.dumps(row) + "\n" for row in rows), encoding="utf-8")
-        before = path.read_bytes()
-        self.assertTrue(any("unique and contiguous" in error for error in v3.validate_native(self.root)))
-        with self.assertRaisesRegex(ValueError, "unique and contiguous"):
-            v3.write_legacy_updates(self.root, {})
-        self.assertEqual(before, path.read_bytes())
-        self.write()
-        path = self.root / "data/assets.jsonl"
-        rows = [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines()]
-        next(row for row in rows if row["kind"] == "review_document")["url"] = "https://example.org/source.md"
-        path.write_text("".join(json.dumps(row) + "\n" for row in rows), encoding="utf-8")
-        before = path.read_bytes()
-        with self.assertRaisesRegex(ValueError, "unknown fields: url"):
-            v3.write_legacy_updates(self.root, {})
-        self.assertEqual(before, path.read_bytes())
+    def test_explicit_recognition_issue_seconds_and_evidence(self):
+        raw, edited = self.rows["documents"][:2]
+        raw["recognition_chunks"] = [{"id": "c1", "time_unit": "ms", "sentences": []}]
+        raw["recognition_chunks_sha256"] = json_sha256(raw["recognition_chunks"])
+        edited["quality"]["recognition_issue_intervals"] = [{"start_seconds": 1.1, "end_seconds": 2.2, "evidence": {"transcript_id": raw["id"], "recognition_chunk_ids": ["c1"]}}]
+        self.save()
+        self.assertEqual(validate_native(self.root), [])
+        edited["quality"]["recognition_issue_intervals"][0]["evidence"]["recognition_chunk_ids"] = ["missing"]
+        self.assert_invalid("recognition chunk evidence")
+        edited["quality"]["recognition_issue_intervals"] = [{"start": 1, "end": 2}]
+        self.assert_invalid("explicit seconds")
 
-    def test_native_projection_roundtrip_guard_preserves_noncanonical_provenance(self):
-        tables = fixture()
-        tables["edited_transcripts"][0]["text"] = "甲😀甲😀"
-        self.write(tables)
-        path = self.root / "data/documents/r-example.json"
-        document = json.loads(path.read_text(encoding="utf-8"))
-        document["blocks"][0]["range"] = [2, 4]
-        path.write_text(json.dumps(document), encoding="utf-8")
-        self.assertEqual([], v3.validate_native(self.root))
-        before = {p: p.read_bytes() for p in (self.root / "data").rglob("*") if p.is_file()}
-        with self.assertRaisesRegex(ValueError, "no lossless legacy projection"):
-            v3.write_legacy_updates(self.root, {})
-        self.assertEqual(before, {p: p.read_bytes() for p in (self.root / "data").rglob("*") if p.is_file()})
+    def test_independent_and_combined_inheritance_cycles(self):
+        for first, second in (("derived_from", "derived_from"), ("input_units_from", "input_units_from"), ("derived_from", "input_units_from")):
+            with self.subTest(first=first, second=second):
+                self.rows = fixture_records()
+                self.rows["annotations"] = []
+                a, b = self.rows["documents"][1:3]
+                a.pop("input_units", None)
+                a["inputs"] = a["inputs"][:2] + [{"role": first, "target_id": b["id"]}]
+                b["inputs"] = b["inputs"][:2] + [{"role": second, "target_id": a["id"]}]
+                self.assert_invalid("cycle")
 
-    def test_inline_item_references_and_member_shapes_are_checked(self):
-        for field in ("parent_id", "members", "relations", "member_shape"):
-            with self.subTest(field=field):
-                self.write()
-                path = self.root / "data/items.jsonl"
-                rows = [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines()]
-                item = next(row for row in rows if row["id"] == ("c-example" if field in ("members", "member_shape") else "i-example"))
-                if field == "parent_id":
-                    item[field] = "i-missing"
-                elif field == "members":
-                    item[field][0]["item_id"] = "i-missing"
-                elif field == "relations":
-                    item[field] = [{"kind": "related", "target_item_id": "i-missing"}]
+    def test_diamond_inheritance_is_not_a_cycle(self):
+        self.rows["annotations"] = []
+        base, revision = self.rows["documents"][1:3]
+        branch = copy.deepcopy(base)
+        branch["id"] = rid("branch", "r")
+        branch.pop("input_units")
+        branch["inputs"].append({"role": "derived_from", "target_id": base["id"]})
+        revision["inputs"] = revision["inputs"][:2] + [{"role": "derived_from", "target_id": branch["id"]}, {"role": "input_units_from", "target_id": base["id"]}]
+        self.rows["documents"].append(branch)
+        self.save()
+        self.assertEqual(validate_native(self.root), [])
+
+    def test_inline_snapshot_and_inherited_snapshot_mutually_exclusive(self):
+        base, revision = self.rows["documents"][1:3]
+        revision["input_units"] = copy.deepcopy(base["input_units"])
+        self.assert_invalid("mutually exclusive")
+
+    def test_confirmation_requires_actual_corrected_revision_anchor(self):
+        self.rows["documents"][2]["text"] = self.rows["documents"][1]["text"]
+        self.assert_invalid("confirmation text not located")
+        self.rows = fixture_records()
+        self.rows["annotations"][0]["anchor"]["paragraph_index"] = 1
+        self.assert_invalid("confirmation text not located")
+
+    def test_confirmation_checks_every_target(self):
+        foreign = copy.deepcopy(self.rows["documents"][1])
+        foreign["id"] = rid("unrelated-same-owner", "r")
+        foreign["text"] = "别句😀。\n\n第二段。"
+        self.rows["documents"].append(foreign)
+        self.rows["annotations"][0]["targets"].append({"role": "applies_to", "target_id": foreign["id"]})
+        self.assert_invalid("confirmation text not located")
+
+    def test_confirmation_hash_status_scope_and_evidence(self):
+        for change, message in ((lambda a: a["anchor"].update(original_text_sha256="f" * 64), "anchor hash mismatch"), (lambda a: a.update(corrected_text_sha256="f" * 64), "corrected text hash mismatch"), (lambda a: a.update(scope="whole_document"), "local_text_or_term"), (lambda a: a.update(status="model_suggested"), "user_confirmed"), (lambda a: a["confirmation"].pop("reviewer_label"), "missing review evidence")):
+            with self.subTest(message=message):
+                self.rows = fixture_records()
+                change(self.rows["annotations"][0])
+                self.assert_invalid(message)
+
+    def test_only_revision_target_has_order_and_orders_contiguous(self):
+        annotation = self.rows["annotations"][0]
+        annotation["targets"][1]["order"] = 0
+        self.assert_invalid("only revision")
+        for order in (None, False, -1, 1):
+            with self.subTest(order=order):
+                self.rows = fixture_records()
+                edge = self.rows["annotations"][0]["targets"][2]
+                if order is None:
+                    edge.pop("order")
                 else:
-                    item["members"] = ["i-example"]
-                if field in ("parent_id", "relations"):
-                    item["_legacy"]["keys"].append(field)
-                path.write_text("".join(json.dumps(row) + "\n" for row in rows), encoding="utf-8")
-                before = path.read_bytes()
-                errors = v3.validate_native(self.root)
-                self.assertTrue(any("missing item target" in error or "requires item_id" in error for error in errors), errors)
-                with self.assertRaises(ValueError):
-                    v3.write_legacy_updates(self.root, {})
-                self.assertEqual(before, path.read_bytes())
+                    edge["order"] = order
+                self.assert_invalid("nonnegative order|contiguous")
 
-    def test_stale_content_hash_rejected(self):
-        tables = fixture()
-        tables["transcripts"][0]["text"] += "different"
-        with self.assertRaisesRegex(ValueError, "content hash mismatch"):
-            self.write(tables)
+    def test_revision_order_unique_across_annotations_and_local_review_not_promoted(self):
+        second = copy.deepcopy(self.rows["annotations"][0])
+        second["id"] = rid("second-confirmation", "a")
+        self.rows["annotations"].append(second)
+        self.assert_invalid("contiguous")
+        second["targets"][2]["order"] = 1
+        self.save()
+        self.assertEqual(validate_native(self.root), [])
+        self.assertFalse(load_document(self.root, self.rows["documents"][2]["id"])["quality"]["is_fully_human_reviewed"])
+
+    def test_audio_restore_edges_and_available_state(self):
+        audio = self.rows["assets"][0]
+        audio["downloads"][0]["archive_id"] = audio["id"]
+        self.assert_invalid("wrong-kind archive")
+        self.rows = fixture_records()
+        self.rows["assets"][0]["downloads"] = []
+        self.assert_invalid("incomplete audio restore locator")
+        self.rows = fixture_records()
+        self.rows["assets"][0]["availability"] = "unavailable"
+        self.rows["assets"][0]["downloads"] = []
+        self.save()
+        self.assertEqual(validate_native(self.root), [])
+
+    def test_artifact_byte_hash_and_path_are_checked(self):
+        artifact = b"<p>original bytes\r\n</p>"
+        path = self.root / "data/artifacts/html/fixture.html"
+        path.parent.mkdir(parents=True)
+        path.write_bytes(artifact)
+        html = {"id": rid("html", "h"), "kind": "html", "local_path": "data/artifacts/html/fixture.html", "sha256": __import__("hashlib").sha256(artifact).hexdigest(), "size_bytes": len(artifact)}
+        self.rows["assets"].append(html)
+        self.rows["documents"][4]["inputs"].append({"role": "html", "target_id": html["id"]})
+        self.save()
+        self.assertEqual(validate_native(self.root), [])
+        path.write_bytes(artifact.replace(b"\r\n", b"\n"))
+        self.assertIn("artifact byte hash mismatch", " ".join(validate_native(self.root)))
 
 
 if __name__ == "__main__":

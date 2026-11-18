@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【任务宣示】拟成立AITEM和ITEM：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`da086eec8a4fd3740217fe5e681a13910ab75ce4eb3435957ea78ace2281a703`\n\n输入快照：`d1eb227e36b6bad0a04bf8396fee14ecaa90464858ff2678dab6490c92105ebd`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`192`；参考转录：`13`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -84,8 +62,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-838cde97781f6cde0c8d9b12",
-        "content_sha256": "7de3ce8f53b7b5388d2e351cbaed67735db64ea4c9a4b08c4f0fcd84a391fdb2",
-        "source": "segments",
+        "content_sha256": "d18b7e322426f6ff649b7f47041b3fffcfbd31c89ff0b0c2b4e0132d2f7d563e",
+        "source": "blocks",
         "range": [
           0,
           147
@@ -112,8 +90,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-838cde97781f6cde0c8d9b12",
-        "content_sha256": "7de3ce8f53b7b5388d2e351cbaed67735db64ea4c9a4b08c4f0fcd84a391fdb2",
-        "source": "segments",
+        "content_sha256": "d18b7e322426f6ff649b7f47041b3fffcfbd31c89ff0b0c2b4e0132d2f7d563e",
+        "source": "blocks",
         "range": [
           147,
           273
@@ -140,8 +118,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-838cde97781f6cde0c8d9b12",
-        "content_sha256": "7de3ce8f53b7b5388d2e351cbaed67735db64ea4c9a4b08c4f0fcd84a391fdb2",
-        "source": "segments",
+        "content_sha256": "d18b7e322426f6ff649b7f47041b3fffcfbd31c89ff0b0c2b4e0132d2f7d563e",
+        "source": "blocks",
         "range": [
           273,
           380
@@ -167,8 +145,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-838cde97781f6cde0c8d9b12",
-        "content_sha256": "7de3ce8f53b7b5388d2e351cbaed67735db64ea4c9a4b08c4f0fcd84a391fdb2",
-        "source": "segments",
+        "content_sha256": "d18b7e322426f6ff649b7f47041b3fffcfbd31c89ff0b0c2b4e0132d2f7d563e",
+        "source": "blocks",
         "range": [
           380,
           542
@@ -206,8 +184,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-838cde97781f6cde0c8d9b12",
-        "content_sha256": "7de3ce8f53b7b5388d2e351cbaed67735db64ea4c9a4b08c4f0fcd84a391fdb2",
-        "source": "segments",
+        "content_sha256": "d18b7e322426f6ff649b7f47041b3fffcfbd31c89ff0b0c2b4e0132d2f7d563e",
+        "source": "blocks",
         "range": [
           542,
           783
@@ -243,8 +221,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-838cde97781f6cde0c8d9b12",
-        "content_sha256": "7de3ce8f53b7b5388d2e351cbaed67735db64ea4c9a4b08c4f0fcd84a391fdb2",
-        "source": "segments",
+        "content_sha256": "d18b7e322426f6ff649b7f47041b3fffcfbd31c89ff0b0c2b4e0132d2f7d563e",
+        "source": "blocks",
         "range": [
           783,
           1323
@@ -266,8 +244,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-838cde97781f6cde0c8d9b12",
-        "content_sha256": "7de3ce8f53b7b5388d2e351cbaed67735db64ea4c9a4b08c4f0fcd84a391fdb2",
-        "source": "segments",
+        "content_sha256": "d18b7e322426f6ff649b7f47041b3fffcfbd31c89ff0b0c2b4e0132d2f7d563e",
+        "source": "blocks",
         "range": [
           1323,
           1403
@@ -319,8 +297,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-838cde97781f6cde0c8d9b12",
-        "content_sha256": "7de3ce8f53b7b5388d2e351cbaed67735db64ea4c9a4b08c4f0fcd84a391fdb2",
-        "source": "segments",
+        "content_sha256": "d18b7e322426f6ff649b7f47041b3fffcfbd31c89ff0b0c2b4e0132d2f7d563e",
+        "source": "blocks",
         "range": [
           1403,
           2396
@@ -360,8 +338,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-838cde97781f6cde0c8d9b12",
-        "content_sha256": "7de3ce8f53b7b5388d2e351cbaed67735db64ea4c9a4b08c4f0fcd84a391fdb2",
-        "source": "segments",
+        "content_sha256": "d18b7e322426f6ff649b7f47041b3fffcfbd31c89ff0b0c2b4e0132d2f7d563e",
+        "source": "blocks",
         "range": [
           2396,
           2862

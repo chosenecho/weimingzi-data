@@ -1,0 +1,173 @@
+{
+  "schema": "audio-restore-audit/v1",
+  "started_at": "2026-11-18T04:41:25.485961+00:00",
+  "index": {
+    "path": "data/assets.jsonl",
+    "size_bytes": 1011692,
+    "sha256": "ee29c87b4de7c2bf36d187e4741dd65a9e09f2d4fcd25e5d3f106d61ddcfc32c"
+  },
+  "index_dependencies": [
+    {
+      "path": "data/schema.json",
+      "exists": true,
+      "size_bytes": 174,
+      "sha256": "e18a0b8f66f87f8c1399c084a4a123171bec5c854f1cbeb5c70c31a24e79903e"
+    }
+  ],
+  "tools": {
+    "audit_audio_restore.py": {
+      "size_bytes": 8104,
+      "sha256": "6872c06abf54c4e2840362b936a102cf8848169d1da50b7079dacc6a28c9d0b2"
+    },
+    "restore_audio.py": {
+      "size_bytes": 9427,
+      "sha256": "b8a4ccf5d864869f89c2b7c8c09a00a9aa1aee78775495144fc376fa9d73ec3f"
+    },
+    "records.py": {
+      "size_bytes": 13577,
+      "sha256": "695b6717b4e74b8dd5ca30333a70f8e70ccc22d22dca5f7764960734b0d3198d"
+    },
+    "schema_v3.py": {
+      "size_bytes": 33141,
+      "sha256": "9287579e58ecb0284ae0062f72e2691a8b15aff2bf1710906a5642090be6ba94"
+    }
+  },
+  "scope": {
+    "indexed_restorable_archives": 13,
+    "indexed_restorable_audio": 680,
+    "selected_archives": [
+      "missing-local-asr-2026-11-03/missing-local-audio-2026-11-03.zip"
+    ],
+    "selected_audio": 6,
+    "media_storage": "local_cache",
+    "excludes": "Unavailable audio, content accuracy, rights, independent-copy and future availability claims"
+  },
+  "archives": [
+    {
+      "archive_key": "missing-local-asr-2026-11-03/missing-local-audio-2026-11-03.zip",
+      "started_at": "2026-11-18T04:41:25.487100+00:00",
+      "expected_archive": {
+        "id": "z-445e7392a23081f6d162f46f432908062bb7b9bf1a515bf620e8f566b3abe1dc",
+        "kind": "archive",
+        "name": "missing-local-audio-2026-11-03.zip",
+        "sha256": "15cc0cd5b699328c4edd6fbabb7f9852797ac6e6123fcce8cdc0bbf08b60a33c",
+        "size_bytes": 134967542,
+        "url": "https://github.com/chosenecho/weimingzi-data/releases/download/missing-local-asr-2026-11-03/missing-local-audio-2026-11-03.zip"
+      },
+      "files": [
+        {
+          "member_path": "视频/BV14Qbk6zEis/P001/音频/bilibili.m4a",
+          "local_path": "media/audio/00b7b0e1c15bca7af3ce7e2981d8b632d1a9aede3fee7b919c1de1933d433f0a.m4a",
+          "expected": {
+            "size_bytes": 8675924,
+            "sha256": "00b7b0e1c15bca7af3ce7e2981d8b632d1a9aede3fee7b919c1de1933d433f0a"
+          },
+          "observed_member": {
+            "size_bytes": 8675924,
+            "sha256": "00b7b0e1c15bca7af3ce7e2981d8b632d1a9aede3fee7b919c1de1933d433f0a"
+          },
+          "observed_restored": {
+            "size_bytes": 8675924,
+            "sha256": "00b7b0e1c15bca7af3ce7e2981d8b632d1a9aede3fee7b919c1de1933d433f0a"
+          },
+          "ok": true
+        },
+        {
+          "member_path": "视频/BV1macKzUEmV/P001/音频/bilibili.m4a",
+          "local_path": "media/audio/374e418b85bc241ec33396a7c3adb1d8440c406ea0335347a2586d37eca9c5d8.m4a",
+          "expected": {
+            "size_bytes": 12127956,
+            "sha256": "374e418b85bc241ec33396a7c3adb1d8440c406ea0335347a2586d37eca9c5d8"
+          },
+          "observed_member": {
+            "size_bytes": 12127956,
+            "sha256": "374e418b85bc241ec33396a7c3adb1d8440c406ea0335347a2586d37eca9c5d8"
+          },
+          "observed_restored": {
+            "size_bytes": 12127956,
+            "sha256": "374e418b85bc241ec33396a7c3adb1d8440c406ea0335347a2586d37eca9c5d8"
+          },
+          "ok": true
+        },
+        {
+          "member_path": "视频/BV1F7t16iEW6/P001/音频/bilibili.m4a",
+          "local_path": "media/audio/6b861f1f2e23a761ae09b8aad45f87c4cbf7b160aec20a03e252def35ac51118.m4a",
+          "expected": {
+            "size_bytes": 60556941,
+            "sha256": "6b861f1f2e23a761ae09b8aad45f87c4cbf7b160aec20a03e252def35ac51118"
+          },
+          "observed_member": {
+            "size_bytes": 60556941,
+            "sha256": "6b861f1f2e23a761ae09b8aad45f87c4cbf7b160aec20a03e252def35ac51118"
+          },
+          "observed_restored": {
+            "size_bytes": 60556941,
+            "sha256": "6b861f1f2e23a761ae09b8aad45f87c4cbf7b160aec20a03e252def35ac51118"
+          },
+          "ok": true
+        },
+        {
+          "member_path": "视频/BV15mu46tEyf/P001/音频/bilibili.m4a",
+          "local_path": "media/audio/8dc31f8286e0168870bae6d51aabca714abe4685e65d7c4eacbbef3ad8aa8b05.m4a",
+          "expected": {
+            "size_bytes": 1899750,
+            "sha256": "8dc31f8286e0168870bae6d51aabca714abe4685e65d7c4eacbbef3ad8aa8b05"
+          },
+          "observed_member": {
+            "size_bytes": 1899750,
+            "sha256": "8dc31f8286e0168870bae6d51aabca714abe4685e65d7c4eacbbef3ad8aa8b05"
+          },
+          "observed_restored": {
+            "size_bytes": 1899750,
+            "sha256": "8dc31f8286e0168870bae6d51aabca714abe4685e65d7c4eacbbef3ad8aa8b05"
+          },
+          "ok": true
+        },
+        {
+          "member_path": "视频/BV1F7t16iEW6/P002/音频/bilibili.m4a",
+          "local_path": "media/audio/971a80f5c87c61e8afdeeb5b0e6190fd3421d72465e60c07f16a0ef6afc5a890.m4a",
+          "expected": {
+            "size_bytes": 51033430,
+            "sha256": "971a80f5c87c61e8afdeeb5b0e6190fd3421d72465e60c07f16a0ef6afc5a890"
+          },
+          "observed_member": {
+            "size_bytes": 51033430,
+            "sha256": "971a80f5c87c61e8afdeeb5b0e6190fd3421d72465e60c07f16a0ef6afc5a890"
+          },
+          "observed_restored": {
+            "size_bytes": 51033430,
+            "sha256": "971a80f5c87c61e8afdeeb5b0e6190fd3421d72465e60c07f16a0ef6afc5a890"
+          },
+          "ok": true
+        },
+        {
+          "member_path": "视频/BV1wj411m7GK/P001/音频/bilibili.m4a",
+          "local_path": "media/audio/bbd696a8948744ad6ed766ad5df0d43f45eab89296ada9f8c55b078cc10cf5c3.m4a",
+          "expected": {
+            "size_bytes": 672535,
+            "sha256": "bbd696a8948744ad6ed766ad5df0d43f45eab89296ada9f8c55b078cc10cf5c3"
+          },
+          "observed_member": {
+            "size_bytes": 672535,
+            "sha256": "bbd696a8948744ad6ed766ad5df0d43f45eab89296ada9f8c55b078cc10cf5c3"
+          },
+          "observed_restored": {
+            "size_bytes": 672535,
+            "sha256": "bbd696a8948744ad6ed766ad5df0d43f45eab89296ada9f8c55b078cc10cf5c3"
+          },
+          "ok": true
+        }
+      ],
+      "ok": true,
+      "observed_archive": {
+        "size_bytes": 134967542,
+        "sha256": "15cc0cd5b699328c4edd6fbabb7f9852797ac6e6123fcce8cdc0bbf08b60a33c"
+      },
+      "completed_at": "2026-11-18T04:41:26.383353+00:00"
+    }
+  ],
+  "index_unchanged": true,
+  "index_dependencies_unchanged": true,
+  "ok": true,
+  "completed_at": "2026-11-18T04:41:26.393391+00:00"
+}

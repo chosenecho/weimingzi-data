@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 一分钟哲学课：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`a8a63a4cbd58c2d847a7a750f30ad62437cbe35615900aa4a8d42f9f15ed7be8`\n\n输入快照：`133d0081235c43248543e195a542c3d6a86ad306bce99ec6e7f56ff3d7d8d2a6`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2647`；参考转录：`3690`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -75,8 +53,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-4a64b2d17d560bd7c1359efb",
-        "content_sha256": "1fc47ad3f5bb73533e57be0271b8db7450106267b0aea4d88b73a2f6dc043752",
-        "source": "segments",
+        "content_sha256": "9fe721b734ab237e202814aaf414d8921617f8e325a4f209524825ab64e4b988",
+        "source": "blocks",
         "range": [
           0,
           316
@@ -100,8 +78,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-4a64b2d17d560bd7c1359efb",
-        "content_sha256": "1fc47ad3f5bb73533e57be0271b8db7450106267b0aea4d88b73a2f6dc043752",
-        "source": "segments",
+        "content_sha256": "9fe721b734ab237e202814aaf414d8921617f8e325a4f209524825ab64e4b988",
+        "source": "blocks",
         "range": [
           316,
           586
@@ -127,8 +105,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-4a64b2d17d560bd7c1359efb",
-        "content_sha256": "1fc47ad3f5bb73533e57be0271b8db7450106267b0aea4d88b73a2f6dc043752",
-        "source": "segments",
+        "content_sha256": "9fe721b734ab237e202814aaf414d8921617f8e325a4f209524825ab64e4b988",
+        "source": "blocks",
         "range": [
           586,
           874

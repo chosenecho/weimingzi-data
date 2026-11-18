@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【有谁共鸣】翻唱，追忆张国荣：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`e46a575f38107f7d366f9364292e6c56031e422d3229b50ee8644fe4884e8f0e`\n\n输入快照：`85b7180448856942fb26008586279bf22919819913fb8255bc9b7a3701dec186`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`1846`；参考转录：`3015`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -99,8 +77,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-1a8b85755c7566916a09e73e",
-        "content_sha256": "b550221b44738a566a743803d23cacf87da76ccf300e8f79b90e77ebeaa1314d",
-        "source": "segments",
+        "content_sha256": "2556a3ae3652d91adb59fe1e2fec347068d23cab088be423648b084a22557ac0",
+        "source": "blocks",
         "range": [
           0,
           112
@@ -157,8 +135,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-1a8b85755c7566916a09e73e",
-        "content_sha256": "b550221b44738a566a743803d23cacf87da76ccf300e8f79b90e77ebeaa1314d",
-        "source": "segments",
+        "content_sha256": "2556a3ae3652d91adb59fe1e2fec347068d23cab088be423648b084a22557ac0",
+        "source": "blocks",
         "range": [
           161,
           227

@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 一分钟哲学课：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`37e72770fb745477957190bd4fedeeeafd8c23279bd53763ebe55b290feb4451`\n\n输入快照：`9b1fb005a01d9c3ba3d7b000bf7b6616087b836a7b691071e75b7cb97334df21`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2505`；参考转录：`3638`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -72,8 +50,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-64c906b872944fd1424d8615",
-        "content_sha256": "ca73bddca4c79edf82989ef79652f60fccccf3ecd3916aa63936b83c85abec50",
-        "source": "segments",
+        "content_sha256": "a6fa50cff3800b766f6639acbe35db1c7ab0ae8f5ae1f0648cbea803d5eedb03",
+        "source": "blocks",
         "range": [
           0,
           152
@@ -96,8 +74,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-64c906b872944fd1424d8615",
-        "content_sha256": "ca73bddca4c79edf82989ef79652f60fccccf3ecd3916aa63936b83c85abec50",
-        "source": "segments",
+        "content_sha256": "a6fa50cff3800b766f6639acbe35db1c7ab0ae8f5ae1f0648cbea803d5eedb03",
+        "source": "blocks",
         "range": [
           152,
           295
@@ -119,8 +97,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-64c906b872944fd1424d8615",
-        "content_sha256": "ca73bddca4c79edf82989ef79652f60fccccf3ecd3916aa63936b83c85abec50",
-        "source": "segments",
+        "content_sha256": "a6fa50cff3800b766f6639acbe35db1c7ab0ae8f5ae1f0648cbea803d5eedb03",
+        "source": "blocks",
         "range": [
           295,
           404
@@ -142,8 +120,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-64c906b872944fd1424d8615",
-        "content_sha256": "ca73bddca4c79edf82989ef79652f60fccccf3ecd3916aa63936b83c85abec50",
-        "source": "segments",
+        "content_sha256": "a6fa50cff3800b766f6639acbe35db1c7ab0ae8f5ae1f0648cbea803d5eedb03",
+        "source": "blocks",
         "range": [
           404,
           563
@@ -165,8 +143,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-64c906b872944fd1424d8615",
-        "content_sha256": "ca73bddca4c79edf82989ef79652f60fccccf3ecd3916aa63936b83c85abec50",
-        "source": "segments",
+        "content_sha256": "a6fa50cff3800b766f6639acbe35db1c7ab0ae8f5ae1f0648cbea803d5eedb03",
+        "source": "blocks",
         "range": [
           563,
           641
@@ -189,8 +167,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-64c906b872944fd1424d8615",
-        "content_sha256": "ca73bddca4c79edf82989ef79652f60fccccf3ecd3916aa63936b83c85abec50",
-        "source": "segments",
+        "content_sha256": "a6fa50cff3800b766f6639acbe35db1c7ab0ae8f5ae1f0648cbea803d5eedb03",
+        "source": "blocks",
         "range": [
           641,
           779
@@ -211,8 +189,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-64c906b872944fd1424d8615",
-        "content_sha256": "ca73bddca4c79edf82989ef79652f60fccccf3ecd3916aa63936b83c85abec50",
-        "source": "segments",
+        "content_sha256": "a6fa50cff3800b766f6639acbe35db1c7ab0ae8f5ae1f0648cbea803d5eedb03",
+        "source": "blocks",
         "range": [
           779,
           851
@@ -254,8 +232,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-64c906b872944fd1424d8615",
-        "content_sha256": "ca73bddca4c79edf82989ef79652f60fccccf3ecd3916aa63936b83c85abec50",
-        "source": "segments",
+        "content_sha256": "a6fa50cff3800b766f6639acbe35db1c7ab0ae8f5ae1f0648cbea803d5eedb03",
+        "source": "blocks",
         "range": [
           851,
           1042

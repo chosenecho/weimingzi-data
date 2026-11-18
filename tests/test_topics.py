@@ -1,288 +1,94 @@
-"""Thematic membership is derived with evidence, separate from source data."""
-
-import copy
-import io
-import json
+"""Optional thematic rules select native item records with explicit reasons."""
+from pathlib import Path
+import tempfile
 import unittest
-from contextlib import redirect_stdout, redirect_stderr
 
-import test_coverage as fixtures
-from weimingzi_corpus.cli import main
+from native_fixtures import fixture_records, rid, write_corpus
 from weimingzi_corpus.coverage import CoverageIndex
-from weimingzi_corpus.exports import generate_catalog_docs
-from weimingzi_corpus.records import (
-    make_record_id,
-    read_json,
-    validate_corpus,
-    write_json,
-    write_jsonl,
-)
-from weimingzi_corpus.topics import (
-    definitions,
-    generate_topic_catalog,
-    select_topic,
-    topic_report,
-)
+from weimingzi_corpus.records import validate_corpus, write_json
+from weimingzi_corpus.topics import definitions, generate_topic_catalog, normalized, select_topic, topic_report
 
 
 class TopicTests(unittest.TestCase):
-    setUp = fixtures.CoverageTests.setUp
-    tearDown = fixtures.CoverageTests.tearDown
-    save_transcript = fixtures.CoverageTests.save_transcript
-    fixture = fixtures.CoverageTests.fixture
-    edited = fixtures.CoverageTests.edited
-
-    def configure(self):
-        self.fixture()
-        self.video.update(
-            title="【我是谁】基本情况", metadata={"tags": [["主义主义", "工益公益"]]}
-        )
-        self.youtube.update(title="［主义主义］　核心材料")
-        self.variant.update(
-            title="其他材料",
-            metadata={"uploader": "主义主义", "description": "主义主义"},
-        )
-        self.sibling["title"] = "系列中的一章"
-        write_jsonl(
-            self.root / "data/items.jsonl",
-            [
-                self.video,
-                self.item,
-                self.sibling,
-                self.youtube,
-                self.variant,
-                self.supplement,
-            ],
-        )
-        self.collection = {
-            "schema_version": 2,
-            "kind": "video_series",
-            "id": make_record_id("c", "series"),
-            "title": "来源系列",
-            "members": [{"item_id": self.sibling["id"], "position": 1}],
-        }
-        write_jsonl(self.root / "data/collections.jsonl", [self.collection])
-        self.topic = {
-            "id": "ismism",
-            "title": "主义主义",
-            "rules": {
-                "collection_ids": [self.collection["id"]],
-                "title_prefixes": ["[主义主义]"],
-                "exact_tags": ["主义主义"],
-                "include_chapter_supplements": True,
-            },
-            "manual_inclusions": [
-                {
-                    "item_id": self.video["id"],
-                    "role": "introductory",
-                    "evidence": "明确确认的导入材料",
-                }
-            ],
-        }
-        self.save_topic()
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.root = Path(self.temp.name)
+        self.records = write_corpus(self.root)
+        self.topic = {"id": "fixture", "title": "测试专题", "rules": {"collection_ids": [], "title_prefixes": [], "exact_tags": [], "include_chapter_supplements": False}, "manual_inclusions": []}
 
     def save_topic(self):
-        write_json(
-            self.root / "selections/topics.json",
-            {"format": "thematic-index/v1", "topics": [self.topic]},
-        )
+        write_json(self.root / "selections/topics.json", {"format": "thematic-index/v1", "topics": [self.topic]})
 
-    def test_tag_title_collection_manual_and_supplement_have_distinct_evidence(self):
-        self.configure()
-        sources = {
-            name: (self.root / ("data/" + name + ".jsonl")).read_bytes()
-            for name in ("items", "collections")
-        }
-        entries = {
-            r["item_id"]: r
-            for r in select_topic(CoverageIndex(self.root), definitions(self.root)[0])
-        }
-        intro = entries[self.video["id"]]
-        self.assertEqual(intro["role"], "introductory")
-        self.assertEqual(
-            {r["rule"] for r in intro["inclusion_reasons"]},
-            {"exact_tag", "manual_inclusion", "source_collection"},
-        )
-        self.assertNotIn(self.sibling["id"], entries)
-        self.assertEqual(entries[self.youtube["id"]]["role"], "core")
-        self.assertEqual(entries[self.supplement["id"]]["role"], "chapter_supplement")
-        self.assertNotIn(self.variant["id"], entries)
-        for name, original in sources.items():
-            self.assertEqual(
-                (self.root / ("data/" + name + ".jsonl")).read_bytes(), original
-            )
+    def test_source_collection_uses_items_kind_and_preserves_member_reason(self):
+        self.topic["rules"]["collection_ids"] = [rid("collection")]
+        rows = select_topic(CoverageIndex(self.root), self.topic)
+        self.assertEqual([row["item_id"] for row in rows], [rid("video")])
+        self.assertEqual(rows[0]["inclusion_reasons"][0]["member"], {"item_id": rid("video")})
+        self.assertEqual(rows[0]["role"], "core")
 
-    def test_tag_only_entry_is_related_and_does_not_require_a_title_match(self):
-        self.configure()
-        self.topic["manual_inclusions"] = []
-        self.topic["rules"]["collection_ids"] = []
-        intro = next(
-            r
-            for r in select_topic(CoverageIndex(self.root), self.topic)
-            if r["item_id"] == self.video["id"]
-        )
-        self.assertEqual(intro["role"], "related")
-        self.assertEqual(intro["inclusion_reasons"][0]["observed_tag"], "主义主义")
+    def test_normalized_titles_exact_nested_tags_and_no_uploader_inference(self):
+        self.records["items"][0].update(title="ＡＢＣ 课程", metadata={"tags": [["专题"], "另一个"], "uploader": "误命中"})
+        write_corpus(self.root, self.records)
+        self.topic["rules"].update(title_prefixes=["abc"], exact_tags=[" 专 题 ", "误命中"])
+        rows = select_topic(CoverageIndex(self.root), self.topic)
+        self.assertEqual(len(rows), 1)
+        self.assertEqual({reason["rule"] for reason in rows[0]["inclusion_reasons"]}, {"normalized_title_prefix", "exact_tag"})
+        self.assertEqual(normalized(" Ａ b C "), "abc")
 
-    def test_export_preserves_variants_review_state_and_all_layers(self):
-        self.configure()
-        row = self.edited(self.item, "intro")
-        self.edited(self.item, "partial", complete=False)
-        report = topic_report(
-            CoverageIndex(self.root), self.topic, include_records=True
-        )
-        intro = next(e for e in report["entries"] if e["item_id"] == self.video["id"])
-        rows = intro["coverage"]["layers"]["direct"]["records"]
-        self.assertEqual(next(r["record"] for r in rows if r["id"] == row["id"]), row)
-        self.assertEqual(report["counts"]["direct"]["edited_transcripts"], 2)
-        self.assertEqual(report["counts"]["direct"]["complete_text_candidates"], 1)
-        self.assertEqual(report["counts"]["direct"]["human_reviewed_complete_texts"], 0)
+    def test_parent_deduplicates_part_and_preserves_manual_evidence(self):
+        self.topic["rules"]["collection_ids"] = [rid("collection")]
+        self.topic["manual_inclusions"] = [{"item_id": rid("part"), "role": "introductory", "evidence": "用户指定首段导入"}]
+        rows = select_topic(CoverageIndex(self.root), self.topic)
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["item_id"], rid("video"))
+        self.assertEqual(rows[0]["role"], "introductory")
+        reason = rows[0]["inclusion_reasons"][-1]
+        self.assertEqual(reason["evidence"], "用户指定首段导入")
+        self.assertEqual(reason["matched_item_id"], rid("part"))
+        self.save_topic()
+        self.assertEqual(len(definitions(self.root)), 1)
+        self.topic["manual_inclusions"][0]["evidence"] = ""
+        self.save_topic()
+        with self.assertRaisesRegex(ValueError, "evidence"):
+            definitions(self.root)
 
-    def test_invalid_definition_and_unknown_references_fail_closed(self):
-        self.configure()
-        original = copy.deepcopy(self.topic)
-        for bad in (
-            {**original, "id": ""},
-            {**original, "manual_inclusions": [{}]},
-            {**original, "rules": {**original["rules"], "exact_tags": "主义主义"}},
-        ):
-            self.topic = bad
-            self.save_topic()
-            with self.assertRaises(ValueError):
-                definitions(self.root)
+    def test_explicit_chapter_supplement_and_native_record_report(self):
+        supplement = {"id": rid("supplement"), "kind": "audio_recording", "title": "补充", "identifiers": {}, "relations": [{"kind": "chapter_supplement_not_audio_identity", "target_item_id": rid("part"), "evidence": "人工关联"}]}
+        self.records["items"].append(supplement)
+        write_corpus(self.root, self.records)
+        self.topic["rules"].update(collection_ids=[rid("collection")], include_chapter_supplements=True)
         index = CoverageIndex(self.root)
-        for field in ("manual_inclusions", "rules"):
-            bad = copy.deepcopy(original)
-            if field == "rules":
-                bad["rules"]["collection_ids"] = ["missing"]
-            else:
-                bad["manual_inclusions"][0]["item_id"] = "missing"
-            with self.assertRaises(ValueError):
-                select_topic(index, bad)
+        rows = select_topic(index, self.topic)
+        self.assertEqual({row["role"] for row in rows}, {"core", "chapter_supplement"})
+        report = topic_report(index, self.topic, include_records=True)
+        core = next(row for row in report["entries"] if row["role"] == "core")
+        self.assertTrue(all("inputs" in row["record"] for row in core["coverage"]["layers"]["direct"]["records"]))
 
-    def test_cli_full_export_and_output_protection(self):
-        self.configure()
-        row = self.edited(self.item, "intro")
-        output = self.root / ".cache/topic.json"
-        with redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
-            code = main(
-                [
-                    "--root",
-                    str(self.root),
-                    "topic",
-                    "主义主义",
-                    "--include-records",
-                    "--output",
-                    str(output),
-                ]
-            )
-            denied = main(
-                [
-                    "--root",
-                    str(self.root),
-                    "topic",
-                    "ismism",
-                    "--output",
-                    str(self.root / "data/items.jsonl"),
-                ]
-            )
-        self.assertEqual(code, 0)
-        self.assertEqual(denied, 1)
-        report = json.loads(output.read_text(encoding="utf-8"))
-        self.assertTrue(
-            any(
-                r["record"] == row
-                for e in report["entries"]
-                for r in e["coverage"]["layers"]["direct"]["records"]
-            )
-        )
+    def test_optional_rules_do_not_gate_native_validation_or_import(self):
+        self.assertEqual(generate_topic_catalog(self.root), {})
+        self.topic["rules"]["collection_ids"] = [rid("missing")]
+        self.save_topic()
+        self.assertEqual(validate_corpus(self.root)["documents"], 5)
+        with self.assertRaisesRegex(ValueError, "collection"):
+            generate_topic_catalog(self.root)
 
-    def test_generated_navigation_is_rebuildable(self):
-        self.configure()
-        counts = generate_catalog_docs(self.root)
-        self.assertNotIn("topics", counts)
-        self.assertNotIn("topic_entries", counts)
-        self.assertEqual(read_json(self.root / "docs/counts.json"), counts)
-        topic_counts = generate_topic_catalog(self.root)
-        self.assertEqual(topic_counts["topics"], 1)
-        self.assertGreater(topic_counts["topic_entries"], 0)
-        text = (self.root / "docs/catalog/topics.md").read_text(encoding="utf-8")
-        self.assertIn("【我是谁】基本情况", text)
-        self.assertIn("精确标签：主义主义", text)
-        self.assertIn("introductory", text)
-        self.assertIn(
-            "catalog/topics.md",
-            (self.root / "docs/INDEX.md").read_text(encoding="utf-8"),
-        )
-        generate_catalog_docs(self.root, check=True)
-        generate_topic_catalog(self.root, check=True)
-
-    def test_base_validation_and_catalog_ignore_broken_topics(self):
-        self.configure()
-        baseline = validate_corpus(self.root)
-        for name in ("topics", "topic_entries"):
-            self.assertNotIn(name, baseline)
-        path = self.root / "selections/topics.json"
-        path.write_text("{broken json", encoding="utf-8")
-        self.assertEqual(validate_corpus(self.root), baseline)
-        self.assertEqual(generate_catalog_docs(self.root), baseline)
-        generate_catalog_docs(self.root, check=True)
-        for check in (False, True):
-            with self.subTest(check=check), self.assertRaises(ValueError):
-                generate_topic_catalog(self.root, check=check)
-        with redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
-            self.assertEqual(main(["--root", str(self.root), "generate"]), 1)
-
-    def test_topic_generation_and_check_reject_unknown_references(self):
-        self.configure()
-        for field in ("collection", "item"):
-            with self.subTest(field=field):
-                original = copy.deepcopy(self.topic)
-                if field == "collection":
-                    self.topic["rules"]["collection_ids"] = ["missing"]
-                else:
-                    self.topic["manual_inclusions"][0]["item_id"] = "missing"
-                self.save_topic()
-                validate_corpus(self.root)
-                for check in (False, True):
-                    with self.assertRaises(ValueError):
-                        generate_topic_catalog(self.root, check=check)
-                self.topic = original
-
-    def test_cli_generate_counts_topics_without_training_or_release_config(self):
-        self.configure()
-        self.assertFalse((self.root / "selections/training.json").exists())
-        self.assertFalse((self.root / "selections/release.json").exists())
-        output = io.StringIO()
-        with redirect_stdout(output), redirect_stderr(io.StringIO()):
-            self.assertEqual(main(["--root", str(self.root), "generate"]), 0)
-        counts = json.loads(output.getvalue())
-        self.assertEqual(counts["topics"], 1)
-        self.assertGreater(counts["topic_entries"], 0)
-        self.assertNotIn("topics", read_json(self.root / "docs/counts.json"))
-
-
-class RepositoryTopicTests(unittest.TestCase):
-    def test_issue_three_introduction_is_included_with_original_evidence_and_draft(
-        self,
-    ):
-        index = fixtures.repository_index()
-        topic = definitions(index.root)[0]
-        entry = next(
-            e
-            for e in select_topic(index, topic)
-            if e["item_id"] == "i-cdcd00c2682b005c40ff7ab3"
-        )
-        self.assertEqual(entry["role"], "introductory")
-        self.assertEqual(
-            {r["rule"] for r in entry["inclusion_reasons"]},
-            {"exact_tag", "manual_inclusion"},
-        )
-        rows = index.report(entry["item_id"])["layers"]["direct"]["records"]
-        row = next(r for r in rows if r["id"] == "r-3b42fcf5ff4728f644c2b7c5")
-        self.assertTrue(row["is_complete"])
-        self.assertTrue(row["requires_review"])
-        self.assertFalse(row["is_fully_human_reviewed"])
+    def test_catalog_rebuild_check_and_topic_definition_failures(self):
+        self.topic["rules"]["collection_ids"] = [rid("collection")]
+        self.save_topic()
+        counts = generate_topic_catalog(self.root)
+        self.assertEqual(counts, {"topics": 1, "topic_entries": 1})
+        self.assertEqual(generate_topic_catalog(self.root, check=True), counts)
+        path = self.root / "docs/catalog/topics.md"
+        text = path.read_text(encoding="utf-8")
+        self.assertIn("data/documents/", text)
+        path.write_text("stale", encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, "stale"):
+            generate_topic_catalog(self.root, check=True)
+        self.topic["rules"]["include_chapter_supplements"] = None
+        self.save_topic()
+        with self.assertRaisesRegex(ValueError, "boolean"):
+            definitions(self.root)
 
 
 if __name__ == "__main__":

@@ -110,6 +110,7 @@ def select_topic(index: CoverageIndex, topic: dict) -> list[dict]:
         if reason not in entry["inclusion_reasons"]:
             entry["inclusion_reasons"].append(reason)
 
+    # Collections share the item namespace; kind selects their member semantics.
     collections = {r["id"]: r for r in index.collections}
     for collection_id in rules["collection_ids"]:
         if collection_id not in collections:

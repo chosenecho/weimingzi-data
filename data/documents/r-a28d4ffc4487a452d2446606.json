@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 一分钟哲学课：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`6c1b6aac0b41b22e929d30a50fef4b89ac977937105364c818171a538bb10a17`\n\n输入快照：`8a4b71717fd5cdc58c12e491e4a873ad28832c24750efcc97ae0def0f09bf7c5`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2646`；参考转录：`3573`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -71,8 +49,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-6d0c4a87d5902651bb15d314",
-        "content_sha256": "a24e8e5fd2ef15638d17cf1dcb068b6a36d39c511fe2a043b19d1270e68fce83",
-        "source": "segments",
+        "content_sha256": "0c95442cfdcfb2c757be63960326f02f3d33a47cec6a13b3295c91d95af7fc09",
+        "source": "blocks",
         "range": [
           0,
           62
@@ -105,8 +83,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-6d0c4a87d5902651bb15d314",
-        "content_sha256": "a24e8e5fd2ef15638d17cf1dcb068b6a36d39c511fe2a043b19d1270e68fce83",
-        "source": "segments",
+        "content_sha256": "0c95442cfdcfb2c757be63960326f02f3d33a47cec6a13b3295c91d95af7fc09",
+        "source": "blocks",
         "range": [
           62,
           261
@@ -126,7 +104,7 @@
       ],
       "input_text_ref": {
         "target_id": "t-6d0c4a87d5902651bb15d314",
-        "content_sha256": "a24e8e5fd2ef15638d17cf1dcb068b6a36d39c511fe2a043b19d1270e68fce83",
+        "content_sha256": "0c95442cfdcfb2c757be63960326f02f3d33a47cec6a13b3295c91d95af7fc09",
         "source": "text",
         "range": [
           269,

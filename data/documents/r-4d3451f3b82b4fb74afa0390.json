@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【填词翻唱】《花鸟风月》：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`f83f9462ba1915859b1f0421472a89018a06f02363cec9b729a5a005c4858cbf`\n\n输入快照：`d46ecb41bb9ee10a9842afa3c99e67e01d1dfd26fb03ba1836f85a749a9bfd1f`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`445`；参考转录：`170`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -78,7 +56,7 @@
       ],
       "input_text_ref": {
         "target_id": "t-9835dfd668c277b603c8b087",
-        "content_sha256": "fb56a8bd906ba3242b4fd445161ddad7060c90603c3c00a2e198f9b5ea9277e7",
+        "content_sha256": "8bb4492aec2a4116e642f06e675766e27302ef1157cbc5e4489c1045d1b77c07",
         "source": "text",
         "range": [
           0,
@@ -122,8 +100,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-9835dfd668c277b603c8b087",
-        "content_sha256": "fb56a8bd906ba3242b4fd445161ddad7060c90603c3c00a2e198f9b5ea9277e7",
-        "source": "segments",
+        "content_sha256": "8bb4492aec2a4116e642f06e675766e27302ef1157cbc5e4489c1045d1b77c07",
+        "source": "blocks",
         "range": [
           44,
           120
@@ -175,8 +153,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-9835dfd668c277b603c8b087",
-        "content_sha256": "fb56a8bd906ba3242b4fd445161ddad7060c90603c3c00a2e198f9b5ea9277e7",
-        "source": "segments",
+        "content_sha256": "8bb4492aec2a4116e642f06e675766e27302ef1157cbc5e4489c1045d1b77c07",
+        "source": "blocks",
         "range": [
           120,
           194
@@ -217,8 +195,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-9835dfd668c277b603c8b087",
-        "content_sha256": "fb56a8bd906ba3242b4fd445161ddad7060c90603c3c00a2e198f9b5ea9277e7",
-        "source": "segments",
+        "content_sha256": "8bb4492aec2a4116e642f06e675766e27302ef1157cbc5e4489c1045d1b77c07",
+        "source": "blocks",
         "range": [
           194,
           258
@@ -261,8 +239,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-9835dfd668c277b603c8b087",
-        "content_sha256": "fb56a8bd906ba3242b4fd445161ddad7060c90603c3c00a2e198f9b5ea9277e7",
-        "source": "segments",
+        "content_sha256": "8bb4492aec2a4116e642f06e675766e27302ef1157cbc5e4489c1045d1b77c07",
+        "source": "blocks",
         "range": [
           258,
           332
@@ -307,8 +285,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-9835dfd668c277b603c8b087",
-        "content_sha256": "fb56a8bd906ba3242b4fd445161ddad7060c90603c3c00a2e198f9b5ea9277e7",
-        "source": "segments",
+        "content_sha256": "8bb4492aec2a4116e642f06e675766e27302ef1157cbc5e4489c1045d1b77c07",
+        "source": "blocks",
         "range": [
           332,
           385
@@ -328,7 +306,7 @@
       ],
       "input_text_ref": {
         "target_id": "t-9835dfd668c277b603c8b087",
-        "content_sha256": "fb56a8bd906ba3242b4fd445161ddad7060c90603c3c00a2e198f9b5ea9277e7",
+        "content_sha256": "8bb4492aec2a4116e642f06e675766e27302ef1157cbc5e4489c1045d1b77c07",
         "source": "text",
         "range": [
           414,
@@ -358,7 +336,7 @@
       ],
       "input_text_ref": {
         "target_id": "t-9835dfd668c277b603c8b087",
-        "content_sha256": "fb56a8bd906ba3242b4fd445161ddad7060c90603c3c00a2e198f9b5ea9277e7",
+        "content_sha256": "8bb4492aec2a4116e642f06e675766e27302ef1157cbc5e4489c1045d1b77c07",
         "source": "text",
         "range": [
           475,
@@ -396,8 +374,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-9835dfd668c277b603c8b087",
-        "content_sha256": "fb56a8bd906ba3242b4fd445161ddad7060c90603c3c00a2e198f9b5ea9277e7",
-        "source": "segments",
+        "content_sha256": "8bb4492aec2a4116e642f06e675766e27302ef1157cbc5e4489c1045d1b77c07",
+        "source": "blocks",
         "range": [
           487,
           567

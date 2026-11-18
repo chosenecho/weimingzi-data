@@ -4,22 +4,18 @@ from __future__ import annotations
 
 import argparse
 import json
-import os
-import shutil
 import sqlite3
 import sys
-import tempfile
 from pathlib import Path
 
 from .records import (
-    JSON_RECORD_TABLES,
-    JSONL_TABLES,
+    ENTITIES,
+    input_ids,
     canonical_json,
     read_json,
     read_jsonl,
     iter_records,
-    load_content_record,
-    install_candidate_updates,
+    load_document,
     write_record_updates,
     validate_corpus,
 )
@@ -55,8 +51,10 @@ def validate_export_path(root: Path, output: str) -> Path:
     return path
 
 
-def import_records(root: Path, table: str, source: Path) -> int:
-    """Insert canonical records after validating an isolated hard-linked projection."""
+def import_records(root: Path, entity: str, source: Path) -> int:
+    """Insert native records after full candidate validation; changed IDs conflict."""
+    if entity not in ENTITIES:
+        raise ValueError("Unknown entity: " + entity)
     incoming = (
         list(read_jsonl(source)) if source.suffix == ".jsonl" else read_json(source)
     )
@@ -64,16 +62,18 @@ def import_records(root: Path, table: str, source: Path) -> int:
         incoming = [incoming]
     if not isinstance(incoming, list) or not incoming:
         raise ValueError("Expected one record, an array, or JSONL")
-    existing = {r["id"]: r for r, _ in iter_records(root, table)}
+    existing = {r["id"]: r for r, _ in iter_records(root, entity)}
     new = []
     seen = set()
     for row in incoming:
-        record_id = row.get("id")
+        if not isinstance(row, dict) or not isinstance(row.get("id"), str):
+            raise ValueError("Imported records require a string ID")
+        record_id = row["id"]
         if record_id in seen:
             raise ValueError("Duplicate import ID: " + str(record_id))
         seen.add(record_id)
         if record_id in existing:
-            if existing[record_id] != row:
+            if canonical_json(existing[record_id]) != canonical_json(row):
                 raise ValueError(
                     "Import would overwrite a different record: " + str(record_id)
                 )
@@ -81,15 +81,8 @@ def import_records(root: Path, table: str, source: Path) -> int:
             new.append(row)
     if not new:
         return 0
-    cache = root / ".cache"
-    cache.mkdir(exist_ok=True)
-    with tempfile.TemporaryDirectory(prefix="import-", dir=cache) as name:
-        candidate = Path(name)
-        shutil.copytree(root / "data", candidate / "data", copy_function=os.link)
-        changed_paths = write_record_updates(candidate, {table: new})
-        validate_corpus(candidate)
-        # No changes to the maintained tree occur before the full reference/type check.
-        install_candidate_updates(root, candidate, changed_paths)
+    # The native writer validates the full candidate graph and atomically installs it.
+    write_record_updates(root, {entity: new})
     return len(new)
 
 
@@ -114,12 +107,8 @@ def main(argv=None) -> int:
     generated = commands.add_parser("generate")
     generated.add_argument("--check", action="store_true")
     imported = commands.add_parser("import")
-    imported.add_argument(
-        "--table", choices=[*JSONL_TABLES, *JSON_RECORD_TABLES], required=True
-    )
+    imported.add_argument("--entity", choices=ENTITIES, required=True)
     imported.add_argument("source", type=Path)
-    package = commands.add_parser("import-package")
-    package.add_argument("source", type=Path)
     coverage = commands.add_parser("coverage")
     coverage.add_argument("identifier")
     coverage.add_argument("--part", type=int)
@@ -147,6 +136,7 @@ def main(argv=None) -> int:
         ],
         required=True,
     )
+    exported.add_argument("--entity", choices=ENTITIES)
     exported.add_argument("--id")
     exported.add_argument("--output", required=True)
     searched = commands.add_parser("search")
@@ -226,11 +216,7 @@ def main(argv=None) -> int:
             result = generate_catalog_docs(root, args.check)
             result.update(generate_topic_catalog(root, args.check))
         elif args.command == "import":
-            result = {"inserted": import_records(root, args.table, args.source)}
-        elif args.command == "import-package":
-            from .requested_results import import_requested_results
-
-            result = import_requested_results(root, args.source)
+            result = {"inserted": import_records(root, args.entity, args.source)}
         elif args.command == "coverage":
             from .coverage import CoverageIndex, coverage_jsonl
 
@@ -302,8 +288,8 @@ def main(argv=None) -> int:
         else:
             output = validate_export_path(root, args.output)
             if args.format in {"catalog", "sqlite"}:
-                if args.id:
-                    raise ValueError("Catalog/SQLite export covers all records")
+                if args.id or args.entity:
+                    raise ValueError("Catalog/SQLite export covers all entities")
                 validate_corpus(root)
                 if args.format == "sqlite":
                     export_sqlite(root, output)
@@ -311,12 +297,21 @@ def main(argv=None) -> int:
                 else:
                     value = render_catalog_csv(root)
             else:
-                if args.id:
-                    rows = [load_content_record(root, args.id)]
-                elif args.format == "review_issues":
-                    rows = (r for r, _ in iter_records(root, "edited_transcripts"))
+                if args.format in {"json", "jsonl"}:
+                    if args.entity is None:
+                        raise ValueError("Native JSON export requires --entity")
+                    rows = [row for row, _ in iter_records(root, args.entity) if args.id is None or row["id"] == args.id]
+                    if args.id and not rows:
+                        raise ValueError("Unknown record ID: " + args.id)
                 else:
-                    raise ValueError("Choose --id")
+                    if args.entity not in (None, "documents"):
+                        raise ValueError("Text and review formats require --entity documents")
+                    if args.id:
+                        rows = [load_document(root, args.id)]
+                    elif args.format == "review_issues":
+                        rows = [row for row, _ in iter_records(root, "documents", kind="edited_transcript")]
+                    else:
+                        raise ValueError("Choose --id")
                 if args.format == "review_issues":
                     value = "".join(
                         canonical_json(issue) + "\n"
@@ -341,13 +336,10 @@ def main(argv=None) -> int:
                     elif args.format == "txt":
                         value = extract_text(row)
                     else:
-                        item = next(
-                            r
-                            for r, _ in iter_records(root, "items")
-                            if r["id"] == row["item_id"]
-                        )
+                        owners = input_ids(row, "item")
+                        item = next((r for r, _ in iter_records(root, "items") if r["id"] in owners), {"title": row["id"]})
                         value = (
-                            render_review_markdown(row, item)
+                            render_review_markdown(row, item, root)
                             if args.format == "review_markdown"
                             else render_markdown(row, item)
                         )

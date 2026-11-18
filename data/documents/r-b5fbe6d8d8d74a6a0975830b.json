@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 一分钟哲学课：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`48e75e7b08e9f9f3fca7c4cd587f1bbe4a93e273600fec22454cf2293c5666b5`\n\n输入快照：`abbd4ff76c9f036babd478919a420622f0dabb711e41e1ce020a2b931911be44`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2761`；参考转录：`3731`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -81,8 +59,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-032787f867c8597cc64f7509",
-        "content_sha256": "d3027a83a31437a5676b03e591cf77b328ac97b73f1bb361e885c57fe3f3c308",
-        "source": "segments",
+        "content_sha256": "05f73eea7ed4596c175f1fb6352ca6ee0104ce543113fa6ac74e027d78b30edf",
+        "source": "blocks",
         "range": [
           0,
           103
@@ -105,8 +83,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-032787f867c8597cc64f7509",
-        "content_sha256": "d3027a83a31437a5676b03e591cf77b328ac97b73f1bb361e885c57fe3f3c308",
-        "source": "segments",
+        "content_sha256": "05f73eea7ed4596c175f1fb6352ca6ee0104ce543113fa6ac74e027d78b30edf",
+        "source": "blocks",
         "range": [
           103,
           282
@@ -139,8 +117,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-032787f867c8597cc64f7509",
-        "content_sha256": "d3027a83a31437a5676b03e591cf77b328ac97b73f1bb361e885c57fe3f3c308",
-        "source": "segments",
+        "content_sha256": "05f73eea7ed4596c175f1fb6352ca6ee0104ce543113fa6ac74e027d78b30edf",
+        "source": "blocks",
         "range": [
           282,
           553
@@ -162,8 +140,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-032787f867c8597cc64f7509",
-        "content_sha256": "d3027a83a31437a5676b03e591cf77b328ac97b73f1bb361e885c57fe3f3c308",
-        "source": "segments",
+        "content_sha256": "05f73eea7ed4596c175f1fb6352ca6ee0104ce543113fa6ac74e027d78b30edf",
+        "source": "blocks",
         "range": [
           553,
           692
@@ -185,8 +163,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-032787f867c8597cc64f7509",
-        "content_sha256": "d3027a83a31437a5676b03e591cf77b328ac97b73f1bb361e885c57fe3f3c308",
-        "source": "segments",
+        "content_sha256": "05f73eea7ed4596c175f1fb6352ca6ee0104ce543113fa6ac74e027d78b30edf",
+        "source": "blocks",
         "range": [
           692,
           809
@@ -208,8 +186,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-032787f867c8597cc64f7509",
-        "content_sha256": "d3027a83a31437a5676b03e591cf77b328ac97b73f1bb361e885c57fe3f3c308",
-        "source": "segments",
+        "content_sha256": "05f73eea7ed4596c175f1fb6352ca6ee0104ce543113fa6ac74e027d78b30edf",
+        "source": "blocks",
         "range": [
           809,
           940
@@ -230,8 +208,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-032787f867c8597cc64f7509",
-        "content_sha256": "d3027a83a31437a5676b03e591cf77b328ac97b73f1bb361e885c57fe3f3c308",
-        "source": "segments",
+        "content_sha256": "05f73eea7ed4596c175f1fb6352ca6ee0104ce543113fa6ac74e027d78b30edf",
+        "source": "blocks",
         "range": [
           940,
           1029
@@ -253,8 +231,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-032787f867c8597cc64f7509",
-        "content_sha256": "d3027a83a31437a5676b03e591cf77b328ac97b73f1bb361e885c57fe3f3c308",
-        "source": "segments",
+        "content_sha256": "05f73eea7ed4596c175f1fb6352ca6ee0104ce543113fa6ac74e027d78b30edf",
+        "source": "blocks",
         "range": [
           1029,
           1162
@@ -276,8 +254,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-032787f867c8597cc64f7509",
-        "content_sha256": "d3027a83a31437a5676b03e591cf77b328ac97b73f1bb361e885c57fe3f3c308",
-        "source": "segments",
+        "content_sha256": "05f73eea7ed4596c175f1fb6352ca6ee0104ce543113fa6ac74e027d78b30edf",
+        "source": "blocks",
         "range": [
           1162,
           1286
@@ -309,8 +287,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-032787f867c8597cc64f7509",
-        "content_sha256": "d3027a83a31437a5676b03e591cf77b328ac97b73f1bb361e885c57fe3f3c308",
-        "source": "segments",
+        "content_sha256": "05f73eea7ed4596c175f1fb6352ca6ee0104ce543113fa6ac74e027d78b30edf",
+        "source": "blocks",
         "range": [
           1286,
           1355
@@ -331,8 +309,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-032787f867c8597cc64f7509",
-        "content_sha256": "d3027a83a31437a5676b03e591cf77b328ac97b73f1bb361e885c57fe3f3c308",
-        "source": "segments",
+        "content_sha256": "05f73eea7ed4596c175f1fb6352ca6ee0104ce543113fa6ac74e027d78b30edf",
+        "source": "blocks",
         "range": [
           1355,
           1425
@@ -365,8 +343,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-032787f867c8597cc64f7509",
-        "content_sha256": "d3027a83a31437a5676b03e591cf77b328ac97b73f1bb361e885c57fe3f3c308",
-        "source": "segments",
+        "content_sha256": "05f73eea7ed4596c175f1fb6352ca6ee0104ce543113fa6ac74e027d78b30edf",
+        "source": "blocks",
         "range": [
           1425,
           1594
@@ -388,8 +366,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-032787f867c8597cc64f7509",
-        "content_sha256": "d3027a83a31437a5676b03e591cf77b328ac97b73f1bb361e885c57fe3f3c308",
-        "source": "segments",
+        "content_sha256": "05f73eea7ed4596c175f1fb6352ca6ee0104ce543113fa6ac74e027d78b30edf",
+        "source": "blocks",
         "range": [
           1594,
           1706

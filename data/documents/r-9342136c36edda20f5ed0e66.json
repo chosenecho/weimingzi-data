@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【实事求是】对某特定行为的披露和定性：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`85c5dc5f68c72bdd7f8b045330b9291c43d394283bb9640d4dfcf4413d6de5db`\n\n输入快照：`1dff826df1f182b6eddd43641f420ac0bf829e049c776a4032d4706f010cfc55`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`309`；参考转录：`42`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -93,8 +71,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-380f2239b3243acaaac8577e",
-        "content_sha256": "d982aa5125e0d85eef7aff45e8723d09831df56656f5f070b7530dcb134163fb",
-        "source": "segments",
+        "content_sha256": "286e2ad7633b1f65edacd54fafeb170b9ff5e965ecedfd2b44fcdcb3b597d47a",
+        "source": "blocks",
         "range": [
           0,
           224
@@ -117,8 +95,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-380f2239b3243acaaac8577e",
-        "content_sha256": "d982aa5125e0d85eef7aff45e8723d09831df56656f5f070b7530dcb134163fb",
-        "source": "segments",
+        "content_sha256": "286e2ad7633b1f65edacd54fafeb170b9ff5e965ecedfd2b44fcdcb3b597d47a",
+        "source": "blocks",
         "range": [
           224,
           306
@@ -154,8 +132,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-380f2239b3243acaaac8577e",
-        "content_sha256": "d982aa5125e0d85eef7aff45e8723d09831df56656f5f070b7530dcb134163fb",
-        "source": "segments",
+        "content_sha256": "286e2ad7633b1f65edacd54fafeb170b9ff5e965ecedfd2b44fcdcb3b597d47a",
+        "source": "blocks",
         "range": [
           306,
           520
@@ -192,8 +170,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-380f2239b3243acaaac8577e",
-        "content_sha256": "d982aa5125e0d85eef7aff45e8723d09831df56656f5f070b7530dcb134163fb",
-        "source": "segments",
+        "content_sha256": "286e2ad7633b1f65edacd54fafeb170b9ff5e965ecedfd2b44fcdcb3b597d47a",
+        "source": "blocks",
         "range": [
           520,
           768
@@ -218,8 +196,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-380f2239b3243acaaac8577e",
-        "content_sha256": "d982aa5125e0d85eef7aff45e8723d09831df56656f5f070b7530dcb134163fb",
-        "source": "segments",
+        "content_sha256": "286e2ad7633b1f65edacd54fafeb170b9ff5e965ecedfd2b44fcdcb3b597d47a",
+        "source": "blocks",
         "range": [
           768,
           923
@@ -247,8 +225,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-380f2239b3243acaaac8577e",
-        "content_sha256": "d982aa5125e0d85eef7aff45e8723d09831df56656f5f070b7530dcb134163fb",
-        "source": "segments",
+        "content_sha256": "286e2ad7633b1f65edacd54fafeb170b9ff5e965ecedfd2b44fcdcb3b597d47a",
+        "source": "blocks",
         "range": [
           923,
           1188
@@ -274,8 +252,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-380f2239b3243acaaac8577e",
-        "content_sha256": "d982aa5125e0d85eef7aff45e8723d09831df56656f5f070b7530dcb134163fb",
-        "source": "segments",
+        "content_sha256": "286e2ad7633b1f65edacd54fafeb170b9ff5e965ecedfd2b44fcdcb3b597d47a",
+        "source": "blocks",
         "range": [
           1188,
           1311
@@ -303,8 +281,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-380f2239b3243acaaac8577e",
-        "content_sha256": "d982aa5125e0d85eef7aff45e8723d09831df56656f5f070b7530dcb134163fb",
-        "source": "segments",
+        "content_sha256": "286e2ad7633b1f65edacd54fafeb170b9ff5e965ecedfd2b44fcdcb3b597d47a",
+        "source": "blocks",
         "range": [
           1311,
           1549

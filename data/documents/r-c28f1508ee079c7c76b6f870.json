@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【唱歌酬宾】7\\-22  似是故人来、祝福、一生所爱、灰色轨迹、夜机、沧海一声笑、相思湖畔、张三的歌：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`9ed68db58ef8bb104888915e10435061f1e6824ae3e49a991886c9cb77f7e71f`\n\n输入快照：`2a2e678078e55d130a2c51c314e7e7e79a316f2e483e74e4672438576914403d`\n\n模型：`deepseek-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2209`；参考转录：`无`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -81,8 +59,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-24817502186560442e554ca2",
-        "content_sha256": "4d192ad0398df67083d368e4ec4fc3da882a0b2fe7544d4143383a61e465b024",
-        "source": "segments",
+        "content_sha256": "bd33b43b3c6234f60369a665578bf49d049a6604bdaf630854e2feb7b7b55f29",
+        "source": "blocks",
         "range": [
           0,
           42
@@ -127,8 +105,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-24817502186560442e554ca2",
-        "content_sha256": "4d192ad0398df67083d368e4ec4fc3da882a0b2fe7544d4143383a61e465b024",
-        "source": "segments",
+        "content_sha256": "bd33b43b3c6234f60369a665578bf49d049a6604bdaf630854e2feb7b7b55f29",
+        "source": "blocks",
         "range": [
           42,
           90
@@ -157,8 +135,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-24817502186560442e554ca2",
-        "content_sha256": "4d192ad0398df67083d368e4ec4fc3da882a0b2fe7544d4143383a61e465b024",
-        "source": "segments",
+        "content_sha256": "bd33b43b3c6234f60369a665578bf49d049a6604bdaf630854e2feb7b7b55f29",
+        "source": "blocks",
         "range": [
           90,
           146
