@@ -118,6 +118,8 @@ SUPPORT_FILES = (
     "preservation/checks/restore-first-release-sample-2026-11-18.json",
     "preservation/checks/restore-first-release-full-2026-11-18.json",
     "preservation/checks/successor-readback-2026-11-18.json",
+    "preservation/checks/release-verification-2026-11-18.json",
+    "docs/releases/RELEASE-2026-11-18.md",
     "preservation/migrations/schema-v3-2026-11-16/summary.json",
     "preservation/migrations/schema-v3-2026-11-16/migration-report.json.gz",
     "preservation/migrations/schema-v3-2026-11-16/downstream-comparison.json",

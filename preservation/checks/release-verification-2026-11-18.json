@@ -1,0 +1,64 @@
+{
+  "commit": "1c769b7fa8542849c67d54b33c6a23cf35468bf6",
+  "tree": "2c19d3d31386481833275d3cd15b87ab93ba62dc",
+  "worktree": "C:\\WorkSpace\\weimingzi-data\\.cache\\verify\\release-clean",
+  "clean_before_run": true,
+  "tracked_changes_after_run": "",
+  "steps": [
+    {
+      "step": "verify-baseline",
+      "returncode": 0,
+      "seconds": 32.006,
+      "tail": "}"
+    },
+    {
+      "step": "check-current",
+      "returncode": 0,
+      "seconds": 28.635,
+      "tail": "}"
+    },
+    {
+      "step": "verify-log",
+      "returncode": 0,
+      "seconds": 0.17,
+      "tail": "}"
+    },
+    {
+      "step": "validate",
+      "returncode": 0,
+      "seconds": 37.252,
+      "tail": "}"
+    },
+    {
+      "step": "ingest-validate",
+      "returncode": 0,
+      "seconds": 0.305,
+      "tail": "}"
+    },
+    {
+      "step": "generate-check",
+      "returncode": 0,
+      "seconds": 120.804,
+      "tail": "}"
+    },
+    {
+      "step": "links",
+      "returncode": 0,
+      "seconds": 137.837,
+      "tail": "{'local_links_checked': 13241}"
+    },
+    {
+      "step": "unittest",
+      "returncode": 0,
+      "seconds": 115.469,
+      "tail": "OK"
+    },
+    {
+      "step": "audio-list",
+      "returncode": 0,
+      "seconds": 0.779,
+      "tail": "}"
+    }
+  ],
+  "aggregate_returncode": 0
+}
