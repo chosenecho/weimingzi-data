@@ -26,7 +26,9 @@
     "items": {
       "path": "data/items.jsonl",
       "kinds": ["video", "video_part", "audio_recording", "post", "article", "person", "video_collection", "video_series", "article_collection"],
-      "membership": "Collection members are ordered native members; their array position carries collection order."
+      "membership": "Collection members are ordered native members; their array position carries collection order.",
+      "identifiers": "An object mapping declared namespaces to nonempty lists of distinct nonempty strings. An empty object is allowed.",
+      "video_part": "A video_part requires a video parent_id and a positive integer part_number. The pair (parent_id, part_number) is unique among video_part records."
     },
     "documents": {
       "path": "data/documents/<id>.json",
