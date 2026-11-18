@@ -236,11 +236,18 @@ def _snapshot(row):
     # base.content_sha256 and upstream IDs are observations, not live edges.
 
 
-def _item(row, entities):
+def _item(row, entities, part_ids):
     rid = row["id"]
     _text(row.get("title"), rid + "/title")
-    if not isinstance(row.get("identifiers"), dict):
+    identifiers = row.get("identifiers")
+    if not isinstance(identifiers, dict):
         raise ValueError(f"{rid}: identifiers must be an object")
+    for namespace, values in identifiers.items():
+        context = f"{rid}: identifiers.{namespace}"
+        if not isinstance(values, list) or not values or any(not isinstance(value, str) or not value for value in values):
+            raise ValueError(f"{context} must be a nonempty list of nonempty strings")
+        if len(set(values)) != len(values):
+            raise ValueError(f"{context} must not contain duplicate identifiers")
     if row["kind"] in {"video_collection", "video_series", "article_collection"}:
         for member in _array(row.get("members"), rid + "/members"):
             _keys(member, {"item_id", "part_number", "title", "metadata"}, rid + " member")
@@ -257,6 +264,11 @@ def _item(row, entities):
     if row["kind"] == "video_part":
         if parent is None or type(row.get("part_number")) is not int or row["part_number"] < 1:
             raise ValueError(f"{rid}: video_part requires parent and positive part_number")
+        part_number = row["part_number"]
+        key = (parent, part_number)
+        if key in part_ids:
+            raise ValueError(f"{rid}: duplicate part_number {part_number} under video {parent}; conflicts with {part_ids[key]}")
+        part_ids[key] = rid
     for relation in _array(row.get("relations", []), rid + "/relations"):
         if not isinstance(relation, dict) or relation.get("target_item_id") not in entities["items"]:
             raise ValueError(f"{rid}: unresolved item relation")
@@ -542,6 +554,7 @@ def _evidence(value, row, entities):
 def validate_entities(root: Path, entities: dict) -> list[str]:
     """Validate a complete in-memory candidate graph against root artifact bytes."""
     errors, all_ids, text_cache = [], set(), {}
+    part_ids = {}
     root = Path(root).resolve()
     state = {"audio_hashes": set(), "restore_paths": set(), "archives": {}, "archive_members": set(), "attributions": set(), "revision_orders": defaultdict(list)}
     kinds_by_entity = dict(zip(ENTITIES, (ITEM_KINDS, DOCUMENT_KINDS, ASSET_KINDS, ANNOTATION_KINDS)))
@@ -570,7 +583,7 @@ def validate_entities(root: Path, entities: dict) -> list[str]:
                     _recognition_issues(row.get(name), rid)
                     _evidence(row.get(name), row, entities)
                 if entity == "items":
-                    _item(row, entities)
+                    _item(row, entities, part_ids)
                 elif entity == "documents":
                     _document(row, entities, text_cache)
                 elif entity == "assets":

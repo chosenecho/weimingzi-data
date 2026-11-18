@@ -76,7 +76,7 @@ CC 字幕类型本身不证明人工复核；未知 `method` 按原值显示。`
 
 每份文稿恰属一个条目；`derived_from`、`input_units_from`、`html`、`review_document_markdown` 各至多一个。真实多来源的 `audio`、`transcript`、`article_item` 分别保留并去重。派生、输入参照及其联合引用图均须无环。
 
-条目的 `relations` 和集合的 `members` 表达各自事实。视频与分 P 的 `parent_id`、从一开始的 `part_number`、集合类型及外部来源编号按原事实保存，不按标题猜测。`has_full_text` 关联全文，`references_video`、`references` 表示参照；参照不证明音频相同，同音频证据使用完整文件 SHA-256。`audible_rerecording_of` 从有声重录版指向原条目并保留依据，不证明音轨相同或时间轴对应。
+条目的 `relations` 和集合的 `members` 表达各自事实。视频与分 P 的 `parent_id`、从一开始的 `part_number`、集合类型及外部来源编号按原事实保存，不按标题猜测。同一视频下，分 P 的 `part_number` 唯一。`has_full_text` 关联全文，`references_video`、`references` 表示参照；参照不证明音频相同，同音频证据使用完整文件 SHA-256。`audible_rerecording_of` 从有声重录版指向原条目并保留依据，不证明音轨相同或时间轴对应。
 
 块可有 `input_text` 或 `input_text_ref`，两者互斥。精确引用形状为：
 
@@ -137,7 +137,7 @@ CC 字幕类型本身不证明人工复核；未知 `method` 按原值显示。`
 
 ## 元数据、派生值与读取 Interface
 
-**记录 ID** 是稳定、不透明的内部标识；新增真实不同结果使用新 ID。外部标识在 `identifiers` 命名空间内，不自动转成仓库引用。`metadata` 保留既有标量、对象或观测列表的原形；新增并列观测按所属字段约定保存，批次追加规则见[增量协议](INCREMENTAL-INGEST-SPEC.md#操作与合并规则)。对象或数组可作为一次完整观测，不递归展开或覆盖不同值。`created`、`ctime`、作者和上传者不因近似而合并；原日期、Unix 秒、模型、来源和哈希观测按事实保留。平台对象里的 `review`、`video_review`、`disable_preview` 不是人工审核状态。
+**记录 ID** 是稳定、不透明的内部标识；新增真实不同结果使用新 ID。外部标识在 `identifiers` 命名空间内，不自动转成仓库引用。`identifiers` 可为空对象。每个已声明命名空间的值必须是非空列表，成员为互不重复的非空字符串。`metadata` 保留既有标量、对象或观测列表的原形；新增并列观测按所属字段约定保存，批次追加规则见[增量协议](INCREMENTAL-INGEST-SPEC.md#操作与合并规则)。对象或数组可作为一次完整观测，不递归展开或覆盖不同值。`created`、`ctime`、作者和上传者不因近似而合并；原日期、Unix 秒、模型、来源和哈希观测按事实保留。平台对象里的 `review`、`video_review`、`disable_preview` 不是人工审核状态。
 
 唯一读取与写入 Interface：
 

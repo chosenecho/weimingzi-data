@@ -65,6 +65,35 @@ class NativeSchemaTests(unittest.TestCase):
         self.rows["assets"][2]["kind"] = "review_document_markdown"
         self.assert_invalid("unexpected assets kind")
 
+    def test_part_number_is_unique_within_each_video(self):
+        video_id, other_part_id = rid("other-video"), rid("other-part")
+        other_part = {"id": other_part_id, "kind": "video_part", "title": "另一分段",
+                      "identifiers": {}, "parent_id": video_id, "part_number": 1}
+        self.rows["items"].extend([
+            {"id": video_id, "kind": "video", "title": "另一视频", "identifiers": {}},
+            other_part,
+        ])
+        self.save()
+        validate_corpus(self.root)
+
+        other_part["parent_id"] = rid("video")
+        self.save()
+        with self.assertRaisesRegex(ValueError, "duplicate part_number 1") as error:
+            validate_corpus(self.root)
+        for record_id in (rid("video"), rid("part"), other_part_id):
+            self.assertIn(record_id, str(error.exception))
+
+    def test_identifier_namespaces_require_nonempty_unique_string_lists(self):
+        identifiers = self.rows["items"][0]["identifiers"]
+        identifiers["additional_source"] = ["id-1", "id-2"]
+        self.save()
+        validate_corpus(self.root)
+
+        for value in ("id-1", 42, [], ["id-1", 42], [""], ["id-1", "id-1"]):
+            with self.subTest(value=value):
+                identifiers["additional_source"] = value
+                self.assert_invalid(r"identifiers\.additional_source")
+
     def test_document_owner_cardinality_and_kind(self):
         for edges in ([], [{"role": "item", "target_id": self.rows["items"][0]["id"]}, {"role": "item", "target_id": self.rows["items"][1]["id"]}], [{"role": "item", "target_id": self.rows["items"][2]["id"]}]):
             with self.subTest(edges=edges):
