@@ -1,40 +1,68 @@
 {
   "schema_version": 3,
-  "format_fingerprint": "v3-four-entities-cp-range-20261116-final-1",
-  "module": "weimingzi_corpus.schema_v3",
-  "status": "public_interface_and_native_format_frozen",
-  "root": "repository root, containing data/",
+  "format_fingerprint": "native-v3-codepoint-blocks-20261117-1",
+  "status": "current_native_contract",
+  "root": "Repository root containing data/",
+  "root_schema": {
+    "schema_version": 3,
+    "entities": ["items", "documents", "assets", "annotations"],
+    "range_unit": "unicode_codepoint",
+    "range_end": "exclusive"
+  },
   "functions": {
-    "is_v3(root)": "bool; data/schema.json version absent=>v2, version2=>false, version3=>true; explicit unsupported version raises ValueError",
-    "iter_native_records(root, entity)": "iterator (native_dict, pathlib.Path), sorted stable IDs; four entity names",
-    "iter_legacy_records(root, table)": "iterator (exact_v2_dict, native_path), nine legacy names; audio reads only schema.json/assets.jsonl; compatibility version adapter",
-    "load_legacy_record(root, record_id)": "dict; single v3 document and necessary hash/artifact/annotation dependencies only",
-    "migrate_v2(source_root, destination_root)": "dict report; destination data must not exist; source untouched; lightweight wrapper",
-    "replace_legacy_records(root, table, rows)": "dict report; one complete legacy table replacement, other tables preserved, v3 only; rows dict or (dict,path)",
-    "write_legacy_dataset(root, tables)": "dict report; complete nine-table mapping (missing empty), iterable values consumed once; unknown fields fail before writes; rejects legacy destination files; atomic per-file os.replace detaches hardlinks",
-    "write_legacy_updates(root, updates)": "list[pathlib.Path] relative to root, changed paths; upsert all table batches once, omitted IDs preserved",
-    "validate_native(root)": "list[str]; [] valid; structural/references/byte hash/legacy hash/projection recipes; stdlib only"
+    "records.iter_records(root, entity, *, kind=None)": "Iterator of (native record, pathlib.Path); entity is one of the four native entities; optional kind is a direct filter.",
+    "records.load_document(root, record_id)": "Read one native document and require its ID to match the filename.",
+    "records.record_path(root, entity, record_id)": "Resolve the native path inside the repository.",
+    "records.write_record_updates(root, updates)": "Upsert a mapping of entity names to complete native records; validate one complete candidate graph; install only changed files; return changed pathlib.Path values.",
+    "records.install_candidate_updates(root, candidate, paths)": "Shared installation primitive with per-file atomic replacement, rollback for captured exceptions, and preserved candidate files; not a multi-file crash transaction.",
+    "records.validate_corpus(root)": "Validate the current native graph, artifact bytes, references, snapshots and evidence; return native entity/kind/block counts or raise ValueError.",
+    "schema_v3.validate_native(root)": "Return native validation error strings; an empty list means valid.",
+    "records.block_text(document, block)": "Resolve exactly one Unicode codepoint range or literal.",
+    "records.resolve_input_text(document, block, entities)": "Resolve inline observed input text or an exact, digest-checked input selector from an allowed source document.",
+    "records.document_hash_input(document)": "Select the explicit native document content payload, preserving absent and null values.",
+    "records.json_sha256(value)": "SHA-256 of compact canonical UTF-8 JSON; keys sorted, Unicode preserved, nonfinite numbers rejected."
   },
-  "writer_report": "{schema_version:3,counts:{entity:int},legacy_counts:{table:int},artifacts:[asset dict],changed_paths:[relative_posix_string]}",
-  "root_schema": {"schema_version":3,"entities":["items","documents","assets","annotations"],"range_unit":"unicode_codepoint","range_end":"exclusive"},
   "entities": {
-    "items": "data/items.jsonl merges original items and collections; original IDs/kinds",
-    "documents": "data/documents/<id>.json; transcript/edited_transcript/post/article",
-    "assets": "data/assets.jsonl; audio/archive/review_document/html; artifacts are real UTF8 files",
-    "annotations": "data/annotations.jsonl; confirmation/segment_attribution"
+    "items": {
+      "path": "data/items.jsonl",
+      "kinds": ["video", "video_part", "audio_recording", "post", "article", "person", "video_collection", "video_series", "article_collection"],
+      "membership": "Collection members are ordered native members; their array position carries collection order."
+    },
+    "documents": {
+      "path": "data/documents/<id>.json",
+      "kinds": ["transcript", "edited_transcript", "post", "article"],
+      "inputs": "Ordered {role,target_id} edges; exactly one item owner; role and target-kind constraints are validated directly.",
+      "input_roles": ["item", "audio", "transcript", "derived_from", "input_units_from", "review_document_markdown", "article_item", "html"],
+      "blocks": "Ordered blocks carry exactly one range:[start,end] or literal:string plus observed timing, source input, speaker and issue facts. Ranges use Unicode codepoints and exclusive ends.",
+      "input_text_ref": "{target_id,content_sha256,source,range}; source is text or blocks. text selects target.text; blocks selects the exact concatenation of block_text(target, block), with no separator. The digest is the native target document content payload hash.",
+      "input_units": "Independent observed input snapshot; source text, original times, quality and historical digest values remain unchanged."
+    },
+    "assets": {
+      "path": "data/assets.jsonl",
+      "kinds": ["audio", "archive", "review_document", "html"],
+      "audio": "Item ownership uses inputs role=item; downloads reference archive assets by archive_id and preserve release_tag and original ZIP member_path.",
+      "artifacts": "HTML and review documents reference exact local UTF-8 bytes by local_path, size_bytes and byte SHA-256. Independent assets are valid native facts."
+    },
+    "annotations": {
+      "path": "data/annotations.jsonl",
+      "kinds": ["confirmation", "segment_attribution"],
+      "targets": "{role,target_id,order?}; role=item identifies ownership, applies_to states applicability, revision records actual adoption. Only revision targets carry zero-based order, unique and continuous within each revision document.",
+      "anchors": "Stored paragraph_index refers to the native blocks array. Exact original/corrected text, paragraph text digests, excerpt, original time values and explicit review evidence are independently checked. Applicability, adoption, attribution and whole-document review are distinct facts."
+    }
   },
-  "native_fields": {
-    "common": "No per-record schema_version. id/kind and retained semantic fields; _legacy={table,keys,metadata_aliases?,derived?,null_fields?}; keys lists exact original root key presence; no original row/raw dump; original kind lives only in row.kind",
-    "metadata_aliases": "map removed metadata key -> retained metadata key, identical canonical JSON only (types significant); $title/$content_sha256/$language/$model restores [root_value]. created/ctime/author never treated as pubdate/uploader",
-    "documents": "inputs=[{role,target_id}], blocks=[{range:[start,end] XOR literal:string, original non-index/text fields, input_text_ref? or input_text, index_absent?:true}]; ranges Unicode codepoints half-open, sequential monotone; index=array position",
-    "input_roles": "item:item_id|item_ids, audio:audio_ids, transcript:transcript_ids, derived_from:derived_from_id, input_units_from:input_units_from_id, article_item:article_item_ids; artifact inputs role review_document_markdown|html",
-    "input_text_ref": "{target_id,content_sha256,source,range:[start,end]}; source=text uses upstream.text; segments/segments_space/segments_newline use upstream blocks text joined with empty/space/newline; input_units uses target.input_units.base.segments text joined empty. Non-snapshot digest is recomputed legacy transcript payload hash (and checked against stored content_sha256); snapshot digest is canonical JSON SHA256(base). Only unique substring in unique source document is referenced; ambiguous input remains original input_text",
-    "input_units": "original immutable snapshot object retained, including source text/timing/quality; never overwritten by current transcript",
-    "assets": "audio item_ids -> inputs role item; downloads[].archive -> archive_id (z- + canonical JSON SHA256 archive object). archive asset retains name/size_bytes/sha256/url. review_document/html asset {id:x-digest,kind,sha256,size_bytes,local_path:data/artifacts/<utf8-byte-sha256>.md|html}; bytes UTF8 and line endings exact; JSON hashes are distinct",
-    "annotations": "targets ordered as original item then edited IDs; {role:item|applies_to|revision,target_id,confirmation_index?}; confirmation_index original index of annotation.id in target document confirmation_ids; revision marks applicable document having derived_from input; no confirmation IDs in documents except presence key name",
-    "derived": "_legacy.derived list supports members.position (index+1), paragraphs_match_text ('\\n\\n'.join(paragraph text).strip()==text.strip()), quality.timing_issues (records.find_timestamp_issues algorithm, independently reimplemented Decimal). Remove only when exact equality to calculated value; historical disagreement stays inline. No other quality judgments inferred",
-    "projection": "schema_version=2 if present in _legacy.keys; kind unchanged; reconstruct blocks/index/input_text; reverse inputs/targets; confirmation_ids from annotation.id sorted target.confirmation_index; resolve artifacts/archive; derive declared fields; restore exact metadata aliases; final filter _legacy.keys preserves absence/null"
+  "hashes": {
+    "document_payload_version": 1,
+    "document_payload_fields": ["kind", "inputs", "method", "language", "model", "time_unit", "text", "content", "blocks"],
+    "document_payload_rule": "Include exactly the listed fields that are present. Preserve the complete native inputs and blocks. Exclude record ID, metadata, quality and the digest itself. Transcript content_sha256 and all document input reference digests use json_sha256(document_hash_input(document)).",
+    "recognition_chunks": "recognition_chunks_sha256 independently hashes the exact original recognition_chunks array.",
+    "record_cas": "json_sha256 of the complete native record.",
+    "historical_observations": "Digests inside immutable input snapshots and metadata source observations are historical facts, not current content caches. They are preserved exactly."
   },
-  "failure": "unknown legacy root/block/download/archive or native fields explicitly fail; no silent loss; missing refs/invalid hashes fail native validation",
-  "constraints": ["stdlib only","no imports from records","four entity indexes/documents dir exist even empty","no old nine-table files dual-write","IDs stable","old full record JSON value exact","no timestamp repair"]
+  "validation": [
+    "Require the exact root schema declaration and all four native storage containers, including empty indexes and documents directory.",
+    "Reject duplicate IDs, duplicate JSON object keys, nonfinite JSON numbers, unknown structural fields and unresolved or wrong-kind references.",
+    "Validate same-item ownership, role cardinality, dependency cycles, exact input selectors and local artifact bytes.",
+    "Preserve unknown, false, null and absent quality states; derive current timestamp diagnostics without rewriting archived times or independent quality observations.",
+    "Never infer human confirmation, speaker attribution, silence or complete review from model results or missing content."
+  ]
 }

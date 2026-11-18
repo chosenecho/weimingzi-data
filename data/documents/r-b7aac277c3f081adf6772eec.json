@@ -212,30 +212,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 1-2-1-2神义论：AI 校对记录\n\n模型：`deepseek-v4.1-flash`；服务：OpenCode Go。AI 阅读稿，未经人工审核。\n\n原始 ASR 正文保留；校对仅整理已有正文，不补写未识别语音。音频范围仅为原始 ASR 分块定位，不是新字幕时间戳。\n\n参照转录：t-44f74fa9a45880e139cd682b。\n\n来源质量标记：`{\"requires_review\": false, \"untranscribed_intervals\": [], \"timed_exports_available\": true}`。\n\n输入：`25853459f173cb0705dc4c53e8980eafd9c878eff80caf06d8b58b302a9e01dc`；修订：`e825d98a101519717fdd02a974965ec8d84ccc1208f981728d5c054e71cdf391`。",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "input_units",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "review_document_markdown",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",

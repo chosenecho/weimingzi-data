@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 一分钟哲学课：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`989b9548e88990e7d2709826dce2c6f41490a334660b6be69929329e095f1897`\n\n输入快照：`0ea5dd3fa0f53af5db5769dd87a6feb1f870abe3c20a7adacf66ed005ee28ce9`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2529`；参考转录：`3512`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -82,8 +60,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-596aa18c0b0ab10d41a9fcff",
-        "content_sha256": "63653041811242dae58f14c980bbe114e595e247123a583b3a210512a2550a2c",
-        "source": "segments",
+        "content_sha256": "139a4196db416b1faaf43174bdb2dd860d5a9934e38a50de36f03f5012ea6c8e",
+        "source": "blocks",
         "range": [
           0,
           204
@@ -106,8 +84,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-596aa18c0b0ab10d41a9fcff",
-        "content_sha256": "63653041811242dae58f14c980bbe114e595e247123a583b3a210512a2550a2c",
-        "source": "segments",
+        "content_sha256": "139a4196db416b1faaf43174bdb2dd860d5a9934e38a50de36f03f5012ea6c8e",
+        "source": "blocks",
         "range": [
           204,
           440
@@ -131,8 +109,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-596aa18c0b0ab10d41a9fcff",
-        "content_sha256": "63653041811242dae58f14c980bbe114e595e247123a583b3a210512a2550a2c",
-        "source": "segments",
+        "content_sha256": "139a4196db416b1faaf43174bdb2dd860d5a9934e38a50de36f03f5012ea6c8e",
+        "source": "blocks",
         "range": [
           440,
           562
@@ -162,8 +140,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-596aa18c0b0ab10d41a9fcff",
-        "content_sha256": "63653041811242dae58f14c980bbe114e595e247123a583b3a210512a2550a2c",
-        "source": "segments",
+        "content_sha256": "139a4196db416b1faaf43174bdb2dd860d5a9934e38a50de36f03f5012ea6c8e",
+        "source": "blocks",
         "range": [
           562,
           678

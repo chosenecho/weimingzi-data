@@ -1,4 +1,4 @@
-"""Strict, bounded v1 package reader and typed media validation (stdlib only)."""
+"""Strict, bounded reader for the single current native batch protocol."""
 
 from __future__ import annotations
 
@@ -13,9 +13,9 @@ from datetime import datetime
 from pathlib import Path
 from urllib.parse import parse_qs, urlsplit
 
-from ..records import canonical_json, json_sha256
+from ..records import ENTITIES, canonical_json, json_sha256
 from .errors import IngestError, require
-from .policy import FIELDS, METADATA, POLICY, SCOPE, TABLES, TARGET
+from .policy import POLICY, SCOPE, TARGET
 
 SHA = r"[0-9a-f]{64}"
 COMMIT = r"(?:[0-9a-f]{40}|[0-9a-f]{64})"
@@ -295,7 +295,7 @@ def validate_media(asset):
     )
     require(
         type(asset["asset_version"]) is int
-        and asset["asset_version"] == 1
+        and asset["asset_version"] == 2
         and asset["kind"] in ("video", "image"),
         "Unsupported media observation",
         "MEDIA_UNVERIFIED",
@@ -348,43 +348,32 @@ def validate_media(asset):
     timestamp(proof["verified_at"])
 
 
-def validate_enrichment(table, payload):
-    shape(payload, (), FIELDS.get(table, ()))
-    require(payload, "Empty enrichment")
-    for field, values in payload.items():
-        if field == "metadata":
-            require(
-                isinstance(values, dict) and values,
-                "Expected nonempty observation metadata",
-            )
-            require(
-                values.keys() <= set(METADATA[table]), "Metadata key is not permitted"
-            )
-            for key, observations in values.items():
-                array(observations, 1, 100000, unique=True)
-                if key == "media_assets":
-                    for asset in observations:
-                        validate_media(asset)
-        else:
-            array(values, 1, unique=True)
-            if field == "urls":
-                for url in values:
-                    bili_url(url)
-            elif field == "relations":
-                for rel in values:
-                    shape(rel, ("target_item_id", "kind", "evidence"))
-                    require(
-                        matches(rel["target_item_id"], RECORD)
-                        and rel["kind"]
-                        in ("has_full_text", "references_video", "references")
-                        and isinstance(rel["evidence"], str)
-                        and 1 <= len(rel["evidence"]) <= 4096,
-                        "Invalid relation evidence",
-                    )
-            else:
-                require(
-                    all(matches(v, RECORD) for v in values), "Invalid record reference"
-                )
+def validate_payload(entity, payload, record_id):
+    """Check the native envelope here; the whole candidate graph validates later."""
+    require(
+        isinstance(payload, dict)
+        and payload.get("id") == record_id
+        and isinstance(payload.get("kind"), str)
+        and not {"schema_version", "_legacy", "table"} & payload.keys(),
+        "Payload must be a native entity record matching the operation ID",
+    )
+    metadata = payload.get("metadata", {})
+    require(isinstance(metadata, dict), "Metadata must be an object")
+    for key, observations in metadata.items():
+        require(isinstance(key, str), "Invalid metadata key")
+        if key == "media_assets":
+            array(observations, maximum=100000)
+            require(entity == "items", "Media observations belong to items")
+            for asset in observations:
+                validate_media(asset)
+    if entity == "items":
+        require(isinstance(payload.get("identifiers"), dict), "Item needs identifiers")
+        for namespace, values in payload["identifiers"].items():
+            if namespace in NAMESPACES or namespace == "bilibili_part":
+                array(values, 1, unique=True)
+                require(all(isinstance(v, str) and v for v in values), "Invalid external identities")
+        for url in payload.get("urls", []):
+            bili_url(url)
 
 
 @dataclass
@@ -434,10 +423,10 @@ def verify_batch(directory: Path) -> Batch:
     )
     require(
         type(m["contract_version"]) is int
-        and m["contract_version"] == 1
+        and m["contract_version"] == 2
         and type(m["record_schema_version"]) is int
-        and m["record_schema_version"] == 2
-        and m["kind"] == "weimingzi_increment",
+        and m["record_schema_version"] == 3
+        and m["kind"] == "weimingzi_native_increment",
         "Unsupported ingest contract",
         "UNSUPPORTED_CONTRACT",
     )
@@ -531,8 +520,8 @@ def verify_batch(directory: Path) -> Batch:
         require(
             matches(
                 p,
-                r"(?:records|observations)/(?:"
-                + "|".join(TABLES)
+                r"records/(?:"
+                + "|".join(ENTITIES)
                 + r")/"
                 + RECORD
                 + r"\.json",
@@ -567,105 +556,26 @@ def verify_batch(directory: Path) -> Batch:
     require(set(paths) == {"manifest.json", *files}, "Unlisted package files")
     used, keys = set(), set()
     for op in m["operations"]:
-        shape(
-            op,
-            (
-                "op",
-                "table",
-                "record_id",
-                "path",
-                "payload_sha256",
-                "expected_record_sha256",
-                "source_refs",
-            ),
-        )
-        table, rid, kind, p = op["table"], op["record_id"], op["op"], op["path"]
-        require(
-            isinstance(table, str)
-            and table in TABLES
-            and matches(rid, RECORD)
-            and kind in ("insert", "enrich", "attach_audio_distribution"),
-            "Invalid operation",
-        )
-        prefix = "observations" if kind == "enrich" else "records"
-        require(
-            p == f"{prefix}/{table}/{rid}.json"
-            and p in payloads
-            and p not in used
-            and (table, rid) not in keys,
-            "Operation/file mapping is not one-to-one",
-        )
+        shape(op, ("op", "entity", "record_id", "path", "payload_sha256",
+                   "expected_record_sha256", "source_refs"))
+        entity, rid, kind, p = op["entity"], op["record_id"], op["op"], op["path"]
+        require(isinstance(entity, str) and entity in ENTITIES
+                and matches(rid, RECORD) and kind in ("insert", "replace"),
+                "Invalid native operation")
+        require(p == f"records/{entity}/{rid}.json" and p in payloads
+                and p not in used and (entity, rid) not in keys,
+                "Operation/file mapping is not one-to-one")
         used.add(p)
-        keys.add((table, rid))
-        require(
-            matches(op["payload_sha256"], SHA)
-            and op["payload_sha256"] == json_sha256(payloads[p]),
-            "Canonical payload digest mismatch",
-        )
-        require(
-            op["expected_record_sha256"] is None
-            if kind == "insert"
-            else matches(op["expected_record_sha256"], SHA),
-            "Invalid record precondition",
-        )
+        keys.add((entity, rid))
+        require(matches(op["payload_sha256"], SHA)
+                and op["payload_sha256"] == json_sha256(payloads[p]),
+                "Canonical payload digest mismatch")
+        require(op["expected_record_sha256"] is None if kind == "insert"
+                else matches(op["expected_record_sha256"], SHA),
+                "Invalid record precondition")
         array(op["source_refs"], 1, unique=True)
-        require(
-            all(isinstance(ref, str) and ref in sources for ref in op["source_refs"]),
-            "Unknown operation source",
-            "SOURCE_SCOPE_VIOLATION",
-        )
-        payload = payloads[p]
-        if kind == "enrich":
-            require(table in FIELDS, "This table cannot be enriched")
-            validate_enrichment(table, payload)
-        else:
-            require(
-                isinstance(payload, dict)
-                and payload.get("id") == rid
-                and type(payload.get("schema_version")) is int
-                and payload["schema_version"] == 2,
-                "Payload ID/schema does not match operation",
-            )
-            if kind == "attach_audio_distribution":
-                require(table == "audio", "Only audio supports distribution attachment")
-            if table == "items":
-                require(
-                    isinstance(payload.get("identifiers"), dict)
-                    and isinstance(payload.get("urls"), list)
-                    and isinstance(payload.get("relations"), list),
-                    "Invalid item structure",
-                )
-                for ns, values in payload["identifiers"].items():
-                    require(isinstance(ns, str), "Invalid identity namespace")
-                    array(values, 1, unique=True)
-                    require(
-                        all(isinstance(v, str) and v for v in values),
-                        "External identities must be nonempty strings",
-                    )
-                for url in payload["urls"]:
-                    bili_url(url)
-            metadata = payload.get("metadata", {})
-            require(
-                isinstance(metadata, dict)
-                and all(isinstance(v, list) for v in metadata.values()),
-                "Metadata must contain observation arrays",
-            )
-            for asset in metadata.get("media_assets", []):
-                require(table == "items", "Media observations belong to items")
-                validate_media(asset)
-            if table in ("transcripts", "edited_transcripts"):
-                quality = payload.get("quality", {})
-                require(
-                    isinstance(quality, dict)
-                    and quality.get("is_fully_human_reviewed") is not True,
-                    "Automatic ingestion cannot grant human review",
-                )
-                if table == "edited_transcripts":
-                    require(
-                        quality.get("requires_review") is True
-                        and not payload.get("derived_from_id")
-                        and not payload.get("input_units_from_id"),
-                        "AI baseline must require review and cannot replace a human derivative",
-                    )
+        require(all(isinstance(ref, str) and ref in sources for ref in op["source_refs"]),
+                "Unknown operation source", "SOURCE_SCOPE_VIOLATION")
+        validate_payload(entity, payloads[p], rid)
     require(used == set(files), "Unused manifest files")
     return Batch(m, hashlib.sha256(raw).hexdigest(), payloads)

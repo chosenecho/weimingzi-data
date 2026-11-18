@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Restore hash-addressed audio from the v3 assets or legacy audio index."""
+"""Restore hash-addressed audio directly from native audio and archive assets."""
 
 from __future__ import annotations
 
@@ -18,6 +18,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 import json
 
 from weimingzi_corpus.records import (
+    read_json,
     read_jsonl,
     validate_relative_path,
     resolve_repository_path,
@@ -46,36 +47,33 @@ def is_file_intact(path, row):
     )
 
 
-def audio_index_context(name=None):
-    """Resolve the selected index and the files needed to interpret its rows.
-
-    An explicit legacy index is independent of the repository's schema. Native
-    assets use the core's lossless audio projection, including archive assets.
-    """
-    assets = resolve_audio_repository_path("data/assets.jsonl")
-    index = resolve_audio_repository_path(name) if name is not None else None
-    dependencies = []
-    v3 = False
-    if index is None or index == assets:
-        schema = resolve_audio_repository_path("data/schema.json")
-        dependencies.append(schema)
-        if schema.is_file():
-            from weimingzi_corpus.schema_v3 import is_v3
-
-            v3 = is_v3(ROOT)
-        if index is None:
-            index = assets if v3 else resolve_audio_repository_path("data/audio.jsonl")
-    return {"path": index, "v3": v3 and index == assets, "dependencies": dependencies}
+def audio_index_context():
+    """Return the native assets index and its schema dependency."""
+    schema = resolve_audio_repository_path("data/schema.json")
+    expected = {
+        "schema_version": 3,
+        "entities": ["items", "documents", "assets", "annotations"],
+        "range_unit": "unicode_codepoint",
+        "range_end": "exclusive",
+    }
+    if read_json(schema) != expected:
+        raise ValueError("Audio restoration requires the current native schema")
+    return {
+        "path": resolve_audio_repository_path("data/assets.jsonl"),
+        "dependencies": [schema],
+    }
 
 
-def load_audio_archive_groups(name=None):
-    context = audio_index_context(name)
-    if context["v3"]:
-        from weimingzi_corpus.schema_v3 import iter_legacy_records
-
-        records = (record for record, _ in iter_legacy_records(ROOT, "audio"))
-    else:
-        records = read_jsonl(context["path"])
+def load_audio_archive_groups():
+    context = audio_index_context()
+    assets = {}
+    for record in read_jsonl(context["path"]):
+        if not isinstance(record, dict) or not isinstance(record.get("id"), str):
+            raise ValueError("Invalid native asset record")
+        if record["id"] in assets:
+            raise ValueError("Duplicate asset ID")
+        assets[record["id"]] = record
+    records = (record for record in assets.values() if record.get("kind") == "audio")
     groups = {}
     paths = set()
     shas = set()
@@ -89,7 +87,7 @@ def load_audio_archive_groups(name=None):
         paths.add(record["local_path"])
         shas.add(record["sha256"])
         if (
-            not isinstance(record["size_bytes"], int)
+            type(record["size_bytes"]) is not int
             or record["size_bytes"] < 0
             or not re.fullmatch("[0-9a-f]{64}", record["sha256"])
         ):
@@ -99,7 +97,9 @@ def load_audio_archive_groups(name=None):
             raise ValueError("Missing audio download locator")
         # Multiple valid locators can exist; the first is sufficient for a restore.
         location = downloads[0]
-        archive = location["archive"]
+        archive = assets.get(location.get("archive_id"))
+        if archive is None or archive.get("kind") != "archive":
+            raise ValueError("Audio download must reference a native archive asset")
         tag = location["release_tag"]
         member = location["member_path"]
         validate_relative_path(tag)
@@ -107,7 +107,7 @@ def load_audio_archive_groups(name=None):
         if len(validate_relative_path(archive["name"]).parts) != 1:
             raise ValueError("Archive name must be a plain filename")
         if (
-            not isinstance(archive["size_bytes"], int)
+            type(archive["size_bytes"]) is not int
             or archive["size_bytes"] < 0
             or not re.fullmatch("[0-9a-f]{64}", archive["sha256"])
         ):
@@ -198,14 +198,13 @@ def restore_audio_archive(archive, rows):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--index", help="repository-relative index; defaults to assets.jsonl for v3, audio.jsonl for v2")
     parser.add_argument(
         "--archive", action="append", help="release-tag/archive.zip; repeatable"
     )
     parser.add_argument("--list", action="store_true")
     parser.add_argument("--verify-only", action="store_true")
     args = parser.parse_args(argv)
-    groups = load_audio_archive_groups(args.index)
+    groups = load_audio_archive_groups()
     if args.archive:
         unknown = set(args.archive) - groups.keys()
         if unknown:

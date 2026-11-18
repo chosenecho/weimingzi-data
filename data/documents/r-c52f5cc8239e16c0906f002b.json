@@ -329,30 +329,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 做现实的理想主义者｜正禾晨生支教项目实录·重庆站：AI 校对记录\n\n模型：`deepseek-v4.1-flash`；服务：OpenCode Go。AI 阅读稿，未经人工审核。\n\n原始 ASR 正文保留；校对仅整理已有正文，不补写未识别语音。音频范围仅为原始 ASR 分块定位，不是新字幕时间戳。\n\n参照转录：t-46e4e51d5842b8063b6bb94c。\n\n来源质量标记：`{\"requires_review\": true, \"untranscribed_intervals\": [{\"start\": 720, \"end\": 960, \"reason\": \"unrepresentable_provider_timestamps\", \"evidence\": \"chunk-0003.json\", \"transcript_text_available\": true}, {\"start\": 960, \"end\": 1200, \"reason\": \"unrepresentable_provider_timestamps\", \"evidence\": \"chunk-0004.json\", \"transcript_text_available\": true}, {\"start\": 1200, \"end\": 1440, \"reason\": \"unrepresentable_provider_timestamps\", \"evidence\": \"chunk-0005.json\", \"transcript_text_available\": true}, {\"start\": 2400, \"end\": 2401.3005, \"reason\": \"provider_returned_no_words\", \"evidence\": \"chunk-0010.json\"}], \"timed_exports_available\": false}`。\n\n输入：`1e7bfe2fdadeedb82781d9d584f6afcd65441b4b9fb787f36bea433667aa73b8`；修订：`211609806a81786d5cc93bdd82cbfc5cb3a3a9db18bcfaca969cb499073b95d5`。",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "input_units",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "review_document_markdown",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",

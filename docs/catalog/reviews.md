@@ -1,13 +1,10 @@
 # 校对标注与复核状态
 
-此目录由 `uv run python tools/corpus.py generate` 生成。所有结果分别列出，排序不代表审核质量。
+由 `uv run python tools/corpus.py generate` 生成。文档按 kind 分别列出；排序不代表审核质量。
 
+列出全部 edited_transcript 文档。正文块中的 issues 保留原样，数量不代表未解决问题数；局部确认不等于全文审核。
 
-列出全部整理稿，包括没有段落标注的结果。标注数量包含疑点、候选改法和修改说明，不代表未解决问题的数量。
-
-[字段定义](../SCHEMA.md#校对标注与参照稿) · [查阅与导出](../QUERY.md#查看校对标注)
-
-| 整理稿 | 标注数 | 待复核 | 结果完成 | 附注 | 独立校验稿 |
+| 文档 | 标注数 | 待复核 | 结果完成 | 附注 | 独立校验稿 |
 | --- | ---: | --- | --- | --- | --- |
 | [0-唯美主义的定义 · d38da0f8](../../data/documents/r-d38da0f877caecdb87a55def.json) | 7 | 是 | 是 | 是 | 否 |
 | [1 · 238bace6](../../data/documents/r-238bace6cd245e1e713881e4.json) | 0 | 是 | 是 | 是 | 否 |

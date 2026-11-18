@@ -2672,30 +2672,6 @@
       "human_reviewed": false
     }
   },
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "input_units",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "review_document_markdown",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",

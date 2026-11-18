@@ -1,12 +1,11 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Proposed video/image metadata.media_assets observation v1",
-  "description": "Design contract for an immutable OSS locator. Validation is not a network or byte-integrity check. The proposed consumer must enforce storage aliases, immutable keys and trusted readback provenance.",
-  "type": "object",
-  "additionalProperties": false,
+  "title": "Current native ingest media observation, contract 2",
+  "description": "A typed metadata.media_assets observation in an item. It records producer-asserted readback provenance; ingest does not access OSS or verify remote bytes. Current consumer policy separately fixes allowed storage aliases and requires immutable SHA-addressed keys.",
+  "type": "object", "additionalProperties": false,
   "required": ["asset_version", "kind", "sha256", "size_bytes", "mime_type", "locator", "verification"],
   "properties": {
-    "asset_version": {"const": 1, "type": "integer"},
+    "asset_version": {"const": 2},
     "kind": {"enum": ["video", "image"]},
     "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
     "size_bytes": {"type": "integer", "minimum": 1},

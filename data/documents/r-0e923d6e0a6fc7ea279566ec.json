@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【有谁共鸣】翻唱，追忆张国荣：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`5c5bfe3e91f09f5b1a9081272bf118351c6f3f9f0488796647311c98058456ee`\n\n输入快照：`dbfd87bce729bb7285d8658adbef82557e7da141ac5b2586972b8266c5cf87b9`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2129`；参考转录：`3125`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -93,8 +71,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-430a9b61984beed4f9e87f30",
-        "content_sha256": "7a8211114821e11317f8722b93023272bd1fd2441efe70a46221718f8db7be87",
-        "source": "segments",
+        "content_sha256": "d48ecccd2bbab8fbb094c1c4d89e336d10ee91c12db5d0ab3c6499125f1cb3f8",
+        "source": "blocks",
         "range": [
           0,
           48
@@ -126,8 +104,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-430a9b61984beed4f9e87f30",
-        "content_sha256": "7a8211114821e11317f8722b93023272bd1fd2441efe70a46221718f8db7be87",
-        "source": "segments",
+        "content_sha256": "d48ecccd2bbab8fbb094c1c4d89e336d10ee91c12db5d0ab3c6499125f1cb3f8",
+        "source": "blocks",
         "range": [
           48,
           96
@@ -168,8 +146,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-430a9b61984beed4f9e87f30",
-        "content_sha256": "7a8211114821e11317f8722b93023272bd1fd2441efe70a46221718f8db7be87",
-        "source": "segments",
+        "content_sha256": "d48ecccd2bbab8fbb094c1c4d89e336d10ee91c12db5d0ab3c6499125f1cb3f8",
+        "source": "blocks",
         "range": [
           96,
           160

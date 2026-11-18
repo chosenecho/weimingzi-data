@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 一分钟哲学课：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`f2dff11af7426f7f94f8c6b7e30ebf9e0d59a6b2225fc1a458466197edd95efe`\n\n输入快照：`294768507b99cfa61978140aca6e08a4d9b4a3461d0b10101ba477d34fe389f1`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2519`；参考转录：`3566`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -71,8 +49,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-463f2a8582a872e5ba498770",
-        "content_sha256": "2ce98ced193f81f61f2f941e501b5516cc0b56580f8da735db773da02aec9137",
-        "source": "segments",
+        "content_sha256": "8f709495e622cf908221021eac68c8f3724870509f625ac3d10397bada19805f",
+        "source": "blocks",
         "range": [
           0,
           28
@@ -103,8 +81,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-463f2a8582a872e5ba498770",
-        "content_sha256": "2ce98ced193f81f61f2f941e501b5516cc0b56580f8da735db773da02aec9137",
-        "source": "segments",
+        "content_sha256": "8f709495e622cf908221021eac68c8f3724870509f625ac3d10397bada19805f",
+        "source": "blocks",
         "range": [
           28,
           198
@@ -125,8 +103,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-463f2a8582a872e5ba498770",
-        "content_sha256": "2ce98ced193f81f61f2f941e501b5516cc0b56580f8da735db773da02aec9137",
-        "source": "segments",
+        "content_sha256": "8f709495e622cf908221021eac68c8f3724870509f625ac3d10397bada19805f",
+        "source": "blocks",
         "range": [
           198,
           272
@@ -152,8 +130,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-463f2a8582a872e5ba498770",
-        "content_sha256": "2ce98ced193f81f61f2f941e501b5516cc0b56580f8da735db773da02aec9137",
-        "source": "segments",
+        "content_sha256": "8f709495e622cf908221021eac68c8f3724870509f625ac3d10397bada19805f",
+        "source": "blocks",
         "range": [
           272,
           374
@@ -175,8 +153,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-463f2a8582a872e5ba498770",
-        "content_sha256": "2ce98ced193f81f61f2f941e501b5516cc0b56580f8da735db773da02aec9137",
-        "source": "segments",
+        "content_sha256": "8f709495e622cf908221021eac68c8f3724870509f625ac3d10397bada19805f",
+        "source": "blocks",
         "range": [
           374,
           526
@@ -200,8 +178,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-463f2a8582a872e5ba498770",
-        "content_sha256": "2ce98ced193f81f61f2f941e501b5516cc0b56580f8da735db773da02aec9137",
-        "source": "segments",
+        "content_sha256": "8f709495e622cf908221021eac68c8f3724870509f625ac3d10397bada19805f",
+        "source": "blocks",
         "range": [
           526,
           713
@@ -234,8 +212,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-463f2a8582a872e5ba498770",
-        "content_sha256": "2ce98ced193f81f61f2f941e501b5516cc0b56580f8da735db773da02aec9137",
-        "source": "segments",
+        "content_sha256": "8f709495e622cf908221021eac68c8f3724870509f625ac3d10397bada19805f",
+        "source": "blocks",
         "range": [
           713,
           875
@@ -266,8 +244,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-463f2a8582a872e5ba498770",
-        "content_sha256": "2ce98ced193f81f61f2f941e501b5516cc0b56580f8da735db773da02aec9137",
-        "source": "segments",
+        "content_sha256": "8f709495e622cf908221021eac68c8f3724870509f625ac3d10397bada19805f",
+        "source": "blocks",
         "range": [
           875,
           1007
@@ -292,8 +270,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-463f2a8582a872e5ba498770",
-        "content_sha256": "2ce98ced193f81f61f2f941e501b5516cc0b56580f8da735db773da02aec9137",
-        "source": "segments",
+        "content_sha256": "8f709495e622cf908221021eac68c8f3724870509f625ac3d10397bada19805f",
+        "source": "blocks",
         "range": [
           1007,
           1169
@@ -315,8 +293,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-463f2a8582a872e5ba498770",
-        "content_sha256": "2ce98ced193f81f61f2f941e501b5516cc0b56580f8da735db773da02aec9137",
-        "source": "segments",
+        "content_sha256": "8f709495e622cf908221021eac68c8f3724870509f625ac3d10397bada19805f",
+        "source": "blocks",
         "range": [
           1169,
           1333

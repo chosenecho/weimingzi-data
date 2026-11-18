@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【回应信件】致向涵同学：重构爱欲机制？：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`ff250bbb7d568303cfc8ad2b37812c1e518295bab55ecd30629fbc62935cd403`\n\n输入快照：`3afb5e32732316a3712e151cdea211477a1b328946f964f0bee68dcac3e16fdc`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`1558`；参考转录：`1391`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -76,8 +54,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           0,
           208
@@ -102,8 +80,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           208,
           396
@@ -130,8 +108,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           396,
           696
@@ -153,8 +131,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           696,
           786
@@ -176,8 +154,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           786,
           909
@@ -201,8 +179,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           909,
           1080
@@ -226,8 +204,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           1080,
           1174
@@ -252,8 +230,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           1174,
           1400
@@ -276,8 +254,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           1400,
           1607
@@ -301,8 +279,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           1607,
           1737
@@ -324,8 +302,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           1737,
           1868
@@ -352,8 +330,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           1868,
           2091
@@ -377,8 +355,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           2091,
           2298
@@ -407,8 +385,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           2298,
           2642
@@ -434,8 +412,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           2642,
           2979
@@ -467,8 +445,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           2979,
           3083
@@ -494,8 +472,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           3083,
           3331
@@ -521,8 +499,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           3331,
           3582
@@ -560,8 +538,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           3582,
           3886
@@ -588,8 +566,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           3886,
           4156
@@ -619,8 +597,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           4156,
           4215
@@ -642,8 +620,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-604ff58872fd8637e8767bff",
-        "content_sha256": "d33c1d3b5e82d8665e38aa72abaa2b83e455b8e52c9a01ffe4184b50fff6ded8",
-        "source": "segments",
+        "content_sha256": "87231f372f3591feab797e48ba048716fc45403d3b34455fe5810b820eede6d7",
+        "source": "blocks",
         "range": [
           4215,
           4285

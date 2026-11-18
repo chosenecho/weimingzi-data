@@ -1,0 +1,58 @@
+{
+  "id": "i-807f0525549ec1760febbccb",
+  "kind": "video",
+  "title": "示例视频",
+  "identifiers": {
+    "bilibili_bvid": [
+      "BV1aaaaaaaaa"
+    ]
+  },
+  "urls": [
+    "https://www.bilibili.com/video/BV1aaaaaaaaa/?p=1"
+  ],
+  "metadata": {
+    "uploader_id": [
+      "23191782"
+    ],
+    "media_assets": [
+      {
+        "asset_version": 2,
+        "kind": "video",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "size_bytes": 256,
+        "mime_type": "video/mp4",
+        "locator": {
+          "storage": "oss",
+          "bucket_alias": "archive",
+          "object_key": "media/sha256/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.mp4",
+          "version_id": null,
+          "access": "authenticated"
+        },
+        "verification": {
+          "mode": "readback_sha256",
+          "verified_at": "2026-11-04T20:00:00+08:00",
+          "producer_run_id": "synthetic-native-fixture"
+        }
+      },
+      {
+        "asset_version": 2,
+        "kind": "image",
+        "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "size_bytes": 256,
+        "mime_type": "image/jpeg",
+        "locator": {
+          "storage": "oss",
+          "bucket_alias": "archive",
+          "object_key": "media/sha256/bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb.jpg",
+          "version_id": null,
+          "access": "authenticated"
+        },
+        "verification": {
+          "mode": "readback_sha256",
+          "verified_at": "2026-11-04T20:00:00+08:00",
+          "producer_run_id": "synthetic-native-fixture"
+        }
+      }
+    ]
+  }
+}

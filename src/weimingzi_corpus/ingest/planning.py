@@ -14,8 +14,9 @@ from pathlib import Path
 
 from ..exports import generate_catalog_docs
 from ..records import (
-    JSONL_TABLES,
-    JSON_RECORD_TABLES,
+    ENTITIES,
+    JSONL_ENTITIES,
+    install_candidate_updates,
     iter_records,
     json_sha256,
     read_json,
@@ -23,7 +24,6 @@ from ..records import (
     write_json,
     write_record_updates,
 )
-from ..schema_v3 import is_v3
 from .errors import IngestError, require
 from .manifest import (
     COMMIT,
@@ -36,7 +36,7 @@ from .manifest import (
     verify_batch,
 )
 from .merge import project, validate_scope
-from .policy import TABLES, TARGET, policy_hash
+from .policy import TARGET, policy_hash
 from .receipts import make_receipt, read_receipt
 
 CATALOG = (
@@ -189,19 +189,18 @@ class RecordFiles(MutableMapping):
         return len(set(self.paths) | self.changed.keys())
 
 
-def load_tables(root):
-    tables = {}
-    native = is_v3(root)
-    for table in TABLES:
-        if native or table in JSONL_TABLES:
+def load_entities(root):
+    entities = {}
+    for entity in ENTITIES:
+        if entity in JSONL_ENTITIES:
             rows = {}
-            for row, _ in iter_records(root, table):
+            for row, _ in iter_records(root, entity):
                 require(row["id"] not in rows, "Baseline has duplicate JSONL IDs")
                 rows[row["id"]] = row
-            tables[table] = rows
+            entities[entity] = rows
         else:
-            tables[table] = RecordFiles(root / "data" / table)
-    return tables
+            entities[entity] = RecordFiles(root / "data" / entity)
+    return entities
 
 
 def validate_repository(root):
@@ -215,20 +214,17 @@ def validate_repository(root):
             4,
         )
     assets = 0
-    for table in TABLES:
-        if table != "items":
-            continue
-        for row, _ in iter_records(root, table):
-            media = row.get("metadata", {}).get("media_assets", [])
-            require(
-                isinstance(media, list),
-                "media_assets must be an observation array",
-                "MEDIA_UNVERIFIED",
-            )
-            for asset in media:
-                validate_media(asset)
-                assets += 1
-    receipts = 0
+    for row, _ in iter_records(root, "items"):
+        media = row.get("metadata", {}).get("media_assets", [])
+        require(
+            isinstance(media, list),
+            "media_assets must be an observation array",
+            "MEDIA_UNVERIFIED",
+        )
+        for asset in media:
+            validate_media(asset)
+            assets += 1
+    receipts, historical = 0, 0
     base = root / "ingest/receipts"
     if base.exists():
         for rel, path in inventory(base).items():
@@ -236,9 +232,11 @@ def validate_repository(root):
                 re.fullmatch(SHA + r"\.json", rel) is not None,
                 "Unexpected receipt path",
             )
-            read_receipt(path)
-            receipts += 1
-    return {"receipts": receipts, "media_assets": assets}
+            if read_receipt(path) is None:
+                historical += 1
+            else:
+                receipts += 1
+    return {"receipts": receipts, "historical_receipts": historical, "media_assets": assets}
 
 
 def clone_inputs(root, candidate, *, include_receipts=True):
@@ -253,38 +251,14 @@ def clone_inputs(root, candidate, *, include_receipts=True):
             shutil.copytree(
                 root / folder, candidate / folder, copy_function=link_or_copy
             )
-    if not is_v3(candidate):
-        for table in JSON_RECORD_TABLES:
-            (candidate / "data" / table).mkdir(parents=True, exist_ok=True)
 
 
-def allowed_change(path, batch_id, *, native=False):
-    if native:
-        return (
-            path in CATALOG
-            or path == f"ingest/receipts/{batch_id}.json"
-            or path in ("data/items.jsonl", "data/assets.jsonl", "data/annotations.jsonl")
-            or re.fullmatch(r"data/documents/[a-z]-[0-9a-f]{24,64}\.json", path)
-            is not None
-            or re.fullmatch(r"data/artifacts/[0-9a-f]{64}\.(?:md|html)", path)
-            is not None
-        )
+def allowed_change(path, batch_id):
     return (
         path in CATALOG
-        or path
-        in (
-            "data/items.jsonl",
-            "data/audio.jsonl",
-            "data/collections.jsonl",
-            f"ingest/receipts/{batch_id}.json",
-        )
-        or re.fullmatch(
-            r"data/(?:"
-            + "|".join(JSON_RECORD_TABLES)
-            + r")/[a-z]-[0-9a-f]{24,64}\.json",
-            path,
-        )
-        is not None
+        or path == f"ingest/receipts/{batch_id}.json"
+        or path in ("data/items.jsonl", "data/assets.jsonl", "data/annotations.jsonl")
+        or re.fullmatch(r"data/documents/[a-z]-[0-9a-f]{24,64}\.json", path) is not None
     )
 
 
@@ -306,7 +280,7 @@ def prepare(root, batch_path):
     manifest = batch.manifest
     proof = root / "ingest/receipts" / (manifest["batch_id"] + ".json")
     report = {
-        "plan_version": 1,
+        "plan_version": 2,
         "batch_id": manifest["batch_id"],
         "manifest_sha256": batch.manifest_sha256,
         "target": TARGET,
@@ -324,48 +298,49 @@ def prepare(root, batch_path):
     }
     if proof.exists():
         receipt = read_receipt(proof)
-        require(
-            receipt["manifest_sha256"] == batch.manifest_sha256,
-            "Batch ID has a different accepted manifest",
-            "BATCH_ID_COLLISION",
-            3,
-        )
-        report["status"] = "already_accepted"
+        require(receipt is not None,
+                "Batch ID belongs to an archived protocol; inspect its historical checkout",
+                "HISTORICAL_RECEIPT", 3)
+        require(receipt["manifest_sha256"] == batch.manifest_sha256,
+                "Batch ID has a different accepted manifest", "BATCH_ID_COLLISION", 3)
+        entities = load_entities(root)
+        drift = []
+        for operation in receipt["operations"]:
+            row = entities[operation["entity"]].get(operation["record_id"])
+            digest = json_sha256(row) if row is not None else None
+            if digest != operation["after_sha256"]:
+                drift.append({"entity": operation["entity"], "record_id": operation["record_id"],
+                              "accepted_sha256": operation["after_sha256"], "current_sha256": digest})
+        report.update(status="replayed", replay_status="accepted_state_changed" if drift else "accepted_state_present",
+                      accepted_receipt_sha256=file_sha256(proof), accepted_state_changed=drift)
+        require(check_checkout(root) == commit and snapshot(root) == before,
+                "Baseline changed during receipt replay", "BASE_MOVED", 4)
         report["plan_id"] = json_sha256(report)
         yield report, None
         return
     for dependency in manifest["requires_batches"]:
-        require(
-            (root / f"ingest/receipts/{dependency}.json").is_file(),
-            "Required batch has no tracked receipt on this baseline",
-            "DEPENDENCY_PENDING",
-            4,
-        )
+        dependency_path = root / f"ingest/receipts/{dependency}.json"
+        require(dependency_path.is_file() and read_receipt(dependency_path) is not None,
+                "Required native batch has no current-protocol receipt", "DEPENDENCY_PENDING", 4)
     with tempfile.TemporaryDirectory(prefix="wm-ingest-") as name:
         candidate = Path(name)
         clone_inputs(root, candidate)
-        tables = load_tables(candidate)
-        report["operations"], report["conflicts"] = project(batch, tables)
+        entities = load_entities(candidate)
+        baseline = load_entities(candidate)
+        report["operations"], report["conflicts"] = project(batch, entities)
         report["exit_code"] = max(
             (c["exit_code"] for c in report["conflicts"]), default=0
         )
         try:
             if not report["conflicts"]:
-                # Materialize all changed records before checking cross-table references.
-                changed = [
-                    r for r in report["operations"] if r["outcome"] != "unchanged"
-                ]
-                write_record_updates(
-                    candidate,
-                    {
-                        table: [
-                            tables[table][outcome["record_id"]]
-                            for outcome in changed if outcome["table"] == table
-                        ]
-                        for table in {r["table"] for r in changed}
-                    },
-                )
-                validate_scope(batch, tables)
+                changed = [r for r in report["operations"] if r["outcome"] != "unchanged"]
+                validate_scope(batch, entities, baseline)
+                write_record_updates(candidate, {
+                    entity: [entities[entity][outcome["record_id"]]
+                             for outcome in changed if outcome["entity"] == entity]
+                    for entity in {r["entity"] for r in changed}
+                })
+                report["validation"]["counts"] = validate_corpus(candidate)
                 if changed:
                     write_json(
                         candidate
@@ -379,7 +354,7 @@ def prepare(root, batch_path):
                     for path, digest in after.items():
                         if before.get(path) != digest:
                             require(
-                                allowed_change(path, manifest["batch_id"], native=is_v3(root)),
+                                allowed_change(path, manifest["batch_id"]),
                                 "Candidate changes a protected path",
                             )
                             report["changes"].append(
@@ -487,22 +462,6 @@ def plan_batch(root, batch_path, report=None):
         return result
 
 
-def install_file(source, target):
-    """Same-filesystem replacement; separate function permits interrupted-write tests."""
-    target.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.NamedTemporaryFile(
-        prefix=".ingest-install-", dir=target.parent, delete=False
-    ) as stream:
-        temp = Path(stream.name)
-    try:
-        shutil.copyfile(source, temp)
-        with temp.open("r+b") as stream:
-            os.fsync(stream.fileno())
-        os.replace(temp, target)
-    finally:
-        temp.unlink(missing_ok=True)
-
-
 def apply_batch(root, batch_path, plan_path):
     root = Path(root).resolve()
     approved = strict_json(read_bounded(Path(plan_path), 16 * 1024**2))
@@ -512,7 +471,7 @@ def apply_batch(root, batch_path, plan_path):
         and approved["plan_id"]
         == json_sha256({k: v for k, v in approved.items() if k != "plan_id"})
         and approved.get("status")
-        in ("planned", "already_present", "already_accepted"),
+        in ("planned", "already_present", "replayed"),
         "Invalid or non-applicable plan",
         "PRECONDITION_FAILED",
         4,
@@ -557,6 +516,7 @@ def apply_batch(root, batch_path, plan_path):
                         "plan_id": actual["plan_id"],
                         "changed_files": 0,
                         "witness_commit": actual["target_commit"],
+                        **({key: actual[key] for key in ("replay_status", "accepted_receipt_sha256", "accepted_state_changed")} if actual["status"] == "replayed" else {}),
                     }
                 write_json(
                     marker,
@@ -569,8 +529,7 @@ def apply_batch(root, batch_path, plan_path):
                 )
                 with marker.open("r+b") as stream:
                     os.fsync(stream.fileno())
-                for change in actual["changes"]:
-                    install_file(candidate / change["path"], root / change["path"])
+                install_candidate_updates(root, candidate, [c["path"] for c in actual["changes"]])
                 expected = dict(actual["input_files"])
                 expected.update(
                     {c["path"]: c["after_sha256"] for c in actual["changes"]}

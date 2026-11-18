@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【作词翻唱】在风波中不停留：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`48d329a1c817048dac111a0325544a4ec4a444c071eeac0aa2b94e56d299a5f6`\n\n输入快照：`529217fef6bc89b25693adc83344f3cd5df38f62f0a0e3b08f5539ea1a5330e7`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`1306`；参考转录：`1263`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -70,7 +48,7 @@
       ],
       "input_text_ref": {
         "target_id": "t-0e6e78027bb2df31ac1895a9",
-        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
+        "content_sha256": "98241a72cee19d93c5ad1a0d25b61fbd2f76ae96b90c2e32f74de03c63f329e0",
         "source": "text",
         "range": [
           0,
@@ -116,8 +94,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-0e6e78027bb2df31ac1895a9",
-        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
-        "source": "segments",
+        "content_sha256": "98241a72cee19d93c5ad1a0d25b61fbd2f76ae96b90c2e32f74de03c63f329e0",
+        "source": "blocks",
         "range": [
           20,
           60
@@ -148,8 +126,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-0e6e78027bb2df31ac1895a9",
-        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
-        "source": "segments",
+        "content_sha256": "98241a72cee19d93c5ad1a0d25b61fbd2f76ae96b90c2e32f74de03c63f329e0",
+        "source": "blocks",
         "range": [
           60,
           100
@@ -178,8 +156,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-0e6e78027bb2df31ac1895a9",
-        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
-        "source": "segments",
+        "content_sha256": "98241a72cee19d93c5ad1a0d25b61fbd2f76ae96b90c2e32f74de03c63f329e0",
+        "source": "blocks",
         "range": [
           100,
           120
@@ -217,8 +195,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-0e6e78027bb2df31ac1895a9",
-        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
-        "source": "segments",
+        "content_sha256": "98241a72cee19d93c5ad1a0d25b61fbd2f76ae96b90c2e32f74de03c63f329e0",
+        "source": "blocks",
         "range": [
           120,
           147
@@ -238,7 +216,7 @@
       ],
       "input_text_ref": {
         "target_id": "t-0e6e78027bb2df31ac1895a9",
-        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
+        "content_sha256": "98241a72cee19d93c5ad1a0d25b61fbd2f76ae96b90c2e32f74de03c63f329e0",
         "source": "text",
         "range": [
           160,
@@ -277,8 +255,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-0e6e78027bb2df31ac1895a9",
-        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
-        "source": "segments",
+        "content_sha256": "98241a72cee19d93c5ad1a0d25b61fbd2f76ae96b90c2e32f74de03c63f329e0",
+        "source": "blocks",
         "range": [
           161,
           200
@@ -307,7 +285,7 @@
       ],
       "input_text_ref": {
         "target_id": "t-0e6e78027bb2df31ac1895a9",
-        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
+        "content_sha256": "98241a72cee19d93c5ad1a0d25b61fbd2f76ae96b90c2e32f74de03c63f329e0",
         "source": "text",
         "range": [
           218,
@@ -337,8 +315,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-0e6e78027bb2df31ac1895a9",
-        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
-        "source": "segments",
+        "content_sha256": "98241a72cee19d93c5ad1a0d25b61fbd2f76ae96b90c2e32f74de03c63f329e0",
+        "source": "blocks",
         "range": [
           211,
           236
@@ -368,8 +346,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-0e6e78027bb2df31ac1895a9",
-        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
-        "source": "segments",
+        "content_sha256": "98241a72cee19d93c5ad1a0d25b61fbd2f76ae96b90c2e32f74de03c63f329e0",
+        "source": "blocks",
         "range": [
           236,
           260
@@ -398,8 +376,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-0e6e78027bb2df31ac1895a9",
-        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
-        "source": "segments",
+        "content_sha256": "98241a72cee19d93c5ad1a0d25b61fbd2f76ae96b90c2e32f74de03c63f329e0",
+        "source": "blocks",
         "range": [
           260,
           283
@@ -420,8 +398,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-0e6e78027bb2df31ac1895a9",
-        "content_sha256": "5f9bf8c4f5576d173947aadf35e5e8e23c8bcfd36366dadf00d4747c9f9137a7",
-        "source": "segments",
+        "content_sha256": "98241a72cee19d93c5ad1a0d25b61fbd2f76ae96b90c2e32f74de03c63f329e0",
+        "source": "blocks",
         "range": [
           283,
           298

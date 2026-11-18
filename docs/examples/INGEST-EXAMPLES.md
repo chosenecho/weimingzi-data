@@ -1,28 +1,23 @@
-# 增量协议合成示例
+# 原生四实体增量示例
 
-[详细设计](../INCREMENTAL-INGEST-SPEC.md) 定义协议。
+当前唯一接收协议为 `contract_version: 2`、`record_schema_version: 3`、`kind: weimingzi_native_increment`。批次结构见[机器契约](../contracts/ingest-batch-v2.schema.json)，完整行为见[增量协议](../INCREMENTAL-INGEST-SPEC.md)。[合成清单](ingest-batch/manifest.json)封装六条完整原生记录：两个 item、两个 document 和两个 asset；没有人工 annotation。每个载荷独立存于 `records/{entity}/{id}.json`，目标库由原生写入器合并，不直接复制文件覆盖 JSONL。
 
-- [批次 Schema](../contracts/ingest-batch-v1.schema.json)
-- [补充操作 Schema](../contracts/ingest-enrichment-v1.schema.json)
-- [媒体 Schema](../contracts/ingest-media-asset-v1.schema.json)
-- [策略草案](ingest-policy.toml)，默认关闭。
-- [合成批次清单](ingest-batch/manifest.json)和[记录文件](ingest-batch/records/)。
-- [补充载荷](ingest-enrichment.json)和[设计附件校验脚本](validate_ingest_example.py)。
+所有文字、身份、提交、模型、媒体和核验声明均为合成测试构造。音频、归档及 OSS 对象没有在此示例上传或验证；其中两条 `metadata.media_assets` 观察用于检查[当前媒体观察契约](../contracts/ingest-media-asset-v2.schema.json)，`asset_version` 为 `2`。生产端声明的 `readback_sha256` 表示来源证据字段，接收器的结构检查本身不访问远端或证明对象字节。
 
-`ingest-batch/manifest.json` 和 `records/` 是一个包含视频、分 P、音频、ASR、AI 整理稿、动态及文章引用的合成批次。记录身份与哈希按仓库现有规范计算，可用于结构、完整性及隔离候选库检查。
+[策略示例](ingest-policy.toml)是关闭状态的部署参考，不授予权限，也不是运行时配置入口。实际许可由仓库中的 `ingest/policy.py` 固定。自动来源只可在受限来源范围内增加机器结果和观察；人工确认、采用事实、全文审核与确认静音需由维护者以真实证据维护完整原生图。
 
-所有正文、平台身份、代码提交、运行、媒体及核验声明均为测试构造，不是平台真实内容或真实 ASR。音频明确没有分发定位，视频和图片定位是合成字段；没有上传任何云端媒体。示例不能用于生产投递或真实来源、媒体可用性验证。
+操作仅有 `insert` 和 `replace`。每条都声明 `entity`、完整载荷、载荷规范 JSON 哈希、来源引用及 `expected_record_sha256`：`insert` 必须显式为 `null`，`replace` 必须是旧完整原生记录的 SHA-256。后置状态完全相同先于 CAS 判断；替换仍受来源、不可改事实和追加许可约束。新结果使用新记录，原时间、质量、模型和输入快照保持原事实。
 
-封包示例使用每条记录一个 JSON；目标 JSONL 表仍按记录合并，不能直接复制文件覆盖。`manifest.json` 中各类哈希含义见详细设计的“哈希边界”。批次本身不携带人工确认和训练选稿。
+[校验脚本](validate_ingest_example.py)以真实接收器检查严格 JSON、文件清单、两种哈希、来源关联和权限，再在临时目录通过唯一原生写入器验证完整候选图；它只读示例并创建临时目录，不改维护数据，不需要 Git 仓库或网络。基础检查只用项目依赖：
 
-实际配置还需要解析存储别名、固定 App 触发主体、设置生产端版本和目标仓库基线。初始容量及重试预算是拟定参数，可在实测后调整，未宣称为 FC 或 GitHub 的产品限制。
+```sh
+uv run python docs/examples/validate_ingest_example.py
+```
 
-`ingest-enrichment.json` 演示补充标题观测、时间和来源运行，不替换原展示标题。它是独立载荷示例，不属于 `ingest-batch/`，也不带自动获准的目标记录。
-
-运行设计示例检查：
+如需额外校验 JSON Schema 本身及示例是否符合它，可临时安装检查依赖：
 
 ```sh
 uv run --no-project --with jsonschema==4.26.0 python -X utf8 docs/examples/validate_ingest_example.py
 ```
 
-该脚本只验证设计附件：Schema、批次哈希、文件清单、跨表引用、媒体字段、策略和反例。它在临时目录调用现有语料校验器，不修改正式数据，不访问平台和云端，不验证尚未实现的命令或 PR 流程。`jsonschema` 仅为示例检查使用，未加入语料工具的运行依赖。
+版本 1 的旧批次、旧表名和补充载荷已退出当前接收协议。既有收据保持历史字节，按文件 SHA-256 和对应历史 checkout 复查，不通过当前接收器转换或重放。已接收的当前收据重投递会单独报告 `accepted_state_present` 或 `accepted_state_changed`，不会用历史结果冒充当前状态断言。

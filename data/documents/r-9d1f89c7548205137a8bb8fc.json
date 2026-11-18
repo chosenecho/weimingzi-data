@@ -106,30 +106,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【植青小屋】小屋工作年度总结+盖世工坊新品介绍：AI 校对记录\n\n模型：`deepseek-v4.1-flash`；服务：OpenCode Go。AI 阅读稿，未经人工审核。\n\n原始 ASR 正文保留；校对仅整理已有正文，不补写未识别语音。音频范围仅为原始 ASR 分块定位，不是新字幕时间戳。\n\n参照转录：t-e883ffeb58add66acd473a4b。\n\n来源质量标记：`{\"requires_review\": true, \"untranscribed_intervals\": [{\"start\": 240, \"end\": 275.4605, \"reason\": \"provider_returned_no_words\", \"evidence\": \"chunk-0001.json\"}], \"timed_exports_available\": true}`。\n\n输入：`ee3cd2aa0cb23f1265d00d9433f1c84dda6f5150e487c8e11beeef82c86c85b5`；修订：`90f8d1df071f5eed9a8e2e71312fa9f72bbed0445db06bf09d883f0d7d1aad43`。",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "input_units",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "review_document_markdown",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",

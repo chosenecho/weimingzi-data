@@ -55,6 +55,45 @@ class PreservationManifestTests(unittest.TestCase):
     def tearDown(self):
         self.temp.cleanup()
 
+    def test_current_runtime_support_tracks_native_modules_and_fixtures(self):
+        files = set(preservation.SUPPORT_FILES)
+        self.assertTrue({
+            "src/weimingzi_corpus/records.py",
+            "src/weimingzi_corpus/schema_v3.py",
+            "tests/native_fixtures.py",
+            "tests/test_native_records.py",
+            "docs/schema-v3-contract.json",
+            "docs/contracts/ingest-batch-v2.schema.json",
+            "docs/contracts/ingest-media-asset-v2.schema.json",
+            "docs/NATIVE-V3-CLEANUP.md",
+            "docs/evidence/native-v3-cleanup-2026-11-17.json.gz",
+        }.issubset(files))
+        self.assertFalse(files.intersection({
+            "src/weimingzi_corpus/schema_migration.py",
+            "src/weimingzi_corpus/requested_results.py",
+            "tools/migrate_schema_v3.py",
+            "tests/test_schema_migration.py",
+            "tests/test_requested_results.py",
+            "docs/contracts/ingest-batch-v1.schema.json",
+            "docs/contracts/ingest-media-asset-v1.schema.json",
+            "docs/contracts/ingest-enrichment-v1.schema.json",
+            "docs/examples/ingest-enrichment.json",
+        }))
+
+    def test_ingest_example_support_matches_current_native_records(self):
+        prefix = "docs/examples/ingest-batch/records/"
+        root = Path(__file__).resolve().parents[1]
+        records = root / prefix
+        expected = {path.relative_to(root).as_posix() for path in records.rglob("*.json")}
+        self.assertTrue(expected)
+        self.assertTrue(all(
+            path.removeprefix(prefix).split("/", 1)[0] in
+            {"items", "documents", "assets", "annotations"}
+            for path in expected
+        ))
+        actual = {path for path in preservation.SUPPORT_FILES if path.startswith(prefix)}
+        self.assertEqual(actual, expected)
+
     def test_manifest_is_sorted_and_covers_canonical_and_context_files(self):
         manifest = preservation.make_manifest(self.root)
         paths = [entry["path"] for entry in manifest["files"]]

@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【翻唱】尘缘 普通话/粤语版：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`f4cc2de8216b0f7c5298a5a09f98564310210363e86b1828845e1c4ad66c6f36`\n\n输入快照：`324be8a346c4d04465565397506e44041c12803433b8af9f52887fd81fb991e5`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2392`；参考转录：`3355`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -73,8 +51,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-025c8c6a50b2c8cea34ae052",
-        "content_sha256": "7a409739ac03f31a81afb2e380d1814983d1e724c2e944baf2270ce29e04dead",
-        "source": "segments",
+        "content_sha256": "fbfdb9493e85b9cef03e816672276ac9e9f056b98646bcc0973e468fe605ae6e",
+        "source": "blocks",
         "range": [
           0,
           48
@@ -106,8 +84,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-025c8c6a50b2c8cea34ae052",
-        "content_sha256": "7a409739ac03f31a81afb2e380d1814983d1e724c2e944baf2270ce29e04dead",
-        "source": "segments",
+        "content_sha256": "fbfdb9493e85b9cef03e816672276ac9e9f056b98646bcc0973e468fe605ae6e",
+        "source": "blocks",
         "range": [
           48,
           92
@@ -139,8 +117,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-025c8c6a50b2c8cea34ae052",
-        "content_sha256": "7a409739ac03f31a81afb2e380d1814983d1e724c2e944baf2270ce29e04dead",
-        "source": "segments",
+        "content_sha256": "fbfdb9493e85b9cef03e816672276ac9e9f056b98646bcc0973e468fe605ae6e",
+        "source": "blocks",
         "range": [
           92,
           149
@@ -172,8 +150,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-025c8c6a50b2c8cea34ae052",
-        "content_sha256": "7a409739ac03f31a81afb2e380d1814983d1e724c2e944baf2270ce29e04dead",
-        "source": "segments",
+        "content_sha256": "fbfdb9493e85b9cef03e816672276ac9e9f056b98646bcc0973e468fe605ae6e",
+        "source": "blocks",
         "range": [
           149,
           198
@@ -212,8 +190,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-025c8c6a50b2c8cea34ae052",
-        "content_sha256": "7a409739ac03f31a81afb2e380d1814983d1e724c2e944baf2270ce29e04dead",
-        "source": "segments",
+        "content_sha256": "fbfdb9493e85b9cef03e816672276ac9e9f056b98646bcc0973e468fe605ae6e",
+        "source": "blocks",
         "range": [
           198,
           257
@@ -251,8 +229,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-025c8c6a50b2c8cea34ae052",
-        "content_sha256": "7a409739ac03f31a81afb2e380d1814983d1e724c2e944baf2270ce29e04dead",
-        "source": "segments",
+        "content_sha256": "fbfdb9493e85b9cef03e816672276ac9e9f056b98646bcc0973e468fe605ae6e",
+        "source": "blocks",
         "range": [
           257,
           295

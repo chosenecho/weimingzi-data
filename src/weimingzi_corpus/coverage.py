@@ -7,10 +7,7 @@ import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
-from .records import (
-    SHA256_PATTERN, canonical_json, content_record_path, iter_records,
-    load_content_record,
-)
+from .records import SHA256_PATTERN, canonical_json, input_ids, iter_records, load_document, record_path
 
 LAYERS = ("direct", "cross_source", "same_audio", "chapter_supplement")
 
@@ -27,20 +24,16 @@ def text_status(text: str) -> str:
     return "text_present_unverified"
 
 
-def record_summary(row: dict, table: str, root: Path | None = None) -> dict:
+def record_summary(row: dict, root: Path, item_id: str) -> dict:
     quality = row.get("quality", {})
     return {
         "id": row["id"],
-        "item_id": row["item_id"],
+        "item_id": item_id,
         "kind": row["kind"],
-        "record_path": (
-            content_record_path(root, table, row["id"])
-            .relative_to(root.resolve()).as_posix()
-            if root is not None else f"data/{table}/{row['id']}.json"
-        ),
+        "record_path": record_path(root, "documents", row["id"]).relative_to(root.resolve()).as_posix(),
         "method": row.get("method"),
         "model": row.get("model"),
-        "transcript_ids": row.get("transcript_ids", []),
+        "transcript_ids": input_ids(row, "transcript"),
         "is_complete": row.get("is_complete"),
         "is_fully_human_reviewed": quality.get("is_fully_human_reviewed"),
         "requires_review": quality.get("requires_review"),
@@ -85,7 +78,7 @@ class CoverageIndex:
     def __init__(self, root: Path, load_content: bool = True):
         self.root = root
         self.items = {r["id"]: r for r, _ in iter_records(root, "items")}
-        self.collections = [r for r, _ in iter_records(root, "collections")]
+        self.collections = [r for r in self.items.values() if r["kind"] in {"video_collection", "video_series", "article_collection"}]
         self.children = defaultdict(set)
         self.by_item = defaultdict(list)
         self.audio_groups = defaultdict(set)
@@ -93,25 +86,27 @@ class CoverageIndex:
         for row in self.items.values():
             if row.get("parent_id"):
                 self.children[row["parent_id"]].add(row["id"])
-            for digest in row["identifiers"].get("audio_sha256", []):
+            for digest in row.get("identifiers", {}).get("audio_sha256", []):
                 if SHA256_PATTERN.fullmatch(digest):
                     self.audio_groups[digest].add(row["id"])
                     self.audio_evidence[digest].append(
                         {"item_id": row["id"], "field": "identifiers.audio_sha256"}
                     )
-        for row, _ in iter_records(root, "audio"):
-            self.audio_groups[row["sha256"]].update(row.get("item_ids", []))
-            self.audio_evidence[row["sha256"]].append(
-                {
-                    "audio_id": row["id"],
-                    "item_ids": row.get("item_ids", []),
-                    "field": "sha256",
-                    "availability": row["availability"],
-                }
+        for row, _ in iter_records(root, "assets", kind="audio"):
+            digest = row.get("sha256", "")
+            if not SHA256_PATTERN.fullmatch(digest):
+                continue
+            owners = input_ids(row, "item")
+            self.audio_groups[digest].update(owners)
+            self.audio_evidence[digest].append(
+                {"asset_id": row["id"], "item_ids": owners, "field": "sha256",
+                 "availability": row.get("availability")}
             )
-        for table in ("transcripts", "edited_transcripts") if load_content else ():
-            for row, _ in iter_records(root, table):
-                self.by_item[row["item_id"]].append(record_summary(row, table, root))
+        if load_content:
+            for row, _ in iter_records(root, "documents"):
+                if row["kind"] in {"transcript", "edited_transcript"}:
+                    for owner in input_ids(row, "item"):
+                        self.by_item[owner].append(record_summary(row, root, owner))
 
     def resolve(self, identifier: str, part: int | None = None) -> str:
         if part is not None and part < 1:
@@ -123,7 +118,7 @@ class CoverageIndex:
                 i
                 for i in self.items.values()
                 if i["kind"] in {"video", "video_part", "audio_recording"}
-                and any(identifier in values for values in i["identifiers"].values())
+                and any(identifier in values for values in i.get("identifiers", {}).values())
             ]
             videos = [i for i in matches if i["kind"] == "video"]
             if len(videos) == 1:
@@ -228,7 +223,7 @@ class CoverageIndex:
                     row = copy.deepcopy(summary)
                     row["associations"] = evidence
                     if include_records:
-                        row["record"] = load_content_record(self.root, row["id"])
+                        row["record"] = load_document(self.root, row["id"])
                     records.append(row)
             records.sort(key=lambda r: (r["item_id"], r["id"]))
             layers[layer] = {

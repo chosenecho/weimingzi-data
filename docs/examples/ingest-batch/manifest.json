@@ -1,204 +1,136 @@
 {
-  "contract_version": 1,
-  "kind": "weimingzi_increment",
-  "record_schema_version": 2,
+  "contract_version": 2,
+  "record_schema_version": 3,
+  "kind": "weimingzi_native_increment",
   "target": {
     "repository": "chosenecho/weimingzi-data",
     "branch": "main"
-  },
-  "producer": {
-    "name": "weimingzi-bilibili-ingest",
-    "code_revision": "0000000000000000000000000000000000000000",
-    "run_id": "synthetic-fixture"
   },
   "source_scope": {
     "platform": "bilibili",
     "target_uid": "23191782"
   },
-  "base_commit": "0000000000000000000000000000000000000000",
+  "producer": {
+    "name": "weimingzi-bilibili-ingest",
+    "code_revision": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "run_id": "synthetic-native-fixture"
+  },
+  "base_commit": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
   "created_at": "2026-11-04T20:00:00+08:00",
-  "requires_batches": [],
   "sources": [
     {
-      "source_id": "bilibili:video:BV1aaaaaaaaa",
+      "source_id": "video:fixture",
       "namespace": "bilibili_bvid",
       "external_id": "BV1aaaaaaaaa",
       "publisher_uid": "23191782",
-      "url": "https://www.bilibili.com/video/BV1aaaaaaaaa/",
+      "url": "https://www.bilibili.com/video/BV1aaaaaaaaa/?p=1",
       "observed_at": "2026-11-04T20:00:00+08:00",
       "relation": "target_publication",
       "referenced_by": [],
-      "cid": "0",
+      "cid": "123",
       "part_number": 1
-    },
-    {
-      "source_id": "bilibili:dynamic:0",
-      "namespace": "bilibili_dynamic",
-      "external_id": "0",
-      "publisher_uid": "23191782",
-      "url": "https://t.bilibili.com/0",
-      "observed_at": "2026-11-04T20:00:00+08:00",
-      "relation": "target_publication",
-      "referenced_by": []
-    },
-    {
-      "source_id": "bilibili:article:0",
-      "namespace": "bilibili_cvid",
-      "external_id": "0",
-      "publisher_uid": "23191782",
-      "url": "https://www.bilibili.com/read/cv0",
-      "observed_at": "2026-11-04T20:00:00+08:00",
-      "relation": "target_publication",
-      "referenced_by": []
     }
   ],
+  "requires_batches": [],
   "files": [
     {
-      "path": "records/articles/c-b21fe8194fe60f7b3d15f664.json",
-      "sha256": "ec49846bf21f08daf7b81a070847009b6cff3149ddeb3baad76e5bf61f879f73",
-      "size_bytes": 388
+      "path": "records/items/i-807f0525549ec1760febbccb.json",
+      "sha256": "f847fc56f36be061285936f90d14450adb0897de678d54f1a88c0b5f09c40e36",
+      "size_bytes": 1671
     },
     {
-      "path": "records/audio/m-d380123b4a48021487b43fe7.json",
-      "sha256": "72c3bf5b0a6e2f0295d93dab27052e159aa32f8f5ce2f2983069d921b4fdfbd5",
-      "size_bytes": 396
+      "path": "records/items/i-3262b7a621893b2fba1d80f0.json",
+      "sha256": "4cda6b47949ec82c57872b1331e1f8032e0e5ff831b414a39acbb3c3cef48f1f",
+      "size_bytes": 452
     },
     {
-      "path": "records/edited_transcripts/r-54185a7333b47acb2bf05e34.json",
-      "sha256": "224567320378598f0c8f0acadfaffd8f96aabbe0f0b497e90659ce8940132fde",
-      "size_bytes": 840
+      "path": "records/documents/t-b79f6378bc123633b9796155.json",
+      "sha256": "e7afb7e25be72aeb6decce6e14334ef878f16792ff2898736aa8a21d8dfe04b1",
+      "size_bytes": 843
     },
     {
-      "path": "records/items/i-26a13f10fdfc708394760e5d.json",
-      "sha256": "d441e63a7df058f930599b5949ca8b0805c92b0cb5bd5098b52155a11b1d8aeb",
-      "size_bytes": 367
+      "path": "records/documents/r-7e0989c040d0436dcace5f01.json",
+      "sha256": "7174a351235d590e1bbfbc6351471f63ec155abcf1962b959a7e0e500c2aac9d",
+      "size_bytes": 1747
     },
     {
-      "path": "records/items/i-783d0e4a20ebf2c957bb5557.json",
-      "sha256": "2eb37e82ad06e2e7cc3c1eadd694ad310829a84a5138387617436cde24b9fb8d",
-      "size_bytes": 543
+      "path": "records/assets/m-53b773b65438e16d42997558.json",
+      "sha256": "d4c59ddcc27dd2bad99f0c86193e29b3d7cf73b05ff86582f697d07c721d4332",
+      "size_bytes": 489
     },
     {
-      "path": "records/items/i-7bd9de4078c5688f711355b8.json",
-      "sha256": "f7452d6651a3f32d537d58f5db62e34d8dae4989df73b83982e265485a82d831",
-      "size_bytes": 1079
-    },
-    {
-      "path": "records/items/i-ac00e851f72a9d5a5dccc89c.json",
-      "sha256": "6826485e232aee2141b98fbb216981af05a67a46c15e2860adeee87234cce13d",
-      "size_bytes": 1249
-    },
-    {
-      "path": "records/posts/p-f6a779604bcdaf60bf7fbdd5.json",
-      "sha256": "105e020613bdc78eb9f5fc57702a24c9b8b5affa7c2c448a928c6c4d660bad8f",
-      "size_bytes": 429
-    },
-    {
-      "path": "records/transcripts/t-a490aed5dbb30b0d37c34f10.json",
-      "sha256": "020c4ff3b6db679cf3dad0930ef83cfa74fdc585392463d3e9f78496d9f4a7f2",
-      "size_bytes": 821
+      "path": "records/assets/z-d32d6d5eeb28879723113a09.json",
+      "sha256": "a23da8e44ac9e30056c4ff7cdefc48a92ff5096c2ec7da17bfcdb58dfbf15a16",
+      "size_bytes": 232
     }
   ],
   "operations": [
     {
       "op": "insert",
-      "table": "articles",
-      "record_id": "c-b21fe8194fe60f7b3d15f664",
-      "path": "records/articles/c-b21fe8194fe60f7b3d15f664.json",
-      "payload_sha256": "cc4153f0e537b9a41690ba97a19feef5bdad1fbcf47f9f75de3c802803c590e0",
+      "entity": "items",
+      "record_id": "i-807f0525549ec1760febbccb",
+      "path": "records/items/i-807f0525549ec1760febbccb.json",
+      "payload_sha256": "7c6127b010cee23d75fef5e3994889a308f90d7864fed4fcd7104980083dc8a6",
       "expected_record_sha256": null,
       "source_refs": [
-        "bilibili:article:0"
+        "video:fixture"
       ]
     },
     {
       "op": "insert",
-      "table": "audio",
-      "record_id": "m-d380123b4a48021487b43fe7",
-      "path": "records/audio/m-d380123b4a48021487b43fe7.json",
-      "payload_sha256": "cc240df5ee220baf90c3d87c02e39a8b3257f282f22b533cd1f1b81062ea9446",
+      "entity": "items",
+      "record_id": "i-3262b7a621893b2fba1d80f0",
+      "path": "records/items/i-3262b7a621893b2fba1d80f0.json",
+      "payload_sha256": "01384451313f7d6bd2d46951821a0e83ea59fe772eadcbe5f2f79caf6aefce90",
       "expected_record_sha256": null,
       "source_refs": [
-        "bilibili:video:BV1aaaaaaaaa"
+        "video:fixture"
       ]
     },
     {
       "op": "insert",
-      "table": "edited_transcripts",
-      "record_id": "r-54185a7333b47acb2bf05e34",
-      "path": "records/edited_transcripts/r-54185a7333b47acb2bf05e34.json",
-      "payload_sha256": "dff96832047655bad652d7eec7fe9bdc108419d8ff90e9c3a42182f4bf9acb73",
+      "entity": "documents",
+      "record_id": "t-b79f6378bc123633b9796155",
+      "path": "records/documents/t-b79f6378bc123633b9796155.json",
+      "payload_sha256": "ebc10483404beacb8526e3b3fa53f74c1d27c441136a37d5903f8910a3b99d58",
       "expected_record_sha256": null,
       "source_refs": [
-        "bilibili:video:BV1aaaaaaaaa"
+        "video:fixture"
       ]
     },
     {
       "op": "insert",
-      "table": "items",
-      "record_id": "i-26a13f10fdfc708394760e5d",
-      "path": "records/items/i-26a13f10fdfc708394760e5d.json",
-      "payload_sha256": "4c1752e9008c5601d8039f7828eea7352f07acee73a26f8b5dd950a8ce0bc8dc",
+      "entity": "documents",
+      "record_id": "r-7e0989c040d0436dcace5f01",
+      "path": "records/documents/r-7e0989c040d0436dcace5f01.json",
+      "payload_sha256": "22923cae06a5da7fc3bfe1e1f73b45fdd4cc03055e05c5807bcb700a3cdfa989",
       "expected_record_sha256": null,
       "source_refs": [
-        "bilibili:article:0"
+        "video:fixture"
       ]
     },
     {
       "op": "insert",
-      "table": "items",
-      "record_id": "i-783d0e4a20ebf2c957bb5557",
-      "path": "records/items/i-783d0e4a20ebf2c957bb5557.json",
-      "payload_sha256": "5c9182136aa55278bdfd721187d6123322e9763f9e7031cf9fffd53e2d882d58",
+      "entity": "assets",
+      "record_id": "m-53b773b65438e16d42997558",
+      "path": "records/assets/m-53b773b65438e16d42997558.json",
+      "payload_sha256": "801c5ce7d17e49767e689634aa3a2cba9033b9a875c9b96da7266a47fcb47385",
       "expected_record_sha256": null,
       "source_refs": [
-        "bilibili:video:BV1aaaaaaaaa"
+        "video:fixture"
       ]
     },
     {
       "op": "insert",
-      "table": "items",
-      "record_id": "i-7bd9de4078c5688f711355b8",
-      "path": "records/items/i-7bd9de4078c5688f711355b8.json",
-      "payload_sha256": "1318712044154c9004569df5f091380a3995fec97264967c1b164b79bd0d5e7e",
+      "entity": "assets",
+      "record_id": "z-d32d6d5eeb28879723113a09",
+      "path": "records/assets/z-d32d6d5eeb28879723113a09.json",
+      "payload_sha256": "e26cdb3f4ff52b66a120c9ba7cbdb4f2e271d1a250003ee2921b86b00012563c",
       "expected_record_sha256": null,
       "source_refs": [
-        "bilibili:video:BV1aaaaaaaaa"
-      ]
-    },
-    {
-      "op": "insert",
-      "table": "items",
-      "record_id": "i-ac00e851f72a9d5a5dccc89c",
-      "path": "records/items/i-ac00e851f72a9d5a5dccc89c.json",
-      "payload_sha256": "c7d06d2678dd8e1b2fb2509daceb1999753f4055171e01861288a5aecef0bcd9",
-      "expected_record_sha256": null,
-      "source_refs": [
-        "bilibili:dynamic:0"
-      ]
-    },
-    {
-      "op": "insert",
-      "table": "posts",
-      "record_id": "p-f6a779604bcdaf60bf7fbdd5",
-      "path": "records/posts/p-f6a779604bcdaf60bf7fbdd5.json",
-      "payload_sha256": "a7b80753c97837e9e8756400008e3f0fc12a25077fbc59d362895e694ad0ebdd",
-      "expected_record_sha256": null,
-      "source_refs": [
-        "bilibili:dynamic:0"
-      ]
-    },
-    {
-      "op": "insert",
-      "table": "transcripts",
-      "record_id": "t-a490aed5dbb30b0d37c34f10",
-      "path": "records/transcripts/t-a490aed5dbb30b0d37c34f10.json",
-      "payload_sha256": "2d86a9b9ef96c0de318ef72eb944414901500d9b20f4d2f7d41b8d08760e4c7e",
-      "expected_record_sha256": null,
-      "source_refs": [
-        "bilibili:video:BV1aaaaaaaaa"
+        "video:fixture"
       ]
     }
   ],
-  "batch_id": "aa2c92153b3f2505ab68b1eb220d544ff133cb1fd3ac5ee304e0c37a5b018d19"
+  "batch_id": "59942a4c147969c095644de49dc24883e5ba325f6f3fd34ef8282c7015c568fc"
 }

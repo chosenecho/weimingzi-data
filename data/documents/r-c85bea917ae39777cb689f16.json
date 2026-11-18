@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【经典译读】康德《纯粹理性批判》（连载中）：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`764ea736dfb44927c8f2ecbbff8126ffea0d7347e5316545996ba04fc055a47d`\n\n输入快照：`882163a5fefd478a78407ff62fa0f16c65e9c5e11c9fe5299eccf5690ec0a418`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2238`；参考转录：`3249`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -73,8 +51,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-6ce99da4da0ad45e3dd1cd53",
-        "content_sha256": "fd3daacdf9b42c6fcd658ad67d2067a31128c453de7030509eef861303e7d832",
-        "source": "segments",
+        "content_sha256": "7acb388ff55767ca8abd9d664b093caf8cb1a579bda30919d658cea97fbb3c8c",
+        "source": "blocks",
         "range": [
           0,
           100
@@ -109,8 +87,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-6ce99da4da0ad45e3dd1cd53",
-        "content_sha256": "fd3daacdf9b42c6fcd658ad67d2067a31128c453de7030509eef861303e7d832",
-        "source": "segments",
+        "content_sha256": "7acb388ff55767ca8abd9d664b093caf8cb1a579bda30919d658cea97fbb3c8c",
+        "source": "blocks",
         "range": [
           100,
           193
@@ -150,8 +128,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-6ce99da4da0ad45e3dd1cd53",
-        "content_sha256": "fd3daacdf9b42c6fcd658ad67d2067a31128c453de7030509eef861303e7d832",
-        "source": "segments",
+        "content_sha256": "7acb388ff55767ca8abd9d664b093caf8cb1a579bda30919d658cea97fbb3c8c",
+        "source": "blocks",
         "range": [
           193,
           585
@@ -181,8 +159,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-6ce99da4da0ad45e3dd1cd53",
-        "content_sha256": "fd3daacdf9b42c6fcd658ad67d2067a31128c453de7030509eef861303e7d832",
-        "source": "segments",
+        "content_sha256": "7acb388ff55767ca8abd9d664b093caf8cb1a579bda30919d658cea97fbb3c8c",
+        "source": "blocks",
         "range": [
           585,
           715
@@ -221,8 +199,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-6ce99da4da0ad45e3dd1cd53",
-        "content_sha256": "fd3daacdf9b42c6fcd658ad67d2067a31128c453de7030509eef861303e7d832",
-        "source": "segments",
+        "content_sha256": "7acb388ff55767ca8abd9d664b093caf8cb1a579bda30919d658cea97fbb3c8c",
+        "source": "blocks",
         "range": [
           715,
           1112
@@ -266,8 +244,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-6ce99da4da0ad45e3dd1cd53",
-        "content_sha256": "fd3daacdf9b42c6fcd658ad67d2067a31128c453de7030509eef861303e7d832",
-        "source": "segments",
+        "content_sha256": "7acb388ff55767ca8abd9d664b093caf8cb1a579bda30919d658cea97fbb3c8c",
+        "source": "blocks",
         "range": [
           1112,
           1556
@@ -303,8 +281,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-6ce99da4da0ad45e3dd1cd53",
-        "content_sha256": "fd3daacdf9b42c6fcd658ad67d2067a31128c453de7030509eef861303e7d832",
-        "source": "segments",
+        "content_sha256": "7acb388ff55767ca8abd9d664b093caf8cb1a579bda30919d658cea97fbb3c8c",
+        "source": "blocks",
         "range": [
           1556,
           1783
@@ -343,8 +321,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-6ce99da4da0ad45e3dd1cd53",
-        "content_sha256": "fd3daacdf9b42c6fcd658ad67d2067a31128c453de7030509eef861303e7d832",
-        "source": "segments",
+        "content_sha256": "7acb388ff55767ca8abd9d664b093caf8cb1a579bda30919d658cea97fbb3c8c",
+        "source": "blocks",
         "range": [
           1783,
           2049
@@ -377,8 +355,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-6ce99da4da0ad45e3dd1cd53",
-        "content_sha256": "fd3daacdf9b42c6fcd658ad67d2067a31128c453de7030509eef861303e7d832",
-        "source": "segments",
+        "content_sha256": "7acb388ff55767ca8abd9d664b093caf8cb1a579bda30919d658cea97fbb3c8c",
+        "source": "blocks",
         "range": [
           2049,
           2332
@@ -418,8 +396,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-6ce99da4da0ad45e3dd1cd53",
-        "content_sha256": "fd3daacdf9b42c6fcd658ad67d2067a31128c453de7030509eef861303e7d832",
-        "source": "segments",
+        "content_sha256": "7acb388ff55767ca8abd9d664b093caf8cb1a579bda30919d658cea97fbb3c8c",
+        "source": "blocks",
         "range": [
           2332,
           2642
@@ -451,8 +429,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-6ce99da4da0ad45e3dd1cd53",
-        "content_sha256": "fd3daacdf9b42c6fcd658ad67d2067a31128c453de7030509eef861303e7d832",
-        "source": "segments",
+        "content_sha256": "7acb388ff55767ca8abd9d664b093caf8cb1a579bda30919d658cea97fbb3c8c",
+        "source": "blocks",
         "range": [
           2642,
           3020
@@ -497,8 +475,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-6ce99da4da0ad45e3dd1cd53",
-        "content_sha256": "fd3daacdf9b42c6fcd658ad67d2067a31128c453de7030509eef861303e7d832",
-        "source": "segments",
+        "content_sha256": "7acb388ff55767ca8abd9d664b093caf8cb1a579bda30919d658cea97fbb3c8c",
+        "source": "blocks",
         "range": [
           3020,
           3435
@@ -534,8 +512,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-6ce99da4da0ad45e3dd1cd53",
-        "content_sha256": "fd3daacdf9b42c6fcd658ad67d2067a31128c453de7030509eef861303e7d832",
-        "source": "segments",
+        "content_sha256": "7acb388ff55767ca8abd9d664b093caf8cb1a579bda30919d658cea97fbb3c8c",
+        "source": "blocks",
         "range": [
           3435,
           3627
@@ -574,8 +552,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-6ce99da4da0ad45e3dd1cd53",
-        "content_sha256": "fd3daacdf9b42c6fcd658ad67d2067a31128c453de7030509eef861303e7d832",
-        "source": "segments",
+        "content_sha256": "7acb388ff55767ca8abd9d664b093caf8cb1a579bda30919d658cea97fbb3c8c",
+        "source": "blocks",
         "range": [
           3627,
           3779

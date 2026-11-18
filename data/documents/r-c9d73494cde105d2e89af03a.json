@@ -162,30 +162,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 1-2-1神创论：AI 校对记录\n\n模型：`deepseek-v4.1-flash`；服务：OpenCode Go。AI 阅读稿，未经人工审核。\n\n原始 ASR 正文保留；校对仅整理已有正文，不补写未识别语音。音频范围仅为原始 ASR 分块定位，不是新字幕时间戳。\n\n参照转录：t-a203b97657917cba50485a88。\n\n来源质量标记：`{\"requires_review\": false, \"untranscribed_intervals\": [], \"timed_exports_available\": true}`。\n\n输入：`dff97f9b2d79982bed76cf41b7b49477a01b3bdf1f364025b83a6810e848a3dc`；修订：`67888db47c41e5db8de427f8696e11886cef1ff139289f5c70860ab7304a82fc`。",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "input_units",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "review_document_markdown",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",

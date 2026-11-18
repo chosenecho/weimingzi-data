@@ -10,8 +10,8 @@
 | --- | --- | --- |
 | 归档数据与专题规则 | data/**、selections/** | 纳入逐文件大小与 SHA-256 清单 |
 | 解释与恢复上下文 | AGENTS.md、README.md、CONTENT-RIGHTS.md、结构、维护、查询、质量与保存说明、校验及恢复入口 | 纳入清单，确保数据可解释、可检查 |
-| 入库上下文 | 增量协议、批次 Schema/示例、入库实现与测试 | 纳入清单；来源探测代码与验证记录已移至生产端项目，不列入本仓库基线 |
-| 仓库内 Markdown 导航 | 根目录、docs、functions、workers 等源码说明中的本地链接 | 仓库检查递归核对链接，跳过虚拟环境和构建缓存 |
+| 入库上下文 | 增量协议、批次 Schema/示例、入库实现与测试 | 纳入清单；范围以本仓当前维护文件为准 |
+| 仓库内 Markdown 导航 | 根目录、docs 及源码说明中的本地链接 | 仓库检查递归核对链接，跳过虚拟环境和构建缓存 |
 | 生成导航 | docs/INDEX.md、docs/catalog/**、docs/counts.json | 排除于权威数据清单，可从维护数据重建 |
 | 本地缓存与导出 | .cache/**、SQLite、exports/** | 排除，属于派生工作数据 |
 | 已恢复媒体 | media/audio/** | 不并入清单，按 data/assets.jsonl 中的字节哈希单独核验 |
@@ -21,7 +21,7 @@
 | 恢复及发布证据 | preservation/checks/ 中明确列入 SUPPORT_FILES 的 JSON | 纳入支持上下文，保留合成、抽样、全量回读、中断及发布验收结果 |
 | 远端发布包 | Release ZIP | 实际读取字节并验证归档与成员哈希后，才记录为当次已校验；URL 和索引状态不是可用性证明 |
 
-`selections/` 当前只保存专题查询规则；训练选稿、发布配置与实现已交接到制作工程，本仓支持文件清单只覆盖本仓维护职责。具体范围以[清单工具](../tools/preservation_manifest.py)的 `CANONICAL_ROOTS`、`SUPPORT_FILES` 为准，包含保存计划、入库实现与测试及仍由本仓维护的配置和验证证据。范围或职责变更后另建基线，旧清单与旧事件继续按原字节保留。
+`selections/` 当前只保存专题查询规则；支持文件清单只覆盖本仓维护职责。具体范围以[清单工具](../tools/preservation_manifest.py)的 `CANONICAL_ROOTS`、`SUPPORT_FILES` 为准，包含保存计划、入库实现与测试及仍由本仓维护的配置和验证证据。范围或职责变更后另建基线，旧清单与旧事件继续按原字节保留。
 
 范围扫描将维护数据与解释上下文分别标记，逐项报告缺失目录、缺失上下文文件、重复路径、符号链接、不可读文件或非普通文件，不跟随符号链接。`create` 遇到任一范围问题会以非零状态停止，不写出可被选中的不完整基线。不要只检查 `docs/` 内导航而遗漏源码说明中的本地链接。
 
@@ -68,7 +68,7 @@ uv run python tools/restore_audio.py
 uv run python tools/restore_audio.py --verify-only
 ```
 
-工具按 schema 声明默认读取 v3 的 `data/assets.jsonl`，读取旧 v2 时默认使用 `data/audio.jsonl`。显式 `--index` 接受仓库相对路径，如 `--index data/assets.jsonl`，或仍采用旧音频记录格式的自定义索引。v3 音频投影保留原下载字段，恢复不依赖其他文稿实体。
+工具固定读取当前原生 `data/schema.json` 和 `data/assets.jsonl`，audio 的 `downloads[].archive_id` 直接解析同一索引的完整 archive 资产。恢复只依赖这两个文件，不依赖文稿、条目或人工标注的有效性；不接受自定义索引路径。
 
 `--list` 列出可恢复文件总数、总字节数和分卷标识。按需将 `RELEASE_TAG/ARCHIVE.zip` 替换为其中的实际标识；`--archive` 可重复使用：
 
@@ -91,7 +91,7 @@ uv run python tools/audit_audio_restore.py --temporary-media --workers 1 --outpu
 
 临时模式逐卷恢复，核对后释放每卷临时目录，只允许 `--workers 1`。不指定 `--temporary-media` 时，恢复字节保留在本地缓存和 `media/audio/`；普通模式 `--workers` 接受 1 至 4，默认 2。可用可重复的 `--archive RELEASE_TAG/ARCHIVE.zip` 限定范围。已有报告及对应 `.parts/` 目录不覆盖；重试使用新路径并保留原失败结果。
 
-最终报告包含实际读取索引的路径、字节数与 SHA-256、schema 依赖、所用投影模块及工具摘要、选择范围、逐归档、逐成员和逐恢复文件结果。v3 音频及归档资产由同一索引的字节摘要覆盖。先核对索引与工具版本，再检查总报告的 `ok`、`index_unchanged`、`index_dependencies_unchanged` 及各项结果；审计期间索引或 schema 依赖改变时，完整性检查失败，历史报告继续按原内容保留。
+最终报告包含实际读取 assets 索引的路径、字节数与 SHA-256、schema 依赖、原生读取/校验模块及恢复审计工具摘要、选择范围、逐归档、逐成员和逐恢复文件结果。音频及完整归档资产由同一 assets 文件字节摘要覆盖，各分卷报告保留相同依赖。先核对索引与工具版本，再检查总报告的 `ok`、`index_unchanged`、`index_dependencies_unchanged` 及各项结果；审计期间索引或 schema 依赖改变时，完整性检查失败，历史报告继续按原内容保留。
 
 每卷完成后另写不可覆盖的 `.parts/` 检查点。中断时这些记录只证明已完成部分，不能替代最终报告。全量范围仅包含索引中有恢复定位的音频，不包含缺失或未提供恢复来源的音频；临时媒体不计为长期副本。一次回读通过也不证明未来可访问、内容准确、时间对齐或权利状态。
 
@@ -123,37 +123,24 @@ uv run python -m unittest discover -s tests -p test_ingest.py -v
 
 ## 周期审计
 
-### 默认分支与报告回读
-
-[Preservation audit 工作流](../.github/workflows/preservation-audit.yml)每周一 01:00 UTC（香港时间 09:00）检出默认分支，使用只读权限核对当前基线和事件链，不自动提交日志、改写基线或修复文件。首次计划触发日期为 2026-11-09，实际执行以 Actions 记录为准；手动通过不代替计划触发证据。
-
-每次运行保存 `run.json`、`fixity.json`、`event-chain.json`，记录提交、触发方式、运行标识、逐文件差异和日志链结果。工作流保留期为 90 天，失败时也尝试上传已有报告；Actions 结果与归档日志分别保存。在仓库根目录手动触发并取回报告：
-
-```sh
-gh workflow run preservation-audit.yml --ref main
-gh run list --workflow preservation-audit.yml --limit 5
-gh run view RUN_ID --exit-status
-gh run download RUN_ID --dir .cache/audit-RUN_ID
-```
-
-取回后核对 `run.json` 的提交是否为预期版本，再检查两份结果的通过状态、差异和事件链末条摘要。失败日志用 `gh run view RUN_ID --log-failed` 查看。长期保留的结果应在到期前导出到获准位置；Actions artifact 不作为独立保存副本。
+周期审计在维护机本地运行。用固定维护检出核对当前基线和事件链，保留启动时间、触发方式、检出版本、基线摘要、退出状态和结果。既有 GitHub Actions 记录按原样保留，首版以本地审计证据验收。
 
 ### 本地只读检查与留痕
 
-CI 或调查中重复查看使用只读入口；它不追加事件，事件链仍需另行检查：
+调查或交接时可用只读入口核对基线及事件链。准备好锁定环境后，在仓库根目录运行：
 
 ```sh
-uv run python tools/preservation_manifest.py check-current --read-only
-uv run python tools/preservation_manifest.py verify-log
+uv run --offline --no-sync python tools/preservation_manifest.py check-current --read-only
+uv run --offline --no-sync python tools/preservation_manifest.py verify-log
 ```
 
-操作性周检采用[基线与事件链](#基线与事件链)中的 `check-current` 留痕入口，建议每周执行，并在每次获准修改维护数据或支持文件后创建新基线。本地 Windows 可在 uv 环境运行[周检脚本](../tools/preservation_check.ps1)：
+例行周检使用[基线与事件链](#基线与事件链)的留痕入口，在事件日志追加完整性检查结果，并回读事件链。Windows 可直接执行[周检脚本](../tools/preservation_check.ps1)：
 
 ```powershell
-uv run powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools/preservation_check.ps1
+uv run --offline --no-sync powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -File tools/preservation_check.ps1
 ```
 
-如需配置 Windows 任务计划程序，程序设为 `uv` 的实际可执行路径，参数为 `run powershell.exe -NoProfile -ExecutionPolicy Bypass -File "<仓库根目录>\tools\preservation_check.ps1"`，起始位置设为仓库根目录，建议每周一上午 9:00（本机时区）触发。脚本核对当前基线并验证事件链，任一失败返回非零状态；事件 JSONL 保存逐文件差异，任务历史用于发现运行失败。本次不注册指向临时工作树的系统任务。
+使用 Windows 任务计划程序时，程序设为 `uv` 的实际可执行路径，参数沿用上例中 `uv` 之后的内容，起始位置设为稳定维护检出的仓库根目录。沿用每周一上午 9 点（香港时间）的计划。将任务历史中的实际触发时间和退出状态与同次运行产生的完整性事件对应保存，并回读事件链校验结果。手动运行单独登记。
 
 [Windows 脚本测试](../tests/test_preservation_check.py)在临时仓库验证成功、缺失基线、缺失选择器、文件变化、日志损坏与缺少 Python，并验证从其他目录调用及路径包含空格的情况。
 
@@ -164,8 +151,8 @@ uv run powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools/preservatio
 | 文件新增、缺失或变化 | 保留报告，对照获准提交调查；查看事件日志末行 |
 | 选择器或清单不可读 | 核对版本历史与摘要，保留损坏字节 |
 | 日志链失败或末行不完整 | 停止追加，保留原日志，调查第一条失配记录，不追加覆盖 |
-| 工作流未触发或启动失败 | 检查 Actions 开关、计划记录及权限 |
-| artifact 缺失 | 保留任务日志，重新执行只读检查 |
+| 本地周检未触发或启动失败 | 检查任务历史、运行账户、维护检出和 uv 路径 |
+| 本地周检结果缺失 | 保留任务历史，补作只读检查并登记 |
 | 恢复哈希失败 | 保留失败输入与结果，不覆盖已有文件 |
 | 媒体审计中断 | 保存已产生的检查点及日志，明确已完成范围，以新报告路径重试 |
 
@@ -179,9 +166,9 @@ uv run powershell.exe -NoProfile -ExecutionPolicy Bypass -File tools/preservatio
 
 | 事项 | 交接内容 | 当前状态 |
 | --- | --- | --- |
-| 维护负责人及替补 | 处理失败、批准修订、执行回读 | 待指定 |
+| 维护负责人及替补 | 处理失败、批准修订、执行回读 | [首版负责人已登记](evidence/first-release-2026-11-18.md)，替补待指定 |
 | 仓库访问 | 管理权限持有人、恢复入口、替补接管 | 待确认交接记录 |
-| Actions 处置 | 失败通知接收者、报告下载与保存 | 待指定 |
+| 本地周检处置 | 检查任务结果、保存记录、处理异常 | 由首版负责人负责 |
 | 媒体访问 | 发布定位、哈希、访问异常处理 | 已有工具与历史回读证据，见音频恢复章节 |
 | 第二副本 | 独立位置、权限、容量及费用边界 | 按当前决定暂缓 |
 

@@ -1,48 +1,33 @@
-"""Consumer-owned v1 policy. A batch cannot supply or expand these permissions."""
+"""Consumer-owned permissions for the single current native ingest protocol."""
 
 from ..records import json_sha256
 
-TABLES = (
-    "items",
-    "audio",
-    "collections",
-    "transcripts",
-    "edited_transcripts",
-    "posts",
-    "articles",
-)
 TARGET = {"repository": "chosenecho/weimingzi-data", "branch": "main"}
 SCOPE = {"platform": "bilibili", "target_uid": "23191782"}
-FIELDS = {
-    "items": ("metadata", "urls", "relations"),
-    "transcripts": ("metadata", "audio_ids"),
-    "edited_transcripts": ("metadata",),
-    "posts": ("metadata", "article_item_ids"),
-    "articles": ("metadata",),
-    "audio": ("metadata", "item_ids"),
-}
-COMMON = ("upstream_run_id", "source_artifact_sha256", "observed_at")
-METADATA = {
-    "items": (
-        *COMMON,
-        "title",
-        "uploader_name",
-        "duration_ms",
-        "published_at_unix_seconds",
-        "observed_at_unix_seconds",
-        "media_assets",
-    ),
-    "transcripts": (*COMMON, "upstream_transcript_id", "upstream_content_sha256"),
-    "edited_transcripts": (*COMMON, "upstream_revision_id"),
-    "posts": (*COMMON, "observed_at_unix_seconds"),
-    "articles": (*COMMON, "observed_at_unix_seconds"),
-    "audio": COMMON,
+COMMON_OBSERVATIONS = ("upstream_run_id", "source_artifact_sha256", "observed_at")
+OBSERVATIONS = {
+    "items": (*COMMON_OBSERVATIONS, "title", "uploader_name", "uploader_id", "cid",
+              "duration_ms", "published_at_unix_seconds", "observed_at_unix_seconds", "media_assets"),
+    "documents": (*COMMON_OBSERVATIONS, "upstream_transcript_id", "upstream_content_sha256",
+                  "upstream_revision_id", "observed_at_unix_seconds"),
+    "assets": COMMON_OBSERVATIONS,
 }
 POLICY = {
-    "policy_version": 1,
+    "policy_version": 2,
+    "contract_version": 2,
+    "record_schema_version": 3,
     "target": TARGET,
     "source_scope": SCOPE,
     "allowed_producers": ["weimingzi-bilibili-ingest"],
+    # Producer provenance establishes automatic collection, never human authority.
+    "insert_kinds": {
+        "items": ["video", "video_part", "post", "article", "video_collection"],
+        "documents": ["transcript", "edited_transcript", "post", "article"],
+        "assets": ["audio", "archive"],
+        "annotations": [],
+    },
+    "append_fields": {"items": ["urls", "relations", "members"], "documents": [], "assets": ["downloads"]},
+    "observation_fields": OBSERVATIONS,
     "allowed_media_bucket_aliases": ["archive"],
     "limits": {
         "manifest_bytes": 2 * 1024**2,
@@ -51,8 +36,6 @@ POLICY = {
         "operations": 2000,
         "files": 2000,
     },
-    "enrich_fields": FIELDS,
-    "enrich_metadata": METADATA,
 }
 
 

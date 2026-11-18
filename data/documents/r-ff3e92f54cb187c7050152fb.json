@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 一分钟哲学课：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`58002f0f009d9ee97bf6ce305c643ce73eca660687e9697af36595ef8c2fa9ab`\n\n输入快照：`66a7eaf73d0797e63c0d946e388d2f96b81d83bbeec6e3103c6bf45b5f30a828`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2753`；参考转录：`3733`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -71,8 +49,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-51e10b029b6fc59d2aa3039f",
-        "content_sha256": "bf9d52d9328cd50545a2f1d7d9fd760a97a2ed6527cec73bc1ec85e9550dae87",
-        "source": "segments",
+        "content_sha256": "dddca37a348aead0c1074bc3d05e5780b8c7bb153e1c76a850c57df3d2a43287",
+        "source": "blocks",
         "range": [
           0,
           81
@@ -101,8 +79,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-51e10b029b6fc59d2aa3039f",
-        "content_sha256": "bf9d52d9328cd50545a2f1d7d9fd760a97a2ed6527cec73bc1ec85e9550dae87",
-        "source": "segments",
+        "content_sha256": "dddca37a348aead0c1074bc3d05e5780b8c7bb153e1c76a850c57df3d2a43287",
+        "source": "blocks",
         "range": [
           81,
           125
@@ -126,8 +104,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-51e10b029b6fc59d2aa3039f",
-        "content_sha256": "bf9d52d9328cd50545a2f1d7d9fd760a97a2ed6527cec73bc1ec85e9550dae87",
-        "source": "segments",
+        "content_sha256": "dddca37a348aead0c1074bc3d05e5780b8c7bb153e1c76a850c57df3d2a43287",
+        "source": "blocks",
         "range": [
           125,
           310
@@ -152,8 +130,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-51e10b029b6fc59d2aa3039f",
-        "content_sha256": "bf9d52d9328cd50545a2f1d7d9fd760a97a2ed6527cec73bc1ec85e9550dae87",
-        "source": "segments",
+        "content_sha256": "dddca37a348aead0c1074bc3d05e5780b8c7bb153e1c76a850c57df3d2a43287",
+        "source": "blocks",
         "range": [
           310,
           1099
@@ -178,8 +156,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-51e10b029b6fc59d2aa3039f",
-        "content_sha256": "bf9d52d9328cd50545a2f1d7d9fd760a97a2ed6527cec73bc1ec85e9550dae87",
-        "source": "segments",
+        "content_sha256": "dddca37a348aead0c1074bc3d05e5780b8c7bb153e1c76a850c57df3d2a43287",
+        "source": "blocks",
         "range": [
           1099,
           1282
@@ -200,8 +178,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-51e10b029b6fc59d2aa3039f",
-        "content_sha256": "bf9d52d9328cd50545a2f1d7d9fd760a97a2ed6527cec73bc1ec85e9550dae87",
-        "source": "segments",
+        "content_sha256": "dddca37a348aead0c1074bc3d05e5780b8c7bb153e1c76a850c57df3d2a43287",
+        "source": "blocks",
         "range": [
           1282,
           1365
@@ -225,8 +203,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-51e10b029b6fc59d2aa3039f",
-        "content_sha256": "bf9d52d9328cd50545a2f1d7d9fd760a97a2ed6527cec73bc1ec85e9550dae87",
-        "source": "segments",
+        "content_sha256": "dddca37a348aead0c1074bc3d05e5780b8c7bb153e1c76a850c57df3d2a43287",
+        "source": "blocks",
         "range": [
           1365,
           1536
@@ -250,8 +228,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-51e10b029b6fc59d2aa3039f",
-        "content_sha256": "bf9d52d9328cd50545a2f1d7d9fd760a97a2ed6527cec73bc1ec85e9550dae87",
-        "source": "segments",
+        "content_sha256": "dddca37a348aead0c1074bc3d05e5780b8c7bb153e1c76a850c57df3d2a43287",
+        "source": "blocks",
         "range": [
           1536,
           1700
@@ -275,8 +253,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-51e10b029b6fc59d2aa3039f",
-        "content_sha256": "bf9d52d9328cd50545a2f1d7d9fd760a97a2ed6527cec73bc1ec85e9550dae87",
-        "source": "segments",
+        "content_sha256": "dddca37a348aead0c1074bc3d05e5780b8c7bb153e1c76a850c57df3d2a43287",
+        "source": "blocks",
         "range": [
           1700,
           1879
@@ -298,8 +276,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-51e10b029b6fc59d2aa3039f",
-        "content_sha256": "bf9d52d9328cd50545a2f1d7d9fd760a97a2ed6527cec73bc1ec85e9550dae87",
-        "source": "segments",
+        "content_sha256": "dddca37a348aead0c1074bc3d05e5780b8c7bb153e1c76a850c57df3d2a43287",
+        "source": "blocks",
         "range": [
           1879,
           1991
@@ -319,7 +297,7 @@
       ],
       "input_text_ref": {
         "target_id": "t-51e10b029b6fc59d2aa3039f",
-        "content_sha256": "bf9d52d9328cd50545a2f1d7d9fd760a97a2ed6527cec73bc1ec85e9550dae87",
+        "content_sha256": "dddca37a348aead0c1074bc3d05e5780b8c7bb153e1c76a850c57df3d2a43287",
         "source": "text",
         "range": [
           2032,
@@ -345,8 +323,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-51e10b029b6fc59d2aa3039f",
-        "content_sha256": "bf9d52d9328cd50545a2f1d7d9fd760a97a2ed6527cec73bc1ec85e9550dae87",
-        "source": "segments",
+        "content_sha256": "dddca37a348aead0c1074bc3d05e5780b8c7bb153e1c76a850c57df3d2a43287",
+        "source": "blocks",
         "range": [
           2043,
           2232
@@ -369,8 +347,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-51e10b029b6fc59d2aa3039f",
-        "content_sha256": "bf9d52d9328cd50545a2f1d7d9fd760a97a2ed6527cec73bc1ec85e9550dae87",
-        "source": "segments",
+        "content_sha256": "dddca37a348aead0c1074bc3d05e5780b8c7bb153e1c76a850c57df3d2a43287",
+        "source": "blocks",
         "range": [
           2232,
           2413

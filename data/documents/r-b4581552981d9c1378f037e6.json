@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【唱歌讲哲学】男性的去性化=拒斥情欲的崇高化：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`fefc27d32eb42128be1e8f895712db11fab0763077b229559e10433184555dd8`\n\n输入快照：`2e2a43877b678868e64261a17f99855a7b7fb4fede01aede26a8a02cdccf94d1`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2551`；参考转录：`无`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -99,8 +77,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-b7d667fc1b2d7159171b2f81",
-        "content_sha256": "e34c5c7fc01278f974aba17352e1be960bd322141fcbf07c3a6548ea9c023ecb",
-        "source": "segments",
+        "content_sha256": "c09b0ed78cf4aa716bbfb5040caa383776839d01bd1d8cef299b302dca79e3e8",
+        "source": "blocks",
         "range": [
           0,
           109
@@ -154,8 +132,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-b7d667fc1b2d7159171b2f81",
-        "content_sha256": "e34c5c7fc01278f974aba17352e1be960bd322141fcbf07c3a6548ea9c023ecb",
-        "source": "segments",
+        "content_sha256": "c09b0ed78cf4aa716bbfb5040caa383776839d01bd1d8cef299b302dca79e3e8",
+        "source": "blocks",
         "range": [
           109,
           544

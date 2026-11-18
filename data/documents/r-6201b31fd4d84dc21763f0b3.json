@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 一分钟哲学课：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`11b0a545972ac4d9775afae445d98601c880b3d3799b2d2b50ba176f1c6e976d`\n\n输入快照：`d59b591cf52690613524cce0b4fcb4bd2f38d0325f5ccb062854c01adfc0006e`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2451`；参考转录：`3678`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -83,8 +61,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-9963634babafd2b55a6cde38",
-        "content_sha256": "8269ff7a7a386093eb08e588b951ff4feeeb7e1d990286b5f0fe5055e6cc7222",
-        "source": "segments",
+        "content_sha256": "c9f2ccaefc6930678bae1cf3bc4e2791c23b8d77a767c0672018e12c21f30fac",
+        "source": "blocks",
         "range": [
           0,
           186
@@ -105,8 +83,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-9963634babafd2b55a6cde38",
-        "content_sha256": "8269ff7a7a386093eb08e588b951ff4feeeb7e1d990286b5f0fe5055e6cc7222",
-        "source": "segments",
+        "content_sha256": "c9f2ccaefc6930678bae1cf3bc4e2791c23b8d77a767c0672018e12c21f30fac",
+        "source": "blocks",
         "range": [
           186,
           248
@@ -129,8 +107,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-9963634babafd2b55a6cde38",
-        "content_sha256": "8269ff7a7a386093eb08e588b951ff4feeeb7e1d990286b5f0fe5055e6cc7222",
-        "source": "segments",
+        "content_sha256": "c9f2ccaefc6930678bae1cf3bc4e2791c23b8d77a767c0672018e12c21f30fac",
+        "source": "blocks",
         "range": [
           248,
           387

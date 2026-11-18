@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【作词翻唱】秋叶：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`e99fda449edc9e1bd07a394009dffc758cdbc912fc15d861031c0f61704bde1a`\n\n输入快照：`d5fd4fbeef57447d711b79965571d9dbea700b39483f7dfb5a70f96218dfc711`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`1037`；参考转录：`1264`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -70,7 +48,7 @@
       ],
       "input_text_ref": {
         "target_id": "t-f7307d3bd7489184cf2a8a7f",
-        "content_sha256": "db1b7159c1f7b6b6862e7b9d4fe4c8d1b165ba42f1bba4f5e5169d84d524c784",
+        "content_sha256": "bdfa3f26071f6c413937768340bf6e999ff057c5b4616edc0fe6710d9d09f46c",
         "source": "text",
         "range": [
           0,
@@ -130,8 +108,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-f7307d3bd7489184cf2a8a7f",
-        "content_sha256": "db1b7159c1f7b6b6862e7b9d4fe4c8d1b165ba42f1bba4f5e5169d84d524c784",
-        "source": "segments",
+        "content_sha256": "bdfa3f26071f6c413937768340bf6e999ff057c5b4616edc0fe6710d9d09f46c",
+        "source": "blocks",
         "range": [
           12,
           68
@@ -184,8 +162,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-f7307d3bd7489184cf2a8a7f",
-        "content_sha256": "db1b7159c1f7b6b6862e7b9d4fe4c8d1b165ba42f1bba4f5e5169d84d524c784",
-        "source": "segments",
+        "content_sha256": "bdfa3f26071f6c413937768340bf6e999ff057c5b4616edc0fe6710d9d09f46c",
+        "source": "blocks",
         "range": [
           68,
           124
@@ -231,8 +209,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-f7307d3bd7489184cf2a8a7f",
-        "content_sha256": "db1b7159c1f7b6b6862e7b9d4fe4c8d1b165ba42f1bba4f5e5169d84d524c784",
-        "source": "segments",
+        "content_sha256": "bdfa3f26071f6c413937768340bf6e999ff057c5b4616edc0fe6710d9d09f46c",
+        "source": "blocks",
         "range": [
           124,
           169

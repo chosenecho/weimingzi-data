@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【唱歌酬宾】7\\-22  似是故人来、祝福、一生所爱、灰色轨迹、夜机、沧海一声笑、相思湖畔、张三的歌：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`9108e50f8389c8deb90d4c9d5157cc9fb426ae5bda86352c42dc0f6779c1f87f`\n\n输入快照：`b4ade0bdd2be5a96f6828ecfe092bf3c21b12cc93bc597125244d8670cd8e0ac`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2168`；参考转录：`3426`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -77,8 +55,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-1a87df3bf92b54817c274765",
-        "content_sha256": "f7b724e6b5c1d5ecef13b56aa93fc0a81f96444062ad7c9eb86db2912bfb6e5d",
-        "source": "segments",
+        "content_sha256": "76bb59a3d415533bb41a3291037f345f4802fda38d76d893dc5535e7d9daafe3",
+        "source": "blocks",
         "range": [
           0,
           83
@@ -99,8 +77,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-1a87df3bf92b54817c274765",
-        "content_sha256": "f7b724e6b5c1d5ecef13b56aa93fc0a81f96444062ad7c9eb86db2912bfb6e5d",
-        "source": "segments",
+        "content_sha256": "76bb59a3d415533bb41a3291037f345f4802fda38d76d893dc5535e7d9daafe3",
+        "source": "blocks",
         "range": [
           83,
           143
@@ -120,7 +98,7 @@
       ],
       "input_text_ref": {
         "target_id": "t-1a87df3bf92b54817c274765",
-        "content_sha256": "f7b724e6b5c1d5ecef13b56aa93fc0a81f96444062ad7c9eb86db2912bfb6e5d",
+        "content_sha256": "76bb59a3d415533bb41a3291037f345f4802fda38d76d893dc5535e7d9daafe3",
         "source": "text",
         "range": [
           153,
@@ -143,8 +121,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-1a87df3bf92b54817c274765",
-        "content_sha256": "f7b724e6b5c1d5ecef13b56aa93fc0a81f96444062ad7c9eb86db2912bfb6e5d",
-        "source": "segments",
+        "content_sha256": "76bb59a3d415533bb41a3291037f345f4802fda38d76d893dc5535e7d9daafe3",
+        "source": "blocks",
         "range": [
           152,
           213
@@ -168,8 +146,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-1a87df3bf92b54817c274765",
-        "content_sha256": "f7b724e6b5c1d5ecef13b56aa93fc0a81f96444062ad7c9eb86db2912bfb6e5d",
-        "source": "segments",
+        "content_sha256": "76bb59a3d415533bb41a3291037f345f4802fda38d76d893dc5535e7d9daafe3",
+        "source": "blocks",
         "range": [
           213,
           275
@@ -192,8 +170,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-1a87df3bf92b54817c274765",
-        "content_sha256": "f7b724e6b5c1d5ecef13b56aa93fc0a81f96444062ad7c9eb86db2912bfb6e5d",
-        "source": "segments",
+        "content_sha256": "76bb59a3d415533bb41a3291037f345f4802fda38d76d893dc5535e7d9daafe3",
+        "source": "blocks",
         "range": [
           275,
           335
@@ -216,8 +194,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-1a87df3bf92b54817c274765",
-        "content_sha256": "f7b724e6b5c1d5ecef13b56aa93fc0a81f96444062ad7c9eb86db2912bfb6e5d",
-        "source": "segments",
+        "content_sha256": "76bb59a3d415533bb41a3291037f345f4802fda38d76d893dc5535e7d9daafe3",
+        "source": "blocks",
         "range": [
           335,
           398

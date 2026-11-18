@@ -462,30 +462,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【现实观察】激流系地下活动的两种方式：AI 校对记录\n\n模型：`deepseek-v4.1-flash`；服务：OpenCode Go。AI 阅读稿，未经人工审核。\n\n原始 ASR 正文保留；校对仅整理已有正文，不补写未识别语音。音频范围仅为原始 ASR 分块定位，不是新字幕时间戳。\n\n参照转录：t-b2db85c27bafde01016f4e70。\n\n来源质量标记：`{\"requires_review\": false, \"untranscribed_intervals\": [], \"timed_exports_available\": true}`。\n\n输入：`683b2648baaf47a3b0fccd57df09e58ac2db80e9a20e80f56802d67d8cccd44a`；修订：`0e04af6bab3c228327f90a5353690a9a4095b69bb4c19c441439c4c7123a09a5`。",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "input_units",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "review_document_markdown",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",

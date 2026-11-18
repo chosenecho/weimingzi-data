@@ -92,30 +92,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【植青俱乐部】项目记录 1 2023 10：AI 校对记录\n\n模型：`deepseek-v4.1-flash`；服务：OpenCode Go。AI 阅读稿，未经人工审核。\n\n原始 ASR 正文保留；校对仅整理已有正文，不补写未识别语音。音频范围仅为原始 ASR 分块定位，不是新字幕时间戳。\n\n参照转录：t-53f272a0831e0ce19cd47369。\n\n来源质量标记：`{\"requires_review\": false, \"untranscribed_intervals\": [], \"timed_exports_available\": true}`。\n\n输入：`722358827f07c6d36f636082dc464311cd104b855988c3eab811e07512f4f39a`；修订：`9971fe51aa065d2abdeda0b26edf6d0da37dc0f4fc76a1bca2d5087ec1bd0aef`。",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "input_units",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "review_document_markdown",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",

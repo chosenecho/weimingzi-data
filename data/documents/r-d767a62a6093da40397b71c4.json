@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【旧曲新唱】追悼之情：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`681e81acbcc7b424726ffb0c5d2ba83c79fbaeb27baf01e294e090a14fa67179`\n\n输入快照：`c9fce1c52fb0e74bfad5dc59779b0f7255d482a79830489e314a56c46cc10928`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`1786`；参考转录：`2807`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -83,8 +61,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-028df309b5da782852dcf9de",
-        "content_sha256": "724e95d47524ea14120f1b75d5f2450c1f7cab691225fa3374572ebca78059aa",
-        "source": "segments",
+        "content_sha256": "4842cc5ab3b0eb8fae743248a9c39c48979be98eb5b5b4eb57338f09d9eed3b8",
+        "source": "blocks",
         "range": [
           0,
           137
@@ -139,8 +117,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-028df309b5da782852dcf9de",
-        "content_sha256": "724e95d47524ea14120f1b75d5f2450c1f7cab691225fa3374572ebca78059aa",
-        "source": "segments",
+        "content_sha256": "4842cc5ab3b0eb8fae743248a9c39c48979be98eb5b5b4eb57338f09d9eed3b8",
+        "source": "blocks",
         "range": [
           137,
           198
@@ -196,8 +174,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-028df309b5da782852dcf9de",
-        "content_sha256": "724e95d47524ea14120f1b75d5f2450c1f7cab691225fa3374572ebca78059aa",
-        "source": "segments",
+        "content_sha256": "4842cc5ab3b0eb8fae743248a9c39c48979be98eb5b5b4eb57338f09d9eed3b8",
+        "source": "blocks",
         "range": [
           198,
           280
@@ -228,8 +206,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-028df309b5da782852dcf9de",
-        "content_sha256": "724e95d47524ea14120f1b75d5f2450c1f7cab691225fa3374572ebca78059aa",
-        "source": "segments",
+        "content_sha256": "4842cc5ab3b0eb8fae743248a9c39c48979be98eb5b5b4eb57338f09d9eed3b8",
+        "source": "blocks",
         "range": [
           280,
           389
@@ -259,8 +237,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-028df309b5da782852dcf9de",
-        "content_sha256": "724e95d47524ea14120f1b75d5f2450c1f7cab691225fa3374572ebca78059aa",
-        "source": "segments",
+        "content_sha256": "4842cc5ab3b0eb8fae743248a9c39c48979be98eb5b5b4eb57338f09d9eed3b8",
+        "source": "blocks",
         "range": [
           389,
           452

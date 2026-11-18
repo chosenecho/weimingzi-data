@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【实事求是】5000元真伪现场探访：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`44eeabcde585ea1ec201c3f7f111aee6bd13a6c4da040c30b20f0f93668964e9`\n\n输入快照：`57585ac743cce8634e7d0fe4d17f0efa514a7bb4499ae6d2bdffbb01e77b8b42`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`406`；参考转录：`154`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -81,8 +59,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-8ea2bfc171d4683dc4196b35",
-        "content_sha256": "aa95fe56a5985aac58ba2fab90cd82bb9075c4a8f9c44ef377bbb57a8a85ab0a",
-        "source": "segments",
+        "content_sha256": "e2314df689d9a98fdcd0c2c5d21e618a100f6a8e9249c6da3ee92357261fa900",
+        "source": "blocks",
         "range": [
           0,
           147
@@ -116,8 +94,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-8ea2bfc171d4683dc4196b35",
-        "content_sha256": "aa95fe56a5985aac58ba2fab90cd82bb9075c4a8f9c44ef377bbb57a8a85ab0a",
-        "source": "segments",
+        "content_sha256": "e2314df689d9a98fdcd0c2c5d21e618a100f6a8e9249c6da3ee92357261fa900",
+        "source": "blocks",
         "range": [
           147,
           232
@@ -156,8 +134,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-8ea2bfc171d4683dc4196b35",
-        "content_sha256": "aa95fe56a5985aac58ba2fab90cd82bb9075c4a8f9c44ef377bbb57a8a85ab0a",
-        "source": "segments",
+        "content_sha256": "e2314df689d9a98fdcd0c2c5d21e618a100f6a8e9249c6da3ee92357261fa900",
+        "source": "blocks",
         "range": [
           232,
           305

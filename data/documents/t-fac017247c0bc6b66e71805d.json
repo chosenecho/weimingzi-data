@@ -11,7 +11,7 @@
     "is_subtitle_export_enabled": null
   },
   "id": "t-fac017247c0bc6b66e71805d",
-  "content_sha256": "e9046fbd37b27f3eff07e5b2b13db5c5d64e452f876bcaf1c442209ca35bb434",
+  "content_sha256": "b3b113165f901b3d713468ec1852f599028d9b8fd7233665db301e1a86d33c86",
   "metadata": {
     "content_sha256": [
       "7efcda88ec9ad86e022064789f6ec5267556c5750f1f93a84df83468b240ff0b",
@@ -32,31 +32,6 @@
     "generated_at_unix_seconds": [
       1793584821
     ]
-  },
-  "_legacy": {
-    "table": "transcripts",
-    "keys": [
-      "audio_ids",
-      "content_sha256",
-      "id",
-      "item_id",
-      "kind",
-      "language",
-      "metadata",
-      "method",
-      "model",
-      "quality",
-      "schema_version",
-      "segments",
-      "text",
-      "time_unit"
-    ],
-    "derived": [
-      "quality.timing_issues"
-    ],
-    "metadata_aliases": {
-      "language": "$language"
-    }
   },
   "inputs": [
     {

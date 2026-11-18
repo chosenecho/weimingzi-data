@@ -24,28 +24,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【原曲翻唱】琴姬：校验参照稿件\n\nAI 合成稿件，未经人工复核。正文已应用语句整理；疑点在此记录。\n\n修订：`b4ecf04e4e2758c94f5f28eabc027af38f78a891e20b84889043002711f6ed02`\n\n输入快照：`c1a00d0c517e995fe783a9739f859a775f6880bdbc8c93eb7b9c4b5e13e8a2e8`\n\n模型：`deepseek-v4.1-flash`；思考：`high`；top_p：`0.95`\n\n规则：`readable-prose-v2`；模板：`ai-draft-v1`\n\n基础转录：`2624`；参考转录：`3529`",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",
@@ -98,8 +76,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-f12e834f1e6d9ff0d6b63334",
-        "content_sha256": "8724933697812d9e340b1b0c3969b1bc9e6ac659db7e876e2d6dcf1e6bd25d21",
-        "source": "segments",
+        "content_sha256": "6bd8f0fec07db9f39e9833f586784141d11f27c04abe61b87f208e8dcba85567",
+        "source": "blocks",
         "range": [
           0,
           48
@@ -137,8 +115,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-f12e834f1e6d9ff0d6b63334",
-        "content_sha256": "8724933697812d9e340b1b0c3969b1bc9e6ac659db7e876e2d6dcf1e6bd25d21",
-        "source": "segments",
+        "content_sha256": "6bd8f0fec07db9f39e9833f586784141d11f27c04abe61b87f208e8dcba85567",
+        "source": "blocks",
         "range": [
           48,
           96
@@ -198,8 +176,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-f12e834f1e6d9ff0d6b63334",
-        "content_sha256": "8724933697812d9e340b1b0c3969b1bc9e6ac659db7e876e2d6dcf1e6bd25d21",
-        "source": "segments",
+        "content_sha256": "6bd8f0fec07db9f39e9833f586784141d11f27c04abe61b87f208e8dcba85567",
+        "source": "blocks",
         "range": [
           96,
           167
@@ -247,8 +225,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-f12e834f1e6d9ff0d6b63334",
-        "content_sha256": "8724933697812d9e340b1b0c3969b1bc9e6ac659db7e876e2d6dcf1e6bd25d21",
-        "source": "segments",
+        "content_sha256": "6bd8f0fec07db9f39e9833f586784141d11f27c04abe61b87f208e8dcba85567",
+        "source": "blocks",
         "range": [
           167,
           229
@@ -289,8 +267,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-f12e834f1e6d9ff0d6b63334",
-        "content_sha256": "8724933697812d9e340b1b0c3969b1bc9e6ac659db7e876e2d6dcf1e6bd25d21",
-        "source": "segments",
+        "content_sha256": "6bd8f0fec07db9f39e9833f586784141d11f27c04abe61b87f208e8dcba85567",
+        "source": "blocks",
         "range": [
           229,
           300
@@ -328,8 +306,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-f12e834f1e6d9ff0d6b63334",
-        "content_sha256": "8724933697812d9e340b1b0c3969b1bc9e6ac659db7e876e2d6dcf1e6bd25d21",
-        "source": "segments",
+        "content_sha256": "6bd8f0fec07db9f39e9833f586784141d11f27c04abe61b87f208e8dcba85567",
+        "source": "blocks",
         "range": [
           300,
           334
@@ -365,8 +343,8 @@
       ],
       "input_text_ref": {
         "target_id": "t-f12e834f1e6d9ff0d6b63334",
-        "content_sha256": "8724933697812d9e340b1b0c3969b1bc9e6ac659db7e876e2d6dcf1e6bd25d21",
-        "source": "segments",
+        "content_sha256": "6bd8f0fec07db9f39e9833f586784141d11f27c04abe61b87f208e8dcba85567",
+        "source": "blocks",
         "range": [
           334,
           404

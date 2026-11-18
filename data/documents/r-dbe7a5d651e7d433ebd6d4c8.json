@@ -202,30 +202,6 @@
   },
   "is_complete": true,
   "notes_markdown": "# 【实事求是】我就想问阳和平一个问题：AI 校对记录\n\n模型：`deepseek-v4.1-flash`；服务：OpenCode Go。AI 阅读稿，未经人工审核。\n\n原始 ASR 正文保留；校对仅整理已有正文，不补写未识别语音。音频范围仅为原始 ASR 分块定位，不是新字幕时间戳。\n\n参照转录：t-cf7e0f1282d0c0c0bd233eb8。\n\n来源质量标记：`{\"requires_review\": false, \"untranscribed_intervals\": [], \"timed_exports_available\": true}`。\n\n输入：`b702c24f5e4a880330286e20a4935c5831dbeb3e3c37a7eef349b47aac42f23c`；修订：`c7cdc91ae463b54bd3a6784223ca578517cc693a091e7ed6281d7dbba2e401f2`。",
-  "_legacy": {
-    "table": "edited_transcripts",
-    "keys": [
-      "id",
-      "input_units",
-      "is_complete",
-      "item_id",
-      "kind",
-      "metadata",
-      "model",
-      "notes_markdown",
-      "paragraphs",
-      "paragraphs_match_text",
-      "quality",
-      "review_document_markdown",
-      "schema_version",
-      "text",
-      "time_unit",
-      "transcript_ids"
-    ],
-    "derived": [
-      "paragraphs_match_text"
-    ]
-  },
   "inputs": [
     {
       "role": "item",

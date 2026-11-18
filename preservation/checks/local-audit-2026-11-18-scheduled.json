@@ -1,0 +1,52 @@
+{
+  "schema": "local-preservation-audit/v1",
+  "trigger": "scheduled_task",
+  "launch_mode": "manual_start_scheduled_task",
+  "calendar_trigger_verified": false,
+  "task_name": "weimingzi-preservation-weekly",
+  "task": {
+    "state": "Ready",
+    "last_run_time": "2026-11-18T05:39:38.0000000Z",
+    "last_result": 0,
+    "next_run_time": "2026-11-23T09:00:00.0000000+08:00",
+    "arguments": "run --offline --no-sync powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass -File tools/preservation_check.ps1",
+    "working_directory": "C:\\WorkSpace\\weimingzi-data",
+    "trigger_days": "2",
+    "trigger_time": "2026-11-18T09:00:00+08:00"
+  },
+  "checked_at_utc": "2026-11-18T05:40:36+00:00",
+  "recorded_at": "2026-11-18T13:42:53+08:00",
+  "checkout_head": "6628c07654efe46da2b97926c000b0d49f15cb1b",
+  "audit_script": "tools/preservation_check.ps1",
+  "audit_exit_code": 0,
+  "fixity_event": {
+    "added": [],
+    "changed": [],
+    "checked_at_utc": "2026-11-18T05:40:36+00:00",
+    "errors": [],
+    "event_sha256": "7cf1c8b8b8fab45e203d3fda0eef95b23f1f68608f42e87fb6f75868a2640749",
+    "manifest": "preservation/manifests/baseline-2026-11-18-v1.json",
+    "manifest_sha256": "df986b12a4f4dcfcefda6daee3499828bd30183f5aff021dd3f94c43caa640ba",
+    "missing": [],
+    "ok": true,
+    "previous_event_sha256": "a88d4bec458ae81aa46c89bffbf45884e9417f15d3b0ea4152bb7a773d3f8f39",
+    "schema_version": 1,
+    "verified_file_count": 8804
+  },
+  "event_chain": {
+    "event_log": "preservation/checks/fixity.jsonl",
+    "event_count": 25,
+    "last_event_sha256": "7cf1c8b8b8fab45e203d3fda0eef95b23f1f68608f42e87fb6f75868a2640749",
+    "ok": true
+  },
+  "read_only_recheck": {
+    "manifest": "preservation/manifests/baseline-2026-11-18-v1.json",
+    "manifest_sha256": "df986b12a4f4dcfcefda6daee3499828bd30183f5aff021dd3f94c43caa640ba",
+    "verified_file_count": 8804,
+    "added": [],
+    "missing": [],
+    "changed": [],
+    "errors": [],
+    "ok": true
+  }
+}
