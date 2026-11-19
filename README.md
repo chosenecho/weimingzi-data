@@ -10,9 +10,9 @@
 | 入库、修订和人工证据维护 | [维护流程](docs/MAINTENANCE.md)、[批次协议](docs/INCREMENTAL-INGEST-SPEC.md) |
 | 恢复音频、保存校验、周期审计与交接 | [保存流程](docs/PRESERVATION.md) |
 | 核对限制、质量与权利范围 | [数据卡](docs/DATA-CARD.md)、[内容权利](CONTENT-RIGHTS.md)、[许可证](LICENSE) |
-| 检查资料库验收和证据 | [验收矩阵](docs/ARCHIVE-ACCEPTANCE.md) |
+| 验收发布候选、查历史发布证据 | [发布验收清单](docs/ARCHIVE-ACCEPTANCE.md#发布验收清单) |
 
-代理开始维护前阅读 [AGENTS](AGENTS.md)。历史实现和发布记录从验收矩阵进入，当前操作按上表对应任务说明执行。
+代理开始维护前阅读 [AGENTS](AGENTS.md)。
 
 <a id="与训练工程协作"></a>
 

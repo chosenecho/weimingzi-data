@@ -127,4 +127,6 @@ uv run python -m unittest discover -s tests -v
 
 `generate` 重建 [内容目录](INDEX.md)、[分类目录](catalog/)和 [counts.json](counts.json)，不手改生成文件；CI 检查它们与数据一致。全仓检查核对文档链接及章节锚点、接收凭证、媒体字段和已有专题配置。交付时列明本次实际检查与未覆盖项，历史测试数不作为本次验证。
 
+在固定的发布候选上运行同一组检查时，将 `uv run python tools/corpus.py generate` 换为 `uv run python tools/corpus.py generate --check`，避免在候选检出中重写目录。另运行 `uv run python tools/corpus.py ingest validate-repository` 核对入库账本，并用 `git -c core.whitespace=cr-at-eol diff --check` 检查候选改动的空白字符。
+
 保存范围或支持文件变化时，按[基线与事件链](PRESERVATION.md#基线与事件链)另建并核对基线。历史提交、收据、清单与冻结工件保留原字节；当前原生整理见[实施记录](NATIVE-V3-CLEANUP.md)及[逐条证据](evidence/native-v3-cleanup-2026-11-17.json.gz)。维护数据有效性不替代远端媒体可达性，后者按[周期审计](PRESERVATION.md#周期审计)执行。
