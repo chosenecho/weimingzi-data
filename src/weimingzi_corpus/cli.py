@@ -32,6 +32,7 @@ from .exports import (
 
 
 def validate_export_path(root: Path, output: str) -> Path:
+    root = root.resolve()
     path = Path(output).resolve()
     for protected in ("data", "selections", "src", "tools", "tests", "docs", ".git"):
         if path.is_relative_to((root / protected).resolve()):

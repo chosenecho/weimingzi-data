@@ -111,7 +111,8 @@ class CorpusTests(unittest.TestCase):
         tracked.write_text("kept", encoding="utf-8")
         with self.assertRaises(ValueError):
             validate_export_path(self.root, str(tracked))
-        self.assertEqual(validate_export_path(self.root, str(self.root / ".cache/out")), self.root / ".cache/out")
+        output = self.root / ".cache/out"
+        self.assertEqual(validate_export_path(self.root, str(output)), output.resolve())
         try:
             (self.root / "alias").symlink_to(self.root / "data", target_is_directory=True)
         except OSError:

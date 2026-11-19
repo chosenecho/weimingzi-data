@@ -158,7 +158,8 @@ class NativeRecordsTests(unittest.TestCase):
         for value in ("../escape", "i-not-hex", "x", None):
             with self.subTest(value=value), self.assertRaises(ValueError):
                 record_path(self.root, "documents", value)
-        self.assertEqual(resolve_repository_path(self.root, "data/schema.json"), self.root / "data/schema.json")
+        expected = (self.root / "data/schema.json").resolve()
+        self.assertEqual(resolve_repository_path(self.root, "data/schema.json"), expected)
         path = self.root / "duplicate.json"
         path.write_text('{"a":1,"a":2}', encoding="utf-8")
         with self.assertRaisesRegex(ValueError, "Duplicate JSON key"):
